@@ -303,8 +303,13 @@
 
         <div class="naver-map-card reveal" style="transition-delay: 0.2s;">
           <a class="map-photo-link" href="https://map.naver.com/p/search/클루미유니버스" target="_blank"
-            rel="noopener noreferrer" data-naver-map-link aria-label="네이버 지도에서 클루미유니버스 보기">
-            <img src="./assets/clumi-storefront.jpg" alt="클루미유니버스 매장 입구" loading="lazy">
+            rel="noopener noreferrer" data-naver-map-link aria-label="네이버 지도에서 클루미유니버스 보기"
+            style="position: relative; display: block;">
+            <!-- 미니맵: 구글 지도 임베드(API 키 불필요). 클릭하면 네이버 지도로 이동합니다. -->
+            <iframe
+              src="https://www.google.com/maps?q=%EC%84%9C%EC%9A%B8%20%EB%A7%88%ED%8F%AC%EA%B5%AC%20%EB%8F%85%EB%A7%89%EB%A1%9C8%EA%B8%B8%2021&output=embed"
+              style="width: 100%; height: 100%; border: 0; pointer-events: none;" loading="lazy"
+              referrerpolicy="no-referrer-when-downgrade" title="클루미유니버스 위치 미니맵"></iframe>
             <span class="map-photo-badge">Naver Map</span>
             <span class="map-photo-cta">길찾기 열기</span>
           </a>
