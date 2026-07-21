@@ -16,7 +16,10 @@
   <meta property="og:type" content="website">
 
   <!-- 파비콘 -->
-  <link rel="icon" type="image/png" href="./assets/clumi-character-cutout.png">
+  <link rel="icon" type="image/svg+xml" href="./assets/clumi-logo.svg">
+
+  <!-- 첫 화면 이미지는 HTML 파싱과 동시에 다운로드합니다. -->
+  <link rel="preload" as="image" href="./assets/bg/6.jpg" fetchpriority="high">
 
   <!-- 첫 화면 이미지는 HTML 파싱과 동시에 다운로드합니다. -->
   <link rel="preload" as="image" href="./assets/bg/6.jpg" fetchpriority="high">
@@ -30,7 +33,9 @@
        HEADER
        ============================================================ -->
   <header class="site-header" id="header">
-    <a href="#" class="brand-logo">CLUMI UNIVERSE</a>
+    <a href="#home" class="brand-logo" aria-label="클루미 유니버스 홈">
+      <img src="./assets/clumi-logo.svg" alt="" width="52" height="52">
+    </a>
     <nav class="nav-links">
       <a href="#menu">Menu</a>
       <a href="#about">About</a>
@@ -394,7 +399,9 @@
        ============================================================ -->
   <footer class="site-footer">
     <div class="section-inner">
-      <div class="footer-logo">CLUMI UNIVERSE</div>
+      <a href="#home" class="footer-logo" aria-label="클루미 유니버스 홈">
+        <img src="./assets/clumi-logo.svg" alt="" width="88" height="88" loading="lazy" decoding="async">
+      </a>
       <p id="footerAddress" style="margin-bottom: 1.5rem; color: rgba(255,255,255,0.5); line-height: 1.8;"></p>
       <div class="footer-links">
         <a href="https://www.instagram.com/clumi.universe/" target="_blank" rel="noopener noreferrer">Instagram</a>

@@ -148,6 +148,7 @@ clumiuniverse/
 ├── index.html
 ├── styles.css
 ├── assets/
+│   ├── clumi-logo.svg
 │   ├── bg/
 │   ├── characters/
 │   └── instagram/
