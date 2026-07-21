@@ -2,18 +2,16 @@
   "merchantId": 238090,
   "merchantName": "스튜디오 미라 (클루미 유니버스)",
   "merchantStatus": "OPEN",
-  "fetchedAt": "2026-07-21T02:45:05.074Z",
+  "fetchedAt": "2026-07-21T04:15:20.254Z",
   "summary": {
     "total": 92,
-    "added": 11,
-    "changed": 46,
-    "unchanged": 35,
-    "removed": 15
+    "added": 0,
+    "changed": 0,
+    "unchanged": 92,
+    "removed": 0
   },
   "imageSummary": {
-    "skipped-existing-url": 67,
-    "skipped-existing-hash": 6,
-    "downloaded": 17,
+    "skipped-existing-url": 90,
     "missing": 2
   },
   "checks": {
@@ -1394,7 +1392,7 @@
       "fingerprint": "73bf1120dc3b3a48b402629a9e04ba167e31acea7974c4c26cd2d049eaf9a3a4",
       "imageLocalPath": "data/tossplace-menu/238090/images/10683603-피스타치오-초코-반하나-와플-87f8a2942f.jpg",
       "imageHash": "87f8a2942f2b5a6231dcf3474d72da5a0a7ddb0f9fcc603bdca0a39d9a4f5a0d",
-      "imageStatus": "skipped-existing-hash"
+      "imageStatus": "skipped-existing-url"
     },
     {
       "id": 7735791,
@@ -2596,7 +2594,7 @@
       "fingerprint": "1240186643d64df040ec76c385ba5bc416f7a8350f81346e933b1a4020bb37e6",
       "imageLocalPath": "data/tossplace-menu/238090/images/10683603-피스타치오-초코-반하나-와플-87f8a2942f.jpg",
       "imageHash": "87f8a2942f2b5a6231dcf3474d72da5a0a7ddb0f9fcc603bdca0a39d9a4f5a0d",
-      "imageStatus": "downloaded"
+      "imageStatus": "skipped-existing-url"
     },
     {
       "id": 10077936,
@@ -2619,7 +2617,7 @@
       "fingerprint": "2a7a9a99eb889edf0e5bf3bedbb691ebd09780b97f904989a591c7289cf43f7d",
       "imageLocalPath": "data/tossplace-menu/238090/images/10077936-망고-도깨비-2인-f4ff32c77d.jpg",
       "imageHash": "f4ff32c77d1ab137bb2354ec5bdaeab20e114bc6c6275fe946882907e91d9579",
-      "imageStatus": "downloaded"
+      "imageStatus": "skipped-existing-url"
     },
     {
       "id": 13540786,
@@ -2642,7 +2640,7 @@
       "fingerprint": "274d9dcfa0699bc84bba488cfadfa19c07719507c47895a90c5bb7ec97d181ac",
       "imageLocalPath": "data/tossplace-menu/238090/images/13540786-딸기-포레누아-5fc1c84123.jpg",
       "imageHash": "5fc1c84123246819d007edc62d7df8dbd829350a219a8796abc73a029b17345b",
-      "imageStatus": "downloaded"
+      "imageStatus": "skipped-existing-url"
     },
     {
       "id": 13541356,
@@ -2685,7 +2683,7 @@
       "fingerprint": "13de804c93ea52e778b74a4afced4dd178cc69fe6bf62b264896dbca84e85ff7",
       "imageLocalPath": "data/tossplace-menu/238090/images/7735937-블루베리-크림치즈-와플-2067253bb0.jpg",
       "imageHash": "2067253bb014fe61757f06204e8815048e16436385a5a1f08f65fcdb65cce67d",
-      "imageStatus": "skipped-existing-hash"
+      "imageStatus": "skipped-existing-url"
     },
     {
       "id": 14267200,
@@ -2734,7 +2732,7 @@
       "fingerprint": "1ced6e6f41110520f3b9511b92aa4ce68a219569d3eca0375c69863b3d2bcd57",
       "imageLocalPath": "data/tossplace-menu/238090/images/14267200-땅콩크림라떼-2f5de2df2e.jpg",
       "imageHash": "2f5de2df2e4dd3b9ccd47dc8041f70376ca239ea3a8351f7cf16360af832e720",
-      "imageStatus": "downloaded"
+      "imageStatus": "skipped-existing-url"
     },
     {
       "id": 14267209,
@@ -2785,7 +2783,7 @@
       "fingerprint": "e6c8412240d469c79a29ca9c41f11d383849f3280e8c1513bdf55fbcdfc1543d",
       "imageLocalPath": "data/tossplace-menu/238090/images/14267209-오렌지-비앙코-dda910de0e.jpg",
       "imageHash": "dda910de0ece7d52a0b6ddcfbbd3ef6e0dc9d34497a543c355f61fa2781093e1",
-      "imageStatus": "downloaded"
+      "imageStatus": "skipped-existing-url"
     },
     {
       "id": 6979310,
@@ -4054,7 +4052,7 @@
       "fingerprint": "580b8a2c6d066fda6e8be16ea1cfd66b01696556269de8d909f6ee87b24a9a77",
       "imageLocalPath": "data/tossplace-menu/238090/images/14267200-땅콩크림라떼-2f5de2df2e.jpg",
       "imageHash": "2f5de2df2e4dd3b9ccd47dc8041f70376ca239ea3a8351f7cf16360af832e720",
-      "imageStatus": "skipped-existing-hash"
+      "imageStatus": "skipped-existing-url"
     },
     {
       "id": 7499596,
@@ -4154,7 +4152,7 @@
       "fingerprint": "18689348ad8951ea4fc00dd4674766be74498fa9e6eb6b03d0cfdbf115096be0",
       "imageLocalPath": "data/tossplace-menu/238090/images/11912174-레몬-아메리카노-a66b07d481.jpg",
       "imageHash": "a66b07d481ac0818167c513615f116e7f03da94f2358e3c195f5a2a7c00fee8f",
-      "imageStatus": "downloaded"
+      "imageStatus": "skipped-existing-url"
     },
     {
       "id": 12829519,
@@ -4393,7 +4391,7 @@
       "fingerprint": "bc0e347f05841b89f2c9596394ce4023aee881777eb546f4a3f37d98c4d4d1da",
       "imageLocalPath": "data/tossplace-menu/238090/images/14267209-오렌지-비앙코-dda910de0e.jpg",
       "imageHash": "dda910de0ece7d52a0b6ddcfbbd3ef6e0dc9d34497a543c355f61fa2781093e1",
-      "imageStatus": "skipped-existing-hash"
+      "imageStatus": "skipped-existing-url"
     },
     {
       "id": 7628072,
@@ -4639,7 +4637,7 @@
       "fingerprint": "ab6cb76481eb3f707252bf79db5fc4d8d08d4823565ba2208356e8a5b064071f",
       "imageLocalPath": "data/tossplace-menu/238090/images/6999994-아몬드라떼-3bbca293e8.png",
       "imageHash": "3bbca293e8afb19ad8c75beea60c6cc7f74e5c31ff57c53e327f691081025569",
-      "imageStatus": "skipped-existing-hash"
+      "imageStatus": "skipped-existing-url"
     },
     {
       "id": 11912204,
@@ -4826,7 +4824,7 @@
       "fingerprint": "13b2241ccd09f238febe582ce001d0c78ff08ab36f7ec94b01f13dab7e8535fa",
       "imageLocalPath": "data/tossplace-menu/238090/images/10641666-딸기포레누아-a0bf52ee2f.jpg",
       "imageHash": "a0bf52ee2f95df60f753e56e5e51ae7a1102b4c42bf9b44125b02dcca8568213",
-      "imageStatus": "downloaded"
+      "imageStatus": "skipped-existing-url"
     },
     {
       "id": 10842350,
@@ -4865,7 +4863,7 @@
       "fingerprint": "75b7bbb2f947c87323737a8f24a550a7211cef64adf8ca0c9682e90f8476eaf5",
       "imageLocalPath": "data/tossplace-menu/238090/images/10842350-얼그레이-무화과-0f5f5e5bf2.jpg",
       "imageHash": "0f5f5e5bf2263c6d32c3cf25d28b16a234dd70a0ccd3b2088184f007f50fbc48",
-      "imageStatus": "downloaded"
+      "imageStatus": "skipped-existing-url"
     },
     {
       "id": 10192464,
@@ -4904,7 +4902,7 @@
       "fingerprint": "9176780c6543bfd177462433297ca897e24fe284df0a90f5e8b84aedf76bb8b3",
       "imageLocalPath": "data/tossplace-menu/238090/images/10192464-초콜릿로쉐케익-52fe1dcc82.jpg",
       "imageHash": "52fe1dcc82b800fd1494dbfa9cf12ca59474a0af9d602087499a9d4e9a1ce6fe",
-      "imageStatus": "downloaded"
+      "imageStatus": "skipped-existing-url"
     },
     {
       "id": 10114893,
@@ -5035,7 +5033,7 @@
       "fingerprint": "87f2512d623f242213f02aef696cb3e3e61ce1cc7581cfa211678e2e6bd8aaa8",
       "imageLocalPath": "data/tossplace-menu/238090/images/13579307-코코넛커피-스무디-4f6638006a.jpg",
       "imageHash": "4f6638006a94e33f1c9df614b5bacad1ca84283cb3809ee274b38d69c34e68ee",
-      "imageStatus": "downloaded"
+      "imageStatus": "skipped-existing-url"
     },
     {
       "id": 6981978,
@@ -5058,7 +5056,7 @@
       "fingerprint": "5fb25a977be9834e3a05e107a83d4c5a28fa4ec7513bafbb010847e6f34ca830",
       "imageLocalPath": "data/tossplace-menu/238090/images/6981978-망고코코넛-스무디-0dfced98a7.jpg",
       "imageHash": "0dfced98a7a10f0eb9702ded8219ec8bb31eac6cc78acc30b9ec602505bae192",
-      "imageStatus": "downloaded"
+      "imageStatus": "skipped-existing-url"
     },
     {
       "id": 6979395,
@@ -5081,7 +5079,7 @@
       "fingerprint": "a5f7b855c4eafe7efa4f4602075c5f5f89dbedb9c18205fb9a15643a95549b59",
       "imageLocalPath": "data/tossplace-menu/238090/images/6979395-100-딸기주스-759a10f7aa.jpg",
       "imageHash": "759a10f7aac596cc29851495f75b6e5f1f036cea4ec249ca3b8a257b1baac2fc",
-      "imageStatus": "downloaded"
+      "imageStatus": "skipped-existing-url"
     },
     {
       "id": 13579278,
@@ -5118,7 +5116,7 @@
       "fingerprint": "f6a63505e56213b9a8010d6c97dd449567f313a02103d4f7b2521a40319d6af6",
       "imageLocalPath": "data/tossplace-menu/238090/images/13579278-초코-스무디-99e51b3911.jpg",
       "imageHash": "99e51b3911d5a540b22d733f2a19730386defbc62a21fc9e776d952505e8581b",
-      "imageStatus": "downloaded"
+      "imageStatus": "skipped-existing-url"
     },
     {
       "id": 13579323,
@@ -5155,7 +5153,7 @@
       "fingerprint": "aa1c0853e5bca7da46023f721a91208b0ba5721ddf5eb5f02dbda89175b7a4d1",
       "imageLocalPath": "data/tossplace-menu/238090/images/13579323-말차-스무디-4f18a3e1bc.jpg",
       "imageHash": "4f18a3e1bc928161de933af8a2ad8ba9553191addb891d995f44c0e1ee4efccb",
-      "imageStatus": "downloaded"
+      "imageStatus": "skipped-existing-url"
     },
     {
       "id": 6979166,
@@ -5598,7 +5596,7 @@
       "fingerprint": "aae3f6930932c06b37bff7af112b77583d16e7b73baee2ce70048298342ef1cc",
       "imageLocalPath": "data/tossplace-menu/238090/images/7411076-삿포로초코파르페-97216e9a5a.png",
       "imageHash": "97216e9a5a559c0e32a2172e5e3671e97a2644084c83192638673c0e01722445",
-      "imageStatus": "downloaded"
+      "imageStatus": "skipped-existing-url"
     },
     {
       "id": 12986704,
@@ -5621,7 +5619,7 @@
       "fingerprint": "eb6601e39a5614e04ebe0e02f571115b89356c910ede8dd749f4ad8cbbcc086c",
       "imageLocalPath": "data/tossplace-menu/238090/images/12986704-망고도깨비-1인-26bda87d18.jpg",
       "imageHash": "26bda87d18950930ecbce7742e0c5e547fb3ca2d6817c03b27bad09e035c19ed",
-      "imageStatus": "downloaded"
+      "imageStatus": "skipped-existing-url"
     },
     {
       "id": 13135786,
@@ -5644,7 +5642,7 @@
       "fingerprint": "e19326af82f36b0bd507ed5c21b3e8086c54f39d479f8ca34970d5df77ce4da7",
       "imageLocalPath": "data/tossplace-menu/238090/images/12986704-망고도깨비-1인-26bda87d18.jpg",
       "imageHash": "26bda87d18950930ecbce7742e0c5e547fb3ca2d6817c03b27bad09e035c19ed",
-      "imageStatus": "skipped-existing-hash"
+      "imageStatus": "skipped-existing-url"
     },
     {
       "id": 6979384,
@@ -5707,7 +5705,7 @@
       "fingerprint": "19ac5b25a383cd33eb595c2b41f322298271e0864f52f18ef16b450b4e67ad00",
       "imageLocalPath": "data/tossplace-menu/238090/images/13734740-청포도에이드-91f4fb1163.jpg",
       "imageHash": "91f4fb1163526883c3b14cc0b7562e34b9fbacaeab106d11b8fd3dd10f42e878",
-      "imageStatus": "downloaded"
+      "imageStatus": "skipped-existing-url"
     },
     {
       "id": 9276227,
