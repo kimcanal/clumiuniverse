@@ -471,6 +471,42 @@ ul {
   margin-bottom: 1.5rem;
 }
 
+.about-signatures {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: 0.75rem;
+  margin: 0 0 1.5rem;
+}
+
+.about-signature {
+  padding: 1rem;
+  border: 1px solid var(--color-border);
+  border-radius: var(--radius-md);
+  background: var(--color-bg-light);
+}
+
+.about-signature strong,
+.about-signature span {
+  display: block;
+}
+
+.about-signature strong {
+  margin-bottom: 0.35rem;
+  color: var(--color-espresso);
+  font-size: 1rem;
+}
+
+.about-signature span {
+  color: var(--color-text-muted);
+  font-size: 0.9rem;
+  line-height: 1.6;
+  word-break: keep-all;
+}
+
+.about-content .about-closing {
+  margin-bottom: 0;
+}
+
 /* Menu Section */
 .menu {
   background-color: var(--color-bg-light);
@@ -1038,6 +1074,10 @@ ul {
   
   .hero-title {
     font-size: clamp(2.5rem, 10vw, 4rem);
+  }
+
+  .about-signatures {
+    grid-template-columns: 1fr;
   }
   
   .hero-buttons {

@@ -5,13 +5,14 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>CLUMI UNIVERSE | 합정 프리미엄 와플 카페</title>
-  <meta name="description" content="합정·상수 사이, 리에주 와플과 파르페를 중심으로 커피를 즐기는 클루미유니버스.">
+  <meta name="description" content="합정과 상수 사이 조용한 골목에서 따뜻한 위로와 작은 휴식을 전하는 감성 카페, 클루미 유니버스입니다.">
 
   <!-- Open Graph (카카오톡 공유 시 미리보기) -->
   <meta property="og:title" content="클루미유니버스 (CLUMI UNIVERSE)">
-  <meta property="og:description" content="합정 골목에 숨겨진 작은 우주. 매일 굽는 리에주 와플과 시그니처 파르페를 만나보세요.">
+  <meta property="og:description" content="합정과 상수 사이 조용한 골목에서 따뜻한 위로와 작은 휴식을 전하는 감성 카페. 시그니처 파르페와 벨기에 리에주 수제 와플을 만나보세요.">
   <meta property="og:image"
-    content="https://clumi-universe-html.pages.dev/assets/clumi-waffle.jpg">
+    content="https://clumiuniverse.netlify.app/assets/clumi-waffle.jpg">
+  <meta property="og:url" content="https://clumiuniverse.netlify.app/">
   <meta property="og:type" content="website">
 
   <!-- 파비콘 -->
@@ -152,10 +153,27 @@
       </div>
       <div class="about-content reveal">
         <span class="eyebrow">Our Story</span>
-        <h2>당신의 일상을 밝히는<br>노란 친구, 클루미</h2>
-        <p>클루미유니버스는 단순한 카페를 넘어, 귀여운 노란색 캐릭터 '클루미'와 함께 따뜻한 기억을 만들어가는 공간입니다.
-          통유리창 너머로 스며드는 햇살과 향긋한 와플 냄새가 매일 여러분을 반갑게 맞이합니다.</p>
-        <p>리에주 와플부터 시그니처 파르페, 그리고 라떼아트까지. 시각과 미각을 모두 만족시키는 디저트 페어링을 경험해 보세요.</p>
+        <h2>따뜻한 위로와<br>작은 휴식을 전하는 곳</h2>
+        <p id="aboutDescription">합정과 상수 사이, 번잡한 홍대 레드로드를 벗어나 조용한 골목에서 따뜻한 위로와 작은 휴식을 전하는 감성 카페, 클루미 유니버스입니다.</p>
+        <div class="about-signatures" id="aboutSignatures" aria-label="클루미 유니버스의 시그니처 메뉴">
+          <div class="about-signature">
+            <strong>파르페</strong>
+            <span>눈과 입이 모두 즐거운 화려하고 달콤한 비주얼의 시그니처 음료&amp;디저트</span>
+          </div>
+          <div class="about-signature">
+            <strong>수제 와플</strong>
+            <span>벨기에 리에주 와플방식으로 겉은 바삭하고 속은 촉촉한 수제 와플의 정석</span>
+          </div>
+          <div class="about-signature">
+            <strong>다채로운 케이크</strong>
+            <span>매 시즌 눈을 사로잡는 특별한 압도적인 비주얼과 깊은 풍미의 수제 디저트</span>
+          </div>
+          <div class="about-signature">
+            <strong>와플 브런치</strong>
+            <span>여유로운 하루를 든든하고 싱그럽게 채워줄 감성 브런치 메뉴</span>
+          </div>
+        </div>
+        <p class="about-closing" id="aboutClosing">복잡한 일상에서 잠시 벗어나, 달콤한 디저트와 함께 아늑한 감성이 가득한 클루미 유니버스에서 특별한 추억을 만들어보세요. 사계절 언제나 따뜻하게 맞이하겠습니다.</p>
         <a href="#visit" class="btn btn-dark" style="margin-top: 1rem;">오시는 길</a>
       </div>
     </div>
@@ -323,13 +341,13 @@
           </div>
 
           <div style="margin-top: 2rem;">
-            <a href="https://map.naver.com/p/search/클루미유니버스" target="_blank" rel="noopener noreferrer" data-naver-map-link
+            <a href="https://naver.me/F9hNJomf" target="_blank" rel="noopener noreferrer" data-naver-map-link
               class="btn btn-primary" id="naverMapBtn">네이버 지도 열기</a>
           </div>
         </div>
 
         <div class="naver-map-card reveal" style="transition-delay: 0.2s;">
-          <a class="map-photo-link" href="https://map.naver.com/p/search/클루미유니버스" target="_blank"
+          <a class="map-photo-link" href="https://naver.me/F9hNJomf" target="_blank"
             rel="noopener noreferrer" data-naver-map-link aria-label="네이버 지도에서 클루미유니버스 보기"
             style="position: relative; display: block;">
             <!-- 미니맵: 손그림 스타일 일러스트 지도. 클릭하면 네이버 지도로 이동합니다. -->
@@ -349,7 +367,7 @@
               <span>1층</span>
             </div>
             <div class="map-action-row">
-              <a href="https://map.naver.com/p/search/클루미유니버스" target="_blank" rel="noopener noreferrer"
+              <a href="https://naver.me/F9hNJomf" target="_blank" rel="noopener noreferrer"
                 data-naver-map-link class="map-action-primary">네이버 길찾기</a>
               <button type="button" class="map-copy-button" data-copy-address>주소 복사</button>
             </div>
@@ -368,7 +386,7 @@
       <p id="footerAddress" style="margin-bottom: 1.5rem; color: rgba(255,255,255,0.5); line-height: 1.8;"></p>
       <div class="footer-links">
         <a href="https://www.instagram.com/clumi.universe/" target="_blank" rel="noopener noreferrer">Instagram</a>
-        <a href="https://map.naver.com/p/search/클루미유니버스" target="_blank" rel="noopener noreferrer" data-naver-map-link>Naver Map</a>
+        <a href="https://naver.me/F9hNJomf" target="_blank" rel="noopener noreferrer" data-naver-map-link>Naver Map</a>
         <a href="https://store.tossplace.com/order/238090" target="_blank" rel="noopener noreferrer">Toss Order</a>
       </div>
       <p style="opacity: 0.5;">&copy; 2026 Clumi Universe. All rights reserved.</p>
@@ -382,7 +400,7 @@
     <div class="mobile-cta-inner">
       <a href="https://store.tossplace.com/order/238090" target="_blank" rel="noopener noreferrer"
         class="btn btn-primary">픽업 주문</a>
-      <a href="https://map.naver.com/p/search/클루미유니버스" target="_blank" rel="noopener noreferrer" class="btn btn-dark">매장
+      <a href="https://naver.me/F9hNJomf" target="_blank" rel="noopener noreferrer" class="btn btn-dark">매장
         길찾기</a>
     </div>
   </div>
@@ -796,7 +814,7 @@
       const phoneMarkup = phoneHref
         ? `<a href="tel:${escapeHtml(phoneHref)}" style="color:inherit;text-decoration:none;">${escapeHtml(phone)}</a>`
         : escapeHtml(phone);
-      const naverMapUrl = storeInfo.links?.naverMap || storeInfo.links?.naver || 'https://map.naver.com/p/search/클루미유니버스';
+      const naverMapUrl = storeInfo.links?.naverMap || storeInfo.links?.naver || 'https://naver.me/F9hNJomf';
 
       infoList.innerHTML = `
         <div class="info-item">
@@ -819,6 +837,25 @@
         </div>`;
 
       renderTodayStatus(storeInfo);
+      const aboutDescription = document.getElementById('aboutDescription');
+      if (aboutDescription && storeInfo.description) aboutDescription.textContent = storeInfo.description;
+      const aboutSignatures = document.getElementById('aboutSignatures');
+      if (aboutSignatures && Array.isArray(storeInfo.signatureMenus) && storeInfo.signatureMenus.length) {
+        aboutSignatures.replaceChildren(...storeInfo.signatureMenus.map(menu => {
+          const item = document.createElement('div');
+          item.className = 'about-signature';
+
+          const name = document.createElement('strong');
+          name.textContent = menu.name || '';
+          const description = document.createElement('span');
+          description.textContent = menu.description || '';
+
+          item.append(name, description);
+          return item;
+        }));
+      }
+      const aboutClosing = document.getElementById('aboutClosing');
+      if (aboutClosing && storeInfo.closingMessage) aboutClosing.textContent = storeInfo.closingMessage;
       document.querySelectorAll('[data-naver-map-link]').forEach(link => {
         link.href = naverMapUrl;
       });

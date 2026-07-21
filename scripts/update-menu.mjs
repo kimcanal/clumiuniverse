@@ -292,7 +292,7 @@ async function main() {
           cwd: ROOT,
           stdio: 'inherit',
         });
-        console.log('\n' + green('🎉  배포 완료! Cloudflare Pages에서 자동으로 반영됩니다.'));
+        console.log('\n' + green('🎉  배포 완료! Netlify에서 자동으로 반영됩니다.'));
         console.log(dim('   (보통 1~2분 소요)'));
       } catch (err) {
         console.error(red('❌  배포 실패. 변경사항이 없거나 git 오류입니다.'));
