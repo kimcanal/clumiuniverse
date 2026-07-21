@@ -28,10 +28,10 @@
   <header class="site-header" id="header">
     <a href="#" class="brand-logo">CLUMI UNIVERSE</a>
     <nav class="nav-links">
+      <a href="#instagram">Instagram</a>
       <a href="#about">About</a>
       <a href="#menu">Menu</a>
       <a href="#gallery">Gallery</a>
-      <a href="#instagram">Instagram</a>
       <a href="#visit">Visit Us</a>
     </nav>
     <div class="header-actions">
@@ -66,6 +66,79 @@
       </div>
     </div>
     <div class="scroll-indicator">Scroll to discover</div>
+  </section>
+
+  <!-- ============================================================
+       INSTAGRAM — 정사각형 사진 그리드 (게시물 링크 연결)
+       ★ 새 게시물로 바꾸려면: assets/instagram/ 폴더에 정사각형(1:1) 사진을 추가하고,
+         아래 <a class="instagram-tile"> 블록 하나를 복사해서 href(게시물 링크)와
+         img src(사진 경로)만 새 값으로 바꾸면 됩니다.
+       ============================================================ -->
+  <section class="section" id="instagram">
+    <style>
+      .instagram-grid {
+        display: grid;
+        grid-template-columns: repeat(4, 1fr);
+        gap: 1.25rem;
+      }
+
+      .instagram-tile {
+        display: block;
+        position: relative;
+        aspect-ratio: 1 / 1;
+        border-radius: 16px;
+        overflow: hidden;
+      }
+
+      .instagram-tile img {
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+        display: block;
+        transition: transform 0.4s ease;
+      }
+
+      .instagram-tile:hover img {
+        transform: scale(1.06);
+      }
+
+      @media (max-width: 720px) {
+        .instagram-grid {
+          grid-template-columns: repeat(2, 1fr);
+        }
+      }
+    </style>
+    <div class="section-inner">
+      <div class="gallery-header reveal">
+        <div>
+          <span class="eyebrow">Latest</span>
+          <h2 class="section-title">인스타그램 소식</h2>
+        </div>
+        <a href="https://www.instagram.com/clumi.universe/" target="_blank" rel="noopener noreferrer"
+          class="btn btn-outline" style="color: var(--color-text-main); border-color: var(--color-text-main);">
+          @clumi.universe 팔로우
+        </a>
+      </div>
+
+      <div class="instagram-grid reveal">
+        <a class="instagram-tile" href="https://www.instagram.com/p/DYJCncFD-S_/" target="_blank"
+          rel="noopener noreferrer" aria-label="반하나 와플 게시물 보기">
+          <img src="./assets/instagram/instagram-1.jpg" alt="반하나 와플" loading="lazy">
+        </a>
+        <a class="instagram-tile" href="https://www.instagram.com/p/DZXCCJaj5vC/" target="_blank"
+          rel="noopener noreferrer" aria-label="오렌지 비앙코 게시물 보기">
+          <img src="./assets/instagram/instagram-2.jpg" alt="오렌지 비앙코" loading="lazy">
+        </a>
+        <a class="instagram-tile" href="https://www.instagram.com/p/DZe7ZrUDxqS/" target="_blank"
+          rel="noopener noreferrer" aria-label="망고 파르페 게시물 보기">
+          <img src="./assets/instagram/instagram-3.jpg" alt="망고 파르페" loading="lazy">
+        </a>
+        <a class="instagram-tile" href="https://www.instagram.com/p/Da7Aeu-oPt_/" target="_blank"
+          rel="noopener noreferrer" aria-label="클루미 캐릭터 게시물 보기">
+          <img src="./assets/instagram/instagram-4.jpg" alt="클루미 캐릭터" loading="lazy">
+        </a>
+      </div>
+    </div>
   </section>
 
   <!-- ============================================================
@@ -173,52 +246,6 @@
           <div class="gallery-overlay"><span>딸기포레누아</span></div>
         </div>
       </div>
-    </div>
-  </section>
-
-  <!-- ============================================================
-       INSTAGRAM — SnapWidget 임베드 (YOUR_WIDGET_ID를 발급받은 값으로 교체)
-       ============================================================ -->
-  <section class="section" id="instagram" style="padding-top: 0;">
-    <div class="section-inner">
-      <div class="gallery-header reveal">
-        <div>
-          <span class="eyebrow">Latest</span>
-          <h2 class="section-title">인스타그램 소식</h2>
-        </div>
-        <a href="https://www.instagram.com/clumi.universe/" target="_blank" rel="noopener noreferrer"
-          class="btn btn-outline" style="color: var(--color-text-main); border-color: var(--color-text-main);">
-          @clumi.universe 팔로우
-        </a>
-      </div>
-
-      <!-- 새 게시물로 바꾸려면: 인스타그램 앱에서 게시물 열기 → 공유(...) → 링크 복사 →
-           아래 blockquote 하나의 data-instgrm-permalink 값과 href 값을 새 링크로 교체하세요.
-           게시물을 더 추가/삭제하려면 blockquote 블록 자체를 복사/삭제하면 됩니다. 로그인/가입 불필요. -->
-      <div class="instagram-post-grid reveal"
-        style="display:grid; grid-template-columns:repeat(auto-fit, minmax(280px, 1fr)); gap:1.5rem;">
-        <blockquote class="instagram-media" data-instgrm-permalink="https://www.instagram.com/p/DYJCncFD-S_/"
-          data-instgrm-version="14"
-          style="background:#FFF; border:0; border-radius:20px; box-shadow:0 0 1px 0 rgba(0,0,0,0.5),0 1px 10px 0 rgba(0,0,0,0.15); margin: 0; max-width:540px; min-width:280px; padding:0; width:100%;">
-          <a href="https://www.instagram.com/p/DYJCncFD-S_/" target="_blank" rel="noopener noreferrer">게시물 보기</a>
-        </blockquote>
-        <blockquote class="instagram-media" data-instgrm-permalink="https://www.instagram.com/p/DZXCCJaj5vC/"
-          data-instgrm-version="14"
-          style="background:#FFF; border:0; border-radius:20px; box-shadow:0 0 1px 0 rgba(0,0,0,0.5),0 1px 10px 0 rgba(0,0,0,0.15); margin: 0; max-width:540px; min-width:280px; padding:0; width:100%;">
-          <a href="https://www.instagram.com/p/DZXCCJaj5vC/" target="_blank" rel="noopener noreferrer">게시물 보기</a>
-        </blockquote>
-        <blockquote class="instagram-media" data-instgrm-permalink="https://www.instagram.com/p/DZe7ZrUDxqS/"
-          data-instgrm-version="14"
-          style="background:#FFF; border:0; border-radius:20px; box-shadow:0 0 1px 0 rgba(0,0,0,0.5),0 1px 10px 0 rgba(0,0,0,0.15); margin: 0; max-width:540px; min-width:280px; padding:0; width:100%;">
-          <a href="https://www.instagram.com/p/DZe7ZrUDxqS/" target="_blank" rel="noopener noreferrer">게시물 보기</a>
-        </blockquote>
-        <blockquote class="instagram-media" data-instgrm-permalink="https://www.instagram.com/p/Da7Aeu-oPt_/"
-          data-instgrm-version="14"
-          style="background:#FFF; border:0; border-radius:20px; box-shadow:0 0 1px 0 rgba(0,0,0,0.5),0 1px 10px 0 rgba(0,0,0,0.15); margin: 0; max-width:540px; min-width:280px; padding:0; width:100%;">
-          <a href="https://www.instagram.com/p/Da7Aeu-oPt_/" target="_blank" rel="noopener noreferrer">게시물 보기</a>
-        </blockquote>
-      </div>
-      <script async src="//www.instagram.com/embed.js"></script>
     </div>
   </section>
 
