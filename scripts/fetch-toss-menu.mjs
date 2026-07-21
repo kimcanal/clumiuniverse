@@ -118,6 +118,25 @@ function stableHash(value) {
   return createHash('sha256').update(JSON.stringify(value)).digest('hex');
 }
 
+function comparableMenuData(value) {
+  if (!value) {
+    return null;
+  }
+
+  const {
+    fetchedAt: _fetchedAt,
+    summary: _summary,
+    imageSummary: _imageSummary,
+    merchantStatus: _merchantStatus,
+    ...stableFields
+  } = value;
+
+  return {
+    ...stableFields,
+    items: (stableFields.items ?? []).map(({ imageStatus: _imageStatus, ...item }) => item),
+  };
+}
+
 function safeFilePart(value, fallback = 'item') {
   const sanitized = String(value ?? fallback)
     .normalize('NFKC')
@@ -421,6 +440,8 @@ async function main() {
 
   await mkdir(imagesDir, { recursive: true });
 
+  const previousMenu = await readJsonIfExists(menuPath, null);
+
   const state = await readJsonIfExists(statePath, {
     merchantId,
     imagesByUrl: {},
@@ -499,33 +520,36 @@ async function main() {
   }, {});
   const checks = buildChecks(items);
 
-  state.itemsById = Object.fromEntries(
-    items.map((item) => [
-      item.id,
-      {
-        fingerprint: item.fingerprint,
-        title: item.title,
-        description: item.description,
-        imageUrl: item.imageUrl,
-        imageLocalPath: item.imageLocalPath,
-        imageHash: item.imageHash,
-        updatedAt: new Date().toISOString(),
-      },
-    ]),
+  const runAt = new Date().toISOString();
+  const nextItemsById = Object.fromEntries(
+    items.map((item) => {
+      const previous = state.itemsById[item.id];
+      const hasItemChanged = !previous
+        || previous.fingerprint !== item.fingerprint
+        || previous.imageLocalPath !== item.imageLocalPath
+        || previous.imageHash !== item.imageHash;
+
+      return [
+        item.id,
+        {
+          fingerprint: item.fingerprint,
+          title: item.title,
+          description: item.description,
+          imageUrl: item.imageUrl,
+          imageLocalPath: item.imageLocalPath,
+          imageHash: item.imageHash,
+          firstSeenAt: previous?.firstSeenAt ?? previous?.updatedAt ?? runAt,
+          updatedAt: hasItemChanged ? runAt : (previous.updatedAt ?? runAt),
+        },
+      ];
+    }),
   );
-  state.lastRunAt = new Date().toISOString();
-  state.runs.push({
-    at: state.lastRunAt,
-    summary,
-    imageSummary,
-  });
-  state.runs = state.runs.slice(-20);
 
   const output = {
     merchantId: Number(merchantId),
     merchantName: merchant.name ?? '',
     merchantStatus: merchantStatus?.status ?? merchant.status ?? '',
-    fetchedAt: state.lastRunAt,
+    fetchedAt: runAt,
     summary,
     imageSummary,
     checks,
@@ -533,6 +557,28 @@ async function main() {
     items,
     foodOrigin: itemsPayload.foodOrigin ?? null,
   };
+
+  const contentChanged = stableHash(comparableMenuData(previousMenu)) !== stableHash(comparableMenuData(output));
+
+  if (!contentChanged) {
+    console.log(JSON.stringify({
+      changed: false,
+      merchant: output.merchantName,
+      status: output.merchantStatus,
+      summary,
+      message: 'No menu content changes. Existing files were preserved.',
+    }, null, 2));
+    return;
+  }
+
+  state.itemsById = nextItemsById;
+  state.lastRunAt = runAt;
+  state.runs.push({
+    at: runAt,
+    summary,
+    imageSummary,
+  });
+  state.runs = state.runs.slice(-20);
 
   await writeJson(menuPath, output);
   await writeText(csvPath, toCsv(items));
@@ -542,6 +588,7 @@ async function main() {
   await rename(tmpStatePath, statePath);
 
   console.log(JSON.stringify({
+    changed: true,
     merchant: output.merchantName,
     status: output.merchantStatus,
     summary,

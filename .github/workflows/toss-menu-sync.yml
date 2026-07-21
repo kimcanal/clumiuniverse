@@ -9,9 +9,14 @@ on:
 permissions:
   contents: write
 
+concurrency:
+  group: toss-menu-sync
+  cancel-in-progress: false
+
 jobs:
   sync-toss-menu:
     runs-on: ubuntu-latest
+    timeout-minutes: 15
     steps:
       - name: 저장소 체크아웃
         uses: actions/checkout@v4
