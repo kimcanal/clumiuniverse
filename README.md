@@ -10,6 +10,8 @@
 
 > 합정과 상수 사이, 번잡한 홍대 레드로드를 벗어나 조용한 골목에서 따뜻한 위로와 작은 휴식을 전하는 감성 카페, 클루미 유니버스입니다. 날씨와 마음을 닮은 귀여운 캐릭터 스토리와 함께 매일 정성스럽게 준비하는 특별한 시그니처 디저트를 선보입니다.
 
+네이버 지도에 등록된 소개 문구를 기준으로 파르페, 벨기에 리에주 방식의 수제 와플, 시즌 케이크, 와플 브런치의 특징을 페이지에 함께 보여줍니다.
+
 ## 주요 기능
 
 - 토스오더 메뉴·가격·판매 상태·이미지·`인기`/`신규` 라벨 동기화
@@ -84,7 +86,7 @@ node scripts/update-menu.mjs --no-fetch --keep --no-deploy
 - 화면용 영업시간: `hours.weekday`, `hours.weekend`, `hours.note`
 - 오늘 영업 상태 계산: `businessHours.weekday`, `businessHours.weekend`
 - 네이버 지도 링크: `links.naverMap`
-- 네이버 지도 기준 소개 문구: `description`, `closingMessage`
+- 네이버 지도 기준 소개 문구: `description`, `signatureMenus`, `closingMessage`
 
 `businessHours`는 `HH:MM` 형식으로 입력합니다.
 
