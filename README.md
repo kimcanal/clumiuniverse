@@ -19,6 +19,7 @@
 - 네이버 지도 기반 매장 소개, 주소, 영업시간, 전화 연결
 - 네이버 리뷰 하이라이트와 토스 픽업 주문 연결
 - 데스크톱과 모바일에 대응하는 반응형 단일 페이지
+- Netlify 장기 브라우저 캐시와 화면 밖 이미지 지연 로딩
 
 ## 데이터 운영 현황
 
@@ -29,9 +30,9 @@
 | 숨김 메뉴 | `data/hidden-menu-items.json` | 노출하지 않을 메뉴 ID 관리 | 필요할 때 |
 | 매장 소개·영업시간 | [네이버 지도](https://naver.me/F9hNJomf) | `data/store-info.json` 수동 관리 | 정보 변경 시 |
 | 리뷰 하이라이트 | 네이버 방문자 리뷰 | `data/reviews.json` 수동 관리 | 필요할 때 |
-| Instagram | [@clumi.universe](https://www.instagram.com/clumi.universe/) | 이미지와 게시물 링크 수동 관리 | 필요할 때 |
+| Instagram | [@clumi.universe](https://www.instagram.com/clumi.universe/) | 승인된 게시물과 이미지 추가 | 새 게시물 반영 시 |
 
-Instagram은 계정 API 권한을 보유하지 않아 자동 수집하지 않습니다. 공개 페이지 스크래핑 대신 저장소의 승인된 이미지와 게시물 링크만 사용합니다.
+Instagram 계정 소유자의 API 권한이 없으므로 공개 페이지를 우회 스크래핑하지 않습니다. 대신 공개 게시물 URL과 승인된 이미지를 한 명령으로 추가하며, 사이트는 `data/instagram.json`의 최신 4개를 자동으로 표시합니다.
 
 ## 토스 메뉴 동기화
 
@@ -90,7 +91,28 @@ node scripts/update-menu.mjs --no-fetch --keep --no-deploy
 
 `businessHours`는 `HH:MM` 형식으로 입력합니다.
 
-Instagram 게시물을 바꿀 때는 `assets/instagram/`의 이미지를 교체하고 `index.html`의 `.instagram-tile` 링크와 대체 텍스트를 함께 수정합니다.
+계정 소유자의 토큰 없이 Instagram 피드를 안정적으로 자동 수집하는 공식 방법은 없습니다. 공개 HTML 스크래핑은 로그인·차단·마크업 변경에 취약하므로 운영 자동화로 사용하지 않습니다. 새 게시물 이미지 한 장을 내려받은 뒤 다음 명령으로 추가할 수 있습니다.
+
+```bash
+node scripts/update-instagram.mjs \
+  --url "https://www.instagram.com/p/게시물코드/" \
+  --image "/내려받은/사진.jpg" \
+  --caption "게시물을 설명하는 짧은 문장"
+```
+
+명령은 이미지를 `assets/instagram/`으로 복사하고 새 게시물을 맨 앞에 넣은 뒤 최근 4개만 유지합니다. 사이트는 이 파일을 읽고, 로드에 실패할 경우 HTML에 포함된 기존 게시물을 그대로 보여줍니다.
+
+## 화면 구성과 참고 방향
+
+현재 정보 순서는 **Hero(카페 전경) → Menu(대표 음식) → About(캐릭터) → Gallery(공간) → Reviews → Instagram → Visit**입니다. 방문자가 먼저 장소를 인지하고, 가장 중요한 메뉴를 확인한 뒤 캐릭터 세계관과 공간을 둘러보도록 구성했습니다. 리뷰는 방문 결정을 돕는 핵심 신뢰 정보라 Instagram보다 먼저 두고, Instagram은 최신 분위기를 보강하는 콘텐츠로 사용합니다.
+
+비교할 만한 카페 사이트는 다음과 같습니다.
+
+- [Blue Bottle Coffee](https://bluebottlecoffee.com/): 상품과 매장 탐색을 우선하는 명확한 정보 구조
+- [TERAROSA](https://terarosa.com/): 브랜드 이야기, 공간, 상품을 함께 보여주는 편집형 구성
+- [Anthracite Coffee](https://anthracitecoffee.com/): 절제된 비주얼과 브랜드 중심의 표현
+
+클루미 유니버스는 대형 브랜드처럼 상품군을 넓히기보다 **카페 전경 → 대표 디저트 → 캐릭터 → 공간 → 방문/픽업**의 짧은 전환 경로를 유지하는 편이 적합합니다. 같은 성격의 사진을 연속 배치하기보다 음식, 캐릭터, 공간을 교차해 화면 리듬을 만듭니다.
 
 ## 로컬 실행
 
@@ -105,6 +127,10 @@ python3 -m http.server 8000
 ## 배포
 
 프로덕션 주소는 <https://clumiuniverse.netlify.app/>입니다. `main` 브랜치가 갱신되면 Netlify가 저장소 루트를 정적 자산으로 자동 배포합니다.
+
+`_headers`는 브라우저와 Netlify CDN 캐시를 따로 제어합니다. 일반 이미지는 브라우저에서 하루, Netlify 엣지에서 1년간 캐시하고, 콘텐츠 해시가 포함된 토스 메뉴 이미지는 양쪽에서 1년간 캐시합니다. 메뉴·Instagram JSON은 브라우저가 항상 재검증하되 Netlify 엣지에서는 5분간 보관해 원본 요청을 줄입니다. HTML은 엣지에서 1분만 보관합니다. 첫 화면의 Hero 이미지만 우선 다운로드하고 나머지 이미지는 화면에 가까워질 때 내려받습니다.
+
+`Cache-Control`은 방문자 브라우저용이고 `Netlify-CDN-Cache-Control`은 Netlify의 전 세계 엣지 캐시 전용입니다. 따라서 이 설정은 클라이언트 캐시만 사용하는 구성이 아닙니다. 같은 경로로 교체될 수 있는 일반 이미지는 브라우저에 `immutable`로 고정하지 않아 다음 배포 내용을 정상적으로 받을 수 있게 했습니다.
 
 ```bash
 git status
@@ -122,12 +148,14 @@ clumiuniverse/
 ├── index.html
 ├── styles.css
 ├── assets/
+│   ├── clumi-logo.svg
 │   ├── bg/
 │   ├── characters/
 │   └── instagram/
 ├── data/
 │   ├── featured.json
 │   ├── hidden-menu-items.json
+│   ├── instagram.json
 │   ├── reviews.json
 │   ├── store-info.json
 │   └── tossplace-menu/238090/
@@ -137,5 +165,6 @@ clumiuniverse/
 │       └── images/
 └── scripts/
     ├── fetch-toss-menu.mjs
+    ├── update-instagram.mjs
     └── update-menu.mjs
 ```

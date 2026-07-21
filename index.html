@@ -16,7 +16,10 @@
   <meta property="og:type" content="website">
 
   <!-- 파비콘 -->
-  <link rel="icon" type="image/png" href="./assets/clumi-character-cutout.png">
+  <link rel="icon" type="image/svg+xml" href="./assets/clumi-logo.svg">
+
+  <!-- 첫 화면 이미지는 HTML 파싱과 동시에 다운로드합니다. -->
+  <link rel="preload" as="image" href="./assets/bg/6.jpg" fetchpriority="high">
 
   <link rel="stylesheet" href="./styles.css">
 </head>
@@ -27,12 +30,14 @@
        HEADER
        ============================================================ -->
   <header class="site-header" id="header">
-    <a href="#" class="brand-logo">CLUMI UNIVERSE</a>
+    <a href="#home" class="brand-logo" aria-label="클루미 유니버스 홈">
+      <img src="./assets/clumi-logo.svg" alt="" width="52" height="52">
+    </a>
     <nav class="nav-links">
-      <a href="#instagram">Instagram</a>
-      <a href="#about">About</a>
       <a href="#menu">Menu</a>
+      <a href="#about">About</a>
       <a href="#gallery">Gallery</a>
+      <a href="#instagram">Instagram</a>
       <a href="#visit">Visit Us</a>
     </nav>
     <div class="header-actions">
@@ -53,7 +58,7 @@
        ============================================================ -->
   <section class="hero" id="home">
     <div class="hero-bg">
-      <img src="./assets/bg/6.jpg" alt="클루미유니버스 매장 전경">
+      <img src="./assets/bg/6.jpg" alt="클루미유니버스 매장 전경" fetchpriority="high" decoding="async">
     </div>
     <div class="hero-overlay"></div>
     <div class="hero-content reveal">
@@ -67,116 +72,6 @@
       </div>
     </div>
     <div class="scroll-indicator">Scroll to discover</div>
-  </section>
-
-  <!-- ============================================================
-       INSTAGRAM — 정사각형 사진 그리드 (게시물 링크 연결)
-       ★ 새 게시물로 바꾸려면: assets/instagram/ 폴더에 정사각형(1:1) 사진을 추가하고,
-         아래 <a class="instagram-tile"> 블록 하나를 복사해서 href(게시물 링크)와
-         img src(사진 경로)만 새 값으로 바꾸면 됩니다.
-       ============================================================ -->
-  <section class="section" id="instagram">
-    <style>
-      .instagram-grid {
-        display: grid;
-        grid-template-columns: repeat(4, 1fr);
-        gap: 1.25rem;
-      }
-
-      .instagram-tile {
-        display: block;
-        position: relative;
-        aspect-ratio: 1 / 1;
-        border-radius: 16px;
-        overflow: hidden;
-      }
-
-      .instagram-tile img {
-        width: 100%;
-        height: 100%;
-        object-fit: cover;
-        display: block;
-        transition: transform 0.4s ease;
-      }
-
-      .instagram-tile:hover img {
-        transform: scale(1.06);
-      }
-
-      @media (max-width: 720px) {
-        .instagram-grid {
-          grid-template-columns: repeat(2, 1fr);
-        }
-      }
-    </style>
-    <div class="section-inner">
-      <div class="gallery-header reveal">
-        <div>
-          <span class="eyebrow">Latest</span>
-          <h2 class="section-title">인스타그램 소식</h2>
-        </div>
-        <a href="https://www.instagram.com/clumi.universe/" target="_blank" rel="noopener noreferrer"
-          class="btn btn-outline" style="color: var(--color-text-main); border-color: var(--color-text-main);">
-          @clumi.universe 팔로우
-        </a>
-      </div>
-
-      <div class="instagram-grid reveal">
-        <a class="instagram-tile" href="https://www.instagram.com/p/DYJCncFD-S_/" target="_blank"
-          rel="noopener noreferrer" aria-label="반하나 와플 게시물 보기">
-          <img src="./assets/instagram/instagram-1.jpg" alt="반하나 와플" loading="lazy">
-        </a>
-        <a class="instagram-tile" href="https://www.instagram.com/p/DZXCCJaj5vC/" target="_blank"
-          rel="noopener noreferrer" aria-label="오렌지 비앙코 게시물 보기">
-          <img src="./assets/instagram/instagram-2.jpg" alt="오렌지 비앙코" loading="lazy">
-        </a>
-        <a class="instagram-tile" href="https://www.instagram.com/p/DZe7ZrUDxqS/" target="_blank"
-          rel="noopener noreferrer" aria-label="망고 파르페 게시물 보기">
-          <img src="./assets/instagram/instagram-3.jpg" alt="망고 파르페" loading="lazy">
-        </a>
-        <a class="instagram-tile" href="https://www.instagram.com/p/Da7Aeu-oPt_/" target="_blank"
-          rel="noopener noreferrer" aria-label="클루미 캐릭터 게시물 보기">
-          <img src="./assets/instagram/instagram-4.jpg" alt="클루미 캐릭터" loading="lazy">
-        </a>
-      </div>
-    </div>
-  </section>
-
-  <!-- ============================================================
-       ABOUT
-       ============================================================ -->
-  <section class="section about" id="about">
-    <div class="section-inner about-grid">
-      <div class="about-image reveal">
-        <img src="./assets/clumi-character-clean.jpg" alt="클루미 캐릭터">
-        <div class="about-badge">Hello!<br>I'm Clumi</div>
-      </div>
-      <div class="about-content reveal">
-        <span class="eyebrow">Our Story</span>
-        <h2>따뜻한 위로와<br>작은 휴식을 전하는 곳</h2>
-        <p id="aboutDescription">합정과 상수 사이, 번잡한 홍대 레드로드를 벗어나 조용한 골목에서 따뜻한 위로와 작은 휴식을 전하는 감성 카페, 클루미 유니버스입니다.</p>
-        <div class="about-signatures" id="aboutSignatures" aria-label="클루미 유니버스의 시그니처 메뉴">
-          <div class="about-signature">
-            <strong>파르페</strong>
-            <span>눈과 입이 모두 즐거운 화려하고 달콤한 비주얼의 시그니처 음료&amp;디저트</span>
-          </div>
-          <div class="about-signature">
-            <strong>수제 와플</strong>
-            <span>벨기에 리에주 와플방식으로 겉은 바삭하고 속은 촉촉한 수제 와플의 정석</span>
-          </div>
-          <div class="about-signature">
-            <strong>다채로운 케이크</strong>
-            <span>매 시즌 눈을 사로잡는 특별한 압도적인 비주얼과 깊은 풍미의 수제 디저트</span>
-          </div>
-          <div class="about-signature">
-            <strong>와플 브런치</strong>
-            <span>여유로운 하루를 든든하고 싱그럽게 채워줄 감성 브런치 메뉴</span>
-          </div>
-        </div>
-        <p class="about-closing" id="aboutClosing">복잡한 일상에서 잠시 벗어나, 달콤한 디저트와 함께 아늑한 감성이 가득한 클루미 유니버스에서 특별한 추억을 만들어보세요. 사계절 언제나 따뜻하게 맞이하겠습니다.</p>
-        <a href="#visit" class="btn btn-dark" style="margin-top: 1rem;">오시는 길</a>
-      </div>
-    </div>
   </section>
 
   <!-- ============================================================
@@ -223,6 +118,43 @@
   </section>
 
   <!-- ============================================================
+       ABOUT
+       ============================================================ -->
+  <section class="section about" id="about">
+    <div class="section-inner about-grid">
+      <div class="about-image reveal">
+        <img src="./assets/clumi-character-clean.jpg" alt="클루미 캐릭터" loading="lazy" decoding="async">
+        <div class="about-badge">Hello!<br>I'm Clumi</div>
+      </div>
+      <div class="about-content reveal">
+        <span class="eyebrow">Our Story</span>
+        <h2>따뜻한 위로와<br>작은 휴식을 전하는 곳</h2>
+        <p id="aboutDescription">합정과 상수 사이, 번잡한 홍대 레드로드를 벗어나 조용한 골목에서 따뜻한 위로와 작은 휴식을 전하는 감성 카페, 클루미 유니버스입니다.</p>
+        <div class="about-signatures" id="aboutSignatures" aria-label="클루미 유니버스의 시그니처 메뉴">
+          <div class="about-signature">
+            <strong>파르페</strong>
+            <span>눈과 입이 모두 즐거운 화려하고 달콤한 비주얼의 시그니처 음료&amp;디저트</span>
+          </div>
+          <div class="about-signature">
+            <strong>수제 와플</strong>
+            <span>벨기에 리에주 와플방식으로 겉은 바삭하고 속은 촉촉한 수제 와플의 정석</span>
+          </div>
+          <div class="about-signature">
+            <strong>다채로운 케이크</strong>
+            <span>매 시즌 눈을 사로잡는 특별한 압도적인 비주얼과 깊은 풍미의 수제 디저트</span>
+          </div>
+          <div class="about-signature">
+            <strong>와플 브런치</strong>
+            <span>여유로운 하루를 든든하고 싱그럽게 채워줄 감성 브런치 메뉴</span>
+          </div>
+        </div>
+        <p class="about-closing" id="aboutClosing">복잡한 일상에서 잠시 벗어나, 달콤한 디저트와 함께 아늑한 감성이 가득한 클루미 유니버스에서 특별한 추억을 만들어보세요. 사계절 언제나 따뜻하게 맞이하겠습니다.</p>
+        <a href="#visit" class="btn btn-dark" style="margin-top: 1rem;">오시는 길</a>
+      </div>
+    </div>
+  </section>
+
+  <!-- ============================================================
        GALLERY
        ============================================================ -->
   <section class="section gallery" id="gallery">
@@ -240,27 +172,27 @@
 
       <div class="gallery-grid">
         <div class="gallery-item reveal">
-          <img src="./assets/bg/1.jpg" alt="매장 전경" class="lightbox-trigger">
+          <img src="./assets/bg/1.jpg" alt="매장 전경" class="lightbox-trigger" loading="lazy" decoding="async">
           <div class="gallery-overlay"><span>Our Space</span></div>
         </div>
         <div class="gallery-item reveal" style="transition-delay: 0.1s;">
-          <img src="./assets/characters/clumi-calendar-jan.jpg" alt="클루미 캐릭터" class="lightbox-trigger">
+          <img src="./assets/characters/clumi-calendar-jan.jpg" alt="클루미 캐릭터" class="lightbox-trigger" loading="lazy" decoding="async">
           <div class="gallery-overlay"><span>Clumi's Universe</span></div>
         </div>
         <div class="gallery-item reveal" style="transition-delay: 0.2s;">
-          <img src="./assets/clumi-waffle.jpg" alt="딸기왕창와플" class="lightbox-trigger" data-menu-image-id="9820365">
+          <img src="./assets/clumi-waffle.jpg" alt="딸기왕창와플" class="lightbox-trigger" data-menu-image-id="9820365" loading="lazy" decoding="async">
           <div class="gallery-overlay"><span>딸기왕창와플</span></div>
         </div>
         <div class="gallery-item reveal">
-          <img src="./assets/bg/4.jpg" alt="따뜻한 분위기" class="lightbox-trigger">
+          <img src="./assets/bg/4.jpg" alt="따뜻한 분위기" class="lightbox-trigger" loading="lazy" decoding="async">
           <div class="gallery-overlay"><span>Warm Vibe</span></div>
         </div>
         <div class="gallery-item reveal" style="transition-delay: 0.1s;">
-          <img src="./assets/characters/clumi-windy-drink.jpg" alt="윈디 포션" class="lightbox-trigger">
+          <img src="./assets/characters/clumi-windy-drink.jpg" alt="윈디 포션" class="lightbox-trigger" loading="lazy" decoding="async">
           <div class="gallery-overlay"><span>Emotion Potion: Windy</span></div>
         </div>
         <div class="gallery-item reveal" style="transition-delay: 0.2s;">
-          <img src="./assets/clumi-parfait.jpg" alt="딸기포레누아" class="lightbox-trigger" data-menu-image-id="10641666">
+          <img src="./assets/clumi-parfait.jpg" alt="딸기포레누아" class="lightbox-trigger" data-menu-image-id="10641666" loading="lazy" decoding="async">
           <div class="gallery-overlay"><span>딸기포레누아</span></div>
         </div>
       </div>
@@ -275,9 +207,9 @@
     <div class="section-inner reviews-showcase">
       <div class="reviews-visual">
         <img src="./assets/clumi-waffle.jpg" alt="클루미유니버스 클래식 리에주 와플"
-          class="reviews-visual-main lightbox-trigger" loading="lazy" data-menu-image-id="7735791">
+          class="reviews-visual-main lightbox-trigger" loading="lazy" decoding="async" data-menu-image-id="7735791">
         <img src="./assets/clumi-waffle-menu.jpg" alt="클루미유니버스 블루베리 크림치즈 와플"
-          class="reviews-visual-thumb lightbox-trigger" loading="lazy" data-menu-image-id="7735937">
+          class="reviews-visual-thumb lightbox-trigger" loading="lazy" decoding="async" data-menu-image-id="7735937">
         <div class="waffle-note">
           <span>Fresh Liege Waffles</span>
           <strong>클래식 · 블루베리 크림치즈</strong>
@@ -312,6 +244,104 @@
           <a href="https://store.tossplace.com/order/238090" target="_blank" rel="noopener noreferrer"
             class="btn btn-primary">와플 픽업 주문</a>
         </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ============================================================
+       INSTAGRAM — 정사각형 사진 그리드 (게시물 링크 연결)
+       ★ 새 게시물로 바꾸려면: assets/instagram/ 폴더에 정사각형(1:1) 사진을 추가하고,
+         아래 <a class="instagram-tile"> 블록 하나를 복사해서 href(게시물 링크)와
+         img src(사진 경로)만 새 값으로 바꾸면 됩니다.
+       ============================================================ -->
+  <section class="section" id="instagram">
+    <style>
+      .instagram-grid {
+        display: grid;
+        grid-template-columns: repeat(4, 1fr);
+        gap: 1.25rem;
+      }
+
+      .instagram-tile {
+        display: block;
+        position: relative;
+        aspect-ratio: 1 / 1;
+        border-radius: 16px;
+        overflow: hidden;
+      }
+
+      .instagram-tile img {
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+        display: block;
+        transition: transform 0.4s ease;
+      }
+
+      .instagram-tile:hover img {
+        transform: scale(1.06);
+      }
+
+      .instagram-tile::after {
+        content: '';
+        position: absolute;
+        inset: 45% 0 0;
+        background: linear-gradient(transparent, rgba(25, 18, 12, 0.78));
+        pointer-events: none;
+      }
+
+      .instagram-caption {
+        position: absolute;
+        z-index: 1;
+        right: 1rem;
+        bottom: 0.9rem;
+        left: 1rem;
+        color: #fff;
+        font-size: 0.9rem;
+        font-weight: 700;
+        line-height: 1.4;
+        text-shadow: 0 1px 8px rgba(0, 0, 0, 0.35);
+      }
+
+      @media (max-width: 720px) {
+        .instagram-grid {
+          grid-template-columns: repeat(2, 1fr);
+        }
+      }
+    </style>
+    <div class="section-inner">
+      <div class="gallery-header reveal">
+        <div>
+          <span class="eyebrow">Latest</span>
+          <h2 class="section-title">인스타그램 소식</h2>
+        </div>
+        <a href="https://www.instagram.com/clumi.universe/" target="_blank" rel="noopener noreferrer"
+          class="btn btn-outline" style="color: var(--color-text-main); border-color: var(--color-text-main);">
+          @clumi.universe 팔로우
+        </a>
+      </div>
+
+      <div class="instagram-grid reveal" id="instagramGrid">
+        <a class="instagram-tile" href="https://www.instagram.com/p/DYJCncFD-S_/" target="_blank"
+          rel="noopener noreferrer" aria-label="반하나 와플 게시물 보기">
+          <img src="./assets/instagram/instagram-1.jpg" alt="반하나 와플" loading="lazy" decoding="async">
+          <span class="instagram-caption">반하나 와플</span>
+        </a>
+        <a class="instagram-tile" href="https://www.instagram.com/p/DZXCCJaj5vC/" target="_blank"
+          rel="noopener noreferrer" aria-label="오렌지 비앙코 게시물 보기">
+          <img src="./assets/instagram/instagram-2.jpg" alt="오렌지 비앙코" loading="lazy" decoding="async">
+          <span class="instagram-caption">오렌지 비앙코</span>
+        </a>
+        <a class="instagram-tile" href="https://www.instagram.com/p/DZe7ZrUDxqS/" target="_blank"
+          rel="noopener noreferrer" aria-label="망고 파르페 게시물 보기">
+          <img src="./assets/instagram/instagram-3.jpg" alt="망고 파르페" loading="lazy" decoding="async">
+          <span class="instagram-caption">망고 파르페</span>
+        </a>
+        <a class="instagram-tile" href="https://www.instagram.com/p/Da7Aeu-oPt_/" target="_blank"
+          rel="noopener noreferrer" aria-label="클루미 캐릭터 게시물 보기">
+          <img src="./assets/instagram/instagram-4.jpg" alt="클루미 캐릭터" loading="lazy" decoding="async">
+          <span class="instagram-caption">클루미 캐릭터</span>
+        </a>
       </div>
     </div>
   </section>
@@ -352,26 +382,10 @@
             style="position: relative; display: block;">
             <!-- 미니맵: 손그림 스타일 일러스트 지도. 클릭하면 네이버 지도로 이동합니다. -->
             <img src="./assets/Gemini_Generated_Image_djjxlcdjjxlcdjjx.png" alt="클루미유니버스 손그림 지도"
-              loading="lazy"
-              style="position: absolute; inset: 0; width: 100%; height: 100%; object-fit: cover; object-position: 50% 22%;">
+              loading="lazy" decoding="async">
             <span class="map-photo-badge">Naver Map</span>
             <span class="map-photo-cta">길찾기 열기</span>
           </a>
-          <div class="map-card-body">
-            <span class="eyebrow">Naver Map</span>
-            <h3>클루미유니버스</h3>
-            <p id="naverMapAddress">서울 마포구 독막로8길 21, 1층</p>
-            <div class="route-chips" aria-label="방문 정보">
-              <span>합정·상수 사이</span>
-              <span>독막로8길</span>
-              <span>1층</span>
-            </div>
-            <div class="map-action-row">
-              <a href="https://naver.me/F9hNJomf" target="_blank" rel="noopener noreferrer"
-                data-naver-map-link class="map-action-primary">네이버 길찾기</a>
-              <button type="button" class="map-copy-button" data-copy-address>주소 복사</button>
-            </div>
-          </div>
         </div>
       </div>
     </div>
@@ -382,7 +396,9 @@
        ============================================================ -->
   <footer class="site-footer">
     <div class="section-inner">
-      <div class="footer-logo">CLUMI UNIVERSE</div>
+      <a href="#home" class="footer-logo" aria-label="클루미 유니버스 홈">
+        <img src="./assets/clumi-logo.svg" alt="" width="88" height="88" loading="lazy" decoding="async">
+      </a>
       <p id="footerAddress" style="margin-bottom: 1.5rem; color: rgba(255,255,255,0.5); line-height: 1.8;"></p>
       <div class="footer-links">
         <a href="https://www.instagram.com/clumi.universe/" target="_blank" rel="noopener noreferrer">Instagram</a>
@@ -406,7 +422,7 @@
   </div>
 
   <!-- Interactive Floating Character -->
-  <img src="./assets/clumi-character-cutout.png" alt="클루미" class="floating-clumi">
+  <img src="./assets/clumi-character-cutout.png" alt="클루미" class="floating-clumi" loading="lazy" decoding="async">
 
   <!-- Lightbox -->
   <div id="lightbox" class="lightbox">
@@ -712,8 +728,21 @@
       fetchJson(MENU_JSON_PATH, { items: [] }),
       fetchJson(HIDDEN_MENU_ITEMS_PATH, []),
       fetchJson('./data/reviews.json', []),
-      fetchJson('./data/store-info.json', {})
-    ]).then(([featured, menuData, hiddenItems, reviews, storeInfo]) => {
+      fetchJson('./data/store-info.json', {}),
+      fetchJson('./data/instagram.json', { posts: [] })
+    ]).then(([featured, menuData, hiddenItems, reviews, storeInfo, instagram]) => {
+
+      // ── Instagram: API가 저장한 최신 피드를 렌더링 ─────────────
+      const instagramGrid = document.getElementById('instagramGrid');
+      const instagramPosts = Array.isArray(instagram.posts) ? instagram.posts : [];
+      if (instagramGrid && instagramPosts.length) {
+        instagramGrid.innerHTML = instagramPosts.slice(0, 4).map(post => `
+          <a class="instagram-tile" href="${escapeHtml(post.permalink)}" target="_blank"
+            rel="noopener noreferrer" aria-label="${escapeHtml(post.caption)} 게시물 보기">
+            <img src="./${escapeHtml(post.image)}" alt="${escapeHtml(post.caption)}" loading="lazy" decoding="async">
+            <span class="instagram-caption">${escapeHtml(post.caption)}</span>
+          </a>`).join('');
+      }
 
       // ── 5-A. 메뉴 섹션 렌더링 ──────────────────────────────────
       // fetch-toss-menu.mjs 포맷: items[].id (숫자), items[].imageLocalPath
@@ -762,7 +791,7 @@
                   ${badges.map(label => `<div class="menu-badge menu-badge-${label === '신규' ? 'new' : 'popular'}">${escapeHtml(label)}</div>`).join('')}
                 </div>` : ''}
               <div class="menu-img-wrap">
-                <img src="${escapeHtml(imgSrc)}" alt="${escapeHtml(name)}" loading="lazy">
+                <img src="${escapeHtml(imgSrc)}" alt="${escapeHtml(name)}" loading="lazy" decoding="async">
               </div>
               <div class="menu-info">
                 <span class="eyebrow">${escapeHtml(category)}</span>
@@ -859,28 +888,6 @@
       document.querySelectorAll('[data-naver-map-link]').forEach(link => {
         link.href = naverMapUrl;
       });
-      const naverMapAddress = document.getElementById('naverMapAddress');
-      if (naverMapAddress) naverMapAddress.textContent = storeInfo.address || '서울 마포구 독막로8길 21, 1층';
-
-      document.querySelectorAll('[data-copy-address]').forEach(button => {
-        const defaultLabel = button.textContent;
-        button.addEventListener('click', async () => {
-          const address = storeInfo.address || '';
-          if (!address) return;
-
-          try {
-            await navigator.clipboard.writeText(address);
-            button.textContent = '복사 완료';
-          } catch {
-            button.textContent = '주소 확인';
-          }
-
-          window.setTimeout(() => {
-            button.textContent = defaultLabel;
-          }, 1600);
-        });
-      });
-
       // 푸터 주소
       document.getElementById('footerAddress').textContent = storeInfo.address;
 
