@@ -606,6 +606,12 @@
       };
     }
 
+    function formatKoreanClock(minutes) {
+      const hour = Math.floor(minutes / 60);
+      const minute = minutes % 60;
+      return minute === 0 ? `${hour}시` : `${hour}시 ${minute}분`;
+    }
+
     function renderTodayStatus(storeInfo) {
       const statusEl = document.getElementById('todayStatus');
       if (!statusEl) return;
@@ -616,17 +622,17 @@
       const openMinutes = parseClock(schedule.open) ?? (isWeekend ? 630 : 540);
       const closeMinutes = parseClock(schedule.close) ?? 1380;
 
-      let title = `오늘 ${formatClock(closeMinutes)}까지 영업`;
-      let caption = `${isWeekend ? '주말' : '평일'} ${formatClock(openMinutes)} - ${formatClock(closeMinutes)} · ${storeInfo.hours?.note || '연중무휴'}`;
+      let title = `오늘은 ${formatKoreanClock(closeMinutes)}까지 영업합니다~`;
+      let caption = `${isWeekend ? '주말' : '평일'}엔 ${formatKoreanClock(openMinutes)}부터 ${formatKoreanClock(closeMinutes)}까지, ${storeInfo.hours?.note || '연중무휴'} 문을 열어요.`;
       let stateClass = 'is-open';
 
       if (minutes < openMinutes) {
-        title = `오늘 ${formatClock(openMinutes)} 오픈 예정`;
-        caption = `${formatClock(openMinutes)}부터 와플과 커피를 준비합니다.`;
+        title = `오늘은 ${formatKoreanClock(openMinutes)}에 문을 열어요`;
+        caption = `${formatKoreanClock(openMinutes)}부터 와플과 커피를 준비할게요.`;
         stateClass = 'is-pending';
       } else if (minutes >= closeMinutes) {
-        title = '오늘 영업 종료';
-        caption = `내일 다시 만나요. 기본 영업시간은 ${formatClock(openMinutes)} - ${formatClock(closeMinutes)}입니다.`;
+        title = '오늘 영업은 마쳤어요';
+        caption = `내일 다시 만나요~ 기본 영업시간은 ${formatKoreanClock(openMinutes)} - ${formatKoreanClock(closeMinutes)}이에요.`;
         stateClass = 'is-closed';
       }
 
