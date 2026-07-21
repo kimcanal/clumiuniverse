@@ -305,11 +305,51 @@
           <a class="map-photo-link" href="https://map.naver.com/p/search/클루미유니버스" target="_blank"
             rel="noopener noreferrer" data-naver-map-link aria-label="네이버 지도에서 클루미유니버스 보기"
             style="position: relative; display: block;">
-            <!-- 미니맵: 구글 지도 임베드(API 키 불필요). 클릭하면 네이버 지도로 이동합니다. -->
-            <iframe
-              src="https://www.google.com/maps?q=%EC%84%9C%EC%9A%B8%20%EB%A7%88%ED%8F%AC%EA%B5%AC%20%EB%8F%85%EB%A7%89%EB%A1%9C8%EA%B8%B8%2021&output=embed"
-              style="width: 100%; height: 100%; border: 0; pointer-events: none;" loading="lazy"
-              referrerpolicy="no-referrer-when-downgrade" title="클루미유니버스 위치 미니맵"></iframe>
+            <!-- 미니맵: 손그림 스타일 일러스트 지도. 클릭하면 네이버 지도로 이동합니다. -->
+            <svg viewBox="0 0 600 400" preserveAspectRatio="xMidYMid slice"
+              style="position: absolute; inset: 0; width: 100%; height: 100%;" role="img">
+              <title>클루미유니버스 위치 손그림 지도</title>
+              <rect x="0" y="0" width="600" height="400" fill="#fdf3e0"></rect>
+              <path d="M -10 260 C 120 230, 220 300, 340 240 S 520 150, 620 190"
+                fill="none" stroke="#4A3525" stroke-width="14" stroke-linecap="round" opacity="0.16"></path>
+              <path d="M -10 260 C 120 230, 220 300, 340 240 S 520 150, 620 190"
+                fill="none" stroke="#4A3525" stroke-width="6" stroke-linecap="round"
+                stroke-dasharray="1 16" opacity="0.55"></path>
+              <path d="M 300 -10 C 285 90, 330 150, 300 240 S 260 340, 280 410"
+                fill="none" stroke="#4A3525" stroke-width="12" stroke-linecap="round" opacity="0.16"></path>
+              <path d="M 300 -10 C 285 90, 330 150, 300 240 S 260 340, 280 410"
+                fill="none" stroke="#4A3525" stroke-width="5" stroke-linecap="round"
+                stroke-dasharray="1 14" opacity="0.5"></path>
+              <circle cx="130" cy="90" r="30" fill="#c8dfd0" opacity="0.6"></circle>
+              <circle cx="150" cy="105" r="20" fill="#c8dfd0" opacity="0.6"></circle>
+              <g opacity="0.85">
+                <circle cx="470" cy="215" r="17" fill="#03c75a"></circle>
+                <text x="470" y="220" text-anchor="middle" font-family="Pretendard, sans-serif"
+                  font-size="16" font-weight="800" fill="#fff">M</text>
+              </g>
+              <text x="470" y="248" text-anchor="middle" font-family="Pretendard, sans-serif"
+                font-size="15" fill="#7a5a3a" font-weight="700">상수역</text>
+              <text x="100" y="65" font-family="Pretendard, sans-serif" font-size="14"
+                fill="#7a5a3a" font-weight="700">양화진</text>
+              <text x="40" y="245" font-family="Pretendard, sans-serif" font-size="14"
+                fill="#7a5a3a" font-weight="700" transform="rotate(-8 40 245)">독막로</text>
+              <text x="305" y="120" font-family="Pretendard, sans-serif" font-size="13"
+                fill="#7a5a3a" font-weight="700" transform="rotate(6 305 120)">성지1길</text>
+              <circle cx="305" cy="235" r="26" fill="#FFB800" opacity="0.28">
+                <animate attributeName="r" values="22;30;22" dur="2.4s" repeatCount="indefinite"></animate>
+                <animate attributeName="opacity" values="0.32;0.08;0.32" dur="2.4s" repeatCount="indefinite"></animate>
+              </circle>
+              <path d="M 305 165 C 275 165, 255 188, 255 216 C 255 254, 305 300, 305 300 C 305 300, 355 254, 355 216 C 355 188, 335 165, 305 165 Z"
+                fill="#FFB800" stroke="#4A3525" stroke-width="4" stroke-linejoin="round"></path>
+              <circle cx="291" cy="188" r="8" fill="#4A3525" opacity="0.9"></circle>
+              <circle cx="319" cy="188" r="8" fill="#4A3525" opacity="0.9"></circle>
+              <circle cx="305" cy="213" r="20" fill="#fff"></circle>
+              <circle cx="305" cy="213" r="7" fill="#4A3525"></circle>
+              <g font-family="Pretendard, sans-serif">
+                <rect x="215" y="308" width="180" height="34" rx="17" fill="#4A3525"></rect>
+                <text x="305" y="330" text-anchor="middle" font-size="15" font-weight="800" fill="#FFB800">클루미유니버스</text>
+              </g>
+            </svg>
             <span class="map-photo-badge">Naver Map</span>
             <span class="map-photo-cta">길찾기 열기</span>
           </a>
