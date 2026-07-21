@@ -2,12 +2,12 @@
   "merchantId": 238090,
   "merchantName": "스튜디오 미라 (클루미 유니버스)",
   "merchantStatus": "OPEN",
-  "fetchedAt": "2026-07-21T04:15:20.254Z",
+  "fetchedAt": "2026-07-21T21:51:17.143Z",
   "summary": {
     "total": 92,
     "added": 0,
-    "changed": 0,
-    "unchanged": 92,
+    "changed": 1,
+    "unchanged": 91,
     "removed": 0
   },
   "imageSummary": {
@@ -5068,7 +5068,7 @@
       "titleEn": "[100%] Strawberry Juice",
       "description": "100% 딸기가 전하는 순수한 맛:\n오직 신선한 제철 딸기만을 아낌없이 갈아 넣어, 첨가물 없이도 딸기 본연의 달콤하고 상큼한 맛을 완벽하게 즐길 수 있습니다. 한 모금 마실 때마다 입안 가득 퍼지는 신선한 딸기 향을 느껴보세요.",
       "descriptionEn": "100% Pure Taste from Strawberries:\nWe generously blend only the freshest in-season strawberries, so you can perfectly enjoy their natural, sweet, and refreshing taste, completely free of additives. Experience the vibrant, fresh strawberry aroma that fills your mouth with every single sip.",
-      "state": "SOLD_OUT",
+      "state": "ON_SALE",
       "priceValue": 7500,
       "priceTitle": "기본",
       "imageUrl": "https://place-static.tossplace.com/public/live/PUBLIC/2026-05-16/ac9448af-48d7-457d-b7dd-dffe70077851",
@@ -5076,7 +5076,7 @@
         "인기"
       ],
       "optionSets": [],
-      "fingerprint": "a5f7b855c4eafe7efa4f4602075c5f5f89dbedb9c18205fb9a15643a95549b59",
+      "fingerprint": "ca8b9629e4b89cec0955f16b1cff4de6bb2e4f61b90c6bb041578d8759cfee05",
       "imageLocalPath": "data/tossplace-menu/238090/images/6979395-100-딸기주스-759a10f7aa.jpg",
       "imageHash": "759a10f7aac596cc29851495f75b6e5f1f036cea4ec249ca3b8a257b1baac2fc",
       "imageStatus": "skipped-existing-url"
