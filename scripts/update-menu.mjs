@@ -280,6 +280,12 @@ async function main() {
       });
     }
 
+    console.log(dim('\n  → 웹사이트용 경량 메뉴 데이터를 생성하고 설정을 검증합니다.'));
+    execSync('node scripts/generate-site-data.mjs', {
+      cwd: ROOT,
+      stdio: 'inherit',
+    });
+
     // ── STEP 4: 배포 ─────────────────────────────────────────────
     const doDeploy = args.deploy === null
       ? await question(`\n${cyan('STEP 4')}  깃허브에 올리고 배포할까요? ${dim('(y/n, 기본: n)')} `)
