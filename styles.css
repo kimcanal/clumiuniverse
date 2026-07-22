@@ -261,6 +261,7 @@ ul {
 }
 
 .header-actions {
+  grid-column: 3;
   justify-self: end;
   display: flex;
   align-items: center;
@@ -1131,6 +1132,7 @@ ul {
   }
 
   .header-actions {
+    grid-column: 2;
     gap: 0.5rem;
   }
 
