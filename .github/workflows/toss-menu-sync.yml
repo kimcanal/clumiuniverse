@@ -29,14 +29,19 @@ jobs:
       - name: 토스 메뉴 최신화 (기존 스크립트 재사용)
         run: node scripts/fetch-toss-menu.mjs
 
+      - name: 사이트용 메뉴 생성 및 검증
+        run: |
+          node scripts/generate-site-data.mjs
+          node scripts/validate-site.mjs
+
       - name: 변경사항 있으면 자동 커밋 & 푸시
         run: |
           git config user.name "clumi-menu-bot"
           git config user.email "actions@users.noreply.github.com"
-          git add data/tossplace-menu
+          git add data/tossplace-menu data/site-menu.json
           if git diff --cached --quiet; then
             echo "변경된 메뉴 없음 — 커밋 생략"
           else
-            git commit -m "chore: 토스 메뉴 자동 업데이트 [skip ci]"
+            git commit -m "chore: 토스 메뉴 자동 업데이트"
             git push
           fi

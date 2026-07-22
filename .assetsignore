@@ -19,4 +19,5 @@ wrangler.jsonc
 
 # Menu automation helper files not used by the site
 data/tossplace-menu/*/menu.csv
+data/tossplace-menu/*/menu.json
 data/tossplace-menu/*/state.json

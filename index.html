@@ -6,6 +6,8 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>CLUMI UNIVERSE | 합정 프리미엄 와플 카페</title>
   <meta name="description" content="합정과 상수 사이 조용한 골목에서 따뜻한 위로와 작은 휴식을 전하는 감성 카페, 클루미 유니버스입니다.">
+  <meta name="theme-color" content="#1c1c1c">
+  <link rel="canonical" href="https://clumiuniverse.netlify.app/">
 
   <!-- Open Graph (카카오톡 공유 시 미리보기) -->
   <meta property="og:title" content="클루미유니버스 (CLUMI UNIVERSE)">
@@ -14,20 +16,65 @@
     content="https://clumiuniverse.netlify.app/assets/clumi-waffle.jpg">
   <meta property="og:url" content="https://clumiuniverse.netlify.app/">
   <meta property="og:type" content="website">
+  <meta property="og:site_name" content="클루미유니버스">
+  <meta property="og:locale" content="ko_KR">
+  <meta property="og:image:width" content="1440">
+  <meta property="og:image:height" content="1440">
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:title" content="클루미유니버스 | 합정 프리미엄 와플 카페">
+  <meta name="twitter:description" content="합정과 상수 사이 조용한 골목에서 만나는 리에주 와플과 시그니처 디저트.">
+  <meta name="twitter:image" content="https://clumiuniverse.netlify.app/assets/clumi-waffle.jpg">
+
+  <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "CafeOrCoffeeShop",
+      "name": "클루미유니버스",
+      "alternateName": "CLUMI UNIVERSE",
+      "url": "https://clumiuniverse.netlify.app/",
+      "image": "https://clumiuniverse.netlify.app/assets/clumi-waffle.jpg",
+      "telephone": "+82-507-1467-1362",
+      "priceRange": "₩₩",
+      "servesCuisine": ["카페", "리에주 와플", "파르페", "브런치"],
+      "address": {
+        "@type": "PostalAddress",
+        "streetAddress": "독막로8길 21, 1층",
+        "addressLocality": "마포구",
+        "addressRegion": "서울특별시",
+        "addressCountry": "KR"
+      },
+      "openingHoursSpecification": [
+        {
+          "@type": "OpeningHoursSpecification",
+          "dayOfWeek": ["Monday", "Tuesday", "Wednesday", "Thursday", "Friday"],
+          "opens": "09:00",
+          "closes": "23:00"
+        },
+        {
+          "@type": "OpeningHoursSpecification",
+          "dayOfWeek": ["Saturday", "Sunday"],
+          "opens": "10:30",
+          "closes": "23:00"
+        }
+      ],
+      "hasMap": "https://naver.me/F9hNJomf",
+      "sameAs": ["https://www.instagram.com/clumi.universe/"]
+    }
+  </script>
 
   <!-- 파비콘 -->
   <link rel="icon" type="image/svg+xml" href="./assets/clumi-logo.svg">
 
-  <!-- 첫 화면 이미지는 HTML 파싱과 동시에 다운로드합니다. -->
-  <link rel="preload" as="image" href="./assets/bg/6.jpg" fetchpriority="high">
-
-  <!-- 첫 화면 이미지는 HTML 파싱과 동시에 다운로드합니다. -->
-  <link rel="preload" as="image" href="./assets/bg/6.jpg" fetchpriority="high">
+  <!-- 화면 폭에 맞는 첫 화면 이미지를 HTML 파싱과 동시에 다운로드합니다. -->
+  <link rel="preload" as="image" type="image/webp" href="./assets/bg/6-1440.webp"
+    imagesrcset="./assets/bg/6-720.webp 720w, ./assets/bg/6-1440.webp 1440w" imagesizes="100vw" fetchpriority="high">
 
   <link rel="stylesheet" href="./styles.css">
 </head>
 
 <body>
+
+  <a class="skip-link" href="#main-content">본문으로 바로가기</a>
 
   <!-- ============================================================
        HEADER
@@ -36,7 +83,7 @@
     <a href="#home" class="brand-logo" aria-label="클루미 유니버스 홈">
       <img src="./assets/clumi-logo.svg" alt="" width="52" height="52">
     </a>
-    <nav class="nav-links">
+    <nav class="nav-links" id="primaryNav" aria-label="주요 메뉴">
       <a href="#menu">Menu</a>
       <a href="#about">About</a>
       <a href="#gallery">Gallery</a>
@@ -53,15 +100,26 @@
           <line x1="17.5" y1="6.5" x2="17.51" y2="6.5"></line>
         </svg>
       </a>
+      <button class="nav-toggle" type="button" aria-expanded="false" aria-controls="primaryNav"
+        aria-label="메뉴 열기">
+        <span></span>
+        <span></span>
+        <span></span>
+      </button>
     </div>
   </header>
 
   <!-- ============================================================
        HERO
        ============================================================ -->
+  <main id="main-content">
   <section class="hero" id="home">
     <div class="hero-bg">
-      <img src="./assets/bg/6.jpg" alt="클루미유니버스 매장 전경" fetchpriority="high" decoding="async">
+      <picture>
+        <source type="image/webp" srcset="./assets/bg/6-720.webp 720w, ./assets/bg/6-1440.webp 1440w"
+          sizes="100vw">
+        <img src="./assets/bg/6.jpg" alt="클루미유니버스 매장 전경" fetchpriority="high" decoding="async">
+      </picture>
     </div>
     <div class="hero-overlay"></div>
     <div class="hero-content reveal">
@@ -99,7 +157,8 @@
             <polyline points="15 18 9 12 15 6"></polyline>
           </svg>
         </button>
-        <div class="menu-scroller" id="menuScroller">
+        <div class="menu-scroller" id="menuScroller" role="tabpanel" aria-labelledby="menu-tab-featured"
+          tabindex="0">
           <!-- 메뉴 카드는 JS가 data/featured.json을 읽어 자동 생성합니다 -->
         </div>
         <button class="scroll-arrow scroll-arrow-next" id="menuNext" aria-label="다음">
@@ -183,7 +242,7 @@
           <div class="gallery-overlay"><span>Clumi's Universe</span></div>
         </div>
         <div class="gallery-item reveal" style="transition-delay: 0.2s;">
-          <img src="./assets/clumi-waffle.jpg" alt="딸기왕창와플" class="lightbox-trigger" data-menu-image-id="9820365" loading="lazy" decoding="async">
+          <img src="./assets/clumi-waffle.jpg" alt="딸기왕창와플" class="lightbox-trigger" loading="lazy" decoding="async">
           <div class="gallery-overlay"><span>딸기왕창와플</span></div>
         </div>
         <div class="gallery-item reveal">
@@ -384,8 +443,13 @@
             rel="noopener noreferrer" data-naver-map-link aria-label="네이버 지도에서 클루미유니버스 보기"
             style="position: relative; display: block;">
             <!-- 미니맵: 손그림 스타일 일러스트 지도. 클릭하면 네이버 지도로 이동합니다. -->
-            <img src="./assets/Gemini_Generated_Image_djjxlcdjjxlcdjjx.png" alt="클루미유니버스 손그림 지도"
-              loading="lazy" decoding="async">
+            <picture>
+              <source type="image/webp"
+                srcset="./assets/clumi-map-720.webp 720w, ./assets/clumi-map-1200.webp 1200w"
+                sizes="(max-width: 992px) 90vw, 560px">
+              <img src="./assets/Gemini_Generated_Image_djjxlcdjjxlcdjjx.png" alt="클루미유니버스 손그림 지도"
+                loading="lazy" decoding="async">
+            </picture>
             <span class="map-photo-badge">Naver Map</span>
             <span class="map-photo-cta">길찾기 열기</span>
           </a>
@@ -393,6 +457,7 @@
       </div>
     </div>
   </section>
+  </main>
 
   <!-- ============================================================
        FOOTER
@@ -415,21 +480,22 @@
   <!-- ============================================================
        MOBILE CTA (고정 하단 바)
        ============================================================ -->
-  <div class="mobile-cta">
+  <nav class="mobile-cta" aria-label="빠른 작업">
     <div class="mobile-cta-inner">
       <a href="https://store.tossplace.com/order/238090" target="_blank" rel="noopener noreferrer"
         class="btn btn-primary">픽업 주문</a>
       <a href="https://naver.me/F9hNJomf" target="_blank" rel="noopener noreferrer" class="btn btn-dark">매장
         길찾기</a>
     </div>
-  </div>
+  </nav>
 
   <!-- Interactive Floating Character -->
-  <img src="./assets/clumi-character-cutout.png" alt="클루미" class="floating-clumi" loading="lazy" decoding="async">
+  <img src="./assets/clumi-character-cutout.png" alt="" aria-hidden="true" class="floating-clumi" loading="lazy" decoding="async">
 
   <!-- Lightbox -->
-  <div id="lightbox" class="lightbox">
-    <span class="lightbox-close">&times;</span>
+  <div id="lightbox" class="lightbox" role="dialog" aria-modal="true" aria-label="확대 이미지"
+    aria-hidden="true">
+    <button type="button" class="lightbox-close" aria-label="확대 이미지 닫기">&times;</button>
     <img class="lightbox-content" id="lightbox-img" alt="">
   </div>
 
@@ -439,9 +505,29 @@
   <script>
     // ── 1. Sticky Header ─────────────────────────────────────────
     const header = document.getElementById('header');
+    const primaryNav = document.getElementById('primaryNav');
+    const navToggle = document.querySelector('.nav-toggle');
+
+    function setMobileNav(open) {
+      primaryNav.classList.toggle('is-open', open);
+      navToggle.setAttribute('aria-expanded', String(open));
+      navToggle.setAttribute('aria-label', open ? '메뉴 닫기' : '메뉴 열기');
+      document.body.classList.toggle('nav-open', open);
+    }
+
+    navToggle.addEventListener('click', () => {
+      setMobileNav(navToggle.getAttribute('aria-expanded') !== 'true');
+    });
+    primaryNav.addEventListener('click', event => {
+      if (event.target.closest('a')) setMobileNav(false);
+    });
+    window.addEventListener('resize', () => {
+      if (window.innerWidth > 768) setMobileNav(false);
+    }, { passive: true });
+
     window.addEventListener('scroll', () => {
       header.classList.toggle('scrolled', window.scrollY > 50);
-    });
+    }, { passive: true });
 
     // ── 2. Scroll Reveal ─────────────────────────────────────────
     const revealObserver = new IntersectionObserver((entries, obs) => {
@@ -464,7 +550,7 @@
       mobileCta.classList.toggle('is-visible', isPastHero);
       if (floatingClumi) floatingClumi.classList.toggle('is-visible', isPastHero);
     }
-    window.addEventListener('scroll', syncFixedElements);
+    window.addEventListener('scroll', syncFixedElements, { passive: true });
     syncFixedElements();
 
     // ── 4. Menu Scroller (화살표 + 드래그) ───────────────────────
@@ -499,9 +585,9 @@
       phone: `<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07A19.5 19.5 0 0 1 4.69 13a19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 3.56 2h3a2 2 0 0 1 2 1.72c.127.96.361 1.903.7 2.81a2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45c.907.339 1.85.573 2.81.7A2 2 0 0 1 22 16.92z"></path></svg>`
     };
 
-    // fetch-toss-menu.mjs 실행 결과 경로 (data/tossplace-menu/238090/menu.json)
-    const MENU_JSON_PATH = './data/tossplace-menu/238090/menu.json';
-    const HIDDEN_MENU_ITEMS_PATH = './data/hidden-menu-items.json';
+    // 원본 메뉴에서 화면에 필요한 필드만 추린 경량 데이터입니다.
+    const MENU_JSON_PATH = './data/site-menu.json';
+    const ORDER_URL = 'https://store.tossplace.com/order/238090';
     const MENU_TABS = [
       { key: 'featured', label: '추천' },
       { key: 'popular', label: '인기' },
@@ -532,6 +618,11 @@
       return escapeHtml(value).replace(/\n/g, '<br>');
     }
 
+    function formatPrice(value) {
+      const price = Number(value);
+      return Number.isFinite(price) && price > 0 ? `${price.toLocaleString('ko-KR')}원` : '';
+    }
+
     function safeLocalAssetPath(value) {
       const rawPath = String(value || '').trim();
       if (!rawPath) return '';
@@ -555,16 +646,6 @@
       return fetch(path)
         .then(response => response.ok ? response.json() : fallback)
         .catch(() => fallback);
-    }
-
-    function getHiddenMenuItemIds(hiddenItems) {
-      return new Set((Array.isArray(hiddenItems) ? hiddenItems : [])
-        .map(item => Number(typeof item === 'object' ? item.id : item))
-        .filter(Number.isFinite));
-    }
-
-    function isHiddenMenuItem(item, hiddenIds) {
-      return hiddenIds.has(Number(item?.id));
     }
 
     function getLabelName(label) {
@@ -729,11 +810,10 @@
     Promise.all([
       fetchJson('./data/featured.json', []),
       fetchJson(MENU_JSON_PATH, { items: [] }),
-      fetchJson(HIDDEN_MENU_ITEMS_PATH, []),
       fetchJson('./data/reviews.json', []),
       fetchJson('./data/store-info.json', {}),
       fetchJson('./data/instagram.json', { posts: [] })
-    ]).then(([featured, menuData, hiddenItems, reviews, storeInfo, instagram]) => {
+    ]).then(([featured, menuData, reviews, storeInfo, instagram]) => {
 
       // ── Instagram: API가 저장한 최신 피드를 렌더링 ─────────────
       const instagramGrid = document.getElementById('instagramGrid');
@@ -748,21 +828,13 @@
       }
 
       // ── 5-A. 메뉴 섹션 렌더링 ──────────────────────────────────
-      // fetch-toss-menu.mjs 포맷: items[].id (숫자), items[].imageLocalPath
-      // 구 포맷 폴백: items[].localImagePath (문자열 slug)
+      // generate-site-data.mjs 포맷: 화면에 필요한 메뉴 필드만 포함합니다.
       const allItems = Array.isArray(menuData.items) ? menuData.items : [];
-      const hiddenMenuItemIds = getHiddenMenuItemIds(hiddenItems);
-      const visibleItems = allItems.filter(item => !isHiddenMenuItem(item, hiddenMenuItemIds));
+      const visibleItems = allItems;
       const featuredIds = Array.isArray(featured) ? featured : [];
       syncMenuDrivenImages(allItems);
 
-      const featuredItems = featuredIds.map(id => {
-        // 새 포맷: numeric id 매칭
-        const match = findMenuItemById(allItems, id);
-        if (match) return match;
-        // 구 포맷 폴백: slug 문자열 매칭
-        return allItems.find(item => (item.localImagePath || '').includes(String(id))) || null;
-      }).filter(Boolean).filter(item => !isHiddenMenuItem(item, hiddenMenuItemIds));
+      const featuredItems = featuredIds.map(id => findMenuItemById(allItems, id)).filter(Boolean);
 
       const menuScroller = document.getElementById('menuScroller');
       const menuTabs = document.getElementById('menuTabs');
@@ -779,14 +851,20 @@
 
       function renderMenuCards(tabKey) {
         const tabItems = getMenuTabItems(tabKey, visibleItems, featuredItems);
+        if (!tabItems.length) {
+          menuScroller.innerHTML = '<p class="menu-empty" role="status">현재 표시할 메뉴가 없습니다.</p>';
+          return;
+        }
+
         menuScroller.innerHTML = tabItems.map((item, i) => {
           const imgSrc = getMenuImageSrc(item) || './assets/clumi-waffle.jpg';
           const name = item.title || '메뉴';
           const desc = item.description || '';
+          const price = formatPrice(item.priceValue);
           const category = item.categoryTitleEn || item.categoryEn || item.categoryTitle || 'Menu';
           const delay = Number((i * 0.06).toFixed(2));
           const badges = getMenuBadgeLabels(item);
-          const isClumiPick = name.match(/에이드|파르페|라떼|포레누아/);
+          const isClumiPick = /^\[(?:시그니처|클루미)\]/.test(name);
           return `
             <article class="menu-card reveal" style="transition-delay:${delay}s;">
               ${badges.length ? `
@@ -800,6 +878,11 @@
                 <span class="eyebrow">${escapeHtml(category)}</span>
                 <h3>${escapeHtml(name)}${isClumiPick ? '<span class="clumi-badge">🐰 Clumi\'s Pick</span>' : ''}</h3>
                 ${desc ? `<p>${formatText(desc)}</p>` : ''}
+                <div class="menu-card-footer">
+                  ${price ? `<strong class="menu-price">${escapeHtml(price)}</strong>` : '<span></span>'}
+                  <a class="menu-order-link" href="${ORDER_URL}" target="_blank" rel="noopener noreferrer"
+                    aria-label="${escapeHtml(name)} 주문하기">주문하기</a>
+                </div>
               </div>
             </article>`;
         }).join('');
@@ -808,22 +891,45 @@
 
       menuTabs.innerHTML = MENU_TABS.map(tab => `
         <button type="button" class="menu-tab${tab.key === 'featured' ? ' is-active' : ''}" role="tab"
-          aria-selected="${tab.key === 'featured'}" data-menu-tab="${escapeHtml(tab.key)}">
+          id="menu-tab-${escapeHtml(tab.key)}" aria-controls="menuScroller"
+          aria-selected="${tab.key === 'featured'}" tabindex="${tab.key === 'featured' ? '0' : '-1'}"
+          data-menu-tab="${escapeHtml(tab.key)}">
           ${escapeHtml(tab.label)}
         </button>`).join('');
 
-      menuTabs.addEventListener('click', event => {
-        const button = event.target.closest('[data-menu-tab]');
-        if (!button) return;
-
+      function activateMenuTab(button, { focus = false } = {}) {
         menuTabs.querySelectorAll('.menu-tab').forEach(tabButton => {
           const isActive = tabButton === button;
           tabButton.classList.toggle('is-active', isActive);
           tabButton.setAttribute('aria-selected', String(isActive));
+          tabButton.tabIndex = isActive ? 0 : -1;
         });
 
+        menuScroller.setAttribute('aria-labelledby', button.id);
         renderMenuCards(button.dataset.menuTab);
         menuScroller.scrollTo({ left: 0, behavior: 'smooth' });
+        if (focus) button.focus();
+      }
+
+      menuTabs.addEventListener('click', event => {
+        const button = event.target.closest('[data-menu-tab]');
+        if (!button) return;
+        activateMenuTab(button);
+      });
+
+      menuTabs.addEventListener('keydown', event => {
+        if (!['ArrowLeft', 'ArrowRight', 'Home', 'End'].includes(event.key)) return;
+        const tabs = [...menuTabs.querySelectorAll('.menu-tab')];
+        const currentIndex = tabs.indexOf(event.target);
+        if (currentIndex < 0) return;
+
+        event.preventDefault();
+        let nextIndex = currentIndex;
+        if (event.key === 'ArrowRight') nextIndex = (currentIndex + 1) % tabs.length;
+        if (event.key === 'ArrowLeft') nextIndex = (currentIndex - 1 + tabs.length) % tabs.length;
+        if (event.key === 'Home') nextIndex = 0;
+        if (event.key === 'End') nextIndex = tabs.length - 1;
+        activateMenuTab(tabs[nextIndex], { focus: true });
       });
 
       renderMenuCards('featured');
@@ -900,18 +1006,52 @@
     const lightbox = document.getElementById('lightbox');
     const lightboxImg = document.getElementById('lightbox-img');
     const lightboxClose = document.querySelector('.lightbox-close');
+    let lastLightboxTrigger = null;
+
+    function openLightbox(img) {
+      lastLightboxTrigger = img;
+      lightboxImg.src = img.currentSrc || img.src;
+      lightboxImg.alt = img.alt || '';
+      lightbox.classList.add('show');
+      lightbox.setAttribute('aria-hidden', 'false');
+      document.body.classList.add('lightbox-open');
+      requestAnimationFrame(() => lightboxClose.focus());
+    }
+
+    function closeLightbox() {
+      if (!lightbox.classList.contains('show')) return;
+      lightbox.classList.remove('show');
+      lightbox.setAttribute('aria-hidden', 'true');
+      document.body.classList.remove('lightbox-open');
+      lightboxImg.removeAttribute('src');
+      lastLightboxTrigger?.focus();
+    }
 
     document.querySelectorAll('.lightbox-trigger').forEach(img => {
-      img.addEventListener('click', () => {
-        lightboxImg.src = img.src;
-        lightboxImg.alt = img.alt || '';
-        lightbox.classList.add('show');
+      img.setAttribute('role', 'button');
+      img.setAttribute('tabindex', '0');
+      img.setAttribute('aria-label', `${img.alt || '이미지'} 크게 보기`);
+      img.addEventListener('click', () => openLightbox(img));
+      img.addEventListener('keydown', event => {
+        if (event.key !== 'Enter' && event.key !== ' ') return;
+        event.preventDefault();
+        openLightbox(img);
       });
     });
 
-    lightboxClose.addEventListener('click', () => lightbox.classList.remove('show'));
+    lightboxClose.addEventListener('click', closeLightbox);
     lightbox.addEventListener('click', (e) => {
-      if (e.target !== lightboxImg) lightbox.classList.remove('show');
+      if (e.target === lightbox) closeLightbox();
+    });
+    document.addEventListener('keydown', event => {
+      if (event.key === 'Escape') {
+        setMobileNav(false);
+        closeLightbox();
+      }
+      if (event.key === 'Tab' && lightbox.classList.contains('show')) {
+        event.preventDefault();
+        lightboxClose.focus();
+      }
     });
 
   </script>

@@ -1,0 +1,29 @@
+name: 사이트 품질 검사
+
+on:
+  pull_request:
+  push:
+    branches:
+      - main
+
+permissions:
+  contents: read
+
+jobs:
+  validate:
+    runs-on: ubuntu-latest
+    timeout-minutes: 5
+    steps:
+      - name: 저장소 체크아웃
+        uses: actions/checkout@v4
+
+      - name: Node.js 설정
+        uses: actions/setup-node@v4
+        with:
+          node-version: '20'
+
+      - name: 생성 데이터 최신 상태 확인
+        run: node scripts/generate-site-data.mjs --check
+
+      - name: HTML과 메뉴 연결 검증
+        run: node scripts/validate-site.mjs

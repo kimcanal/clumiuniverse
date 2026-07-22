@@ -18,8 +18,10 @@
 - 추천, 인기, 신규, 와플, 브런치, 커피, 디저트, 음료별 메뉴 탐색
 - 네이버 지도 기반 매장 소개, 주소, 영업시간, 전화 연결
 - 네이버 리뷰 하이라이트와 토스 픽업 주문 연결
+- 메뉴 카드 가격 표시와 메뉴별 주문 버튼
+- 키보드 메뉴 탭, 모바일 탐색 메뉴, 접근 가능한 이미지 확대 보기
 - 데스크톱과 모바일에 대응하는 반응형 단일 페이지
-- Netlify 장기 브라우저 캐시와 화면 밖 이미지 지연 로딩
+- 반응형 WebP 이미지, 경량 메뉴 데이터, Netlify 장기 브라우저 캐시
 
 ## 데이터 운영 현황
 
@@ -28,6 +30,7 @@
 | 메뉴·가격·이미지 | [토스오더](https://store.tossplace.com/order/238090) | GitHub Actions 자동 동기화 | 매일 KST 06:00 + 수동 실행 |
 | 추천 메뉴 | `data/featured.json` | 메뉴 ID를 직접 선택 | 필요할 때 |
 | 숨김 메뉴 | `data/hidden-menu-items.json` | 노출하지 않을 메뉴 ID 관리 | 필요할 때 |
+| 웹 표시용 메뉴 | `data/site-menu.json` | 원본 메뉴에서 자동 생성 | 메뉴 변경 시 |
 | 매장 소개·영업시간 | [네이버 지도](https://naver.me/F9hNJomf) | `data/store-info.json` 수동 관리 | 정보 변경 시 |
 | 리뷰 하이라이트 | 네이버 방문자 리뷰 | `data/reviews.json` 수동 관리 | 필요할 때 |
 | Instagram | [@clumi.universe](https://www.instagram.com/clumi.universe/) | 승인된 게시물과 이미지 추가 | 새 게시물 반영 시 |
@@ -43,6 +46,8 @@ GitHub Actions · 매일 KST 06:00
         ↓
 menu.json · menu.csv · 메뉴 이미지
         ↓
+추천 ID 검증 · site-menu.json 생성
+        ↓
 main 브랜치 커밋
         ↓
 Netlify 자동 배포
@@ -54,6 +59,7 @@ Netlify 자동 배포
 
 ```bash
 node scripts/fetch-toss-menu.mjs
+node scripts/generate-site-data.mjs
 ```
 
 이미지 다운로드 없이 데이터만 확인할 수도 있습니다.
@@ -79,6 +85,8 @@ node scripts/update-menu.mjs --no-fetch --keep --no-deploy
 ```
 
 `인기`와 `신규` 탭은 토스 메뉴의 `labels` 값을 자동으로 읽습니다. 소스, 옵션, 굿즈처럼 홈페이지 메뉴 카드에 어울리지 않는 항목은 `data/hidden-menu-items.json`에 ID를 추가해 숨깁니다.
+
+`generate-site-data.mjs`는 추천 메뉴 ID와 로컬 이미지 경로를 검증한 뒤, 웹 화면에서 사용하지 않는 옵션·해시·원본 응답 필드를 제거한 `data/site-menu.json`을 만듭니다. 추천 ID가 최신 메뉴에서 사라지면 자동 배포를 중단합니다.
 
 ## 매장 정보와 Instagram 수정
 
@@ -124,6 +132,13 @@ python3 -m http.server 8000
 
 브라우저에서 `http://localhost:8000`을 열면 됩니다. `file://`로 직접 열면 JSON `fetch`가 차단될 수 있으므로 로컬 서버를 사용합니다.
 
+배포 전 데이터와 HTML 연결 상태를 확인하려면 다음 명령을 실행합니다.
+
+```bash
+node scripts/generate-site-data.mjs --check
+node scripts/validate-site.mjs
+```
+
 ## 배포
 
 프로덕션 주소는 <https://clumiuniverse.netlify.app/>입니다. `main` 브랜치가 갱신되면 Netlify가 저장소 루트를 정적 자산으로 자동 배포합니다.
@@ -143,7 +158,9 @@ git push origin main
 
 ```text
 clumiuniverse/
-├── .github/workflows/toss-menu-sync.yml
+├── .github/workflows/
+│   ├── site-checks.yml
+│   └── toss-menu-sync.yml
 ├── docs/screenshots/
 ├── index.html
 ├── styles.css
@@ -157,6 +174,7 @@ clumiuniverse/
 │   ├── hidden-menu-items.json
 │   ├── instagram.json
 │   ├── reviews.json
+│   ├── site-menu.json
 │   ├── store-info.json
 │   └── tossplace-menu/238090/
 │       ├── menu.json
@@ -165,6 +183,8 @@ clumiuniverse/
 │       └── images/
 └── scripts/
     ├── fetch-toss-menu.mjs
+    ├── generate-site-data.mjs
     ├── update-instagram.mjs
-    └── update-menu.mjs
+    ├── update-menu.mjs
+    └── validate-site.mjs
 ```

@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://clumiuniverse.netlify.app/sitemap.xml

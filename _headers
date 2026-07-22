@@ -1,6 +1,11 @@
 /*
   Cache-Control: public, max-age=0, must-revalidate
   Netlify-CDN-Cache-Control: public, max-age=60, stale-while-revalidate=300
+  X-Content-Type-Options: nosniff
+  X-Frame-Options: DENY
+  Referrer-Policy: strict-origin-when-cross-origin
+  Permissions-Policy: camera=(), microphone=(), geolocation=()
+  Cross-Origin-Opener-Policy: same-origin
 
 /assets/*
   Cache-Control: public, max-age=86400, stale-while-revalidate=604800
