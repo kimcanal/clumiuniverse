@@ -455,33 +455,6 @@ ul {
   60% { transform: translateY(-5px) translateX(-50%); }
 }
 
-/* Brand Poster */
-.brand-poster-section {
-  padding: clamp(3rem, 6vw, 5.5rem) 5%;
-  background: linear-gradient(180deg, #F0E6DC 0%, var(--color-bg-light) 100%);
-}
-
-.brand-poster-shell {
-  max-width: 1120px;
-  margin: 0 auto;
-}
-
-.brand-poster {
-  padding: clamp(0.45rem, 0.8vw, 0.75rem);
-  overflow: hidden;
-  border: 1px solid rgba(74, 53, 37, 0.14);
-  border-radius: clamp(18px, 2.2vw, 30px);
-  background: rgba(255, 255, 255, 0.78);
-  box-shadow: 0 28px 70px rgba(74, 53, 37, 0.18);
-}
-
-.brand-poster img {
-  width: 100%;
-  aspect-ratio: 1200 / 630;
-  object-fit: cover;
-  border-radius: clamp(12px, 1.7vw, 22px);
-}
-
 /* Sections Base */
 .section {
   padding: var(--spacing-xl) 5%;
