@@ -593,7 +593,6 @@
 
     // 원본 메뉴에서 화면에 필요한 필드만 추린 경량 데이터입니다.
     const MENU_JSON_PATH = './data/site-menu.json';
-    const ORDER_URL = 'https://store.tossplace.com/order/238090';
     const MENU_TABS = [
       { key: 'featured', label: '추천' },
       { key: 'popular', label: '인기' },
@@ -622,11 +621,6 @@
 
     function formatText(value) {
       return escapeHtml(value).replace(/\n/g, '<br>');
-    }
-
-    function formatPrice(value) {
-      const price = Number(value);
-      return Number.isFinite(price) && price > 0 ? `${price.toLocaleString('ko-KR')}원` : '';
     }
 
     function safeLocalAssetPath(value) {
@@ -866,7 +860,6 @@
           const imgSrc = getMenuImageSrc(item) || './assets/clumi-waffle.jpg';
           const name = item.title || '메뉴';
           const desc = item.description || '';
-          const price = formatPrice(item.priceValue);
           const category = item.categoryTitleEn || item.categoryEn || item.categoryTitle || 'Menu';
           const delay = Number((i * 0.06).toFixed(2));
           const badges = getMenuBadgeLabels(item);
@@ -884,11 +877,6 @@
                 <span class="eyebrow">${escapeHtml(category)}</span>
                 <h3>${escapeHtml(name)}${isClumiPick ? '<span class="clumi-badge">🐰 Clumi\'s Pick</span>' : ''}</h3>
                 ${desc ? `<p>${formatText(desc)}</p>` : ''}
-                <div class="menu-card-footer">
-                  ${price ? `<strong class="menu-price">${escapeHtml(price)}</strong>` : '<span></span>'}
-                  <a class="menu-order-link" href="${ORDER_URL}" target="_blank" rel="noopener noreferrer"
-                    aria-label="${escapeHtml(name)} 주문하기">주문하기</a>
-                </div>
               </div>
             </article>`;
         }).join('');
