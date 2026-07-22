@@ -13,17 +13,19 @@
   <meta property="og:title" content="클루미유니버스 (CLUMI UNIVERSE)">
   <meta property="og:description" content="구름토끼 클루미의 작은 우주에서 만나는 파티시에 케이크, 벨기에 리에주 와플과 삿포로 파르페.">
   <meta property="og:image"
-    content="https://clumiuniverse.netlify.app/assets/clumi-waffle.jpg">
+    content="https://clumiuniverse.netlify.app/assets/og-clumi-universe.jpg">
+  <meta property="og:image:alt" content="클루미 캐릭터와 리에주 와플이 함께 있는 클루미유니버스 브랜드 이미지">
   <meta property="og:url" content="https://clumiuniverse.netlify.app/">
   <meta property="og:type" content="website">
   <meta property="og:site_name" content="클루미유니버스">
   <meta property="og:locale" content="ko_KR">
-  <meta property="og:image:width" content="1440">
-  <meta property="og:image:height" content="1440">
+  <meta property="og:image:width" content="1200">
+  <meta property="og:image:height" content="630">
   <meta name="twitter:card" content="summary_large_image">
   <meta name="twitter:title" content="클루미유니버스 | 합정 프리미엄 와플 카페">
   <meta name="twitter:description" content="합정 골목에서 만나는 파티시에 케이크, 리에주 와플, 삿포로 파르페와 엄선한 커피·티.">
-  <meta name="twitter:image" content="https://clumiuniverse.netlify.app/assets/clumi-waffle.jpg">
+  <meta name="twitter:image" content="https://clumiuniverse.netlify.app/assets/og-clumi-universe.jpg">
+  <meta name="twitter:image:alt" content="클루미 캐릭터와 리에주 와플이 함께 있는 클루미유니버스 브랜드 이미지">
 
   <script type="application/ld+json">
     {
@@ -32,7 +34,7 @@
       "name": "클루미유니버스",
       "alternateName": "CLUMI UNIVERSE",
       "url": "https://clumiuniverse.netlify.app/",
-      "image": "https://clumiuniverse.netlify.app/assets/clumi-waffle.jpg",
+      "image": "https://clumiuniverse.netlify.app/assets/og-clumi-universe.jpg",
       "telephone": "+82-507-1467-1362",
       "priceRange": "₩₩",
       "servesCuisine": ["카페", "리에주 와플", "삿포로 파르페", "수제 케이크", "커피", "티"],
@@ -73,6 +75,11 @@
   <link rel="preload" as="image" type="image/webp" href="./assets/bg/6-1440.webp"
     imagesrcset="./assets/bg/6-720.webp 720w, ./assets/bg/6-1440.webp 1440w" imagesizes="100vw" fetchpriority="high">
 
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link rel="preconnect" href="https://cdn.jsdelivr.net" crossorigin>
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;500;600;700&display=swap">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/orioncactus/pretendard/dist/web/static/pretendard.css">
   <link rel="stylesheet" href="./styles.css">
 </head>
 
@@ -96,7 +103,7 @@
     </nav>
     <div class="header-actions">
       <a href="https://www.instagram.com/clumi.universe/" target="_blank" rel="noopener noreferrer" class="social-icon"
-        aria-label="Instagram">
+        aria-label="Instagram" data-track="instagram_header">
         <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none"
           stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
           <rect x="2" y="2" width="20" height="20" rx="5" ry="5"></rect>
@@ -130,9 +137,9 @@
       <h1 class="hero-title">CLUMI <span>UNIVERSE</span></h1>
       <p class="hero-subtitle">합정 골목에서 만나는 달콤한 작은 우주.<br>리에주 와플, 파티시에 케이크와 삿포로 파르페.</p>
       <div class="hero-buttons">
-        <a href="https://store.tossplace.com/order/238090" target="_blank" rel="noopener noreferrer"
+        <a href="https://store.tossplace.com/order/238090" target="_blank" rel="noopener noreferrer" data-track="pickup_hero"
           class="btn btn-primary">픽업 주문하기</a>
-        <a href="https://naver.me/F9hNJomf" target="_blank" rel="noopener noreferrer" class="btn btn-outline">네이버 리뷰
+        <a href="https://naver.me/F9hNJomf" target="_blank" rel="noopener noreferrer" class="btn btn-outline" data-track="naver_reviews_hero">네이버 리뷰
           보기</a>
       </div>
     </div>
@@ -174,7 +181,7 @@
       </div>
 
       <div class="reveal" style="text-align: center; margin-top: 4rem;">
-        <a href="https://store.tossplace.com/order/238090" target="_blank" rel="noopener noreferrer"
+        <a href="https://store.tossplace.com/order/238090" target="_blank" rel="noopener noreferrer" data-track="menu_full"
           class="btn btn-primary btn-pulse" style="font-size: 1.125rem; padding: 1.2rem 3rem;">
           전체 메뉴 보기
         </a>
@@ -189,7 +196,7 @@
   <section class="section about" id="about">
     <div class="section-inner about-grid">
       <div class="about-image reveal">
-        <img src="./assets/clumi-character-clean.jpg" alt="클루미 캐릭터" loading="lazy" decoding="async">
+        <img src="./assets/clumi-character-clean.webp" alt="클루미 캐릭터" loading="lazy" decoding="async">
         <div class="about-badge">Hello!<br>I'm Clumi</div>
       </div>
       <div class="about-content reveal">
@@ -230,7 +237,7 @@
           <span class="eyebrow">Moments</span>
           <h2 class="section-title">매장 내부</h2>
         </div>
-        <a href="https://www.instagram.com/clumi.universe/" target="_blank" rel="noopener noreferrer"
+        <a href="https://www.instagram.com/clumi.universe/" target="_blank" rel="noopener noreferrer" data-track="instagram_gallery"
           class="btn btn-outline" style="color: var(--color-text-main); border-color: var(--color-text-main);">
           인스타그램 더보기
         </a>
@@ -238,27 +245,27 @@
 
       <div class="gallery-grid">
         <div class="gallery-item reveal">
-          <img src="./assets/bg/1.jpg" alt="매장 전경" class="lightbox-trigger" loading="lazy" decoding="async">
+          <img src="./assets/bg/1.webp" alt="매장 전경" class="lightbox-trigger" loading="lazy" decoding="async">
           <div class="gallery-overlay"><span>Our Space</span></div>
         </div>
         <div class="gallery-item reveal" style="transition-delay: 0.1s;">
-          <img src="./assets/characters/clumi-calendar-jan.jpg" alt="클루미 캐릭터" class="lightbox-trigger" loading="lazy" decoding="async">
+          <img src="./assets/characters/clumi-calendar-jan.webp" alt="클루미 캐릭터" class="lightbox-trigger" loading="lazy" decoding="async">
           <div class="gallery-overlay"><span>Clumi's Universe</span></div>
         </div>
         <div class="gallery-item reveal" style="transition-delay: 0.2s;">
-          <img src="./assets/clumi-waffle.jpg" alt="딸기왕창와플" class="lightbox-trigger" loading="lazy" decoding="async">
+          <img src="./assets/clumi-waffle.webp" alt="딸기왕창와플" class="lightbox-trigger" loading="lazy" decoding="async">
           <div class="gallery-overlay"><span>딸기왕창와플</span></div>
         </div>
         <div class="gallery-item reveal">
-          <img src="./assets/bg/4.jpg" alt="따뜻한 분위기" class="lightbox-trigger" loading="lazy" decoding="async">
+          <img src="./assets/bg/4.webp" alt="따뜻한 분위기" class="lightbox-trigger" loading="lazy" decoding="async">
           <div class="gallery-overlay"><span>Warm Vibe</span></div>
         </div>
         <div class="gallery-item reveal" style="transition-delay: 0.1s;">
-          <img src="./assets/characters/clumi-windy-drink.jpg" alt="윈디 포션" class="lightbox-trigger" loading="lazy" decoding="async">
+          <img src="./assets/characters/clumi-windy-drink.webp" alt="윈디 포션" class="lightbox-trigger" loading="lazy" decoding="async">
           <div class="gallery-overlay"><span>Emotion Potion: Windy</span></div>
         </div>
         <div class="gallery-item reveal" style="transition-delay: 0.2s;">
-          <img src="./assets/clumi-parfait.jpg" alt="딸기포레누아" class="lightbox-trigger" data-menu-image-id="10641666" loading="lazy" decoding="async">
+          <img src="./assets/clumi-parfait.webp" alt="딸기포레누아" class="lightbox-trigger" data-menu-image-id="10641666" loading="lazy" decoding="async">
           <div class="gallery-overlay"><span>딸기포레누아</span></div>
         </div>
       </div>
@@ -272,9 +279,9 @@
   <section class="section reviews" id="reviews">
     <div class="section-inner reviews-showcase">
       <div class="reviews-visual">
-        <img src="./assets/clumi-waffle.jpg" alt="클루미유니버스 클래식 리에주 와플"
+        <img src="./assets/clumi-waffle.webp" alt="클루미유니버스 클래식 리에주 와플"
           class="reviews-visual-main lightbox-trigger" loading="lazy" decoding="async" data-menu-image-id="7735791">
-        <img src="./assets/clumi-waffle-menu.jpg" alt="클루미유니버스 블루베리 크림치즈 와플"
+        <img src="./assets/clumi-waffle-menu.webp" alt="클루미유니버스 블루베리 크림치즈 와플"
           class="reviews-visual-thumb lightbox-trigger" loading="lazy" decoding="async" data-menu-image-id="7735937">
         <div class="waffle-note">
           <span>Fresh Liege Waffles</span>
@@ -305,9 +312,9 @@
         <div class="reviews-grid" id="reviewsGrid"></div>
 
         <div class="reviews-actions">
-          <a href="https://naver.me/F9hNJomf" target="_blank" rel="noopener noreferrer" class="btn btn-outline">네이버
+          <a href="https://naver.me/F9hNJomf" target="_blank" rel="noopener noreferrer" class="btn btn-outline" data-track="naver_reviews">네이버
             리뷰 전체 보기</a>
-          <a href="https://store.tossplace.com/order/238090" target="_blank" rel="noopener noreferrer"
+          <a href="https://store.tossplace.com/order/238090" target="_blank" rel="noopener noreferrer" data-track="pickup_reviews"
             class="btn btn-primary">와플 픽업 주문</a>
         </div>
       </div>
@@ -381,7 +388,7 @@
           <span class="eyebrow">Latest</span>
           <h2 class="section-title">인스타그램 소식</h2>
         </div>
-        <a href="https://www.instagram.com/clumi.universe/" target="_blank" rel="noopener noreferrer"
+        <a href="https://www.instagram.com/clumi.universe/" target="_blank" rel="noopener noreferrer" data-track="instagram_section"
           class="btn btn-outline" style="color: var(--color-text-main); border-color: var(--color-text-main);">
           @clumi.universe 팔로우
         </a>
@@ -390,22 +397,22 @@
       <div class="instagram-grid reveal" id="instagramGrid">
         <a class="instagram-tile" href="https://www.instagram.com/p/DYJCncFD-S_/" target="_blank"
           rel="noopener noreferrer" aria-label="반하나 와플 게시물 보기">
-          <img src="./assets/instagram/instagram-1.jpg" alt="반하나 와플" loading="lazy" decoding="async">
+          <img src="./assets/instagram/instagram-1.webp" alt="반하나 와플" loading="lazy" decoding="async">
           <span class="instagram-caption">반하나 와플</span>
         </a>
         <a class="instagram-tile" href="https://www.instagram.com/p/DZXCCJaj5vC/" target="_blank"
           rel="noopener noreferrer" aria-label="오렌지 비앙코 게시물 보기">
-          <img src="./assets/instagram/instagram-2.jpg" alt="오렌지 비앙코" loading="lazy" decoding="async">
+          <img src="./assets/instagram/instagram-2.webp" alt="오렌지 비앙코" loading="lazy" decoding="async">
           <span class="instagram-caption">오렌지 비앙코</span>
         </a>
         <a class="instagram-tile" href="https://www.instagram.com/p/DZe7ZrUDxqS/" target="_blank"
           rel="noopener noreferrer" aria-label="망고 파르페 게시물 보기">
-          <img src="./assets/instagram/instagram-3.jpg" alt="망고 파르페" loading="lazy" decoding="async">
+          <img src="./assets/instagram/instagram-3.webp" alt="망고 파르페" loading="lazy" decoding="async">
           <span class="instagram-caption">망고 파르페</span>
         </a>
         <a class="instagram-tile" href="https://www.instagram.com/p/Da7Aeu-oPt_/" target="_blank"
           rel="noopener noreferrer" aria-label="클루미 캐릭터 게시물 보기">
-          <img src="./assets/instagram/instagram-4.jpg" alt="클루미 캐릭터" loading="lazy" decoding="async">
+          <img src="./assets/instagram/instagram-4.webp" alt="클루미 캐릭터" loading="lazy" decoding="async">
           <span class="instagram-caption">클루미 캐릭터</span>
         </a>
       </div>
@@ -437,21 +444,21 @@
           </div>
 
           <div style="margin-top: 2rem;">
-            <a href="https://naver.me/F9hNJomf" target="_blank" rel="noopener noreferrer" data-naver-map-link
+            <a href="https://naver.me/F9hNJomf" target="_blank" rel="noopener noreferrer" data-naver-map-link data-track="directions_button"
               class="btn btn-primary" id="naverMapBtn">네이버 지도 열기</a>
           </div>
         </div>
 
         <div class="naver-map-card reveal" style="transition-delay: 0.2s;">
           <a class="map-photo-link" href="https://naver.me/F9hNJomf" target="_blank"
-            rel="noopener noreferrer" data-naver-map-link aria-label="네이버 지도에서 클루미유니버스 보기"
+            rel="noopener noreferrer" data-naver-map-link data-track="directions_card" aria-label="네이버 지도에서 클루미유니버스 보기"
             style="position: relative; display: block;">
             <!-- 미니맵: 손그림 스타일 일러스트 지도. 클릭하면 네이버 지도로 이동합니다. -->
             <picture>
               <source type="image/webp"
                 srcset="./assets/clumi-map-720.webp 720w, ./assets/clumi-map-1200.webp 1200w"
                 sizes="(max-width: 992px) 90vw, 560px">
-              <img src="./assets/Gemini_Generated_Image_djjxlcdjjxlcdjjx.png" alt="클루미유니버스 손그림 지도"
+              <img src="./assets/clumi-map-1200.jpg" alt="클루미유니버스 손그림 지도"
                 loading="lazy" decoding="async">
             </picture>
             <span class="map-photo-badge">Naver Map</span>
@@ -473,11 +480,11 @@
       </a>
       <p id="footerAddress" style="margin-bottom: 1.5rem; color: rgba(255,255,255,0.5); line-height: 1.8;"></p>
       <div class="footer-links">
-        <a href="https://www.instagram.com/clumi.universe/" target="_blank" rel="noopener noreferrer">Instagram</a>
-        <a href="https://naver.me/F9hNJomf" target="_blank" rel="noopener noreferrer" data-naver-map-link>Naver Map</a>
+        <a href="https://www.instagram.com/clumi.universe/" target="_blank" rel="noopener noreferrer" data-track="instagram_footer">Instagram</a>
+        <a href="https://naver.me/F9hNJomf" target="_blank" rel="noopener noreferrer" data-naver-map-link data-track="directions_footer">Naver Map</a>
         <a href="https://www.daangn.com/kr/local-profile/%ED%81%B4%EB%A3%A8%EB%AF%B8%EC%9C%A0%EB%8B%88%EB%B2%84%EC%8A%A4-p11sbsx1f5uq/"
-          target="_blank" rel="noopener noreferrer" data-daangn-link>Daangn</a>
-        <a href="https://store.tossplace.com/order/238090" target="_blank" rel="noopener noreferrer">Toss Order</a>
+          target="_blank" rel="noopener noreferrer" data-daangn-link data-track="daangn_footer">Daangn</a>
+        <a href="https://store.tossplace.com/order/238090" target="_blank" rel="noopener noreferrer" data-track="pickup_footer">Toss Order</a>
       </div>
       <p style="opacity: 0.5;">&copy; 2026 Clumi Universe. All rights reserved.</p>
     </div>
@@ -488,15 +495,15 @@
        ============================================================ -->
   <nav class="mobile-cta" aria-label="빠른 작업">
     <div class="mobile-cta-inner">
-      <a href="https://store.tossplace.com/order/238090" target="_blank" rel="noopener noreferrer"
+      <a href="https://store.tossplace.com/order/238090" target="_blank" rel="noopener noreferrer" data-track="pickup_mobile"
         class="btn btn-primary">픽업 주문</a>
-      <a href="https://naver.me/F9hNJomf" target="_blank" rel="noopener noreferrer" class="btn btn-dark">매장
+      <a href="https://naver.me/F9hNJomf" target="_blank" rel="noopener noreferrer" class="btn btn-dark" data-track="directions_mobile">매장
         길찾기</a>
     </div>
   </nav>
 
   <!-- Interactive Floating Character -->
-  <img src="./assets/clumi-character-cutout.png" alt="" aria-hidden="true" class="floating-clumi" loading="lazy" decoding="async">
+  <img src="./assets/clumi-character-cutout.webp" alt="" aria-hidden="true" class="floating-clumi" loading="lazy" decoding="async">
 
   <!-- Lightbox -->
   <div id="lightbox" class="lightbox" role="dialog" aria-modal="true" aria-label="확대 이미지"
@@ -530,6 +537,41 @@
     window.addEventListener('resize', () => {
       if (window.innerWidth > 768) setMobileNav(false);
     }, { passive: true });
+
+    const navLinks = [...primaryNav.querySelectorAll('a[href^="#"]')];
+    const navSections = navLinks
+      .map(link => document.querySelector(link.getAttribute('href')))
+      .filter(Boolean);
+    const navSectionObserver = new IntersectionObserver(entries => {
+      const current = entries
+        .filter(entry => entry.isIntersecting)
+        .sort((a, b) => b.intersectionRatio - a.intersectionRatio)[0];
+      if (!current) return;
+
+      navLinks.forEach(link => {
+        const isCurrent = link.getAttribute('href') === `#${current.target.id}`;
+        link.classList.toggle('is-current', isCurrent);
+        if (isCurrent) link.setAttribute('aria-current', 'location');
+        else link.removeAttribute('aria-current');
+      });
+    }, { threshold: [0.01, 0.25, 0.5], rootMargin: '-20% 0px -55% 0px' });
+    navSections.forEach(section => navSectionObserver.observe(section));
+
+    function emitTrackingEvent(action, link) {
+      const detail = {
+        event: 'clumi_action',
+        action,
+        label: link.textContent.trim() || link.getAttribute('aria-label') || '',
+        destination: link.href,
+      };
+      if (Array.isArray(window.dataLayer)) window.dataLayer.push(detail);
+      window.dispatchEvent(new CustomEvent('clumi:track', { detail }));
+    }
+
+    document.addEventListener('click', event => {
+      const trackedLink = event.target.closest('[data-track]');
+      if (trackedLink) emitTrackingEvent(trackedLink.dataset.track, trackedLink);
+    });
 
     window.addEventListener('scroll', () => {
       header.classList.toggle('scrolled', window.scrollY > 50);
@@ -821,7 +863,7 @@
       if (instagramGrid && instagramPosts.length) {
         instagramGrid.innerHTML = instagramPosts.slice(0, 4).map(post => `
           <a class="instagram-tile" href="${escapeHtml(post.permalink)}" target="_blank"
-            rel="noopener noreferrer" aria-label="${escapeHtml(post.caption)} 게시물 보기">
+            rel="noopener noreferrer" data-track="instagram_post" aria-label="${escapeHtml(post.caption)} 게시물 보기">
             <img src="./${escapeHtml(post.image)}" alt="${escapeHtml(post.caption)}" loading="lazy" decoding="async">
             <span class="instagram-caption">${escapeHtml(post.caption)}</span>
           </a>`).join('');
@@ -857,7 +899,7 @@
         }
 
         menuScroller.innerHTML = tabItems.map((item, i) => {
-          const imgSrc = getMenuImageSrc(item) || './assets/clumi-waffle.jpg';
+          const imgSrc = getMenuImageSrc(item) || './assets/clumi-waffle.webp';
           const name = item.title || '메뉴';
           const desc = item.description || '';
           const category = item.categoryTitleEn || item.categoryEn || item.categoryTitle || 'Menu';

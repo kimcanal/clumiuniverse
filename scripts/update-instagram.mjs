@@ -1,12 +1,15 @@
 #!/usr/bin/env node
 
+import { execFile } from 'node:child_process';
 import { copyFile, readFile, writeFile } from 'node:fs/promises';
 import path from 'node:path';
+import { promisify } from 'node:util';
 import { fileURLToPath } from 'node:url';
 
 const ROOT = path.resolve(path.dirname(fileURLToPath(import.meta.url)), '..');
 const DATA_FILE = path.join(ROOT, 'data/instagram.json');
 const IMAGE_DIR = path.join(ROOT, 'assets/instagram');
+const runFile = promisify(execFile);
 
 function parseArgs(argv) {
   const values = {};
@@ -35,8 +38,20 @@ async function main() {
   if (!['.jpg', '.jpeg', '.png', '.webp'].includes(extension)) throw new Error('JPG, PNG, WEBP 이미지만 사용할 수 있습니다.');
 
   const data = JSON.parse(await readFile(DATA_FILE, 'utf8'));
-  const filename = `instagram-${args.id}${extension}`;
-  await copyFile(source, path.join(IMAGE_DIR, filename));
+  const filename = `instagram-${args.id}.webp`;
+  const outputPath = path.join(IMAGE_DIR, filename);
+  if (extension === '.webp') {
+    await copyFile(source, outputPath);
+  } else {
+    try {
+      await runFile('cwebp', ['-quiet', '-q', '80', '-m', '6', source, '-o', outputPath]);
+    } catch (error) {
+      if (error?.code === 'ENOENT') {
+        throw new Error('Instagram 이미지 최적화에 cwebp가 필요합니다. macOS는 `brew install webp`로 설치하세요.');
+      }
+      throw error;
+    }
+  }
 
   const post = {
     id: args.id,

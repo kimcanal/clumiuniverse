@@ -1,6 +1,6 @@
 # CLUMI UNIVERSE
 
-합정과 상수 사이 조용한 골목에 있는 감성 카페 **클루미 유니버스**의 공식 웹사이트입니다. 시그니처 파르페, 벨기에 리에주 방식의 수제 와플, 시즌 케이크와 와플 브런치를 소개하고 픽업 주문과 매장 방문으로 연결합니다.
+합정과 상수 사이 조용한 골목에 있는 디저트 카페 **클루미 유니버스**의 공식 웹사이트입니다. 삿포로 파르페, 벨기에 리에주 방식의 수제 와플, 파티시에 케이크와 엄선한 커피·티를 소개하고 픽업 주문과 매장 방문으로 연결합니다.
 
 [![Live Site](https://img.shields.io/badge/Live-Netlify-00C7B7?logo=netlify&logoColor=white)](https://clumiuniverse.netlify.app/)
 [![토스 메뉴 자동 동기화](https://github.com/kimcanal/clumiuniverse/actions/workflows/toss-menu-sync.yml/badge.svg)](https://github.com/kimcanal/clumiuniverse/actions/workflows/toss-menu-sync.yml)
@@ -86,7 +86,7 @@ node scripts/update-menu.mjs --no-fetch --keep --no-deploy
 
 `인기`와 `신규` 탭은 토스 메뉴의 `labels` 값을 자동으로 읽습니다. 소스, 옵션, 굿즈처럼 홈페이지 메뉴 카드에 어울리지 않는 항목은 `data/hidden-menu-items.json`에 ID를 추가해 숨깁니다.
 
-`generate-site-data.mjs`는 추천 메뉴 ID와 로컬 이미지 경로를 검증한 뒤, 웹 화면에서 사용하지 않는 옵션·해시·원본 응답 필드를 제거한 `data/site-menu.json`을 만듭니다. 추천 ID가 최신 메뉴에서 사라지면 자동 배포를 중단합니다.
+`generate-site-data.mjs`는 추천 메뉴 ID와 로컬 이미지 경로를 검증한 뒤, 메뉴 이미지를 WebP로 최적화하고 웹 화면에서 사용하지 않는 가격·옵션·해시·원본 응답 필드를 제거한 `data/site-menu.json`을 만듭니다. 추천 ID가 최신 메뉴에서 사라지거나 최적화 이미지가 누락되면 자동 배포를 중단합니다. 로컬 실행에는 `cwebp`가 필요하며 macOS에서는 `brew install webp`로 설치할 수 있습니다.
 
 ## 매장 정보와 Instagram 수정
 
@@ -108,7 +108,7 @@ node scripts/update-instagram.mjs \
   --caption "게시물을 설명하는 짧은 문장"
 ```
 
-명령은 이미지를 `assets/instagram/`으로 복사하고 새 게시물을 맨 앞에 넣은 뒤 최근 4개만 유지합니다. 사이트는 이 파일을 읽고, 로드에 실패할 경우 HTML에 포함된 기존 게시물을 그대로 보여줍니다.
+명령은 이미지를 WebP로 최적화해 `assets/instagram/`에 저장하고 새 게시물을 맨 앞에 넣은 뒤 최근 4개만 유지합니다. 사이트는 이 파일을 읽고, 로드에 실패할 경우 HTML에 포함된 기존 게시물을 그대로 보여줍니다.
 
 ## 화면 구성과 참고 방향
 

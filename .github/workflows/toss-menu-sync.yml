@@ -26,6 +26,9 @@ jobs:
         with:
           node-version: '20'
 
+      - name: WebP 이미지 도구 설치
+        run: sudo apt-get update && sudo apt-get install -y webp
+
       - name: 토스 메뉴 최신화 (기존 스크립트 재사용)
         run: node scripts/fetch-toss-menu.mjs
 

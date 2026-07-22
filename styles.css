@@ -1,6 +1,3 @@
-@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;500;600;700&display=swap');
-@import url('https://cdn.jsdelivr.net/gh/orioncactus/pretendard/dist/web/static/pretendard.css');
-
 :root {
   /* Color Palette */
   --color-primary: #FFB800; /* Clumi Yellow */
@@ -256,8 +253,15 @@ ul {
   transition: width var(--transition-base);
 }
 
-.nav-links a:hover::after {
+.nav-links a:hover::after,
+.nav-links a.is-current::after,
+.nav-links a[aria-current="location"]::after {
   width: 100%;
+}
+
+.nav-links a.is-current,
+.nav-links a[aria-current="location"] {
+  font-weight: 700;
 }
 
 .header-actions {
@@ -1144,6 +1148,11 @@ ul {
 
   .nav-links a:hover {
     background: rgba(255, 184, 0, 0.12);
+  }
+
+  .nav-links a.is-current,
+  .nav-links a[aria-current="location"] {
+    background: rgba(255, 184, 0, 0.16);
   }
 
   .nav-links a::after {
