@@ -1,6 +1,6 @@
 #!/usr/bin/env node
 
-import { access, readFile } from 'node:fs/promises';
+import { access, readFile, stat } from 'node:fs/promises';
 import path from 'node:path';
 import { fileURLToPath } from 'node:url';
 
@@ -37,6 +37,25 @@ const missingAnchors = [...new Set(hashLinks.filter(id => !staticIds.includes(id
 if (missingAnchors.length) fail(`대상 요소가 없는 앵커 링크가 있습니다: ${missingAnchors.join(', ')}`);
 
 const menuIds = new Set((siteMenu.items || []).map(item => Number(item.id)));
+const nonWebpMenuImages = (siteMenu.items || [])
+  .filter(item => item.imageLocalPath && !item.imageLocalPath.endsWith('.webp'))
+  .map(item => item.id);
+if (nonWebpMenuImages.length) {
+  fail(`WebP가 아닌 메뉴 이미지가 있습니다: ${nonWebpMenuImages.join(', ')}`);
+}
+const oversizedMenuImages = [];
+await Promise.all((siteMenu.items || []).map(async item => {
+  if (!item.imageLocalPath) return;
+  const imageStats = await stat(path.join(ROOT, item.imageLocalPath));
+  if (imageStats.size > 160 * 1024) oversizedMenuImages.push(item.id);
+}));
+if (oversizedMenuImages.length) {
+  fail(`160KB를 넘는 메뉴 이미지가 있습니다: ${oversizedMenuImages.join(', ')}`);
+}
+const menuItemsWithPrice = (siteMenu.items || []).filter(item => 'priceValue' in item).map(item => item.id);
+if (menuItemsWithPrice.length) {
+  fail(`화면에서 사용하지 않는 가격 데이터가 남아 있습니다: ${menuItemsWithPrice.join(', ')}`);
+}
 const boundMenuImageIds = [...html.matchAll(/data-menu-image-id="(\d+)"/g)].map(match => Number(match[1]));
 const missingBoundImages = boundMenuImageIds.filter(id => !menuIds.has(id));
 if (missingBoundImages.length) {
@@ -54,6 +73,17 @@ if (!jsonLdMatch) fail('LocalBusiness 구조화 데이터가 없습니다.');
 const jsonLd = JSON.parse(jsonLdMatch[1]);
 if (jsonLd['@type'] !== 'CafeOrCoffeeShop') fail('구조화 데이터 타입이 CafeOrCoffeeShop이 아닙니다.');
 if (!/<link\s+rel="canonical"/.test(html)) fail('canonical 링크가 없습니다.');
+if (!/<meta\s+property="og:image:width"\s+content="1200">/.test(html)
+  || !/<meta\s+property="og:image:height"\s+content="630">/.test(html)) {
+  fail('공유 이미지 크기 메타데이터가 1200×630이 아닙니다.');
+}
+
+const trackingActions = [...html.matchAll(/data-track="([^"]+)"/g)].map(match => match[1]);
+const duplicateTrackingActions = trackingActions.filter((action, index) => trackingActions.indexOf(action) !== index);
+if (duplicateTrackingActions.length) {
+  fail(`중복된 측정 이벤트 이름이 있습니다: ${[...new Set(duplicateTrackingActions)].join(', ')}`);
+}
+if (trackingActions.length < 8) fail('핵심 외부 링크 측정 이벤트가 충분히 설정되지 않았습니다.');
 
 const directLocalRefs = [...html.matchAll(/\b(?:src|href)="\.\/([^"?#]+)"/g)].map(match => match[1]);
 const srcsetLocalRefs = [...html.matchAll(/\bsrcset="([^"]+)"/g)]

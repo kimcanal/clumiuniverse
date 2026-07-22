@@ -1,7 +1,9 @@
 #!/usr/bin/env node
 
-import { access, readFile, writeFile } from 'node:fs/promises';
+import { execFile } from 'node:child_process';
+import { access, readFile, stat, writeFile } from 'node:fs/promises';
 import path from 'node:path';
+import { promisify } from 'node:util';
 import { fileURLToPath } from 'node:url';
 
 const SCRIPT_DIR = path.dirname(fileURLToPath(import.meta.url));
@@ -10,6 +12,9 @@ const MENU_PATH = path.join(ROOT, 'data/tossplace-menu/238090/menu.json');
 const FEATURED_PATH = path.join(ROOT, 'data/featured.json');
 const HIDDEN_PATH = path.join(ROOT, 'data/hidden-menu-items.json');
 const OUTPUT_PATH = path.join(ROOT, 'data/site-menu.json');
+const MENU_IMAGE_WIDTH = 720;
+const MENU_IMAGE_QUALITY = 74;
+const runFile = promisify(execFile);
 
 async function readJson(filePath) {
   return JSON.parse(await readFile(filePath, 'utf8'));
@@ -21,7 +26,42 @@ function getConfiguredIds(entries) {
     .filter(Number.isFinite);
 }
 
-function projectMenuItem(item) {
+function getOptimizedImagePath(localPath) {
+  if (!localPath) return '';
+  return localPath.replace(/\.[^.\/]+$/, '.webp');
+}
+
+async function ensureOptimizedImage(localPath, { force = false } = {}) {
+  const optimizedPath = getOptimizedImagePath(localPath);
+  if (!optimizedPath || optimizedPath === localPath) return optimizedPath;
+
+  const sourcePath = path.join(ROOT, localPath);
+  const outputPath = path.join(ROOT, optimizedPath);
+  const [sourceStats, outputStats] = await Promise.all([
+    stat(sourcePath),
+    stat(outputPath).catch(() => null),
+  ]);
+  if (!force && outputStats && outputStats.mtimeMs >= sourceStats.mtimeMs) return optimizedPath;
+
+  try {
+    await runFile('cwebp', [
+      '-quiet',
+      '-q', String(MENU_IMAGE_QUALITY),
+      '-m', '6',
+      '-resize', String(MENU_IMAGE_WIDTH), '0',
+      sourcePath,
+      '-o', outputPath,
+    ]);
+  } catch (error) {
+    if (error?.code === 'ENOENT') {
+      throw new Error('메뉴 이미지 최적화에 cwebp가 필요합니다. macOS는 `brew install webp`로 설치하세요.');
+    }
+    throw error;
+  }
+  return optimizedPath;
+}
+
+function projectMenuItem(item, imageLocalPath) {
   return {
     id: item.id,
     categoryTitle: item.categoryTitle || '',
@@ -29,13 +69,12 @@ function projectMenuItem(item) {
     title: item.title || '',
     description: item.description || '',
     state: item.state || '',
-    priceValue: Number(item.priceValue) || 0,
     labels: Array.isArray(item.labels) ? item.labels : [],
-    imageLocalPath: item.imageLocalPath || '',
+    imageLocalPath,
   };
 }
 
-export async function buildSiteMenu() {
+export async function buildSiteMenu({ optimizeImages = false, forceImages = false } = {}) {
   const [menu, featured, hidden] = await Promise.all([
     readJson(MENU_PATH),
     readJson(FEATURED_PATH),
@@ -65,23 +104,37 @@ export async function buildSiteMenu() {
   }
 
   const visibleItems = items.filter(item => !hiddenIds.has(Number(item.id)));
+  const optimizedPaths = new Map();
   for (const item of visibleItems) {
     if (!item.title?.trim()) throw new Error(`메뉴 ${item.id}의 이름이 비어 있습니다.`);
     if (item.imageLocalPath) {
       await access(path.join(ROOT, item.imageLocalPath));
+      const optimizedPath = optimizeImages
+        ? await ensureOptimizedImage(item.imageLocalPath, { force: forceImages })
+        : getOptimizedImagePath(item.imageLocalPath);
+      try {
+        await access(path.join(ROOT, optimizedPath));
+      } catch {
+        throw new Error(`최적화된 메뉴 이미지가 없습니다: ${optimizedPath}`);
+      }
+      optimizedPaths.set(Number(item.id), optimizedPath);
     }
   }
 
   return {
     generatedAt: menu.fetchedAt || null,
     merchantId: menu.merchantId || '238090',
-    items: visibleItems.map(projectMenuItem),
+    items: visibleItems.map(item => projectMenuItem(item, optimizedPaths.get(Number(item.id)) || '')),
   };
 }
 
 async function main() {
   const checkOnly = process.argv.includes('--check');
-  const output = `${JSON.stringify(await buildSiteMenu(), null, 2)}\n`;
+  const forceImages = process.argv.includes('--force-images');
+  const output = `${JSON.stringify(await buildSiteMenu({
+    optimizeImages: !checkOnly,
+    forceImages: !checkOnly && forceImages,
+  }), null, 2)}\n`;
 
   if (checkOnly) {
     const current = await readFile(OUTPUT_PATH, 'utf8').catch(() => '');
