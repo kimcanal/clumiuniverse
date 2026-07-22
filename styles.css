@@ -719,6 +719,7 @@ ul {
   height: 300px;
   overflow: hidden;
   position: relative;
+  background: linear-gradient(135deg, #F4EEE8, #E9DED3);
 }
 
 .menu-img-wrap img {

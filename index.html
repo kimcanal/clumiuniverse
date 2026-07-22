@@ -919,7 +919,8 @@
                   ${badges.map(label => `<div class="menu-badge menu-badge-${label === '신규' ? 'new' : 'popular'}">${escapeHtml(label)}</div>`).join('')}
                 </div>` : ''}
               <div class="menu-img-wrap">
-                <img src="${escapeHtml(imgSrc)}" alt="${escapeHtml(name)}" loading="lazy" decoding="async">
+                <img src="${escapeHtml(imgSrc)}" alt="${escapeHtml(name)}"
+                  loading="${i < 3 ? 'eager' : 'lazy'}" fetchpriority="${i < 3 ? 'auto' : 'low'}" decoding="async">
               </div>
               <div class="menu-info">
                 <span class="eyebrow">${escapeHtml(category)}</span>

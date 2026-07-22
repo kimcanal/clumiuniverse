@@ -1,6 +1,6 @@
 #!/usr/bin/env node
 
-import { access, readFile } from 'node:fs/promises';
+import { access, readFile, stat } from 'node:fs/promises';
 import path from 'node:path';
 import { fileURLToPath } from 'node:url';
 
@@ -42,6 +42,15 @@ const nonWebpMenuImages = (siteMenu.items || [])
   .map(item => item.id);
 if (nonWebpMenuImages.length) {
   fail(`WebP가 아닌 메뉴 이미지가 있습니다: ${nonWebpMenuImages.join(', ')}`);
+}
+const oversizedMenuImages = [];
+await Promise.all((siteMenu.items || []).map(async item => {
+  if (!item.imageLocalPath) return;
+  const imageStats = await stat(path.join(ROOT, item.imageLocalPath));
+  if (imageStats.size > 160 * 1024) oversizedMenuImages.push(item.id);
+}));
+if (oversizedMenuImages.length) {
+  fail(`160KB를 넘는 메뉴 이미지가 있습니다: ${oversizedMenuImages.join(', ')}`);
 }
 const menuItemsWithPrice = (siteMenu.items || []).filter(item => 'priceValue' in item).map(item => item.id);
 if (menuItemsWithPrice.length) {

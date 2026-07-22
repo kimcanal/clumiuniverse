@@ -86,7 +86,7 @@ node scripts/update-menu.mjs --no-fetch --keep --no-deploy
 
 `인기`와 `신규` 탭은 토스 메뉴의 `labels` 값을 자동으로 읽습니다. 소스, 옵션, 굿즈처럼 홈페이지 메뉴 카드에 어울리지 않는 항목은 `data/hidden-menu-items.json`에 ID를 추가해 숨깁니다.
 
-`generate-site-data.mjs`는 추천 메뉴 ID와 로컬 이미지 경로를 검증한 뒤, 메뉴 이미지를 WebP로 최적화하고 웹 화면에서 사용하지 않는 가격·옵션·해시·원본 응답 필드를 제거한 `data/site-menu.json`을 만듭니다. 추천 ID가 최신 메뉴에서 사라지거나 최적화 이미지가 누락되면 자동 배포를 중단합니다. 로컬 실행에는 `cwebp`가 필요하며 macOS에서는 `brew install webp`로 설치할 수 있습니다.
+`generate-site-data.mjs`는 추천 메뉴 ID와 로컬 이미지 경로를 검증한 뒤, 메뉴 이미지를 최대 720px WebP로 최적화하고 웹 화면에서 사용하지 않는 가격·옵션·해시·원본 응답 필드를 제거한 `data/site-menu.json`을 만듭니다. 추천 ID가 최신 메뉴에서 사라지거나 최적화 이미지가 누락되면 자동 배포를 중단합니다. 로컬 실행에는 `cwebp`가 필요하며 macOS에서는 `brew install webp`로 설치할 수 있습니다. 기존 이미지까지 새 설정으로 다시 만들 때는 `node scripts/generate-site-data.mjs --force-images`를 실행합니다.
 
 ## 매장 정보와 Instagram 수정
 
