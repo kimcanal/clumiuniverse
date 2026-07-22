@@ -230,8 +230,11 @@ ul {
 }
 
 .nav-links {
+  position: absolute;
+  left: 50%;
   display: flex;
   gap: 2.5rem;
+  transform: translateX(-50%);
 }
 
 .nav-links a {
