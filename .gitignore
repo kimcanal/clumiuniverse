@@ -7,7 +7,7 @@ node_modules/
 dist/
 
 # 크롤링 임시 파일 (절대 커밋 금지)
-assets/Instagram*
+assets/Instagram_*
 assets/토스*
 assets/클루미유니버스*
 
