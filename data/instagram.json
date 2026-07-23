@@ -1,33 +1,46 @@
 {
   "account": "clumi.universe",
+  "updatedAt": "2026-07-23",
   "posts": [
     {
-      "id": "legacy-1",
-      "permalink": "https://www.instagram.com/p/DYJCncFD-S_/",
-      "image": "assets/instagram/instagram-1.webp",
-      "caption": "반하나 와플",
-      "timestamp": null
-    },
-    {
-      "id": "legacy-2",
-      "permalink": "https://www.instagram.com/p/DZXCCJaj5vC/",
-      "image": "assets/instagram/instagram-2.webp",
-      "caption": "오렌지 비앙코",
-      "timestamp": null
-    },
-    {
-      "id": "legacy-3",
-      "permalink": "https://www.instagram.com/p/DZe7ZrUDxqS/",
-      "image": "assets/instagram/instagram-3.webp",
-      "caption": "망고 파르페",
-      "timestamp": null
-    },
-    {
-      "id": "legacy-4",
+      "id": "Da7Aeu-oPt_",
+      "type": "post",
       "permalink": "https://www.instagram.com/p/Da7Aeu-oPt_/",
-      "image": "assets/instagram/instagram-4.webp",
-      "caption": "클루미 캐릭터",
-      "timestamp": null
+      "image": "assets/instagram/instagram-Da7Aeu-oPt_.webp",
+      "caption": "좋은 음악과 함께 잠시 쉬어가는 클루미",
+      "alt": "햇살이 드는 창가 소파에서 쉬고 있는 노란 클루미 캐릭터",
+      "publishedAt": "2026-07-17",
+      "imagePosition": "50% 50%"
+    },
+    {
+      "id": "Da19sZwoCYb",
+      "type": "post",
+      "permalink": "https://www.instagram.com/p/Da19sZwoCYb/",
+      "image": "assets/instagram/instagram-Da19sZwoCYb.webp",
+      "caption": "고소하고 부드러운 땅콩크림라떼",
+      "alt": "두툼한 땅콩 크림과 견과 토핑을 올린 클루미 땅콩크림라떼",
+      "publishedAt": "2026-07-15",
+      "imagePosition": "50% 50%"
+    },
+    {
+      "id": "DaXurHvPAHv",
+      "type": "reel",
+      "permalink": "https://www.instagram.com/reel/DaXurHvPAHv/",
+      "image": "assets/instagram/instagram-DaXurHvPAHv.webp",
+      "caption": "여름의 한 잔, 레몬아메리카노",
+      "alt": "레몬 조각과 얼음을 띄운 클루미 레몬아메리카노",
+      "publishedAt": "2026-07-04",
+      "imagePosition": "50% 50%"
+    },
+    {
+      "id": "DZ6mQl8D9vM",
+      "type": "post",
+      "permalink": "https://www.instagram.com/p/DZ6mQl8D9vM/",
+      "image": "assets/instagram/instagram-DZ6mQl8D9vM.webp",
+      "caption": "매일 직접 굽는 겉바속쫀 리에주 와플",
+      "alt": "오븐에서 갓 구워 노릇한 클루미 리에주 와플 여러 장",
+      "publishedAt": "2026-06-22",
+      "imagePosition": "50% 50%"
     }
   ]
 }

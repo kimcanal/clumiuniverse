@@ -10,25 +10,51 @@ const ROOT = path.resolve(path.dirname(fileURLToPath(import.meta.url)), '..');
 const DATA_FILE = path.join(ROOT, 'data/instagram.json');
 const IMAGE_DIR = path.join(ROOT, 'assets/instagram');
 const runFile = promisify(execFile);
+const ARGUMENT_KEYS = new Set(['url', 'image', 'caption', 'alt', 'date']);
+
+function usage() {
+  return '사용법: node scripts/update-instagram.mjs --url <게시물 URL> --image <이미지 경로> --caption <설명> --date <YYYY-MM-DD> [--alt <대체 텍스트>]';
+}
 
 function parseArgs(argv) {
+  if (!argv.length || argv.length % 2 !== 0) throw new Error(usage());
   const values = {};
   for (let index = 0; index < argv.length; index += 2) {
     const key = argv[index]?.replace(/^--/, '');
     const value = argv[index + 1];
-    if (!['url', 'image', 'caption'].includes(key) || !value) {
-      throw new Error('사용법: node scripts/update-instagram.mjs --url <게시물 URL> --image <이미지 경로> --caption <설명>');
-    }
+    if (!ARGUMENT_KEYS.has(key) || !value) throw new Error(usage());
+    if (key in values) throw new Error(`--${key} 옵션이 중복되었습니다.`);
     values[key] = value;
   }
-  if (!values.url || !values.image || !values.caption) throw new Error('--url, --image, --caption이 모두 필요합니다.');
+  if (!values.url || !values.image || !values.caption || !values.date) {
+    throw new Error('--url, --image, --caption, --date가 모두 필요합니다.');
+  }
   const url = new URL(values.url);
   if (url.hostname !== 'www.instagram.com' && url.hostname !== 'instagram.com') throw new Error('Instagram 게시물 URL만 사용할 수 있습니다.');
-  const [type, id] = url.pathname.split('/').filter(Boolean);
+  const pathParts = url.pathname.split('/').filter(Boolean);
+  const typeIndex = pathParts[0] === 'clumi.universe' ? 1 : 0;
+  const type = pathParts[typeIndex];
+  const id = pathParts[typeIndex + 1];
   if (!['p', 'reel'].includes(type) || !/^[\w-]+$/.test(id || '')) throw new Error('Instagram 게시물 또는 릴스 URL 형식이 아닙니다.');
   const caption = values.caption.trim();
   if (!caption) throw new Error('비어 있지 않은 캡션이 필요합니다.');
-  return { ...values, id, caption };
+  const alt = String(values.alt || caption).trim();
+  if (!alt) throw new Error('비어 있지 않은 대체 텍스트가 필요합니다.');
+  const publishedDate = /^\d{4}-\d{2}-\d{2}$/.test(values.date)
+    ? new Date(`${values.date}T00:00:00Z`)
+    : null;
+  if (!publishedDate || Number.isNaN(publishedDate.getTime())
+    || publishedDate.toISOString().slice(0, 10) !== values.date) {
+    throw new Error('--date는 YYYY-MM-DD 형식의 실제 날짜여야 합니다.');
+  }
+  return {
+    ...values,
+    id,
+    type: type === 'reel' ? 'reel' : 'post',
+    caption,
+    alt,
+    permalink: `https://www.instagram.com/${type}/${id}/`,
+  };
 }
 
 async function main() {
@@ -55,12 +81,18 @@ async function main() {
 
   const post = {
     id: args.id,
-    permalink: args.url,
+    type: args.type,
+    permalink: args.permalink,
     image: `assets/instagram/${filename}`,
     caption: args.caption.slice(0, 140),
-    timestamp: new Date().toISOString(),
+    alt: args.alt.slice(0, 180),
+    publishedAt: args.date,
+    imagePosition: '50% 50%',
   };
-  data.posts = [post, ...(data.posts || []).filter(item => item.id !== args.id)].slice(0, 4);
+  data.updatedAt = new Date().toISOString().slice(0, 10);
+  data.posts = [post, ...(data.posts || []).filter(item => item.id !== args.id)]
+    .sort((a, b) => String(b.publishedAt || '').localeCompare(String(a.publishedAt || '')))
+    .slice(0, 4);
   await writeFile(DATA_FILE, `${JSON.stringify(data, null, 2)}\n`, 'utf8');
   console.log(`Instagram 게시물 추가 완료: ${args.id}`);
 }
