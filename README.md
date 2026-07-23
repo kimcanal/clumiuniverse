@@ -18,6 +18,7 @@
 - 추천, 인기, 신규, 와플, 브런치, 커피, 디저트, 음료별 메뉴 탐색
 - 네이버 지도 기반 매장 소개, 주소, 영업시간, 전화 연결
 - 네이버 리뷰 하이라이트와 토스 픽업 주문 연결
+- 게시일 기준 최신 Instagram 4개로 구성한 ‘클루미의 순간들’ 갤러리
 - 메뉴 카드 가격 표시와 메뉴별 주문 버튼
 - 키보드 메뉴 탭, 모바일 탐색 메뉴, 접근 가능한 이미지 확대 보기
 - 데스크톱과 모바일에 대응하는 반응형 단일 페이지
@@ -33,9 +34,9 @@
 | 웹 표시용 메뉴 | `data/site-menu.json` | 원본 메뉴에서 자동 생성 | 메뉴 변경 시 |
 | 매장 소개·영업시간 | [네이버 지도](https://naver.me/F9hNJomf) | `data/store-info.json` 수동 관리 | 정보 변경 시 |
 | 리뷰 하이라이트 | 네이버 방문자 리뷰 | `data/reviews.json` 수동 관리 | 필요할 때 |
-| Instagram | [@clumi.universe](https://www.instagram.com/clumi.universe/) | 승인된 게시물과 이미지 추가 | 새 게시물 반영 시 |
+| Instagram | [@clumi.universe](https://www.instagram.com/clumi.universe/) | 게시일·링크·승인된 이미지를 한 명령으로 추가 | 새 게시물 반영 시 |
 
-Instagram 계정 소유자의 API 권한이 없으므로 공개 페이지를 우회 스크래핑하지 않습니다. 대신 공개 게시물 URL과 승인된 이미지를 한 명령으로 추가하며, 사이트는 `data/instagram.json`의 최신 4개를 자동으로 표시합니다.
+Instagram 계정 소유자의 API 권한이 없으므로 공개 페이지를 우회 스크래핑하지 않습니다. 대신 공개 게시물 URL과 승인된 이미지를 한 명령으로 추가하며, 사이트는 `data/instagram.json`을 게시일 기준으로 정렬해 최신 4개를 ‘클루미의 순간들’에 표시합니다. 프로필 상단 고정 게시물은 피드 노출 위치와 실제 게시일이 다를 수 있으므로 `publishedAt`을 최신 판단 기준으로 사용합니다.
 
 ## 토스 메뉴 동기화
 
@@ -105,14 +106,16 @@ node scripts/update-menu.mjs --no-fetch --keep --no-deploy
 node scripts/update-instagram.mjs \
   --url "https://www.instagram.com/p/게시물코드/" \
   --image "/내려받은/사진.jpg" \
-  --caption "게시물을 설명하는 짧은 문장"
+  --caption "카드에 표시할 짧은 문장" \
+  --date "2026-07-17" \
+  --alt "사진의 내용을 설명하는 대체 텍스트"
 ```
 
-명령은 이미지를 WebP로 최적화해 `assets/instagram/`에 저장하고 새 게시물을 맨 앞에 넣은 뒤 최근 4개만 유지합니다. 사이트는 이 파일을 읽고, 로드에 실패할 경우 HTML에 포함된 기존 게시물을 그대로 보여줍니다.
+명령은 게시물 또는 릴스 URL을 정규화하고 이미지를 WebP로 최적화해 `assets/instagram/`에 저장합니다. 이후 `publishedAt` 최신순으로 정렬해 최근 4개만 유지합니다. `--alt`를 생략하면 카드 캡션을 대체 텍스트로 사용합니다. 사이트는 이 파일을 읽고, 로드에 실패할 경우 HTML에 포함된 동일한 최신 4개를 그대로 보여줍니다.
 
 ## 화면 구성과 참고 방향
 
-현재 정보 순서는 **Hero(카페 전경) → Menu(대표 음식) → About(캐릭터) → Gallery(공간) → Reviews → Instagram → Visit**입니다. 방문자가 먼저 장소를 인지하고, 가장 중요한 메뉴를 확인한 뒤 캐릭터 세계관과 공간을 둘러보도록 구성했습니다. 리뷰는 방문 결정을 돕는 핵심 신뢰 정보라 Instagram보다 먼저 두고, Instagram은 최신 분위기를 보강하는 콘텐츠로 사용합니다.
+현재 정보 순서는 **Hero(카페 전경) → Menu(대표 음식) → About(캐릭터) → Moments(최신 Instagram) → Reviews → Visit**입니다. 방문자가 먼저 장소와 대표 메뉴를 확인한 뒤, 최신 게시물로 요즘의 메뉴·캐릭터·공간을 둘러보도록 구성했습니다. 별도 Instagram 섹션을 중복 운영하지 않고 ‘클루미의 순간들’이 `data/instagram.json`을 직접 사용합니다.
 
 비교할 만한 카페 사이트는 다음과 같습니다.
 
