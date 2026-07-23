@@ -2,7 +2,7 @@
   "merchantId": 238090,
   "merchantName": "스튜디오 미라 (클루미 유니버스)",
   "merchantStatus": "OPEN",
-  "fetchedAt": "2026-07-21T21:51:17.143Z",
+  "fetchedAt": "2026-07-23T21:53:25.922Z",
   "summary": {
     "total": 92,
     "added": 0,
@@ -4797,7 +4797,7 @@
       "titleEn": "Strawberry Forêt noire",
       "description": "상큼한 딸기, 부드러운 우유 크림, 달콤한 화이트 초콜릿이 만나 포근하게 완성된 딸기 케이크 🍓",
       "descriptionEn": "A strawberry cake with a harmonious blend of fresh strawberries, smooth milk cream, and white chocolate.",
-      "state": "ON_SALE",
+      "state": "SOLD_OUT",
       "priceValue": 11000,
       "priceTitle": "기본",
       "imageUrl": "https://place-static.tossplace.com/public/live/PUBLIC/2026-05-13/8a453da7-a2f8-4d0d-bf0d-73ce0bbcbf3e",
@@ -4821,7 +4821,7 @@
           ]
         }
       ],
-      "fingerprint": "13b2241ccd09f238febe582ce001d0c78ff08ab36f7ec94b01f13dab7e8535fa",
+      "fingerprint": "43a939e3c026222a98635dd50522d74aaa00e5e2fb0677e0f491c77823ba6c5b",
       "imageLocalPath": "data/tossplace-menu/238090/images/10641666-딸기포레누아-a0bf52ee2f.jpg",
       "imageHash": "a0bf52ee2f95df60f753e56e5e51ae7a1102b4c42bf9b44125b02dcca8568213",
       "imageStatus": "skipped-existing-url"

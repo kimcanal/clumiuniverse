@@ -2496,14 +2496,14 @@
       "updatedAt": "2026-07-21T04:15:20.254Z"
     },
     "10641666": {
-      "fingerprint": "13b2241ccd09f238febe582ce001d0c78ff08ab36f7ec94b01f13dab7e8535fa",
+      "fingerprint": "43a939e3c026222a98635dd50522d74aaa00e5e2fb0677e0f491c77823ba6c5b",
       "title": "딸기포레누아",
       "description": "상큼한 딸기, 부드러운 우유 크림, 달콤한 화이트 초콜릿이 만나 포근하게 완성된 딸기 케이크 🍓",
       "imageUrl": "https://place-static.tossplace.com/public/live/PUBLIC/2026-05-13/8a453da7-a2f8-4d0d-bf0d-73ce0bbcbf3e",
       "imageLocalPath": "data/tossplace-menu/238090/images/10641666-딸기포레누아-a0bf52ee2f.jpg",
       "imageHash": "a0bf52ee2f95df60f753e56e5e51ae7a1102b4c42bf9b44125b02dcca8568213",
       "firstSeenAt": "2026-07-21T04:15:20.254Z",
-      "updatedAt": "2026-07-21T04:15:20.254Z"
+      "updatedAt": "2026-07-23T21:53:25.922Z"
     },
     "10652155": {
       "fingerprint": "e60a851c6018b7c7568784dfb88a01688900d1db54ef75f2c54bc9ac17d5a7c3",
@@ -2904,7 +2904,21 @@
         "skipped-existing-url": 90,
         "missing": 2
       }
+    },
+    {
+      "at": "2026-07-23T21:53:25.922Z",
+      "summary": {
+        "total": 92,
+        "added": 0,
+        "changed": 1,
+        "unchanged": 91,
+        "removed": 0
+      },
+      "imageSummary": {
+        "skipped-existing-url": 90,
+        "missing": 2
+      }
     }
   ],
-  "lastRunAt": "2026-07-21T21:51:17.143Z"
+  "lastRunAt": "2026-07-23T21:53:25.922Z"
 }

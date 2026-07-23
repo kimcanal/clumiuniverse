@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-07-21T21:51:17.143Z",
+  "generatedAt": "2026-07-23T21:53:25.922Z",
   "merchantId": 238090,
   "items": [
     {
@@ -576,7 +576,7 @@
       "categoryTitleEn": "Cake&Dessert",
       "title": "딸기포레누아",
       "description": "상큼한 딸기, 부드러운 우유 크림, 달콤한 화이트 초콜릿이 만나 포근하게 완성된 딸기 케이크 🍓",
-      "state": "ON_SALE",
+      "state": "SOLD_OUT",
       "labels": [
         "인기"
       ],
