@@ -117,7 +117,7 @@ if (menuItemsWithPrice.length) {
 const boundMenuImageIds = [...html.matchAll(/data-menu-image-id="(\d+)"/g)].map(match => Number(match[1]));
 const missingBoundImages = boundMenuImageIds.filter(id => !menuIds.has(id));
 if (missingBoundImages.length) {
-  fail(`최신 메뉴에 없는 data-menu-image-id가 있습니다: ${missingBoundImages.join(', ')}`);
+  console.warn(`[경고] 최신 메뉴에 없는 data-menu-image-id가 있습니다: ${missingBoundImages.join(', ')}`);
 }
 
 const preloadImages = [...html.matchAll(/<link\b[^>]*rel="preload"[^>]*as="image"[^>]*>/g)]

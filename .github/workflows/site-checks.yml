@@ -20,7 +20,7 @@ jobs:
       - name: Node.js 설정
         uses: actions/setup-node@v4
         with:
-          node-version: '20'
+          node-version: '22'
 
       - name: 생성 데이터 최신 상태 확인
         run: node scripts/generate-site-data.mjs --check

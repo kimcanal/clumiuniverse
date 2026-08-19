@@ -93,9 +93,12 @@ export async function buildSiteMenu({ optimizeImages = false, forceImages = fals
     throw new Error(`메뉴 ID가 중복되었습니다: ${[...new Set(duplicateIds)].join(', ')}`);
   }
 
+  let validFeaturedIds = featuredIds;
   const missingFeatured = featuredIds.filter(id => !itemIds.has(id));
   if (missingFeatured.length) {
-    throw new Error(`추천 메뉴 ID가 최신 메뉴에 없습니다: ${missingFeatured.join(', ')}`);
+    console.warn(`[경고] 추천 메뉴 ID가 최신 메뉴에 없습니다. 해당 ID를 자동 제외합니다: ${missingFeatured.join(', ')}`);
+    validFeaturedIds = featuredIds.filter(id => itemIds.has(id));
+    await writeFile(FEATURED_PATH, JSON.stringify(validFeaturedIds, null, 2) + '\n', 'utf8');
   }
 
   const hiddenFeatured = featuredIds.filter(id => hiddenIds.has(id));

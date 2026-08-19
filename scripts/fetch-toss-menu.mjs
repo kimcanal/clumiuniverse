@@ -88,30 +88,48 @@ async function writeText(filePath, value) {
   await writeFile(filePath, value, 'utf8');
 }
 
-async function fetchSuccess(pathname, merchantId) {
+const sleep = (ms) => new Promise((resolve) => setTimeout(resolve, ms));
+
+async function fetchSuccess(pathname, merchantId, maxRetries = 3) {
   const headers = {
-    'user-agent': 'Mozilla/5.0',
+    'user-agent': 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0.0.0 Safari/537.36',
     origin: 'https://store.tossplace.com',
     referer: `${STORE_BASE}/${merchantId}`,
     'toss-merchant-id': merchantId,
   };
 
-  const response = await fetch(`${API_BASE}${pathname}`, { headers });
-  const body = await response.text();
+  let lastError;
+  for (let attempt = 1; attempt <= maxRetries; attempt += 1) {
+    try {
+      const response = await fetch(`${API_BASE}${pathname}`, {
+        headers,
+        signal: AbortSignal.timeout(15000),
+      });
+      const body = await response.text();
 
-  let json;
-  try {
-    json = JSON.parse(body);
-  } catch {
-    throw new Error(`Non-JSON response from ${pathname}: HTTP ${response.status}`);
+      let json;
+      try {
+        json = JSON.parse(body);
+      } catch {
+        throw new Error(`Non-JSON response from ${pathname}: HTTP ${response.status}`);
+      }
+
+      if (!response.ok || json.resultType !== 'SUCCESS') {
+        const message = json.error?.reason ?? json.error?.title ?? response.statusText;
+        throw new Error(`Toss API failed for ${pathname}: ${message}`);
+      }
+
+      return json.success;
+    } catch (error) {
+      lastError = error;
+      if (attempt < maxRetries) {
+        console.warn(`[재시도 ${attempt}/${maxRetries}] ${pathname} 호출 실패 (${error.message}). 2초 후 재시도합니다...`);
+        await sleep(2000 * attempt);
+      }
+    }
   }
 
-  if (!response.ok || json.resultType !== 'SUCCESS') {
-    const message = json.error?.reason ?? json.error?.title ?? response.statusText;
-    throw new Error(`Toss API failed for ${pathname}: ${message}`);
-  }
-
-  return json.success;
+  throw lastError;
 }
 
 function stableHash(value) {
@@ -342,16 +360,31 @@ async function downloadImage(item, imagesDir, state) {
     };
   }
 
-  const response = await fetch(item.imageUrl, {
-    headers: {
-      'user-agent': 'Mozilla/5.0',
-      referer: `${STORE_BASE}/`,
-    },
-  });
+  let response = null;
+  for (let attempt = 1; attempt <= 3; attempt += 1) {
+    try {
+      const res = await fetch(item.imageUrl, {
+        headers: {
+          'user-agent': 'Mozilla/5.0',
+          referer: `${STORE_BASE}/`,
+        },
+        signal: AbortSignal.timeout(15000),
+      });
+      if (res.ok) {
+        response = res;
+        break;
+      }
+    } catch {
+      // ignore and retry
+    }
+    if (attempt < 3) {
+      await sleep(1000 * attempt);
+    }
+  }
 
-  if (!response.ok) {
+  if (!response || !response.ok) {
     return {
-      status: `failed-http-${response.status}`,
+      status: `failed-http-${response?.status ?? 'timeout'}`,
       imageLocalPath: null,
       imageHash: null,
     };
@@ -459,14 +492,16 @@ async function main() {
   const [merchantPayload, statusPayload, categoriesPayload, itemsPayload] = await Promise.all([
     fetchSuccess(`/api-public/mobile-order/v1/merchants?merchantIds=${merchantId}`, merchantId),
     fetchSuccess(`/api-public/mobile-order/v1/merchants/merchant-status?merchantIds=${merchantId}`, merchantId),
-    fetchSuccess('/api-public/mobile-order/v1/catalog/categories', merchantId),
+    fetchSuccess('/api-public/mobile-order/v1/catalog/categories', merchantId).catch(() => null),
     fetchSuccess(`/api-public/mobile-order/v2/catalog/items?merchantId=${merchantId}`, merchantId),
   ]);
 
   const merchant = merchantPayload.merchants?.[0] ?? { id: Number(merchantId) };
   const merchantStatus = statusPayload.merchantStatusList?.[0] ?? null;
-  const categories = (categoriesPayload.categories ?? [])
-    .map((category) => ({
+
+  let categories = [];
+  if (categoriesPayload?.categories) {
+    categories = categoriesPayload.categories.map((category) => ({
       id: category.id,
       title: category.title,
       titleEn: localize(category.titleI18n, category.title),
@@ -474,8 +509,25 @@ async function main() {
       kioskOrder: category.kioskOrder,
       default: Boolean(category.default),
       enabled: category.kioskEnabled !== false,
-    }))
-    .sort((left, right) => (left.order ?? 0) - (right.order ?? 0));
+    }));
+  } else {
+    const extractedMap = new Map();
+    for (const rawItem of itemsPayload?.items ?? []) {
+      if (rawItem.category && !extractedMap.has(rawItem.category.id)) {
+        extractedMap.set(rawItem.category.id, {
+          id: rawItem.category.id,
+          title: rawItem.category.title,
+          titleEn: localize(rawItem.category.titleI18n, rawItem.category.title),
+          order: rawItem.category.order ?? 999,
+          kioskOrder: rawItem.category.kioskOrder ?? 999,
+          default: Boolean(rawItem.category.default),
+          enabled: rawItem.category.kioskEnabled !== false,
+        });
+      }
+    }
+    categories = [...extractedMap.values()];
+  }
+  categories.sort((left, right) => (left.order ?? 0) - (right.order ?? 0));
   const categoryMap = new Map(categories.map((category) => [category.id, category]));
 
   const dedupedById = new Map();

@@ -24,7 +24,7 @@ jobs:
       - name: Node.js 설정
         uses: actions/setup-node@v4
         with:
-          node-version: '20'
+          node-version: '22'
 
       - name: WebP 이미지 도구 설치
         run: sudo apt-get update && sudo apt-get install -y webp
@@ -41,7 +41,7 @@ jobs:
         run: |
           git config user.name "clumi-menu-bot"
           git config user.email "actions@users.noreply.github.com"
-          git add data/tossplace-menu data/site-menu.json
+          git add data/tossplace-menu data/site-menu.json data/featured.json
           if git diff --cached --quiet; then
             echo "변경된 메뉴 없음 — 커밋 생략"
           else
