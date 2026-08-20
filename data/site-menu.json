@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-07-23T21:53:25.922Z",
+  "generatedAt": "2026-08-20T21:16:07.047Z",
   "merchantId": 238090,
   "items": [
     {
@@ -97,6 +97,18 @@
       "imageLocalPath": "data/tossplace-menu/238090/images/10683603-피스타치오-초코-반하나-와플-87f8a2942f.webp"
     },
     {
+      "id": 16230479,
+      "categoryTitle": "벨기에와플",
+      "categoryTitleEn": "Belgium Waffle",
+      "title": "[시즌한정]무화과&크림치즈 와플",
+      "description": "부드러운 크림치즈와 생무화과의 완벽한 앙상블~*",
+      "state": "ON_SALE",
+      "labels": [
+        "인기"
+      ],
+      "imageLocalPath": "data/tossplace-menu/238090/images/16230479-시즌한정-무화과-크림치즈-와플-45e9e0e7c1.webp"
+    },
+    {
       "id": 7735791,
       "categoryTitle": "벨기에와플",
       "categoryTitleEn": "Belgium Waffle",
@@ -104,17 +116,7 @@
       "description": "\"입안에서 톡톡 터지는 달콤한 보석, 펄슈가\"\n벨기에산 천연 펄슈가가 반죽 사이사이에 콕콕 박혀 있어, 씹을 때마다 기분 좋은 달콤함이 느껴집니다. 높은 온도에서 캐러멜라이즈된 펄슈가의 바삭함과 앵커 버터의 풍미가 만난 정통 벨기에 리에쥬 와플을 경험해 보세요.",
       "state": "ON_SALE",
       "labels": [],
-      "imageLocalPath": "data/tossplace-menu/238090/images/7735791-클래식-와플-b6d73bbc24.webp"
-    },
-    {
-      "id": 7735910,
-      "categoryTitle": "벨기에와플",
-      "categoryTitleEn": "Belgium Waffle",
-      "title": "[저당]메이플&시나몬 와플",
-      "description": "\"달콤함은 그대로, 걱정은 비우세요!\"\n다이어트 중에도 포기할 수 없는 달콤한 행복. 풍미는 깊지만 칼로리 부담은 낮춘 저당 메이플 시럽을 사용했습니다. 앵커 버터의 고소함과 건강한 달콤함이 만나 탄생한 '가벼운 힐링'을 경험해 보세요.",
-      "state": "ON_SALE",
-      "labels": [],
-      "imageLocalPath": "data/tossplace-menu/238090/images/7735910-저당-메이플-시나몬-와플-775c9f1b1a.webp"
+      "imageLocalPath": "data/tossplace-menu/238090/images/7735791-클래식-와플-e996468283.webp"
     },
     {
       "id": 7735937,
@@ -126,7 +128,17 @@
       "labels": [
         "인기"
       ],
-      "imageLocalPath": "data/tossplace-menu/238090/images/7735937-블루베리-크림치즈-와플-2067253bb0.webp"
+      "imageLocalPath": "data/tossplace-menu/238090/images/7735937-블루베리-크림치즈-와플-32131784ad.webp"
+    },
+    {
+      "id": 7735910,
+      "categoryTitle": "벨기에와플",
+      "categoryTitleEn": "Belgium Waffle",
+      "title": "[저당]메이플&시나몬 와플",
+      "description": "\"달콤함은 그대로, 걱정은 비우세요!\"\n다이어트 중에도 포기할 수 없는 달콤한 행복. 풍미는 깊지만 칼로리 부담은 낮춘 저당 메이플 시럽을 사용했습니다. 앵커 버터의 고소함과 건강한 달콤함이 만나 탄생한 '가벼운 힐링'을 경험해 보세요.",
+      "state": "ON_SALE",
+      "labels": [],
+      "imageLocalPath": "data/tossplace-menu/238090/images/7735910-저당-메이플-시나몬-와플-1795427119.webp"
     },
     {
       "id": 7736391,
@@ -138,7 +150,7 @@
       "labels": [
         "인기"
       ],
-      "imageLocalPath": "data/tossplace-menu/238090/images/7736391-애플잼-와플-9b9caea113.webp"
+      "imageLocalPath": "data/tossplace-menu/238090/images/7736391-애플잼-와플-8d65b9a46f.webp"
     },
     {
       "id": 7853022,
@@ -168,37 +180,43 @@
       "description": "뉴질랜드 청정 지역의 앵커 버터를 아낌없이 넣어 매일 아침 정성껏 반죽합니다. 겉바속쫀 와플과 입안 가득 퍼지는 고함량 아이스크림의 온도 차를 경험해 보세요!",
       "state": "ON_SALE",
       "labels": [],
-      "imageLocalPath": "data/tossplace-menu/238090/images/8433327-아이스크림-와플-43603d9f22.webp"
+      "imageLocalPath": "data/tossplace-menu/238090/images/8433327-아이스크림-와플-8d991c06d1.webp"
     },
     {
-      "id": 7826722,
-      "categoryTitle": "벨기에와플",
-      "categoryTitleEn": "Belgium Waffle",
-      "title": "딸기잼 와플",
-      "description": "\"입안 가득 터지는 상큼함의 마법!\"\n앵커 버터의 고소함이 응축된 벨기에 와플 위에 달콤한 딸기잼을 듬뿍 올렸습니다. 바삭한 식감 사이로 퍼지는 진한 딸기의 풍미로 기분 좋은 에너지를 충전해 보세요.",
-      "state": "ON_SALE",
-      "labels": [],
-      "imageLocalPath": "data/tossplace-menu/238090/images/7826722-딸기잼-와플-c922a0014e.webp"
-    },
-    {
-      "id": 9142726,
+      "id": 15684885,
       "categoryTitle": "인기 메뉴",
       "categoryTitleEn": "BEST",
-      "title": "[시그니처] 합정라떼",
-      "description": "깊은 에스프레소에 버터스카치의 달콤함을 더한 부드러운 라떼.",
+      "title": "애플망고 한 컵",
+      "description": "달콤한 망고를 듬뿍 담았습니다.\n애플망고와 진한 초코 아이스크림, 망고 샤베트, 바삭한 그래놀라, 고소한 치즈 큐브가 어우러진 시원한 디저트.",
       "state": "ON_SALE",
-      "labels": [],
-      "imageLocalPath": "data/tossplace-menu/238090/images/9142726-시그니처-합정라떼-2481923ac8.webp"
+      "labels": [
+        "신규"
+      ],
+      "imageLocalPath": "data/tossplace-menu/238090/images/15684885-애플망고-한-컵-69d37ad4fd.webp"
     },
     {
-      "id": 9142742,
+      "id": 15684889,
       "categoryTitle": "인기 메뉴",
       "categoryTitleEn": "BEST",
-      "title": "[시그니처] 상수라떼",
-      "description": "특제 우유로 만들어 고소함이 더 진한 라떼.\n부드럽고 풍미가 깊어 편하게 마시기 좋아요",
+      "title": "복숭아 한 컵",
+      "description": "제철 황도 1개를 통째로 담았습니다.\n달콤한 생복숭아와 바삭한 그래놀라, 상큼한 요거트, 진한 바닐라 아이스크림이 어우러진 여름 한정 프리미엄 파르페",
       "state": "ON_SALE",
-      "labels": [],
-      "imageLocalPath": "data/tossplace-menu/238090/images/9142742-시그니처-상수라떼-0065c0682f.webp"
+      "labels": [
+        "신규"
+      ],
+      "imageLocalPath": "data/tossplace-menu/238090/images/15684889-복숭아-한-컵-5f7a3ea8c3.webp"
+    },
+    {
+      "id": 15684896,
+      "categoryTitle": "인기 메뉴",
+      "categoryTitleEn": "BEST",
+      "title": "밀크팥빙수 한 컵",
+      "description": "국내산 팥과 우유 얼음으로 만든 클래식 빙수.\n부드러운 우유 얼음 위에 풍성한 팥, 진한 바닐라 아이스크림, 달콤한 연유, 쫀득한 찰떡, 바삭한 그래놀라를 더한 한 컵 빙수.",
+      "state": "ON_SALE",
+      "labels": [
+        "신규"
+      ],
+      "imageLocalPath": "data/tossplace-menu/238090/images/15684896-밀크팥빙수-한-컵-b3ed4a325c.webp"
     },
     {
       "id": 10683603,
@@ -213,38 +231,14 @@
       "imageLocalPath": "data/tossplace-menu/238090/images/10683603-피스타치오-초코-반하나-와플-87f8a2942f.webp"
     },
     {
-      "id": 10077936,
-      "categoryTitle": "인기 메뉴",
-      "categoryTitleEn": "BEST",
-      "title": "망고 도깨비 (2인)",
-      "description": "도깨비 방망이로 뚝딱! 상큼한 자몽 베이스 위로 코코넛젤리와 초코아이스크림, 애플망고의 다채로운 식감이 펼쳐지는 망고맛동산에 초대합니다.",
-      "state": "ON_SALE",
-      "labels": [
-        "인기"
-      ],
-      "imageLocalPath": "data/tossplace-menu/238090/images/10077936-망고-도깨비-2인-f4ff32c77d.webp"
-    },
-    {
-      "id": 13540786,
-      "categoryTitle": "인기 메뉴",
-      "categoryTitleEn": "BEST",
-      "title": "딸기 포레누아",
-      "description": "상큼한 딸기, 부드러운 우유 크림, 달콤한 화이트 초콜릿이 만나 포근하게 완성된 딸기 케이크 🍓",
-      "state": "ON_SALE",
-      "labels": [
-        "인기"
-      ],
-      "imageLocalPath": "data/tossplace-menu/238090/images/13540786-딸기-포레누아-5fc1c84123.webp"
-    },
-    {
       "id": 13541356,
       "categoryTitle": "인기 메뉴",
       "categoryTitleEn": "BEST",
-      "title": "[블루베리 & 크림치즈] 와플",
+      "title": "블루베리&크림치즈 와플",
       "description": "\"눈과 입이 즐거워지는 상큼하고 진한 유혹\"\n세계 10대 슈퍼푸드인 블루베리와 부드럽고 진한 크림치즈가 만났습니다. 앵커 버터로 구워낸 따뜻한 와플 위에 펼쳐지는 상큼 고소한 하모니를 즐겨보세요. 건강한 달콤함이 필요할 때 최고의 선택입니다.",
       "state": "ON_SALE",
       "labels": [],
-      "imageLocalPath": "data/tossplace-menu/238090/images/7735937-블루베리-크림치즈-와플-2067253bb0.webp"
+      "imageLocalPath": "data/tossplace-menu/238090/images/7735937-블루베리-크림치즈-와플-32131784ad.webp"
     },
     {
       "id": 14267200,
@@ -267,6 +261,26 @@
         "인기"
       ],
       "imageLocalPath": "data/tossplace-menu/238090/images/14267209-오렌지-비앙코-dda910de0e.webp"
+    },
+    {
+      "id": 9142726,
+      "categoryTitle": "인기 메뉴",
+      "categoryTitleEn": "BEST",
+      "title": "[시그니처] 합정라떼",
+      "description": "깊은 에스프레소에 버터스카치의 달콤함을 더한 부드러운 라떼.",
+      "state": "ON_SALE",
+      "labels": [],
+      "imageLocalPath": "data/tossplace-menu/238090/images/9142726-시그니처-합정라떼-2481923ac8.webp"
+    },
+    {
+      "id": 9142742,
+      "categoryTitle": "인기 메뉴",
+      "categoryTitleEn": "BEST",
+      "title": "[시그니처] 상수라떼",
+      "description": "특제 우유로 만들어 고소함이 더 진한 라떼.\n부드럽고 풍미가 깊어 편하게 마시기 좋아요",
+      "state": "ON_SALE",
+      "labels": [],
+      "imageLocalPath": "data/tossplace-menu/238090/images/9142742-시그니처-상수라떼-0065c0682f.webp"
     },
     {
       "id": 6979310,
@@ -340,7 +354,7 @@
       "categoryTitleEn": "CLUMI Emotion Potion",
       "title": "[플래미] 노을에이드",
       "description": "저녁 노을을 닮은 빛깔에\n레몬 향이 은은하게 퍼지는 새콤달콤 티 에이드",
-      "state": "SOLD_OUT",
+      "state": "ON_SALE",
       "labels": [],
       "imageLocalPath": "data/tossplace-menu/238090/images/6986485-플래미-노을에이드-524d256888.webp"
     },
@@ -379,7 +393,7 @@
       "categoryTitle": "커피",
       "categoryTitleEn": "Coffee",
       "title": "합정라떼",
-      "description": "깊은 에스프레소에 버터스카치의 달콤함을 더한 부드러운 라떼.",
+      "description": "합정의 여유와 달콤한 버터스카치 풍미를 담은 시그니처 라떼",
       "state": "ON_SALE",
       "labels": [
         "인기"
@@ -391,7 +405,7 @@
       "categoryTitle": "커피",
       "categoryTitleEn": "Coffee",
       "title": "상수라떼",
-      "description": "특제 우유로 만들어 고소함이 더 진한 라떼.\n부드럽고 풍미가 깊어 편하게 마시기 좋아요",
+      "description": "고소하고 크리미한 풍미를 살린, 상수의 감각적인 무드를 담은 시그니처 라떼.",
       "state": "ON_SALE",
       "labels": [
         "인기"
@@ -473,16 +487,6 @@
       "imageLocalPath": "data/tossplace-menu/238090/images/12829519-애플-아메리카노-d516b7102e.webp"
     },
     {
-      "id": 12936816,
-      "categoryTitle": "커피",
-      "categoryTitleEn": "Coffee",
-      "title": "[오렌지100%] 아메리카노",
-      "description": "상큼한 오렌지100% 와 깊은 커피가 어우러진 아메리카노\n가볍고 청량한 시트러스 커피",
-      "state": "ON_SALE",
-      "labels": [],
-      "imageLocalPath": "data/tossplace-menu/238090/images/12936816-오렌지-아메리카노-70bc0ca887.webp"
-    },
-    {
       "id": 12936713,
       "categoryTitle": "커피",
       "categoryTitleEn": "Coffee",
@@ -507,6 +511,18 @@
       "imageLocalPath": "data/tossplace-menu/238090/images/7628072-우리제주말차-801558d68f.webp"
     },
     {
+      "id": 11912204,
+      "categoryTitle": "논커피",
+      "categoryTitleEn": "Non Coffee",
+      "title": "호지차 라떼",
+      "description": "녹차 찻잎을 고온에서 볶아내 떫은맛은 비우고 구수함은 가득 채웠습니다. 입안 가득 퍼지는 특유의 향긋한 볶음 향과 우유의 담백함이 만나 마치 인절미처럼 고소한 풍미를 선사합니다.",
+      "state": "ON_SALE",
+      "labels": [
+        "인기"
+      ],
+      "imageLocalPath": "data/tossplace-menu/238090/images/11912204-호지차-라떼-b7b9b7705d.webp"
+    },
+    {
       "id": 6978834,
       "categoryTitle": "논커피",
       "categoryTitleEn": "Non Coffee",
@@ -525,28 +541,6 @@
       "state": "ON_SALE",
       "labels": [],
       "imageLocalPath": ""
-    },
-    {
-      "id": 6978847,
-      "categoryTitle": "논커피",
-      "categoryTitleEn": "Non Coffee",
-      "title": "얼그레이 밀크티",
-      "description": "진한 얼그레이의 베르가못 향과\n부드러운 밀크가 조화를 이루는 얼그레이 밀크티.\n은은하고 깊은 풍미로 여유롭게 즐기기 좋은 한 잔입니다.",
-      "state": "ON_SALE",
-      "labels": [],
-      "imageLocalPath": "data/tossplace-menu/238090/images/6999994-아몬드라떼-3bbca293e8.webp"
-    },
-    {
-      "id": 11912204,
-      "categoryTitle": "논커피",
-      "categoryTitleEn": "Non Coffee",
-      "title": "호지차 라떼",
-      "description": "녹차 찻잎을 고온에서 볶아내 떫은맛은 비우고 구수함은 가득 채웠습니다. 입안 가득 퍼지는 특유의 향긋한 볶음 향과 우유의 담백함이 만나 마치 인절미처럼 고소한 풍미를 선사합니다.",
-      "state": "ON_SALE",
-      "labels": [
-        "신규"
-      ],
-      "imageLocalPath": "data/tossplace-menu/238090/images/11912204-호지차-라떼-b7b9b7705d.webp"
     },
     {
       "id": 8191069,
@@ -572,8 +566,8 @@
     },
     {
       "id": 10641666,
-      "categoryTitle": "케이크&디저트",
-      "categoryTitleEn": "Cake&Dessert",
+      "categoryTitle": "디저트",
+      "categoryTitleEn": "Dessert",
       "title": "딸기포레누아",
       "description": "상큼한 딸기, 부드러운 우유 크림, 달콤한 화이트 초콜릿이 만나 포근하게 완성된 딸기 케이크 🍓",
       "state": "SOLD_OUT",
@@ -583,9 +577,21 @@
       "imageLocalPath": "data/tossplace-menu/238090/images/10641666-딸기포레누아-a0bf52ee2f.webp"
     },
     {
+      "id": 10197088,
+      "categoryTitle": "디저트",
+      "categoryTitleEn": "Dessert",
+      "title": "교토말차쇼콜라",
+      "description": "꾸덕한 갸또 시트와 말차 가나슈에\n부드러운 우유 크림이 어우러진 케이크",
+      "state": "ON_SALE",
+      "labels": [
+        "인기"
+      ],
+      "imageLocalPath": "data/tossplace-menu/238090/images/10197088-교토말차쇼콜라-9d28d3d031.webp"
+    },
+    {
       "id": 10842350,
-      "categoryTitle": "케이크&디저트",
-      "categoryTitleEn": "Cake&Dessert",
+      "categoryTitle": "디저트",
+      "categoryTitleEn": "Dessert",
       "title": "얼그레이 무화과",
       "description": "달콤한 무화과가 듬뿍 들어간 고소한 시트 위에,\n향긋한 얼그레이 크림을 올린 부드러운 케이크 ☕🍰",
       "state": "ON_SALE",
@@ -596,20 +602,32 @@
     },
     {
       "id": 10192464,
-      "categoryTitle": "케이크&디저트",
-      "categoryTitleEn": "Cake&Dessert",
+      "categoryTitle": "디저트",
+      "categoryTitleEn": "Dessert",
       "title": "초콜릿로쉐케익",
       "description": "부드러운 스페인산 고급 초콜릿 위에 고소하게 구운 헤이즐넛을 올려\n한 입 베어 물면 진한 초콜릿 풍미가 가득 퍼지는 케이크",
-      "state": "SOLD_OUT",
+      "state": "ON_SALE",
       "labels": [
         "인기"
       ],
       "imageLocalPath": "data/tossplace-menu/238090/images/10192464-초콜릿로쉐케익-52fe1dcc82.webp"
     },
     {
+      "id": 11352437,
+      "categoryTitle": "디저트",
+      "categoryTitleEn": "Dessert",
+      "title": "레몬구름 토르테",
+      "description": "상큼하게 퍼지는 부드러운 레몬 커드와 레몬 제스트,\n입안 가득 싱그러운 풍미를 채워주며 지친 하루에 생기를 더해주는 레몬 케이크.",
+      "state": "ON_SALE",
+      "labels": [
+        "신규"
+      ],
+      "imageLocalPath": "data/tossplace-menu/238090/images/11352437-레몬구름-토르테-b87b32ee1f.webp"
+    },
+    {
       "id": 10114893,
-      "categoryTitle": "케이크&디저트",
-      "categoryTitleEn": "Cake&Dessert",
+      "categoryTitle": "디저트",
+      "categoryTitleEn": "Dessert",
       "title": "아이스크림 브라우니",
       "description": "진한 초콜릿 브라우니 위에\n부드러운 바닐라 아이스크림을 올렸어요.\n따뜻함과 차가움이 만나 한 입만으로도 충분히 행복해지는 디저트.",
       "state": "ON_SALE",
@@ -619,26 +637,24 @@
       "imageLocalPath": "data/tossplace-menu/238090/images/8748567-아이스크림브라우니-1ca4423910.webp"
     },
     {
-      "id": 11622362,
-      "categoryTitle": "케이크&디저트",
-      "categoryTitleEn": "Cake&Dessert",
-      "title": "딸기  그래놀라 쫀득쿠키",
-      "description": "부드럽고 진한 달콤함! 쫀득한 식감과 딸기 그래놀라가 함유된 디저트 쿠키",
-      "state": "ON_SALE",
-      "labels": [
-        "신규"
-      ],
-      "imageLocalPath": "data/tossplace-menu/238090/images/11622362-딸기-그래놀라-쫀득쿠키-8a42d2a9c0.webp"
-    },
-    {
       "id": 10652155,
-      "categoryTitle": "케이크&디저트",
-      "categoryTitleEn": "Cake&Dessert",
+      "categoryTitle": "디저트",
+      "categoryTitleEn": "Dessert",
       "title": "케이크 초",
       "description": "",
       "state": "ON_SALE",
       "labels": [],
       "imageLocalPath": "data/tossplace-menu/238090/images/10652155-케이크-초-8ae83ded46.webp"
+    },
+    {
+      "id": 16385006,
+      "categoryTitle": "디저트",
+      "categoryTitleEn": "Dessert",
+      "title": "진한 치즈 케이크",
+      "description": "진한 크림치즈의 풍미를 가장 기본에 충실하게 구현한, 매일 찾게 되는 정통 치즈 케이크",
+      "state": "ON_SALE",
+      "labels": [],
+      "imageLocalPath": "data/tossplace-menu/238090/images/16385006-진한-치즈-케이크-5c0eb416f1.webp"
     },
     {
       "id": 13579307,
@@ -690,7 +706,7 @@
       "categoryTitleEn": "스무디",
       "title": "말차 스무디",
       "description": "프리미엄 말차의 깊고 진한 향과 부드러운 우유가 완벽한 조화를 이루는 아이스 블렌디드 음료입니다. 말차 특유의 고급스러운 쌉싸름함과 기분 좋은 달콤함을 시원하게 즐겨보세요. (에스프레소 샷을 추가하시면 쌉싸름함과 커피의 풍미가 어우러져 더욱 맛있습니다!)",
-      "state": "SOLD_OUT",
+      "state": "ON_SALE",
       "labels": [],
       "imageLocalPath": "data/tossplace-menu/238090/images/13579323-말차-스무디-4f18a3e1bc.webp"
     },
@@ -712,7 +728,7 @@
       "categoryTitleEn": "Tea",
       "title": "레몬석양",
       "description": "히비스커스가 그린 아름다운 바닷가 석양을 담은 수색에 레모니한 상큼함과 달콤한의 조화 한 잔",
-      "state": "SOLD_OUT",
+      "state": "ON_SALE",
       "labels": [],
       "imageLocalPath": "data/tossplace-menu/238090/images/6979257-레몬석양-5fbcf385df.webp"
     },
@@ -761,16 +777,6 @@
       "imageLocalPath": "data/tossplace-menu/238090/images/10686488-수월경화-티세트-5개입-8a7755e5fc.webp"
     },
     {
-      "id": 10084541,
-      "categoryTitle": "티",
-      "categoryTitleEn": "Tea",
-      "title": "레몬마테",
-      "description": "",
-      "state": "SOLD_OUT",
-      "labels": [],
-      "imageLocalPath": "data/tossplace-menu/238090/images/10084541-레몬마테-758965c122.webp"
-    },
-    {
       "id": 6979125,
       "categoryTitle": "티",
       "categoryTitleEn": "Tea",
@@ -779,16 +785,6 @@
       "state": "ON_SALE",
       "labels": [],
       "imageLocalPath": "data/tossplace-menu/238090/images/6979125-복숭아아이스티-4cd29fc8e8.webp"
-    },
-    {
-      "id": 8092522,
-      "categoryTitle": "티",
-      "categoryTitleEn": "Tea",
-      "title": "자몽차",
-      "description": "깊은 자몽의 상큼쌉싸름한 맛을 담은 과일차입니다.\n진하게 우러난 과일 향과 깔끔한 뒷맛이 특징이에요.",
-      "state": "ON_SALE",
-      "labels": [],
-      "imageLocalPath": "data/tossplace-menu/238090/images/8092522-자몽차-8d0a95d1e6.webp"
     },
     {
       "id": 12131403,
@@ -801,40 +797,6 @@
         "신규"
       ],
       "imageLocalPath": "data/tossplace-menu/238090/images/12131403-레몬차-a3fc0f726f.webp"
-    },
-    {
-      "id": 7411076,
-      "categoryTitle": "파르페",
-      "categoryTitleEn": "Sapporo Parfait",
-      "title": "삿포로초코파르페",
-      "description": "깊고 진한 초콜릿을 담은 파르페, 달콤하면서도 깔끔한 풍미.",
-      "state": "ON_SALE",
-      "labels": [],
-      "imageLocalPath": "data/tossplace-menu/238090/images/7411076-삿포로초코파르페-97216e9a5a.webp"
-    },
-    {
-      "id": 12986704,
-      "categoryTitle": "파르페",
-      "categoryTitleEn": "Sapporo Parfait",
-      "title": "망고도깨비(1인)",
-      "description": "도깨비 방망이로 뚝딱! 상큼한 자몽 베이스 위로 코코넛젤리와 초코아이스크림, 애플망고의 다채로운 식감이 펼쳐지는 망고맛동산에 초대합니다.",
-      "state": "ON_SALE",
-      "labels": [
-        "신규"
-      ],
-      "imageLocalPath": "data/tossplace-menu/238090/images/12986704-망고도깨비-1인-26bda87d18.webp"
-    },
-    {
-      "id": 13135786,
-      "categoryTitle": "파르페",
-      "categoryTitleEn": "Sapporo Parfait",
-      "title": "망고도깨비(2인)",
-      "description": "도깨비 방망이로 뚝딱! 상큼한 자몽 베이스 위로 코코넛젤리와 초코아이스크림, 애플망고의 다채로운 식감이 펼쳐지는 망고맛동산에 초대합니다.\n",
-      "state": "ON_SALE",
-      "labels": [
-        "신규"
-      ],
-      "imageLocalPath": "data/tossplace-menu/238090/images/12986704-망고도깨비-1인-26bda87d18.webp"
     },
     {
       "id": 6979384,
@@ -865,6 +827,38 @@
       "state": "ON_SALE",
       "labels": [],
       "imageLocalPath": "data/tossplace-menu/238090/images/13734740-청포도에이드-91f4fb1163.webp"
+    },
+    {
+      "id": 15684826,
+      "categoryTitle": "파르페",
+      "categoryTitleEn": "Parfait",
+      "title": "[시즌] 복숭아 한 컵",
+      "description": "제철 황도 1개를 통째로 담았습니다.\n달콤한 생복숭아와 바삭한 그래놀라, 상큼한 요거트, 진한 바닐라 아이스크림이 어우러진 여름 한정 프리미엄 파르페",
+      "state": "ON_SALE",
+      "labels": [
+        "신규"
+      ],
+      "imageLocalPath": "data/tossplace-menu/238090/images/15684889-복숭아-한-컵-5f7a3ea8c3.webp"
+    },
+    {
+      "id": 15684832,
+      "categoryTitle": "파르페",
+      "categoryTitleEn": "Parfait",
+      "title": "[시즌] 애플망고 한 컵",
+      "description": "달콤한 망고를 듬뿍 담았습니다.\n애플망고와 진한 초코 아이스크림, 망고 샤베트, 바삭한 그래놀라, 고소한 치즈 큐브가 어우러진 시원한 디저트.",
+      "state": "ON_SALE",
+      "labels": [],
+      "imageLocalPath": "data/tossplace-menu/238090/images/15684885-애플망고-한-컵-69d37ad4fd.webp"
+    },
+    {
+      "id": 15684844,
+      "categoryTitle": "파르페",
+      "categoryTitleEn": "Parfait",
+      "title": "[시즌] 밀크팥빙수 한 컵",
+      "description": "국내산 팥과 우유 얼음으로 만든 클래식 빙수.\n부드러운 우유 얼음 위에 풍성한 팥, 진한 바닐라 아이스크림, 달콤한 연유, 쫀득한 찰떡, 바삭한 그래놀라를 더한 한 컵 빙수.",
+      "state": "ON_SALE",
+      "labels": [],
+      "imageLocalPath": "data/tossplace-menu/238090/images/15684896-밀크팥빙수-한-컵-b3ed4a325c.webp"
     },
     {
       "id": 9276227,
@@ -969,7 +963,7 @@
     {
       "id": 6982159,
       "categoryTitle": "병음료",
-      "categoryTitleEn": "Bottle Drink",
+      "categoryTitleEn": "Bottle",
       "title": "제로콜라",
       "description": "",
       "state": "ON_SALE",
@@ -979,7 +973,7 @@
     {
       "id": 8535124,
       "categoryTitle": "병음료",
-      "categoryTitleEn": "Bottle Drink",
+      "categoryTitleEn": "Bottle",
       "title": "콜라",
       "description": "",
       "state": "ON_SALE",
@@ -989,7 +983,7 @@
     {
       "id": 6982172,
       "categoryTitle": "병음료",
-      "categoryTitleEn": "Bottle Drink",
+      "categoryTitleEn": "Bottle",
       "title": "에비앙 생수",
       "description": "",
       "state": "ON_SALE",
