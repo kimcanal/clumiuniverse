@@ -2,18 +2,16 @@
   "merchantId": 238090,
   "merchantName": "클루미 유니버스",
   "merchantStatus": "OPEN",
-  "fetchedAt": "2026-08-20T21:16:07.047Z",
+  "fetchedAt": "2026-08-21T21:11:51.806Z",
   "summary": {
-    "total": 91,
-    "added": 10,
-    "changed": 45,
-    "unchanged": 36,
-    "removed": 11
+    "total": 90,
+    "added": 0,
+    "changed": 1,
+    "unchanged": 89,
+    "removed": 1
   },
   "imageSummary": {
-    "skipped-existing-url": 73,
-    "downloaded": 12,
-    "skipped-existing-hash": 4,
+    "skipped-existing-url": 88,
     "missing": 1,
     "failed-http-timeout": 1
   },
@@ -1397,7 +1395,7 @@
       "fingerprint": "a7aa40850b8c323ea8d3575d6d30acc0a6266f587dc6944623573abc5270d4eb",
       "imageLocalPath": "data/tossplace-menu/238090/images/16230479-시즌한정-무화과-크림치즈-와플-45e9e0e7c1.jpg",
       "imageHash": "45e9e0e7c136465835a3fbf2c5a5478525780d51def39ddd6c40289eb5563bc0",
-      "imageStatus": "downloaded"
+      "imageStatus": "skipped-existing-url"
     },
     {
       "id": 7735791,
@@ -1515,7 +1513,7 @@
       "fingerprint": "25c25b2ab3160f1ab033d810437e5d140c87f42e11c2e690594f5445a841053b",
       "imageLocalPath": "data/tossplace-menu/238090/images/7735791-클래식-와플-e996468283.jpg",
       "imageHash": "e996468283edb35712f6108cc2152d0afea2abd7e94734a065e9cfff7aed14e1",
-      "imageStatus": "downloaded"
+      "imageStatus": "skipped-existing-url"
     },
     {
       "id": 7735937,
@@ -1620,7 +1618,7 @@
       "fingerprint": "f85440bcd86f1a111ee9bc879ccaeedf3eaa96a8adb28b73cc03f71417b35d63",
       "imageLocalPath": "data/tossplace-menu/238090/images/7735937-블루베리-크림치즈-와플-32131784ad.jpg",
       "imageHash": "32131784ada4511e43e0d64f09c2537f0933d80517a7fe28166c1ae3122af90d",
-      "imageStatus": "downloaded"
+      "imageStatus": "skipped-existing-url"
     },
     {
       "id": 7735910,
@@ -1738,7 +1736,7 @@
       "fingerprint": "d0b3be0b33bbdbc17430938ee5d4377f233dd7ea6a2fe170abb19814ab3d4d8f",
       "imageLocalPath": "data/tossplace-menu/238090/images/7735910-저당-메이플-시나몬-와플-1795427119.jpg",
       "imageHash": "17954271198c05fedd3d4a176b730718dd0085c632ed10ca45f9d604901331ad",
-      "imageStatus": "downloaded"
+      "imageStatus": "skipped-existing-url"
     },
     {
       "id": 7736391,
@@ -1843,7 +1841,7 @@
       "fingerprint": "f8919b86fc3a423c5b8e4a9a851534a0bf9faa3b5f0597d186afdf1259a3cb11",
       "imageLocalPath": "data/tossplace-menu/238090/images/7736391-애플잼-와플-8d65b9a46f.jpg",
       "imageHash": "8d65b9a46f1c183f11ecff2102e5a0df694e601a435f30fb3d4a04819259a8d0",
-      "imageStatus": "downloaded"
+      "imageStatus": "skipped-existing-url"
     },
     {
       "id": 7853022,
@@ -2215,7 +2213,7 @@
       "fingerprint": "8ba37ee9daa8390af2560e3f4efca29af718df0cd544738141b43d2e5504ac1f",
       "imageLocalPath": "data/tossplace-menu/238090/images/8433327-아이스크림-와플-8d991c06d1.jpg",
       "imageHash": "8d991c06d123b798de6e608d2d240785c21110acf36e95b055b7639f16e40eb7",
-      "imageStatus": "downloaded"
+      "imageStatus": "skipped-existing-url"
     },
     {
       "id": 15684885,
@@ -2254,7 +2252,7 @@
       "fingerprint": "096fd3908877a93f2e88a1d1d537c8df5cf72e7f79936b4fdf3c5cd172361ca5",
       "imageLocalPath": "data/tossplace-menu/238090/images/15684885-애플망고-한-컵-69d37ad4fd.jpg",
       "imageHash": "69d37ad4fdba4e7d9acf34a2b2e2e4eda5782ee7eb0b1635c4f6dabba2641b70",
-      "imageStatus": "downloaded"
+      "imageStatus": "skipped-existing-url"
     },
     {
       "id": 15684889,
@@ -2293,7 +2291,7 @@
       "fingerprint": "0239f4cba885ebf3b9c32b9ced140cdec496e1df2027fa12abb798d929dae420",
       "imageLocalPath": "data/tossplace-menu/238090/images/15684889-복숭아-한-컵-5f7a3ea8c3.jpg",
       "imageHash": "5f7a3ea8c3acf4c7cb72bf80a59b5faca086ac25d26996419ce96db7a50c15f3",
-      "imageStatus": "downloaded"
+      "imageStatus": "skipped-existing-url"
     },
     {
       "id": 15684896,
@@ -2332,7 +2330,7 @@
       "fingerprint": "1e47978c520295afa69d0b562987f44aef69312694c776c47eae1e80e449c45d",
       "imageLocalPath": "data/tossplace-menu/238090/images/15684896-밀크팥빙수-한-컵-b3ed4a325c.jpg",
       "imageHash": "b3ed4a325c89adca4955d0b412e4d1a587a8b4c26d1f7f083fe6291e411abc7f",
-      "imageStatus": "downloaded"
+      "imageStatus": "skipped-existing-url"
     },
     {
       "id": 10683603,
@@ -2420,7 +2418,7 @@
       "fingerprint": "efa5c0ed1f2f07ab9baee6002708fc101fef30c14fbcbd5475fe687f273e62dc",
       "imageLocalPath": "data/tossplace-menu/238090/images/7735937-블루베리-크림치즈-와플-32131784ad.jpg",
       "imageHash": "32131784ada4511e43e0d64f09c2537f0933d80517a7fe28166c1ae3122af90d",
-      "imageStatus": "skipped-existing-hash"
+      "imageStatus": "skipped-existing-url"
     },
     {
       "id": 14267200,
@@ -4542,7 +4540,7 @@
       "titleEn": "Cream Sweet Potato Latte",
       "description": "고구마를 직접 갈아 만든 페이스트에 부드러운 헤이즐넛 크림을 올린 고구마 라떼 🍠",
       "descriptionEn": "Sweet potato latte with real sweet potato texture alive and thick cream on top",
-      "state": "ON_SALE",
+      "state": "SOLD_OUT",
       "priceValue": 7500,
       "priceTitle": "기본",
       "imageUrl": "https://place-static.tossplace.com/public/live/PUBLIC/2025-10-17/1fc4f897-2562-4355-98c7-f9932f8de6d1",
@@ -4587,7 +4585,7 @@
           ]
         }
       ],
-      "fingerprint": "0d9cea13ba429718bcd08fa02659f694c5d10634e434650c59b86c3a2bbf76db",
+      "fingerprint": "2e96892c3b28b72e1cfa2ee7839d5b8e00ac07bcb5cd2c0a6a9a36e7c03f2ad3",
       "imageLocalPath": "data/tossplace-menu/238090/images/8191069-크림고구마라떼-8ea132bda7.png",
       "imageHash": "8ea132bda714a3b84763470f5a35792ce8fda2a85632f2b98d083b2a95ddfcca",
       "imageStatus": "skipped-existing-url"
@@ -4636,45 +4634,6 @@
       "imageStatus": "skipped-existing-url"
     },
     {
-      "id": 10641666,
-      "categoryId": 985967,
-      "categoryTitle": "디저트",
-      "categoryTitleEn": "Dessert",
-      "position": 1,
-      "title": "딸기포레누아",
-      "titleEn": "Strawberry Forêt noire",
-      "description": "상큼한 딸기, 부드러운 우유 크림, 달콤한 화이트 초콜릿이 만나 포근하게 완성된 딸기 케이크 🍓",
-      "descriptionEn": "A strawberry cake with a harmonious blend of fresh strawberries, smooth milk cream, and white chocolate.",
-      "state": "SOLD_OUT",
-      "priceValue": 12000,
-      "priceTitle": "기본",
-      "imageUrl": "https://place-static.tossplace.com/public/live/PUBLIC/2026-05-13/8a453da7-a2f8-4d0d-bf0d-73ce0bbcbf3e",
-      "labels": [
-        "인기"
-      ],
-      "optionSets": [
-        {
-          "id": 377185,
-          "title": "하트 초",
-          "required": false,
-          "minChoices": 0,
-          "maxChoices": 1,
-          "choices": [
-            {
-              "id": 1168613,
-              "title": "하트 초",
-              "priceValue": 1500,
-              "state": "ON_SALE"
-            }
-          ]
-        }
-      ],
-      "fingerprint": "04a1c17db15668bcec21f954b6b52571be70689a8670dff01e83dd177446fc5f",
-      "imageLocalPath": "data/tossplace-menu/238090/images/10641666-딸기포레누아-a0bf52ee2f.jpg",
-      "imageHash": "a0bf52ee2f95df60f753e56e5e51ae7a1102b4c42bf9b44125b02dcca8568213",
-      "imageStatus": "skipped-existing-url"
-    },
-    {
       "id": 10197088,
       "categoryId": 985967,
       "categoryTitle": "디저트",
@@ -4711,7 +4670,7 @@
       "fingerprint": "fa013a28cd10d8f9cd868479b4879937514f9a437602f2c1ffb980b892a6f897",
       "imageLocalPath": "data/tossplace-menu/238090/images/10197088-교토말차쇼콜라-9d28d3d031.jpg",
       "imageHash": "9d28d3d031d728cd946817c735c6dd9ba1693b50a7c16e5636b47a33b131f455",
-      "imageStatus": "downloaded"
+      "imageStatus": "skipped-existing-url"
     },
     {
       "id": 10842350,
@@ -4812,7 +4771,7 @@
       "fingerprint": "94f5537c4ddfbaa511784ad5b615cc61ca6582ae7792b7e8f6791cb70758c386",
       "imageLocalPath": "data/tossplace-menu/238090/images/11352437-레몬구름-토르테-b87b32ee1f.jpg",
       "imageHash": "b87b32ee1fe8cd16e8ead9a25282d6d33a836b0f686257341f9fbc057a6bd2a9",
-      "imageStatus": "downloaded"
+      "imageStatus": "skipped-existing-url"
     },
     {
       "id": 10114893,
@@ -4877,7 +4836,7 @@
       "fingerprint": "ba13d7a087f00c28f97821f52e50e1d2aeabbd34ef9b6c4d1bdfbd67b94db63d",
       "imageLocalPath": "data/tossplace-menu/238090/images/16385006-진한-치즈-케이크-5c0eb416f1.jpg",
       "imageHash": "5c0eb416f12c31a2270dff556cd595c5088501ffb03a028c07058a291f5c2a67",
-      "imageStatus": "downloaded"
+      "imageStatus": "skipped-existing-url"
     },
     {
       "id": 13579307,
@@ -5452,7 +5411,7 @@
       "fingerprint": "fce318e8fc83fc1139fbc37e0c4366895ecf03503b19c0a0492ce996bf5ac7ab",
       "imageLocalPath": "data/tossplace-menu/238090/images/15684889-복숭아-한-컵-5f7a3ea8c3.jpg",
       "imageHash": "5f7a3ea8c3acf4c7cb72bf80a59b5faca086ac25d26996419ce96db7a50c15f3",
-      "imageStatus": "skipped-existing-hash"
+      "imageStatus": "skipped-existing-url"
     },
     {
       "id": 15684832,
@@ -5489,7 +5448,7 @@
       "fingerprint": "7fcc4acfe55b033f57dcd7a6fe8e1a22894405f0de58d644e1b576ac7d9a31b8",
       "imageLocalPath": "data/tossplace-menu/238090/images/15684885-애플망고-한-컵-69d37ad4fd.jpg",
       "imageHash": "69d37ad4fdba4e7d9acf34a2b2e2e4eda5782ee7eb0b1635c4f6dabba2641b70",
-      "imageStatus": "skipped-existing-hash"
+      "imageStatus": "skipped-existing-url"
     },
     {
       "id": 15684844,
@@ -5510,7 +5469,7 @@
       "fingerprint": "60a5424dc00087128ad844a97bc35a4467b4bbe37c24c72285dccb68491a8e65",
       "imageLocalPath": "data/tossplace-menu/238090/images/15684896-밀크팥빙수-한-컵-b3ed4a325c.jpg",
       "imageHash": "b3ed4a325c89adca4955d0b412e4d1a587a8b4c26d1f7f083fe6291e411abc7f",
-      "imageStatus": "skipped-existing-hash"
+      "imageStatus": "skipped-existing-url"
     },
     {
       "id": 9276227,

@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-20T21:16:07.047Z",
+  "generatedAt": "2026-08-21T21:11:51.806Z",
   "merchantId": 238090,
   "items": [
     {
@@ -548,7 +548,7 @@
       "categoryTitleEn": "Non Coffee",
       "title": "크림고구마라떼",
       "description": "고구마를 직접 갈아 만든 페이스트에 부드러운 헤이즐넛 크림을 올린 고구마 라떼 🍠",
-      "state": "ON_SALE",
+      "state": "SOLD_OUT",
       "labels": [
         "신규"
       ],
@@ -563,18 +563,6 @@
       "state": "ON_SALE",
       "labels": [],
       "imageLocalPath": "data/tossplace-menu/238090/images/6978874-우유-b842270d61.webp"
-    },
-    {
-      "id": 10641666,
-      "categoryTitle": "디저트",
-      "categoryTitleEn": "Dessert",
-      "title": "딸기포레누아",
-      "description": "상큼한 딸기, 부드러운 우유 크림, 달콤한 화이트 초콜릿이 만나 포근하게 완성된 딸기 케이크 🍓",
-      "state": "SOLD_OUT",
-      "labels": [
-        "인기"
-      ],
-      "imageLocalPath": "data/tossplace-menu/238090/images/10641666-딸기포레누아-a0bf52ee2f.webp"
     },
     {
       "id": 10197088,

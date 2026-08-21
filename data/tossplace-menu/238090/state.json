@@ -2500,14 +2500,14 @@
       "updatedAt": "2026-07-21T04:15:20.254Z"
     },
     "8191069": {
-      "fingerprint": "0d9cea13ba429718bcd08fa02659f694c5d10634e434650c59b86c3a2bbf76db",
+      "fingerprint": "2e96892c3b28b72e1cfa2ee7839d5b8e00ac07bcb5cd2c0a6a9a36e7c03f2ad3",
       "title": "크림고구마라떼",
       "description": "고구마를 직접 갈아 만든 페이스트에 부드러운 헤이즐넛 크림을 올린 고구마 라떼 🍠",
       "imageUrl": "https://place-static.tossplace.com/public/live/PUBLIC/2025-10-17/1fc4f897-2562-4355-98c7-f9932f8de6d1",
       "imageLocalPath": "data/tossplace-menu/238090/images/8191069-크림고구마라떼-8ea132bda7.png",
       "imageHash": "8ea132bda714a3b84763470f5a35792ce8fda2a85632f2b98d083b2a95ddfcca",
       "firstSeenAt": "2026-07-21T04:15:20.254Z",
-      "updatedAt": "2026-08-20T21:16:07.047Z"
+      "updatedAt": "2026-08-21T21:11:51.806Z"
     },
     "8433327": {
       "fingerprint": "8ba37ee9daa8390af2560e3f4efca29af718df0cd544738141b43d2e5504ac1f",
@@ -2667,16 +2667,6 @@
       "imageLocalPath": "data/tossplace-menu/238090/images/10197088-교토말차쇼콜라-9d28d3d031.jpg",
       "imageHash": "9d28d3d031d728cd946817c735c6dd9ba1693b50a7c16e5636b47a33b131f455",
       "firstSeenAt": "2026-08-20T21:16:07.047Z",
-      "updatedAt": "2026-08-20T21:16:07.047Z"
-    },
-    "10641666": {
-      "fingerprint": "04a1c17db15668bcec21f954b6b52571be70689a8670dff01e83dd177446fc5f",
-      "title": "딸기포레누아",
-      "description": "상큼한 딸기, 부드러운 우유 크림, 달콤한 화이트 초콜릿이 만나 포근하게 완성된 딸기 케이크 🍓",
-      "imageUrl": "https://place-static.tossplace.com/public/live/PUBLIC/2026-05-13/8a453da7-a2f8-4d0d-bf0d-73ce0bbcbf3e",
-      "imageLocalPath": "data/tossplace-menu/238090/images/10641666-딸기포레누아-a0bf52ee2f.jpg",
-      "imageHash": "a0bf52ee2f95df60f753e56e5e51ae7a1102b4c42bf9b44125b02dcca8568213",
-      "firstSeenAt": "2026-07-21T04:15:20.254Z",
       "updatedAt": "2026-08-20T21:16:07.047Z"
     },
     "10652155": {
@@ -3149,7 +3139,22 @@
         "missing": 1,
         "failed-http-timeout": 1
       }
+    },
+    {
+      "at": "2026-08-21T21:11:51.806Z",
+      "summary": {
+        "total": 90,
+        "added": 0,
+        "changed": 1,
+        "unchanged": 89,
+        "removed": 1
+      },
+      "imageSummary": {
+        "skipped-existing-url": 88,
+        "missing": 1,
+        "failed-http-timeout": 1
+      }
     }
   ],
-  "lastRunAt": "2026-08-20T21:16:07.047Z"
+  "lastRunAt": "2026-08-21T21:11:51.806Z"
 }
