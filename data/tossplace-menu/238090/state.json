@@ -2990,14 +2990,14 @@
       "updatedAt": "2026-08-20T21:16:07.047Z"
     },
     "16230479": {
-      "fingerprint": "a7aa40850b8c323ea8d3575d6d30acc0a6266f587dc6944623573abc5270d4eb",
+      "fingerprint": "127b87c881ddf6769444c842f1c99bb1a3149e73b646af95b16f72da8f088b1e",
       "title": "[시즌한정]무화과&크림치즈 와플",
       "description": "부드러운 크림치즈와 생무화과의 완벽한 앙상블~*",
       "imageUrl": "https://place-static.tossplace.com/public/live/PUBLIC/2026-08-14/8f168e4d-f50e-4bc5-a80c-9e0a5bdbc879",
       "imageLocalPath": "data/tossplace-menu/238090/images/16230479-시즌한정-무화과-크림치즈-와플-45e9e0e7c1.jpg",
       "imageHash": "45e9e0e7c136465835a3fbf2c5a5478525780d51def39ddd6c40289eb5563bc0",
       "firstSeenAt": "2026-08-20T21:16:07.047Z",
-      "updatedAt": "2026-08-20T21:16:07.047Z"
+      "updatedAt": "2026-08-23T21:09:46.558Z"
     },
     "16385006": {
       "fingerprint": "ba13d7a087f00c28f97821f52e50e1d2aeabbd34ef9b6c4d1bdfbd67b94db63d",
@@ -3154,7 +3154,22 @@
         "missing": 1,
         "failed-http-timeout": 1
       }
+    },
+    {
+      "at": "2026-08-23T21:09:46.558Z",
+      "summary": {
+        "total": 90,
+        "added": 0,
+        "changed": 1,
+        "unchanged": 89,
+        "removed": 0
+      },
+      "imageSummary": {
+        "skipped-existing-url": 88,
+        "missing": 1,
+        "failed-http-timeout": 1
+      }
     }
   ],
-  "lastRunAt": "2026-08-21T21:11:51.806Z"
+  "lastRunAt": "2026-08-23T21:09:46.558Z"
 }

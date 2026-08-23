@@ -2,13 +2,13 @@
   "merchantId": 238090,
   "merchantName": "클루미 유니버스",
   "merchantStatus": "OPEN",
-  "fetchedAt": "2026-08-21T21:11:51.806Z",
+  "fetchedAt": "2026-08-23T21:09:46.558Z",
   "summary": {
     "total": 90,
     "added": 0,
     "changed": 1,
     "unchanged": 89,
-    "removed": 1
+    "removed": 0
   },
   "imageSummary": {
     "skipped-existing-url": 88,
@@ -1362,7 +1362,7 @@
       "titleEn": "FIG&Cream Cheese Waffle",
       "description": "부드러운 크림치즈와 생무화과의 완벽한 앙상블~*",
       "descriptionEn": "The perfect ensemble of rich cream cheese and fresh figs.",
-      "state": "ON_SALE",
+      "state": "SOLD_OUT",
       "priceValue": 15000,
       "priceTitle": "기본",
       "imageUrl": "https://place-static.tossplace.com/public/live/PUBLIC/2026-08-14/8f168e4d-f50e-4bc5-a80c-9e0a5bdbc879",
@@ -1392,7 +1392,7 @@
           ]
         }
       ],
-      "fingerprint": "a7aa40850b8c323ea8d3575d6d30acc0a6266f587dc6944623573abc5270d4eb",
+      "fingerprint": "127b87c881ddf6769444c842f1c99bb1a3149e73b646af95b16f72da8f088b1e",
       "imageLocalPath": "data/tossplace-menu/238090/images/16230479-시즌한정-무화과-크림치즈-와플-45e9e0e7c1.jpg",
       "imageHash": "45e9e0e7c136465835a3fbf2c5a5478525780d51def39ddd6c40289eb5563bc0",
       "imageStatus": "skipped-existing-url"

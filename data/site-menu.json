@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-21T21:11:51.806Z",
+  "generatedAt": "2026-08-23T21:09:46.558Z",
   "merchantId": 238090,
   "items": [
     {
@@ -102,7 +102,7 @@
       "categoryTitleEn": "Belgium Waffle",
       "title": "[시즌한정]무화과&크림치즈 와플",
       "description": "부드러운 크림치즈와 생무화과의 완벽한 앙상블~*",
-      "state": "ON_SALE",
+      "state": "SOLD_OUT",
       "labels": [
         "인기"
       ],
