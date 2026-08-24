@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-23T21:09:46.558Z",
+  "generatedAt": "2026-08-24T21:17:02.516Z",
   "merchantId": 238090,
   "items": [
     {
@@ -492,7 +492,7 @@
       "categoryTitleEn": "Coffee",
       "title": "[여름 시그니처] 오렌지 비앙코",
       "description": "오렌지의 상큼함과 부드러운 크림이 어우러진 커피\n달콤쌉싸름한 매력의 시트러스 라떼",
-      "state": "ON_SALE",
+      "state": "SOLD_OUT",
       "labels": [
         "신규"
       ],
@@ -582,7 +582,7 @@
       "categoryTitleEn": "Dessert",
       "title": "얼그레이 무화과",
       "description": "달콤한 무화과가 듬뿍 들어간 고소한 시트 위에,\n향긋한 얼그레이 크림을 올린 부드러운 케이크 ☕🍰",
-      "state": "ON_SALE",
+      "state": "SOLD_OUT",
       "labels": [
         "인기"
       ],

@@ -2,12 +2,12 @@
   "merchantId": 238090,
   "merchantName": "클루미 유니버스",
   "merchantStatus": "OPEN",
-  "fetchedAt": "2026-08-23T21:09:46.558Z",
+  "fetchedAt": "2026-08-24T21:17:02.516Z",
   "summary": {
     "total": 90,
     "added": 0,
-    "changed": 1,
-    "unchanged": 89,
+    "changed": 2,
+    "unchanged": 88,
     "removed": 0
   },
   "imageSummary": {
@@ -4259,7 +4259,7 @@
       "titleEn": "[Sinature] Orange Bianco",
       "description": "오렌지의 상큼함과 부드러운 크림이 어우러진 커피\n달콤쌉싸름한 매력의 시트러스 라떼",
       "descriptionEn": "A citrus coffee with fresh orange100% and smooth cream\nSweet, slightly bitter, and refreshing latte",
-      "state": "ON_SALE",
+      "state": "SOLD_OUT",
       "priceValue": 7500,
       "priceTitle": "기본",
       "imageUrl": "https://place-static.tossplace.com/public/live/PUBLIC/2026-06-06/f4281e0f-51c0-42d6-9bec-82c7ecef3d45",
@@ -4310,7 +4310,7 @@
           ]
         }
       ],
-      "fingerprint": "bace8057665188629bbeecb35c14298ca7c71ab2b35b2604d247455611e75a3b",
+      "fingerprint": "7c0f3cb9e5da96f6d954ba48e41bcabd0cf66038b8e8c3f450b6487762433478",
       "imageLocalPath": "data/tossplace-menu/238090/images/14267209-오렌지-비앙코-dda910de0e.jpg",
       "imageHash": "dda910de0ece7d52a0b6ddcfbbd3ef6e0dc9d34497a543c355f61fa2781093e1",
       "imageStatus": "skipped-existing-url"
@@ -4682,7 +4682,7 @@
       "titleEn": "Earl Grey Fig",
       "description": "달콤한 무화과가 듬뿍 들어간 고소한 시트 위에,\n향긋한 얼그레이 크림을 올린 부드러운 케이크 ☕🍰",
       "descriptionEn": "A soft cake layered with nutty sponge filled with sweet figs, topped with fragrant Earl Grey cream ☕🍰",
-      "state": "ON_SALE",
+      "state": "SOLD_OUT",
       "priceValue": 10900,
       "priceTitle": "기본",
       "imageUrl": "https://place-static.tossplace.com/public/live/PUBLIC/2026-05-12/965186ba-98fb-4c6b-bdd7-15c905728f22",
@@ -4706,7 +4706,7 @@
           ]
         }
       ],
-      "fingerprint": "2e4ff8b44082041a4d094a018c3f6b3de31a16a4adcdcf5c3c87b16574502938",
+      "fingerprint": "d4aac2fb337f91343a7d3d0e0e729c4b8edcde89a17bf9bd2a60b3a97398a082",
       "imageLocalPath": "data/tossplace-menu/238090/images/10842350-얼그레이-무화과-0f5f5e5bf2.jpg",
       "imageHash": "0f5f5e5bf2263c6d32c3cf25d28b16a234dd70a0ccd3b2088184f007f50fbc48",
       "imageStatus": "skipped-existing-url"
