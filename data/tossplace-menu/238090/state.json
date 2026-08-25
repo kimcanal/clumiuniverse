@@ -1112,6 +1112,14 @@
       "title": "[시즌] 밀크팥빙수 한 컵",
       "sourceUrl": "https://place-static.tossplace.com/public/live/PUBLIC/2026-07-25/e39c0bca-aaa7-455d-8275-b99363caaa45",
       "updatedAt": "2026-08-20T21:16:04.275Z"
+    },
+    "https://place-static.tossplace.com/public/live/PUBLIC/2026-08-25/7bd9f6b6-a3f7-454f-b38b-37496a0d34e5": {
+      "localPath": "data/tossplace-menu/238090/images/16508079-카페라떼-2e771f0a3b.jpg",
+      "hash": "2e771f0a3b85add8606b6bd0c287c10131989b4ca290fab570d753b2ba95c9bb",
+      "itemId": 16508079,
+      "title": "카페라떼",
+      "sourceUrl": "https://place-static.tossplace.com/public/live/PUBLIC/2026-08-25/7bd9f6b6-a3f7-454f-b38b-37496a0d34e5",
+      "updatedAt": "2026-08-25T21:15:18.569Z"
     }
   },
   "imagesByHash": {
@@ -2106,6 +2114,14 @@
       "title": "진한 치즈 케이크",
       "sourceUrl": "https://place-static.tossplace.com/public/live/PUBLIC/2026-08-20/3d5b5f05-a32a-4579-b025-d13b6ae5d1be",
       "updatedAt": "2026-08-20T21:16:03.711Z"
+    },
+    "2e771f0a3b85add8606b6bd0c287c10131989b4ca290fab570d753b2ba95c9bb": {
+      "localPath": "data/tossplace-menu/238090/images/16508079-카페라떼-2e771f0a3b.jpg",
+      "hash": "2e771f0a3b85add8606b6bd0c287c10131989b4ca290fab570d753b2ba95c9bb",
+      "itemId": 16508079,
+      "title": "카페라떼",
+      "sourceUrl": "https://place-static.tossplace.com/public/live/PUBLIC/2026-08-25/7bd9f6b6-a3f7-454f-b38b-37496a0d34e5",
+      "updatedAt": "2026-08-25T21:15:18.569Z"
     }
   },
   "itemsById": {
@@ -2830,14 +2846,14 @@
       "updatedAt": "2026-07-21T04:15:20.254Z"
     },
     "12936713": {
-      "fingerprint": "7c0f3cb9e5da96f6d954ba48e41bcabd0cf66038b8e8c3f450b6487762433478",
+      "fingerprint": "bace8057665188629bbeecb35c14298ca7c71ab2b35b2604d247455611e75a3b",
       "title": "[여름 시그니처] 오렌지 비앙코",
       "description": "오렌지의 상큼함과 부드러운 크림이 어우러진 커피\n달콤쌉싸름한 매력의 시트러스 라떼",
       "imageUrl": "https://place-static.tossplace.com/public/live/PUBLIC/2026-06-06/f4281e0f-51c0-42d6-9bec-82c7ecef3d45",
       "imageLocalPath": "data/tossplace-menu/238090/images/14267209-오렌지-비앙코-dda910de0e.jpg",
       "imageHash": "dda910de0ece7d52a0b6ddcfbbd3ef6e0dc9d34497a543c355f61fa2781093e1",
       "firstSeenAt": "2026-07-21T04:15:20.254Z",
-      "updatedAt": "2026-08-24T21:17:02.516Z"
+      "updatedAt": "2026-08-25T21:15:22.454Z"
     },
     "13040656": {
       "fingerprint": "5cb514f5406695aaa5a256b8c4688e98ad7786ef1014b8618cb83895ecb46c37",
@@ -2950,14 +2966,14 @@
       "updatedAt": "2026-08-20T21:16:07.047Z"
     },
     "15684844": {
-      "fingerprint": "60a5424dc00087128ad844a97bc35a4467b4bbe37c24c72285dccb68491a8e65",
+      "fingerprint": "436e461317c15516d397111d24fcc2c6bc4236392e9cf369a5748457037eb608",
       "title": "[시즌] 밀크팥빙수 한 컵",
       "description": "국내산 팥과 우유 얼음으로 만든 클래식 빙수.\n부드러운 우유 얼음 위에 풍성한 팥, 진한 바닐라 아이스크림, 달콤한 연유, 쫀득한 찰떡, 바삭한 그래놀라를 더한 한 컵 빙수.",
       "imageUrl": "https://place-static.tossplace.com/public/live/PUBLIC/2026-07-25/e39c0bca-aaa7-455d-8275-b99363caaa45",
       "imageLocalPath": "data/tossplace-menu/238090/images/15684896-밀크팥빙수-한-컵-b3ed4a325c.jpg",
       "imageHash": "b3ed4a325c89adca4955d0b412e4d1a587a8b4c26d1f7f083fe6291e411abc7f",
       "firstSeenAt": "2026-08-20T21:16:07.047Z",
-      "updatedAt": "2026-08-20T21:16:07.047Z"
+      "updatedAt": "2026-08-25T21:15:22.454Z"
     },
     "15684885": {
       "fingerprint": "096fd3908877a93f2e88a1d1d537c8df5cf72e7f79936b4fdf3c5cd172361ca5",
@@ -2980,24 +2996,24 @@
       "updatedAt": "2026-08-20T21:16:07.047Z"
     },
     "15684896": {
-      "fingerprint": "1e47978c520295afa69d0b562987f44aef69312694c776c47eae1e80e449c45d",
+      "fingerprint": "53436f0ded14e7216547e6336638f45f013ea708c01f4fa66371af32193c0f37",
       "title": "밀크팥빙수 한 컵",
       "description": "국내산 팥과 우유 얼음으로 만든 클래식 빙수.\n부드러운 우유 얼음 위에 풍성한 팥, 진한 바닐라 아이스크림, 달콤한 연유, 쫀득한 찰떡, 바삭한 그래놀라를 더한 한 컵 빙수.",
       "imageUrl": "https://place-static.tossplace.com/public/live/PUBLIC/2026-07-25/ac05e794-719d-4438-9c38-1798491acffd",
       "imageLocalPath": "data/tossplace-menu/238090/images/15684896-밀크팥빙수-한-컵-b3ed4a325c.jpg",
       "imageHash": "b3ed4a325c89adca4955d0b412e4d1a587a8b4c26d1f7f083fe6291e411abc7f",
       "firstSeenAt": "2026-08-20T21:16:07.047Z",
-      "updatedAt": "2026-08-20T21:16:07.047Z"
+      "updatedAt": "2026-08-25T21:15:22.454Z"
     },
     "16230479": {
-      "fingerprint": "127b87c881ddf6769444c842f1c99bb1a3149e73b646af95b16f72da8f088b1e",
+      "fingerprint": "a7aa40850b8c323ea8d3575d6d30acc0a6266f587dc6944623573abc5270d4eb",
       "title": "[시즌한정]무화과&크림치즈 와플",
       "description": "부드러운 크림치즈와 생무화과의 완벽한 앙상블~*",
       "imageUrl": "https://place-static.tossplace.com/public/live/PUBLIC/2026-08-14/8f168e4d-f50e-4bc5-a80c-9e0a5bdbc879",
       "imageLocalPath": "data/tossplace-menu/238090/images/16230479-시즌한정-무화과-크림치즈-와플-45e9e0e7c1.jpg",
       "imageHash": "45e9e0e7c136465835a3fbf2c5a5478525780d51def39ddd6c40289eb5563bc0",
       "firstSeenAt": "2026-08-20T21:16:07.047Z",
-      "updatedAt": "2026-08-23T21:09:46.558Z"
+      "updatedAt": "2026-08-25T21:15:22.454Z"
     },
     "16385006": {
       "fingerprint": "ba13d7a087f00c28f97821f52e50e1d2aeabbd34ef9b6c4d1bdfbd67b94db63d",
@@ -3008,6 +3024,16 @@
       "imageHash": "5c0eb416f12c31a2270dff556cd595c5088501ffb03a028c07058a291f5c2a67",
       "firstSeenAt": "2026-08-20T21:16:07.047Z",
       "updatedAt": "2026-08-20T21:16:07.047Z"
+    },
+    "16508079": {
+      "fingerprint": "1a66b53dea25f6bfbf384e78c3a789d2ecdc0e77dea33dd6d0b9b0568c7cffdf",
+      "title": "카페라떼",
+      "description": "에스프레소와 부드러운 밀크의 완벽한 밸런스.",
+      "imageUrl": "https://place-static.tossplace.com/public/live/PUBLIC/2026-08-25/7bd9f6b6-a3f7-454f-b38b-37496a0d34e5",
+      "imageLocalPath": "data/tossplace-menu/238090/images/16508079-카페라떼-2e771f0a3b.jpg",
+      "imageHash": "2e771f0a3b85add8606b6bd0c287c10131989b4ca290fab570d753b2ba95c9bb",
+      "firstSeenAt": "2026-08-25T21:15:22.454Z",
+      "updatedAt": "2026-08-25T21:15:22.454Z"
     }
   },
   "runs": [
@@ -3184,7 +3210,23 @@
         "missing": 1,
         "failed-http-timeout": 1
       }
+    },
+    {
+      "at": "2026-08-25T21:15:22.454Z",
+      "summary": {
+        "total": 91,
+        "added": 1,
+        "changed": 4,
+        "unchanged": 86,
+        "removed": 0
+      },
+      "imageSummary": {
+        "skipped-existing-url": 88,
+        "downloaded": 1,
+        "missing": 1,
+        "failed-http-timeout": 1
+      }
     }
   ],
-  "lastRunAt": "2026-08-24T21:17:02.516Z"
+  "lastRunAt": "2026-08-25T21:15:22.454Z"
 }

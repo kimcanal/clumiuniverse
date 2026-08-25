@@ -2,16 +2,17 @@
   "merchantId": 238090,
   "merchantName": "클루미 유니버스",
   "merchantStatus": "OPEN",
-  "fetchedAt": "2026-08-24T21:17:02.516Z",
+  "fetchedAt": "2026-08-25T21:15:22.454Z",
   "summary": {
-    "total": 90,
-    "added": 0,
-    "changed": 2,
-    "unchanged": 88,
+    "total": 91,
+    "added": 1,
+    "changed": 4,
+    "unchanged": 86,
     "removed": 0
   },
   "imageSummary": {
     "skipped-existing-url": 88,
+    "downloaded": 1,
     "missing": 1,
     "failed-http-timeout": 1
   },
@@ -1362,7 +1363,7 @@
       "titleEn": "FIG&Cream Cheese Waffle",
       "description": "부드러운 크림치즈와 생무화과의 완벽한 앙상블~*",
       "descriptionEn": "The perfect ensemble of rich cream cheese and fresh figs.",
-      "state": "SOLD_OUT",
+      "state": "ON_SALE",
       "priceValue": 15000,
       "priceTitle": "기본",
       "imageUrl": "https://place-static.tossplace.com/public/live/PUBLIC/2026-08-14/8f168e4d-f50e-4bc5-a80c-9e0a5bdbc879",
@@ -1392,7 +1393,7 @@
           ]
         }
       ],
-      "fingerprint": "127b87c881ddf6769444c842f1c99bb1a3149e73b646af95b16f72da8f088b1e",
+      "fingerprint": "a7aa40850b8c323ea8d3575d6d30acc0a6266f587dc6944623573abc5270d4eb",
       "imageLocalPath": "data/tossplace-menu/238090/images/16230479-시즌한정-무화과-크림치즈-와플-45e9e0e7c1.jpg",
       "imageHash": "45e9e0e7c136465835a3fbf2c5a5478525780d51def39ddd6c40289eb5563bc0",
       "imageStatus": "skipped-existing-url"
@@ -2304,7 +2305,7 @@
       "description": "국내산 팥과 우유 얼음으로 만든 클래식 빙수.\n부드러운 우유 얼음 위에 풍성한 팥, 진한 바닐라 아이스크림, 달콤한 연유, 쫀득한 찰떡, 바삭한 그래놀라를 더한 한 컵 빙수.",
       "descriptionEn": "Made with Korean sweet red beans and creamy milk ice.\nTopped with vanilla ice cream, condensed milk, chewy rice cake, and crunchy granola for a classic Korean dessert.",
       "state": "ON_SALE",
-      "priceValue": 10000,
+      "priceValue": 12000,
       "priceTitle": "기본",
       "imageUrl": "https://place-static.tossplace.com/public/live/PUBLIC/2026-07-25/ac05e794-719d-4438-9c38-1798491acffd",
       "labels": [
@@ -2327,7 +2328,7 @@
           ]
         }
       ],
-      "fingerprint": "1e47978c520295afa69d0b562987f44aef69312694c776c47eae1e80e449c45d",
+      "fingerprint": "53436f0ded14e7216547e6336638f45f013ea708c01f4fa66371af32193c0f37",
       "imageLocalPath": "data/tossplace-menu/238090/images/15684896-밀크팥빙수-한-컵-b3ed4a325c.jpg",
       "imageHash": "b3ed4a325c89adca4955d0b412e4d1a587a8b4c26d1f7f083fe6291e411abc7f",
       "imageStatus": "skipped-existing-url"
@@ -4259,7 +4260,7 @@
       "titleEn": "[Sinature] Orange Bianco",
       "description": "오렌지의 상큼함과 부드러운 크림이 어우러진 커피\n달콤쌉싸름한 매력의 시트러스 라떼",
       "descriptionEn": "A citrus coffee with fresh orange100% and smooth cream\nSweet, slightly bitter, and refreshing latte",
-      "state": "SOLD_OUT",
+      "state": "ON_SALE",
       "priceValue": 7500,
       "priceTitle": "기본",
       "imageUrl": "https://place-static.tossplace.com/public/live/PUBLIC/2026-06-06/f4281e0f-51c0-42d6-9bec-82c7ecef3d45",
@@ -4310,10 +4311,155 @@
           ]
         }
       ],
-      "fingerprint": "7c0f3cb9e5da96f6d954ba48e41bcabd0cf66038b8e8c3f450b6487762433478",
+      "fingerprint": "bace8057665188629bbeecb35c14298ca7c71ab2b35b2604d247455611e75a3b",
       "imageLocalPath": "data/tossplace-menu/238090/images/14267209-오렌지-비앙코-dda910de0e.jpg",
       "imageHash": "dda910de0ece7d52a0b6ddcfbbd3ef6e0dc9d34497a543c355f61fa2781093e1",
       "imageStatus": "skipped-existing-url"
+    },
+    {
+      "id": 16508079,
+      "categoryId": 716702,
+      "categoryTitle": "커피",
+      "categoryTitleEn": "Coffee",
+      "position": 15,
+      "title": "카페라떼",
+      "titleEn": "CAFFÈ LATTE",
+      "description": "에스프레소와 부드러운 밀크의 완벽한 밸런스.",
+      "descriptionEn": "The perfect balance of espresso and smooth milk.",
+      "state": "ON_SALE",
+      "priceValue": 6000,
+      "priceTitle": "기본",
+      "imageUrl": "https://place-static.tossplace.com/public/live/PUBLIC/2026-08-25/7bd9f6b6-a3f7-454f-b38b-37496a0d34e5",
+      "labels": [],
+      "optionSets": [
+        {
+          "id": 296010,
+          "title": "원두 선택",
+          "required": true,
+          "minChoices": 1,
+          "maxChoices": 1,
+          "choices": [
+            {
+              "id": 901204,
+              "title": "고소한 원두",
+              "priceValue": 0,
+              "state": "ON_SALE"
+            },
+            {
+              "id": 901205,
+              "title": "산미있는 원두",
+              "priceValue": 0,
+              "state": "ON_SALE"
+            },
+            {
+              "id": 901206,
+              "title": "디카페인 원두",
+              "priceValue": 500,
+              "state": "ON_SALE"
+            }
+          ]
+        },
+        {
+          "id": 294937,
+          "title": "온도",
+          "required": true,
+          "minChoices": 1,
+          "maxChoices": 1,
+          "choices": [
+            {
+              "id": 897956,
+              "title": "따뜻하게",
+              "priceValue": 0,
+              "state": "ON_SALE"
+            },
+            {
+              "id": 897957,
+              "title": "차갑게",
+              "priceValue": 0,
+              "state": "ON_SALE"
+            }
+          ]
+        },
+        {
+          "id": 294938,
+          "title": "커피 옵션",
+          "required": false,
+          "minChoices": 0,
+          "maxChoices": 1,
+          "choices": [
+            {
+              "id": 897960,
+              "title": "샷 추가",
+              "priceValue": 500,
+              "state": "ON_SALE"
+            },
+            {
+              "id": 901463,
+              "title": "연하게",
+              "priceValue": 0,
+              "state": "ON_SALE"
+            },
+            {
+              "id": 901464,
+              "title": "헤이즐넛시럽추가",
+              "priceValue": 500,
+              "state": "ON_SALE"
+            },
+            {
+              "id": 901465,
+              "title": "바닐라시럽추가",
+              "priceValue": 500,
+              "state": "ON_SALE"
+            }
+          ]
+        },
+        {
+          "id": 296015,
+          "title": "오트 변경",
+          "required": false,
+          "minChoices": 0,
+          "maxChoices": 1,
+          "choices": [
+            {
+              "id": 901219,
+              "title": "오트 변경",
+              "priceValue": 800,
+              "state": "ON_SALE"
+            }
+          ]
+        },
+        {
+          "id": 296097,
+          "title": "샷 추가",
+          "required": false,
+          "minChoices": 0,
+          "maxChoices": 1,
+          "choices": [
+            {
+              "id": 901470,
+              "title": "샷추가(고소)",
+              "priceValue": 500,
+              "state": "ON_SALE"
+            },
+            {
+              "id": 901471,
+              "title": "샷추가(산미)",
+              "priceValue": 500,
+              "state": "ON_SALE"
+            },
+            {
+              "id": 901472,
+              "title": "디카페인 샷 추가",
+              "priceValue": 1000,
+              "state": "ON_SALE"
+            }
+          ]
+        }
+      ],
+      "fingerprint": "1a66b53dea25f6bfbf384e78c3a789d2ecdc0e77dea33dd6d0b9b0568c7cffdf",
+      "imageLocalPath": "data/tossplace-menu/238090/images/16508079-카페라떼-2e771f0a3b.jpg",
+      "imageHash": "2e771f0a3b85add8606b6bd0c287c10131989b4ca290fab570d753b2ba95c9bb",
+      "imageStatus": "downloaded"
     },
     {
       "id": 7628072,
@@ -5461,12 +5607,12 @@
       "description": "국내산 팥과 우유 얼음으로 만든 클래식 빙수.\n부드러운 우유 얼음 위에 풍성한 팥, 진한 바닐라 아이스크림, 달콤한 연유, 쫀득한 찰떡, 바삭한 그래놀라를 더한 한 컵 빙수.",
       "descriptionEn": "Made with Korean sweet red beans and creamy milk ice.\nTopped with vanilla ice cream, condensed milk, chewy rice cake, and crunchy granola for a classic Korean dessert.",
       "state": "ON_SALE",
-      "priceValue": 10000,
+      "priceValue": 12000,
       "priceTitle": "기본",
       "imageUrl": "https://place-static.tossplace.com/public/live/PUBLIC/2026-07-25/e39c0bca-aaa7-455d-8275-b99363caaa45",
       "labels": [],
       "optionSets": [],
-      "fingerprint": "60a5424dc00087128ad844a97bc35a4467b4bbe37c24c72285dccb68491a8e65",
+      "fingerprint": "436e461317c15516d397111d24fcc2c6bc4236392e9cf369a5748457037eb608",
       "imageLocalPath": "data/tossplace-menu/238090/images/15684896-밀크팥빙수-한-컵-b3ed4a325c.jpg",
       "imageHash": "b3ed4a325c89adca4955d0b412e4d1a587a8b4c26d1f7f083fe6291e411abc7f",
       "imageStatus": "skipped-existing-url"
