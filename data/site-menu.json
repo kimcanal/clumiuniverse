@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-25T21:15:22.454Z",
+  "generatedAt": "2026-08-28T04:59:27.387Z",
   "merchantId": 238090,
   "items": [
     {
@@ -650,7 +650,7 @@
       "categoryTitleEn": "Dessert",
       "title": "진한 치즈 케이크",
       "description": "진한 크림치즈의 풍미를 가장 기본에 충실하게 구현한, 매일 찾게 되는 정통 치즈 케이크",
-      "state": "ON_SALE",
+      "state": "SOLD_OUT",
       "labels": [],
       "imageLocalPath": "data/tossplace-menu/238090/images/16385006-진한-치즈-케이크-5c0eb416f1.webp"
     },

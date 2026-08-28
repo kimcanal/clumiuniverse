@@ -2,17 +2,16 @@
   "merchantId": 238090,
   "merchantName": "클루미 유니버스",
   "merchantStatus": "OPEN",
-  "fetchedAt": "2026-08-25T21:15:22.454Z",
+  "fetchedAt": "2026-08-28T04:59:27.387Z",
   "summary": {
     "total": 91,
-    "added": 1,
-    "changed": 4,
-    "unchanged": 86,
+    "added": 0,
+    "changed": 2,
+    "unchanged": 89,
     "removed": 0
   },
   "imageSummary": {
-    "skipped-existing-url": 88,
-    "downloaded": 1,
+    "skipped-existing-url": 89,
     "missing": 1,
     "failed-http-timeout": 1
   },
@@ -458,7 +457,7 @@
             {
               "id": 1275947,
               "title": "스크램블에그",
-              "priceValue": 5000,
+              "priceValue": 6000,
               "state": "ON_SALE"
             },
             {
@@ -512,7 +511,7 @@
           ]
         }
       ],
-      "fingerprint": "e1773b144de801ceddaa20138d2e516cd24110ef60bfb44e38d5c5e0d8241096",
+      "fingerprint": "a74f35638061e67cb8fece1587c8efd7790812c9eefa84f4cf3fa3bb2f31a40a",
       "imageLocalPath": "data/tossplace-menu/238090/images/10991140-내맘대로-브런치-Basic-waffle-f5ce2306c3.jpg",
       "imageHash": "f5ce2306c30e2e6edb9de09ee6d4772aeaa99f3d9bdce0ad40fd05d4e4878f24",
       "imageStatus": "skipped-existing-url"
@@ -4459,7 +4458,7 @@
       "fingerprint": "1a66b53dea25f6bfbf384e78c3a789d2ecdc0e77dea33dd6d0b9b0568c7cffdf",
       "imageLocalPath": "data/tossplace-menu/238090/images/16508079-카페라떼-2e771f0a3b.jpg",
       "imageHash": "2e771f0a3b85add8606b6bd0c287c10131989b4ca290fab570d753b2ba95c9bb",
-      "imageStatus": "downloaded"
+      "imageStatus": "skipped-existing-url"
     },
     {
       "id": 7628072,
@@ -4973,13 +4972,13 @@
       "titleEn": "Rich Cheesecake",
       "description": "진한 크림치즈의 풍미를 가장 기본에 충실하게 구현한, 매일 찾게 되는 정통 치즈 케이크",
       "descriptionEn": "A classic cheesecake with rich, creamy cheese flavor, crafted simply and traditionally for an everyday favorite.",
-      "state": "ON_SALE",
+      "state": "SOLD_OUT",
       "priceValue": 10900,
       "priceTitle": "기본",
       "imageUrl": "https://place-static.tossplace.com/public/live/PUBLIC/2026-08-20/3d5b5f05-a32a-4579-b025-d13b6ae5d1be",
       "labels": [],
       "optionSets": [],
-      "fingerprint": "ba13d7a087f00c28f97821f52e50e1d2aeabbd34ef9b6c4d1bdfbd67b94db63d",
+      "fingerprint": "65b11010fcb4124a19854eb942a65974c0350e30cc52cf3c07ea85e6be0736ff",
       "imageLocalPath": "data/tossplace-menu/238090/images/16385006-진한-치즈-케이크-5c0eb416f1.jpg",
       "imageHash": "5c0eb416f12c31a2270dff556cd595c5088501ffb03a028c07058a291f5c2a67",
       "imageStatus": "skipped-existing-url"

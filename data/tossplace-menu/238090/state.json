@@ -2736,14 +2736,14 @@
       "updatedAt": "2026-08-20T21:16:07.047Z"
     },
     "10991140": {
-      "fingerprint": "e1773b144de801ceddaa20138d2e516cd24110ef60bfb44e38d5c5e0d8241096",
+      "fingerprint": "a74f35638061e67cb8fece1587c8efd7790812c9eefa84f4cf3fa3bb2f31a40a",
       "title": "내맘대로 브런치(Basic waffle)",
       "description": "[뉴질랜드 앵커 무염 버터 100%] 벨기에 리에주 방식의 와플로 겉은 바삭 속은 촉촉한 벨기에 와플,원하는 메뉴를 담아서 나만의 유니크한 메뉴를 만드세요.(Basic waffle)",
       "imageUrl": "https://place-static.tossplace.com/public/live/PUBLIC/2026-02-15/ae758868-33f4-4ee7-96ae-db9f449a9b8f",
       "imageLocalPath": "data/tossplace-menu/238090/images/10991140-내맘대로-브런치-Basic-waffle-f5ce2306c3.jpg",
       "imageHash": "f5ce2306c30e2e6edb9de09ee6d4772aeaa99f3d9bdce0ad40fd05d4e4878f24",
       "firstSeenAt": "2026-07-21T04:15:20.254Z",
-      "updatedAt": "2026-08-20T21:16:07.047Z"
+      "updatedAt": "2026-08-28T04:59:27.387Z"
     },
     "10999047": {
       "fingerprint": "e5a85d746aa8ba94751fc2559e256f3fa6a625d007b6e7f49b58ea1b3167fadd",
@@ -3016,14 +3016,14 @@
       "updatedAt": "2026-08-25T21:15:22.454Z"
     },
     "16385006": {
-      "fingerprint": "ba13d7a087f00c28f97821f52e50e1d2aeabbd34ef9b6c4d1bdfbd67b94db63d",
+      "fingerprint": "65b11010fcb4124a19854eb942a65974c0350e30cc52cf3c07ea85e6be0736ff",
       "title": "진한 치즈 케이크",
       "description": "진한 크림치즈의 풍미를 가장 기본에 충실하게 구현한, 매일 찾게 되는 정통 치즈 케이크",
       "imageUrl": "https://place-static.tossplace.com/public/live/PUBLIC/2026-08-20/3d5b5f05-a32a-4579-b025-d13b6ae5d1be",
       "imageLocalPath": "data/tossplace-menu/238090/images/16385006-진한-치즈-케이크-5c0eb416f1.jpg",
       "imageHash": "5c0eb416f12c31a2270dff556cd595c5088501ffb03a028c07058a291f5c2a67",
       "firstSeenAt": "2026-08-20T21:16:07.047Z",
-      "updatedAt": "2026-08-20T21:16:07.047Z"
+      "updatedAt": "2026-08-28T04:59:27.387Z"
     },
     "16508079": {
       "fingerprint": "1a66b53dea25f6bfbf384e78c3a789d2ecdc0e77dea33dd6d0b9b0568c7cffdf",
@@ -3226,7 +3226,22 @@
         "missing": 1,
         "failed-http-timeout": 1
       }
+    },
+    {
+      "at": "2026-08-28T04:59:27.387Z",
+      "summary": {
+        "total": 91,
+        "added": 0,
+        "changed": 2,
+        "unchanged": 89,
+        "removed": 0
+      },
+      "imageSummary": {
+        "skipped-existing-url": 89,
+        "missing": 1,
+        "failed-http-timeout": 1
+      }
     }
   ],
-  "lastRunAt": "2026-08-25T21:15:22.454Z"
+  "lastRunAt": "2026-08-28T04:59:27.387Z"
 }
