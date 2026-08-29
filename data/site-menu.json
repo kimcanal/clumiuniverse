@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-28T04:59:27.387Z",
+  "generatedAt": "2026-08-29T02:55:55.411Z",
   "merchantId": 238090,
   "items": [
     {
@@ -580,7 +580,7 @@
       "categoryTitleEn": "Dessert",
       "title": "교토말차쇼콜라",
       "description": "꾸덕한 갸또 시트와 말차 가나슈에\n부드러운 우유 크림이 어우러진 케이크",
-      "state": "ON_SALE",
+      "state": "SOLD_OUT",
       "labels": [
         "인기"
       ],
@@ -604,7 +604,7 @@
       "categoryTitleEn": "Dessert",
       "title": "초콜릿로쉐케익",
       "description": "부드러운 스페인산 고급 초콜릿 위에 고소하게 구운 헤이즐넛을 올려\n한 입 베어 물면 진한 초콜릿 풍미가 가득 퍼지는 케이크",
-      "state": "ON_SALE",
+      "state": "SOLD_OUT",
       "labels": [
         "인기"
       ],

@@ -2,7 +2,7 @@
   "merchantId": 238090,
   "merchantName": "클루미 유니버스",
   "merchantStatus": "OPEN",
-  "fetchedAt": "2026-08-28T04:59:27.387Z",
+  "fetchedAt": "2026-08-29T02:55:55.411Z",
   "summary": {
     "total": 91,
     "added": 0,
@@ -4788,7 +4788,7 @@
       "titleEn": "Kyoto Matcha Chocolat",
       "description": "꾸덕한 갸또 시트와 말차 가나슈에\n부드러운 우유 크림이 어우러진 케이크",
       "descriptionEn": "White chocolate matcha cake with creamy matcha ganache — a melt-in-your-mouth delight.",
-      "state": "ON_SALE",
+      "state": "SOLD_OUT",
       "priceValue": 10900,
       "priceTitle": "기본",
       "imageUrl": "https://place-static.tossplace.com/public/live/PUBLIC/2026-05-12/5058ffa0-185b-446a-a2b0-8f8701d1ca87",
@@ -4812,7 +4812,7 @@
           ]
         }
       ],
-      "fingerprint": "fa013a28cd10d8f9cd868479b4879937514f9a437602f2c1ffb980b892a6f897",
+      "fingerprint": "7affcd4d88c228f4f1269ba081cfb347c85d4c1f8ad98bc43ee20faeb953722d",
       "imageLocalPath": "data/tossplace-menu/238090/images/10197088-교토말차쇼콜라-9d28d3d031.jpg",
       "imageHash": "9d28d3d031d728cd946817c735c6dd9ba1693b50a7c16e5636b47a33b131f455",
       "imageStatus": "skipped-existing-url"
@@ -4866,7 +4866,7 @@
       "titleEn": "Chocolate Roche Cake",
       "description": "부드러운 스페인산 고급 초콜릿 위에 고소하게 구운 헤이즐넛을 올려\n한 입 베어 물면 진한 초콜릿 풍미가 가득 퍼지는 케이크",
       "descriptionEn": "Chocolate-coated cake with roasted hazelnuts and rich chocolate flavor.",
-      "state": "ON_SALE",
+      "state": "SOLD_OUT",
       "priceValue": 10900,
       "priceTitle": "기본",
       "imageUrl": "https://place-static.tossplace.com/public/live/PUBLIC/2026-05-12/643d509d-6f8f-4186-a5ba-28c4839cc761",
@@ -4890,7 +4890,7 @@
           ]
         }
       ],
-      "fingerprint": "82b68901aece49be2a0ff35067489eed95ef9fd44036801b6721d7a81556feff",
+      "fingerprint": "fd098b3db589a650cef039c12f1b8b8f221cc7a2086dd4b72038a4e3e5b0e196",
       "imageLocalPath": "data/tossplace-menu/238090/images/10192464-초콜릿로쉐케익-52fe1dcc82.jpg",
       "imageHash": "52fe1dcc82b800fd1494dbfa9cf12ca59474a0af9d602087499a9d4e9a1ce6fe",
       "imageStatus": "skipped-existing-url"
