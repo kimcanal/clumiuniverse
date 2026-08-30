@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-29T22:52:03.755Z",
+  "generatedAt": "2026-08-30T22:58:13.301Z",
   "merchantId": 238090,
   "items": [
     {
@@ -836,7 +836,7 @@
       "categoryTitleEn": "Parfait",
       "title": "[시즌] 밀크팥빙수 한 컵",
       "description": "국내산 팥과 우유 얼음으로 만든 클래식 빙수.\n부드러운 우유 얼음 위에 풍성한 팥, 진한 바닐라 아이스크림, 달콤한 연유, 쫀득한 찰떡, 바삭한 그래놀라를 더한 한 컵 빙수.",
-      "state": "ON_SALE",
+      "state": "SOLD_OUT",
       "labels": [],
       "imageLocalPath": "data/tossplace-menu/238090/images/15684896-밀크팥빙수-한-컵-b3ed4a325c.webp"
     },

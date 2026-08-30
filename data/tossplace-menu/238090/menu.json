@@ -2,17 +2,16 @@
   "merchantId": 238090,
   "merchantName": "클루미 유니버스",
   "merchantStatus": "OPEN",
-  "fetchedAt": "2026-08-29T22:52:03.755Z",
+  "fetchedAt": "2026-08-30T22:58:13.301Z",
   "summary": {
     "total": 90,
     "added": 0,
-    "changed": 14,
-    "unchanged": 76,
-    "removed": 1
+    "changed": 1,
+    "unchanged": 89,
+    "removed": 0
   },
   "imageSummary": {
-    "skipped-existing-url": 87,
-    "downloaded": 2,
+    "skipped-existing-url": 89,
     "failed-http-timeout": 1
   },
   "checks": {
@@ -1406,7 +1405,7 @@
       "fingerprint": "b7b6df822e4eb14f3c0ad91a9857520e2e431e2af1228936a4879ba7f753e9e4",
       "imageLocalPath": "data/tossplace-menu/238090/images/15684896-무화과-크림치즈-와플-db8948e195.jpg",
       "imageHash": "db8948e19509607d714b22e93137437cd66de1ae1b6cea0b2d0b8fb586cac9f4",
-      "imageStatus": "downloaded"
+      "imageStatus": "skipped-existing-url"
     },
     {
       "id": 10683603,
@@ -3689,7 +3688,7 @@
       "fingerprint": "d278f5f74cdc558490b53575fb5673de1cdd4f669cc628c460435852e0630a6b",
       "imageLocalPath": "data/tossplace-menu/238090/images/6978834-딸기라떼-4a2899beb7.png",
       "imageHash": "4a2899beb71913016cb95ebc1dc5b8f2220f4890f930c91341d00f53e35058a0",
-      "imageStatus": "downloaded"
+      "imageStatus": "skipped-existing-url"
     },
     {
       "id": 6978817,
@@ -5548,13 +5547,13 @@
       "titleEn": "Snow Red Bean Parfait",
       "description": "국내산 팥과 우유 얼음으로 만든 클래식 빙수.\n부드러운 우유 얼음 위에 풍성한 팥, 진한 바닐라 아이스크림, 달콤한 연유, 쫀득한 찰떡, 바삭한 그래놀라를 더한 한 컵 빙수.",
       "descriptionEn": "Made with Korean sweet red beans and creamy milk ice.\nTopped with vanilla ice cream, condensed milk, chewy rice cake, and crunchy granola for a classic Korean dessert.",
-      "state": "ON_SALE",
+      "state": "SOLD_OUT",
       "priceValue": 12000,
       "priceTitle": "기본",
       "imageUrl": "https://place-static.tossplace.com/public/live/PUBLIC/2026-07-25/e39c0bca-aaa7-455d-8275-b99363caaa45",
       "labels": [],
       "optionSets": [],
-      "fingerprint": "436e461317c15516d397111d24fcc2c6bc4236392e9cf369a5748457037eb608",
+      "fingerprint": "0cd51e72965622d685a054f7225aec7ebd30e06227112a3bec37fcaea9d8fd7e",
       "imageLocalPath": "data/tossplace-menu/238090/images/15684896-밀크팥빙수-한-컵-b3ed4a325c.jpg",
       "imageHash": "b3ed4a325c89adca4955d0b412e4d1a587a8b4c26d1f7f083fe6291e411abc7f",
       "imageStatus": "skipped-existing-url"

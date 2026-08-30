@@ -2988,14 +2988,14 @@
       "updatedAt": "2026-08-20T21:16:07.047Z"
     },
     "15684844": {
-      "fingerprint": "436e461317c15516d397111d24fcc2c6bc4236392e9cf369a5748457037eb608",
+      "fingerprint": "0cd51e72965622d685a054f7225aec7ebd30e06227112a3bec37fcaea9d8fd7e",
       "title": "[시즌] 밀크팥빙수 한 컵",
       "description": "국내산 팥과 우유 얼음으로 만든 클래식 빙수.\n부드러운 우유 얼음 위에 풍성한 팥, 진한 바닐라 아이스크림, 달콤한 연유, 쫀득한 찰떡, 바삭한 그래놀라를 더한 한 컵 빙수.",
       "imageUrl": "https://place-static.tossplace.com/public/live/PUBLIC/2026-07-25/e39c0bca-aaa7-455d-8275-b99363caaa45",
       "imageLocalPath": "data/tossplace-menu/238090/images/15684896-밀크팥빙수-한-컵-b3ed4a325c.jpg",
       "imageHash": "b3ed4a325c89adca4955d0b412e4d1a587a8b4c26d1f7f083fe6291e411abc7f",
       "firstSeenAt": "2026-08-20T21:16:07.047Z",
-      "updatedAt": "2026-08-25T21:15:22.454Z"
+      "updatedAt": "2026-08-30T22:58:13.301Z"
     },
     "15684885": {
       "fingerprint": "66efa77f31ec2012e11a4da5b682d959f1b5cca3c3af483d0be3aacc8388d395",
@@ -3293,7 +3293,21 @@
         "downloaded": 2,
         "failed-http-timeout": 1
       }
+    },
+    {
+      "at": "2026-08-30T22:58:13.301Z",
+      "summary": {
+        "total": 90,
+        "added": 0,
+        "changed": 1,
+        "unchanged": 89,
+        "removed": 0
+      },
+      "imageSummary": {
+        "skipped-existing-url": 89,
+        "failed-http-timeout": 1
+      }
     }
   ],
-  "lastRunAt": "2026-08-29T22:52:03.755Z"
+  "lastRunAt": "2026-08-30T22:58:13.301Z"
 }
