@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-30T22:58:13.301Z",
+  "generatedAt": "2026-09-01T22:52:17.089Z",
   "merchantId": 238090,
   "items": [
     {
@@ -251,16 +251,6 @@
       "state": "ON_SALE",
       "labels": [],
       "imageLocalPath": "data/tossplace-menu/238090/images/6978463-바닐라라떼-1266f04cf4.webp"
-    },
-    {
-      "id": 6978481,
-      "categoryTitle": "커피",
-      "categoryTitleEn": "Coffee",
-      "title": "헤이즐넛라떼",
-      "description": "헤이즐넛 시럽이 더해진 고소하고 향긋한 라떼",
-      "state": "ON_SALE",
-      "labels": [],
-      "imageLocalPath": "data/tossplace-menu/238090/images/6978481-헤이즐넛라떼-364a0aac51.webp"
     },
     {
       "id": 6997998,
@@ -610,7 +600,7 @@
       "categoryTitleEn": "Dessert",
       "title": "아이스크림 브라우니",
       "description": "진한 초콜릿 브라우니 위에\n부드러운 바닐라 아이스크림을 올렸어요.\n따뜻함과 차가움이 만나 한 입만으로도 충분히 행복해지는 디저트.",
-      "state": "ON_SALE",
+      "state": "SOLD_OUT",
       "labels": [
         "인기"
       ],
@@ -784,7 +774,7 @@
       "categoryTitleEn": "Ade",
       "title": "자몽에이드",
       "description": "",
-      "state": "ON_SALE",
+      "state": "SOLD_OUT",
       "labels": [],
       "imageLocalPath": "data/tossplace-menu/238090/images/6979384-자몽에이드-ab280d617a.webp"
     },
@@ -836,7 +826,7 @@
       "categoryTitleEn": "Parfait",
       "title": "[시즌] 밀크팥빙수 한 컵",
       "description": "국내산 팥과 우유 얼음으로 만든 클래식 빙수.\n부드러운 우유 얼음 위에 풍성한 팥, 진한 바닐라 아이스크림, 달콤한 연유, 쫀득한 찰떡, 바삭한 그래놀라를 더한 한 컵 빙수.",
-      "state": "SOLD_OUT",
+      "state": "ON_SALE",
       "labels": [],
       "imageLocalPath": "data/tossplace-menu/238090/images/15684896-밀크팥빙수-한-컵-b3ed4a325c.webp"
     },

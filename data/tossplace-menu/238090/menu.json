@@ -2,16 +2,16 @@
   "merchantId": 238090,
   "merchantName": "클루미 유니버스",
   "merchantStatus": "OPEN",
-  "fetchedAt": "2026-08-30T22:58:13.301Z",
+  "fetchedAt": "2026-09-01T22:52:17.089Z",
   "summary": {
-    "total": 90,
+    "total": 89,
     "added": 0,
-    "changed": 1,
-    "unchanged": 89,
-    "removed": 0
+    "changed": 3,
+    "unchanged": 86,
+    "removed": 1
   },
   "imageSummary": {
-    "skipped-existing-url": 89,
+    "skipped-existing-url": 88,
     "failed-http-timeout": 1
   },
   "checks": {
@@ -2612,124 +2612,6 @@
       "imageStatus": "skipped-existing-url"
     },
     {
-      "id": 6978481,
-      "categoryId": 716702,
-      "categoryTitle": "커피",
-      "categoryTitleEn": "Coffee",
-      "position": 8,
-      "title": "헤이즐넛라떼",
-      "titleEn": "Hazelnut Latte",
-      "description": "헤이즐넛 시럽이 더해진 고소하고 향긋한 라떼",
-      "descriptionEn": "A smooth latte with hazelnut syrup",
-      "state": "ON_SALE",
-      "priceValue": 6000,
-      "priceTitle": "기본",
-      "imageUrl": "https://place-static.tossplace.com/public/live/PUBLIC/2025-08-23/366b99bf-6304-447e-9e59-bf43c84a91dc",
-      "labels": [],
-      "optionSets": [
-        {
-          "id": 296010,
-          "title": "원두 선택",
-          "required": true,
-          "minChoices": 1,
-          "maxChoices": 1,
-          "choices": [
-            {
-              "id": 901204,
-              "title": "고소한 원두",
-              "priceValue": 0,
-              "state": "ON_SALE"
-            },
-            {
-              "id": 901205,
-              "title": "산미있는 원두",
-              "priceValue": 0,
-              "state": "ON_SALE"
-            },
-            {
-              "id": 901206,
-              "title": "디카페인 원두",
-              "priceValue": 500,
-              "state": "ON_SALE"
-            }
-          ]
-        },
-        {
-          "id": 294937,
-          "title": "온도",
-          "required": true,
-          "minChoices": 1,
-          "maxChoices": 1,
-          "choices": [
-            {
-              "id": 897956,
-              "title": "따뜻하게",
-              "priceValue": 0,
-              "state": "ON_SALE"
-            },
-            {
-              "id": 897957,
-              "title": "차갑게",
-              "priceValue": 0,
-              "state": "ON_SALE"
-            }
-          ]
-        },
-        {
-          "id": 294938,
-          "title": "커피 옵션",
-          "required": false,
-          "minChoices": 0,
-          "maxChoices": 1,
-          "choices": [
-            {
-              "id": 897960,
-              "title": "샷 추가",
-              "priceValue": 500,
-              "state": "ON_SALE"
-            },
-            {
-              "id": 901463,
-              "title": "연하게",
-              "priceValue": 0,
-              "state": "ON_SALE"
-            },
-            {
-              "id": 901464,
-              "title": "헤이즐넛시럽추가",
-              "priceValue": 500,
-              "state": "ON_SALE"
-            },
-            {
-              "id": 901465,
-              "title": "바닐라시럽추가",
-              "priceValue": 500,
-              "state": "ON_SALE"
-            }
-          ]
-        },
-        {
-          "id": 296015,
-          "title": "오트 변경",
-          "required": false,
-          "minChoices": 0,
-          "maxChoices": 1,
-          "choices": [
-            {
-              "id": 901219,
-              "title": "오트 변경",
-              "priceValue": 800,
-              "state": "ON_SALE"
-            }
-          ]
-        }
-      ],
-      "fingerprint": "684461b5cbfcbf688d7ceffc06c9cd2004edecfda42633f95b1dd72f0dd07a2b",
-      "imageLocalPath": "data/tossplace-menu/238090/images/6978481-헤이즐넛라떼-364a0aac51.png",
-      "imageHash": "364a0aac5134975cc78f3e0e59c5459dfc413c954425edb62a50423a7b306abb",
-      "imageStatus": "skipped-existing-url"
-    },
-    {
       "id": 6997998,
       "categoryId": 716702,
       "categoryTitle": "커피",
@@ -4870,7 +4752,7 @@
       "titleEn": "Ice cream Brownie",
       "description": "진한 초콜릿 브라우니 위에\n부드러운 바닐라 아이스크림을 올렸어요.\n따뜻함과 차가움이 만나 한 입만으로도 충분히 행복해지는 디저트.",
       "descriptionEn": "A rich chocolate brownie topped with smooth vanilla ice cream.\nWarm and cold in perfect balance one bite is all it takes to fall in love.",
-      "state": "ON_SALE",
+      "state": "SOLD_OUT",
       "priceValue": 10900,
       "priceTitle": "기본",
       "imageUrl": "https://place-static.tossplace.com/public/live/PUBLIC/2026-04-09/9165e0e1-a2fd-4131-a4c7-52ef45eaec7a",
@@ -4878,7 +4760,7 @@
         "인기"
       ],
       "optionSets": [],
-      "fingerprint": "02ffa648bff2197cc9e86ec9c9b0f7422bd1d0cf6085049f90935719e13b4511",
+      "fingerprint": "4a5ffe33f320d41b28e226383b60bd58f5afd563fea5b243cfbdfd16cd477d00",
       "imageLocalPath": "data/tossplace-menu/238090/images/8748567-아이스크림브라우니-1ca4423910.jpg",
       "imageHash": "1ca44239101ed59b00b661edae8ae559877d2fd56061b9d0dfac41f712a4eedb",
       "imageStatus": "skipped-existing-url"
@@ -5408,13 +5290,13 @@
       "titleEn": "Grapefruit Ade",
       "description": "",
       "descriptionEn": "",
-      "state": "ON_SALE",
+      "state": "SOLD_OUT",
       "priceValue": 6000,
       "priceTitle": "기본",
       "imageUrl": "https://place-static.tossplace.com/public/live/PUBLIC/2025-08-24/f8d85512-f882-41c1-871c-7dab55c3ade6",
       "labels": [],
       "optionSets": [],
-      "fingerprint": "f19845f6530aa167e1c6864e4be60230e55bf1d17f5d099d018ff92b2b24a914",
+      "fingerprint": "0d91eaaf3adf827bbcaf8175ce0d63cccf499c46e38d5f8b047ebab71717aaa7",
       "imageLocalPath": "data/tossplace-menu/238090/images/6979384-자몽에이드-ab280d617a.png",
       "imageHash": "ab280d617a950893105daf718d9c478499c70a91d5c3bcff6901db5e2ef29dbc",
       "imageStatus": "skipped-existing-url"
@@ -5547,13 +5429,13 @@
       "titleEn": "Snow Red Bean Parfait",
       "description": "국내산 팥과 우유 얼음으로 만든 클래식 빙수.\n부드러운 우유 얼음 위에 풍성한 팥, 진한 바닐라 아이스크림, 달콤한 연유, 쫀득한 찰떡, 바삭한 그래놀라를 더한 한 컵 빙수.",
       "descriptionEn": "Made with Korean sweet red beans and creamy milk ice.\nTopped with vanilla ice cream, condensed milk, chewy rice cake, and crunchy granola for a classic Korean dessert.",
-      "state": "SOLD_OUT",
+      "state": "ON_SALE",
       "priceValue": 12000,
       "priceTitle": "기본",
       "imageUrl": "https://place-static.tossplace.com/public/live/PUBLIC/2026-07-25/e39c0bca-aaa7-455d-8275-b99363caaa45",
       "labels": [],
       "optionSets": [],
-      "fingerprint": "0cd51e72965622d685a054f7225aec7ebd30e06227112a3bec37fcaea9d8fd7e",
+      "fingerprint": "436e461317c15516d397111d24fcc2c6bc4236392e9cf369a5748457037eb608",
       "imageLocalPath": "data/tossplace-menu/238090/images/15684896-밀크팥빙수-한-컵-b3ed4a325c.jpg",
       "imageHash": "b3ed4a325c89adca4955d0b412e4d1a587a8b4c26d1f7f083fe6291e411abc7f",
       "imageStatus": "skipped-existing-url"

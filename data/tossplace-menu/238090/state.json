@@ -2197,16 +2197,6 @@
       "firstSeenAt": "2026-07-21T04:15:20.254Z",
       "updatedAt": "2026-08-20T21:16:07.047Z"
     },
-    "6978481": {
-      "fingerprint": "684461b5cbfcbf688d7ceffc06c9cd2004edecfda42633f95b1dd72f0dd07a2b",
-      "title": "헤이즐넛라떼",
-      "description": "헤이즐넛 시럽이 더해진 고소하고 향긋한 라떼",
-      "imageUrl": "https://place-static.tossplace.com/public/live/PUBLIC/2025-08-23/366b99bf-6304-447e-9e59-bf43c84a91dc",
-      "imageLocalPath": "data/tossplace-menu/238090/images/6978481-헤이즐넛라떼-364a0aac51.png",
-      "imageHash": "364a0aac5134975cc78f3e0e59c5459dfc413c954425edb62a50423a7b306abb",
-      "firstSeenAt": "2026-07-21T04:15:20.254Z",
-      "updatedAt": "2026-08-20T21:16:07.047Z"
-    },
     "6978817": {
       "fingerprint": "409bd554f6bf88867ea16d01284d05384173105695581f82fddcbce0d10261b6",
       "title": "딥초코라떼",
@@ -2328,14 +2318,14 @@
       "updatedAt": "2026-07-21T04:15:20.254Z"
     },
     "6979384": {
-      "fingerprint": "f19845f6530aa167e1c6864e4be60230e55bf1d17f5d099d018ff92b2b24a914",
+      "fingerprint": "0d91eaaf3adf827bbcaf8175ce0d63cccf499c46e38d5f8b047ebab71717aaa7",
       "title": "자몽에이드",
       "description": "",
       "imageUrl": "https://place-static.tossplace.com/public/live/PUBLIC/2025-08-24/f8d85512-f882-41c1-871c-7dab55c3ade6",
       "imageLocalPath": "data/tossplace-menu/238090/images/6979384-자몽에이드-ab280d617a.png",
       "imageHash": "ab280d617a950893105daf718d9c478499c70a91d5c3bcff6901db5e2ef29dbc",
       "firstSeenAt": "2026-07-21T04:15:20.254Z",
-      "updatedAt": "2026-07-21T04:15:20.254Z"
+      "updatedAt": "2026-09-01T22:52:17.089Z"
     },
     "6979395": {
       "fingerprint": "ca8b9629e4b89cec0955f16b1cff4de6bb2e4f61b90c6bb041578d8759cfee05",
@@ -2678,14 +2668,14 @@
       "updatedAt": "2026-07-21T04:15:20.254Z"
     },
     "10114893": {
-      "fingerprint": "02ffa648bff2197cc9e86ec9c9b0f7422bd1d0cf6085049f90935719e13b4511",
+      "fingerprint": "4a5ffe33f320d41b28e226383b60bd58f5afd563fea5b243cfbdfd16cd477d00",
       "title": "아이스크림 브라우니",
       "description": "진한 초콜릿 브라우니 위에\n부드러운 바닐라 아이스크림을 올렸어요.\n따뜻함과 차가움이 만나 한 입만으로도 충분히 행복해지는 디저트.",
       "imageUrl": "https://place-static.tossplace.com/public/live/PUBLIC/2026-04-09/9165e0e1-a2fd-4131-a4c7-52ef45eaec7a",
       "imageLocalPath": "data/tossplace-menu/238090/images/8748567-아이스크림브라우니-1ca4423910.jpg",
       "imageHash": "1ca44239101ed59b00b661edae8ae559877d2fd56061b9d0dfac41f712a4eedb",
       "firstSeenAt": "2026-07-21T04:15:20.254Z",
-      "updatedAt": "2026-08-20T21:16:07.047Z"
+      "updatedAt": "2026-09-01T22:52:17.089Z"
     },
     "10192464": {
       "fingerprint": "82b68901aece49be2a0ff35067489eed95ef9fd44036801b6721d7a81556feff",
@@ -2988,14 +2978,14 @@
       "updatedAt": "2026-08-20T21:16:07.047Z"
     },
     "15684844": {
-      "fingerprint": "0cd51e72965622d685a054f7225aec7ebd30e06227112a3bec37fcaea9d8fd7e",
+      "fingerprint": "436e461317c15516d397111d24fcc2c6bc4236392e9cf369a5748457037eb608",
       "title": "[시즌] 밀크팥빙수 한 컵",
       "description": "국내산 팥과 우유 얼음으로 만든 클래식 빙수.\n부드러운 우유 얼음 위에 풍성한 팥, 진한 바닐라 아이스크림, 달콤한 연유, 쫀득한 찰떡, 바삭한 그래놀라를 더한 한 컵 빙수.",
       "imageUrl": "https://place-static.tossplace.com/public/live/PUBLIC/2026-07-25/e39c0bca-aaa7-455d-8275-b99363caaa45",
       "imageLocalPath": "data/tossplace-menu/238090/images/15684896-밀크팥빙수-한-컵-b3ed4a325c.jpg",
       "imageHash": "b3ed4a325c89adca4955d0b412e4d1a587a8b4c26d1f7f083fe6291e411abc7f",
       "firstSeenAt": "2026-08-20T21:16:07.047Z",
-      "updatedAt": "2026-08-30T22:58:13.301Z"
+      "updatedAt": "2026-09-01T22:52:17.089Z"
     },
     "15684885": {
       "fingerprint": "66efa77f31ec2012e11a4da5b682d959f1b5cca3c3af483d0be3aacc8388d395",
@@ -3307,7 +3297,21 @@
         "skipped-existing-url": 89,
         "failed-http-timeout": 1
       }
+    },
+    {
+      "at": "2026-09-01T22:52:17.089Z",
+      "summary": {
+        "total": 89,
+        "added": 0,
+        "changed": 3,
+        "unchanged": 86,
+        "removed": 1
+      },
+      "imageSummary": {
+        "skipped-existing-url": 88,
+        "failed-http-timeout": 1
+      }
     }
   ],
-  "lastRunAt": "2026-08-30T22:58:13.301Z"
+  "lastRunAt": "2026-09-01T22:52:17.089Z"
 }
