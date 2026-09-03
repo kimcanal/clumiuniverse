@@ -2668,14 +2668,14 @@
       "updatedAt": "2026-07-21T04:15:20.254Z"
     },
     "10114893": {
-      "fingerprint": "4a5ffe33f320d41b28e226383b60bd58f5afd563fea5b243cfbdfd16cd477d00",
+      "fingerprint": "02ffa648bff2197cc9e86ec9c9b0f7422bd1d0cf6085049f90935719e13b4511",
       "title": "아이스크림 브라우니",
       "description": "진한 초콜릿 브라우니 위에\n부드러운 바닐라 아이스크림을 올렸어요.\n따뜻함과 차가움이 만나 한 입만으로도 충분히 행복해지는 디저트.",
       "imageUrl": "https://place-static.tossplace.com/public/live/PUBLIC/2026-04-09/9165e0e1-a2fd-4131-a4c7-52ef45eaec7a",
       "imageLocalPath": "data/tossplace-menu/238090/images/8748567-아이스크림브라우니-1ca4423910.jpg",
       "imageHash": "1ca44239101ed59b00b661edae8ae559877d2fd56061b9d0dfac41f712a4eedb",
       "firstSeenAt": "2026-07-21T04:15:20.254Z",
-      "updatedAt": "2026-09-01T22:52:17.089Z"
+      "updatedAt": "2026-09-03T22:52:12.943Z"
     },
     "10192464": {
       "fingerprint": "82b68901aece49be2a0ff35067489eed95ef9fd44036801b6721d7a81556feff",
@@ -3311,7 +3311,21 @@
         "skipped-existing-url": 88,
         "failed-http-timeout": 1
       }
+    },
+    {
+      "at": "2026-09-03T22:52:12.943Z",
+      "summary": {
+        "total": 89,
+        "added": 0,
+        "changed": 1,
+        "unchanged": 88,
+        "removed": 0
+      },
+      "imageSummary": {
+        "skipped-existing-url": 88,
+        "failed-http-timeout": 1
+      }
     }
   ],
-  "lastRunAt": "2026-09-01T22:52:17.089Z"
+  "lastRunAt": "2026-09-03T22:52:12.943Z"
 }

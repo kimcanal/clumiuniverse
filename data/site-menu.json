@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-01T22:52:17.089Z",
+  "generatedAt": "2026-09-03T22:52:12.943Z",
   "merchantId": 238090,
   "items": [
     {
@@ -600,7 +600,7 @@
       "categoryTitleEn": "Dessert",
       "title": "아이스크림 브라우니",
       "description": "진한 초콜릿 브라우니 위에\n부드러운 바닐라 아이스크림을 올렸어요.\n따뜻함과 차가움이 만나 한 입만으로도 충분히 행복해지는 디저트.",
-      "state": "SOLD_OUT",
+      "state": "ON_SALE",
       "labels": [
         "인기"
       ],
