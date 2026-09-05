@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-03T22:52:12.943Z",
+  "generatedAt": "2026-09-05T22:24:17.927Z",
   "merchantId": 238090,
   "items": [
     {
@@ -122,7 +122,7 @@
       "categoryTitleEn": "BEST",
       "title": "[피스타치오] 초코 반하나 와플",
       "description": "앵커 버터로 만든 겉바속쫀 리에주 와플에 바나나, 생크림, 초코소스, 피스타치오를 올린 클루미 시그니처 와플. 한 입에 반해버릴지도 몰라요.",
-      "state": "ON_SALE",
+      "state": "SOLD_OUT",
       "labels": [
         "인기"
       ],
@@ -454,7 +454,7 @@
       "categoryTitleEn": "Belgium Waffle",
       "title": "[피스타치오]초코 반하나와플",
       "description": "\"한 입 먹으면 정말 반할지도 몰라요!\"\n앵커 버터로 만든 겉바속쫀 리에주 와플에 바나나, 생크림, 초코소스, 피스타치오를 올린 클루미 시그니처 와플.",
-      "state": "ON_SALE",
+      "state": "SOLD_OUT",
       "labels": [
         "인기"
       ],
