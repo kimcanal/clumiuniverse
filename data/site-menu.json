@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-05T22:24:17.927Z",
+  "generatedAt": "2026-09-06T22:29:46.157Z",
   "merchantId": 238090,
   "items": [
     {
@@ -581,18 +581,6 @@
         "인기"
       ],
       "imageLocalPath": "data/tossplace-menu/238090/images/10192464-초콜릿로쉐케익-52fe1dcc82.webp"
-    },
-    {
-      "id": 11352437,
-      "categoryTitle": "디저트",
-      "categoryTitleEn": "Dessert",
-      "title": "레몬구름 토르테",
-      "description": "상큼하게 퍼지는 부드러운 레몬 커드와 레몬 제스트,\n입안 가득 싱그러운 풍미를 채워주며 지친 하루에 생기를 더해주는 레몬 케이크.",
-      "state": "ON_SALE",
-      "labels": [
-        "신규"
-      ],
-      "imageLocalPath": "data/tossplace-menu/238090/images/11352437-레몬구름-토르테-b87b32ee1f.webp"
     },
     {
       "id": 10114893,

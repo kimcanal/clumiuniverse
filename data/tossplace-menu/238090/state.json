@@ -2807,16 +2807,6 @@
       "firstSeenAt": "2026-07-21T04:15:20.254Z",
       "updatedAt": "2026-09-05T22:24:17.927Z"
     },
-    "11352437": {
-      "fingerprint": "94f5537c4ddfbaa511784ad5b615cc61ca6582ae7792b7e8f6791cb70758c386",
-      "title": "레몬구름 토르테",
-      "description": "상큼하게 퍼지는 부드러운 레몬 커드와 레몬 제스트,\n입안 가득 싱그러운 풍미를 채워주며 지친 하루에 생기를 더해주는 레몬 케이크.",
-      "imageUrl": "https://place-static.tossplace.com/public/live/PUBLIC/2026-05-12/bdaaa36b-6c45-44f2-b3b5-b20a15bdec04",
-      "imageLocalPath": "data/tossplace-menu/238090/images/11352437-레몬구름-토르테-b87b32ee1f.jpg",
-      "imageHash": "b87b32ee1fe8cd16e8ead9a25282d6d33a836b0f686257341f9fbc057a6bd2a9",
-      "firstSeenAt": "2026-08-20T21:16:07.047Z",
-      "updatedAt": "2026-08-20T21:16:07.047Z"
-    },
     "11912174": {
       "fingerprint": "18689348ad8951ea4fc00dd4674766be74498fa9e6eb6b03d0cfdbf115096be0",
       "title": "레몬 아메리카노",
@@ -3049,19 +3039,6 @@
     }
   },
   "runs": [
-    {
-      "at": "2026-05-01T03:22:17.415Z",
-      "summary": {
-        "total": 96,
-        "added": 96,
-        "changed": 0,
-        "unchanged": 0,
-        "removed": 0
-      },
-      "imageSummary": {
-        "not-downloaded": 96
-      }
-    },
     {
       "at": "2026-05-01T03:23:59.795Z",
       "summary": {
@@ -3339,7 +3316,21 @@
         "skipped-existing-url": 88,
         "failed-http-timeout": 1
       }
+    },
+    {
+      "at": "2026-09-06T22:29:46.157Z",
+      "summary": {
+        "total": 88,
+        "added": 0,
+        "changed": 0,
+        "unchanged": 88,
+        "removed": 1
+      },
+      "imageSummary": {
+        "skipped-existing-url": 87,
+        "failed-http-timeout": 1
+      }
     }
   ],
-  "lastRunAt": "2026-09-05T22:24:17.927Z"
+  "lastRunAt": "2026-09-06T22:29:46.157Z"
 }
