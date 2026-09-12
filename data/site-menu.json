@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-09T22:48:43.037Z",
+  "generatedAt": "2026-09-12T22:41:01.782Z",
   "merchantId": 238090,
   "items": [
     {
@@ -79,6 +79,16 @@
         "신규"
       ],
       "imageLocalPath": "data/tossplace-menu/238090/images/10983319-브런치-오렌지주스-c5355b1554.webp"
+    },
+    {
+      "id": 10433709,
+      "categoryTitle": "브런치",
+      "categoryTitleEn": "Brunch",
+      "title": "리뷰이벤트 Google Review Event",
+      "description": "",
+      "state": "ON_SALE",
+      "labels": [],
+      "imageLocalPath": ""
     },
     {
       "id": 15684885,
@@ -615,6 +625,16 @@
       "imageLocalPath": "data/tossplace-menu/238090/images/16385006-진한-치즈-케이크-5c0eb416f1.webp"
     },
     {
+      "id": 17098517,
+      "categoryTitle": "디저트",
+      "categoryTitleEn": "Dessert",
+      "title": "클루미 당근케이크",
+      "description": "진한 치즈 크림과 호두가 가득한 클래식 스타일 당근케이크",
+      "state": "ON_SALE",
+      "labels": [],
+      "imageLocalPath": "data/tossplace-menu/238090/images/17098517-클루미-당근케이크-1d9744db1a.webp"
+    },
+    {
       "id": 13579307,
       "categoryTitle": "스무디",
       "categoryTitleEn": "Smoothie",
@@ -799,22 +819,12 @@
       "imageLocalPath": "data/tossplace-menu/238090/images/15684889-복숭아-한-컵-5f7a3ea8c3.webp"
     },
     {
-      "id": 15684832,
-      "categoryTitle": "파르페",
-      "categoryTitleEn": "Parfait",
-      "title": "[시즌] 애플망고 한 컵",
-      "description": "달콤한 망고를 듬뿍 담았습니다.\n애플망고와 진한 초코 아이스크림, 망고 샤베트, 바삭한 그래놀라, 고소한 치즈 큐브가 어우러진 시원한 디저트.",
-      "state": "ON_SALE",
-      "labels": [],
-      "imageLocalPath": "data/tossplace-menu/238090/images/15684885-애플망고-한-컵-69d37ad4fd.webp"
-    },
-    {
       "id": 15684844,
       "categoryTitle": "파르페",
       "categoryTitleEn": "Parfait",
       "title": "[시즌] 밀크팥빙수 한 컵",
       "description": "국내산 팥과 우유 얼음으로 만든 클래식 빙수.\n부드러운 우유 얼음 위에 풍성한 팥, 진한 바닐라 아이스크림, 달콤한 연유, 쫀득한 찰떡, 바삭한 그래놀라를 더한 한 컵 빙수.",
-      "state": "ON_SALE",
+      "state": "SOLD_OUT",
       "labels": [],
       "imageLocalPath": "data/tossplace-menu/238090/images/15684896-밀크팥빙수-한-컵-b3ed4a325c.webp"
     },

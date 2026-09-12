@@ -1136,6 +1136,14 @@
       "title": "딸기라떼",
       "sourceUrl": "https://place-static.tossplace.com/public/live/PUBLIC/2026-08-29/5ba6752a-bc8c-461e-bca6-1dcc3e0026b4",
       "updatedAt": "2026-08-29T22:52:00.542Z"
+    },
+    "https://place-static.tossplace.com/public/live/PUBLIC/2026-09-12/9a2366aa-76e5-47c0-b976-35c05f5b08d4": {
+      "localPath": "data/tossplace-menu/238090/images/17098517-클루미-당근케이크-1d9744db1a.jpg",
+      "hash": "1d9744db1a7e6be251ef0ae9ff7b66a98042695bea2c5ecfa33d869545b78f96",
+      "itemId": 17098517,
+      "title": "클루미 당근케이크",
+      "sourceUrl": "https://place-static.tossplace.com/public/live/PUBLIC/2026-09-12/9a2366aa-76e5-47c0-b976-35c05f5b08d4",
+      "updatedAt": "2026-09-12T22:40:58.511Z"
     }
   },
   "imagesByHash": {
@@ -2154,6 +2162,14 @@
       "title": "딸기라떼",
       "sourceUrl": "https://place-static.tossplace.com/public/live/PUBLIC/2026-08-29/5ba6752a-bc8c-461e-bca6-1dcc3e0026b4",
       "updatedAt": "2026-08-29T22:52:00.542Z"
+    },
+    "1d9744db1a7e6be251ef0ae9ff7b66a98042695bea2c5ecfa33d869545b78f96": {
+      "localPath": "data/tossplace-menu/238090/images/17098517-클루미-당근케이크-1d9744db1a.jpg",
+      "hash": "1d9744db1a7e6be251ef0ae9ff7b66a98042695bea2c5ecfa33d869545b78f96",
+      "itemId": 17098517,
+      "title": "클루미 당근케이크",
+      "sourceUrl": "https://place-static.tossplace.com/public/live/PUBLIC/2026-09-12/9a2366aa-76e5-47c0-b976-35c05f5b08d4",
+      "updatedAt": "2026-09-12T22:40:58.511Z"
     }
   },
   "itemsById": {
@@ -2697,6 +2713,16 @@
       "firstSeenAt": "2026-08-20T21:16:07.047Z",
       "updatedAt": "2026-08-29T22:52:03.755Z"
     },
+    "10433709": {
+      "fingerprint": "81987fafdca06b63f066d6b90b838f2d905b291a371ef1a1522d4352a30b427a",
+      "title": "리뷰이벤트 Google Review Event",
+      "description": "",
+      "imageUrl": "",
+      "imageLocalPath": null,
+      "imageHash": null,
+      "firstSeenAt": "2026-09-12T22:41:01.782Z",
+      "updatedAt": "2026-09-12T22:41:01.782Z"
+    },
     "10652155": {
       "fingerprint": "e60a851c6018b7c7568784dfb88a01688900d1db54ef75f2c54bc9ac17d5a7c3",
       "title": "케이크 초",
@@ -2957,25 +2983,15 @@
       "firstSeenAt": "2026-08-20T21:16:07.047Z",
       "updatedAt": "2026-08-20T21:16:07.047Z"
     },
-    "15684832": {
-      "fingerprint": "7fcc4acfe55b033f57dcd7a6fe8e1a22894405f0de58d644e1b576ac7d9a31b8",
-      "title": "[시즌] 애플망고 한 컵",
-      "description": "달콤한 망고를 듬뿍 담았습니다.\n애플망고와 진한 초코 아이스크림, 망고 샤베트, 바삭한 그래놀라, 고소한 치즈 큐브가 어우러진 시원한 디저트.",
-      "imageUrl": "https://place-static.tossplace.com/public/live/PUBLIC/2026-07-25/b050e5c0-310e-4348-8e1a-eddbf9cbf7c8",
-      "imageLocalPath": "data/tossplace-menu/238090/images/15684885-애플망고-한-컵-69d37ad4fd.jpg",
-      "imageHash": "69d37ad4fdba4e7d9acf34a2b2e2e4eda5782ee7eb0b1635c4f6dabba2641b70",
-      "firstSeenAt": "2026-08-20T21:16:07.047Z",
-      "updatedAt": "2026-08-20T21:16:07.047Z"
-    },
     "15684844": {
-      "fingerprint": "436e461317c15516d397111d24fcc2c6bc4236392e9cf369a5748457037eb608",
+      "fingerprint": "0cd51e72965622d685a054f7225aec7ebd30e06227112a3bec37fcaea9d8fd7e",
       "title": "[시즌] 밀크팥빙수 한 컵",
       "description": "국내산 팥과 우유 얼음으로 만든 클래식 빙수.\n부드러운 우유 얼음 위에 풍성한 팥, 진한 바닐라 아이스크림, 달콤한 연유, 쫀득한 찰떡, 바삭한 그래놀라를 더한 한 컵 빙수.",
       "imageUrl": "https://place-static.tossplace.com/public/live/PUBLIC/2026-07-25/e39c0bca-aaa7-455d-8275-b99363caaa45",
       "imageLocalPath": "data/tossplace-menu/238090/images/15684896-밀크팥빙수-한-컵-b3ed4a325c.jpg",
       "imageHash": "b3ed4a325c89adca4955d0b412e4d1a587a8b4c26d1f7f083fe6291e411abc7f",
       "firstSeenAt": "2026-08-20T21:16:07.047Z",
-      "updatedAt": "2026-09-01T22:52:17.089Z"
+      "updatedAt": "2026-09-12T22:41:01.782Z"
     },
     "15684885": {
       "fingerprint": "66efa77f31ec2012e11a4da5b682d959f1b5cca3c3af483d0be3aacc8388d395",
@@ -3036,22 +3052,19 @@
       "imageHash": "2e771f0a3b85add8606b6bd0c287c10131989b4ca290fab570d753b2ba95c9bb",
       "firstSeenAt": "2026-08-25T21:15:22.454Z",
       "updatedAt": "2026-09-05T22:24:17.927Z"
+    },
+    "17098517": {
+      "fingerprint": "cce6cb8aa0db3b565440f6d3663dfa64c99a10cf4957e2210c93b385f94f5231",
+      "title": "클루미 당근케이크",
+      "description": "진한 치즈 크림과 호두가 가득한 클래식 스타일 당근케이크",
+      "imageUrl": "https://place-static.tossplace.com/public/live/PUBLIC/2026-09-12/9a2366aa-76e5-47c0-b976-35c05f5b08d4",
+      "imageLocalPath": "data/tossplace-menu/238090/images/17098517-클루미-당근케이크-1d9744db1a.jpg",
+      "imageHash": "1d9744db1a7e6be251ef0ae9ff7b66a98042695bea2c5ecfa33d869545b78f96",
+      "firstSeenAt": "2026-09-12T22:41:01.782Z",
+      "updatedAt": "2026-09-12T22:41:01.782Z"
     }
   },
   "runs": [
-    {
-      "at": "2026-05-01T11:12:14.329Z",
-      "summary": {
-        "total": 96,
-        "added": 0,
-        "changed": 0,
-        "unchanged": 96,
-        "removed": 0
-      },
-      "imageSummary": {
-        "skipped-existing-url": 96
-      }
-    },
     {
       "at": "2026-07-21T02:45:05.074Z",
       "summary": {
@@ -3330,7 +3343,23 @@
         "skipped-existing-url": 87,
         "failed-http-timeout": 1
       }
+    },
+    {
+      "at": "2026-09-12T22:41:01.782Z",
+      "summary": {
+        "total": 89,
+        "added": 2,
+        "changed": 1,
+        "unchanged": 86,
+        "removed": 1
+      },
+      "imageSummary": {
+        "skipped-existing-url": 86,
+        "missing": 1,
+        "failed-http-timeout": 1,
+        "downloaded": 1
+      }
     }
   ],
-  "lastRunAt": "2026-09-09T22:48:43.037Z"
+  "lastRunAt": "2026-09-12T22:41:01.782Z"
 }

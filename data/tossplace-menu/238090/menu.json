@@ -2,20 +2,29 @@
   "merchantId": 238090,
   "merchantName": "클루미 유니버스",
   "merchantStatus": "OPEN",
-  "fetchedAt": "2026-09-09T22:48:43.037Z",
+  "fetchedAt": "2026-09-12T22:41:01.782Z",
   "summary": {
-    "total": 88,
-    "added": 0,
-    "changed": 7,
-    "unchanged": 81,
-    "removed": 0
+    "total": 89,
+    "added": 2,
+    "changed": 1,
+    "unchanged": 86,
+    "removed": 1
   },
   "imageSummary": {
-    "skipped-existing-url": 87,
-    "failed-http-timeout": 1
+    "skipped-existing-url": 86,
+    "missing": 1,
+    "failed-http-timeout": 1,
+    "downloaded": 1
   },
   "checks": {
     "missingImages": [
+      {
+        "id": 10433709,
+        "categoryTitle": "브런치",
+        "title": "리뷰이벤트 Google Review Event",
+        "description": "",
+        "imageLocalPath": null
+      },
       {
         "id": 6978817,
         "categoryTitle": "논커피",
@@ -38,6 +47,13 @@
         "title": "[브런치]오렌지주스",
         "description": "",
         "imageLocalPath": "data/tossplace-menu/238090/images/10983319-브런치-오렌지주스-c5355b1554.jpg"
+      },
+      {
+        "id": 10433709,
+        "categoryTitle": "브런치",
+        "title": "리뷰이벤트 Google Review Event",
+        "description": "",
+        "imageLocalPath": null
       },
       {
         "id": 14267200,
@@ -135,26 +151,6 @@
             "title": "카푸치노",
             "description": "진한 에스프레소에 폭신한 밀크폼을 더해 부드럽게 즐기는 정통 카푸치노",
             "imageLocalPath": "data/tossplace-menu/238090/images/10999047-브런치-커피-2d26673b2f.jpg"
-          }
-        ]
-      },
-      {
-        "imageHash": "69d37ad4fdba4e7d9acf34a2b2e2e4eda5782ee7eb0b1635c4f6dabba2641b70",
-        "imageLocalPath": "data/tossplace-menu/238090/images/15684885-애플망고-한-컵-69d37ad4fd.jpg",
-        "items": [
-          {
-            "id": 15684885,
-            "categoryTitle": "인기 메뉴",
-            "title": "애플망고 한 컵",
-            "description": "달콤한 망고를 듬뿍 담았습니다.\n애플망고와 진한 초코 아이스크림, 망고 샤베트, 바삭한 그래놀라, 고소한 치즈 큐브가 어우러진 시원한 디저트.",
-            "imageLocalPath": "data/tossplace-menu/238090/images/15684885-애플망고-한-컵-69d37ad4fd.jpg"
-          },
-          {
-            "id": 15684832,
-            "categoryTitle": "파르페",
-            "title": "[시즌] 애플망고 한 컵",
-            "description": "달콤한 망고를 듬뿍 담았습니다.\n애플망고와 진한 초코 아이스크림, 망고 샤베트, 바삭한 그래놀라, 고소한 치즈 큐브가 어우러진 시원한 디저트.",
-            "imageLocalPath": "data/tossplace-menu/238090/images/15684885-애플망고-한-컵-69d37ad4fd.jpg"
           }
         ]
       },
@@ -1220,6 +1216,27 @@
       "imageLocalPath": "data/tossplace-menu/238090/images/11057081-발사믹-글레이즈-7e15828b47.jpg",
       "imageHash": "7e15828b47b7c989d7e559cb459d47c6ac1e66b81900c4fb7ff9fd3da3d33f0b",
       "imageStatus": "skipped-existing-url"
+    },
+    {
+      "id": 10433709,
+      "categoryId": 747020,
+      "categoryTitle": "브런치",
+      "categoryTitleEn": "Brunch",
+      "position": 14,
+      "title": "리뷰이벤트 Google Review Event",
+      "titleEn": "",
+      "description": "",
+      "descriptionEn": "",
+      "state": "ON_SALE",
+      "priceValue": 0,
+      "priceTitle": "기본",
+      "imageUrl": "",
+      "labels": [],
+      "optionSets": [],
+      "fingerprint": "81987fafdca06b63f066d6b90b838f2d905b291a371ef1a1522d4352a30b427a",
+      "imageLocalPath": null,
+      "imageHash": null,
+      "imageStatus": "missing"
     },
     {
       "id": 15684885,
@@ -4689,6 +4706,27 @@
       "imageStatus": "skipped-existing-url"
     },
     {
+      "id": 17098517,
+      "categoryId": 985967,
+      "categoryTitle": "디저트",
+      "categoryTitleEn": "Dessert",
+      "position": 17,
+      "title": "클루미 당근케이크",
+      "titleEn": "Clumi Carrot Cake",
+      "description": "진한 치즈 크림과 호두가 가득한 클래식 스타일 당근케이크",
+      "descriptionEn": "Classic Carrot Cake with Cream Cheese Frosting & Walnuts",
+      "state": "ON_SALE",
+      "priceValue": 10900,
+      "priceTitle": "기본",
+      "imageUrl": "https://place-static.tossplace.com/public/live/PUBLIC/2026-09-12/9a2366aa-76e5-47c0-b976-35c05f5b08d4",
+      "labels": [],
+      "optionSets": [],
+      "fingerprint": "cce6cb8aa0db3b565440f6d3663dfa64c99a10cf4957e2210c93b385f94f5231",
+      "imageLocalPath": "data/tossplace-menu/238090/images/17098517-클루미-당근케이크-1d9744db1a.jpg",
+      "imageHash": "1d9744db1a7e6be251ef0ae9ff7b66a98042695bea2c5ecfa33d869545b78f96",
+      "imageStatus": "downloaded"
+    },
+    {
       "id": 13579307,
       "categoryId": 1264615,
       "categoryTitle": "스무디",
@@ -5264,43 +5302,6 @@
       "imageStatus": "skipped-existing-url"
     },
     {
-      "id": 15684832,
-      "categoryId": 765263,
-      "categoryTitle": "파르페",
-      "categoryTitleEn": "Parfait",
-      "position": 7,
-      "title": "[시즌] 애플망고 한 컵",
-      "titleEn": "",
-      "description": "달콤한 망고를 듬뿍 담았습니다.\n애플망고와 진한 초코 아이스크림, 망고 샤베트, 바삭한 그래놀라, 고소한 치즈 큐브가 어우러진 시원한 디저트.",
-      "descriptionEn": "Made with sweet, juicy mango.\nA refreshing parfait with mango, rich chocolate ice cream, mango sorbet, crunchy granola, whipped cream, and cheese cubes.",
-      "state": "ON_SALE",
-      "priceValue": 15000,
-      "priceTitle": "기본",
-      "imageUrl": "https://place-static.tossplace.com/public/live/PUBLIC/2026-07-25/b050e5c0-310e-4348-8e1a-eddbf9cbf7c8",
-      "labels": [],
-      "optionSets": [
-        {
-          "id": 539375,
-          "title": "연유 추가",
-          "required": false,
-          "minChoices": 0,
-          "maxChoices": 1,
-          "choices": [
-            {
-              "id": 1671091,
-              "title": "연유추가(20ml)",
-              "priceValue": 1500,
-              "state": "ON_SALE"
-            }
-          ]
-        }
-      ],
-      "fingerprint": "7fcc4acfe55b033f57dcd7a6fe8e1a22894405f0de58d644e1b576ac7d9a31b8",
-      "imageLocalPath": "data/tossplace-menu/238090/images/15684885-애플망고-한-컵-69d37ad4fd.jpg",
-      "imageHash": "69d37ad4fdba4e7d9acf34a2b2e2e4eda5782ee7eb0b1635c4f6dabba2641b70",
-      "imageStatus": "skipped-existing-url"
-    },
-    {
       "id": 15684844,
       "categoryId": 765263,
       "categoryTitle": "파르페",
@@ -5310,13 +5311,13 @@
       "titleEn": "Snow Red Bean Parfait",
       "description": "국내산 팥과 우유 얼음으로 만든 클래식 빙수.\n부드러운 우유 얼음 위에 풍성한 팥, 진한 바닐라 아이스크림, 달콤한 연유, 쫀득한 찰떡, 바삭한 그래놀라를 더한 한 컵 빙수.",
       "descriptionEn": "Made with Korean sweet red beans and creamy milk ice.\nTopped with vanilla ice cream, condensed milk, chewy rice cake, and crunchy granola for a classic Korean dessert.",
-      "state": "ON_SALE",
+      "state": "SOLD_OUT",
       "priceValue": 12000,
       "priceTitle": "기본",
       "imageUrl": "https://place-static.tossplace.com/public/live/PUBLIC/2026-07-25/e39c0bca-aaa7-455d-8275-b99363caaa45",
       "labels": [],
       "optionSets": [],
-      "fingerprint": "436e461317c15516d397111d24fcc2c6bc4236392e9cf369a5748457037eb608",
+      "fingerprint": "0cd51e72965622d685a054f7225aec7ebd30e06227112a3bec37fcaea9d8fd7e",
       "imageLocalPath": "data/tossplace-menu/238090/images/15684896-밀크팥빙수-한-컵-b3ed4a325c.jpg",
       "imageHash": "b3ed4a325c89adca4955d0b412e4d1a587a8b4c26d1f7f083fe6291e411abc7f",
       "imageStatus": "skipped-existing-url"
