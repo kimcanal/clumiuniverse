@@ -2,6 +2,7 @@ import { readFile, writeFile, mkdir } from 'node:fs/promises';
 import { createHash } from 'node:crypto';
 import path from 'node:path';
 import { fileURLToPath } from 'node:url';
+import { MERCHANT_ID } from './config.mjs';
 
 const __dirname = path.dirname(fileURLToPath(import.meta.url));
 const ROOT = path.resolve(__dirname, '..');
@@ -159,7 +160,7 @@ function buildChecks(items) {
 }
 
 export async function processLivePayload(liveRawPayload, state) {
-  const merchantId = '238090';
+  const merchantId = MERCHANT_ID;
   const outputRoot = path.join(ROOT, 'data/tossplace-menu', merchantId);
   const imagesDir = path.join(outputRoot, 'images');
   const menuPath = path.join(outputRoot, 'menu.json');
@@ -224,7 +225,7 @@ export async function processLivePayload(liveRawPayload, state) {
   const runAt = new Date().toISOString();
 
   const output = {
-    merchantId: 238090,
+    merchantId: Number(MERCHANT_ID),
     merchantName: "클루미 유니버스",
     merchantStatus: "OPEN",
     fetchedAt: runAt,

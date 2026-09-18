@@ -5,10 +5,11 @@ import { access, readFile, stat, writeFile } from 'node:fs/promises';
 import path from 'node:path';
 import { promisify } from 'node:util';
 import { fileURLToPath } from 'node:url';
+import { MERCHANT_ID } from './config.mjs';
 
 const SCRIPT_DIR = path.dirname(fileURLToPath(import.meta.url));
 const ROOT = path.resolve(SCRIPT_DIR, '..');
-const MENU_PATH = path.join(ROOT, 'data/tossplace-menu/238090/menu.json');
+const MENU_PATH = path.join(ROOT, 'data/tossplace-menu', MERCHANT_ID, 'menu.json');
 const FEATURED_PATH = path.join(ROOT, 'data/featured.json');
 const HIDDEN_PATH = path.join(ROOT, 'data/hidden-menu-items.json');
 const OUTPUT_PATH = path.join(ROOT, 'data/site-menu.json');
@@ -168,7 +169,7 @@ export async function buildSiteMenu({ optimizeImages = false, forceImages = fals
 
   return {
     generatedAt: menu.fetchedAt || null,
-    merchantId: menu.merchantId || '238090',
+    merchantId: menu.merchantId || MERCHANT_ID,
     items: visibleItems.map(item => projectMenuItem(item, optimizedPaths.get(Number(item.id)) || '')),
   };
 }

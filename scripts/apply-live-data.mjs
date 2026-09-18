@@ -3,13 +3,14 @@ import path from 'node:path';
 import { fileURLToPath } from 'node:url';
 import { processLivePayload } from './process-live-payload.mjs';
 import { buildSiteMenu } from './generate-site-data.mjs';
+import { MERCHANT_ID } from './config.mjs';
 
 const __dirname = path.dirname(fileURLToPath(import.meta.url));
 const ROOT = path.resolve(__dirname, '..');
 
 async function main() {
   const liveRaw = JSON.parse(await readFile(path.join(ROOT, 'data/live-items-temp.json'), 'utf8'));
-  const statePath = path.join(ROOT, 'data/tossplace-menu/238090/state.json');
+  const statePath = path.join(ROOT, 'data/tossplace-menu', MERCHANT_ID, 'state.json');
   const state = JSON.parse(await readFile(statePath, 'utf8'));
 
   console.log('Processing live payload...');
