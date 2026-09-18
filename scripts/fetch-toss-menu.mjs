@@ -1,14 +1,16 @@
 #!/usr/bin/env node
 
 import { createHash } from 'node:crypto';
-import { mkdir, readFile, rename, writeFile } from 'node:fs/promises';
+import { mkdir, readFile, readdir, rename, unlink, writeFile } from 'node:fs/promises';
 import path from 'node:path';
 import { fileURLToPath } from 'node:url';
+import { MERCHANT_ID } from './config.mjs';
 
 const API_BASE = 'https://api-public.tossplace.com';
 const STORE_BASE = 'https://store.tossplace.com/order';
 const DEFAULT_OUTPUT_DIR = 'data/tossplace-menu';
-const DEFAULT_MERCHANT_INPUT = '238090';
+const DEFAULT_MERCHANT_INPUT = MERCHANT_ID;
+const MIN_ITEM_RATIO = 0.5;
 
 const __dirname = path.dirname(fileURLToPath(import.meta.url));
 const repoRoot = path.resolve(__dirname, '..');
@@ -434,6 +436,43 @@ async function downloadImage(item, imagesDir, state) {
   };
 }
 
+function optimizedPathFor(localPath) {
+  return localPath.replace(/\.[^./]+$/, '.webp');
+}
+
+async function pruneOrphanedImages(imagesDir, items, state) {
+  const referencedPaths = new Set();
+  for (const item of items) {
+    if (item.imageLocalPath) {
+      referencedPaths.add(item.imageLocalPath);
+      referencedPaths.add(optimizedPathFor(item.imageLocalPath));
+    }
+  }
+
+  const fileNames = await readdir(imagesDir).catch(() => []);
+  let removed = 0;
+  for (const fileName of fileNames) {
+    const relativePath = path.relative(repoRoot, path.join(imagesDir, fileName));
+    if (!referencedPaths.has(relativePath)) {
+      await unlink(path.join(imagesDir, fileName)).catch(() => {});
+      removed += 1;
+    }
+  }
+
+  for (const [url, record] of Object.entries(state.imagesByUrl ?? {})) {
+    if (record?.localPath && !referencedPaths.has(record.localPath)) {
+      delete state.imagesByUrl[url];
+    }
+  }
+  for (const [hash, record] of Object.entries(state.imagesByHash ?? {})) {
+    if (record?.localPath && !referencedPaths.has(record.localPath)) {
+      delete state.imagesByHash[hash];
+    }
+  }
+
+  return removed;
+}
+
 function summarize(previousItemsById, items) {
   let added = 0;
   let changed = 0;
@@ -549,6 +588,14 @@ async function main() {
       imageStatus: item.imageUrl ? 'pending' : 'missing',
     }));
 
+  const previousItemCount = Object.keys(state.itemsById ?? {}).length;
+  if (previousItemCount > 0 && items.length < previousItemCount * MIN_ITEM_RATIO) {
+    throw new Error(
+      `메뉴 항목이 ${previousItemCount}개에서 ${items.length}개로 급감했습니다. `
+      + 'Toss API 응답 이상으로 보고 자동 커밋을 중단합니다.',
+    );
+  }
+
   if (args.images) {
     const imageResults = await mapLimit(items, args.concurrency, (item) => downloadImage(item, imagesDir, state));
     for (let index = 0; index < items.length; index += 1) {
@@ -623,6 +670,8 @@ async function main() {
     return;
   }
 
+  const removedOrphanImages = await pruneOrphanedImages(imagesDir, items, state);
+
   state.itemsById = nextItemsById;
   state.lastRunAt = runAt;
   state.runs.push({
@@ -645,6 +694,7 @@ async function main() {
     status: output.merchantStatus,
     summary,
     imageSummary,
+    removedOrphanImages,
     checks: {
       missingImages: checks.missingImages.length,
       missingDescriptions: checks.missingDescriptions.length,

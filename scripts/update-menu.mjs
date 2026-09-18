@@ -13,13 +13,13 @@ import { readFile, writeFile } from 'node:fs/promises';
 import path from 'node:path';
 import * as readline from 'node:readline/promises';
 import { fileURLToPath } from 'node:url';
+import { MERCHANT_ID } from './config.mjs';
 
 const __dirname = path.dirname(fileURLToPath(import.meta.url));
 const ROOT = path.resolve(__dirname, '..');
-const MENU_JSON = path.join(ROOT, 'data/tossplace-menu/238090/menu.json');
+const MENU_JSON = path.join(ROOT, 'data/tossplace-menu', MERCHANT_ID, 'menu.json');
 const FEATURED_JSON = path.join(ROOT, 'data/featured.json');
 const HIDDEN_MENU_ITEMS_JSON = path.join(ROOT, 'data/hidden-menu-items.json');
-const MERCHANT_ID = '238090';
 
 function printHelp() {
   console.log(`Usage:
