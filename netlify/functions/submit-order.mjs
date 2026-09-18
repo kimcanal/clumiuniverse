@@ -1,0 +1,163 @@
+// Foreign-visitor pre-order intake.
+//
+// Stage 1 (current): the store's dedicated Kakao account/OAuth tokens don't exist yet,
+// so this function never calls Kakao. It validates the order and returns the exact
+// request parameters that WOULD be sent to Kakao's "Message to Me" API, so the flow
+// can be verified end-to-end before wiring up real credentials.
+//
+// Stage 2 (later): once KAKAO_REST_API_KEY / KAKAO_CLIENT_SECRET / KAKAO_REFRESH_TOKEN
+// are set as Netlify environment variables, this same function will actually call
+// Kakao instead of returning a dry-run payload — see the branch below.
+
+const KAKAO_TOKEN_URL = 'https://kauth.kakao.com/oauth/token';
+const KAKAO_SEND_URL = 'https://kapi.kakao.com/v2/api/talk/memo/default/send';
+
+function jsonResponse(statusCode, body) {
+  return new Response(JSON.stringify(body), {
+    status: statusCode,
+    headers: { 'Content-Type': 'application/json' },
+  });
+}
+
+function formatWon(value) {
+  return `₩${Number(value || 0).toLocaleString('en-US')}`;
+}
+
+function formatItemLine(item) {
+  const selections = Array.isArray(item.selections) && item.selections.length
+    ? ` (${item.selections.map(s => s.choiceTitle).join(', ')})`
+    : '';
+  return `- ${item.qty} x ${item.titleEn || item.title}${selections} — ${formatWon(item.unitPrice * item.qty)}`;
+}
+
+function buildMessageText(order) {
+  const lines = [
+    `🐰 New pre-order #${order.orderCode}`,
+    '',
+    `Name: ${order.name}`,
+    `Contact: ${order.contact}`,
+    `Pickup: ${order.pickupTime}`,
+    order.notes ? `Notes: ${order.notes}` : null,
+    '',
+    'Items:',
+    ...order.items.map(formatItemLine),
+    '',
+    `Estimated total: ${formatWon(order.estimatedTotal)}`,
+    '(Customer pays at the counter — confirm final amount there.)',
+  ].filter(Boolean);
+  return lines.join('\n');
+}
+
+function validateOrder(body) {
+  if (!body || typeof body !== 'object') return 'Invalid request body.';
+  if (body.website) return 'Rejected.'; // honeypot field was filled in — likely a bot
+  if (!body.name || !String(body.name).trim()) return 'Name is required.';
+  if (!body.contact || !String(body.contact).trim()) return 'Contact is required.';
+  if (!Array.isArray(body.items) || body.items.length === 0) return 'Order has no items.';
+  return null;
+}
+
+export default async (request) => {
+  if (request.method !== 'POST') {
+    return jsonResponse(405, { ok: false, error: 'Method not allowed.' });
+  }
+
+  let order;
+  try {
+    order = await request.json();
+  } catch {
+    return jsonResponse(400, { ok: false, error: 'Invalid JSON body.' });
+  }
+
+  const validationError = validateOrder(order);
+  if (validationError) {
+    return jsonResponse(400, { ok: false, error: validationError });
+  }
+
+  const messageText = buildMessageText(order);
+
+  const tokenRequest = {
+    url: KAKAO_TOKEN_URL,
+    method: 'POST',
+    headers: { 'Content-Type': 'application/x-www-form-urlencoded' },
+    body: {
+      grant_type: 'refresh_token',
+      client_id: '${KAKAO_REST_API_KEY}',
+      client_secret: '${KAKAO_CLIENT_SECRET}',
+      refresh_token: '${KAKAO_REFRESH_TOKEN}',
+    },
+  };
+
+  const messageRequest = {
+    url: KAKAO_SEND_URL,
+    method: 'POST',
+    headers: {
+      'Content-Type': 'application/x-www-form-urlencoded',
+      Authorization: 'Bearer ${access_token from tokenRequest response}',
+    },
+    body: {
+      template_object: JSON.stringify({
+        object_type: 'text',
+        text: messageText,
+        link: { web_url: 'https://clumiuniverse.netlify.app/order', mobile_web_url: 'https://clumiuniverse.netlify.app/order' },
+      }),
+    },
+  };
+
+  const kakaoConfigured = process.env.KAKAO_REST_API_KEY
+    && process.env.KAKAO_CLIENT_SECRET
+    && process.env.KAKAO_REFRESH_TOKEN;
+
+  if (!kakaoConfigured) {
+    console.log('[submit-order] dry run — order:', JSON.stringify(order));
+    console.log('[submit-order] would send to Kakao:', JSON.stringify({ tokenRequest, messageRequest }, null, 2));
+    return jsonResponse(200, {
+      ok: true,
+      dryRun: true,
+      message: 'Kakao is not configured yet — this order was validated but not delivered anywhere. See wouldSend for what will be sent once Kakao is wired up.',
+      wouldSend: { tokenRequest, messageRequest },
+    });
+  }
+
+  // Stage 2: real Kakao delivery (runs once the env vars above are set).
+  try {
+    const tokenRes = await fetch(KAKAO_TOKEN_URL, {
+      method: 'POST',
+      headers: { 'Content-Type': 'application/x-www-form-urlencoded' },
+      body: new URLSearchParams({
+        grant_type: 'refresh_token',
+        client_id: process.env.KAKAO_REST_API_KEY,
+        client_secret: process.env.KAKAO_CLIENT_SECRET,
+        refresh_token: process.env.KAKAO_REFRESH_TOKEN,
+      }),
+    });
+    const tokenData = await tokenRes.json();
+    if (!tokenRes.ok || !tokenData.access_token) {
+      throw new Error(`Kakao token refresh failed: ${JSON.stringify(tokenData)}`);
+    }
+
+    const sendRes = await fetch(KAKAO_SEND_URL, {
+      method: 'POST',
+      headers: {
+        'Content-Type': 'application/x-www-form-urlencoded',
+        Authorization: `Bearer ${tokenData.access_token}`,
+      },
+      body: new URLSearchParams({
+        template_object: JSON.stringify({
+          object_type: 'text',
+          text: messageText,
+          link: { web_url: 'https://clumiuniverse.netlify.app/order', mobile_web_url: 'https://clumiuniverse.netlify.app/order' },
+        }),
+      }),
+    });
+    const sendData = await sendRes.json();
+    if (!sendRes.ok || sendData.result_code !== 0) {
+      throw new Error(`Kakao send failed: ${JSON.stringify(sendData)}`);
+    }
+
+    return jsonResponse(200, { ok: true, dryRun: false });
+  } catch (error) {
+    console.error('[submit-order] Kakao delivery failed:', error);
+    return jsonResponse(502, { ok: false, error: 'Could not deliver the order notification. Please order at the counter instead.' });
+  }
+};

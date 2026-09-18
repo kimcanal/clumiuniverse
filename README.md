@@ -89,6 +89,26 @@ node scripts/update-menu.mjs --no-fetch --keep --no-deploy
 
 `generate-site-data.mjs`는 추천 메뉴 ID와 로컬 이미지 경로를 검증한 뒤, 메뉴 이미지를 최대 720px WebP로 최적화하고 웹 화면에서 사용하지 않는 가격·옵션·해시·원본 응답 필드를 제거한 `data/site-menu.json`을 만듭니다. 추천 ID가 최신 메뉴에서 사라지거나 최적화 이미지가 누락되면 자동 배포를 중단합니다. 로컬 실행에는 `cwebp`가 필요하며 macOS에서는 `brew install webp`로 설치할 수 있습니다. 기존 이미지까지 새 설정으로 다시 만들 때는 `node scripts/generate-site-data.mjs --force-images`를 실행합니다.
 
+## 외국인 픽업 프리오더 (`/order`)
+
+Toss Place 주문(`store.tossplace.com/order/238090`)은 카카오 로그인이 필수라, 구글맵을 보고 찾아온 외국인 관광객이 주문을 못 하는 문제가 있습니다. `/order`는 이를 우회하기 위한 영문 전용 프리오더 페이지입니다.
+
+```text
+방문자가 /order에서 장바구니 구성 · 폼 제출
+        ↓
+netlify/functions/submit-order.mjs
+        ↓
+(다음 단계) 가게 전용 카카오 계정으로 "나에게 보내기"
+        ↓
+손님이 매장 방문 후 카드 단말기로 결제
+```
+
+- 메뉴 데이터는 `data/order-menu.json`으로, `scripts/generate-site-data.mjs`의 `buildOrderMenu()`가 `data/site-menu.json`과 같은 소스에서 만들지만 가격·옵션(`optionSets`)·영문 텍스트를 그대로 보존합니다. 두 파일 모두 `node scripts/generate-site-data.mjs` 한 번으로 함께 생성/검증됩니다.
+- 옵션이 있는 메뉴(예: "내맘대로 브런치")는 카드에서 옵션을 고른 뒤 담을 수 있습니다. 화면에 표시되는 합계는 **예상 금액**이며, 실제 결제 금액은 매장에서 확정합니다.
+- **현재는 dry-run 상태**입니다. `netlify/functions/submit-order.mjs`는 주문을 검증만 하고, 실제로는 어디에도 전송하지 않습니다. 대신 카카오 "나에게 보내기" API에 실제로 보낼 요청 파라미터(`wouldSend.tokenRequest`, `wouldSend.messageRequest`)를 그대로 응답에 담아 반환합니다. 주문 완료 화면의 "Debug" 아코디언에서 확인할 수 있습니다.
+- 실제 연동은 다음 단계로 남아 있습니다: 가게 전용 카카오 계정 생성 → 카운터에 상시 거치할 공기계에 로그인 → `developers.kakao.com`에 앱 등록 후 `talk_message` 스코프로 1회 OAuth 동의 → 발급된 `refresh_token`을 Netlify 환경변수(`KAKAO_REST_API_KEY`, `KAKAO_CLIENT_SECRET`, `KAKAO_REFRESH_TOKEN`)로 등록. 세 값이 모두 설정되면 같은 함수가 자동으로 실제 전송 모드로 전환됩니다.
+- 카카오 refresh token은 영구적이지 않을 수 있어, 연동 이후에도 주기적인 재인증이 필요할 수 있습니다.
+
 ## 매장 정보와 Instagram 수정
 
 매장 소개, 주소, 영업시간, 전화번호와 네이버 지도 링크는 `data/store-info.json`에서 관리합니다.
@@ -167,6 +187,12 @@ clumiuniverse/
 ├── docs/screenshots/
 ├── index.html
 ├── styles.css
+├── netlify.toml
+├── order/
+│   ├── index.html
+│   └── order.css
+├── netlify/functions/
+│   └── submit-order.mjs
 ├── assets/
 │   ├── clumi-logo.svg
 │   ├── bg/
@@ -176,6 +202,7 @@ clumiuniverse/
 │   ├── featured.json
 │   ├── hidden-menu-items.json
 │   ├── instagram.json
+│   ├── order-menu.json
 │   ├── reviews.json
 │   ├── site-menu.json
 │   ├── store-info.json

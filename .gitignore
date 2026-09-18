@@ -16,3 +16,6 @@ assets/클루미유니버스*
 
 # 로컬 개발 서버
 serve.pid
+
+# Local Netlify folder
+.netlify

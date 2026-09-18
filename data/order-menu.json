@@ -1,0 +1,4687 @@
+{
+  "generatedAt": "2026-09-12T22:41:01.782Z",
+  "merchantId": 238090,
+  "items": [
+    {
+      "id": 10991140,
+      "categoryTitle": "브런치",
+      "categoryTitleEn": "Brunch",
+      "title": "내맘대로 브런치(Basic waffle)",
+      "titleEn": "Build Your Own Brunch",
+      "description": "[뉴질랜드 앵커 무염 버터 100%] 벨기에 리에주 방식의 와플로 겉은 바삭 속은 촉촉한 벨기에 와플,원하는 메뉴를 담아서 나만의 유니크한 메뉴를 만드세요.(Basic waffle)",
+      "descriptionEn": "Our Belgian Liege-style waffle is made with 100% New Zealand Anchor Unsalted Butter, featuring a signature 'crispy on the outside, chewy on the inside' texture. Build your own unique plate by adding your favorite toppings to this premium base.",
+      "priceValue": 6000,
+      "priceTitle": "기본",
+      "available": true,
+      "labels": [
+        "인기"
+      ],
+      "optionSets": [
+        {
+          "id": 414275,
+          "title": "내 맘대로 브런치",
+          "required": true,
+          "minChoices": 1,
+          "maxChoices": 9,
+          "choices": [
+            {
+              "id": 1275947,
+              "title": "스크램블에그",
+              "priceValue": 6000,
+              "available": true
+            },
+            {
+              "id": 1275946,
+              "title": "소시지(2)",
+              "priceValue": 2000,
+              "available": true
+            },
+            {
+              "id": 1275944,
+              "title": "해쉬브라운(1)",
+              "priceValue": 2500,
+              "available": true
+            },
+            {
+              "id": 1275945,
+              "title": "그린빈(6)",
+              "priceValue": 1500,
+              "available": true
+            },
+            {
+              "id": 1275948,
+              "title": "방울토마토(4)",
+              "priceValue": 2000,
+              "available": true
+            },
+            {
+              "id": 1276192,
+              "title": "아보카도(1/2)",
+              "priceValue": 3500,
+              "available": true
+            },
+            {
+              "id": 1275993,
+              "title": "케찹",
+              "priceValue": 500,
+              "available": true
+            },
+            {
+              "id": 1275994,
+              "title": "저당메이플시럽",
+              "priceValue": 1000,
+              "available": true
+            },
+            {
+              "id": 1386548,
+              "title": "발사믹소스",
+              "priceValue": 1000,
+              "available": true
+            }
+          ]
+        }
+      ],
+      "imageLocalPath": "data/tossplace-menu/238090/images/10991140-내맘대로-브런치-Basic-waffle-f5ce2306c3.webp"
+    },
+    {
+      "id": 11075478,
+      "categoryTitle": "브런치",
+      "categoryTitleEn": "Brunch",
+      "title": "여왕의접시3(Coffee Set)",
+      "titleEn": "The Queen's Plate 3 (Coffee Set)",
+      "description": "[10:30~21:00] 벨기에 리에주 방식의 바삭한 와플, 뉴질랜드 앵커 무염버터 100%로 만든 부드러운 스크램블, 신선한 방울 토마토, 커피를 곁들인 우아한 한 접시.",
+      "descriptionEn": "[10:30~21:00] An elegant platter featuring crispy Belgian Liege-style waffles paired with silky scrambled eggs—made with 100% New Zealand Anchor unsalted butter—served alongside fresh cherry tomatoes and a cup of premium coffee.",
+      "priceValue": 15000,
+      "priceTitle": "기본",
+      "available": true,
+      "labels": [],
+      "optionSets": [
+        {
+          "id": 414323,
+          "title": "브런치 커피",
+          "required": false,
+          "minChoices": 0,
+          "maxChoices": 1,
+          "choices": [
+            {
+              "id": 1276117,
+              "title": "아메리카노",
+              "priceValue": 0,
+              "available": true
+            },
+            {
+              "id": 1276118,
+              "title": "상수라떼",
+              "priceValue": 1500,
+              "available": true
+            },
+            {
+              "id": 1445179,
+              "title": "합정라떼",
+              "priceValue": 1500,
+              "available": true
+            },
+            {
+              "id": 1461373,
+              "title": "오렌지주스",
+              "priceValue": 1000,
+              "available": true
+            }
+          ]
+        },
+        {
+          "id": 296010,
+          "title": "원두 선택",
+          "required": true,
+          "minChoices": 1,
+          "maxChoices": 1,
+          "choices": [
+            {
+              "id": 901204,
+              "title": "고소한 원두",
+              "priceValue": 0,
+              "available": true
+            },
+            {
+              "id": 901205,
+              "title": "산미있는 원두",
+              "priceValue": 0,
+              "available": true
+            },
+            {
+              "id": 901206,
+              "title": "디카페인 원두",
+              "priceValue": 500,
+              "available": true
+            }
+          ]
+        },
+        {
+          "id": 294937,
+          "title": "온도",
+          "required": true,
+          "minChoices": 1,
+          "maxChoices": 1,
+          "choices": [
+            {
+              "id": 897956,
+              "title": "따뜻하게",
+              "priceValue": 0,
+              "available": true
+            },
+            {
+              "id": 897957,
+              "title": "차갑게",
+              "priceValue": 0,
+              "available": true
+            }
+          ]
+        },
+        {
+          "id": 294938,
+          "title": "커피 옵션",
+          "required": false,
+          "minChoices": 0,
+          "maxChoices": 1,
+          "choices": [
+            {
+              "id": 897960,
+              "title": "샷 추가",
+              "priceValue": 500,
+              "available": true
+            },
+            {
+              "id": 901463,
+              "title": "연하게",
+              "priceValue": 0,
+              "available": true
+            },
+            {
+              "id": 901465,
+              "title": "바닐라시럽추가",
+              "priceValue": 500,
+              "available": true
+            }
+          ]
+        },
+        {
+          "id": 417152,
+          "title": "여왕브런치 옵션",
+          "required": false,
+          "minChoices": 0,
+          "maxChoices": 7,
+          "choices": [
+            {
+              "id": 1284758,
+              "title": "소시지(2)",
+              "priceValue": 2000,
+              "available": true
+            },
+            {
+              "id": 1284759,
+              "title": "그린빈",
+              "priceValue": 1500,
+              "available": true
+            },
+            {
+              "id": 1284760,
+              "title": "아보카도(1/2)",
+              "priceValue": 3500,
+              "available": true
+            },
+            {
+              "id": 1284761,
+              "title": "해쉬브라운",
+              "priceValue": 2500,
+              "available": true
+            },
+            {
+              "id": 1293491,
+              "title": "발사믹소스",
+              "priceValue": 1000,
+              "available": true
+            },
+            {
+              "id": 1293492,
+              "title": "케찹",
+              "priceValue": 500,
+              "available": true
+            },
+            {
+              "id": 1293493,
+              "title": "메이플시럽(저당)",
+              "priceValue": 1000,
+              "available": true
+            },
+            {
+              "id": 1323457,
+              "title": "시나몬 파우더",
+              "priceValue": 0,
+              "available": true
+            }
+          ]
+        }
+      ],
+      "imageLocalPath": "data/tossplace-menu/238090/images/11075478-여왕의접시3-Coffee-Set-2db77c6fb1.webp"
+    },
+    {
+      "id": 11075904,
+      "categoryTitle": "브런치",
+      "categoryTitleEn": "Brunch",
+      "title": "여왕의접시4(아보카도)Coffee Set",
+      "titleEn": "Queen’s Plate 4 (avocado)Coffee Set",
+      "description": "[10:30~21:00] 정통 벨기에 리에주 와플과 100% 앵커 무염버터로 맛을 낸 부드러운 스크램블 에그,  신선한 아보카도와 방울토마토를 더하고 국가대표 바리스타 원두의 향긋한 커피 한 잔으로 완성한 우아한 한 접시입니다.\"",
+      "descriptionEn": "[10:30~21:00] An elegant plate featuring an authentic Belgian Liège waffle, fluffy scrambled eggs made with 100% Anchor unsalted butter, and fresh avocado and cherry tomatoes, beautifully completed with a fragrant cup of coffee brewed from national champion barista roasted beans.",
+      "priceValue": 18000,
+      "priceTitle": "기본",
+      "available": true,
+      "labels": [
+        "인기"
+      ],
+      "optionSets": [
+        {
+          "id": 414323,
+          "title": "브런치 커피",
+          "required": false,
+          "minChoices": 0,
+          "maxChoices": 1,
+          "choices": [
+            {
+              "id": 1276117,
+              "title": "아메리카노",
+              "priceValue": 0,
+              "available": true
+            },
+            {
+              "id": 1276118,
+              "title": "상수라떼",
+              "priceValue": 1500,
+              "available": true
+            },
+            {
+              "id": 1445179,
+              "title": "합정라떼",
+              "priceValue": 1500,
+              "available": true
+            },
+            {
+              "id": 1461373,
+              "title": "오렌지주스",
+              "priceValue": 1000,
+              "available": true
+            }
+          ]
+        },
+        {
+          "id": 296010,
+          "title": "원두 선택",
+          "required": true,
+          "minChoices": 1,
+          "maxChoices": 1,
+          "choices": [
+            {
+              "id": 901204,
+              "title": "고소한 원두",
+              "priceValue": 0,
+              "available": true
+            },
+            {
+              "id": 901205,
+              "title": "산미있는 원두",
+              "priceValue": 0,
+              "available": true
+            },
+            {
+              "id": 901206,
+              "title": "디카페인 원두",
+              "priceValue": 500,
+              "available": true
+            }
+          ]
+        },
+        {
+          "id": 294937,
+          "title": "온도",
+          "required": true,
+          "minChoices": 1,
+          "maxChoices": 1,
+          "choices": [
+            {
+              "id": 897956,
+              "title": "따뜻하게",
+              "priceValue": 0,
+              "available": true
+            },
+            {
+              "id": 897957,
+              "title": "차갑게",
+              "priceValue": 0,
+              "available": true
+            }
+          ]
+        },
+        {
+          "id": 294938,
+          "title": "커피 옵션",
+          "required": false,
+          "minChoices": 0,
+          "maxChoices": 1,
+          "choices": [
+            {
+              "id": 897960,
+              "title": "샷 추가",
+              "priceValue": 500,
+              "available": true
+            },
+            {
+              "id": 901463,
+              "title": "연하게",
+              "priceValue": 0,
+              "available": true
+            },
+            {
+              "id": 901465,
+              "title": "바닐라시럽추가",
+              "priceValue": 500,
+              "available": true
+            }
+          ]
+        },
+        {
+          "id": 417152,
+          "title": "여왕브런치 옵션",
+          "required": false,
+          "minChoices": 0,
+          "maxChoices": 7,
+          "choices": [
+            {
+              "id": 1284758,
+              "title": "소시지(2)",
+              "priceValue": 2000,
+              "available": true
+            },
+            {
+              "id": 1284759,
+              "title": "그린빈",
+              "priceValue": 1500,
+              "available": true
+            },
+            {
+              "id": 1284760,
+              "title": "아보카도(1/2)",
+              "priceValue": 3500,
+              "available": true
+            },
+            {
+              "id": 1284761,
+              "title": "해쉬브라운",
+              "priceValue": 2500,
+              "available": true
+            },
+            {
+              "id": 1293491,
+              "title": "발사믹소스",
+              "priceValue": 1000,
+              "available": true
+            },
+            {
+              "id": 1293492,
+              "title": "케찹",
+              "priceValue": 500,
+              "available": true
+            },
+            {
+              "id": 1293493,
+              "title": "메이플시럽(저당)",
+              "priceValue": 1000,
+              "available": true
+            },
+            {
+              "id": 1323457,
+              "title": "시나몬 파우더",
+              "priceValue": 0,
+              "available": true
+            }
+          ]
+        }
+      ],
+      "imageLocalPath": "data/tossplace-menu/238090/images/11075904-여왕의접시4-아보카도-Coffee-Set-76b7edcaa3.webp"
+    },
+    {
+      "id": 11191767,
+      "categoryTitle": "브런치",
+      "categoryTitleEn": "Brunch",
+      "title": "여왕의 만찬7(Coffee Set)",
+      "titleEn": "Queen's Banquet(Coffee Set)",
+      "description": "[10:30~21:00] 달콤하고 쫀득한 정통 벨기에 리에주 와플과 100% 앵커 무염버터로 맛을 낸 부드러운 스크램블 에그, 육즙을 꽉 채운 무아질산나트륨 독일식 소시지의 건강한 조화. 95% 감자 해시브라운의 바삭함에 신선한 아보카도와 방울토마토, 아삭한 그린빈을 더하고 국가대표 바리스타 원두의 향긋한 커피 한 잔으로 완성한 완벽한 한 접시입니다.",
+      "descriptionEn": "[10:30~21:00] A wholesome harmony featuring a sweet and chewy authentic Belgian Liège waffle, fluffy scrambled eggs made with 100% Anchor unsalted butter, and a juicy, nitrite-free German sausage. Enhanced with a crispy 95% potato hash brown, fresh avocado, cherry tomatoes, and crunchy green beans, this perfect plate is beautifully finished with a fragrant cup of coffee brewed from national champion barista roasted beans.",
+      "priceValue": 25000,
+      "priceTitle": "기본",
+      "available": true,
+      "labels": [
+        "인기"
+      ],
+      "optionSets": [
+        {
+          "id": 414323,
+          "title": "브런치 커피",
+          "required": false,
+          "minChoices": 0,
+          "maxChoices": 1,
+          "choices": [
+            {
+              "id": 1276117,
+              "title": "아메리카노",
+              "priceValue": 0,
+              "available": true
+            },
+            {
+              "id": 1276118,
+              "title": "상수라떼",
+              "priceValue": 1500,
+              "available": true
+            },
+            {
+              "id": 1445179,
+              "title": "합정라떼",
+              "priceValue": 1500,
+              "available": true
+            },
+            {
+              "id": 1461373,
+              "title": "오렌지주스",
+              "priceValue": 1000,
+              "available": true
+            }
+          ]
+        },
+        {
+          "id": 296010,
+          "title": "원두 선택",
+          "required": true,
+          "minChoices": 1,
+          "maxChoices": 1,
+          "choices": [
+            {
+              "id": 901204,
+              "title": "고소한 원두",
+              "priceValue": 0,
+              "available": true
+            },
+            {
+              "id": 901205,
+              "title": "산미있는 원두",
+              "priceValue": 0,
+              "available": true
+            },
+            {
+              "id": 901206,
+              "title": "디카페인 원두",
+              "priceValue": 500,
+              "available": true
+            }
+          ]
+        },
+        {
+          "id": 294937,
+          "title": "온도",
+          "required": true,
+          "minChoices": 1,
+          "maxChoices": 1,
+          "choices": [
+            {
+              "id": 897956,
+              "title": "따뜻하게",
+              "priceValue": 0,
+              "available": true
+            },
+            {
+              "id": 897957,
+              "title": "차갑게",
+              "priceValue": 0,
+              "available": true
+            }
+          ]
+        },
+        {
+          "id": 294938,
+          "title": "커피 옵션",
+          "required": false,
+          "minChoices": 0,
+          "maxChoices": 1,
+          "choices": [
+            {
+              "id": 897960,
+              "title": "샷 추가",
+              "priceValue": 500,
+              "available": true
+            },
+            {
+              "id": 901463,
+              "title": "연하게",
+              "priceValue": 0,
+              "available": true
+            },
+            {
+              "id": 901465,
+              "title": "바닐라시럽추가",
+              "priceValue": 500,
+              "available": true
+            }
+          ]
+        },
+        {
+          "id": 417152,
+          "title": "여왕브런치 옵션",
+          "required": false,
+          "minChoices": 0,
+          "maxChoices": 7,
+          "choices": [
+            {
+              "id": 1284758,
+              "title": "소시지(2)",
+              "priceValue": 2000,
+              "available": true
+            },
+            {
+              "id": 1284759,
+              "title": "그린빈",
+              "priceValue": 1500,
+              "available": true
+            },
+            {
+              "id": 1284760,
+              "title": "아보카도(1/2)",
+              "priceValue": 3500,
+              "available": true
+            },
+            {
+              "id": 1284761,
+              "title": "해쉬브라운",
+              "priceValue": 2500,
+              "available": true
+            },
+            {
+              "id": 1293491,
+              "title": "발사믹소스",
+              "priceValue": 1000,
+              "available": true
+            },
+            {
+              "id": 1293492,
+              "title": "케찹",
+              "priceValue": 500,
+              "available": true
+            },
+            {
+              "id": 1293493,
+              "title": "메이플시럽(저당)",
+              "priceValue": 1000,
+              "available": true
+            },
+            {
+              "id": 1323457,
+              "title": "시나몬 파우더",
+              "priceValue": 0,
+              "available": true
+            }
+          ]
+        }
+      ],
+      "imageLocalPath": "data/tossplace-menu/238090/images/11191767-여왕의-만찬-Coffee-Set-c242a770ab.webp"
+    },
+    {
+      "id": 13040656,
+      "categoryTitle": "브런치",
+      "categoryTitleEn": "Brunch",
+      "title": "[앵커무염버터100%]에그 3개 스크램블",
+      "titleEn": "3-Egg Scramble with 100% Anchor Unsalted Butter",
+      "description": "[뉴질랜드 앵커 무염버터 100%]국산 계란 3개에 무염 버터100%를 넣어 풍미를 가둔, 보들 보들한 스크램블",
+      "descriptionEn": "Silky, protein-packed scrambled eggs made with three local eggs and a generous amount of Anchor unsalted butter for a rich, locked-in flavor.",
+      "priceValue": 8000,
+      "priceTitle": "기본",
+      "available": true,
+      "labels": [],
+      "optionSets": [],
+      "imageLocalPath": "data/tossplace-menu/238090/images/13040656-에그-3개-스크램블-6cbbab4fe9.webp"
+    },
+    {
+      "id": 10999047,
+      "categoryTitle": "브런치",
+      "categoryTitleEn": "Brunch",
+      "title": "[브런치]커피",
+      "titleEn": "[brunch]coffee",
+      "description": "",
+      "descriptionEn": "",
+      "priceValue": 5000,
+      "priceTitle": "기본",
+      "available": true,
+      "labels": [],
+      "optionSets": [
+        {
+          "id": 296010,
+          "title": "원두 선택",
+          "required": true,
+          "minChoices": 1,
+          "maxChoices": 1,
+          "choices": [
+            {
+              "id": 901204,
+              "title": "고소한 원두",
+              "priceValue": 0,
+              "available": true
+            },
+            {
+              "id": 901205,
+              "title": "산미있는 원두",
+              "priceValue": 0,
+              "available": true
+            },
+            {
+              "id": 901206,
+              "title": "디카페인 원두",
+              "priceValue": 500,
+              "available": true
+            }
+          ]
+        },
+        {
+          "id": 294937,
+          "title": "온도",
+          "required": true,
+          "minChoices": 1,
+          "maxChoices": 1,
+          "choices": [
+            {
+              "id": 897956,
+              "title": "따뜻하게",
+              "priceValue": 0,
+              "available": true
+            },
+            {
+              "id": 897957,
+              "title": "차갑게",
+              "priceValue": 0,
+              "available": true
+            }
+          ]
+        },
+        {
+          "id": 294938,
+          "title": "커피 옵션",
+          "required": false,
+          "minChoices": 0,
+          "maxChoices": 1,
+          "choices": [
+            {
+              "id": 897960,
+              "title": "샷 추가",
+              "priceValue": 500,
+              "available": true
+            },
+            {
+              "id": 901463,
+              "title": "연하게",
+              "priceValue": 0,
+              "available": true
+            },
+            {
+              "id": 901465,
+              "title": "바닐라시럽추가",
+              "priceValue": 500,
+              "available": true
+            }
+          ]
+        },
+        {
+          "id": 296015,
+          "title": "오트 변경",
+          "required": false,
+          "minChoices": 0,
+          "maxChoices": 1,
+          "choices": [
+            {
+              "id": 901219,
+              "title": "오트 변경",
+              "priceValue": 800,
+              "available": true
+            }
+          ]
+        }
+      ],
+      "imageLocalPath": "data/tossplace-menu/238090/images/10999047-브런치-커피-2d26673b2f.webp"
+    },
+    {
+      "id": 10983319,
+      "categoryTitle": "브런치",
+      "categoryTitleEn": "Brunch",
+      "title": "[브런치]오렌지주스",
+      "titleEn": "Orange Juice",
+      "description": "",
+      "descriptionEn": "",
+      "priceValue": 5000,
+      "priceTitle": "기본",
+      "available": true,
+      "labels": [
+        "신규"
+      ],
+      "optionSets": [],
+      "imageLocalPath": "data/tossplace-menu/238090/images/10983319-브런치-오렌지주스-c5355b1554.webp"
+    },
+    {
+      "id": 10433709,
+      "categoryTitle": "브런치",
+      "categoryTitleEn": "Brunch",
+      "title": "리뷰이벤트 Google Review Event",
+      "titleEn": "",
+      "description": "",
+      "descriptionEn": "",
+      "priceValue": 0,
+      "priceTitle": "기본",
+      "available": true,
+      "labels": [],
+      "optionSets": [],
+      "imageLocalPath": ""
+    },
+    {
+      "id": 15684885,
+      "categoryTitle": "인기 메뉴",
+      "categoryTitleEn": "BEST",
+      "title": "애플망고 한 컵",
+      "titleEn": "Mango Chocolate Parfait",
+      "description": "달콤한 망고를 듬뿍 담았습니다.\n애플망고와 진한 초코 아이스크림, 망고 샤베트, 바삭한 그래놀라, 고소한 치즈 큐브가 어우러진 시원한 디저트.",
+      "descriptionEn": "Made with sweet, juicy mango.\nA refreshing parfait with mango, rich chocolate ice cream, mango sorbet, crunchy granola, whipped cream, and cheese cubes.",
+      "priceValue": 15000,
+      "priceTitle": "기본",
+      "available": true,
+      "labels": [
+        "인기"
+      ],
+      "optionSets": [
+        {
+          "id": 539375,
+          "title": "연유 추가",
+          "required": false,
+          "minChoices": 0,
+          "maxChoices": 1,
+          "choices": [
+            {
+              "id": 1671091,
+              "title": "연유추가(20ml)",
+              "priceValue": 1500,
+              "available": true
+            }
+          ]
+        }
+      ],
+      "imageLocalPath": "data/tossplace-menu/238090/images/15684885-애플망고-한-컵-69d37ad4fd.webp"
+    },
+    {
+      "id": 15684889,
+      "categoryTitle": "인기 메뉴",
+      "categoryTitleEn": "BEST",
+      "title": "복숭아 한 컵",
+      "titleEn": "Whole Peach Cup Parfait",
+      "description": "제철 황도 1개를 통째로 담았습니다.\n달콤한 생복숭아와 바삭한 그래놀라, 상큼한 요거트, 진한 바닐라 아이스크림이 어우러진 여름 한정 프리미엄 파르페",
+      "descriptionEn": "Made with one whole fresh seasonal peach.\nA premium summer parfait layered with crunchy granola, creamy yogurt, whipped cream, and rich vanilla ice cream.",
+      "priceValue": 15000,
+      "priceTitle": "기본",
+      "available": true,
+      "labels": [
+        "인기"
+      ],
+      "optionSets": [
+        {
+          "id": 539375,
+          "title": "연유 추가",
+          "required": false,
+          "minChoices": 0,
+          "maxChoices": 1,
+          "choices": [
+            {
+              "id": 1671091,
+              "title": "연유추가(20ml)",
+              "priceValue": 1500,
+              "available": true
+            }
+          ]
+        }
+      ],
+      "imageLocalPath": "data/tossplace-menu/238090/images/15684889-복숭아-한-컵-5f7a3ea8c3.webp"
+    },
+    {
+      "id": 15684896,
+      "categoryTitle": "인기 메뉴",
+      "categoryTitleEn": "BEST",
+      "title": "무화과 크림치즈 와플",
+      "titleEn": "Fig Cream Cheese Waffle",
+      "description": "달콤한 무화과와 부드러운 크림치즈 무스, 피스타치오를 올린 바삭한 리에쥬 와플.",
+      "descriptionEn": "A crisp Belgian Liège waffle topped with sweet fresh figs, smooth cream cheese mousse, pistachio crumble, and a drizzle of maple syrup.",
+      "priceValue": 15000,
+      "priceTitle": "기본",
+      "available": true,
+      "labels": [
+        "인기"
+      ],
+      "optionSets": [
+        {
+          "id": 366680,
+          "title": "와플 컷팅",
+          "required": true,
+          "minChoices": 1,
+          "maxChoices": 1,
+          "choices": [
+            {
+              "id": 1135717,
+              "title": "그대로 주세요",
+              "priceValue": 0,
+              "available": true
+            },
+            {
+              "id": 1135716,
+              "title": "먹기좋게 잘라주세요",
+              "priceValue": 0,
+              "available": true
+            }
+          ]
+        },
+        {
+          "id": 316934,
+          "title": "와플 옵션",
+          "required": false,
+          "minChoices": 0,
+          "maxChoices": 5,
+          "choices": [
+            {
+              "id": 971773,
+              "title": "시나몬 추가",
+              "priceValue": 500,
+              "available": true
+            },
+            {
+              "id": 971774,
+              "title": "크림치즈 추가",
+              "priceValue": 1000,
+              "available": true
+            },
+            {
+              "id": 971775,
+              "title": "골든애플잼 추가",
+              "priceValue": 1000,
+              "available": true
+            },
+            {
+              "id": 1129310,
+              "title": "블루베리잼 추가",
+              "priceValue": 1000,
+              "available": true
+            },
+            {
+              "id": 1129311,
+              "title": "딸기잼 추가",
+              "priceValue": 1000,
+              "available": true
+            }
+          ]
+        }
+      ],
+      "imageLocalPath": "data/tossplace-menu/238090/images/15684896-무화과-크림치즈-와플-db8948e195.webp"
+    },
+    {
+      "id": 10683603,
+      "categoryTitle": "인기 메뉴",
+      "categoryTitleEn": "BEST",
+      "title": "[피스타치오] 초코 반하나 와플",
+      "titleEn": "[Pistachio] Banana Waffle",
+      "description": "앵커 버터로 만든 겉바속쫀 리에주 와플에 바나나, 생크림, 초코소스, 피스타치오를 올린 클루미 시그니처 와플. 한 입에 반해버릴지도 몰라요.",
+      "descriptionEn": "A Liège waffle made with Anchor butter, topped with banana, whipped cream, chocolate sauce, and pistachio. Crispy, chewy, and dangerously easy to fall for.",
+      "priceValue": 12000,
+      "priceTitle": "기본",
+      "available": true,
+      "labels": [
+        "인기"
+      ],
+      "optionSets": [
+        {
+          "id": 366680,
+          "title": "와플 컷팅",
+          "required": true,
+          "minChoices": 1,
+          "maxChoices": 1,
+          "choices": [
+            {
+              "id": 1135717,
+              "title": "그대로 주세요",
+              "priceValue": 0,
+              "available": true
+            },
+            {
+              "id": 1135716,
+              "title": "먹기좋게 잘라주세요",
+              "priceValue": 0,
+              "available": true
+            }
+          ]
+        }
+      ],
+      "imageLocalPath": "data/tossplace-menu/238090/images/10683603-피스타치오-초코-반하나-와플-87f8a2942f.webp"
+    },
+    {
+      "id": 13541356,
+      "categoryTitle": "인기 메뉴",
+      "categoryTitleEn": "BEST",
+      "title": "블루베리&크림치즈 와플",
+      "titleEn": "Blueberry&cream cheese waffle",
+      "description": "\"눈과 입이 즐거워지는 상큼하고 진한 유혹\"\n세계 10대 슈퍼푸드인 블루베리와 부드럽고 진한 크림치즈가 만났습니다. 앵커 버터로 구워낸 따뜻한 와플 위에 펼쳐지는 상큼 고소한 하모니를 즐겨보세요. 건강한 달콤함이 필요할 때 최고의 선택입니다.",
+      "descriptionEn": "\"A perfect harmony of fresh antioxidants and rich creaminess.\"\nElevate your snack time with our premium Belgian waffle topped with fresh blueberries and velvety cream cheese. Experience a delightful burst of flavor that’s both healthy and indulgent.",
+      "priceValue": 10000,
+      "priceTitle": "기본",
+      "available": true,
+      "labels": [],
+      "optionSets": [
+        {
+          "id": 366680,
+          "title": "와플 컷팅",
+          "required": true,
+          "minChoices": 1,
+          "maxChoices": 1,
+          "choices": [
+            {
+              "id": 1135717,
+              "title": "그대로 주세요",
+              "priceValue": 0,
+              "available": true
+            },
+            {
+              "id": 1135716,
+              "title": "먹기좋게 잘라주세요",
+              "priceValue": 0,
+              "available": true
+            }
+          ]
+        }
+      ],
+      "imageLocalPath": "data/tossplace-menu/238090/images/7735937-블루베리-크림치즈-와플-32131784ad.webp"
+    },
+    {
+      "id": 14267200,
+      "categoryTitle": "인기 메뉴",
+      "categoryTitleEn": "BEST",
+      "title": "땅콩크림라떼",
+      "titleEn": "Peanut Cream Latte",
+      "description": "",
+      "descriptionEn": "",
+      "priceValue": 7500,
+      "priceTitle": "기본",
+      "available": true,
+      "labels": [],
+      "optionSets": [
+        {
+          "id": 296010,
+          "title": "원두 선택",
+          "required": true,
+          "minChoices": 1,
+          "maxChoices": 1,
+          "choices": [
+            {
+              "id": 901204,
+              "title": "고소한 원두",
+              "priceValue": 0,
+              "available": true
+            },
+            {
+              "id": 901205,
+              "title": "산미있는 원두",
+              "priceValue": 0,
+              "available": true
+            },
+            {
+              "id": 901206,
+              "title": "디카페인 원두",
+              "priceValue": 500,
+              "available": true
+            }
+          ]
+        }
+      ],
+      "imageLocalPath": "data/tossplace-menu/238090/images/14267200-땅콩크림라떼-2f5de2df2e.webp"
+    },
+    {
+      "id": 14267209,
+      "categoryTitle": "인기 메뉴",
+      "categoryTitleEn": "BEST",
+      "title": "오렌지 비앙코",
+      "titleEn": "Orange Bianco",
+      "description": "",
+      "descriptionEn": "",
+      "priceValue": 7500,
+      "priceTitle": "기본",
+      "available": true,
+      "labels": [],
+      "optionSets": [
+        {
+          "id": 296010,
+          "title": "원두 선택",
+          "required": true,
+          "minChoices": 1,
+          "maxChoices": 1,
+          "choices": [
+            {
+              "id": 901204,
+              "title": "고소한 원두",
+              "priceValue": 0,
+              "available": true
+            },
+            {
+              "id": 901205,
+              "title": "산미있는 원두",
+              "priceValue": 0,
+              "available": true
+            },
+            {
+              "id": 901206,
+              "title": "디카페인 원두",
+              "priceValue": 500,
+              "available": true
+            }
+          ]
+        }
+      ],
+      "imageLocalPath": "data/tossplace-menu/238090/images/14267209-오렌지-비앙코-dda910de0e.webp"
+    },
+    {
+      "id": 9142726,
+      "categoryTitle": "인기 메뉴",
+      "categoryTitleEn": "BEST",
+      "title": "[시그니처] 합정라떼",
+      "titleEn": "[signature] Hapjeong Latte",
+      "description": "깊은 에스프레소에 버터스카치의 달콤함을 더한 부드러운 라떼.",
+      "descriptionEn": "A soft latte with deep espresso plus the sweetness of butterscotch.",
+      "priceValue": 6000,
+      "priceTitle": "기본",
+      "available": true,
+      "labels": [],
+      "optionSets": [
+        {
+          "id": 296010,
+          "title": "원두 선택",
+          "required": true,
+          "minChoices": 1,
+          "maxChoices": 1,
+          "choices": [
+            {
+              "id": 901204,
+              "title": "고소한 원두",
+              "priceValue": 0,
+              "available": true
+            },
+            {
+              "id": 901205,
+              "title": "산미있는 원두",
+              "priceValue": 0,
+              "available": true
+            },
+            {
+              "id": 901206,
+              "title": "디카페인 원두",
+              "priceValue": 500,
+              "available": true
+            }
+          ]
+        },
+        {
+          "id": 294937,
+          "title": "온도",
+          "required": true,
+          "minChoices": 1,
+          "maxChoices": 1,
+          "choices": [
+            {
+              "id": 897956,
+              "title": "따뜻하게",
+              "priceValue": 0,
+              "available": true
+            },
+            {
+              "id": 897957,
+              "title": "차갑게",
+              "priceValue": 0,
+              "available": true
+            }
+          ]
+        },
+        {
+          "id": 294938,
+          "title": "커피 옵션",
+          "required": false,
+          "minChoices": 0,
+          "maxChoices": 1,
+          "choices": [
+            {
+              "id": 897960,
+              "title": "샷 추가",
+              "priceValue": 500,
+              "available": true
+            },
+            {
+              "id": 901463,
+              "title": "연하게",
+              "priceValue": 0,
+              "available": true
+            },
+            {
+              "id": 901465,
+              "title": "바닐라시럽추가",
+              "priceValue": 500,
+              "available": true
+            }
+          ]
+        },
+        {
+          "id": 296015,
+          "title": "오트 변경",
+          "required": false,
+          "minChoices": 0,
+          "maxChoices": 1,
+          "choices": [
+            {
+              "id": 901219,
+              "title": "오트 변경",
+              "priceValue": 800,
+              "available": true
+            }
+          ]
+        }
+      ],
+      "imageLocalPath": "data/tossplace-menu/238090/images/9142726-시그니처-합정라떼-2481923ac8.webp"
+    },
+    {
+      "id": 9142742,
+      "categoryTitle": "인기 메뉴",
+      "categoryTitleEn": "BEST",
+      "title": "[시그니처] 상수라떼",
+      "titleEn": "[signature] Sangsu Latte",
+      "description": "특제 우유로 만들어 고소함이 더 진한 라떼.\n부드럽고 풍미가 깊어 편하게 마시기 좋아요",
+      "descriptionEn": "Made with our special milk for a deeper, nuttier flavor.\nSmooth, rich, and easy to enjoy.",
+      "priceValue": 6000,
+      "priceTitle": "기본",
+      "available": true,
+      "labels": [],
+      "optionSets": [
+        {
+          "id": 296010,
+          "title": "원두 선택",
+          "required": true,
+          "minChoices": 1,
+          "maxChoices": 1,
+          "choices": [
+            {
+              "id": 901204,
+              "title": "고소한 원두",
+              "priceValue": 0,
+              "available": true
+            },
+            {
+              "id": 901205,
+              "title": "산미있는 원두",
+              "priceValue": 0,
+              "available": true
+            },
+            {
+              "id": 901206,
+              "title": "디카페인 원두",
+              "priceValue": 500,
+              "available": true
+            }
+          ]
+        },
+        {
+          "id": 294937,
+          "title": "온도",
+          "required": true,
+          "minChoices": 1,
+          "maxChoices": 1,
+          "choices": [
+            {
+              "id": 897956,
+              "title": "따뜻하게",
+              "priceValue": 0,
+              "available": true
+            },
+            {
+              "id": 897957,
+              "title": "차갑게",
+              "priceValue": 0,
+              "available": true
+            }
+          ]
+        },
+        {
+          "id": 294938,
+          "title": "커피 옵션",
+          "required": false,
+          "minChoices": 0,
+          "maxChoices": 1,
+          "choices": [
+            {
+              "id": 897960,
+              "title": "샷 추가",
+              "priceValue": 500,
+              "available": true
+            },
+            {
+              "id": 901463,
+              "title": "연하게",
+              "priceValue": 0,
+              "available": true
+            },
+            {
+              "id": 901465,
+              "title": "바닐라시럽추가",
+              "priceValue": 500,
+              "available": true
+            }
+          ]
+        },
+        {
+          "id": 296015,
+          "title": "오트 변경",
+          "required": false,
+          "minChoices": 0,
+          "maxChoices": 1,
+          "choices": [
+            {
+              "id": 901219,
+              "title": "오트 변경",
+              "priceValue": 800,
+              "available": true
+            }
+          ]
+        }
+      ],
+      "imageLocalPath": "data/tossplace-menu/238090/images/9142742-시그니처-상수라떼-0065c0682f.webp"
+    },
+    {
+      "id": 6978203,
+      "categoryTitle": "커피",
+      "categoryTitleEn": "Coffee",
+      "title": "에스프레소",
+      "titleEn": "Espresso",
+      "description": "곱게 간 커피에 고압의 물을 통과시켜 추출한 진하고 농축된 커피",
+      "descriptionEn": "A rich, concentrated coffee made by forcing hot water through finely ground coffee under high pressure.",
+      "priceValue": 4500,
+      "priceTitle": "기본",
+      "available": true,
+      "labels": [],
+      "optionSets": [
+        {
+          "id": 296010,
+          "title": "원두 선택",
+          "required": true,
+          "minChoices": 1,
+          "maxChoices": 1,
+          "choices": [
+            {
+              "id": 901204,
+              "title": "고소한 원두",
+              "priceValue": 0,
+              "available": true
+            },
+            {
+              "id": 901205,
+              "title": "산미있는 원두",
+              "priceValue": 0,
+              "available": true
+            },
+            {
+              "id": 901206,
+              "title": "디카페인 원두",
+              "priceValue": 500,
+              "available": true
+            }
+          ]
+        }
+      ],
+      "imageLocalPath": "data/tossplace-menu/238090/images/6978203-에스프레소-ee9b99ba65.webp"
+    },
+    {
+      "id": 6960804,
+      "categoryTitle": "커피",
+      "categoryTitleEn": "Coffee",
+      "title": "아메리카노",
+      "titleEn": "Americano",
+      "description": "에스프레소에 물을 더해 깔끔하고 깊은 풍미의 커피",
+      "descriptionEn": "A clean, full-flavored coffee made by adding water to espresso.",
+      "priceValue": 5000,
+      "priceTitle": "기본",
+      "available": true,
+      "labels": [],
+      "optionSets": [
+        {
+          "id": 296010,
+          "title": "원두 선택",
+          "required": true,
+          "minChoices": 1,
+          "maxChoices": 1,
+          "choices": [
+            {
+              "id": 901204,
+              "title": "고소한 원두",
+              "priceValue": 0,
+              "available": true
+            },
+            {
+              "id": 901205,
+              "title": "산미있는 원두",
+              "priceValue": 0,
+              "available": true
+            },
+            {
+              "id": 901206,
+              "title": "디카페인 원두",
+              "priceValue": 500,
+              "available": true
+            }
+          ]
+        },
+        {
+          "id": 294937,
+          "title": "온도",
+          "required": true,
+          "minChoices": 1,
+          "maxChoices": 1,
+          "choices": [
+            {
+              "id": 897956,
+              "title": "따뜻하게",
+              "priceValue": 0,
+              "available": true
+            },
+            {
+              "id": 897957,
+              "title": "차갑게",
+              "priceValue": 0,
+              "available": true
+            }
+          ]
+        },
+        {
+          "id": 460585,
+          "title": "컵 사이즈",
+          "required": false,
+          "minChoices": 0,
+          "maxChoices": 1,
+          "choices": [
+            {
+              "id": 1420320,
+              "title": "레귤러",
+              "priceValue": 0,
+              "available": true
+            },
+            {
+              "id": 1420321,
+              "title": "라지(포장전용)",
+              "priceValue": 0,
+              "available": true
+            }
+          ]
+        },
+        {
+          "id": 294938,
+          "title": "커피 옵션",
+          "required": false,
+          "minChoices": 0,
+          "maxChoices": 1,
+          "choices": [
+            {
+              "id": 897960,
+              "title": "샷 추가",
+              "priceValue": 500,
+              "available": true
+            },
+            {
+              "id": 901463,
+              "title": "연하게",
+              "priceValue": 0,
+              "available": true
+            },
+            {
+              "id": 901465,
+              "title": "바닐라시럽추가",
+              "priceValue": 500,
+              "available": true
+            }
+          ]
+        },
+        {
+          "id": 296013,
+          "title": "아메리카노 우유 추가",
+          "required": false,
+          "minChoices": 0,
+          "maxChoices": 1,
+          "choices": [
+            {
+              "id": 901216,
+              "title": "우유 30ml 추가",
+              "priceValue": 500,
+              "available": true
+            }
+          ]
+        }
+      ],
+      "imageLocalPath": "data/tossplace-menu/238090/images/6960804-아메리카노-bae6d92526.webp"
+    },
+    {
+      "id": 7034709,
+      "categoryTitle": "커피",
+      "categoryTitleEn": "Coffee",
+      "title": "카푸치노",
+      "titleEn": "Capuccino",
+      "description": "진한 에스프레소에 폭신한 밀크폼을 더해 부드럽게 즐기는 정통 카푸치노",
+      "descriptionEn": "Bold espresso finished with fluffy milk foam for a smooth, traditional cappuccino",
+      "priceValue": 6000,
+      "priceTitle": "기본",
+      "available": true,
+      "labels": [],
+      "optionSets": [
+        {
+          "id": 296010,
+          "title": "원두 선택",
+          "required": true,
+          "minChoices": 1,
+          "maxChoices": 1,
+          "choices": [
+            {
+              "id": 901204,
+              "title": "고소한 원두",
+              "priceValue": 0,
+              "available": true
+            },
+            {
+              "id": 901205,
+              "title": "산미있는 원두",
+              "priceValue": 0,
+              "available": true
+            },
+            {
+              "id": 901206,
+              "title": "디카페인 원두",
+              "priceValue": 500,
+              "available": true
+            }
+          ]
+        },
+        {
+          "id": 294937,
+          "title": "온도",
+          "required": true,
+          "minChoices": 1,
+          "maxChoices": 1,
+          "choices": [
+            {
+              "id": 897956,
+              "title": "따뜻하게",
+              "priceValue": 0,
+              "available": true
+            },
+            {
+              "id": 897957,
+              "title": "차갑게",
+              "priceValue": 0,
+              "available": true
+            }
+          ]
+        },
+        {
+          "id": 294938,
+          "title": "커피 옵션",
+          "required": false,
+          "minChoices": 0,
+          "maxChoices": 1,
+          "choices": [
+            {
+              "id": 897960,
+              "title": "샷 추가",
+              "priceValue": 500,
+              "available": true
+            },
+            {
+              "id": 901463,
+              "title": "연하게",
+              "priceValue": 0,
+              "available": true
+            },
+            {
+              "id": 901465,
+              "title": "바닐라시럽추가",
+              "priceValue": 500,
+              "available": true
+            }
+          ]
+        },
+        {
+          "id": 296015,
+          "title": "오트 변경",
+          "required": false,
+          "minChoices": 0,
+          "maxChoices": 1,
+          "choices": [
+            {
+              "id": 901219,
+              "title": "오트 변경",
+              "priceValue": 800,
+              "available": true
+            }
+          ]
+        }
+      ],
+      "imageLocalPath": "data/tossplace-menu/238090/images/10999047-브런치-커피-2d26673b2f.webp"
+    },
+    {
+      "id": 7154988,
+      "categoryTitle": "커피",
+      "categoryTitleEn": "Coffee",
+      "title": "합정라떼",
+      "titleEn": "Hapjeong Latte",
+      "description": "합정의 여유와 달콤한 버터스카치 풍미를 담은 시그니처 라떼",
+      "descriptionEn": "A soft latte with deep espresso plus the sweetness of butterscotch.",
+      "priceValue": 6000,
+      "priceTitle": "기본",
+      "available": true,
+      "labels": [
+        "인기"
+      ],
+      "optionSets": [
+        {
+          "id": 296010,
+          "title": "원두 선택",
+          "required": true,
+          "minChoices": 1,
+          "maxChoices": 1,
+          "choices": [
+            {
+              "id": 901204,
+              "title": "고소한 원두",
+              "priceValue": 0,
+              "available": true
+            },
+            {
+              "id": 901205,
+              "title": "산미있는 원두",
+              "priceValue": 0,
+              "available": true
+            },
+            {
+              "id": 901206,
+              "title": "디카페인 원두",
+              "priceValue": 500,
+              "available": true
+            }
+          ]
+        },
+        {
+          "id": 294937,
+          "title": "온도",
+          "required": true,
+          "minChoices": 1,
+          "maxChoices": 1,
+          "choices": [
+            {
+              "id": 897956,
+              "title": "따뜻하게",
+              "priceValue": 0,
+              "available": true
+            },
+            {
+              "id": 897957,
+              "title": "차갑게",
+              "priceValue": 0,
+              "available": true
+            }
+          ]
+        },
+        {
+          "id": 294938,
+          "title": "커피 옵션",
+          "required": false,
+          "minChoices": 0,
+          "maxChoices": 1,
+          "choices": [
+            {
+              "id": 897960,
+              "title": "샷 추가",
+              "priceValue": 500,
+              "available": true
+            },
+            {
+              "id": 901463,
+              "title": "연하게",
+              "priceValue": 0,
+              "available": true
+            },
+            {
+              "id": 901465,
+              "title": "바닐라시럽추가",
+              "priceValue": 500,
+              "available": true
+            }
+          ]
+        },
+        {
+          "id": 296015,
+          "title": "오트 변경",
+          "required": false,
+          "minChoices": 0,
+          "maxChoices": 1,
+          "choices": [
+            {
+              "id": 901219,
+              "title": "오트 변경",
+              "priceValue": 800,
+              "available": true
+            }
+          ]
+        }
+      ],
+      "imageLocalPath": "data/tossplace-menu/238090/images/9142726-시그니처-합정라떼-2481923ac8.webp"
+    },
+    {
+      "id": 9018438,
+      "categoryTitle": "커피",
+      "categoryTitleEn": "Coffee",
+      "title": "상수라떼",
+      "titleEn": "Sangsu Latte",
+      "description": "고소하고 크리미한 풍미를 살린, 상수의 감각적인 무드를 담은 시그니처 라떼.",
+      "descriptionEn": "Made with our special milk for a deeper, nuttier flavor.\nSmooth, rich, and easy to enjoy.",
+      "priceValue": 6000,
+      "priceTitle": "기본",
+      "available": true,
+      "labels": [
+        "인기"
+      ],
+      "optionSets": [
+        {
+          "id": 296010,
+          "title": "원두 선택",
+          "required": true,
+          "minChoices": 1,
+          "maxChoices": 1,
+          "choices": [
+            {
+              "id": 901204,
+              "title": "고소한 원두",
+              "priceValue": 0,
+              "available": true
+            },
+            {
+              "id": 901205,
+              "title": "산미있는 원두",
+              "priceValue": 0,
+              "available": true
+            },
+            {
+              "id": 901206,
+              "title": "디카페인 원두",
+              "priceValue": 500,
+              "available": true
+            }
+          ]
+        },
+        {
+          "id": 294937,
+          "title": "온도",
+          "required": true,
+          "minChoices": 1,
+          "maxChoices": 1,
+          "choices": [
+            {
+              "id": 897956,
+              "title": "따뜻하게",
+              "priceValue": 0,
+              "available": true
+            },
+            {
+              "id": 897957,
+              "title": "차갑게",
+              "priceValue": 0,
+              "available": true
+            }
+          ]
+        },
+        {
+          "id": 294938,
+          "title": "커피 옵션",
+          "required": false,
+          "minChoices": 0,
+          "maxChoices": 1,
+          "choices": [
+            {
+              "id": 897960,
+              "title": "샷 추가",
+              "priceValue": 500,
+              "available": true
+            },
+            {
+              "id": 901463,
+              "title": "연하게",
+              "priceValue": 0,
+              "available": true
+            },
+            {
+              "id": 901465,
+              "title": "바닐라시럽추가",
+              "priceValue": 500,
+              "available": true
+            }
+          ]
+        },
+        {
+          "id": 296015,
+          "title": "오트 변경",
+          "required": false,
+          "minChoices": 0,
+          "maxChoices": 1,
+          "choices": [
+            {
+              "id": 901219,
+              "title": "오트 변경",
+              "priceValue": 800,
+              "available": true
+            }
+          ]
+        }
+      ],
+      "imageLocalPath": "data/tossplace-menu/238090/images/9018438-상수라떼-e7d82881d9.webp"
+    },
+    {
+      "id": 6978418,
+      "categoryTitle": "커피",
+      "categoryTitleEn": "Coffee",
+      "title": "플랫화이트",
+      "titleEn": "Flat White",
+      "description": "진한 에스프레소에 부드러운 우유를 더한 크리미한 커피",
+      "descriptionEn": "A creamy coffee made with rich espresso and smooth milk.",
+      "priceValue": 6000,
+      "priceTitle": "기본",
+      "available": true,
+      "labels": [],
+      "optionSets": [
+        {
+          "id": 296010,
+          "title": "원두 선택",
+          "required": true,
+          "minChoices": 1,
+          "maxChoices": 1,
+          "choices": [
+            {
+              "id": 901204,
+              "title": "고소한 원두",
+              "priceValue": 0,
+              "available": true
+            },
+            {
+              "id": 901205,
+              "title": "산미있는 원두",
+              "priceValue": 0,
+              "available": true
+            },
+            {
+              "id": 901206,
+              "title": "디카페인 원두",
+              "priceValue": 500,
+              "available": true
+            }
+          ]
+        },
+        {
+          "id": 294937,
+          "title": "온도",
+          "required": true,
+          "minChoices": 1,
+          "maxChoices": 1,
+          "choices": [
+            {
+              "id": 897956,
+              "title": "따뜻하게",
+              "priceValue": 0,
+              "available": true
+            },
+            {
+              "id": 897957,
+              "title": "차갑게",
+              "priceValue": 0,
+              "available": true
+            }
+          ]
+        },
+        {
+          "id": 294938,
+          "title": "커피 옵션",
+          "required": false,
+          "minChoices": 0,
+          "maxChoices": 1,
+          "choices": [
+            {
+              "id": 897960,
+              "title": "샷 추가",
+              "priceValue": 500,
+              "available": true
+            },
+            {
+              "id": 901463,
+              "title": "연하게",
+              "priceValue": 0,
+              "available": true
+            },
+            {
+              "id": 901465,
+              "title": "바닐라시럽추가",
+              "priceValue": 500,
+              "available": true
+            }
+          ]
+        },
+        {
+          "id": 296015,
+          "title": "오트 변경",
+          "required": false,
+          "minChoices": 0,
+          "maxChoices": 1,
+          "choices": [
+            {
+              "id": 901219,
+              "title": "오트 변경",
+              "priceValue": 800,
+              "available": true
+            }
+          ]
+        }
+      ],
+      "imageLocalPath": "data/tossplace-menu/238090/images/6978418-플랫화이트-cc8d0551f9.webp"
+    },
+    {
+      "id": 6978463,
+      "categoryTitle": "커피",
+      "categoryTitleEn": "Coffee",
+      "title": "바닐라라떼",
+      "titleEn": "Vanilla Latte",
+      "description": "바닐라빈 시럽이 더해진 달콤하고 부드러운 라떼",
+      "descriptionEn": "A smooth latte with vanilla syrup",
+      "priceValue": 6000,
+      "priceTitle": "기본",
+      "available": true,
+      "labels": [],
+      "optionSets": [
+        {
+          "id": 296010,
+          "title": "원두 선택",
+          "required": true,
+          "minChoices": 1,
+          "maxChoices": 1,
+          "choices": [
+            {
+              "id": 901204,
+              "title": "고소한 원두",
+              "priceValue": 0,
+              "available": true
+            },
+            {
+              "id": 901205,
+              "title": "산미있는 원두",
+              "priceValue": 0,
+              "available": true
+            },
+            {
+              "id": 901206,
+              "title": "디카페인 원두",
+              "priceValue": 500,
+              "available": true
+            }
+          ]
+        },
+        {
+          "id": 294937,
+          "title": "온도",
+          "required": true,
+          "minChoices": 1,
+          "maxChoices": 1,
+          "choices": [
+            {
+              "id": 897956,
+              "title": "따뜻하게",
+              "priceValue": 0,
+              "available": true
+            },
+            {
+              "id": 897957,
+              "title": "차갑게",
+              "priceValue": 0,
+              "available": true
+            }
+          ]
+        },
+        {
+          "id": 294938,
+          "title": "커피 옵션",
+          "required": false,
+          "minChoices": 0,
+          "maxChoices": 1,
+          "choices": [
+            {
+              "id": 897960,
+              "title": "샷 추가",
+              "priceValue": 500,
+              "available": true
+            },
+            {
+              "id": 901463,
+              "title": "연하게",
+              "priceValue": 0,
+              "available": true
+            },
+            {
+              "id": 901465,
+              "title": "바닐라시럽추가",
+              "priceValue": 500,
+              "available": true
+            }
+          ]
+        },
+        {
+          "id": 296015,
+          "title": "오트 변경",
+          "required": false,
+          "minChoices": 0,
+          "maxChoices": 1,
+          "choices": [
+            {
+              "id": 901219,
+              "title": "오트 변경",
+              "priceValue": 800,
+              "available": true
+            }
+          ]
+        }
+      ],
+      "imageLocalPath": "data/tossplace-menu/238090/images/6978463-바닐라라떼-1266f04cf4.webp"
+    },
+    {
+      "id": 6997998,
+      "categoryTitle": "커피",
+      "categoryTitleEn": "Coffee",
+      "title": "[시그니처] 땅콩크림라떼",
+      "titleEn": "[SIgnature] Peanut Cream Latte",
+      "description": "부드러운 라떼와 고소한 땅콩크림이 어우러진 매력적인 한 잔",
+      "descriptionEn": "A creamy latte topped with sweet and salty peanut cream.",
+      "priceValue": 7500,
+      "priceTitle": "기본",
+      "available": true,
+      "labels": [
+        "인기"
+      ],
+      "optionSets": [
+        {
+          "id": 296010,
+          "title": "원두 선택",
+          "required": true,
+          "minChoices": 1,
+          "maxChoices": 1,
+          "choices": [
+            {
+              "id": 901204,
+              "title": "고소한 원두",
+              "priceValue": 0,
+              "available": true
+            },
+            {
+              "id": 901205,
+              "title": "산미있는 원두",
+              "priceValue": 0,
+              "available": true
+            },
+            {
+              "id": 901206,
+              "title": "디카페인 원두",
+              "priceValue": 500,
+              "available": true
+            }
+          ]
+        },
+        {
+          "id": 294938,
+          "title": "커피 옵션",
+          "required": false,
+          "minChoices": 0,
+          "maxChoices": 1,
+          "choices": [
+            {
+              "id": 897960,
+              "title": "샷 추가",
+              "priceValue": 500,
+              "available": true
+            },
+            {
+              "id": 901463,
+              "title": "연하게",
+              "priceValue": 0,
+              "available": true
+            },
+            {
+              "id": 901465,
+              "title": "바닐라시럽추가",
+              "priceValue": 500,
+              "available": true
+            }
+          ]
+        },
+        {
+          "id": 296015,
+          "title": "오트 변경",
+          "required": false,
+          "minChoices": 0,
+          "maxChoices": 1,
+          "choices": [
+            {
+              "id": 901219,
+              "title": "오트 변경",
+              "priceValue": 800,
+              "available": true
+            }
+          ]
+        }
+      ],
+      "imageLocalPath": "data/tossplace-menu/238090/images/14267200-땅콩크림라떼-2f5de2df2e.webp"
+    },
+    {
+      "id": 7499596,
+      "categoryTitle": "커피",
+      "categoryTitleEn": "Coffee",
+      "title": "아포가토",
+      "titleEn": "Affogato",
+      "description": "에스프레소와 바닐라 아이스크림의 달콤한 조화",
+      "descriptionEn": "A sweet harmory of espresso and vanilla ice cream",
+      "priceValue": 7000,
+      "priceTitle": "기본",
+      "available": true,
+      "labels": [],
+      "optionSets": [
+        {
+          "id": 296010,
+          "title": "원두 선택",
+          "required": true,
+          "minChoices": 1,
+          "maxChoices": 1,
+          "choices": [
+            {
+              "id": 901204,
+              "title": "고소한 원두",
+              "priceValue": 0,
+              "available": true
+            },
+            {
+              "id": 901205,
+              "title": "산미있는 원두",
+              "priceValue": 0,
+              "available": true
+            },
+            {
+              "id": 901206,
+              "title": "디카페인 원두",
+              "priceValue": 500,
+              "available": true
+            }
+          ]
+        }
+      ],
+      "imageLocalPath": "data/tossplace-menu/238090/images/7499596-아포가토-bc9ffd2a33.webp"
+    },
+    {
+      "id": 11912174,
+      "categoryTitle": "커피",
+      "categoryTitleEn": "Coffee",
+      "title": "레몬 아메리카노",
+      "titleEn": "Lemon Americano",
+      "description": "첫맛은 레몬의 시트러스함이 입안을 깨우고, 끝맛은 원두 특유의 고소하고 쌉싸름한 풍미가 깔끔하게 마무리해줍니다.",
+      "descriptionEn": "The Perfect Harmony of Bold Coffee and Zesty Lemon",
+      "priceValue": 6500,
+      "priceTitle": "기본",
+      "available": true,
+      "labels": [
+        "신규"
+      ],
+      "optionSets": [
+        {
+          "id": 296010,
+          "title": "원두 선택",
+          "required": true,
+          "minChoices": 1,
+          "maxChoices": 1,
+          "choices": [
+            {
+              "id": 901204,
+              "title": "고소한 원두",
+              "priceValue": 0,
+              "available": true
+            },
+            {
+              "id": 901205,
+              "title": "산미있는 원두",
+              "priceValue": 0,
+              "available": true
+            },
+            {
+              "id": 901206,
+              "title": "디카페인 원두",
+              "priceValue": 500,
+              "available": true
+            }
+          ]
+        }
+      ],
+      "imageLocalPath": "data/tossplace-menu/238090/images/11912174-레몬-아메리카노-a66b07d481.webp"
+    },
+    {
+      "id": 12829519,
+      "categoryTitle": "커피",
+      "categoryTitleEn": "Coffee",
+      "title": "애플 아메리카노",
+      "titleEn": "Apple Americano",
+      "description": "사과의 산뜻한 단맛과 진한 아메리카노의 청량한 조화",
+      "descriptionEn": "A refreshing blend of crisp apple sweetness and bold Americano.",
+      "priceValue": 6000,
+      "priceTitle": "기본",
+      "available": true,
+      "labels": [],
+      "optionSets": [
+        {
+          "id": 296010,
+          "title": "원두 선택",
+          "required": true,
+          "minChoices": 1,
+          "maxChoices": 1,
+          "choices": [
+            {
+              "id": 901204,
+              "title": "고소한 원두",
+              "priceValue": 0,
+              "available": true
+            },
+            {
+              "id": 901205,
+              "title": "산미있는 원두",
+              "priceValue": 0,
+              "available": true
+            },
+            {
+              "id": 901206,
+              "title": "디카페인 원두",
+              "priceValue": 500,
+              "available": true
+            }
+          ]
+        },
+        {
+          "id": 294937,
+          "title": "온도",
+          "required": true,
+          "minChoices": 1,
+          "maxChoices": 1,
+          "choices": [
+            {
+              "id": 897956,
+              "title": "따뜻하게",
+              "priceValue": 0,
+              "available": true
+            },
+            {
+              "id": 897957,
+              "title": "차갑게",
+              "priceValue": 0,
+              "available": true
+            }
+          ]
+        },
+        {
+          "id": 460585,
+          "title": "컵 사이즈",
+          "required": false,
+          "minChoices": 0,
+          "maxChoices": 1,
+          "choices": [
+            {
+              "id": 1420320,
+              "title": "레귤러",
+              "priceValue": 0,
+              "available": true
+            },
+            {
+              "id": 1420321,
+              "title": "라지(포장전용)",
+              "priceValue": 0,
+              "available": true
+            }
+          ]
+        },
+        {
+          "id": 294938,
+          "title": "커피 옵션",
+          "required": false,
+          "minChoices": 0,
+          "maxChoices": 1,
+          "choices": [
+            {
+              "id": 897960,
+              "title": "샷 추가",
+              "priceValue": 500,
+              "available": true
+            },
+            {
+              "id": 901463,
+              "title": "연하게",
+              "priceValue": 0,
+              "available": true
+            },
+            {
+              "id": 901465,
+              "title": "바닐라시럽추가",
+              "priceValue": 500,
+              "available": true
+            }
+          ]
+        }
+      ],
+      "imageLocalPath": "data/tossplace-menu/238090/images/12829519-애플-아메리카노-d516b7102e.webp"
+    },
+    {
+      "id": 12936713,
+      "categoryTitle": "커피",
+      "categoryTitleEn": "Coffee",
+      "title": "[여름 시그니처] 오렌지 비앙코",
+      "titleEn": "[Sinature] Orange Bianco",
+      "description": "오렌지의 상큼함과 부드러운 크림이 어우러진 커피\n달콤쌉싸름한 매력의 시트러스 라떼",
+      "descriptionEn": "A citrus coffee with fresh orange100% and smooth cream\nSweet, slightly bitter, and refreshing latte",
+      "priceValue": 7500,
+      "priceTitle": "기본",
+      "available": true,
+      "labels": [
+        "신규"
+      ],
+      "optionSets": [
+        {
+          "id": 296010,
+          "title": "원두 선택",
+          "required": true,
+          "minChoices": 1,
+          "maxChoices": 1,
+          "choices": [
+            {
+              "id": 901204,
+              "title": "고소한 원두",
+              "priceValue": 0,
+              "available": true
+            },
+            {
+              "id": 901205,
+              "title": "산미있는 원두",
+              "priceValue": 0,
+              "available": true
+            },
+            {
+              "id": 901206,
+              "title": "디카페인 원두",
+              "priceValue": 500,
+              "available": true
+            }
+          ]
+        },
+        {
+          "id": 296015,
+          "title": "오트 변경",
+          "required": false,
+          "minChoices": 0,
+          "maxChoices": 1,
+          "choices": [
+            {
+              "id": 901219,
+              "title": "오트 변경",
+              "priceValue": 800,
+              "available": true
+            }
+          ]
+        }
+      ],
+      "imageLocalPath": "data/tossplace-menu/238090/images/14267209-오렌지-비앙코-dda910de0e.webp"
+    },
+    {
+      "id": 16508079,
+      "categoryTitle": "커피",
+      "categoryTitleEn": "Coffee",
+      "title": "카페라떼",
+      "titleEn": "CAFFÈ LATTE",
+      "description": "에스프레소와 부드러운 밀크의 완벽한 밸런스.",
+      "descriptionEn": "The perfect balance of espresso and smooth milk.",
+      "priceValue": 6000,
+      "priceTitle": "기본",
+      "available": true,
+      "labels": [],
+      "optionSets": [
+        {
+          "id": 296010,
+          "title": "원두 선택",
+          "required": true,
+          "minChoices": 1,
+          "maxChoices": 1,
+          "choices": [
+            {
+              "id": 901204,
+              "title": "고소한 원두",
+              "priceValue": 0,
+              "available": true
+            },
+            {
+              "id": 901205,
+              "title": "산미있는 원두",
+              "priceValue": 0,
+              "available": true
+            },
+            {
+              "id": 901206,
+              "title": "디카페인 원두",
+              "priceValue": 500,
+              "available": true
+            }
+          ]
+        },
+        {
+          "id": 294937,
+          "title": "온도",
+          "required": true,
+          "minChoices": 1,
+          "maxChoices": 1,
+          "choices": [
+            {
+              "id": 897956,
+              "title": "따뜻하게",
+              "priceValue": 0,
+              "available": true
+            },
+            {
+              "id": 897957,
+              "title": "차갑게",
+              "priceValue": 0,
+              "available": true
+            }
+          ]
+        },
+        {
+          "id": 294938,
+          "title": "커피 옵션",
+          "required": false,
+          "minChoices": 0,
+          "maxChoices": 1,
+          "choices": [
+            {
+              "id": 897960,
+              "title": "샷 추가",
+              "priceValue": 500,
+              "available": true
+            },
+            {
+              "id": 901463,
+              "title": "연하게",
+              "priceValue": 0,
+              "available": true
+            },
+            {
+              "id": 901465,
+              "title": "바닐라시럽추가",
+              "priceValue": 500,
+              "available": true
+            }
+          ]
+        },
+        {
+          "id": 296015,
+          "title": "오트 변경",
+          "required": false,
+          "minChoices": 0,
+          "maxChoices": 1,
+          "choices": [
+            {
+              "id": 901219,
+              "title": "오트 변경",
+              "priceValue": 800,
+              "available": true
+            }
+          ]
+        },
+        {
+          "id": 296097,
+          "title": "샷 추가",
+          "required": false,
+          "minChoices": 0,
+          "maxChoices": 1,
+          "choices": [
+            {
+              "id": 901470,
+              "title": "샷추가(고소)",
+              "priceValue": 500,
+              "available": true
+            },
+            {
+              "id": 901471,
+              "title": "샷추가(산미)",
+              "priceValue": 500,
+              "available": true
+            },
+            {
+              "id": 901472,
+              "title": "디카페인 샷 추가",
+              "priceValue": 1000,
+              "available": true
+            }
+          ]
+        }
+      ],
+      "imageLocalPath": "data/tossplace-menu/238090/images/16508079-카페라떼-2e771f0a3b.webp"
+    },
+    {
+      "id": 6979310,
+      "categoryTitle": "클루미 감정포션",
+      "categoryTitleEn": "CLUMI Emotion Potion",
+      "title": "[클루미] 파인애플에이드",
+      "titleEn": "[Clumi] Pineapple Ade",
+      "description": "파인애플 과육이 씹히는\n기분 좋은 달콤상큼 파인애플 에이드",
+      "descriptionEn": "A refreshing pineapple ade\nwith juicy pineapple pieces.",
+      "priceValue": 6000,
+      "priceTitle": "기본",
+      "available": true,
+      "labels": [
+        "인기"
+      ],
+      "optionSets": [],
+      "imageLocalPath": "data/tossplace-menu/238090/images/6979310-클루미-파인애플에이드-9fd7b723cb.webp"
+    },
+    {
+      "id": 6979343,
+      "categoryTitle": "클루미 감정포션",
+      "categoryTitleEn": "CLUMI Emotion Potion",
+      "title": "[드로피] 블루레몬에이드",
+      "titleEn": "[Droppy] Blue Lemon Ade",
+      "description": "상큼한 레몬에 파란빛을 더해\n기분 전환에 어울리는 블루레몬에이드 💙🍋",
+      "descriptionEn": "A refreshing blue lemonade,\nblending bright lemon flavor with a hint of blue.",
+      "priceValue": 6000,
+      "priceTitle": "기본",
+      "available": true,
+      "labels": [],
+      "optionSets": [],
+      "imageLocalPath": "data/tossplace-menu/238090/images/6979343-드로피-블루레몬에이드-c1854203da.webp"
+    },
+    {
+      "id": 6986372,
+      "categoryTitle": "클루미 감정포션",
+      "categoryTitleEn": "CLUMI Emotion Potion",
+      "title": "[윈디] 솔티드 모카",
+      "titleEn": "[Windy] Salted Mocha",
+      "description": "짙은 초콜릿과 커피의 풍미에\n은은한 소금이 어우러진 달콤짭짤한 솔티드 모카 ☕🍫",
+      "descriptionEn": "A salted mocha with rich chocolate and coffee,\nfinished with a subtle hint of salt.",
+      "priceValue": 6500,
+      "priceTitle": "기본",
+      "available": true,
+      "labels": [
+        "인기"
+      ],
+      "optionSets": [
+        {
+          "id": 296010,
+          "title": "원두 선택",
+          "required": true,
+          "minChoices": 1,
+          "maxChoices": 1,
+          "choices": [
+            {
+              "id": 901204,
+              "title": "고소한 원두",
+              "priceValue": 0,
+              "available": true
+            },
+            {
+              "id": 901205,
+              "title": "산미있는 원두",
+              "priceValue": 0,
+              "available": true
+            },
+            {
+              "id": 901206,
+              "title": "디카페인 원두",
+              "priceValue": 500,
+              "available": true
+            }
+          ]
+        },
+        {
+          "id": 294937,
+          "title": "온도",
+          "required": true,
+          "minChoices": 1,
+          "maxChoices": 1,
+          "choices": [
+            {
+              "id": 897956,
+              "title": "따뜻하게",
+              "priceValue": 0,
+              "available": true
+            },
+            {
+              "id": 897957,
+              "title": "차갑게",
+              "priceValue": 0,
+              "available": true
+            }
+          ]
+        },
+        {
+          "id": 296015,
+          "title": "오트 변경",
+          "required": false,
+          "minChoices": 0,
+          "maxChoices": 1,
+          "choices": [
+            {
+              "id": 901219,
+              "title": "오트 변경",
+              "priceValue": 800,
+              "available": true
+            }
+          ]
+        }
+      ],
+      "imageLocalPath": "data/tossplace-menu/238090/images/6986372-윈디-솔티드-모카-59b61cc678.webp"
+    },
+    {
+      "id": 6986480,
+      "categoryTitle": "클루미 감정포션",
+      "categoryTitleEn": "CLUMI Emotion Potion",
+      "title": "[스텔라] 딸기주스",
+      "titleEn": "[Stella] Strawberry Juice",
+      "description": "잘 익은 생딸기를 통째로 갈아\n상큼함과 달콤함이 살아있는 한 잔",
+      "descriptionEn": "A refreshing strawberry juice\nmade by blending fresh, whole strawberries.",
+      "priceValue": 7500,
+      "priceTitle": "기본",
+      "available": true,
+      "labels": [],
+      "optionSets": [],
+      "imageLocalPath": "data/tossplace-menu/238090/images/6986480-스텔라-딸기주스-da1e21ee8c.webp"
+    },
+    {
+      "id": 6986481,
+      "categoryTitle": "클루미 감정포션",
+      "categoryTitleEn": "CLUMI Emotion Potion",
+      "title": "[미스트] 블루라떼",
+      "titleEn": "[Mist] Blue Latte",
+      "description": "푹신한 구름 위에 올라간 듯,\n부드러운 화이트 초콜릿에 하늘의 빛을 담은 음료",
+      "descriptionEn": "A sip of fluffy clouds,\nsmooth white chocolate infused with the light of the sky.",
+      "priceValue": 7500,
+      "priceTitle": "기본",
+      "available": true,
+      "labels": [],
+      "optionSets": [
+        {
+          "id": 296015,
+          "title": "오트 변경",
+          "required": false,
+          "minChoices": 0,
+          "maxChoices": 1,
+          "choices": [
+            {
+              "id": 901219,
+              "title": "오트 변경",
+              "priceValue": 800,
+              "available": true
+            }
+          ]
+        }
+      ],
+      "imageLocalPath": "data/tossplace-menu/238090/images/6986481-미스트-블루라떼-c272a2e69b.webp"
+    },
+    {
+      "id": 6986486,
+      "categoryTitle": "클루미 감정포션",
+      "categoryTitleEn": "CLUMI Emotion Potion",
+      "title": "[루티] 제주말차라떼",
+      "titleEn": "[Rooty] Matcha  Latte",
+      "description": "제주에서 온 말차의 깊은 쌉싸름함과\n우유의 부드러움이 조화로운 한 잔",
+      "descriptionEn": "A classic Jeju matcha latte,\nblending the deep, pleasantly bitter notes of Jeju-grown matcha with smooth milk.",
+      "priceValue": 6500,
+      "priceTitle": "기본",
+      "available": true,
+      "labels": [
+        "인기"
+      ],
+      "optionSets": [
+        {
+          "id": 294937,
+          "title": "온도",
+          "required": true,
+          "minChoices": 1,
+          "maxChoices": 1,
+          "choices": [
+            {
+              "id": 897956,
+              "title": "따뜻하게",
+              "priceValue": 0,
+              "available": true
+            },
+            {
+              "id": 897957,
+              "title": "차갑게",
+              "priceValue": 0,
+              "available": true
+            }
+          ]
+        },
+        {
+          "id": 296015,
+          "title": "오트 변경",
+          "required": false,
+          "minChoices": 0,
+          "maxChoices": 1,
+          "choices": [
+            {
+              "id": 901219,
+              "title": "오트 변경",
+              "priceValue": 800,
+              "available": true
+            }
+          ]
+        }
+      ],
+      "imageLocalPath": "data/tossplace-menu/238090/images/6986486-루티-제주말차라떼-54751f3c1a.webp"
+    },
+    {
+      "id": 6986485,
+      "categoryTitle": "클루미 감정포션",
+      "categoryTitleEn": "CLUMI Emotion Potion",
+      "title": "[플래미] 노을에이드",
+      "titleEn": "[Flamy] Sunset Tea Ade",
+      "description": "저녁 노을을 닮은 빛깔에\n레몬 향이 은은하게 퍼지는 새콤달콤 티 에이드",
+      "descriptionEn": "A sunset-hued tea ade,\nbright, lemony, and refreshingly sweet.",
+      "priceValue": 6500,
+      "priceTitle": "기본",
+      "available": true,
+      "labels": [],
+      "optionSets": [],
+      "imageLocalPath": "data/tossplace-menu/238090/images/6986485-플래미-노을에이드-524d256888.webp"
+    },
+    {
+      "id": 7628072,
+      "categoryTitle": "논커피",
+      "categoryTitleEn": "Non Coffee",
+      "title": "우리제주말차",
+      "titleEn": "Jeju Matcha Latte",
+      "description": "제주산 우리 말차와 부드러운 우유가 어우러진 말차라떼 🌿🥛\n진한 풍미와 은은한 쌉싸름함이 조화로운,깊고 부드러운 한 잔입니다.",
+      "descriptionEn": "Smooth milk blended with finely ground Jeju matcha,\noffering a rich, balanced flavor with subtle natural bitterness.",
+      "priceValue": 6500,
+      "priceTitle": "기본",
+      "available": true,
+      "labels": [
+        "인기"
+      ],
+      "optionSets": [
+        {
+          "id": 294937,
+          "title": "온도",
+          "required": true,
+          "minChoices": 1,
+          "maxChoices": 1,
+          "choices": [
+            {
+              "id": 897956,
+              "title": "따뜻하게",
+              "priceValue": 0,
+              "available": true
+            },
+            {
+              "id": 897957,
+              "title": "차갑게",
+              "priceValue": 0,
+              "available": true
+            }
+          ]
+        },
+        {
+          "id": 296015,
+          "title": "오트 변경",
+          "required": false,
+          "minChoices": 0,
+          "maxChoices": 1,
+          "choices": [
+            {
+              "id": 901219,
+              "title": "오트 변경",
+              "priceValue": 800,
+              "available": true
+            }
+          ]
+        }
+      ],
+      "imageLocalPath": "data/tossplace-menu/238090/images/7628072-우리제주말차-801558d68f.webp"
+    },
+    {
+      "id": 11912204,
+      "categoryTitle": "논커피",
+      "categoryTitleEn": "Non Coffee",
+      "title": "호지차 라떼",
+      "titleEn": "Hojicha Latte",
+      "description": "녹차 찻잎을 고온에서 볶아내 떫은맛은 비우고 구수함은 가득 채웠습니다. 입안 가득 퍼지는 특유의 향긋한 볶음 향과 우유의 담백함이 만나 마치 인절미처럼 고소한 풍미를 선사합니다.",
+      "descriptionEn": "\"The Cozy Charm of Roasted Green Tea\"Experience the warm, earthy embrace of our Hojicha Latte. Unlike traditional green tea, Hojicha is made by roasting green tea leaves at high temperatures, turning them a deep chocolate brown and creating a unique toasty aroma.",
+      "priceValue": 6500,
+      "priceTitle": "기본",
+      "available": true,
+      "labels": [
+        "인기"
+      ],
+      "optionSets": [
+        {
+          "id": 294937,
+          "title": "온도",
+          "required": true,
+          "minChoices": 1,
+          "maxChoices": 1,
+          "choices": [
+            {
+              "id": 897956,
+              "title": "따뜻하게",
+              "priceValue": 0,
+              "available": true
+            },
+            {
+              "id": 897957,
+              "title": "차갑게",
+              "priceValue": 0,
+              "available": true
+            }
+          ]
+        },
+        {
+          "id": 296015,
+          "title": "오트 변경",
+          "required": false,
+          "minChoices": 0,
+          "maxChoices": 1,
+          "choices": [
+            {
+              "id": 901219,
+              "title": "오트 변경",
+              "priceValue": 800,
+              "available": true
+            }
+          ]
+        }
+      ],
+      "imageLocalPath": "data/tossplace-menu/238090/images/11912204-호지차-라떼-b7b9b7705d.webp"
+    },
+    {
+      "id": 6978834,
+      "categoryTitle": "논커피",
+      "categoryTitleEn": "Non Coffee",
+      "title": "딸기라떼",
+      "titleEn": "Strawberry Latte",
+      "description": "신선한 딸기를 듬뿍 담아\n달콤하고 상큼한 맛이 입 안 가득 퍼지는 딸기라떼 🍓🥛\n한 모금이면 기분까지 즐거워지는 맛의 완성!",
+      "descriptionEn": "A glass of Strawberry Latte bursting with fresh strawberries,\noffering a perfectly sweet and tangy flavor that delights in every sip.",
+      "priceValue": 6500,
+      "priceTitle": "기본",
+      "available": true,
+      "labels": [],
+      "optionSets": [
+        {
+          "id": 296015,
+          "title": "오트 변경",
+          "required": false,
+          "minChoices": 0,
+          "maxChoices": 1,
+          "choices": [
+            {
+              "id": 901219,
+              "title": "오트 변경",
+              "priceValue": 800,
+              "available": true
+            }
+          ]
+        }
+      ],
+      "imageLocalPath": "data/tossplace-menu/238090/images/6978834-딸기라떼-4a2899beb7.webp"
+    },
+    {
+      "id": 6978817,
+      "categoryTitle": "논커피",
+      "categoryTitleEn": "Non Coffee",
+      "title": "딥초코라떼",
+      "titleEn": "Deep Choco Latte",
+      "description": "진한초콜릿과 부드러운 우유가 만나\n깊고 풍부한 맛을 선사하는 딥 초코 라떼 ☕🍫\n한 모금에 진한 초콜릿의 만족감을 느낄 수 있어요.",
+      "descriptionEn": "Rich chocolate blended with smooth milk,\ndelivering a deep, indulgent flavor in every sip.",
+      "priceValue": 6500,
+      "priceTitle": "기본",
+      "available": true,
+      "labels": [],
+      "optionSets": [
+        {
+          "id": 294937,
+          "title": "온도",
+          "required": true,
+          "minChoices": 1,
+          "maxChoices": 1,
+          "choices": [
+            {
+              "id": 897956,
+              "title": "따뜻하게",
+              "priceValue": 0,
+              "available": true
+            },
+            {
+              "id": 897957,
+              "title": "차갑게",
+              "priceValue": 0,
+              "available": true
+            }
+          ]
+        },
+        {
+          "id": 296015,
+          "title": "오트 변경",
+          "required": false,
+          "minChoices": 0,
+          "maxChoices": 1,
+          "choices": [
+            {
+              "id": 901219,
+              "title": "오트 변경",
+              "priceValue": 800,
+              "available": true
+            }
+          ]
+        }
+      ],
+      "imageLocalPath": ""
+    },
+    {
+      "id": 6978874,
+      "categoryTitle": "논커피",
+      "categoryTitleEn": "Non Coffee",
+      "title": "우유",
+      "titleEn": "Milk",
+      "description": "디저트와 우유가 먹고 싶은 당신에게 바치는 신선한 우유",
+      "descriptionEn": "",
+      "priceValue": 4100,
+      "priceTitle": "기본",
+      "available": true,
+      "labels": [],
+      "optionSets": [
+        {
+          "id": 294937,
+          "title": "온도",
+          "required": true,
+          "minChoices": 1,
+          "maxChoices": 1,
+          "choices": [
+            {
+              "id": 897956,
+              "title": "따뜻하게",
+              "priceValue": 0,
+              "available": true
+            },
+            {
+              "id": 897957,
+              "title": "차갑게",
+              "priceValue": 0,
+              "available": true
+            }
+          ]
+        }
+      ],
+      "imageLocalPath": "data/tossplace-menu/238090/images/6978874-우유-b842270d61.webp"
+    },
+    {
+      "id": 13137641,
+      "categoryTitle": "벨기에와플",
+      "categoryTitleEn": "Belgium Waffle",
+      "title": "[피스타치오]초코 반하나와플",
+      "titleEn": "[Pistachio] Banana Waffle",
+      "description": "\"한 입 먹으면 정말 반할지도 몰라요!\"\n앵커 버터로 만든 겉바속쫀 리에주 와플에 바나나, 생크림, 초코소스, 피스타치오를 올린 클루미 시그니처 와플.",
+      "descriptionEn": "A Liège waffle made with Anchor butter, topped with banana, whipped cream, chocolate sauce, and pistachio. Crispy, chewy, and dangerously easy to fall for.",
+      "priceValue": 12000,
+      "priceTitle": "기본",
+      "available": true,
+      "labels": [
+        "인기"
+      ],
+      "optionSets": [
+        {
+          "id": 366680,
+          "title": "와플 컷팅",
+          "required": true,
+          "minChoices": 1,
+          "maxChoices": 1,
+          "choices": [
+            {
+              "id": 1135717,
+              "title": "그대로 주세요",
+              "priceValue": 0,
+              "available": true
+            },
+            {
+              "id": 1135716,
+              "title": "먹기좋게 잘라주세요",
+              "priceValue": 0,
+              "available": true
+            }
+          ]
+        },
+        {
+          "id": 473272,
+          "title": "와플 아이스크림 추가",
+          "required": false,
+          "minChoices": 0,
+          "maxChoices": 2,
+          "choices": [
+            {
+              "id": 1462666,
+              "title": "바닐라",
+              "priceValue": 2500,
+              "available": true
+            },
+            {
+              "id": 1462667,
+              "title": "초코",
+              "priceValue": 2500,
+              "available": true
+            }
+          ]
+        }
+      ],
+      "imageLocalPath": "data/tossplace-menu/238090/images/10683603-피스타치오-초코-반하나-와플-87f8a2942f.webp"
+    },
+    {
+      "id": 16230479,
+      "categoryTitle": "벨기에와플",
+      "categoryTitleEn": "Belgium Waffle",
+      "title": "[시즌한정]무화과&크림치즈 와플",
+      "titleEn": "FIG&Cream Cheese Waffle",
+      "description": "부드러운 크림치즈와 생무화과의 완벽한 앙상블~*",
+      "descriptionEn": "The perfect ensemble of rich cream cheese and fresh figs.",
+      "priceValue": 15000,
+      "priceTitle": "기본",
+      "available": true,
+      "labels": [
+        "인기"
+      ],
+      "optionSets": [
+        {
+          "id": 366680,
+          "title": "와플 컷팅",
+          "required": true,
+          "minChoices": 1,
+          "maxChoices": 1,
+          "choices": [
+            {
+              "id": 1135717,
+              "title": "그대로 주세요",
+              "priceValue": 0,
+              "available": true
+            },
+            {
+              "id": 1135716,
+              "title": "먹기좋게 잘라주세요",
+              "priceValue": 0,
+              "available": true
+            }
+          ]
+        }
+      ],
+      "imageLocalPath": "data/tossplace-menu/238090/images/16230479-시즌한정-무화과-크림치즈-와플-45e9e0e7c1.webp"
+    },
+    {
+      "id": 7735791,
+      "categoryTitle": "벨기에와플",
+      "categoryTitleEn": "Belgium Waffle",
+      "title": "클래식 와플",
+      "titleEn": "Classic Belgium waffle",
+      "description": "\"입안에서 톡톡 터지는 달콤한 보석, 펄슈가\"\n벨기에산 천연 펄슈가가 반죽 사이사이에 콕콕 박혀 있어, 씹을 때마다 기분 좋은 달콤함이 느껴집니다. 높은 온도에서 캐러멜라이즈된 펄슈가의 바삭함과 앵커 버터의 풍미가 만난 정통 벨기에 리에쥬 와플을 경험해 보세요.",
+      "descriptionEn": "\"Sweet 'jewelry' tucked inside every bite!\"\nFeaturing authentic Belgian pearl sugar that crunches and melts perfectly within the dough. Experience the natural sweetness and unique texture of a true classic, crafted with premium Anchor butter for a rich, golden finish.",
+      "priceValue": 6000,
+      "priceTitle": "기본",
+      "available": true,
+      "labels": [],
+      "optionSets": [
+        {
+          "id": 366680,
+          "title": "와플 컷팅",
+          "required": true,
+          "minChoices": 1,
+          "maxChoices": 1,
+          "choices": [
+            {
+              "id": 1135717,
+              "title": "그대로 주세요",
+              "priceValue": 0,
+              "available": true
+            },
+            {
+              "id": 1135716,
+              "title": "먹기좋게 잘라주세요",
+              "priceValue": 0,
+              "available": true
+            }
+          ]
+        },
+        {
+          "id": 316934,
+          "title": "와플 옵션",
+          "required": false,
+          "minChoices": 0,
+          "maxChoices": 5,
+          "choices": [
+            {
+              "id": 971773,
+              "title": "시나몬 추가",
+              "priceValue": 500,
+              "available": true
+            },
+            {
+              "id": 971774,
+              "title": "크림치즈 추가",
+              "priceValue": 1000,
+              "available": true
+            },
+            {
+              "id": 971775,
+              "title": "골든애플잼 추가",
+              "priceValue": 1000,
+              "available": true
+            },
+            {
+              "id": 1129310,
+              "title": "블루베리잼 추가",
+              "priceValue": 1000,
+              "available": true
+            },
+            {
+              "id": 1129311,
+              "title": "딸기잼 추가",
+              "priceValue": 1000,
+              "available": true
+            }
+          ]
+        },
+        {
+          "id": 329634,
+          "title": "휘핑크림 추가",
+          "required": false,
+          "minChoices": 0,
+          "maxChoices": 1,
+          "choices": [
+            {
+              "id": 1014239,
+              "title": "휘핑크림 추가",
+              "priceValue": 1000,
+              "available": true
+            }
+          ]
+        },
+        {
+          "id": 473272,
+          "title": "와플 아이스크림 추가",
+          "required": false,
+          "minChoices": 0,
+          "maxChoices": 2,
+          "choices": [
+            {
+              "id": 1462666,
+              "title": "바닐라",
+              "priceValue": 2500,
+              "available": true
+            },
+            {
+              "id": 1462667,
+              "title": "초코",
+              "priceValue": 2500,
+              "available": true
+            }
+          ]
+        }
+      ],
+      "imageLocalPath": "data/tossplace-menu/238090/images/7735791-클래식-와플-e996468283.webp"
+    },
+    {
+      "id": 7735937,
+      "categoryTitle": "벨기에와플",
+      "categoryTitleEn": "Belgium Waffle",
+      "title": "[블루베리&크림치즈] 와플",
+      "titleEn": "Blueberry Cream cheese Waffle",
+      "description": "\"눈과 입이 즐거워지는 상큼하고 진한 유혹\"\n세계 10대 슈퍼푸드인 블루베리와 부드럽고 진한 크림치즈가 만났습니다. 앵커 버터로 구워낸 따뜻한 와플 위에 펼쳐지는 상큼 고소한 하모니를 즐겨보세요. 건강한 달콤함이 필요할 때 최고의 선택입니다.",
+      "descriptionEn": "\"A perfect harmony of fresh antioxidants and rich creaminess.\"\nElevate your snack time with our premium Belgian waffle topped with fresh blueberries and velvety cream cheese. Experience a delightful burst of flavor that’s both healthy and indulgent.",
+      "priceValue": 10000,
+      "priceTitle": "기본",
+      "available": true,
+      "labels": [
+        "인기"
+      ],
+      "optionSets": [
+        {
+          "id": 366680,
+          "title": "와플 컷팅",
+          "required": true,
+          "minChoices": 1,
+          "maxChoices": 1,
+          "choices": [
+            {
+              "id": 1135717,
+              "title": "그대로 주세요",
+              "priceValue": 0,
+              "available": true
+            },
+            {
+              "id": 1135716,
+              "title": "먹기좋게 잘라주세요",
+              "priceValue": 0,
+              "available": true
+            }
+          ]
+        },
+        {
+          "id": 316934,
+          "title": "와플 옵션",
+          "required": false,
+          "minChoices": 0,
+          "maxChoices": 5,
+          "choices": [
+            {
+              "id": 971773,
+              "title": "시나몬 추가",
+              "priceValue": 500,
+              "available": true
+            },
+            {
+              "id": 971774,
+              "title": "크림치즈 추가",
+              "priceValue": 1000,
+              "available": true
+            },
+            {
+              "id": 971775,
+              "title": "골든애플잼 추가",
+              "priceValue": 1000,
+              "available": true
+            },
+            {
+              "id": 1129310,
+              "title": "블루베리잼 추가",
+              "priceValue": 1000,
+              "available": true
+            },
+            {
+              "id": 1129311,
+              "title": "딸기잼 추가",
+              "priceValue": 1000,
+              "available": true
+            }
+          ]
+        },
+        {
+          "id": 473272,
+          "title": "와플 아이스크림 추가",
+          "required": false,
+          "minChoices": 0,
+          "maxChoices": 2,
+          "choices": [
+            {
+              "id": 1462666,
+              "title": "바닐라",
+              "priceValue": 2500,
+              "available": true
+            },
+            {
+              "id": 1462667,
+              "title": "초코",
+              "priceValue": 2500,
+              "available": true
+            }
+          ]
+        }
+      ],
+      "imageLocalPath": "data/tossplace-menu/238090/images/7735937-블루베리-크림치즈-와플-32131784ad.webp"
+    },
+    {
+      "id": 7735910,
+      "categoryTitle": "벨기에와플",
+      "categoryTitleEn": "Belgium Waffle",
+      "title": "[저당]메이플&시나몬 와플",
+      "titleEn": "Low Sugar Maple&Cinnamon Waffle",
+      "description": "\"달콤함은 그대로, 걱정은 비우세요!\"\n다이어트 중에도 포기할 수 없는 달콤한 행복. 풍미는 깊지만 칼로리 부담은 낮춘 저당 메이플 시럽을 사용했습니다. 앵커 버터의 고소함과 건강한 달콤함이 만나 탄생한 '가벼운 힐링'을 경험해 보세요.",
+      "descriptionEn": "\"Full on flavor, low on sugar!\"\nEnjoy the rich, classic taste of maple syrup without the sugar worry. Perfectly paired with our premium Anchor butter waffle, this treat is designed for those who care about both flavor and fitness. Indulge yourself, guilt-free!",
+      "priceValue": 8000,
+      "priceTitle": "기본",
+      "available": true,
+      "labels": [],
+      "optionSets": [
+        {
+          "id": 366680,
+          "title": "와플 컷팅",
+          "required": true,
+          "minChoices": 1,
+          "maxChoices": 1,
+          "choices": [
+            {
+              "id": 1135717,
+              "title": "그대로 주세요",
+              "priceValue": 0,
+              "available": true
+            },
+            {
+              "id": 1135716,
+              "title": "먹기좋게 잘라주세요",
+              "priceValue": 0,
+              "available": true
+            }
+          ]
+        },
+        {
+          "id": 316934,
+          "title": "와플 옵션",
+          "required": false,
+          "minChoices": 0,
+          "maxChoices": 5,
+          "choices": [
+            {
+              "id": 971773,
+              "title": "시나몬 추가",
+              "priceValue": 500,
+              "available": true
+            },
+            {
+              "id": 971774,
+              "title": "크림치즈 추가",
+              "priceValue": 1000,
+              "available": true
+            },
+            {
+              "id": 971775,
+              "title": "골든애플잼 추가",
+              "priceValue": 1000,
+              "available": true
+            },
+            {
+              "id": 1129310,
+              "title": "블루베리잼 추가",
+              "priceValue": 1000,
+              "available": true
+            },
+            {
+              "id": 1129311,
+              "title": "딸기잼 추가",
+              "priceValue": 1000,
+              "available": true
+            }
+          ]
+        },
+        {
+          "id": 335055,
+          "title": "크림치즈추가",
+          "required": false,
+          "minChoices": 0,
+          "maxChoices": 1,
+          "choices": [
+            {
+              "id": 1032817,
+              "title": "크림치즈추가",
+              "priceValue": 1000,
+              "available": true
+            }
+          ]
+        },
+        {
+          "id": 473272,
+          "title": "와플 아이스크림 추가",
+          "required": false,
+          "minChoices": 0,
+          "maxChoices": 2,
+          "choices": [
+            {
+              "id": 1462666,
+              "title": "바닐라",
+              "priceValue": 2500,
+              "available": true
+            },
+            {
+              "id": 1462667,
+              "title": "초코",
+              "priceValue": 2500,
+              "available": true
+            }
+          ]
+        }
+      ],
+      "imageLocalPath": "data/tossplace-menu/238090/images/7735910-저당-메이플-시나몬-와플-1795427119.webp"
+    },
+    {
+      "id": 7736391,
+      "categoryTitle": "벨기에와플",
+      "categoryTitleEn": "Belgium Waffle",
+      "title": "애플잼  와플",
+      "titleEn": "Apple jam waffle",
+      "description": "\"사과 알맹이가 톡톡! 자연이 준 기분 좋은 달콤함\"\n엄선한 국산 사과로 만든 수제 느낌의 애플잼을 듬뿍 올렸습니다. 아삭하게 씹히는 사과 과육과 앵커 버터 향 가득한 따뜻한 와플의 조화를 만나보세요. 인위적이지 않은 깔끔한 달콤함이 매력적이에요.",
+      "descriptionEn": "\"Taste the natural sweetness of real apple chunks!\"\nTopped with premium jam made from locally grown Korean apples, this waffle offers a delightful crunch in every bite. Enjoy the perfect refreshing pairing of sweet, tangy apple bits and our warm, buttery Belgian waffle.",
+      "priceValue": 9000,
+      "priceTitle": "기본",
+      "available": true,
+      "labels": [
+        "인기"
+      ],
+      "optionSets": [
+        {
+          "id": 366680,
+          "title": "와플 컷팅",
+          "required": true,
+          "minChoices": 1,
+          "maxChoices": 1,
+          "choices": [
+            {
+              "id": 1135717,
+              "title": "그대로 주세요",
+              "priceValue": 0,
+              "available": true
+            },
+            {
+              "id": 1135716,
+              "title": "먹기좋게 잘라주세요",
+              "priceValue": 0,
+              "available": true
+            }
+          ]
+        },
+        {
+          "id": 316934,
+          "title": "와플 옵션",
+          "required": false,
+          "minChoices": 0,
+          "maxChoices": 5,
+          "choices": [
+            {
+              "id": 971773,
+              "title": "시나몬 추가",
+              "priceValue": 500,
+              "available": true
+            },
+            {
+              "id": 971774,
+              "title": "크림치즈 추가",
+              "priceValue": 1000,
+              "available": true
+            },
+            {
+              "id": 971775,
+              "title": "골든애플잼 추가",
+              "priceValue": 1000,
+              "available": true
+            },
+            {
+              "id": 1129310,
+              "title": "블루베리잼 추가",
+              "priceValue": 1000,
+              "available": true
+            },
+            {
+              "id": 1129311,
+              "title": "딸기잼 추가",
+              "priceValue": 1000,
+              "available": true
+            }
+          ]
+        },
+        {
+          "id": 473272,
+          "title": "와플 아이스크림 추가",
+          "required": false,
+          "minChoices": 0,
+          "maxChoices": 2,
+          "choices": [
+            {
+              "id": 1462666,
+              "title": "바닐라",
+              "priceValue": 2500,
+              "available": true
+            },
+            {
+              "id": 1462667,
+              "title": "초코",
+              "priceValue": 2500,
+              "available": true
+            }
+          ]
+        }
+      ],
+      "imageLocalPath": "data/tossplace-menu/238090/images/7736391-애플잼-와플-8d65b9a46f.webp"
+    },
+    {
+      "id": 7853022,
+      "categoryTitle": "벨기에와플",
+      "categoryTitleEn": "Belgium Waffle",
+      "title": "클래식 와플&커피 세트",
+      "titleEn": "Classic Waffle Coffee Set",
+      "description": "\"가장 완벽하고 달콤한 휴식의 조합\"\n깊은 풍미의 앵커 버터로 구워낸 클래식 와플과 향긋한 커피를 세트로 만나보세요. 입안 가득 퍼지는 기분 좋은 달콤함이 당신의 하루를 더욱 특별하게 만들어 줍니다.",
+      "descriptionEn": "\"The ultimate duo for your sweet escape.\"\nTreat yourself to our signature handmade waffle paired with a freshly brewed coffee. Experience the perfect balance of rich, buttery sweetness and a smooth coffee finish.",
+      "priceValue": 10500,
+      "priceTitle": "기본",
+      "available": true,
+      "labels": [],
+      "optionSets": [
+        {
+          "id": 296010,
+          "title": "원두 선택",
+          "required": true,
+          "minChoices": 1,
+          "maxChoices": 1,
+          "choices": [
+            {
+              "id": 901204,
+              "title": "고소한 원두",
+              "priceValue": 0,
+              "available": true
+            },
+            {
+              "id": 901205,
+              "title": "산미있는 원두",
+              "priceValue": 0,
+              "available": true
+            },
+            {
+              "id": 901206,
+              "title": "디카페인 원두",
+              "priceValue": 500,
+              "available": true
+            }
+          ]
+        },
+        {
+          "id": 294937,
+          "title": "온도",
+          "required": true,
+          "minChoices": 1,
+          "maxChoices": 1,
+          "choices": [
+            {
+              "id": 897956,
+              "title": "따뜻하게",
+              "priceValue": 0,
+              "available": true
+            },
+            {
+              "id": 897957,
+              "title": "차갑게",
+              "priceValue": 0,
+              "available": true
+            }
+          ]
+        },
+        {
+          "id": 294938,
+          "title": "커피 옵션",
+          "required": false,
+          "minChoices": 0,
+          "maxChoices": 1,
+          "choices": [
+            {
+              "id": 897960,
+              "title": "샷 추가",
+              "priceValue": 500,
+              "available": true
+            },
+            {
+              "id": 901463,
+              "title": "연하게",
+              "priceValue": 0,
+              "available": true
+            },
+            {
+              "id": 901465,
+              "title": "바닐라시럽추가",
+              "priceValue": 500,
+              "available": true
+            }
+          ]
+        },
+        {
+          "id": 366680,
+          "title": "와플 컷팅",
+          "required": true,
+          "minChoices": 1,
+          "maxChoices": 1,
+          "choices": [
+            {
+              "id": 1135717,
+              "title": "그대로 주세요",
+              "priceValue": 0,
+              "available": true
+            },
+            {
+              "id": 1135716,
+              "title": "먹기좋게 잘라주세요",
+              "priceValue": 0,
+              "available": true
+            }
+          ]
+        },
+        {
+          "id": 302280,
+          "title": "라떼 변경",
+          "required": false,
+          "minChoices": 0,
+          "maxChoices": 1,
+          "choices": [
+            {
+              "id": 923610,
+              "title": "카페라떼(핫)",
+              "priceValue": 1000,
+              "available": true
+            },
+            {
+              "id": 923611,
+              "title": "카페라떼(아이스)",
+              "priceValue": 1000,
+              "available": true
+            }
+          ]
+        },
+        {
+          "id": 316934,
+          "title": "와플 옵션",
+          "required": false,
+          "minChoices": 0,
+          "maxChoices": 5,
+          "choices": [
+            {
+              "id": 971773,
+              "title": "시나몬 추가",
+              "priceValue": 500,
+              "available": true
+            },
+            {
+              "id": 971774,
+              "title": "크림치즈 추가",
+              "priceValue": 1000,
+              "available": true
+            },
+            {
+              "id": 971775,
+              "title": "골든애플잼 추가",
+              "priceValue": 1000,
+              "available": true
+            },
+            {
+              "id": 1129310,
+              "title": "블루베리잼 추가",
+              "priceValue": 1000,
+              "available": true
+            },
+            {
+              "id": 1129311,
+              "title": "딸기잼 추가",
+              "priceValue": 1000,
+              "available": true
+            }
+          ]
+        },
+        {
+          "id": 473272,
+          "title": "와플 아이스크림 추가",
+          "required": false,
+          "minChoices": 0,
+          "maxChoices": 2,
+          "choices": [
+            {
+              "id": 1462666,
+              "title": "바닐라",
+              "priceValue": 2500,
+              "available": true
+            },
+            {
+              "id": 1462667,
+              "title": "초코",
+              "priceValue": 2500,
+              "available": true
+            }
+          ]
+        }
+      ],
+      "imageLocalPath": "data/tossplace-menu/238090/images/7853022-클래식-와플-커피-세트-77e6926988.webp"
+    },
+    {
+      "id": 7965785,
+      "categoryTitle": "벨기에와플",
+      "categoryTitleEn": "Belgium Waffle",
+      "title": "와플 3개팩",
+      "titleEn": "Belgian Waffle Trio (3pcs)",
+      "description": "\"혼자서도, 셋이서도 부담 없이!\"\n앵커 버터의 풍미가 꽉 찬 수제 와플 3개를 가볍게 즐겨보세요. 바삭함과 쫄깃함이 살아있어 커피 한 잔과 곁들이기에 가장 완벽한 구성입니다.",
+      "descriptionEn": "\"The perfect light treat for your day!\"\nEnjoy three of our signature handmade waffles—crispy on the outside, chewy on the inside. Made with premium Anchor butter, this trio is the ideal companion for your coffee break or a light snack to share.",
+      "priceValue": 18000,
+      "priceTitle": "기본",
+      "available": true,
+      "labels": [],
+      "optionSets": [
+        {
+          "id": 366680,
+          "title": "와플 컷팅",
+          "required": true,
+          "minChoices": 1,
+          "maxChoices": 1,
+          "choices": [
+            {
+              "id": 1135717,
+              "title": "그대로 주세요",
+              "priceValue": 0,
+              "available": true
+            },
+            {
+              "id": 1135716,
+              "title": "먹기좋게 잘라주세요",
+              "priceValue": 0,
+              "available": true
+            }
+          ]
+        },
+        {
+          "id": 316934,
+          "title": "와플 옵션",
+          "required": false,
+          "minChoices": 0,
+          "maxChoices": 5,
+          "choices": [
+            {
+              "id": 971773,
+              "title": "시나몬 추가",
+              "priceValue": 500,
+              "available": true
+            },
+            {
+              "id": 971774,
+              "title": "크림치즈 추가",
+              "priceValue": 1000,
+              "available": true
+            },
+            {
+              "id": 971775,
+              "title": "골든애플잼 추가",
+              "priceValue": 1000,
+              "available": true
+            },
+            {
+              "id": 1129310,
+              "title": "블루베리잼 추가",
+              "priceValue": 1000,
+              "available": true
+            },
+            {
+              "id": 1129311,
+              "title": "딸기잼 추가",
+              "priceValue": 1000,
+              "available": true
+            }
+          ]
+        }
+      ],
+      "imageLocalPath": "data/tossplace-menu/238090/images/7965785-와플-3개팩-2e0099ae98.webp"
+    },
+    {
+      "id": 8433327,
+      "categoryTitle": "벨기에와플",
+      "categoryTitleEn": "Belgium Waffle",
+      "title": "[아이스크림] 와플",
+      "titleEn": "ice cream waffle",
+      "description": "뉴질랜드 청정 지역의 앵커 버터를 아낌없이 넣어 매일 아침 정성껏 반죽합니다. 겉바속쫀 와플과 입안 가득 퍼지는 고함량 아이스크림의 온도 차를 경험해 보세요!",
+      "descriptionEn": "Crispy outside, chewy inside! Our authentic Belgian waffles are made with premium New Zealand Anchor butter. Enjoy the perfect harmony of a warm, handmade waffle topped with rich, high-fat ice cream.",
+      "priceValue": 6000,
+      "priceTitle": "기본",
+      "available": true,
+      "labels": [],
+      "optionSets": [
+        {
+          "id": 366680,
+          "title": "와플 컷팅",
+          "required": true,
+          "minChoices": 1,
+          "maxChoices": 1,
+          "choices": [
+            {
+              "id": 1135717,
+              "title": "그대로 주세요",
+              "priceValue": 0,
+              "available": true
+            },
+            {
+              "id": 1135716,
+              "title": "먹기좋게 잘라주세요",
+              "priceValue": 0,
+              "available": true
+            }
+          ]
+        },
+        {
+          "id": 334658,
+          "title": "아이스크림 와플 맛 선택",
+          "required": true,
+          "minChoices": 1,
+          "maxChoices": 2,
+          "choices": [
+            {
+              "id": 1031596,
+              "title": "바닐라",
+              "priceValue": 2500,
+              "available": true
+            },
+            {
+              "id": 1031597,
+              "title": "초코",
+              "priceValue": 2500,
+              "available": true
+            }
+          ]
+        },
+        {
+          "id": 473272,
+          "title": "와플 아이스크림 추가",
+          "required": false,
+          "minChoices": 0,
+          "maxChoices": 2,
+          "choices": [
+            {
+              "id": 1462666,
+              "title": "바닐라",
+              "priceValue": 2500,
+              "available": true
+            },
+            {
+              "id": 1462667,
+              "title": "초코",
+              "priceValue": 2500,
+              "available": true
+            }
+          ]
+        }
+      ],
+      "imageLocalPath": "data/tossplace-menu/238090/images/8433327-아이스크림-와플-8d991c06d1.webp"
+    },
+    {
+      "id": 10197088,
+      "categoryTitle": "디저트",
+      "categoryTitleEn": "Dessert",
+      "title": "교토말차쇼콜라",
+      "titleEn": "Kyoto Matcha Chocolat",
+      "description": "꾸덕한 갸또 시트와 말차 가나슈에\n부드러운 우유 크림이 어우러진 케이크",
+      "descriptionEn": "White chocolate matcha cake with creamy matcha ganache — a melt-in-your-mouth delight.",
+      "priceValue": 10900,
+      "priceTitle": "기본",
+      "available": true,
+      "labels": [
+        "인기"
+      ],
+      "optionSets": [
+        {
+          "id": 377185,
+          "title": "하트 초",
+          "required": false,
+          "minChoices": 0,
+          "maxChoices": 1,
+          "choices": [
+            {
+              "id": 1168613,
+              "title": "하트 초",
+              "priceValue": 1500,
+              "available": true
+            }
+          ]
+        }
+      ],
+      "imageLocalPath": "data/tossplace-menu/238090/images/10197088-교토말차쇼콜라-9d28d3d031.webp"
+    },
+    {
+      "id": 10842350,
+      "categoryTitle": "디저트",
+      "categoryTitleEn": "Dessert",
+      "title": "얼그레이 무화과",
+      "titleEn": "Earl Grey Fig",
+      "description": "달콤한 무화과가 듬뿍 들어간 고소한 시트 위에,\n향긋한 얼그레이 크림을 올린 부드러운 케이크 ☕🍰",
+      "descriptionEn": "A soft cake layered with nutty sponge filled with sweet figs, topped with fragrant Earl Grey cream ☕🍰",
+      "priceValue": 10900,
+      "priceTitle": "기본",
+      "available": true,
+      "labels": [
+        "인기"
+      ],
+      "optionSets": [
+        {
+          "id": 377185,
+          "title": "하트 초",
+          "required": false,
+          "minChoices": 0,
+          "maxChoices": 1,
+          "choices": [
+            {
+              "id": 1168613,
+              "title": "하트 초",
+              "priceValue": 1500,
+              "available": true
+            }
+          ]
+        }
+      ],
+      "imageLocalPath": "data/tossplace-menu/238090/images/10842350-얼그레이-무화과-0f5f5e5bf2.webp"
+    },
+    {
+      "id": 10192464,
+      "categoryTitle": "디저트",
+      "categoryTitleEn": "Dessert",
+      "title": "초콜릿로쉐케익",
+      "titleEn": "Chocolate Roche Cake",
+      "description": "부드러운 스페인산 고급 초콜릿 위에 고소하게 구운 헤이즐넛을 올려\n한 입 베어 물면 진한 초콜릿 풍미가 가득 퍼지는 케이크",
+      "descriptionEn": "Chocolate-coated cake with roasted hazelnuts and rich chocolate flavor.",
+      "priceValue": 10900,
+      "priceTitle": "기본",
+      "available": true,
+      "labels": [
+        "인기"
+      ],
+      "optionSets": [
+        {
+          "id": 377185,
+          "title": "하트 초",
+          "required": false,
+          "minChoices": 0,
+          "maxChoices": 1,
+          "choices": [
+            {
+              "id": 1168613,
+              "title": "하트 초",
+              "priceValue": 1500,
+              "available": true
+            }
+          ]
+        }
+      ],
+      "imageLocalPath": "data/tossplace-menu/238090/images/10192464-초콜릿로쉐케익-52fe1dcc82.webp"
+    },
+    {
+      "id": 10114893,
+      "categoryTitle": "디저트",
+      "categoryTitleEn": "Dessert",
+      "title": "아이스크림 브라우니",
+      "titleEn": "Ice cream Brownie",
+      "description": "진한 초콜릿 브라우니 위에\n부드러운 바닐라 아이스크림을 올렸어요.\n따뜻함과 차가움이 만나 한 입만으로도 충분히 행복해지는 디저트.",
+      "descriptionEn": "A rich chocolate brownie topped with smooth vanilla ice cream.\nWarm and cold in perfect balance one bite is all it takes to fall in love.",
+      "priceValue": 10900,
+      "priceTitle": "기본",
+      "available": true,
+      "labels": [
+        "인기"
+      ],
+      "optionSets": [],
+      "imageLocalPath": "data/tossplace-menu/238090/images/8748567-아이스크림브라우니-1ca4423910.webp"
+    },
+    {
+      "id": 10652155,
+      "categoryTitle": "디저트",
+      "categoryTitleEn": "Dessert",
+      "title": "케이크 초",
+      "titleEn": "",
+      "description": "",
+      "descriptionEn": "",
+      "priceValue": 1500,
+      "priceTitle": "기본",
+      "available": true,
+      "labels": [],
+      "optionSets": [],
+      "imageLocalPath": "data/tossplace-menu/238090/images/10652155-케이크-초-8ae83ded46.webp"
+    },
+    {
+      "id": 16385006,
+      "categoryTitle": "디저트",
+      "categoryTitleEn": "Dessert",
+      "title": "진한 치즈 케이크",
+      "titleEn": "Rich Cheesecake",
+      "description": "진한 크림치즈의 풍미를 가장 기본에 충실하게 구현한, 매일 찾게 되는 정통 치즈 케이크",
+      "descriptionEn": "A classic cheesecake with rich, creamy cheese flavor, crafted simply and traditionally for an everyday favorite.",
+      "priceValue": 10900,
+      "priceTitle": "기본",
+      "available": true,
+      "labels": [],
+      "optionSets": [],
+      "imageLocalPath": "data/tossplace-menu/238090/images/16385006-진한-치즈-케이크-5c0eb416f1.webp"
+    },
+    {
+      "id": 17098517,
+      "categoryTitle": "디저트",
+      "categoryTitleEn": "Dessert",
+      "title": "클루미 당근케이크",
+      "titleEn": "Clumi Carrot Cake",
+      "description": "진한 치즈 크림과 호두가 가득한 클래식 스타일 당근케이크",
+      "descriptionEn": "Classic Carrot Cake with Cream Cheese Frosting & Walnuts",
+      "priceValue": 10900,
+      "priceTitle": "기본",
+      "available": true,
+      "labels": [],
+      "optionSets": [],
+      "imageLocalPath": "data/tossplace-menu/238090/images/17098517-클루미-당근케이크-1d9744db1a.webp"
+    },
+    {
+      "id": 13579307,
+      "categoryTitle": "스무디",
+      "categoryTitleEn": "Smoothie",
+      "title": "코코넛커피 스무디",
+      "titleEn": "Mango Coconut Smoothie",
+      "description": "망고의 달콤함과 코코넛의 부드러운 풍미가 완벽한 밸런스를 이루는 아이스 블렌디드 음료입니다. 시원하고 크리미한 질감으로 마지막 한 입까지 기분 좋은 달콤함을 선사합니다. (에스프레소 추가하시면 맛있습니다)",
+      "descriptionEn": "An ice-blended drink balancing mango's sweetness and coconut's creamy flavor. Enjoy the refreshing, sweet taste down to the last sip. (Delicious with an added espresso shot!)",
+      "priceValue": 7500,
+      "priceTitle": "기본",
+      "available": true,
+      "labels": [],
+      "optionSets": [
+        {
+          "id": 296010,
+          "title": "원두 선택",
+          "required": true,
+          "minChoices": 1,
+          "maxChoices": 1,
+          "choices": [
+            {
+              "id": 901204,
+              "title": "고소한 원두",
+              "priceValue": 0,
+              "available": true
+            },
+            {
+              "id": 901205,
+              "title": "산미있는 원두",
+              "priceValue": 0,
+              "available": true
+            },
+            {
+              "id": 901206,
+              "title": "디카페인 원두",
+              "priceValue": 500,
+              "available": true
+            }
+          ]
+        }
+      ],
+      "imageLocalPath": "data/tossplace-menu/238090/images/13579307-코코넛커피-스무디-4f6638006a.webp"
+    },
+    {
+      "id": 6981978,
+      "categoryTitle": "스무디",
+      "categoryTitleEn": "Smoothie",
+      "title": "망고코코넛 스무디",
+      "titleEn": "Mango Coconut Smoothie",
+      "description": "여름의 심장을 마시다. 햇살에 녹아든 달콤한 망고와 부드러운 코코넛의 속삭임, 입안 가득 피어나는 여름의 판타지를 경험하세요.",
+      "descriptionEn": "Drink the Heart of Summer. Savor the sweet mango melted in sunlight and the whisper of smooth coconut. Experience the summer fantasy blooming full in your mouth. Summer Drink, a Fantasy of Taste.",
+      "priceValue": 7500,
+      "priceTitle": "기본",
+      "available": true,
+      "labels": [
+        "인기"
+      ],
+      "optionSets": [],
+      "imageLocalPath": "data/tossplace-menu/238090/images/6981978-망고코코넛-스무디-0dfced98a7.webp"
+    },
+    {
+      "id": 6979395,
+      "categoryTitle": "스무디",
+      "categoryTitleEn": "Smoothie",
+      "title": "[100%]딸기주스",
+      "titleEn": "[100%] Strawberry Juice",
+      "description": "100% 딸기가 전하는 순수한 맛:\n오직 신선한 제철 딸기만을 아낌없이 갈아 넣어, 첨가물 없이도 딸기 본연의 달콤하고 상큼한 맛을 완벽하게 즐길 수 있습니다. 한 모금 마실 때마다 입안 가득 퍼지는 신선한 딸기 향을 느껴보세요.",
+      "descriptionEn": "100% Pure Taste from Strawberries:\nWe generously blend only the freshest in-season strawberries, so you can perfectly enjoy their natural, sweet, and refreshing taste, completely free of additives. Experience the vibrant, fresh strawberry aroma that fills your mouth with every single sip.",
+      "priceValue": 7500,
+      "priceTitle": "기본",
+      "available": true,
+      "labels": [
+        "인기"
+      ],
+      "optionSets": [],
+      "imageLocalPath": "data/tossplace-menu/238090/images/6979395-100-딸기주스-759a10f7aa.webp"
+    },
+    {
+      "id": 13579278,
+      "categoryTitle": "스무디",
+      "categoryTitleEn": "Smoothie",
+      "title": "초코 스무디",
+      "titleEn": "Chocolate Smoothie",
+      "description": "깊고 풍부한 프리미엄 초콜릿과 부드러운 우유가 어우러진 시원한 아이스 블렌디드 음료입니다. 기분 좋은 달콤함과 크리미한 질감이 남녀노소 누구나 호불호 없이 즐기기 좋습니다. (에스프레소 샷을 추가하시면 깊은 모카의 풍미를 즐기실 수 있습니다!)",
+      "descriptionEn": "An ice-blended drink combining deep, rich premium chocolate with creamy milk. Enjoy the delightful sweetness and smooth texture in every sip. (Try adding an espresso shot for a rich mocha flavor!)",
+      "priceValue": 7500,
+      "priceTitle": "기본",
+      "available": true,
+      "labels": [],
+      "optionSets": [],
+      "imageLocalPath": "data/tossplace-menu/238090/images/13579278-초코-스무디-99e51b3911.webp"
+    },
+    {
+      "id": 13579323,
+      "categoryTitle": "스무디",
+      "categoryTitleEn": "Smoothie",
+      "title": "말차 스무디",
+      "titleEn": "Matcha Smoothie",
+      "description": "프리미엄 말차의 깊고 진한 향과 부드러운 우유가 완벽한 조화를 이루는 아이스 블렌디드 음료입니다. 말차 특유의 고급스러운 쌉싸름함과 기분 좋은 달콤함을 시원하게 즐겨보세요. (에스프레소 샷을 추가하시면 쌉싸름함과 커피의 풍미가 어우러져 더욱 맛있습니다!)",
+      "descriptionEn": "An ice-blended drink that harmonizes the deep, rich aroma of premium matcha with creamy milk. Enjoy the perfect balance of elegant, earthy flavors and pleasant sweetness. (Highly recommended with an espresso shot for an extra depth of flavor!)",
+      "priceValue": 7500,
+      "priceTitle": "기본",
+      "available": true,
+      "labels": [],
+      "optionSets": [],
+      "imageLocalPath": "data/tossplace-menu/238090/images/13579323-말차-스무디-4f18a3e1bc.webp"
+    },
+    {
+      "id": 6979166,
+      "categoryTitle": "티",
+      "categoryTitleEn": "Tea",
+      "title": "봄물결",
+      "titleEn": "Spring Breeze",
+      "description": "봄바람에 흩날리는 꽃내음을 가득 머금은 싱그러운 제주의 봄을 그린 어린 잎 녹차 블렌딩 한 잔",
+      "descriptionEn": "A cup of green tea blending depicting the fresh spring of Jeju filled with the scent of flowers scattered in the spring breeze",
+      "priceValue": 6500,
+      "priceTitle": "기본",
+      "available": true,
+      "labels": [
+        "인기"
+      ],
+      "optionSets": [
+        {
+          "id": 294937,
+          "title": "온도",
+          "required": true,
+          "minChoices": 1,
+          "maxChoices": 1,
+          "choices": [
+            {
+              "id": 897956,
+              "title": "따뜻하게",
+              "priceValue": 0,
+              "available": true
+            },
+            {
+              "id": 897957,
+              "title": "차갑게",
+              "priceValue": 0,
+              "available": true
+            }
+          ]
+        }
+      ],
+      "imageLocalPath": "data/tossplace-menu/238090/images/6979166-봄물결-d6b5a9a22e.webp"
+    },
+    {
+      "id": 6979257,
+      "categoryTitle": "티",
+      "categoryTitleEn": "Tea",
+      "title": "레몬석양",
+      "titleEn": "Lemon Sunset",
+      "description": "히비스커스가 그린 아름다운 바닷가 석양을 담은 수색에 레모니한 상큼함과 달콤한의 조화 한 잔",
+      "descriptionEn": "A drink of lemoni freshness and sweet harmony in the search for the beautiful beach sunset painted by Hibiscus",
+      "priceValue": 6500,
+      "priceTitle": "기본",
+      "available": true,
+      "labels": [],
+      "optionSets": [
+        {
+          "id": 294937,
+          "title": "온도",
+          "required": true,
+          "minChoices": 1,
+          "maxChoices": 1,
+          "choices": [
+            {
+              "id": 897956,
+              "title": "따뜻하게",
+              "priceValue": 0,
+              "available": true
+            },
+            {
+              "id": 897957,
+              "title": "차갑게",
+              "priceValue": 0,
+              "available": true
+            }
+          ]
+        }
+      ],
+      "imageLocalPath": "data/tossplace-menu/238090/images/6979257-레몬석양-5fbcf385df.webp"
+    },
+    {
+      "id": 6979222,
+      "categoryTitle": "티",
+      "categoryTitleEn": "Tea",
+      "title": "루이벨벳",
+      "titleEn": "Rooi Velvet",
+      "description": "깊고 부드러운 루이보스 위로 초콜릿 향이 천천히 내려앉아 마음을 벨벳처럼 감싸는 한 잔",
+      "descriptionEn": "A cup of chocolate slowly falling over the deep, soft rooibos, wrapping the heart like velvet",
+      "priceValue": 6500,
+      "priceTitle": "기본",
+      "available": true,
+      "labels": [],
+      "optionSets": [
+        {
+          "id": 294937,
+          "title": "온도",
+          "required": true,
+          "minChoices": 1,
+          "maxChoices": 1,
+          "choices": [
+            {
+              "id": 897956,
+              "title": "따뜻하게",
+              "priceValue": 0,
+              "available": true
+            },
+            {
+              "id": 897957,
+              "title": "차갑게",
+              "priceValue": 0,
+              "available": true
+            }
+          ]
+        }
+      ],
+      "imageLocalPath": "data/tossplace-menu/238090/images/6979222-루이벨벳-e13c447c71.webp"
+    },
+    {
+      "id": 6979241,
+      "categoryTitle": "티",
+      "categoryTitleEn": "Tea",
+      "title": "현월호지",
+      "titleEn": "Black Moon Hoji",
+      "description": "덖은 녹차와 호지차의 구수함과 진득한 달콤함을 가진 흑당의 콜라보레이션 한 잔",
+      "descriptionEn": "A collaboration cup of black sugar with the savory and rich sweetness of green tea and Hoji tea",
+      "priceValue": 6500,
+      "priceTitle": "기본",
+      "available": true,
+      "labels": [
+        "인기"
+      ],
+      "optionSets": [
+        {
+          "id": 294937,
+          "title": "온도",
+          "required": true,
+          "minChoices": 1,
+          "maxChoices": 1,
+          "choices": [
+            {
+              "id": 897956,
+              "title": "따뜻하게",
+              "priceValue": 0,
+              "available": true
+            },
+            {
+              "id": 897957,
+              "title": "차갑게",
+              "priceValue": 0,
+              "available": true
+            }
+          ]
+        }
+      ],
+      "imageLocalPath": "data/tossplace-menu/238090/images/6979241-현월호지-0c8e00ea34.webp"
+    },
+    {
+      "id": 6979179,
+      "categoryTitle": "티",
+      "categoryTitleEn": "Tea",
+      "title": "멜롱망스",
+      "titleEn": "Melong Mangs",
+      "description": "여름의 시원함과 달콤함을 머금은 머스크 멜론과 꽃내음 가득한 우롱차의 하모니 한 잔",
+      "descriptionEn": "A glass of harmony between musk melon and oolong tea filled with the coolness and sweetness of summer",
+      "priceValue": 6500,
+      "priceTitle": "기본",
+      "available": true,
+      "labels": [],
+      "optionSets": [
+        {
+          "id": 294937,
+          "title": "온도",
+          "required": true,
+          "minChoices": 1,
+          "maxChoices": 1,
+          "choices": [
+            {
+              "id": 897956,
+              "title": "따뜻하게",
+              "priceValue": 0,
+              "available": true
+            },
+            {
+              "id": 897957,
+              "title": "차갑게",
+              "priceValue": 0,
+              "available": true
+            }
+          ]
+        }
+      ],
+      "imageLocalPath": "data/tossplace-menu/238090/images/6979179-멜롱망스-c2a0848d6e.webp"
+    },
+    {
+      "id": 10686488,
+      "categoryTitle": "티",
+      "categoryTitleEn": "Tea",
+      "title": "수월경화 티세트(5개입)",
+      "titleEn": "SWGH Tea Set(5ea)",
+      "description": "부산 블루리본 서베이 등재 프리미엄 티 브랜드 수월경화 깊은 향과 부드러운 여운을 담은 티세트 🌿 ",
+      "descriptionEn": "Listed in the Busan Blue Ribbon Survey\nPremium tea brand, Suwol Gyeonghwa\ntea sets with deep aroma and a smooth, lingering finish",
+      "priceValue": 15000,
+      "priceTitle": "기본",
+      "available": true,
+      "labels": [
+        "인기"
+      ],
+      "optionSets": [],
+      "imageLocalPath": "data/tossplace-menu/238090/images/10686488-수월경화-티세트-5개입-8a7755e5fc.webp"
+    },
+    {
+      "id": 6979125,
+      "categoryTitle": "티",
+      "categoryTitleEn": "Tea",
+      "title": "복숭아아이스티",
+      "titleEn": "Peach Iced Tea",
+      "description": "",
+      "descriptionEn": "",
+      "priceValue": 5000,
+      "priceTitle": "기본",
+      "available": true,
+      "labels": [],
+      "optionSets": [
+        {
+          "id": 296097,
+          "title": "샷 추가",
+          "required": false,
+          "minChoices": 0,
+          "maxChoices": 1,
+          "choices": [
+            {
+              "id": 901470,
+              "title": "샷추가(고소)",
+              "priceValue": 500,
+              "available": true
+            },
+            {
+              "id": 901471,
+              "title": "샷추가(산미)",
+              "priceValue": 500,
+              "available": true
+            },
+            {
+              "id": 901472,
+              "title": "디카페인 샷 추가",
+              "priceValue": 1000,
+              "available": true
+            }
+          ]
+        }
+      ],
+      "imageLocalPath": "data/tossplace-menu/238090/images/6979125-복숭아아이스티-4cd29fc8e8.webp"
+    },
+    {
+      "id": 12131403,
+      "categoryTitle": "티",
+      "categoryTitleEn": "Tea",
+      "title": "레몬차",
+      "titleEn": "Lemon Tea",
+      "description": "새콤달콤 레몬의 향과 맛을 담은 레몬차",
+      "descriptionEn": "Citrus Sweet and sour Lemon Tea",
+      "priceValue": 6500,
+      "priceTitle": "기본",
+      "available": true,
+      "labels": [
+        "신규"
+      ],
+      "optionSets": [
+        {
+          "id": 294937,
+          "title": "온도",
+          "required": true,
+          "minChoices": 1,
+          "maxChoices": 1,
+          "choices": [
+            {
+              "id": 897956,
+              "title": "따뜻하게",
+              "priceValue": 0,
+              "available": true
+            },
+            {
+              "id": 897957,
+              "title": "차갑게",
+              "priceValue": 0,
+              "available": true
+            }
+          ]
+        }
+      ],
+      "imageLocalPath": "data/tossplace-menu/238090/images/12131403-레몬차-a3fc0f726f.webp"
+    },
+    {
+      "id": 6979384,
+      "categoryTitle": "에이드",
+      "categoryTitleEn": "Ade",
+      "title": "자몽에이드",
+      "titleEn": "Grapefruit Ade",
+      "description": "",
+      "descriptionEn": "",
+      "priceValue": 6000,
+      "priceTitle": "기본",
+      "available": false,
+      "labels": [],
+      "optionSets": [],
+      "imageLocalPath": "data/tossplace-menu/238090/images/6979384-자몽에이드-ab280d617a.webp"
+    },
+    {
+      "id": 6979327,
+      "categoryTitle": "에이드",
+      "categoryTitleEn": "Ade",
+      "title": "레몬에이드",
+      "titleEn": "Lemon Ade",
+      "description": "",
+      "descriptionEn": "",
+      "priceValue": 6000,
+      "priceTitle": "기본",
+      "available": true,
+      "labels": [],
+      "optionSets": [],
+      "imageLocalPath": "data/tossplace-menu/238090/images/6979327-레몬에이드-33f8afbcdc.webp"
+    },
+    {
+      "id": 13734740,
+      "categoryTitle": "에이드",
+      "categoryTitleEn": "Ade",
+      "title": "청포도에이드",
+      "titleEn": "Green Grape Ade",
+      "description": "",
+      "descriptionEn": "",
+      "priceValue": 6000,
+      "priceTitle": "기본",
+      "available": true,
+      "labels": [],
+      "optionSets": [],
+      "imageLocalPath": "data/tossplace-menu/238090/images/13734740-청포도에이드-91f4fb1163.webp"
+    },
+    {
+      "id": 15684826,
+      "categoryTitle": "파르페",
+      "categoryTitleEn": "Parfait",
+      "title": "[시즌] 복숭아 한 컵",
+      "titleEn": "Whole Peach Cup Parfait",
+      "description": "제철 황도 1개를 통째로 담았습니다.\n달콤한 생복숭아와 바삭한 그래놀라, 상큼한 요거트, 진한 바닐라 아이스크림이 어우러진 여름 한정 프리미엄 파르페",
+      "descriptionEn": "One Whole Peach. One Perfect Summer.\nMade with a whole fresh seasonal peach, layered with crunchy granola, creamy yogurt, whipped cream, and rich vanilla ice cream.",
+      "priceValue": 15000,
+      "priceTitle": "기본",
+      "available": true,
+      "labels": [
+        "신규"
+      ],
+      "optionSets": [
+        {
+          "id": 539375,
+          "title": "연유 추가",
+          "required": false,
+          "minChoices": 0,
+          "maxChoices": 1,
+          "choices": [
+            {
+              "id": 1671091,
+              "title": "연유추가(20ml)",
+              "priceValue": 1500,
+              "available": true
+            }
+          ]
+        }
+      ],
+      "imageLocalPath": "data/tossplace-menu/238090/images/15684889-복숭아-한-컵-5f7a3ea8c3.webp"
+    },
+    {
+      "id": 15684844,
+      "categoryTitle": "파르페",
+      "categoryTitleEn": "Parfait",
+      "title": "[시즌] 밀크팥빙수 한 컵",
+      "titleEn": "Snow Red Bean Parfait",
+      "description": "국내산 팥과 우유 얼음으로 만든 클래식 빙수.\n부드러운 우유 얼음 위에 풍성한 팥, 진한 바닐라 아이스크림, 달콤한 연유, 쫀득한 찰떡, 바삭한 그래놀라를 더한 한 컵 빙수.",
+      "descriptionEn": "Made with Korean sweet red beans and creamy milk ice.\nTopped with vanilla ice cream, condensed milk, chewy rice cake, and crunchy granola for a classic Korean dessert.",
+      "priceValue": 12000,
+      "priceTitle": "기본",
+      "available": false,
+      "labels": [],
+      "optionSets": [],
+      "imageLocalPath": "data/tossplace-menu/238090/images/15684896-밀크팥빙수-한-컵-b3ed4a325c.webp"
+    },
+    {
+      "id": 9276227,
+      "categoryTitle": "클루미 굿즈",
+      "categoryTitleEn": "CLUMI Goods",
+      "title": "클루미 맨투맨 티셔츠",
+      "titleEn": "[Pre-order] Kids'  black T-shirt ",
+      "description": "",
+      "descriptionEn": "",
+      "priceValue": 100000,
+      "priceTitle": "기본",
+      "available": true,
+      "labels": [],
+      "optionSets": [],
+      "imageLocalPath": "data/tossplace-menu/238090/images/9276227-클루미-맨투맨-티셔츠-f6692afc7b.webp"
+    },
+    {
+      "id": 9378963,
+      "categoryTitle": "클루미 굿즈",
+      "categoryTitleEn": "CLUMI Goods",
+      "title": "[예약주문]키즈 티셔츠 다크그레이",
+      "titleEn": "Dark Grey",
+      "description": "[예약주문]30수 후라이스에 스판을 더해 적당한 두께감의 우리 아이 어디서나 편안하게 입을 수 있는 도톰한 어린이용 긴팔 티셔츠 (사이즈 90~160/주문가능)",
+      "descriptionEn": "[Pre-order] Thick children's long-sleeve T-shirt that can be worn comfortably by our child with an appropriate thickness by adding spandex to 30 pieces of fraice (size 90-160)",
+      "priceValue": 35000,
+      "priceTitle": "기본",
+      "available": true,
+      "labels": [],
+      "optionSets": [
+        {
+          "id": 361865,
+          "title": "티셔츠(키즈) 색상",
+          "required": true,
+          "minChoices": 1,
+          "maxChoices": 1,
+          "choices": [
+            {
+              "id": 1121400,
+              "title": "블랙",
+              "priceValue": 0,
+              "available": true
+            },
+            {
+              "id": 1121401,
+              "title": "화이트",
+              "priceValue": 0,
+              "available": true
+            },
+            {
+              "id": 1121402,
+              "title": "핑크",
+              "priceValue": 0,
+              "available": true
+            },
+            {
+              "id": 1121454,
+              "title": "베이지",
+              "priceValue": 0,
+              "available": true
+            }
+          ]
+        }
+      ],
+      "imageLocalPath": "data/tossplace-menu/238090/images/9378963-클루미-키즈도톰라운드티셔츠-다크그레이-53d8fd5f43.webp"
+    },
+    {
+      "id": 8572545,
+      "categoryTitle": "클루미 굿즈",
+      "categoryTitleEn": "CLUMI Goods",
+      "title": "클루미 버터쿠키[1개]",
+      "titleEn": "Clumi Butter cookie [1]",
+      "description": "버터와 아몬드가루로 만든 글루텐-프리 고급 쿠키",
+      "descriptionEn": "Almond Butter Gluten-Free Premium Cookies",
+      "priceValue": 2500,
+      "priceTitle": "기본",
+      "available": true,
+      "labels": [
+        "인기"
+      ],
+      "optionSets": [],
+      "imageLocalPath": "data/tossplace-menu/238090/images/8572545-클루미-버터쿠키-1개-9db76e8662.webp"
+    },
+    {
+      "id": 9117943,
+      "categoryTitle": "클루미 굿즈",
+      "categoryTitleEn": "CLUMI Goods",
+      "title": "클루미 버터쿠키[2개]",
+      "titleEn": "Clumi Butter cookie [2]",
+      "description": "버터와 아몬드가루로 만든 글루텐-프리에 가까운 쿠키",
+      "descriptionEn": "Almond Butter Gluten Less Premium Cookies",
+      "priceValue": 5000,
+      "priceTitle": "기본",
+      "available": true,
+      "labels": [
+        "신규"
+      ],
+      "optionSets": [],
+      "imageLocalPath": "data/tossplace-menu/238090/images/9117943-클루미-버터쿠키-2개-10f895be27.webp"
+    },
+    {
+      "id": 7291437,
+      "categoryTitle": "클루미 굿즈",
+      "categoryTitleEn": "CLUMI Goods",
+      "title": "[클루미] 시그니처 블렌드 200g",
+      "titleEn": "[CLUMI ] Signature Blend 200g",
+      "description": "국가대표 바리스타 손재현의 스너그 로스터리 출신 [클루미 유니버스 대표 원두]입니다.",
+      "descriptionEn": "It's the representative coffee beans of Clumi Universe from Snug Roastery by national barista Son Jaehyun.",
+      "priceValue": 16500,
+      "priceTitle": "기본",
+      "available": true,
+      "labels": [
+        "신규"
+      ],
+      "optionSets": [],
+      "imageLocalPath": "data/tossplace-menu/238090/images/7291437-클루미-시그니처-블렌드-200g-12fb6dddb9.webp"
+    },
+    {
+      "id": 9018716,
+      "categoryTitle": "클루미 굿즈",
+      "categoryTitleEn": "CLUMI Goods",
+      "title": "[클루미] 디카페인 블렌드 200g",
+      "titleEn": "[CLUMI] Decaf Blend 200g",
+      "description": "천연 빙하수로 카페인 99%  제거 한 원두 200g",
+      "descriptionEn": "Mountain Water Decaffeinated Coffee 200g",
+      "priceValue": 18500,
+      "priceTitle": "기본",
+      "available": true,
+      "labels": [
+        "신규"
+      ],
+      "optionSets": [],
+      "imageLocalPath": "data/tossplace-menu/238090/images/9018716-클루미-디카페인-블렌드-200g-f34db51437.webp"
+    },
+    {
+      "id": 9779978,
+      "categoryTitle": "클루미 굿즈",
+      "categoryTitleEn": "CLUMI Goods",
+      "title": "[예약주문]키즈 티셔츠 핑크",
+      "titleEn": "[Pre-order] Kids'  Pink T-shirt ",
+      "description": "[예약주문]30수 후라이스에 스판을 더해 적당한 두께감의 우리 아이 어디서나 편안하게 입을 수 있는 도톰한 어린이용 긴팔 티셔츠 (사이즈 90~160/주문가능)",
+      "descriptionEn": "[Pre-order] Thick children's long-sleeve T-shirt that can be worn comfortably by our child with an appropriate thickness by adding spandex to 30 pieces of fraice (size 90-160)",
+      "priceValue": 35000,
+      "priceTitle": "기본",
+      "available": true,
+      "labels": [],
+      "optionSets": [],
+      "imageLocalPath": "data/tossplace-menu/238090/images/9779978-클루미-키즈도톰라운드티셔츠-핑크-3bc5ee625e.webp"
+    },
+    {
+      "id": 9780010,
+      "categoryTitle": "클루미 굿즈",
+      "categoryTitleEn": "CLUMI Goods",
+      "title": "[예약주문]키즈 화이트 티셔츠",
+      "titleEn": "[Pre-order] Kids' White T-shirt",
+      "description": "[예약주문]30수 후라이스에 스판을 더해 적당한 두께감의 우리 아이 어디서나 편안하게 입을 수 있는 도톰한 어린이용 긴팔 티셔츠 (사이즈 90~160/주문가능)",
+      "descriptionEn": "[Pre-order] Thick children's long-sleeve T-shirt that can be worn comfortably by our child with an appropriate thickness by adding spandex to 30 pieces of fraice (size 90-160)",
+      "priceValue": 35000,
+      "priceTitle": "기본",
+      "available": true,
+      "labels": [],
+      "optionSets": [],
+      "imageLocalPath": "data/tossplace-menu/238090/images/9780010-클루미-키즈도톰라운드티셔츠-화이트-484b00258f.webp"
+    },
+    {
+      "id": 10028854,
+      "categoryTitle": "클루미 굿즈",
+      "categoryTitleEn": "CLUMI Goods",
+      "title": "클루미[서울]반팔티",
+      "titleEn": "Clumi Seoul T-Shirts",
+      "description": "한국의 옛날 왕이 살던 서울의 궁전을 풍경으로 [클루미&누누&붉은말]이 웃고있어요",
+      "descriptionEn": "[Clamy & Nunu & Red Horse] is smiling at the palace in Seoul where the king lived.",
+      "priceValue": 40000,
+      "priceTitle": "기본",
+      "available": true,
+      "labels": [
+        "신규"
+      ],
+      "optionSets": [],
+      "imageLocalPath": "data/tossplace-menu/238090/images/10028854-클루미-서울-반팔티-adfae42acb.webp"
+    },
+    {
+      "id": 6982159,
+      "categoryTitle": "병음료",
+      "categoryTitleEn": "Bottle",
+      "title": "제로콜라",
+      "titleEn": "Coke Zero",
+      "description": "",
+      "descriptionEn": "",
+      "priceValue": 3000,
+      "priceTitle": "기본",
+      "available": true,
+      "labels": [],
+      "optionSets": [],
+      "imageLocalPath": "data/tossplace-menu/238090/images/6982159-제로콜라-4100e0e807.webp"
+    },
+    {
+      "id": 8535124,
+      "categoryTitle": "병음료",
+      "categoryTitleEn": "Bottle",
+      "title": "콜라",
+      "titleEn": "Coke",
+      "description": "",
+      "descriptionEn": "",
+      "priceValue": 3000,
+      "priceTitle": "기본",
+      "available": true,
+      "labels": [],
+      "optionSets": [],
+      "imageLocalPath": "data/tossplace-menu/238090/images/8535124-콜라-716006158c.webp"
+    },
+    {
+      "id": 6982172,
+      "categoryTitle": "병음료",
+      "categoryTitleEn": "Bottle",
+      "title": "에비앙 생수",
+      "titleEn": "Evian Water",
+      "description": "",
+      "descriptionEn": "",
+      "priceValue": 3000,
+      "priceTitle": "기본",
+      "available": true,
+      "labels": [],
+      "optionSets": [],
+      "imageLocalPath": "data/tossplace-menu/238090/images/6982172-에비앙-생수-c701abbf20.webp"
+    }
+  ]
+}
