@@ -196,6 +196,7 @@
                 <label>
                   <input type="${inputType}" name="${name}" value="${choice.id}"
                     data-price="${choice.priceValue}" data-title="${escapeHtml(choice.titleEn || choice.title)}"
+                    data-title-kr="${escapeHtml(choice.title)}"
                     ${!choice.available ? 'disabled' : ''}>
                   ${escapeHtml(choice.titleEn || choice.title)}${!choice.available ? ' (unavailable)' : ''}
                 </label>
@@ -280,7 +281,9 @@
         const selections = currentSelections().flatMap(({ optionSet, checked }) =>
           checked.map(input => ({
             optionSetTitle: optionSet.titleEn || optionSet.title,
+            optionSetTitleKr: optionSet.title,
             choiceTitle: input.dataset.title,
+            choiceTitleKr: input.dataset.titleKr,
             price: Number(input.dataset.price || 0),
           }))
         );

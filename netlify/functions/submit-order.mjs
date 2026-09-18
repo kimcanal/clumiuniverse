@@ -29,11 +29,20 @@ function formatWon(value) {
   return `₩${Number(value || 0).toLocaleString('en-US')}`;
 }
 
+// Staff (this function's Kakao message + order log) read Korean menu names first,
+// since staff work off the Korean menu board/POS — with the English name the
+// customer actually picked shown alongside for cross-reference.
+function bilingualName(kr, en) {
+  if (kr && en && kr !== en) return `${kr} (${en})`;
+  return kr || en || '';
+}
+
 function formatItemLine(item) {
   const selections = Array.isArray(item.selections) && item.selections.length
-    ? ` (${item.selections.map(s => s.choiceTitle).join(', ')})`
+    ? ` (${item.selections.map(s => bilingualName(s.choiceTitleKr, s.choiceTitle)).join(', ')})`
     : '';
-  return `- ${item.qty} x ${item.titleEn || item.title}${selections} — ${formatWon(item.unitPrice * item.qty)}`;
+  const name = bilingualName(item.title, item.titleEn);
+  return `- ${item.qty} x ${name}${selections} — ${formatWon(item.unitPrice * item.qty)}`;
 }
 
 function buildMessageText(order) {

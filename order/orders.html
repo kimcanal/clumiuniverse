@@ -54,6 +54,13 @@
       return '— Dry run (Kakao not connected yet)';
     }
 
+    // Staff read Korean menu names first (matches the POS/menu board), with the
+    // English name the customer picked shown alongside for cross-reference.
+    function bilingualName(kr, en) {
+      if (kr && en && kr !== en) return `${kr} (${en})`;
+      return kr || en || '';
+    }
+
     function renderOrder(order) {
       const items = Array.isArray(order.items) ? order.items : [];
       return `
@@ -68,9 +75,9 @@
             ${items.map(item => `
               <div class="order-cart-line">
                 <div>
-                  <div>${item.qty} × ${escapeHtml(item.titleEn || item.title)}</div>
+                  <div>${item.qty} × ${escapeHtml(bilingualName(item.title, item.titleEn))}</div>
                   ${Array.isArray(item.selections) && item.selections.length
-                    ? `<div class="order-cart-line-selections">${item.selections.map(s => escapeHtml(s.choiceTitle)).join(', ')}</div>`
+                    ? `<div class="order-cart-line-selections">${item.selections.map(s => escapeHtml(bilingualName(s.choiceTitleKr, s.choiceTitle))).join(', ')}</div>`
                     : ''}
                 </div>
                 <div>${formatWon(item.unitPrice * item.qty)}</div>
