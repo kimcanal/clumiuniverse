@@ -215,12 +215,14 @@ function normalizeItem(item, categoryMap) {
     optionSets: (item.optionSets ?? []).map((optionSet) => ({
       id: optionSet.id,
       title: optionSet.title,
+      titleEn: localize(optionSet.titleI18n, optionSet.title),
       required: Boolean(optionSet.isRequired),
       minChoices: optionSet.minChoices ?? null,
       maxChoices: optionSet.maxChoices ?? null,
       choices: (optionSet.choices ?? []).map((choice) => ({
         id: choice.id,
         title: choice.title,
+        titleEn: localize(choice.titleI18n, choice.title),
         priceValue: choice.priceValue ?? 0,
         state: choice.state ?? '',
       })),

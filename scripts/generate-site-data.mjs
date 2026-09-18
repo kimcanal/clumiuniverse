@@ -91,12 +91,14 @@ function projectOrderItem(item, imageLocalPath) {
     optionSets: (item.optionSets ?? []).map(optionSet => ({
       id: optionSet.id,
       title: optionSet.title,
+      titleEn: optionSet.titleEn || optionSet.title,
       required: Boolean(optionSet.required),
       minChoices: optionSet.minChoices ?? null,
       maxChoices: optionSet.maxChoices ?? null,
       choices: (optionSet.choices ?? []).map(choice => ({
         id: choice.id,
         title: choice.title,
+        titleEn: choice.titleEn || choice.title,
         priceValue: choice.priceValue ?? 0,
         available: choice.state === 'ON_SALE',
       })),

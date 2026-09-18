@@ -462,6 +462,32 @@ body.order-body {
   margin: 0.75rem 0;
 }
 
+.order-receipt {
+  text-align: left;
+  margin: 1.25rem 0;
+  padding: 1rem;
+  border: 1px dashed var(--color-border);
+  border-radius: var(--radius-sm);
+  background: var(--color-bg-light);
+}
+
+.order-receipt-row {
+  display: flex;
+  justify-content: space-between;
+  gap: 0.75rem;
+  font-size: 0.85rem;
+  padding: 0.2rem 0;
+}
+
+.order-receipt-row span:first-child {
+  color: var(--color-text-muted);
+}
+
+.order-receipt-items {
+  margin-top: 0.5rem;
+  border-top: 1px solid var(--color-border);
+}
+
 .order-debug {
   margin-top: 1.5rem;
   text-align: left;

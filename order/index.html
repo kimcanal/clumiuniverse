@@ -34,6 +34,10 @@
     Browse the menu, submit your order below, then <strong>pay at the counter</strong> when you arrive at the store.
   </p>
 
+  <p class="order-intro" id="lastOrderLink" hidden>
+    <button type="button" class="order-btn order-btn-outline" id="viewLastOrderBtn" style="width:auto;">View my last order</button>
+  </p>
+
   <main class="order-container" id="orderMenuRoot">
     <p class="order-empty-state">Loading menu…</p>
   </main>
@@ -186,14 +190,14 @@
 
         return `
           <fieldset class="order-option-set" data-optionset-id="${optionSet.id}" data-min="${min}" data-max="${max}">
-            <legend>${escapeHtml(optionSet.title)} <span class="order-option-hint">(${hint})</span></legend>
+            <legend>${escapeHtml(optionSet.titleEn || optionSet.title)} <span class="order-option-hint">(${hint})</span></legend>
             ${optionSet.choices.map(choice => `
               <div class="order-option-choice">
                 <label>
                   <input type="${inputType}" name="${name}" value="${choice.id}"
-                    data-price="${choice.priceValue}" data-title="${escapeHtml(choice.title)}"
+                    data-price="${choice.priceValue}" data-title="${escapeHtml(choice.titleEn || choice.title)}"
                     ${!choice.available ? 'disabled' : ''}>
-                  ${escapeHtml(choice.title)}${!choice.available ? ' (unavailable)' : ''}
+                  ${escapeHtml(choice.titleEn || choice.title)}${!choice.available ? ' (unavailable)' : ''}
                 </label>
                 <span class="order-option-price">${choice.priceValue ? `+${formatWon(choice.priceValue)}` : ''}</span>
               </div>
@@ -275,7 +279,7 @@
       addBtn.addEventListener('click', () => {
         const selections = currentSelections().flatMap(({ optionSet, checked }) =>
           checked.map(input => ({
-            optionSetTitle: optionSet.title,
+            optionSetTitle: optionSet.titleEn || optionSet.title,
             choiceTitle: input.dataset.title,
             price: Number(input.dataset.price || 0),
           }))
@@ -486,7 +490,8 @@
         if (!res.ok || !data.ok) {
           throw new Error(data.error || 'Could not submit order.');
         }
-        showConfirmation(orderCode, data);
+        saveLastReceipt(orderCode, payload);
+        showConfirmation(orderCode, data, payload);
         cart = [];
         updateCartUI();
       } catch (err) {
@@ -497,24 +502,77 @@
       }
     }
 
-    function showConfirmation(orderCode, data) {
+    function renderReceiptLine(item) {
+      const selections = Array.isArray(item.selections) && item.selections.length
+        ? `<div class="order-cart-line-selections">${item.selections.map(s => escapeHtml(s.choiceTitle)).join(', ')}</div>`
+        : '';
+      return `
+        <div class="order-cart-line">
+          <div>
+            <div>${item.qty} × ${escapeHtml(item.titleEn || item.title)}</div>
+            ${selections}
+          </div>
+          <div>${formatWon(item.unitPrice * item.qty)}</div>
+        </div>
+      `;
+    }
+
+    function saveLastReceipt(orderCode, order) {
+      try {
+        sessionStorage.setItem('lastOrderReceipt', JSON.stringify({ orderCode, order }));
+      } catch {
+        // sessionStorage unavailable (private browsing, etc.) — receipt just won't survive a refresh.
+      }
+    }
+
+    function loadLastReceipt() {
+      try {
+        const raw = sessionStorage.getItem('lastOrderReceipt');
+        return raw ? JSON.parse(raw) : null;
+      } catch {
+        return null;
+      }
+    }
+
+    function showConfirmation(orderCode, data, order) {
       const body = document.getElementById('drawerBody');
+      const debugSection = data.wouldSend
+        ? `<details class="order-debug">
+            <summary>Debug: what this order would send to Kakao (dry run)</summary>
+            <pre>${escapeHtml(JSON.stringify(data.wouldSend, null, 2))}</pre>
+          </details>`
+        : '';
       body.innerHTML = `
         <div class="order-confirmation">
           <p>Order received!</p>
           <div class="order-code">#${escapeHtml(orderCode)}</div>
           <p>Show this number at the counter and pay there. See you soon! 🐰</p>
+          <div class="order-receipt">
+            <div class="order-receipt-row"><span>Name</span><span>${escapeHtml(order.name)}</span></div>
+            <div class="order-receipt-row"><span>Contact</span><span>${escapeHtml(order.contact)}</span></div>
+            <div class="order-receipt-row"><span>Pickup</span><span>${escapeHtml(order.pickupTime)}</span></div>
+            ${order.notes ? `<div class="order-receipt-row"><span>Notes</span><span>${escapeHtml(order.notes)}</span></div>` : ''}
+            <div class="order-receipt-items">${order.items.map(renderReceiptLine).join('')}</div>
+            <div class="order-summary-row"><span>Estimated total</span><span>${formatWon(order.estimatedTotal)}</span></div>
+          </div>
           <button type="button" class="order-btn order-btn-outline" id="closeConfirmBtn">Done</button>
-          <details class="order-debug">
-            <summary>Debug: what this order would send to Kakao (dry run)</summary>
-            <pre>${escapeHtml(JSON.stringify(data.wouldSend || {}, null, 2))}</pre>
-          </details>
+          ${debugSection}
         </div>
       `;
       document.getElementById('closeConfirmBtn').addEventListener('click', closeDrawer);
     }
 
     // ---- Init ----
+
+    const savedReceipt = loadLastReceipt();
+    if (savedReceipt) {
+      const linkWrap = document.getElementById('lastOrderLink');
+      linkWrap.hidden = false;
+      document.getElementById('viewLastOrderBtn').addEventListener('click', () => {
+        openDrawer('confirmation');
+        showConfirmation(savedReceipt.orderCode, {}, savedReceipt.order);
+      });
+    }
 
     fetch('../data/order-menu.json')
       .then(res => res.json())

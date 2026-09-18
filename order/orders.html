@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Orders (Staff) | CLUMI UNIVERSE</title>
+  <meta name="robots" content="noindex, nofollow">
+  <link rel="icon" type="image/svg+xml" href="../assets/clumi-logo.svg">
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;500;600;700&display=swap">
+  <link rel="stylesheet" href="../styles.css">
+  <link rel="stylesheet" href="./order.css">
+</head>
+
+<body class="order-body">
+
+  <header class="order-header">
+    <div class="order-brand">Orders (Staff)</div>
+    <a class="order-home-link" href="./">← Back to order page</a>
+  </header>
+
+  <main class="order-container">
+    <div id="keyPrompt" class="order-drawer-body" style="max-width:420px;margin:0 auto;">
+      <div class="order-form-field">
+        <label for="keyInput">Staff passphrase</label>
+        <input type="password" id="keyInput" placeholder="Enter passphrase">
+      </div>
+      <button type="button" class="order-btn" id="keySubmitBtn">View orders</button>
+      <p class="order-error" id="keyError" hidden></p>
+    </div>
+    <div id="ordersList" hidden></div>
+  </main>
+
+  <script>
+    const STORAGE_KEY = 'ordersViewKey';
+
+    function escapeHtml(value) {
+      return String(value ?? '').replace(/[&<>"']/g, ch => ({
+        '&': '&amp;', '<': '&lt;', '>': '&gt;', '"': '&quot;', "'": '&#39;',
+      }[ch]));
+    }
+
+    function formatWon(value) {
+      return `₩${Number(value || 0).toLocaleString('en-US')}`;
+    }
+
+    function deliveryStatusLabel(order) {
+      if (order.delivered === true) return '✅ Sent to Kakao';
+      if (order.delivered === false) return `❌ Failed: ${escapeHtml(order.deliveryError || 'unknown error')}`;
+      return '— Dry run (Kakao not connected yet)';
+    }
+
+    function renderOrder(order) {
+      const items = Array.isArray(order.items) ? order.items : [];
+      return `
+        <div class="order-receipt">
+          <div class="order-receipt-row"><span>Time</span><span>${escapeHtml(order.receivedAt ? new Date(order.receivedAt).toLocaleString() : '—')}</span></div>
+          <div class="order-receipt-row"><span>Order #</span><span>${escapeHtml(order.orderCode || 'N/A')}</span></div>
+          <div class="order-receipt-row"><span>Name</span><span>${escapeHtml(order.name)}</span></div>
+          <div class="order-receipt-row"><span>Contact</span><span>${escapeHtml(order.contact)}</span></div>
+          <div class="order-receipt-row"><span>Pickup</span><span>${escapeHtml(order.pickupTime)}</span></div>
+          ${order.notes ? `<div class="order-receipt-row"><span>Notes</span><span>${escapeHtml(order.notes)}</span></div>` : ''}
+          <div class="order-receipt-items">
+            ${items.map(item => `
+              <div class="order-cart-line">
+                <div>
+                  <div>${item.qty} × ${escapeHtml(item.titleEn || item.title)}</div>
+                  ${Array.isArray(item.selections) && item.selections.length
+                    ? `<div class="order-cart-line-selections">${item.selections.map(s => escapeHtml(s.choiceTitle)).join(', ')}</div>`
+                    : ''}
+                </div>
+                <div>${formatWon(item.unitPrice * item.qty)}</div>
+              </div>
+            `).join('')}
+          </div>
+          <div class="order-summary-row"><span>Total</span><span>${formatWon(order.estimatedTotal)}</span></div>
+          <div class="order-receipt-row"><span>Delivery</span><span>${deliveryStatusLabel(order)}</span></div>
+        </div>
+      `;
+    }
+
+    function renderOrders(orders) {
+      const root = document.getElementById('ordersList');
+      if (!orders.length) {
+        root.innerHTML = '<p class="order-empty-state">No orders yet.</p>';
+        return;
+      }
+      root.innerHTML = orders.map(renderOrder).join('');
+    }
+
+    async function tryLoad(key) {
+      const errorEl = document.getElementById('keyError');
+      errorEl.hidden = true;
+      try {
+        const res = await fetch('/.netlify/functions/list-orders', {
+          headers: { 'X-Orders-Key': key },
+        });
+        if (!res.ok) throw new Error('unauthorized');
+        const data = await res.json();
+        localStorage.setItem(STORAGE_KEY, key);
+        document.getElementById('keyPrompt').hidden = true;
+        const listEl = document.getElementById('ordersList');
+        listEl.hidden = false;
+        renderOrders(data.orders || []);
+      } catch {
+        try { localStorage.removeItem(STORAGE_KEY); } catch {}
+        errorEl.textContent = 'Wrong passphrase, or the order log is not set up yet.';
+        errorEl.hidden = false;
+      }
+    }
+
+    document.getElementById('keySubmitBtn').addEventListener('click', () => {
+      const key = document.getElementById('keyInput').value.trim();
+      if (key) tryLoad(key);
+    });
+    document.getElementById('keyInput').addEventListener('keydown', event => {
+      if (event.key === 'Enter') document.getElementById('keySubmitBtn').click();
+    });
+
+    let savedKey = null;
+    try { savedKey = localStorage.getItem(STORAGE_KEY); } catch {}
+    if (savedKey) tryLoad(savedKey);
+  </script>
+</body>
+
+</html>

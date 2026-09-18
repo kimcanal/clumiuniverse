@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-12T22:41:01.782Z",
+  "generatedAt": "2026-09-18T12:03:41.506Z",
   "merchantId": 238090,
   "items": [
     {
@@ -20,6 +20,7 @@
         {
           "id": 414275,
           "title": "내 맘대로 브런치",
+          "titleEn": "bruch diy",
           "required": true,
           "minChoices": 1,
           "maxChoices": 9,
@@ -27,54 +28,63 @@
             {
               "id": 1275947,
               "title": "스크램블에그",
+              "titleEn": "scrambled eggs",
               "priceValue": 6000,
               "available": true
             },
             {
               "id": 1275946,
               "title": "소시지(2)",
+              "titleEn": "sausage(2)",
               "priceValue": 2000,
               "available": true
             },
             {
               "id": 1275944,
               "title": "해쉬브라운(1)",
+              "titleEn": "hashbrown(1)",
               "priceValue": 2500,
               "available": true
             },
             {
               "id": 1275945,
               "title": "그린빈(6)",
+              "titleEn": "green bean(6)",
               "priceValue": 1500,
               "available": true
             },
             {
               "id": 1275948,
               "title": "방울토마토(4)",
+              "titleEn": "cherry tomato(4)",
               "priceValue": 2000,
               "available": true
             },
             {
               "id": 1276192,
               "title": "아보카도(1/2)",
+              "titleEn": "Avocado(half)",
               "priceValue": 3500,
               "available": true
             },
             {
               "id": 1275993,
               "title": "케찹",
+              "titleEn": "ketchup",
               "priceValue": 500,
               "available": true
             },
             {
               "id": 1275994,
               "title": "저당메이플시럽",
+              "titleEn": "low sugar maple syrup",
               "priceValue": 1000,
               "available": true
             },
             {
               "id": 1386548,
               "title": "발사믹소스",
+              "titleEn": "Balsamic Reduction",
               "priceValue": 1000,
               "available": true
             }
@@ -99,6 +109,7 @@
         {
           "id": 414323,
           "title": "브런치 커피",
+          "titleEn": "coffee",
           "required": false,
           "minChoices": 0,
           "maxChoices": 1,
@@ -106,24 +117,28 @@
             {
               "id": 1276117,
               "title": "아메리카노",
+              "titleEn": "americano",
               "priceValue": 0,
               "available": true
             },
             {
               "id": 1276118,
               "title": "상수라떼",
+              "titleEn": "Sangsu Latte",
               "priceValue": 1500,
               "available": true
             },
             {
               "id": 1445179,
               "title": "합정라떼",
+              "titleEn": "Hapjeong Latte",
               "priceValue": 1500,
               "available": true
             },
             {
               "id": 1461373,
               "title": "오렌지주스",
+              "titleEn": "Orange Juice",
               "priceValue": 1000,
               "available": true
             }
@@ -132,6 +147,7 @@
         {
           "id": 296010,
           "title": "원두 선택",
+          "titleEn": "beans",
           "required": true,
           "minChoices": 1,
           "maxChoices": 1,
@@ -139,18 +155,21 @@
             {
               "id": 901204,
               "title": "고소한 원두",
+              "titleEn": "savory beans",
               "priceValue": 0,
               "available": true
             },
             {
               "id": 901205,
               "title": "산미있는 원두",
+              "titleEn": "acidity beans",
               "priceValue": 0,
               "available": true
             },
             {
               "id": 901206,
               "title": "디카페인 원두",
+              "titleEn": "decaffeine",
               "priceValue": 500,
               "available": true
             }
@@ -159,6 +178,7 @@
         {
           "id": 294937,
           "title": "온도",
+          "titleEn": "temperature",
           "required": true,
           "minChoices": 1,
           "maxChoices": 1,
@@ -166,12 +186,14 @@
             {
               "id": 897956,
               "title": "따뜻하게",
+              "titleEn": "HOT",
               "priceValue": 0,
               "available": true
             },
             {
               "id": 897957,
               "title": "차갑게",
+              "titleEn": "ICE ",
               "priceValue": 0,
               "available": true
             }
@@ -180,6 +202,7 @@
         {
           "id": 294938,
           "title": "커피 옵션",
+          "titleEn": "Coffee Option",
           "required": false,
           "minChoices": 0,
           "maxChoices": 1,
@@ -187,18 +210,21 @@
             {
               "id": 897960,
               "title": "샷 추가",
+              "titleEn": "Extra Shot",
               "priceValue": 500,
               "available": true
             },
             {
               "id": 901463,
               "title": "연하게",
+              "titleEn": "one shot",
               "priceValue": 0,
               "available": true
             },
             {
               "id": 901465,
               "title": "바닐라시럽추가",
+              "titleEn": "vanilla syrup",
               "priceValue": 500,
               "available": true
             }
@@ -207,6 +233,7 @@
         {
           "id": 417152,
           "title": "여왕브런치 옵션",
+          "titleEn": "queen's bruch",
           "required": false,
           "minChoices": 0,
           "maxChoices": 7,
@@ -214,48 +241,56 @@
             {
               "id": 1284758,
               "title": "소시지(2)",
+              "titleEn": "sausage(2)",
               "priceValue": 2000,
               "available": true
             },
             {
               "id": 1284759,
               "title": "그린빈",
+              "titleEn": "green bean(6)",
               "priceValue": 1500,
               "available": true
             },
             {
               "id": 1284760,
               "title": "아보카도(1/2)",
+              "titleEn": "Avocado(half)",
               "priceValue": 3500,
               "available": true
             },
             {
               "id": 1284761,
               "title": "해쉬브라운",
+              "titleEn": "Hashbrown",
               "priceValue": 2500,
               "available": true
             },
             {
               "id": 1293491,
               "title": "발사믹소스",
+              "titleEn": "balsamic sauce",
               "priceValue": 1000,
               "available": true
             },
             {
               "id": 1293492,
               "title": "케찹",
+              "titleEn": "ketchup",
               "priceValue": 500,
               "available": true
             },
             {
               "id": 1293493,
               "title": "메이플시럽(저당)",
+              "titleEn": "maple syrup(low sugar)",
               "priceValue": 1000,
               "available": true
             },
             {
               "id": 1323457,
               "title": "시나몬 파우더",
+              "titleEn": "Cinnamon",
               "priceValue": 0,
               "available": true
             }
@@ -282,6 +317,7 @@
         {
           "id": 414323,
           "title": "브런치 커피",
+          "titleEn": "coffee",
           "required": false,
           "minChoices": 0,
           "maxChoices": 1,
@@ -289,24 +325,28 @@
             {
               "id": 1276117,
               "title": "아메리카노",
+              "titleEn": "americano",
               "priceValue": 0,
               "available": true
             },
             {
               "id": 1276118,
               "title": "상수라떼",
+              "titleEn": "Sangsu Latte",
               "priceValue": 1500,
               "available": true
             },
             {
               "id": 1445179,
               "title": "합정라떼",
+              "titleEn": "Hapjeong Latte",
               "priceValue": 1500,
               "available": true
             },
             {
               "id": 1461373,
               "title": "오렌지주스",
+              "titleEn": "Orange Juice",
               "priceValue": 1000,
               "available": true
             }
@@ -315,6 +355,7 @@
         {
           "id": 296010,
           "title": "원두 선택",
+          "titleEn": "beans",
           "required": true,
           "minChoices": 1,
           "maxChoices": 1,
@@ -322,18 +363,21 @@
             {
               "id": 901204,
               "title": "고소한 원두",
+              "titleEn": "savory beans",
               "priceValue": 0,
               "available": true
             },
             {
               "id": 901205,
               "title": "산미있는 원두",
+              "titleEn": "acidity beans",
               "priceValue": 0,
               "available": true
             },
             {
               "id": 901206,
               "title": "디카페인 원두",
+              "titleEn": "decaffeine",
               "priceValue": 500,
               "available": true
             }
@@ -342,6 +386,7 @@
         {
           "id": 294937,
           "title": "온도",
+          "titleEn": "temperature",
           "required": true,
           "minChoices": 1,
           "maxChoices": 1,
@@ -349,12 +394,14 @@
             {
               "id": 897956,
               "title": "따뜻하게",
+              "titleEn": "HOT",
               "priceValue": 0,
               "available": true
             },
             {
               "id": 897957,
               "title": "차갑게",
+              "titleEn": "ICE ",
               "priceValue": 0,
               "available": true
             }
@@ -363,6 +410,7 @@
         {
           "id": 294938,
           "title": "커피 옵션",
+          "titleEn": "Coffee Option",
           "required": false,
           "minChoices": 0,
           "maxChoices": 1,
@@ -370,18 +418,21 @@
             {
               "id": 897960,
               "title": "샷 추가",
+              "titleEn": "Extra Shot",
               "priceValue": 500,
               "available": true
             },
             {
               "id": 901463,
               "title": "연하게",
+              "titleEn": "one shot",
               "priceValue": 0,
               "available": true
             },
             {
               "id": 901465,
               "title": "바닐라시럽추가",
+              "titleEn": "vanilla syrup",
               "priceValue": 500,
               "available": true
             }
@@ -390,6 +441,7 @@
         {
           "id": 417152,
           "title": "여왕브런치 옵션",
+          "titleEn": "queen's bruch",
           "required": false,
           "minChoices": 0,
           "maxChoices": 7,
@@ -397,48 +449,56 @@
             {
               "id": 1284758,
               "title": "소시지(2)",
+              "titleEn": "sausage(2)",
               "priceValue": 2000,
               "available": true
             },
             {
               "id": 1284759,
               "title": "그린빈",
+              "titleEn": "green bean(6)",
               "priceValue": 1500,
               "available": true
             },
             {
               "id": 1284760,
               "title": "아보카도(1/2)",
+              "titleEn": "Avocado(half)",
               "priceValue": 3500,
               "available": true
             },
             {
               "id": 1284761,
               "title": "해쉬브라운",
+              "titleEn": "Hashbrown",
               "priceValue": 2500,
               "available": true
             },
             {
               "id": 1293491,
               "title": "발사믹소스",
+              "titleEn": "balsamic sauce",
               "priceValue": 1000,
               "available": true
             },
             {
               "id": 1293492,
               "title": "케찹",
+              "titleEn": "ketchup",
               "priceValue": 500,
               "available": true
             },
             {
               "id": 1293493,
               "title": "메이플시럽(저당)",
+              "titleEn": "maple syrup(low sugar)",
               "priceValue": 1000,
               "available": true
             },
             {
               "id": 1323457,
               "title": "시나몬 파우더",
+              "titleEn": "Cinnamon",
               "priceValue": 0,
               "available": true
             }
@@ -465,6 +525,7 @@
         {
           "id": 414323,
           "title": "브런치 커피",
+          "titleEn": "coffee",
           "required": false,
           "minChoices": 0,
           "maxChoices": 1,
@@ -472,24 +533,28 @@
             {
               "id": 1276117,
               "title": "아메리카노",
+              "titleEn": "americano",
               "priceValue": 0,
               "available": true
             },
             {
               "id": 1276118,
               "title": "상수라떼",
+              "titleEn": "Sangsu Latte",
               "priceValue": 1500,
               "available": true
             },
             {
               "id": 1445179,
               "title": "합정라떼",
+              "titleEn": "Hapjeong Latte",
               "priceValue": 1500,
               "available": true
             },
             {
               "id": 1461373,
               "title": "오렌지주스",
+              "titleEn": "Orange Juice",
               "priceValue": 1000,
               "available": true
             }
@@ -498,6 +563,7 @@
         {
           "id": 296010,
           "title": "원두 선택",
+          "titleEn": "beans",
           "required": true,
           "minChoices": 1,
           "maxChoices": 1,
@@ -505,18 +571,21 @@
             {
               "id": 901204,
               "title": "고소한 원두",
+              "titleEn": "savory beans",
               "priceValue": 0,
               "available": true
             },
             {
               "id": 901205,
               "title": "산미있는 원두",
+              "titleEn": "acidity beans",
               "priceValue": 0,
               "available": true
             },
             {
               "id": 901206,
               "title": "디카페인 원두",
+              "titleEn": "decaffeine",
               "priceValue": 500,
               "available": true
             }
@@ -525,6 +594,7 @@
         {
           "id": 294937,
           "title": "온도",
+          "titleEn": "temperature",
           "required": true,
           "minChoices": 1,
           "maxChoices": 1,
@@ -532,12 +602,14 @@
             {
               "id": 897956,
               "title": "따뜻하게",
+              "titleEn": "HOT",
               "priceValue": 0,
               "available": true
             },
             {
               "id": 897957,
               "title": "차갑게",
+              "titleEn": "ICE ",
               "priceValue": 0,
               "available": true
             }
@@ -546,6 +618,7 @@
         {
           "id": 294938,
           "title": "커피 옵션",
+          "titleEn": "Coffee Option",
           "required": false,
           "minChoices": 0,
           "maxChoices": 1,
@@ -553,18 +626,21 @@
             {
               "id": 897960,
               "title": "샷 추가",
+              "titleEn": "Extra Shot",
               "priceValue": 500,
               "available": true
             },
             {
               "id": 901463,
               "title": "연하게",
+              "titleEn": "one shot",
               "priceValue": 0,
               "available": true
             },
             {
               "id": 901465,
               "title": "바닐라시럽추가",
+              "titleEn": "vanilla syrup",
               "priceValue": 500,
               "available": true
             }
@@ -573,6 +649,7 @@
         {
           "id": 417152,
           "title": "여왕브런치 옵션",
+          "titleEn": "queen's bruch",
           "required": false,
           "minChoices": 0,
           "maxChoices": 7,
@@ -580,48 +657,56 @@
             {
               "id": 1284758,
               "title": "소시지(2)",
+              "titleEn": "sausage(2)",
               "priceValue": 2000,
               "available": true
             },
             {
               "id": 1284759,
               "title": "그린빈",
+              "titleEn": "green bean(6)",
               "priceValue": 1500,
               "available": true
             },
             {
               "id": 1284760,
               "title": "아보카도(1/2)",
+              "titleEn": "Avocado(half)",
               "priceValue": 3500,
               "available": true
             },
             {
               "id": 1284761,
               "title": "해쉬브라운",
+              "titleEn": "Hashbrown",
               "priceValue": 2500,
               "available": true
             },
             {
               "id": 1293491,
               "title": "발사믹소스",
+              "titleEn": "balsamic sauce",
               "priceValue": 1000,
               "available": true
             },
             {
               "id": 1293492,
               "title": "케찹",
+              "titleEn": "ketchup",
               "priceValue": 500,
               "available": true
             },
             {
               "id": 1293493,
               "title": "메이플시럽(저당)",
+              "titleEn": "maple syrup(low sugar)",
               "priceValue": 1000,
               "available": true
             },
             {
               "id": 1323457,
               "title": "시나몬 파우더",
+              "titleEn": "Cinnamon",
               "priceValue": 0,
               "available": true
             }
@@ -661,6 +746,7 @@
         {
           "id": 296010,
           "title": "원두 선택",
+          "titleEn": "beans",
           "required": true,
           "minChoices": 1,
           "maxChoices": 1,
@@ -668,18 +754,21 @@
             {
               "id": 901204,
               "title": "고소한 원두",
+              "titleEn": "savory beans",
               "priceValue": 0,
               "available": true
             },
             {
               "id": 901205,
               "title": "산미있는 원두",
+              "titleEn": "acidity beans",
               "priceValue": 0,
               "available": true
             },
             {
               "id": 901206,
               "title": "디카페인 원두",
+              "titleEn": "decaffeine",
               "priceValue": 500,
               "available": true
             }
@@ -688,6 +777,7 @@
         {
           "id": 294937,
           "title": "온도",
+          "titleEn": "temperature",
           "required": true,
           "minChoices": 1,
           "maxChoices": 1,
@@ -695,12 +785,14 @@
             {
               "id": 897956,
               "title": "따뜻하게",
+              "titleEn": "HOT",
               "priceValue": 0,
               "available": true
             },
             {
               "id": 897957,
               "title": "차갑게",
+              "titleEn": "ICE ",
               "priceValue": 0,
               "available": true
             }
@@ -709,6 +801,7 @@
         {
           "id": 294938,
           "title": "커피 옵션",
+          "titleEn": "Coffee Option",
           "required": false,
           "minChoices": 0,
           "maxChoices": 1,
@@ -716,18 +809,21 @@
             {
               "id": 897960,
               "title": "샷 추가",
+              "titleEn": "Extra Shot",
               "priceValue": 500,
               "available": true
             },
             {
               "id": 901463,
               "title": "연하게",
+              "titleEn": "one shot",
               "priceValue": 0,
               "available": true
             },
             {
               "id": 901465,
               "title": "바닐라시럽추가",
+              "titleEn": "vanilla syrup",
               "priceValue": 500,
               "available": true
             }
@@ -736,6 +832,7 @@
         {
           "id": 296015,
           "title": "오트 변경",
+          "titleEn": "Oat milk",
           "required": false,
           "minChoices": 0,
           "maxChoices": 1,
@@ -743,6 +840,7 @@
             {
               "id": 901219,
               "title": "오트 변경",
+              "titleEn": "Oat milk",
               "priceValue": 800,
               "available": true
             }
@@ -801,6 +899,7 @@
         {
           "id": 539375,
           "title": "연유 추가",
+          "titleEn": "condensed milk",
           "required": false,
           "minChoices": 0,
           "maxChoices": 1,
@@ -808,6 +907,7 @@
             {
               "id": 1671091,
               "title": "연유추가(20ml)",
+              "titleEn": "condensed milk",
               "priceValue": 1500,
               "available": true
             }
@@ -834,6 +934,7 @@
         {
           "id": 539375,
           "title": "연유 추가",
+          "titleEn": "condensed milk",
           "required": false,
           "minChoices": 0,
           "maxChoices": 1,
@@ -841,6 +942,7 @@
             {
               "id": 1671091,
               "title": "연유추가(20ml)",
+              "titleEn": "condensed milk",
               "priceValue": 1500,
               "available": true
             }
@@ -867,6 +969,7 @@
         {
           "id": 366680,
           "title": "와플 컷팅",
+          "titleEn": "Waffle Cutting",
           "required": true,
           "minChoices": 1,
           "maxChoices": 1,
@@ -874,12 +977,14 @@
             {
               "id": 1135717,
               "title": "그대로 주세요",
+              "titleEn": "Whole",
               "priceValue": 0,
               "available": true
             },
             {
               "id": 1135716,
               "title": "먹기좋게 잘라주세요",
+              "titleEn": "Cut",
               "priceValue": 0,
               "available": true
             }
@@ -888,6 +993,7 @@
         {
           "id": 316934,
           "title": "와플 옵션",
+          "titleEn": "Waffle Option",
           "required": false,
           "minChoices": 0,
           "maxChoices": 5,
@@ -895,30 +1001,35 @@
             {
               "id": 971773,
               "title": "시나몬 추가",
+              "titleEn": "Cinnamon",
               "priceValue": 500,
               "available": true
             },
             {
               "id": 971774,
               "title": "크림치즈 추가",
+              "titleEn": "Cream Cheese",
               "priceValue": 1000,
               "available": true
             },
             {
               "id": 971775,
               "title": "골든애플잼 추가",
+              "titleEn": "Golden Apple Jam ",
               "priceValue": 1000,
               "available": true
             },
             {
               "id": 1129310,
               "title": "블루베리잼 추가",
+              "titleEn": "Blueberry Jam",
               "priceValue": 1000,
               "available": true
             },
             {
               "id": 1129311,
               "title": "딸기잼 추가",
+              "titleEn": "Strawberry Jam",
               "priceValue": 1000,
               "available": true
             }
@@ -945,6 +1056,7 @@
         {
           "id": 366680,
           "title": "와플 컷팅",
+          "titleEn": "Waffle Cutting",
           "required": true,
           "minChoices": 1,
           "maxChoices": 1,
@@ -952,12 +1064,14 @@
             {
               "id": 1135717,
               "title": "그대로 주세요",
+              "titleEn": "Whole",
               "priceValue": 0,
               "available": true
             },
             {
               "id": 1135716,
               "title": "먹기좋게 잘라주세요",
+              "titleEn": "Cut",
               "priceValue": 0,
               "available": true
             }
@@ -982,6 +1096,7 @@
         {
           "id": 366680,
           "title": "와플 컷팅",
+          "titleEn": "Waffle Cutting",
           "required": true,
           "minChoices": 1,
           "maxChoices": 1,
@@ -989,12 +1104,14 @@
             {
               "id": 1135717,
               "title": "그대로 주세요",
+              "titleEn": "Whole",
               "priceValue": 0,
               "available": true
             },
             {
               "id": 1135716,
               "title": "먹기좋게 잘라주세요",
+              "titleEn": "Cut",
               "priceValue": 0,
               "available": true
             }
@@ -1019,6 +1136,7 @@
         {
           "id": 296010,
           "title": "원두 선택",
+          "titleEn": "beans",
           "required": true,
           "minChoices": 1,
           "maxChoices": 1,
@@ -1026,18 +1144,21 @@
             {
               "id": 901204,
               "title": "고소한 원두",
+              "titleEn": "savory beans",
               "priceValue": 0,
               "available": true
             },
             {
               "id": 901205,
               "title": "산미있는 원두",
+              "titleEn": "acidity beans",
               "priceValue": 0,
               "available": true
             },
             {
               "id": 901206,
               "title": "디카페인 원두",
+              "titleEn": "decaffeine",
               "priceValue": 500,
               "available": true
             }
@@ -1062,6 +1183,7 @@
         {
           "id": 296010,
           "title": "원두 선택",
+          "titleEn": "beans",
           "required": true,
           "minChoices": 1,
           "maxChoices": 1,
@@ -1069,18 +1191,21 @@
             {
               "id": 901204,
               "title": "고소한 원두",
+              "titleEn": "savory beans",
               "priceValue": 0,
               "available": true
             },
             {
               "id": 901205,
               "title": "산미있는 원두",
+              "titleEn": "acidity beans",
               "priceValue": 0,
               "available": true
             },
             {
               "id": 901206,
               "title": "디카페인 원두",
+              "titleEn": "decaffeine",
               "priceValue": 500,
               "available": true
             }
@@ -1105,6 +1230,7 @@
         {
           "id": 296010,
           "title": "원두 선택",
+          "titleEn": "beans",
           "required": true,
           "minChoices": 1,
           "maxChoices": 1,
@@ -1112,18 +1238,21 @@
             {
               "id": 901204,
               "title": "고소한 원두",
+              "titleEn": "savory beans",
               "priceValue": 0,
               "available": true
             },
             {
               "id": 901205,
               "title": "산미있는 원두",
+              "titleEn": "acidity beans",
               "priceValue": 0,
               "available": true
             },
             {
               "id": 901206,
               "title": "디카페인 원두",
+              "titleEn": "decaffeine",
               "priceValue": 500,
               "available": true
             }
@@ -1132,6 +1261,7 @@
         {
           "id": 294937,
           "title": "온도",
+          "titleEn": "temperature",
           "required": true,
           "minChoices": 1,
           "maxChoices": 1,
@@ -1139,12 +1269,14 @@
             {
               "id": 897956,
               "title": "따뜻하게",
+              "titleEn": "HOT",
               "priceValue": 0,
               "available": true
             },
             {
               "id": 897957,
               "title": "차갑게",
+              "titleEn": "ICE ",
               "priceValue": 0,
               "available": true
             }
@@ -1153,6 +1285,7 @@
         {
           "id": 294938,
           "title": "커피 옵션",
+          "titleEn": "Coffee Option",
           "required": false,
           "minChoices": 0,
           "maxChoices": 1,
@@ -1160,18 +1293,21 @@
             {
               "id": 897960,
               "title": "샷 추가",
+              "titleEn": "Extra Shot",
               "priceValue": 500,
               "available": true
             },
             {
               "id": 901463,
               "title": "연하게",
+              "titleEn": "one shot",
               "priceValue": 0,
               "available": true
             },
             {
               "id": 901465,
               "title": "바닐라시럽추가",
+              "titleEn": "vanilla syrup",
               "priceValue": 500,
               "available": true
             }
@@ -1180,6 +1316,7 @@
         {
           "id": 296015,
           "title": "오트 변경",
+          "titleEn": "Oat milk",
           "required": false,
           "minChoices": 0,
           "maxChoices": 1,
@@ -1187,6 +1324,7 @@
             {
               "id": 901219,
               "title": "오트 변경",
+              "titleEn": "Oat milk",
               "priceValue": 800,
               "available": true
             }
@@ -1211,6 +1349,7 @@
         {
           "id": 296010,
           "title": "원두 선택",
+          "titleEn": "beans",
           "required": true,
           "minChoices": 1,
           "maxChoices": 1,
@@ -1218,18 +1357,21 @@
             {
               "id": 901204,
               "title": "고소한 원두",
+              "titleEn": "savory beans",
               "priceValue": 0,
               "available": true
             },
             {
               "id": 901205,
               "title": "산미있는 원두",
+              "titleEn": "acidity beans",
               "priceValue": 0,
               "available": true
             },
             {
               "id": 901206,
               "title": "디카페인 원두",
+              "titleEn": "decaffeine",
               "priceValue": 500,
               "available": true
             }
@@ -1238,6 +1380,7 @@
         {
           "id": 294937,
           "title": "온도",
+          "titleEn": "temperature",
           "required": true,
           "minChoices": 1,
           "maxChoices": 1,
@@ -1245,12 +1388,14 @@
             {
               "id": 897956,
               "title": "따뜻하게",
+              "titleEn": "HOT",
               "priceValue": 0,
               "available": true
             },
             {
               "id": 897957,
               "title": "차갑게",
+              "titleEn": "ICE ",
               "priceValue": 0,
               "available": true
             }
@@ -1259,6 +1404,7 @@
         {
           "id": 294938,
           "title": "커피 옵션",
+          "titleEn": "Coffee Option",
           "required": false,
           "minChoices": 0,
           "maxChoices": 1,
@@ -1266,18 +1412,21 @@
             {
               "id": 897960,
               "title": "샷 추가",
+              "titleEn": "Extra Shot",
               "priceValue": 500,
               "available": true
             },
             {
               "id": 901463,
               "title": "연하게",
+              "titleEn": "one shot",
               "priceValue": 0,
               "available": true
             },
             {
               "id": 901465,
               "title": "바닐라시럽추가",
+              "titleEn": "vanilla syrup",
               "priceValue": 500,
               "available": true
             }
@@ -1286,6 +1435,7 @@
         {
           "id": 296015,
           "title": "오트 변경",
+          "titleEn": "Oat milk",
           "required": false,
           "minChoices": 0,
           "maxChoices": 1,
@@ -1293,6 +1443,7 @@
             {
               "id": 901219,
               "title": "오트 변경",
+              "titleEn": "Oat milk",
               "priceValue": 800,
               "available": true
             }
@@ -1317,6 +1468,7 @@
         {
           "id": 296010,
           "title": "원두 선택",
+          "titleEn": "beans",
           "required": true,
           "minChoices": 1,
           "maxChoices": 1,
@@ -1324,18 +1476,21 @@
             {
               "id": 901204,
               "title": "고소한 원두",
+              "titleEn": "savory beans",
               "priceValue": 0,
               "available": true
             },
             {
               "id": 901205,
               "title": "산미있는 원두",
+              "titleEn": "acidity beans",
               "priceValue": 0,
               "available": true
             },
             {
               "id": 901206,
               "title": "디카페인 원두",
+              "titleEn": "decaffeine",
               "priceValue": 500,
               "available": true
             }
@@ -1360,6 +1515,7 @@
         {
           "id": 296010,
           "title": "원두 선택",
+          "titleEn": "beans",
           "required": true,
           "minChoices": 1,
           "maxChoices": 1,
@@ -1367,18 +1523,21 @@
             {
               "id": 901204,
               "title": "고소한 원두",
+              "titleEn": "savory beans",
               "priceValue": 0,
               "available": true
             },
             {
               "id": 901205,
               "title": "산미있는 원두",
+              "titleEn": "acidity beans",
               "priceValue": 0,
               "available": true
             },
             {
               "id": 901206,
               "title": "디카페인 원두",
+              "titleEn": "decaffeine",
               "priceValue": 500,
               "available": true
             }
@@ -1387,6 +1546,7 @@
         {
           "id": 294937,
           "title": "온도",
+          "titleEn": "temperature",
           "required": true,
           "minChoices": 1,
           "maxChoices": 1,
@@ -1394,12 +1554,14 @@
             {
               "id": 897956,
               "title": "따뜻하게",
+              "titleEn": "HOT",
               "priceValue": 0,
               "available": true
             },
             {
               "id": 897957,
               "title": "차갑게",
+              "titleEn": "ICE ",
               "priceValue": 0,
               "available": true
             }
@@ -1408,6 +1570,7 @@
         {
           "id": 460585,
           "title": "컵 사이즈",
+          "titleEn": "Cup Size",
           "required": false,
           "minChoices": 0,
           "maxChoices": 1,
@@ -1415,12 +1578,14 @@
             {
               "id": 1420320,
               "title": "레귤러",
+              "titleEn": "Regular",
               "priceValue": 0,
               "available": true
             },
             {
               "id": 1420321,
               "title": "라지(포장전용)",
+              "titleEn": "Large(To go)",
               "priceValue": 0,
               "available": true
             }
@@ -1429,6 +1594,7 @@
         {
           "id": 294938,
           "title": "커피 옵션",
+          "titleEn": "Coffee Option",
           "required": false,
           "minChoices": 0,
           "maxChoices": 1,
@@ -1436,18 +1602,21 @@
             {
               "id": 897960,
               "title": "샷 추가",
+              "titleEn": "Extra Shot",
               "priceValue": 500,
               "available": true
             },
             {
               "id": 901463,
               "title": "연하게",
+              "titleEn": "one shot",
               "priceValue": 0,
               "available": true
             },
             {
               "id": 901465,
               "title": "바닐라시럽추가",
+              "titleEn": "vanilla syrup",
               "priceValue": 500,
               "available": true
             }
@@ -1456,6 +1625,7 @@
         {
           "id": 296013,
           "title": "아메리카노 우유 추가",
+          "titleEn": "milk 20ml",
           "required": false,
           "minChoices": 0,
           "maxChoices": 1,
@@ -1463,6 +1633,7 @@
             {
               "id": 901216,
               "title": "우유 30ml 추가",
+              "titleEn": "milk 20ml",
               "priceValue": 500,
               "available": true
             }
@@ -1487,6 +1658,7 @@
         {
           "id": 296010,
           "title": "원두 선택",
+          "titleEn": "beans",
           "required": true,
           "minChoices": 1,
           "maxChoices": 1,
@@ -1494,18 +1666,21 @@
             {
               "id": 901204,
               "title": "고소한 원두",
+              "titleEn": "savory beans",
               "priceValue": 0,
               "available": true
             },
             {
               "id": 901205,
               "title": "산미있는 원두",
+              "titleEn": "acidity beans",
               "priceValue": 0,
               "available": true
             },
             {
               "id": 901206,
               "title": "디카페인 원두",
+              "titleEn": "decaffeine",
               "priceValue": 500,
               "available": true
             }
@@ -1514,6 +1689,7 @@
         {
           "id": 294937,
           "title": "온도",
+          "titleEn": "temperature",
           "required": true,
           "minChoices": 1,
           "maxChoices": 1,
@@ -1521,12 +1697,14 @@
             {
               "id": 897956,
               "title": "따뜻하게",
+              "titleEn": "HOT",
               "priceValue": 0,
               "available": true
             },
             {
               "id": 897957,
               "title": "차갑게",
+              "titleEn": "ICE ",
               "priceValue": 0,
               "available": true
             }
@@ -1535,6 +1713,7 @@
         {
           "id": 294938,
           "title": "커피 옵션",
+          "titleEn": "Coffee Option",
           "required": false,
           "minChoices": 0,
           "maxChoices": 1,
@@ -1542,18 +1721,21 @@
             {
               "id": 897960,
               "title": "샷 추가",
+              "titleEn": "Extra Shot",
               "priceValue": 500,
               "available": true
             },
             {
               "id": 901463,
               "title": "연하게",
+              "titleEn": "one shot",
               "priceValue": 0,
               "available": true
             },
             {
               "id": 901465,
               "title": "바닐라시럽추가",
+              "titleEn": "vanilla syrup",
               "priceValue": 500,
               "available": true
             }
@@ -1562,6 +1744,7 @@
         {
           "id": 296015,
           "title": "오트 변경",
+          "titleEn": "Oat milk",
           "required": false,
           "minChoices": 0,
           "maxChoices": 1,
@@ -1569,6 +1752,7 @@
             {
               "id": 901219,
               "title": "오트 변경",
+              "titleEn": "Oat milk",
               "priceValue": 800,
               "available": true
             }
@@ -1595,6 +1779,7 @@
         {
           "id": 296010,
           "title": "원두 선택",
+          "titleEn": "beans",
           "required": true,
           "minChoices": 1,
           "maxChoices": 1,
@@ -1602,18 +1787,21 @@
             {
               "id": 901204,
               "title": "고소한 원두",
+              "titleEn": "savory beans",
               "priceValue": 0,
               "available": true
             },
             {
               "id": 901205,
               "title": "산미있는 원두",
+              "titleEn": "acidity beans",
               "priceValue": 0,
               "available": true
             },
             {
               "id": 901206,
               "title": "디카페인 원두",
+              "titleEn": "decaffeine",
               "priceValue": 500,
               "available": true
             }
@@ -1622,6 +1810,7 @@
         {
           "id": 294937,
           "title": "온도",
+          "titleEn": "temperature",
           "required": true,
           "minChoices": 1,
           "maxChoices": 1,
@@ -1629,12 +1818,14 @@
             {
               "id": 897956,
               "title": "따뜻하게",
+              "titleEn": "HOT",
               "priceValue": 0,
               "available": true
             },
             {
               "id": 897957,
               "title": "차갑게",
+              "titleEn": "ICE ",
               "priceValue": 0,
               "available": true
             }
@@ -1643,6 +1834,7 @@
         {
           "id": 294938,
           "title": "커피 옵션",
+          "titleEn": "Coffee Option",
           "required": false,
           "minChoices": 0,
           "maxChoices": 1,
@@ -1650,18 +1842,21 @@
             {
               "id": 897960,
               "title": "샷 추가",
+              "titleEn": "Extra Shot",
               "priceValue": 500,
               "available": true
             },
             {
               "id": 901463,
               "title": "연하게",
+              "titleEn": "one shot",
               "priceValue": 0,
               "available": true
             },
             {
               "id": 901465,
               "title": "바닐라시럽추가",
+              "titleEn": "vanilla syrup",
               "priceValue": 500,
               "available": true
             }
@@ -1670,6 +1865,7 @@
         {
           "id": 296015,
           "title": "오트 변경",
+          "titleEn": "Oat milk",
           "required": false,
           "minChoices": 0,
           "maxChoices": 1,
@@ -1677,6 +1873,7 @@
             {
               "id": 901219,
               "title": "오트 변경",
+              "titleEn": "Oat milk",
               "priceValue": 800,
               "available": true
             }
@@ -1703,6 +1900,7 @@
         {
           "id": 296010,
           "title": "원두 선택",
+          "titleEn": "beans",
           "required": true,
           "minChoices": 1,
           "maxChoices": 1,
@@ -1710,18 +1908,21 @@
             {
               "id": 901204,
               "title": "고소한 원두",
+              "titleEn": "savory beans",
               "priceValue": 0,
               "available": true
             },
             {
               "id": 901205,
               "title": "산미있는 원두",
+              "titleEn": "acidity beans",
               "priceValue": 0,
               "available": true
             },
             {
               "id": 901206,
               "title": "디카페인 원두",
+              "titleEn": "decaffeine",
               "priceValue": 500,
               "available": true
             }
@@ -1730,6 +1931,7 @@
         {
           "id": 294937,
           "title": "온도",
+          "titleEn": "temperature",
           "required": true,
           "minChoices": 1,
           "maxChoices": 1,
@@ -1737,12 +1939,14 @@
             {
               "id": 897956,
               "title": "따뜻하게",
+              "titleEn": "HOT",
               "priceValue": 0,
               "available": true
             },
             {
               "id": 897957,
               "title": "차갑게",
+              "titleEn": "ICE ",
               "priceValue": 0,
               "available": true
             }
@@ -1751,6 +1955,7 @@
         {
           "id": 294938,
           "title": "커피 옵션",
+          "titleEn": "Coffee Option",
           "required": false,
           "minChoices": 0,
           "maxChoices": 1,
@@ -1758,18 +1963,21 @@
             {
               "id": 897960,
               "title": "샷 추가",
+              "titleEn": "Extra Shot",
               "priceValue": 500,
               "available": true
             },
             {
               "id": 901463,
               "title": "연하게",
+              "titleEn": "one shot",
               "priceValue": 0,
               "available": true
             },
             {
               "id": 901465,
               "title": "바닐라시럽추가",
+              "titleEn": "vanilla syrup",
               "priceValue": 500,
               "available": true
             }
@@ -1778,6 +1986,7 @@
         {
           "id": 296015,
           "title": "오트 변경",
+          "titleEn": "Oat milk",
           "required": false,
           "minChoices": 0,
           "maxChoices": 1,
@@ -1785,6 +1994,7 @@
             {
               "id": 901219,
               "title": "오트 변경",
+              "titleEn": "Oat milk",
               "priceValue": 800,
               "available": true
             }
@@ -1809,6 +2019,7 @@
         {
           "id": 296010,
           "title": "원두 선택",
+          "titleEn": "beans",
           "required": true,
           "minChoices": 1,
           "maxChoices": 1,
@@ -1816,18 +2027,21 @@
             {
               "id": 901204,
               "title": "고소한 원두",
+              "titleEn": "savory beans",
               "priceValue": 0,
               "available": true
             },
             {
               "id": 901205,
               "title": "산미있는 원두",
+              "titleEn": "acidity beans",
               "priceValue": 0,
               "available": true
             },
             {
               "id": 901206,
               "title": "디카페인 원두",
+              "titleEn": "decaffeine",
               "priceValue": 500,
               "available": true
             }
@@ -1836,6 +2050,7 @@
         {
           "id": 294937,
           "title": "온도",
+          "titleEn": "temperature",
           "required": true,
           "minChoices": 1,
           "maxChoices": 1,
@@ -1843,12 +2058,14 @@
             {
               "id": 897956,
               "title": "따뜻하게",
+              "titleEn": "HOT",
               "priceValue": 0,
               "available": true
             },
             {
               "id": 897957,
               "title": "차갑게",
+              "titleEn": "ICE ",
               "priceValue": 0,
               "available": true
             }
@@ -1857,6 +2074,7 @@
         {
           "id": 294938,
           "title": "커피 옵션",
+          "titleEn": "Coffee Option",
           "required": false,
           "minChoices": 0,
           "maxChoices": 1,
@@ -1864,18 +2082,21 @@
             {
               "id": 897960,
               "title": "샷 추가",
+              "titleEn": "Extra Shot",
               "priceValue": 500,
               "available": true
             },
             {
               "id": 901463,
               "title": "연하게",
+              "titleEn": "one shot",
               "priceValue": 0,
               "available": true
             },
             {
               "id": 901465,
               "title": "바닐라시럽추가",
+              "titleEn": "vanilla syrup",
               "priceValue": 500,
               "available": true
             }
@@ -1884,6 +2105,7 @@
         {
           "id": 296015,
           "title": "오트 변경",
+          "titleEn": "Oat milk",
           "required": false,
           "minChoices": 0,
           "maxChoices": 1,
@@ -1891,6 +2113,7 @@
             {
               "id": 901219,
               "title": "오트 변경",
+              "titleEn": "Oat milk",
               "priceValue": 800,
               "available": true
             }
@@ -1915,6 +2138,7 @@
         {
           "id": 296010,
           "title": "원두 선택",
+          "titleEn": "beans",
           "required": true,
           "minChoices": 1,
           "maxChoices": 1,
@@ -1922,18 +2146,21 @@
             {
               "id": 901204,
               "title": "고소한 원두",
+              "titleEn": "savory beans",
               "priceValue": 0,
               "available": true
             },
             {
               "id": 901205,
               "title": "산미있는 원두",
+              "titleEn": "acidity beans",
               "priceValue": 0,
               "available": true
             },
             {
               "id": 901206,
               "title": "디카페인 원두",
+              "titleEn": "decaffeine",
               "priceValue": 500,
               "available": true
             }
@@ -1942,6 +2169,7 @@
         {
           "id": 294937,
           "title": "온도",
+          "titleEn": "temperature",
           "required": true,
           "minChoices": 1,
           "maxChoices": 1,
@@ -1949,12 +2177,14 @@
             {
               "id": 897956,
               "title": "따뜻하게",
+              "titleEn": "HOT",
               "priceValue": 0,
               "available": true
             },
             {
               "id": 897957,
               "title": "차갑게",
+              "titleEn": "ICE ",
               "priceValue": 0,
               "available": true
             }
@@ -1963,6 +2193,7 @@
         {
           "id": 294938,
           "title": "커피 옵션",
+          "titleEn": "Coffee Option",
           "required": false,
           "minChoices": 0,
           "maxChoices": 1,
@@ -1970,18 +2201,21 @@
             {
               "id": 897960,
               "title": "샷 추가",
+              "titleEn": "Extra Shot",
               "priceValue": 500,
               "available": true
             },
             {
               "id": 901463,
               "title": "연하게",
+              "titleEn": "one shot",
               "priceValue": 0,
               "available": true
             },
             {
               "id": 901465,
               "title": "바닐라시럽추가",
+              "titleEn": "vanilla syrup",
               "priceValue": 500,
               "available": true
             }
@@ -1990,6 +2224,7 @@
         {
           "id": 296015,
           "title": "오트 변경",
+          "titleEn": "Oat milk",
           "required": false,
           "minChoices": 0,
           "maxChoices": 1,
@@ -1997,6 +2232,7 @@
             {
               "id": 901219,
               "title": "오트 변경",
+              "titleEn": "Oat milk",
               "priceValue": 800,
               "available": true
             }
@@ -2023,6 +2259,7 @@
         {
           "id": 296010,
           "title": "원두 선택",
+          "titleEn": "beans",
           "required": true,
           "minChoices": 1,
           "maxChoices": 1,
@@ -2030,18 +2267,21 @@
             {
               "id": 901204,
               "title": "고소한 원두",
+              "titleEn": "savory beans",
               "priceValue": 0,
               "available": true
             },
             {
               "id": 901205,
               "title": "산미있는 원두",
+              "titleEn": "acidity beans",
               "priceValue": 0,
               "available": true
             },
             {
               "id": 901206,
               "title": "디카페인 원두",
+              "titleEn": "decaffeine",
               "priceValue": 500,
               "available": true
             }
@@ -2050,6 +2290,7 @@
         {
           "id": 294938,
           "title": "커피 옵션",
+          "titleEn": "Coffee Option",
           "required": false,
           "minChoices": 0,
           "maxChoices": 1,
@@ -2057,18 +2298,21 @@
             {
               "id": 897960,
               "title": "샷 추가",
+              "titleEn": "Extra Shot",
               "priceValue": 500,
               "available": true
             },
             {
               "id": 901463,
               "title": "연하게",
+              "titleEn": "one shot",
               "priceValue": 0,
               "available": true
             },
             {
               "id": 901465,
               "title": "바닐라시럽추가",
+              "titleEn": "vanilla syrup",
               "priceValue": 500,
               "available": true
             }
@@ -2077,6 +2321,7 @@
         {
           "id": 296015,
           "title": "오트 변경",
+          "titleEn": "Oat milk",
           "required": false,
           "minChoices": 0,
           "maxChoices": 1,
@@ -2084,6 +2329,7 @@
             {
               "id": 901219,
               "title": "오트 변경",
+              "titleEn": "Oat milk",
               "priceValue": 800,
               "available": true
             }
@@ -2108,6 +2354,7 @@
         {
           "id": 296010,
           "title": "원두 선택",
+          "titleEn": "beans",
           "required": true,
           "minChoices": 1,
           "maxChoices": 1,
@@ -2115,18 +2362,21 @@
             {
               "id": 901204,
               "title": "고소한 원두",
+              "titleEn": "savory beans",
               "priceValue": 0,
               "available": true
             },
             {
               "id": 901205,
               "title": "산미있는 원두",
+              "titleEn": "acidity beans",
               "priceValue": 0,
               "available": true
             },
             {
               "id": 901206,
               "title": "디카페인 원두",
+              "titleEn": "decaffeine",
               "priceValue": 500,
               "available": true
             }
@@ -2153,6 +2403,7 @@
         {
           "id": 296010,
           "title": "원두 선택",
+          "titleEn": "beans",
           "required": true,
           "minChoices": 1,
           "maxChoices": 1,
@@ -2160,18 +2411,21 @@
             {
               "id": 901204,
               "title": "고소한 원두",
+              "titleEn": "savory beans",
               "priceValue": 0,
               "available": true
             },
             {
               "id": 901205,
               "title": "산미있는 원두",
+              "titleEn": "acidity beans",
               "priceValue": 0,
               "available": true
             },
             {
               "id": 901206,
               "title": "디카페인 원두",
+              "titleEn": "decaffeine",
               "priceValue": 500,
               "available": true
             }
@@ -2196,6 +2450,7 @@
         {
           "id": 296010,
           "title": "원두 선택",
+          "titleEn": "beans",
           "required": true,
           "minChoices": 1,
           "maxChoices": 1,
@@ -2203,18 +2458,21 @@
             {
               "id": 901204,
               "title": "고소한 원두",
+              "titleEn": "savory beans",
               "priceValue": 0,
               "available": true
             },
             {
               "id": 901205,
               "title": "산미있는 원두",
+              "titleEn": "acidity beans",
               "priceValue": 0,
               "available": true
             },
             {
               "id": 901206,
               "title": "디카페인 원두",
+              "titleEn": "decaffeine",
               "priceValue": 500,
               "available": true
             }
@@ -2223,6 +2481,7 @@
         {
           "id": 294937,
           "title": "온도",
+          "titleEn": "temperature",
           "required": true,
           "minChoices": 1,
           "maxChoices": 1,
@@ -2230,12 +2489,14 @@
             {
               "id": 897956,
               "title": "따뜻하게",
+              "titleEn": "HOT",
               "priceValue": 0,
               "available": true
             },
             {
               "id": 897957,
               "title": "차갑게",
+              "titleEn": "ICE ",
               "priceValue": 0,
               "available": true
             }
@@ -2244,6 +2505,7 @@
         {
           "id": 460585,
           "title": "컵 사이즈",
+          "titleEn": "Cup Size",
           "required": false,
           "minChoices": 0,
           "maxChoices": 1,
@@ -2251,12 +2513,14 @@
             {
               "id": 1420320,
               "title": "레귤러",
+              "titleEn": "Regular",
               "priceValue": 0,
               "available": true
             },
             {
               "id": 1420321,
               "title": "라지(포장전용)",
+              "titleEn": "Large(To go)",
               "priceValue": 0,
               "available": true
             }
@@ -2265,6 +2529,7 @@
         {
           "id": 294938,
           "title": "커피 옵션",
+          "titleEn": "Coffee Option",
           "required": false,
           "minChoices": 0,
           "maxChoices": 1,
@@ -2272,18 +2537,21 @@
             {
               "id": 897960,
               "title": "샷 추가",
+              "titleEn": "Extra Shot",
               "priceValue": 500,
               "available": true
             },
             {
               "id": 901463,
               "title": "연하게",
+              "titleEn": "one shot",
               "priceValue": 0,
               "available": true
             },
             {
               "id": 901465,
               "title": "바닐라시럽추가",
+              "titleEn": "vanilla syrup",
               "priceValue": 500,
               "available": true
             }
@@ -2310,6 +2578,7 @@
         {
           "id": 296010,
           "title": "원두 선택",
+          "titleEn": "beans",
           "required": true,
           "minChoices": 1,
           "maxChoices": 1,
@@ -2317,18 +2586,21 @@
             {
               "id": 901204,
               "title": "고소한 원두",
+              "titleEn": "savory beans",
               "priceValue": 0,
               "available": true
             },
             {
               "id": 901205,
               "title": "산미있는 원두",
+              "titleEn": "acidity beans",
               "priceValue": 0,
               "available": true
             },
             {
               "id": 901206,
               "title": "디카페인 원두",
+              "titleEn": "decaffeine",
               "priceValue": 500,
               "available": true
             }
@@ -2337,6 +2609,7 @@
         {
           "id": 296015,
           "title": "오트 변경",
+          "titleEn": "Oat milk",
           "required": false,
           "minChoices": 0,
           "maxChoices": 1,
@@ -2344,6 +2617,7 @@
             {
               "id": 901219,
               "title": "오트 변경",
+              "titleEn": "Oat milk",
               "priceValue": 800,
               "available": true
             }
@@ -2368,6 +2642,7 @@
         {
           "id": 296010,
           "title": "원두 선택",
+          "titleEn": "beans",
           "required": true,
           "minChoices": 1,
           "maxChoices": 1,
@@ -2375,18 +2650,21 @@
             {
               "id": 901204,
               "title": "고소한 원두",
+              "titleEn": "savory beans",
               "priceValue": 0,
               "available": true
             },
             {
               "id": 901205,
               "title": "산미있는 원두",
+              "titleEn": "acidity beans",
               "priceValue": 0,
               "available": true
             },
             {
               "id": 901206,
               "title": "디카페인 원두",
+              "titleEn": "decaffeine",
               "priceValue": 500,
               "available": true
             }
@@ -2395,6 +2673,7 @@
         {
           "id": 294937,
           "title": "온도",
+          "titleEn": "temperature",
           "required": true,
           "minChoices": 1,
           "maxChoices": 1,
@@ -2402,12 +2681,14 @@
             {
               "id": 897956,
               "title": "따뜻하게",
+              "titleEn": "HOT",
               "priceValue": 0,
               "available": true
             },
             {
               "id": 897957,
               "title": "차갑게",
+              "titleEn": "ICE ",
               "priceValue": 0,
               "available": true
             }
@@ -2416,6 +2697,7 @@
         {
           "id": 294938,
           "title": "커피 옵션",
+          "titleEn": "Coffee Option",
           "required": false,
           "minChoices": 0,
           "maxChoices": 1,
@@ -2423,18 +2705,21 @@
             {
               "id": 897960,
               "title": "샷 추가",
+              "titleEn": "Extra Shot",
               "priceValue": 500,
               "available": true
             },
             {
               "id": 901463,
               "title": "연하게",
+              "titleEn": "one shot",
               "priceValue": 0,
               "available": true
             },
             {
               "id": 901465,
               "title": "바닐라시럽추가",
+              "titleEn": "vanilla syrup",
               "priceValue": 500,
               "available": true
             }
@@ -2443,6 +2728,7 @@
         {
           "id": 296015,
           "title": "오트 변경",
+          "titleEn": "Oat milk",
           "required": false,
           "minChoices": 0,
           "maxChoices": 1,
@@ -2450,6 +2736,7 @@
             {
               "id": 901219,
               "title": "오트 변경",
+              "titleEn": "Oat milk",
               "priceValue": 800,
               "available": true
             }
@@ -2458,6 +2745,7 @@
         {
           "id": 296097,
           "title": "샷 추가",
+          "titleEn": "샷 추가",
           "required": false,
           "minChoices": 0,
           "maxChoices": 1,
@@ -2465,18 +2753,21 @@
             {
               "id": 901470,
               "title": "샷추가(고소)",
+              "titleEn": "샷추가(고소)",
               "priceValue": 500,
               "available": true
             },
             {
               "id": 901471,
               "title": "샷추가(산미)",
+              "titleEn": "샷추가(산미)",
               "priceValue": 500,
               "available": true
             },
             {
               "id": 901472,
               "title": "디카페인 샷 추가",
+              "titleEn": "디카페인 샷 추가",
               "priceValue": 1000,
               "available": true
             }
@@ -2535,6 +2826,7 @@
         {
           "id": 296010,
           "title": "원두 선택",
+          "titleEn": "beans",
           "required": true,
           "minChoices": 1,
           "maxChoices": 1,
@@ -2542,18 +2834,21 @@
             {
               "id": 901204,
               "title": "고소한 원두",
+              "titleEn": "savory beans",
               "priceValue": 0,
               "available": true
             },
             {
               "id": 901205,
               "title": "산미있는 원두",
+              "titleEn": "acidity beans",
               "priceValue": 0,
               "available": true
             },
             {
               "id": 901206,
               "title": "디카페인 원두",
+              "titleEn": "decaffeine",
               "priceValue": 500,
               "available": true
             }
@@ -2562,6 +2857,7 @@
         {
           "id": 294937,
           "title": "온도",
+          "titleEn": "temperature",
           "required": true,
           "minChoices": 1,
           "maxChoices": 1,
@@ -2569,12 +2865,14 @@
             {
               "id": 897956,
               "title": "따뜻하게",
+              "titleEn": "HOT",
               "priceValue": 0,
               "available": true
             },
             {
               "id": 897957,
               "title": "차갑게",
+              "titleEn": "ICE ",
               "priceValue": 0,
               "available": true
             }
@@ -2583,6 +2881,7 @@
         {
           "id": 296015,
           "title": "오트 변경",
+          "titleEn": "Oat milk",
           "required": false,
           "minChoices": 0,
           "maxChoices": 1,
@@ -2590,6 +2889,7 @@
             {
               "id": 901219,
               "title": "오트 변경",
+              "titleEn": "Oat milk",
               "priceValue": 800,
               "available": true
             }
@@ -2623,12 +2923,13 @@
       "descriptionEn": "A sip of fluffy clouds,\nsmooth white chocolate infused with the light of the sky.",
       "priceValue": 7500,
       "priceTitle": "기본",
-      "available": true,
+      "available": false,
       "labels": [],
       "optionSets": [
         {
           "id": 296015,
           "title": "오트 변경",
+          "titleEn": "Oat milk",
           "required": false,
           "minChoices": 0,
           "maxChoices": 1,
@@ -2636,6 +2937,7 @@
             {
               "id": 901219,
               "title": "오트 변경",
+              "titleEn": "Oat milk",
               "priceValue": 800,
               "available": true
             }
@@ -2662,6 +2964,7 @@
         {
           "id": 294937,
           "title": "온도",
+          "titleEn": "temperature",
           "required": true,
           "minChoices": 1,
           "maxChoices": 1,
@@ -2669,12 +2972,14 @@
             {
               "id": 897956,
               "title": "따뜻하게",
+              "titleEn": "HOT",
               "priceValue": 0,
               "available": true
             },
             {
               "id": 897957,
               "title": "차갑게",
+              "titleEn": "ICE ",
               "priceValue": 0,
               "available": true
             }
@@ -2683,6 +2988,7 @@
         {
           "id": 296015,
           "title": "오트 변경",
+          "titleEn": "Oat milk",
           "required": false,
           "minChoices": 0,
           "maxChoices": 1,
@@ -2690,6 +2996,7 @@
             {
               "id": 901219,
               "title": "오트 변경",
+              "titleEn": "Oat milk",
               "priceValue": 800,
               "available": true
             }
@@ -2731,6 +3038,7 @@
         {
           "id": 294937,
           "title": "온도",
+          "titleEn": "temperature",
           "required": true,
           "minChoices": 1,
           "maxChoices": 1,
@@ -2738,12 +3046,14 @@
             {
               "id": 897956,
               "title": "따뜻하게",
+              "titleEn": "HOT",
               "priceValue": 0,
               "available": true
             },
             {
               "id": 897957,
               "title": "차갑게",
+              "titleEn": "ICE ",
               "priceValue": 0,
               "available": true
             }
@@ -2752,6 +3062,7 @@
         {
           "id": 296015,
           "title": "오트 변경",
+          "titleEn": "Oat milk",
           "required": false,
           "minChoices": 0,
           "maxChoices": 1,
@@ -2759,6 +3070,7 @@
             {
               "id": 901219,
               "title": "오트 변경",
+              "titleEn": "Oat milk",
               "priceValue": 800,
               "available": true
             }
@@ -2785,6 +3097,7 @@
         {
           "id": 294937,
           "title": "온도",
+          "titleEn": "temperature",
           "required": true,
           "minChoices": 1,
           "maxChoices": 1,
@@ -2792,12 +3105,14 @@
             {
               "id": 897956,
               "title": "따뜻하게",
+              "titleEn": "HOT",
               "priceValue": 0,
               "available": true
             },
             {
               "id": 897957,
               "title": "차갑게",
+              "titleEn": "ICE ",
               "priceValue": 0,
               "available": true
             }
@@ -2806,6 +3121,7 @@
         {
           "id": 296015,
           "title": "오트 변경",
+          "titleEn": "Oat milk",
           "required": false,
           "minChoices": 0,
           "maxChoices": 1,
@@ -2813,6 +3129,7 @@
             {
               "id": 901219,
               "title": "오트 변경",
+              "titleEn": "Oat milk",
               "priceValue": 800,
               "available": true
             }
@@ -2837,6 +3154,7 @@
         {
           "id": 296015,
           "title": "오트 변경",
+          "titleEn": "Oat milk",
           "required": false,
           "minChoices": 0,
           "maxChoices": 1,
@@ -2844,6 +3162,7 @@
             {
               "id": 901219,
               "title": "오트 변경",
+              "titleEn": "Oat milk",
               "priceValue": 800,
               "available": true
             }
@@ -2868,6 +3187,7 @@
         {
           "id": 294937,
           "title": "온도",
+          "titleEn": "temperature",
           "required": true,
           "minChoices": 1,
           "maxChoices": 1,
@@ -2875,12 +3195,14 @@
             {
               "id": 897956,
               "title": "따뜻하게",
+              "titleEn": "HOT",
               "priceValue": 0,
               "available": true
             },
             {
               "id": 897957,
               "title": "차갑게",
+              "titleEn": "ICE ",
               "priceValue": 0,
               "available": true
             }
@@ -2889,6 +3211,7 @@
         {
           "id": 296015,
           "title": "오트 변경",
+          "titleEn": "Oat milk",
           "required": false,
           "minChoices": 0,
           "maxChoices": 1,
@@ -2896,6 +3219,7 @@
             {
               "id": 901219,
               "title": "오트 변경",
+              "titleEn": "Oat milk",
               "priceValue": 800,
               "available": true
             }
@@ -2920,6 +3244,7 @@
         {
           "id": 294937,
           "title": "온도",
+          "titleEn": "temperature",
           "required": true,
           "minChoices": 1,
           "maxChoices": 1,
@@ -2927,12 +3252,14 @@
             {
               "id": 897956,
               "title": "따뜻하게",
+              "titleEn": "HOT",
               "priceValue": 0,
               "available": true
             },
             {
               "id": 897957,
               "title": "차갑게",
+              "titleEn": "ICE ",
               "priceValue": 0,
               "available": true
             }
@@ -2959,6 +3286,7 @@
         {
           "id": 366680,
           "title": "와플 컷팅",
+          "titleEn": "Waffle Cutting",
           "required": true,
           "minChoices": 1,
           "maxChoices": 1,
@@ -2966,12 +3294,14 @@
             {
               "id": 1135717,
               "title": "그대로 주세요",
+              "titleEn": "Whole",
               "priceValue": 0,
               "available": true
             },
             {
               "id": 1135716,
               "title": "먹기좋게 잘라주세요",
+              "titleEn": "Cut",
               "priceValue": 0,
               "available": true
             }
@@ -2980,6 +3310,7 @@
         {
           "id": 473272,
           "title": "와플 아이스크림 추가",
+          "titleEn": "Ice Cream",
           "required": false,
           "minChoices": 0,
           "maxChoices": 2,
@@ -2987,12 +3318,14 @@
             {
               "id": 1462666,
               "title": "바닐라",
+              "titleEn": "Vanilla",
               "priceValue": 2500,
               "available": true
             },
             {
               "id": 1462667,
               "title": "초코",
+              "titleEn": "Chocolate",
               "priceValue": 2500,
               "available": true
             }
@@ -3007,8 +3340,8 @@
       "categoryTitleEn": "Belgium Waffle",
       "title": "[시즌한정]무화과&크림치즈 와플",
       "titleEn": "FIG&Cream Cheese Waffle",
-      "description": "부드러운 크림치즈와 생무화과의 완벽한 앙상블~*",
-      "descriptionEn": "The perfect ensemble of rich cream cheese and fresh figs.",
+      "description": "달콤한 무화과와 부드러운 크림치즈 무스, 피스타치오를 올린 바삭한 리에쥬 와플.",
+      "descriptionEn": "A crisp Belgian Liège waffle topped with sweet fresh figs, smooth cream cheese mousse, pistachio crumble, and a drizzle of maple syrup.",
       "priceValue": 15000,
       "priceTitle": "기본",
       "available": true,
@@ -3019,6 +3352,7 @@
         {
           "id": 366680,
           "title": "와플 컷팅",
+          "titleEn": "Waffle Cutting",
           "required": true,
           "minChoices": 1,
           "maxChoices": 1,
@@ -3026,12 +3360,14 @@
             {
               "id": 1135717,
               "title": "그대로 주세요",
+              "titleEn": "Whole",
               "priceValue": 0,
               "available": true
             },
             {
               "id": 1135716,
               "title": "먹기좋게 잘라주세요",
+              "titleEn": "Cut",
               "priceValue": 0,
               "available": true
             }
@@ -3056,6 +3392,7 @@
         {
           "id": 366680,
           "title": "와플 컷팅",
+          "titleEn": "Waffle Cutting",
           "required": true,
           "minChoices": 1,
           "maxChoices": 1,
@@ -3063,12 +3400,14 @@
             {
               "id": 1135717,
               "title": "그대로 주세요",
+              "titleEn": "Whole",
               "priceValue": 0,
               "available": true
             },
             {
               "id": 1135716,
               "title": "먹기좋게 잘라주세요",
+              "titleEn": "Cut",
               "priceValue": 0,
               "available": true
             }
@@ -3077,6 +3416,7 @@
         {
           "id": 316934,
           "title": "와플 옵션",
+          "titleEn": "Waffle Option",
           "required": false,
           "minChoices": 0,
           "maxChoices": 5,
@@ -3084,30 +3424,35 @@
             {
               "id": 971773,
               "title": "시나몬 추가",
+              "titleEn": "Cinnamon",
               "priceValue": 500,
               "available": true
             },
             {
               "id": 971774,
               "title": "크림치즈 추가",
+              "titleEn": "Cream Cheese",
               "priceValue": 1000,
               "available": true
             },
             {
               "id": 971775,
               "title": "골든애플잼 추가",
+              "titleEn": "Golden Apple Jam ",
               "priceValue": 1000,
               "available": true
             },
             {
               "id": 1129310,
               "title": "블루베리잼 추가",
+              "titleEn": "Blueberry Jam",
               "priceValue": 1000,
               "available": true
             },
             {
               "id": 1129311,
               "title": "딸기잼 추가",
+              "titleEn": "Strawberry Jam",
               "priceValue": 1000,
               "available": true
             }
@@ -3116,6 +3461,7 @@
         {
           "id": 329634,
           "title": "휘핑크림 추가",
+          "titleEn": "Whipped Cream",
           "required": false,
           "minChoices": 0,
           "maxChoices": 1,
@@ -3123,6 +3469,7 @@
             {
               "id": 1014239,
               "title": "휘핑크림 추가",
+              "titleEn": "Whipped Cream",
               "priceValue": 1000,
               "available": true
             }
@@ -3131,6 +3478,7 @@
         {
           "id": 473272,
           "title": "와플 아이스크림 추가",
+          "titleEn": "Ice Cream",
           "required": false,
           "minChoices": 0,
           "maxChoices": 2,
@@ -3138,12 +3486,14 @@
             {
               "id": 1462666,
               "title": "바닐라",
+              "titleEn": "Vanilla",
               "priceValue": 2500,
               "available": true
             },
             {
               "id": 1462667,
               "title": "초코",
+              "titleEn": "Chocolate",
               "priceValue": 2500,
               "available": true
             }
@@ -3170,6 +3520,7 @@
         {
           "id": 366680,
           "title": "와플 컷팅",
+          "titleEn": "Waffle Cutting",
           "required": true,
           "minChoices": 1,
           "maxChoices": 1,
@@ -3177,12 +3528,14 @@
             {
               "id": 1135717,
               "title": "그대로 주세요",
+              "titleEn": "Whole",
               "priceValue": 0,
               "available": true
             },
             {
               "id": 1135716,
               "title": "먹기좋게 잘라주세요",
+              "titleEn": "Cut",
               "priceValue": 0,
               "available": true
             }
@@ -3191,6 +3544,7 @@
         {
           "id": 316934,
           "title": "와플 옵션",
+          "titleEn": "Waffle Option",
           "required": false,
           "minChoices": 0,
           "maxChoices": 5,
@@ -3198,30 +3552,35 @@
             {
               "id": 971773,
               "title": "시나몬 추가",
+              "titleEn": "Cinnamon",
               "priceValue": 500,
               "available": true
             },
             {
               "id": 971774,
               "title": "크림치즈 추가",
+              "titleEn": "Cream Cheese",
               "priceValue": 1000,
               "available": true
             },
             {
               "id": 971775,
               "title": "골든애플잼 추가",
+              "titleEn": "Golden Apple Jam ",
               "priceValue": 1000,
               "available": true
             },
             {
               "id": 1129310,
               "title": "블루베리잼 추가",
+              "titleEn": "Blueberry Jam",
               "priceValue": 1000,
               "available": true
             },
             {
               "id": 1129311,
               "title": "딸기잼 추가",
+              "titleEn": "Strawberry Jam",
               "priceValue": 1000,
               "available": true
             }
@@ -3230,6 +3589,7 @@
         {
           "id": 473272,
           "title": "와플 아이스크림 추가",
+          "titleEn": "Ice Cream",
           "required": false,
           "minChoices": 0,
           "maxChoices": 2,
@@ -3237,12 +3597,14 @@
             {
               "id": 1462666,
               "title": "바닐라",
+              "titleEn": "Vanilla",
               "priceValue": 2500,
               "available": true
             },
             {
               "id": 1462667,
               "title": "초코",
+              "titleEn": "Chocolate",
               "priceValue": 2500,
               "available": true
             }
@@ -3267,6 +3629,7 @@
         {
           "id": 366680,
           "title": "와플 컷팅",
+          "titleEn": "Waffle Cutting",
           "required": true,
           "minChoices": 1,
           "maxChoices": 1,
@@ -3274,12 +3637,14 @@
             {
               "id": 1135717,
               "title": "그대로 주세요",
+              "titleEn": "Whole",
               "priceValue": 0,
               "available": true
             },
             {
               "id": 1135716,
               "title": "먹기좋게 잘라주세요",
+              "titleEn": "Cut",
               "priceValue": 0,
               "available": true
             }
@@ -3288,6 +3653,7 @@
         {
           "id": 316934,
           "title": "와플 옵션",
+          "titleEn": "Waffle Option",
           "required": false,
           "minChoices": 0,
           "maxChoices": 5,
@@ -3295,30 +3661,35 @@
             {
               "id": 971773,
               "title": "시나몬 추가",
+              "titleEn": "Cinnamon",
               "priceValue": 500,
               "available": true
             },
             {
               "id": 971774,
               "title": "크림치즈 추가",
+              "titleEn": "Cream Cheese",
               "priceValue": 1000,
               "available": true
             },
             {
               "id": 971775,
               "title": "골든애플잼 추가",
+              "titleEn": "Golden Apple Jam ",
               "priceValue": 1000,
               "available": true
             },
             {
               "id": 1129310,
               "title": "블루베리잼 추가",
+              "titleEn": "Blueberry Jam",
               "priceValue": 1000,
               "available": true
             },
             {
               "id": 1129311,
               "title": "딸기잼 추가",
+              "titleEn": "Strawberry Jam",
               "priceValue": 1000,
               "available": true
             }
@@ -3327,6 +3698,7 @@
         {
           "id": 335055,
           "title": "크림치즈추가",
+          "titleEn": "크림치즈추가",
           "required": false,
           "minChoices": 0,
           "maxChoices": 1,
@@ -3334,6 +3706,7 @@
             {
               "id": 1032817,
               "title": "크림치즈추가",
+              "titleEn": "크림치즈추가",
               "priceValue": 1000,
               "available": true
             }
@@ -3342,6 +3715,7 @@
         {
           "id": 473272,
           "title": "와플 아이스크림 추가",
+          "titleEn": "Ice Cream",
           "required": false,
           "minChoices": 0,
           "maxChoices": 2,
@@ -3349,12 +3723,14 @@
             {
               "id": 1462666,
               "title": "바닐라",
+              "titleEn": "Vanilla",
               "priceValue": 2500,
               "available": true
             },
             {
               "id": 1462667,
               "title": "초코",
+              "titleEn": "Chocolate",
               "priceValue": 2500,
               "available": true
             }
@@ -3381,6 +3757,7 @@
         {
           "id": 366680,
           "title": "와플 컷팅",
+          "titleEn": "Waffle Cutting",
           "required": true,
           "minChoices": 1,
           "maxChoices": 1,
@@ -3388,12 +3765,14 @@
             {
               "id": 1135717,
               "title": "그대로 주세요",
+              "titleEn": "Whole",
               "priceValue": 0,
               "available": true
             },
             {
               "id": 1135716,
               "title": "먹기좋게 잘라주세요",
+              "titleEn": "Cut",
               "priceValue": 0,
               "available": true
             }
@@ -3402,6 +3781,7 @@
         {
           "id": 316934,
           "title": "와플 옵션",
+          "titleEn": "Waffle Option",
           "required": false,
           "minChoices": 0,
           "maxChoices": 5,
@@ -3409,30 +3789,35 @@
             {
               "id": 971773,
               "title": "시나몬 추가",
+              "titleEn": "Cinnamon",
               "priceValue": 500,
               "available": true
             },
             {
               "id": 971774,
               "title": "크림치즈 추가",
+              "titleEn": "Cream Cheese",
               "priceValue": 1000,
               "available": true
             },
             {
               "id": 971775,
               "title": "골든애플잼 추가",
+              "titleEn": "Golden Apple Jam ",
               "priceValue": 1000,
               "available": true
             },
             {
               "id": 1129310,
               "title": "블루베리잼 추가",
+              "titleEn": "Blueberry Jam",
               "priceValue": 1000,
               "available": true
             },
             {
               "id": 1129311,
               "title": "딸기잼 추가",
+              "titleEn": "Strawberry Jam",
               "priceValue": 1000,
               "available": true
             }
@@ -3441,6 +3826,7 @@
         {
           "id": 473272,
           "title": "와플 아이스크림 추가",
+          "titleEn": "Ice Cream",
           "required": false,
           "minChoices": 0,
           "maxChoices": 2,
@@ -3448,12 +3834,14 @@
             {
               "id": 1462666,
               "title": "바닐라",
+              "titleEn": "Vanilla",
               "priceValue": 2500,
               "available": true
             },
             {
               "id": 1462667,
               "title": "초코",
+              "titleEn": "Chocolate",
               "priceValue": 2500,
               "available": true
             }
@@ -3478,6 +3866,7 @@
         {
           "id": 296010,
           "title": "원두 선택",
+          "titleEn": "beans",
           "required": true,
           "minChoices": 1,
           "maxChoices": 1,
@@ -3485,18 +3874,21 @@
             {
               "id": 901204,
               "title": "고소한 원두",
+              "titleEn": "savory beans",
               "priceValue": 0,
               "available": true
             },
             {
               "id": 901205,
               "title": "산미있는 원두",
+              "titleEn": "acidity beans",
               "priceValue": 0,
               "available": true
             },
             {
               "id": 901206,
               "title": "디카페인 원두",
+              "titleEn": "decaffeine",
               "priceValue": 500,
               "available": true
             }
@@ -3505,6 +3897,7 @@
         {
           "id": 294937,
           "title": "온도",
+          "titleEn": "temperature",
           "required": true,
           "minChoices": 1,
           "maxChoices": 1,
@@ -3512,12 +3905,14 @@
             {
               "id": 897956,
               "title": "따뜻하게",
+              "titleEn": "HOT",
               "priceValue": 0,
               "available": true
             },
             {
               "id": 897957,
               "title": "차갑게",
+              "titleEn": "ICE ",
               "priceValue": 0,
               "available": true
             }
@@ -3526,6 +3921,7 @@
         {
           "id": 294938,
           "title": "커피 옵션",
+          "titleEn": "Coffee Option",
           "required": false,
           "minChoices": 0,
           "maxChoices": 1,
@@ -3533,18 +3929,21 @@
             {
               "id": 897960,
               "title": "샷 추가",
+              "titleEn": "Extra Shot",
               "priceValue": 500,
               "available": true
             },
             {
               "id": 901463,
               "title": "연하게",
+              "titleEn": "one shot",
               "priceValue": 0,
               "available": true
             },
             {
               "id": 901465,
               "title": "바닐라시럽추가",
+              "titleEn": "vanilla syrup",
               "priceValue": 500,
               "available": true
             }
@@ -3553,6 +3952,7 @@
         {
           "id": 366680,
           "title": "와플 컷팅",
+          "titleEn": "Waffle Cutting",
           "required": true,
           "minChoices": 1,
           "maxChoices": 1,
@@ -3560,12 +3960,14 @@
             {
               "id": 1135717,
               "title": "그대로 주세요",
+              "titleEn": "Whole",
               "priceValue": 0,
               "available": true
             },
             {
               "id": 1135716,
               "title": "먹기좋게 잘라주세요",
+              "titleEn": "Cut",
               "priceValue": 0,
               "available": true
             }
@@ -3574,6 +3976,7 @@
         {
           "id": 302280,
           "title": "라떼 변경",
+          "titleEn": "Cafe Latte",
           "required": false,
           "minChoices": 0,
           "maxChoices": 1,
@@ -3581,12 +3984,14 @@
             {
               "id": 923610,
               "title": "카페라떼(핫)",
+              "titleEn": "Hot Cafe Latte",
               "priceValue": 1000,
               "available": true
             },
             {
               "id": 923611,
               "title": "카페라떼(아이스)",
+              "titleEn": "Ice Cafe Latte",
               "priceValue": 1000,
               "available": true
             }
@@ -3595,6 +4000,7 @@
         {
           "id": 316934,
           "title": "와플 옵션",
+          "titleEn": "Waffle Option",
           "required": false,
           "minChoices": 0,
           "maxChoices": 5,
@@ -3602,30 +4008,35 @@
             {
               "id": 971773,
               "title": "시나몬 추가",
+              "titleEn": "Cinnamon",
               "priceValue": 500,
               "available": true
             },
             {
               "id": 971774,
               "title": "크림치즈 추가",
+              "titleEn": "Cream Cheese",
               "priceValue": 1000,
               "available": true
             },
             {
               "id": 971775,
               "title": "골든애플잼 추가",
+              "titleEn": "Golden Apple Jam ",
               "priceValue": 1000,
               "available": true
             },
             {
               "id": 1129310,
               "title": "블루베리잼 추가",
+              "titleEn": "Blueberry Jam",
               "priceValue": 1000,
               "available": true
             },
             {
               "id": 1129311,
               "title": "딸기잼 추가",
+              "titleEn": "Strawberry Jam",
               "priceValue": 1000,
               "available": true
             }
@@ -3634,6 +4045,7 @@
         {
           "id": 473272,
           "title": "와플 아이스크림 추가",
+          "titleEn": "Ice Cream",
           "required": false,
           "minChoices": 0,
           "maxChoices": 2,
@@ -3641,12 +4053,14 @@
             {
               "id": 1462666,
               "title": "바닐라",
+              "titleEn": "Vanilla",
               "priceValue": 2500,
               "available": true
             },
             {
               "id": 1462667,
               "title": "초코",
+              "titleEn": "Chocolate",
               "priceValue": 2500,
               "available": true
             }
@@ -3671,6 +4085,7 @@
         {
           "id": 366680,
           "title": "와플 컷팅",
+          "titleEn": "Waffle Cutting",
           "required": true,
           "minChoices": 1,
           "maxChoices": 1,
@@ -3678,12 +4093,14 @@
             {
               "id": 1135717,
               "title": "그대로 주세요",
+              "titleEn": "Whole",
               "priceValue": 0,
               "available": true
             },
             {
               "id": 1135716,
               "title": "먹기좋게 잘라주세요",
+              "titleEn": "Cut",
               "priceValue": 0,
               "available": true
             }
@@ -3692,6 +4109,7 @@
         {
           "id": 316934,
           "title": "와플 옵션",
+          "titleEn": "Waffle Option",
           "required": false,
           "minChoices": 0,
           "maxChoices": 5,
@@ -3699,30 +4117,35 @@
             {
               "id": 971773,
               "title": "시나몬 추가",
+              "titleEn": "Cinnamon",
               "priceValue": 500,
               "available": true
             },
             {
               "id": 971774,
               "title": "크림치즈 추가",
+              "titleEn": "Cream Cheese",
               "priceValue": 1000,
               "available": true
             },
             {
               "id": 971775,
               "title": "골든애플잼 추가",
+              "titleEn": "Golden Apple Jam ",
               "priceValue": 1000,
               "available": true
             },
             {
               "id": 1129310,
               "title": "블루베리잼 추가",
+              "titleEn": "Blueberry Jam",
               "priceValue": 1000,
               "available": true
             },
             {
               "id": 1129311,
               "title": "딸기잼 추가",
+              "titleEn": "Strawberry Jam",
               "priceValue": 1000,
               "available": true
             }
@@ -3747,6 +4170,7 @@
         {
           "id": 366680,
           "title": "와플 컷팅",
+          "titleEn": "Waffle Cutting",
           "required": true,
           "minChoices": 1,
           "maxChoices": 1,
@@ -3754,12 +4178,14 @@
             {
               "id": 1135717,
               "title": "그대로 주세요",
+              "titleEn": "Whole",
               "priceValue": 0,
               "available": true
             },
             {
               "id": 1135716,
               "title": "먹기좋게 잘라주세요",
+              "titleEn": "Cut",
               "priceValue": 0,
               "available": true
             }
@@ -3768,6 +4194,7 @@
         {
           "id": 334658,
           "title": "아이스크림 와플 맛 선택",
+          "titleEn": "ice cream waffle",
           "required": true,
           "minChoices": 1,
           "maxChoices": 2,
@@ -3775,12 +4202,14 @@
             {
               "id": 1031596,
               "title": "바닐라",
+              "titleEn": "vanilla",
               "priceValue": 2500,
               "available": true
             },
             {
               "id": 1031597,
               "title": "초코",
+              "titleEn": "chocolate",
               "priceValue": 2500,
               "available": true
             }
@@ -3789,6 +4218,7 @@
         {
           "id": 473272,
           "title": "와플 아이스크림 추가",
+          "titleEn": "Ice Cream",
           "required": false,
           "minChoices": 0,
           "maxChoices": 2,
@@ -3796,12 +4226,14 @@
             {
               "id": 1462666,
               "title": "바닐라",
+              "titleEn": "Vanilla",
               "priceValue": 2500,
               "available": true
             },
             {
               "id": 1462667,
               "title": "초코",
+              "titleEn": "Chocolate",
               "priceValue": 2500,
               "available": true
             }
@@ -3828,6 +4260,7 @@
         {
           "id": 377185,
           "title": "하트 초",
+          "titleEn": "Heart Candle ",
           "required": false,
           "minChoices": 0,
           "maxChoices": 1,
@@ -3835,6 +4268,7 @@
             {
               "id": 1168613,
               "title": "하트 초",
+              "titleEn": "Heart Candle ",
               "priceValue": 1500,
               "available": true
             }
@@ -3861,6 +4295,7 @@
         {
           "id": 377185,
           "title": "하트 초",
+          "titleEn": "Heart Candle ",
           "required": false,
           "minChoices": 0,
           "maxChoices": 1,
@@ -3868,6 +4303,7 @@
             {
               "id": 1168613,
               "title": "하트 초",
+              "titleEn": "Heart Candle ",
               "priceValue": 1500,
               "available": true
             }
@@ -3894,6 +4330,7 @@
         {
           "id": 377185,
           "title": "하트 초",
+          "titleEn": "Heart Candle ",
           "required": false,
           "minChoices": 0,
           "maxChoices": 1,
@@ -3901,6 +4338,7 @@
             {
               "id": 1168613,
               "title": "하트 초",
+              "titleEn": "Heart Candle ",
               "priceValue": 1500,
               "available": true
             }
@@ -3987,6 +4425,7 @@
         {
           "id": 296010,
           "title": "원두 선택",
+          "titleEn": "beans",
           "required": true,
           "minChoices": 1,
           "maxChoices": 1,
@@ -3994,18 +4433,21 @@
             {
               "id": 901204,
               "title": "고소한 원두",
+              "titleEn": "savory beans",
               "priceValue": 0,
               "available": true
             },
             {
               "id": 901205,
               "title": "산미있는 원두",
+              "titleEn": "acidity beans",
               "priceValue": 0,
               "available": true
             },
             {
               "id": 901206,
               "title": "디카페인 원두",
+              "titleEn": "decaffeine",
               "priceValue": 500,
               "available": true
             }
@@ -4096,6 +4538,7 @@
         {
           "id": 294937,
           "title": "온도",
+          "titleEn": "temperature",
           "required": true,
           "minChoices": 1,
           "maxChoices": 1,
@@ -4103,12 +4546,14 @@
             {
               "id": 897956,
               "title": "따뜻하게",
+              "titleEn": "HOT",
               "priceValue": 0,
               "available": true
             },
             {
               "id": 897957,
               "title": "차갑게",
+              "titleEn": "ICE ",
               "priceValue": 0,
               "available": true
             }
@@ -4133,6 +4578,7 @@
         {
           "id": 294937,
           "title": "온도",
+          "titleEn": "temperature",
           "required": true,
           "minChoices": 1,
           "maxChoices": 1,
@@ -4140,12 +4586,14 @@
             {
               "id": 897956,
               "title": "따뜻하게",
+              "titleEn": "HOT",
               "priceValue": 0,
               "available": true
             },
             {
               "id": 897957,
               "title": "차갑게",
+              "titleEn": "ICE ",
               "priceValue": 0,
               "available": true
             }
@@ -4170,6 +4618,7 @@
         {
           "id": 294937,
           "title": "온도",
+          "titleEn": "temperature",
           "required": true,
           "minChoices": 1,
           "maxChoices": 1,
@@ -4177,12 +4626,14 @@
             {
               "id": 897956,
               "title": "따뜻하게",
+              "titleEn": "HOT",
               "priceValue": 0,
               "available": true
             },
             {
               "id": 897957,
               "title": "차갑게",
+              "titleEn": "ICE ",
               "priceValue": 0,
               "available": true
             }
@@ -4209,6 +4660,7 @@
         {
           "id": 294937,
           "title": "온도",
+          "titleEn": "temperature",
           "required": true,
           "minChoices": 1,
           "maxChoices": 1,
@@ -4216,12 +4668,14 @@
             {
               "id": 897956,
               "title": "따뜻하게",
+              "titleEn": "HOT",
               "priceValue": 0,
               "available": true
             },
             {
               "id": 897957,
               "title": "차갑게",
+              "titleEn": "ICE ",
               "priceValue": 0,
               "available": true
             }
@@ -4246,6 +4700,7 @@
         {
           "id": 294937,
           "title": "온도",
+          "titleEn": "temperature",
           "required": true,
           "minChoices": 1,
           "maxChoices": 1,
@@ -4253,12 +4708,14 @@
             {
               "id": 897956,
               "title": "따뜻하게",
+              "titleEn": "HOT",
               "priceValue": 0,
               "available": true
             },
             {
               "id": 897957,
               "title": "차갑게",
+              "titleEn": "ICE ",
               "priceValue": 0,
               "available": true
             }
@@ -4300,6 +4757,7 @@
         {
           "id": 296097,
           "title": "샷 추가",
+          "titleEn": "샷 추가",
           "required": false,
           "minChoices": 0,
           "maxChoices": 1,
@@ -4307,18 +4765,21 @@
             {
               "id": 901470,
               "title": "샷추가(고소)",
+              "titleEn": "샷추가(고소)",
               "priceValue": 500,
               "available": true
             },
             {
               "id": 901471,
               "title": "샷추가(산미)",
+              "titleEn": "샷추가(산미)",
               "priceValue": 500,
               "available": true
             },
             {
               "id": 901472,
               "title": "디카페인 샷 추가",
+              "titleEn": "디카페인 샷 추가",
               "priceValue": 1000,
               "available": true
             }
@@ -4345,6 +4806,7 @@
         {
           "id": 294937,
           "title": "온도",
+          "titleEn": "temperature",
           "required": true,
           "minChoices": 1,
           "maxChoices": 1,
@@ -4352,12 +4814,14 @@
             {
               "id": 897956,
               "title": "따뜻하게",
+              "titleEn": "HOT",
               "priceValue": 0,
               "available": true
             },
             {
               "id": 897957,
               "title": "차갑게",
+              "titleEn": "ICE ",
               "priceValue": 0,
               "available": true
             }
@@ -4429,6 +4893,7 @@
         {
           "id": 539375,
           "title": "연유 추가",
+          "titleEn": "condensed milk",
           "required": false,
           "minChoices": 0,
           "maxChoices": 1,
@@ -4436,6 +4901,7 @@
             {
               "id": 1671091,
               "title": "연유추가(20ml)",
+              "titleEn": "condensed milk",
               "priceValue": 1500,
               "available": true
             }
@@ -4490,6 +4956,7 @@
         {
           "id": 361865,
           "title": "티셔츠(키즈) 색상",
+          "titleEn": "T-shirt(kids) Color",
           "required": true,
           "minChoices": 1,
           "maxChoices": 1,
@@ -4497,24 +4964,28 @@
             {
               "id": 1121400,
               "title": "블랙",
+              "titleEn": "Black",
               "priceValue": 0,
               "available": true
             },
             {
               "id": 1121401,
               "title": "화이트",
+              "titleEn": "White",
               "priceValue": 0,
               "available": true
             },
             {
               "id": 1121402,
               "title": "핑크",
+              "titleEn": "Pink",
               "priceValue": 0,
               "available": true
             },
             {
               "id": 1121454,
               "title": "베이지",
+              "titleEn": "Beige",
               "priceValue": 0,
               "available": true
             }

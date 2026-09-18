@@ -8,6 +8,12 @@
 // Stage 2 (later): once KAKAO_REST_API_KEY / KAKAO_CLIENT_SECRET / KAKAO_REFRESH_TOKEN
 // are set as Netlify environment variables, this same function will actually call
 // Kakao instead of returning a dry-run payload — see the branch below.
+//
+// Every order is also persisted to Netlify Blobs (the "orders" store) regardless of
+// Kakao delivery status, so staff have a durable log even before/without Kakao —
+// see netlify/functions/list-orders.mjs and order/orders.html.
+
+import { getStore } from '@netlify/blobs';
 
 const KAKAO_TOKEN_URL = 'https://kauth.kakao.com/oauth/token';
 const KAKAO_SEND_URL = 'https://kapi.kakao.com/v2/api/talk/memo/default/send';
@@ -55,6 +61,22 @@ function validateOrder(body) {
   if (!body.contact || !String(body.contact).trim()) return 'Contact is required.';
   if (!Array.isArray(body.items) || body.items.length === 0) return 'Order has no items.';
   return null;
+}
+
+async function saveOrderRecord(order, extra) {
+  try {
+    const store = getStore('orders');
+    const key = `${Date.now()}-${order.orderCode || 'unknown'}`;
+    await store.setJSON(key, {
+      ...order,
+      receivedAt: new Date().toISOString(),
+      ...extra,
+    });
+  } catch (error) {
+    // The order log is a convenience, not a requirement — never let a storage
+    // hiccup block the customer's order from going through.
+    console.error('[submit-order] failed to persist order log:', error);
+  }
 }
 
 export default async (request) => {
@@ -111,6 +133,7 @@ export default async (request) => {
   if (!kakaoConfigured) {
     console.log('[submit-order] dry run — order:', JSON.stringify(order));
     console.log('[submit-order] would send to Kakao:', JSON.stringify({ tokenRequest, messageRequest }, null, 2));
+    await saveOrderRecord(order, { delivered: null });
     return jsonResponse(200, {
       ok: true,
       dryRun: true,
@@ -155,9 +178,11 @@ export default async (request) => {
       throw new Error(`Kakao send failed: ${JSON.stringify(sendData)}`);
     }
 
+    await saveOrderRecord(order, { delivered: true });
     return jsonResponse(200, { ok: true, dryRun: false });
   } catch (error) {
     console.error('[submit-order] Kakao delivery failed:', error);
+    await saveOrderRecord(order, { delivered: false, deliveryError: String(error?.message || error) });
     return jsonResponse(502, { ok: false, error: 'Could not deliver the order notification. Please order at the counter instead.' });
   }
 };

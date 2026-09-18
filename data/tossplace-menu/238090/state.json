@@ -2174,134 +2174,134 @@
   },
   "itemsById": {
     "6960804": {
-      "fingerprint": "abd979a488b7a61e3e4cc9166a2c9d42b0a7a9fb872a0f3acf8fec661cebf73a",
+      "fingerprint": "2cc1d67f73d4a6dc3e118c9bdef70227953448e18d8546f6d6462894e44888a9",
       "title": "아메리카노",
       "description": "에스프레소에 물을 더해 깔끔하고 깊은 풍미의 커피",
       "imageUrl": "https://place-static.tossplace.com/public/live/PUBLIC/2025-08-23/a68035ca-5eb2-4f62-8e79-5c5195129ce1",
       "imageLocalPath": "data/tossplace-menu/238090/images/6960804-아메리카노-bae6d92526.jpg",
       "imageHash": "bae6d925264ce8eeaa9210b57b615d089703c9218bea5f7003bc036444411b6a",
       "firstSeenAt": "2026-07-21T04:15:20.254Z",
-      "updatedAt": "2026-09-05T22:24:17.927Z"
+      "updatedAt": "2026-09-18T12:03:41.506Z"
     },
     "6978203": {
-      "fingerprint": "b6531ac6feff0421a03a7b5eecaf9ee75a0f5def7b65177d71ce2ef3fb0c213f",
+      "fingerprint": "cef8f7cf22f1a03a1ff632f96c1ea291a25f4cc619006e11552452da4558c284",
       "title": "에스프레소",
       "description": "곱게 간 커피에 고압의 물을 통과시켜 추출한 진하고 농축된 커피",
       "imageUrl": "https://place-static.tossplace.com/public/live/PUBLIC/2025-08-23/662d9720-ad5c-4ac4-ae89-c85affe9324c",
       "imageLocalPath": "data/tossplace-menu/238090/images/6978203-에스프레소-ee9b99ba65.png",
       "imageHash": "ee9b99ba657009c282c21b7aa2d906e2596d11660d2d0a3317280182c3d515da",
       "firstSeenAt": "2026-07-21T04:15:20.254Z",
-      "updatedAt": "2026-07-21T04:15:20.254Z"
+      "updatedAt": "2026-09-18T12:03:41.506Z"
     },
     "6978418": {
-      "fingerprint": "644661bf826fb83ae83220ed6d92c47b282820ed7a4e3170c755f5a507a2c9c9",
+      "fingerprint": "f2d18db855031329c77c6a6d92d3c50b6a8e23473bc3f51ff4f70e5cce674cd8",
       "title": "플랫화이트",
       "description": "진한 에스프레소에 부드러운 우유를 더한 크리미한 커피",
       "imageUrl": "https://place-static.tossplace.com/public/live/PUBLIC/2026-05-01/c08e2265-4057-4f8e-9774-d638d57ba315",
       "imageLocalPath": "data/tossplace-menu/238090/images/6978418-플랫화이트-cc8d0551f9.jpg",
       "imageHash": "cc8d0551f977fc68f25ccf3558c301a55710ec0d785b7503094965e92ec1b60e",
       "firstSeenAt": "2026-07-21T04:15:20.254Z",
-      "updatedAt": "2026-09-05T22:24:17.927Z"
+      "updatedAt": "2026-09-18T12:03:41.506Z"
     },
     "6978463": {
-      "fingerprint": "b1916b3791f9f7acc2562b5662f18fc4d123b3b7becfba674ba0c5596159bad5",
+      "fingerprint": "a81bb1bb538ff6241fc2ecd27f7b442989408a6f9f63cb6d71b0b3ff61ee9616",
       "title": "바닐라라떼",
       "description": "바닐라빈 시럽이 더해진 달콤하고 부드러운 라떼",
       "imageUrl": "https://place-static.tossplace.com/public/live/PUBLIC/2025-08-23/a71a3699-96e3-41fb-b344-3925207d4cb8",
       "imageLocalPath": "data/tossplace-menu/238090/images/6978463-바닐라라떼-1266f04cf4.png",
       "imageHash": "1266f04cf44382e9a9707a7397f479bf2ba378f142ce34dbd61019e7a80c1682",
       "firstSeenAt": "2026-07-21T04:15:20.254Z",
-      "updatedAt": "2026-09-05T22:24:17.927Z"
+      "updatedAt": "2026-09-18T12:03:41.506Z"
     },
     "6978817": {
-      "fingerprint": "409bd554f6bf88867ea16d01284d05384173105695581f82fddcbce0d10261b6",
+      "fingerprint": "2c675492d98a8451029270b85201ccec8a98b7697f456c07635fdfa87cdaee9a",
       "title": "딥초코라떼",
       "description": "진한초콜릿과 부드러운 우유가 만나\n깊고 풍부한 맛을 선사하는 딥 초코 라떼 ☕🍫\n한 모금에 진한 초콜릿의 만족감을 느낄 수 있어요.",
       "imageUrl": "https://place-static.tossplace.com/public/live/PUBLIC/2026-08-14/eb42cdc1-f686-43b7-a517-55d120bc70ac",
       "imageLocalPath": null,
       "imageHash": null,
       "firstSeenAt": "2026-07-21T04:15:20.254Z",
-      "updatedAt": "2026-08-20T21:16:07.047Z"
+      "updatedAt": "2026-09-18T12:03:41.506Z"
     },
     "6978834": {
-      "fingerprint": "d278f5f74cdc558490b53575fb5673de1cdd4f669cc628c460435852e0630a6b",
+      "fingerprint": "39bcb622cdab141413bf5e5419de5d4f062d2594781e754293376c8094298c41",
       "title": "딸기라떼",
       "description": "신선한 딸기를 듬뿍 담아\n달콤하고 상큼한 맛이 입 안 가득 퍼지는 딸기라떼 🍓🥛\n한 모금이면 기분까지 즐거워지는 맛의 완성!",
       "imageUrl": "https://place-static.tossplace.com/public/live/PUBLIC/2026-08-29/5ba6752a-bc8c-461e-bca6-1dcc3e0026b4",
       "imageLocalPath": "data/tossplace-menu/238090/images/6978834-딸기라떼-4a2899beb7.png",
       "imageHash": "4a2899beb71913016cb95ebc1dc5b8f2220f4890f930c91341d00f53e35058a0",
       "firstSeenAt": "2026-07-21T04:15:20.254Z",
-      "updatedAt": "2026-08-29T22:52:03.755Z"
+      "updatedAt": "2026-09-18T12:03:41.506Z"
     },
     "6978874": {
-      "fingerprint": "3a96793f8eac1753bc7b200657fcf9ea30143e16e390e3c83505d843553627b7",
+      "fingerprint": "be64d3c482630161c25c430ff060764c9ac031f2530ba84c6572d2e7fd11f8f9",
       "title": "우유",
       "description": "디저트와 우유가 먹고 싶은 당신에게 바치는 신선한 우유",
       "imageUrl": "https://place-static.tossplace.com/public/live/PUBLIC/2025-08-23/541753c9-1592-4bd7-81a9-bcb398eb68b6",
       "imageLocalPath": "data/tossplace-menu/238090/images/6978874-우유-b842270d61.png",
       "imageHash": "b842270d6198adcc1964b74714c3a80d5e28f39da2a117a287067e8df2786059",
       "firstSeenAt": "2026-07-21T04:15:20.254Z",
-      "updatedAt": "2026-07-21T04:15:20.254Z"
+      "updatedAt": "2026-09-18T12:03:41.506Z"
     },
     "6979125": {
-      "fingerprint": "6641444bbf73096d9deeba9a4d63f82c4e74f421e5aca48ba577e941d3b9c3c3",
+      "fingerprint": "2f1173d6179b57877897a02ba62322bc6b71be91445b2dd7ca7703f68c786290",
       "title": "복숭아아이스티",
       "description": "",
       "imageUrl": "https://place-static.tossplace.com/public/live/PUBLIC/2025-08-23/a9141e9f-6174-4181-8cf7-22022adc7e77",
       "imageLocalPath": "data/tossplace-menu/238090/images/6979125-복숭아아이스티-4cd29fc8e8.jpg",
       "imageHash": "4cd29fc8e85ca112e4a71cc0b651b90b5d208fcf7d9cf55ea439f692e45c3b87",
       "firstSeenAt": "2026-07-21T04:15:20.254Z",
-      "updatedAt": "2026-07-21T04:15:20.254Z"
+      "updatedAt": "2026-09-18T12:03:41.506Z"
     },
     "6979166": {
-      "fingerprint": "db6cd3faa4f63bc58e53d8cf144b7789859c754f988447619ed5ac9dab91b0ea",
+      "fingerprint": "36076e01ef42865e5bf3b18d7117111a83b454ee3ef86395c231af80f83517dd",
       "title": "봄물결",
       "description": "봄바람에 흩날리는 꽃내음을 가득 머금은 싱그러운 제주의 봄을 그린 어린 잎 녹차 블렌딩 한 잔",
       "imageUrl": "https://place-static.tossplace.com/public/live/PUBLIC/2025-08-23/30af44d6-9bc5-42fb-862c-c62985c9ad13",
       "imageLocalPath": "data/tossplace-menu/238090/images/6979166-봄물결-d6b5a9a22e.jpg",
       "imageHash": "d6b5a9a22e1230a7b24c77635f7abe4932f3d0efbadfcca5c42231e844514c56",
       "firstSeenAt": "2026-07-21T04:15:20.254Z",
-      "updatedAt": "2026-07-21T04:15:20.254Z"
+      "updatedAt": "2026-09-18T12:03:41.506Z"
     },
     "6979179": {
-      "fingerprint": "77bb9543d5385321746a97c445e04de2a06a743aca6bfa39b95a57de111dcefd",
+      "fingerprint": "92d2fbc45b6a297bb9146473294d6004bd6bd64469b095250989c6fc2077f0c4",
       "title": "멜롱망스",
       "description": "여름의 시원함과 달콤함을 머금은 머스크 멜론과 꽃내음 가득한 우롱차의 하모니 한 잔",
       "imageUrl": "https://place-static.tossplace.com/public/live/PUBLIC/2025-08-23/7388c254-4a19-4d96-a390-b1971a011d85",
       "imageLocalPath": "data/tossplace-menu/238090/images/6979179-멜롱망스-c2a0848d6e.jpg",
       "imageHash": "c2a0848d6e8fc942320c3221af4d66b535ffbc2fa42287fbd96b07e709fafe6c",
       "firstSeenAt": "2026-07-21T04:15:20.254Z",
-      "updatedAt": "2026-07-21T04:15:20.254Z"
+      "updatedAt": "2026-09-18T12:03:41.506Z"
     },
     "6979222": {
-      "fingerprint": "503506e3309f699ee660cbd2f249c32250db76538526fec865f7c0d54b8729b7",
+      "fingerprint": "14b5f08f6d212c818705161d7410f7005237081394a0011abd8c4b9680638ffe",
       "title": "루이벨벳",
       "description": "깊고 부드러운 루이보스 위로 초콜릿 향이 천천히 내려앉아 마음을 벨벳처럼 감싸는 한 잔",
       "imageUrl": "https://place-static.tossplace.com/public/live/PUBLIC/2025-08-23/c0df2951-a89f-4db8-8559-b02eec39024c",
       "imageLocalPath": "data/tossplace-menu/238090/images/6979222-루이벨벳-e13c447c71.jpg",
       "imageHash": "e13c447c715888f1f502002a7ae6b03c1a3e00d11e8213353aea893de430cf9e",
       "firstSeenAt": "2026-07-21T04:15:20.254Z",
-      "updatedAt": "2026-07-21T04:15:20.254Z"
+      "updatedAt": "2026-09-18T12:03:41.506Z"
     },
     "6979241": {
-      "fingerprint": "e440c64191c80b0cc972b752a5f1f18a64855b988644ebe3cd4bdcf08e3f7002",
+      "fingerprint": "16c4497f84804240017d8d6eda45e64d2bdae2ca1a40b73009a701f4e9743766",
       "title": "현월호지",
       "description": "덖은 녹차와 호지차의 구수함과 진득한 달콤함을 가진 흑당의 콜라보레이션 한 잔",
       "imageUrl": "https://place-static.tossplace.com/public/live/PUBLIC/2025-08-23/3355a36e-2a57-4af5-8588-7dff824fc7e1",
       "imageLocalPath": "data/tossplace-menu/238090/images/6979241-현월호지-0c8e00ea34.jpg",
       "imageHash": "0c8e00ea34349dd9cef13bc8f9addd29e554e1797ec71c2d93ca4e7fa5b71292",
       "firstSeenAt": "2026-07-21T04:15:20.254Z",
-      "updatedAt": "2026-07-21T04:15:20.254Z"
+      "updatedAt": "2026-09-18T12:03:41.506Z"
     },
     "6979257": {
-      "fingerprint": "9d82adf866364b546619eec2624bd3f2e2b3577d9c837b46ddf9337636819b1b",
+      "fingerprint": "91603c601b318322a004dc806ce9dbd7c4811fd5efeaf82721dfe39ee6edfdf5",
       "title": "레몬석양",
       "description": "히비스커스가 그린 아름다운 바닷가 석양을 담은 수색에 레모니한 상큼함과 달콤한의 조화 한 잔",
       "imageUrl": "https://place-static.tossplace.com/public/live/PUBLIC/2025-08-23/fbe2749f-9fc9-42ad-a239-6b1acd44b140",
       "imageLocalPath": "data/tossplace-menu/238090/images/6979257-레몬석양-5fbcf385df.jpg",
       "imageHash": "5fbcf385df583b5e3e36125b1434352ff4604b916e4025ea0d8c4985e84af9ec",
       "firstSeenAt": "2026-07-21T04:15:20.254Z",
-      "updatedAt": "2026-08-20T21:16:07.047Z"
+      "updatedAt": "2026-09-18T12:03:41.506Z"
     },
     "6979310": {
       "fingerprint": "1e9b656c170f7876eb9bf47f76cf3ad42fa68ac6cbc543eafeb240158c34bec0",
@@ -2384,14 +2384,14 @@
       "updatedAt": "2026-07-21T04:15:20.254Z"
     },
     "6986372": {
-      "fingerprint": "e322703b38b7d6d6296c8133404eb1088af29577580da9d011f5af52604462c1",
+      "fingerprint": "7ce8f890d99558ac6b90a1c20a8dd902f174ab1334455c670f2938b86e8b34e0",
       "title": "[윈디] 솔티드 모카",
       "description": "짙은 초콜릿과 커피의 풍미에\n은은한 소금이 어우러진 달콤짭짤한 솔티드 모카 ☕🍫",
       "imageUrl": "https://place-static.tossplace.com/public/live/PUBLIC/2026-02-01/c355f2aa-5045-470e-9af4-ba6d29d46199",
       "imageLocalPath": "data/tossplace-menu/238090/images/6986372-윈디-솔티드-모카-59b61cc678.jpg",
       "imageHash": "59b61cc6785bc6453d9f2a0fcd512e14c3a46e203ad6d9cf6d9c8759a2e47cee",
       "firstSeenAt": "2026-07-21T04:15:20.254Z",
-      "updatedAt": "2026-08-20T21:16:07.047Z"
+      "updatedAt": "2026-09-18T12:03:41.506Z"
     },
     "6986480": {
       "fingerprint": "341ee6fb532f0b4f202fed6ed28badefb4bc5f7b3d5689f285045ad61c7e5953",
@@ -2404,14 +2404,14 @@
       "updatedAt": "2026-07-21T04:15:20.254Z"
     },
     "6986481": {
-      "fingerprint": "229e0722f4c9a5c2b8a886769fd5d8682ce42fd4c4bf7161870c01a9abc83460",
+      "fingerprint": "c85c659d590566a959a47d9d03d74f8a91b786e31d3bb151466a4f709e2d0081",
       "title": "[미스트] 블루라떼",
       "description": "푹신한 구름 위에 올라간 듯,\n부드러운 화이트 초콜릿에 하늘의 빛을 담은 음료",
       "imageUrl": "https://place-static.tossplace.com/public/live/PUBLIC/2026-02-01/b2512be1-179a-4d79-9d7f-2150a08cb25a",
       "imageLocalPath": "data/tossplace-menu/238090/images/6986481-미스트-블루라떼-c272a2e69b.jpg",
       "imageHash": "c272a2e69b9a8ca4aa90639957c048edd935c01fc9c1d815b6668f0267003eca",
       "firstSeenAt": "2026-07-21T04:15:20.254Z",
-      "updatedAt": "2026-08-20T21:16:07.047Z"
+      "updatedAt": "2026-09-18T12:03:41.506Z"
     },
     "6986485": {
       "fingerprint": "6e527c8a99b1d43539c843fca3c85c86cb7a5bbf64ad7212f36f87adeacc0569",
@@ -2424,44 +2424,44 @@
       "updatedAt": "2026-08-20T21:16:07.047Z"
     },
     "6986486": {
-      "fingerprint": "edee91fbb557a5214db1660a98b9f04a8135eba3c9d699d765a939d4b510b610",
+      "fingerprint": "fa6bcea288757ccbff79a5712ed2f5216bd631eb0cc4eb440c1c05564d311f34",
       "title": "[루티] 제주말차라떼",
       "description": "제주에서 온 말차의 깊은 쌉싸름함과\n우유의 부드러움이 조화로운 한 잔",
       "imageUrl": "https://place-static.tossplace.com/public/live/PUBLIC/2026-02-01/ad8a57d4-735b-41d4-a132-9d77a5ae6bd2",
       "imageLocalPath": "data/tossplace-menu/238090/images/6986486-루티-제주말차라떼-54751f3c1a.jpg",
       "imageHash": "54751f3c1a2e8e588efdaab686c214f335c6f8b38d6d6a7b4f8d881f368a2e0a",
       "firstSeenAt": "2026-07-21T04:15:20.254Z",
-      "updatedAt": "2026-08-20T21:16:07.047Z"
+      "updatedAt": "2026-09-18T12:03:41.506Z"
     },
     "6997998": {
-      "fingerprint": "9e1f18f386d97ceeebcf07a7f6eea182f9bdd4c6f73746acdb497703605f30c8",
+      "fingerprint": "97ea2ede6d185d9247eed1bf9d35412f89e1bd30a9403c4b3baf3bd3aed23322",
       "title": "[시그니처] 땅콩크림라떼",
       "description": "부드러운 라떼와 고소한 땅콩크림이 어우러진 매력적인 한 잔",
       "imageUrl": "https://place-static.tossplace.com/public/live/PUBLIC/2026-06-06/0417847c-dda7-4606-8e37-0375f302d1b1",
       "imageLocalPath": "data/tossplace-menu/238090/images/14267200-땅콩크림라떼-2f5de2df2e.jpg",
       "imageHash": "2f5de2df2e4dd3b9ccd47dc8041f70376ca239ea3a8351f7cf16360af832e720",
       "firstSeenAt": "2026-07-21T04:15:20.254Z",
-      "updatedAt": "2026-09-05T22:24:17.927Z"
+      "updatedAt": "2026-09-18T12:03:41.506Z"
     },
     "7034709": {
-      "fingerprint": "855efd41c373110a6cd1b9a90f13b9415172c17f491511f0574052fc07ef1e47",
+      "fingerprint": "9c23e6ff4da1f9a964b5c2d72d2832d59ec79b94128bda056bcca1998e3f1585",
       "title": "카푸치노",
       "description": "진한 에스프레소에 폭신한 밀크폼을 더해 부드럽게 즐기는 정통 카푸치노",
       "imageUrl": "https://place-static.tossplace.com/public/live/PUBLIC/2026-01-09/4e4c4d47-c9cc-4b3e-ad50-dcb3da02297a",
       "imageLocalPath": "data/tossplace-menu/238090/images/10999047-브런치-커피-2d26673b2f.jpg",
       "imageHash": "2d26673b2f244dac751baa12687328a18f009bc1016f3ccba5f3c708bda28a2d",
       "firstSeenAt": "2026-07-21T04:15:20.254Z",
-      "updatedAt": "2026-09-05T22:24:17.927Z"
+      "updatedAt": "2026-09-18T12:03:41.506Z"
     },
     "7154988": {
-      "fingerprint": "67e6d5caf85da83c583188087a7479fa5922c2e6875a62f1a856c157e5e73500",
+      "fingerprint": "03b89eb62c89a539f9ef99b991ad7855bfd1d98377a1146d079edf413b79ed72",
       "title": "합정라떼",
       "description": "합정의 여유와 달콤한 버터스카치 풍미를 담은 시그니처 라떼",
       "imageUrl": "https://place-static.tossplace.com/public/live/PUBLIC/2025-09-20/71bd114a-0912-408b-9a9f-34620e88fbdf",
       "imageLocalPath": "data/tossplace-menu/238090/images/9142726-시그니처-합정라떼-2481923ac8.jpg",
       "imageHash": "2481923ac893112443aa6954d3a0b197cf90424c9e64e59ec8dff4a9cf713ef9",
       "firstSeenAt": "2026-07-21T04:15:20.254Z",
-      "updatedAt": "2026-09-05T22:24:17.927Z"
+      "updatedAt": "2026-09-18T12:03:41.506Z"
     },
     "7291437": {
       "fingerprint": "a97ac377207c17987b4793e63259fec0755a9072eabd025734243320521f21b8",
@@ -2474,94 +2474,94 @@
       "updatedAt": "2026-07-21T04:15:20.254Z"
     },
     "7499596": {
-      "fingerprint": "e45167144d2c2f261823041193fa65c2bef112023eb1b942f1f4ec6d2cafca51",
+      "fingerprint": "fbdba1bfb6d62a4073e99c7fe8c3a1cf8336b505f9ba631e9468562b1b7b3e0e",
       "title": "아포가토",
       "description": "에스프레소와 바닐라 아이스크림의 달콤한 조화",
       "imageUrl": "https://place-static.tossplace.com/public/live/PUBLIC/2025-09-20/75a68c84-ec9b-4816-98be-ecaa4cf60783",
       "imageLocalPath": "data/tossplace-menu/238090/images/7499596-아포가토-bc9ffd2a33.jpg",
       "imageHash": "bc9ffd2a33be5574ea1b22d4b002a051adc27eed0db3a5ac6709c9c7d8e83fe6",
       "firstSeenAt": "2026-07-21T04:15:20.254Z",
-      "updatedAt": "2026-07-21T04:15:20.254Z"
+      "updatedAt": "2026-09-18T12:03:41.506Z"
     },
     "7628072": {
-      "fingerprint": "7bde3af28e6de06e0f41a790588a54484886ca51c4fec48b68caee3e66bf7088",
+      "fingerprint": "45a2e5be3780b9d4f63f4ead8d5088198591dc9c9870d54efd688aa89a5b4cd6",
       "title": "우리제주말차",
       "description": "제주산 우리 말차와 부드러운 우유가 어우러진 말차라떼 🌿🥛\n진한 풍미와 은은한 쌉싸름함이 조화로운,깊고 부드러운 한 잔입니다.",
       "imageUrl": "https://place-static.tossplace.com/public/live/PUBLIC/2025-09-20/1ea29fc4-454d-4c42-8fa9-f45d7794b18d",
       "imageLocalPath": "data/tossplace-menu/238090/images/7628072-우리제주말차-801558d68f.jpg",
       "imageHash": "801558d68fd450abd445473bfb51d7a7a4196446ac904a54ea4642efc51ada64",
       "firstSeenAt": "2026-07-21T04:15:20.254Z",
-      "updatedAt": "2026-08-20T21:16:07.047Z"
+      "updatedAt": "2026-09-18T12:03:41.506Z"
     },
     "7735791": {
-      "fingerprint": "31a42c9c7251ea1d4918cc8660af34a3e7c884e15b8be3cb039f1214db02ceab",
+      "fingerprint": "1387d6ef51db04e22f678bb41a1f73b50c5d5fb4acb497a23457ba4b83bc5ec5",
       "title": "클래식 와플",
       "description": "\"입안에서 톡톡 터지는 달콤한 보석, 펄슈가\"\n벨기에산 천연 펄슈가가 반죽 사이사이에 콕콕 박혀 있어, 씹을 때마다 기분 좋은 달콤함이 느껴집니다. 높은 온도에서 캐러멜라이즈된 펄슈가의 바삭함과 앵커 버터의 풍미가 만난 정통 벨기에 리에쥬 와플을 경험해 보세요.",
       "imageUrl": "https://place-static.tossplace.com/public/live/PUBLIC/2026-08-13/2f3a08bd-bd22-40f8-8148-2720c33de6b7",
       "imageLocalPath": "data/tossplace-menu/238090/images/7735791-클래식-와플-e996468283.jpg",
       "imageHash": "e996468283edb35712f6108cc2152d0afea2abd7e94734a065e9cfff7aed14e1",
       "firstSeenAt": "2026-07-21T04:15:20.254Z",
-      "updatedAt": "2026-09-09T22:48:43.037Z"
+      "updatedAt": "2026-09-18T12:03:41.506Z"
     },
     "7735910": {
-      "fingerprint": "47257b0756dddad6b1f988b676a1532afce08c54d716c231ea0c59731564cb55",
+      "fingerprint": "821366d8079901616f45010ed3238c916521641dc8e27a5202ccb37b5aeaaf85",
       "title": "[저당]메이플&시나몬 와플",
       "description": "\"달콤함은 그대로, 걱정은 비우세요!\"\n다이어트 중에도 포기할 수 없는 달콤한 행복. 풍미는 깊지만 칼로리 부담은 낮춘 저당 메이플 시럽을 사용했습니다. 앵커 버터의 고소함과 건강한 달콤함이 만나 탄생한 '가벼운 힐링'을 경험해 보세요.",
       "imageUrl": "https://place-static.tossplace.com/public/live/PUBLIC/2026-08-13/f871ea8f-94c4-4b2c-bd42-766ff3fc9bcb",
       "imageLocalPath": "data/tossplace-menu/238090/images/7735910-저당-메이플-시나몬-와플-1795427119.jpg",
       "imageHash": "17954271198c05fedd3d4a176b730718dd0085c632ed10ca45f9d604901331ad",
       "firstSeenAt": "2026-07-21T04:15:20.254Z",
-      "updatedAt": "2026-09-09T22:48:43.037Z"
+      "updatedAt": "2026-09-18T12:03:41.506Z"
     },
     "7735937": {
-      "fingerprint": "019620869c84cb52bdff7b4a3103aee866d9913259eca6ed32d229d2ebacc910",
+      "fingerprint": "18d01aea7c58807f87fabe06b55385e85a697ac3579c34548266026b7132dad5",
       "title": "[블루베리&크림치즈] 와플",
       "description": "\"눈과 입이 즐거워지는 상큼하고 진한 유혹\"\n세계 10대 슈퍼푸드인 블루베리와 부드럽고 진한 크림치즈가 만났습니다. 앵커 버터로 구워낸 따뜻한 와플 위에 펼쳐지는 상큼 고소한 하모니를 즐겨보세요. 건강한 달콤함이 필요할 때 최고의 선택입니다.",
       "imageUrl": "https://place-static.tossplace.com/public/live/PUBLIC/2026-08-13/0df062e1-25df-4f25-9090-fc7576984dc7",
       "imageLocalPath": "data/tossplace-menu/238090/images/7735937-블루베리-크림치즈-와플-32131784ad.jpg",
       "imageHash": "32131784ada4511e43e0d64f09c2537f0933d80517a7fe28166c1ae3122af90d",
       "firstSeenAt": "2026-07-21T04:15:20.254Z",
-      "updatedAt": "2026-09-09T22:48:43.037Z"
+      "updatedAt": "2026-09-18T12:03:41.506Z"
     },
     "7736391": {
-      "fingerprint": "8fedbefec65237d5412c15ab07fc8efb37934bddd7c1ba663a16c88a7e624475",
+      "fingerprint": "b154e50e55d7f036cd3faae0ae0f969be63ceadc2436bed5a0e262935525e848",
       "title": "애플잼  와플",
       "description": "\"사과 알맹이가 톡톡! 자연이 준 기분 좋은 달콤함\"\n엄선한 국산 사과로 만든 수제 느낌의 애플잼을 듬뿍 올렸습니다. 아삭하게 씹히는 사과 과육과 앵커 버터 향 가득한 따뜻한 와플의 조화를 만나보세요. 인위적이지 않은 깔끔한 달콤함이 매력적이에요.",
       "imageUrl": "https://place-static.tossplace.com/public/live/PUBLIC/2026-08-13/d630b6d4-d53f-48ff-9b40-dd43f98a79c7",
       "imageLocalPath": "data/tossplace-menu/238090/images/7736391-애플잼-와플-8d65b9a46f.jpg",
       "imageHash": "8d65b9a46f1c183f11ecff2102e5a0df694e601a435f30fb3d4a04819259a8d0",
       "firstSeenAt": "2026-07-21T04:15:20.254Z",
-      "updatedAt": "2026-09-09T22:48:43.037Z"
+      "updatedAt": "2026-09-18T12:03:41.506Z"
     },
     "7853022": {
-      "fingerprint": "fe03e0380d4f8c1ad5afe11ba410c751609394602751f8397dab400da59b50b1",
+      "fingerprint": "238d7d8adbc154f56c9af73e4c2096fa5d2182ed109931980d3ecc24537f4bc8",
       "title": "클래식 와플&커피 세트",
       "description": "\"가장 완벽하고 달콤한 휴식의 조합\"\n깊은 풍미의 앵커 버터로 구워낸 클래식 와플과 향긋한 커피를 세트로 만나보세요. 입안 가득 퍼지는 기분 좋은 달콤함이 당신의 하루를 더욱 특별하게 만들어 줍니다.",
       "imageUrl": "https://place-static.tossplace.com/public/live/PUBLIC/2025-09-27/90db900b-3846-425d-a1df-b37dee5da353",
       "imageLocalPath": "data/tossplace-menu/238090/images/7853022-클래식-와플-커피-세트-77e6926988.jpg",
       "imageHash": "77e69269885364d3986b8716967fb7e60ee71b0f2cca317e6d9223975750dcaa",
       "firstSeenAt": "2026-07-21T04:15:20.254Z",
-      "updatedAt": "2026-09-09T22:48:43.037Z"
+      "updatedAt": "2026-09-18T12:03:41.506Z"
     },
     "7965785": {
-      "fingerprint": "9ff17e513aaf90f4d34d919ac08d2b0d2bd976de83243d33464ad2af49f49209",
+      "fingerprint": "8c2dd51635ccc4f50bc92aff5e330379cf6222857c9707fbe9b3251fd87a27e1",
       "title": "와플 3개팩",
       "description": "\"혼자서도, 셋이서도 부담 없이!\"\n앵커 버터의 풍미가 꽉 찬 수제 와플 3개를 가볍게 즐겨보세요. 바삭함과 쫄깃함이 살아있어 커피 한 잔과 곁들이기에 가장 완벽한 구성입니다.",
       "imageUrl": "https://place-static.tossplace.com/public/live/PUBLIC/2025-10-01/d04d6ee8-d9ab-4ede-bd8b-ebd0bb618765",
       "imageLocalPath": "data/tossplace-menu/238090/images/7965785-와플-3개팩-2e0099ae98.png",
       "imageHash": "2e0099ae9860055c9306bcf14e8f51eb53107f525516a972a87fcfbacc9308a1",
       "firstSeenAt": "2026-07-21T04:15:20.254Z",
-      "updatedAt": "2026-09-09T22:48:43.037Z"
+      "updatedAt": "2026-09-18T12:03:41.506Z"
     },
     "8433327": {
-      "fingerprint": "8ba37ee9daa8390af2560e3f4efca29af718df0cd544738141b43d2e5504ac1f",
+      "fingerprint": "cb8f819f5ef1a39bb73ef4099d406175b109389b18bc594eae111212f049f864",
       "title": "[아이스크림] 와플",
       "description": "뉴질랜드 청정 지역의 앵커 버터를 아낌없이 넣어 매일 아침 정성껏 반죽합니다. 겉바속쫀 와플과 입안 가득 퍼지는 고함량 아이스크림의 온도 차를 경험해 보세요!",
       "imageUrl": "https://place-static.tossplace.com/public/live/PUBLIC/2026-08-13/8a3798fc-e7ac-4eb4-be2c-c6497de6684f",
       "imageLocalPath": "data/tossplace-menu/238090/images/8433327-아이스크림-와플-8d991c06d1.jpg",
       "imageHash": "8d991c06d123b798de6e608d2d240785c21110acf36e95b055b7639f16e40eb7",
       "firstSeenAt": "2026-07-21T04:15:20.254Z",
-      "updatedAt": "2026-08-20T21:16:07.047Z"
+      "updatedAt": "2026-09-18T12:03:41.506Z"
     },
     "8535124": {
       "fingerprint": "3ee4d72438cf57762e4b2c48fa7b2adde6346c516b0f404b0d44602fbc21b565",
@@ -2584,14 +2584,14 @@
       "updatedAt": "2026-07-21T04:15:20.254Z"
     },
     "9018438": {
-      "fingerprint": "a71a23f0921184c3ca46cf816aab9dee3f4f214b2f3a1fc56b3624f3e90e79fe",
+      "fingerprint": "6b1b82a6cab270ffb83534abd2fa7b661a99ee04801ed148f365e29e55cce9b0",
       "title": "상수라떼",
       "description": "고소하고 크리미한 풍미를 살린, 상수의 감각적인 무드를 담은 시그니처 라떼.",
       "imageUrl": "https://place-static.tossplace.com/public/live/PUBLIC/2025-11-18/3fa027b7-5e2f-4244-93df-28ad231bd35e",
       "imageLocalPath": "data/tossplace-menu/238090/images/9018438-상수라떼-e7d82881d9.jpg",
       "imageHash": "e7d82881d9c3c844c1456db57162c65fcf33b429e1547c5a25ae3b7478c030b5",
       "firstSeenAt": "2026-07-21T04:15:20.254Z",
-      "updatedAt": "2026-09-05T22:24:17.927Z"
+      "updatedAt": "2026-09-18T12:03:41.506Z"
     },
     "9018716": {
       "fingerprint": "c4c0b7a6fa2e04f93fa095315d936fb27b40432d2e5ec1afde511e322b4b96b7",
@@ -2614,24 +2614,24 @@
       "updatedAt": "2026-07-21T04:15:20.254Z"
     },
     "9142726": {
-      "fingerprint": "e570bf11f49466c9d5f9ba996ef382b5b587c471fa794bf58c40bc25240470ea",
+      "fingerprint": "8a78e2316de62e137af442463bef5de2baf3f0508c2c3067dfdcaf4de8344824",
       "title": "[시그니처] 합정라떼",
       "description": "깊은 에스프레소에 버터스카치의 달콤함을 더한 부드러운 라떼.",
       "imageUrl": "https://place-static.tossplace.com/public/live/PUBLIC/2025-11-22/c54699b1-657d-4aac-a19e-fa07ed80d560",
       "imageLocalPath": "data/tossplace-menu/238090/images/9142726-시그니처-합정라떼-2481923ac8.jpg",
       "imageHash": "2481923ac893112443aa6954d3a0b197cf90424c9e64e59ec8dff4a9cf713ef9",
       "firstSeenAt": "2026-07-21T04:15:20.254Z",
-      "updatedAt": "2026-09-05T22:24:17.927Z"
+      "updatedAt": "2026-09-18T12:03:41.506Z"
     },
     "9142742": {
-      "fingerprint": "4b56f174716795b0d7412bf97e30c64aef070cd6c6ad24c151a6c4f88a8d657c",
+      "fingerprint": "49d3e8e5f2160c402257edb4fa19eb867a75cd476bc2bdb049ea63aef6fe4aee",
       "title": "[시그니처] 상수라떼",
       "description": "특제 우유로 만들어 고소함이 더 진한 라떼.\n부드럽고 풍미가 깊어 편하게 마시기 좋아요",
       "imageUrl": "https://place-static.tossplace.com/public/live/PUBLIC/2025-11-22/6f49a1f7-d4b5-490f-9bf2-b6d32053c994",
       "imageLocalPath": "data/tossplace-menu/238090/images/9142742-시그니처-상수라떼-0065c0682f.jpg",
       "imageHash": "0065c0682f46b5aed09829a502181ebd7039159a88820399c2f185a984eb4241",
       "firstSeenAt": "2026-07-21T04:15:20.254Z",
-      "updatedAt": "2026-09-05T22:24:17.927Z"
+      "updatedAt": "2026-09-18T12:03:41.506Z"
     },
     "9276227": {
       "fingerprint": "f8b3dcc3de54e3979b3d1d566a7192bd92e2b27a35b191018946e5a53ccdf572",
@@ -2644,14 +2644,14 @@
       "updatedAt": "2026-07-21T04:15:20.254Z"
     },
     "9378963": {
-      "fingerprint": "dc6ea0a71811eb739e474e5c81ebe84c474f7e37cda214d2354a05d24ed25b65",
+      "fingerprint": "1e7c836d5187eb55eeecee0b805db906ea35fc178bddf6076b01c36e8fde3af2",
       "title": "[예약주문]키즈 티셔츠 다크그레이",
       "description": "[예약주문]30수 후라이스에 스판을 더해 적당한 두께감의 우리 아이 어디서나 편안하게 입을 수 있는 도톰한 어린이용 긴팔 티셔츠 (사이즈 90~160/주문가능)",
       "imageUrl": "https://place-static.tossplace.com/public/live/PUBLIC/2026-01-01/567de4cc-3e82-4015-af9a-14ce1df16132",
       "imageLocalPath": "data/tossplace-menu/238090/images/9378963-클루미-키즈도톰라운드티셔츠-다크그레이-53d8fd5f43.jpg",
       "imageHash": "53d8fd5f43db1ab6ee279175cccebae298e21b6f1ebfaa77a2cba95a915f8655",
       "firstSeenAt": "2026-07-21T04:15:20.254Z",
-      "updatedAt": "2026-07-21T04:15:20.254Z"
+      "updatedAt": "2026-09-18T12:03:41.506Z"
     },
     "9779978": {
       "fingerprint": "0d33f227f77772c9ab7ee7ce26cf048db4164568bd72305be0a9e03b27cea78e",
@@ -2694,24 +2694,24 @@
       "updatedAt": "2026-09-03T22:52:12.943Z"
     },
     "10192464": {
-      "fingerprint": "82b68901aece49be2a0ff35067489eed95ef9fd44036801b6721d7a81556feff",
+      "fingerprint": "cd65ec7707ff0a4eed5f0e599d14e98080b709f368b6c48bab968e2da7e2dfd7",
       "title": "초콜릿로쉐케익",
       "description": "부드러운 스페인산 고급 초콜릿 위에 고소하게 구운 헤이즐넛을 올려\n한 입 베어 물면 진한 초콜릿 풍미가 가득 퍼지는 케이크",
       "imageUrl": "https://place-static.tossplace.com/public/live/PUBLIC/2026-05-12/643d509d-6f8f-4186-a5ba-28c4839cc761",
       "imageLocalPath": "data/tossplace-menu/238090/images/10192464-초콜릿로쉐케익-52fe1dcc82.jpg",
       "imageHash": "52fe1dcc82b800fd1494dbfa9cf12ca59474a0af9d602087499a9d4e9a1ce6fe",
       "firstSeenAt": "2026-07-21T04:15:20.254Z",
-      "updatedAt": "2026-08-29T22:52:03.755Z"
+      "updatedAt": "2026-09-18T12:03:41.506Z"
     },
     "10197088": {
-      "fingerprint": "fa013a28cd10d8f9cd868479b4879937514f9a437602f2c1ffb980b892a6f897",
+      "fingerprint": "2871ebbbaaa3ed5df90b7cac8b304c30b9c7be24516d002807fa87f6cc9bcb26",
       "title": "교토말차쇼콜라",
       "description": "꾸덕한 갸또 시트와 말차 가나슈에\n부드러운 우유 크림이 어우러진 케이크",
       "imageUrl": "https://place-static.tossplace.com/public/live/PUBLIC/2026-05-12/5058ffa0-185b-446a-a2b0-8f8701d1ca87",
       "imageLocalPath": "data/tossplace-menu/238090/images/10197088-교토말차쇼콜라-9d28d3d031.jpg",
       "imageHash": "9d28d3d031d728cd946817c735c6dd9ba1693b50a7c16e5636b47a33b131f455",
       "firstSeenAt": "2026-08-20T21:16:07.047Z",
-      "updatedAt": "2026-08-29T22:52:03.755Z"
+      "updatedAt": "2026-09-18T12:03:41.506Z"
     },
     "10433709": {
       "fingerprint": "81987fafdca06b63f066d6b90b838f2d905b291a371ef1a1522d4352a30b427a",
@@ -2734,14 +2734,14 @@
       "updatedAt": "2026-07-21T04:15:20.254Z"
     },
     "10683603": {
-      "fingerprint": "608514277baca9b15c1440196b67fd3a76d9ed32541bd0e3697372ca7e4e8105",
+      "fingerprint": "b8217821c33b131d922de8f58fd06eb2b1c60bc2a3f0411ebdebb9f701f7bea8",
       "title": "[피스타치오] 초코 반하나 와플",
       "description": "앵커 버터로 만든 겉바속쫀 리에주 와플에 바나나, 생크림, 초코소스, 피스타치오를 올린 클루미 시그니처 와플. 한 입에 반해버릴지도 몰라요.",
       "imageUrl": "https://place-static.tossplace.com/public/live/PUBLIC/2026-05-09/59d70125-6af4-4c19-a4c7-31c8f4d0eb00",
       "imageLocalPath": "data/tossplace-menu/238090/images/10683603-피스타치오-초코-반하나-와플-87f8a2942f.jpg",
       "imageHash": "87f8a2942f2b5a6231dcf3474d72da5a0a7ddb0f9fcc603bdca0a39d9a4f5a0d",
       "firstSeenAt": "2026-07-21T04:15:20.254Z",
-      "updatedAt": "2026-09-08T23:01:40.222Z"
+      "updatedAt": "2026-09-18T12:03:41.506Z"
     },
     "10686488": {
       "fingerprint": "5ff430b9f2a592bcb32ac095b827bf1e4c3eaef0e1816f60855557551c011464",
@@ -2754,14 +2754,14 @@
       "updatedAt": "2026-08-20T21:16:07.047Z"
     },
     "10842350": {
-      "fingerprint": "2e4ff8b44082041a4d094a018c3f6b3de31a16a4adcdcf5c3c87b16574502938",
+      "fingerprint": "bea39c24cc19ba3c58b4451ef946ea31b50d59ded39af8c64c570ad057cccc31",
       "title": "얼그레이 무화과",
       "description": "달콤한 무화과가 듬뿍 들어간 고소한 시트 위에,\n향긋한 얼그레이 크림을 올린 부드러운 케이크 ☕🍰",
       "imageUrl": "https://place-static.tossplace.com/public/live/PUBLIC/2026-05-12/965186ba-98fb-4c6b-bdd7-15c905728f22",
       "imageLocalPath": "data/tossplace-menu/238090/images/10842350-얼그레이-무화과-0f5f5e5bf2.jpg",
       "imageHash": "0f5f5e5bf2263c6d32c3cf25d28b16a234dd70a0ccd3b2088184f007f50fbc48",
       "firstSeenAt": "2026-07-21T04:15:20.254Z",
-      "updatedAt": "2026-08-29T22:52:03.755Z"
+      "updatedAt": "2026-09-18T12:03:41.506Z"
     },
     "10983319": {
       "fingerprint": "65feb9bfe9146ff94ac4d68cfd30046fa3ad0435b262748c535c30d274431c84",
@@ -2774,24 +2774,24 @@
       "updatedAt": "2026-08-29T22:52:03.755Z"
     },
     "10991140": {
-      "fingerprint": "a74f35638061e67cb8fece1587c8efd7790812c9eefa84f4cf3fa3bb2f31a40a",
+      "fingerprint": "0876cf8460c9e599f9f4a0579a805cff201faf89805b02c554f48cad32099ef3",
       "title": "내맘대로 브런치(Basic waffle)",
       "description": "[뉴질랜드 앵커 무염 버터 100%] 벨기에 리에주 방식의 와플로 겉은 바삭 속은 촉촉한 벨기에 와플,원하는 메뉴를 담아서 나만의 유니크한 메뉴를 만드세요.(Basic waffle)",
       "imageUrl": "https://place-static.tossplace.com/public/live/PUBLIC/2026-02-15/ae758868-33f4-4ee7-96ae-db9f449a9b8f",
       "imageLocalPath": "data/tossplace-menu/238090/images/10991140-내맘대로-브런치-Basic-waffle-f5ce2306c3.jpg",
       "imageHash": "f5ce2306c30e2e6edb9de09ee6d4772aeaa99f3d9bdce0ad40fd05d4e4878f24",
       "firstSeenAt": "2026-07-21T04:15:20.254Z",
-      "updatedAt": "2026-08-28T04:59:27.387Z"
+      "updatedAt": "2026-09-18T12:03:41.506Z"
     },
     "10999047": {
-      "fingerprint": "cceb5dbbb31105922e16b6b482f33b6dc74f59a6a99e66c3900b8a584ce5f270",
+      "fingerprint": "f96aa071a9ca0bf1c67af5ee33a1cf911394c77046d85ab692a17dd079eab048",
       "title": "[브런치]커피",
       "description": "",
       "imageUrl": "https://place-static.tossplace.com/public/live/PUBLIC/2026-02-15/c3afe580-fd6a-438e-816f-8dfb5c702a6c",
       "imageLocalPath": "data/tossplace-menu/238090/images/10999047-브런치-커피-2d26673b2f.jpg",
       "imageHash": "2d26673b2f244dac751baa12687328a18f009bc1016f3ccba5f3c708bda28a2d",
       "firstSeenAt": "2026-07-21T04:15:20.254Z",
-      "updatedAt": "2026-09-05T22:24:17.927Z"
+      "updatedAt": "2026-09-18T12:03:41.506Z"
     },
     "11057081": {
       "fingerprint": "6a5b383be1b7879eef1a32d181ed86be419b22fc62756c43062f70b8fde80a66",
@@ -2804,84 +2804,84 @@
       "updatedAt": "2026-08-20T21:16:07.047Z"
     },
     "11075478": {
-      "fingerprint": "dd16bce6831795234b72d90f366802f125062ef50b32e588f2b77790b8029071",
+      "fingerprint": "7169e8a1f6bdd1e12a63c70f7520518fea910cd5027da774be1ad2c39fb4d71c",
       "title": "여왕의접시3(Coffee Set)",
       "description": "[10:30~21:00] 벨기에 리에주 방식의 바삭한 와플, 뉴질랜드 앵커 무염버터 100%로 만든 부드러운 스크램블, 신선한 방울 토마토, 커피를 곁들인 우아한 한 접시.",
       "imageUrl": "https://place-static.tossplace.com/public/live/PUBLIC/2026-03-04/9f9e4d0e-8f27-4d4e-a18b-769c79f6f55c",
       "imageLocalPath": "data/tossplace-menu/238090/images/11075478-여왕의접시3-Coffee-Set-2db77c6fb1.jpg",
       "imageHash": "2db77c6fb1dcdc106bda33b0f0be84a83040ced39dc1e49b1952dc48f24c583a",
       "firstSeenAt": "2026-07-21T04:15:20.254Z",
-      "updatedAt": "2026-09-05T22:24:17.927Z"
+      "updatedAt": "2026-09-18T12:03:41.506Z"
     },
     "11075904": {
-      "fingerprint": "ddb9a0557d90f89651def2571165c5b9c126fbd09bfcacc21a2b9200972d85c4",
+      "fingerprint": "54353190d365164a8ecde2b815a5ae526078002cd87a82415ea9a793aa79f4cc",
       "title": "여왕의접시4(아보카도)Coffee Set",
       "description": "[10:30~21:00] 정통 벨기에 리에주 와플과 100% 앵커 무염버터로 맛을 낸 부드러운 스크램블 에그,  신선한 아보카도와 방울토마토를 더하고 국가대표 바리스타 원두의 향긋한 커피 한 잔으로 완성한 우아한 한 접시입니다.\"",
       "imageUrl": "https://place-static.tossplace.com/public/live/PUBLIC/2026-03-03/a192cd00-dc2a-41b4-ad02-47f2f7585ea1",
       "imageLocalPath": "data/tossplace-menu/238090/images/11075904-여왕의접시4-아보카도-Coffee-Set-76b7edcaa3.jpg",
       "imageHash": "76b7edcaa34530e5781599b022854d03a94b2a5d3d9fa65917e2ef864acdc41a",
       "firstSeenAt": "2026-07-21T04:15:20.254Z",
-      "updatedAt": "2026-09-05T22:24:17.927Z"
+      "updatedAt": "2026-09-18T12:03:41.506Z"
     },
     "11191767": {
-      "fingerprint": "19acd5a9b2a4d767aff15d3dcde852bb30ec0d2c491bb9846e3ff55efbd7e019",
+      "fingerprint": "ada30bc28619f812a8c9b0d97180ee2426abe61c62ff83d52bf165929ba11425",
       "title": "여왕의 만찬7(Coffee Set)",
       "description": "[10:30~21:00] 달콤하고 쫀득한 정통 벨기에 리에주 와플과 100% 앵커 무염버터로 맛을 낸 부드러운 스크램블 에그, 육즙을 꽉 채운 무아질산나트륨 독일식 소시지의 건강한 조화. 95% 감자 해시브라운의 바삭함에 신선한 아보카도와 방울토마토, 아삭한 그린빈을 더하고 국가대표 바리스타 원두의 향긋한 커피 한 잔으로 완성한 완벽한 한 접시입니다.",
       "imageUrl": "https://place-static.tossplace.com/public/live/PUBLIC/2026-03-10/41fec0aa-9e8f-43c8-9330-2a05866d2a0c",
       "imageLocalPath": "data/tossplace-menu/238090/images/11191767-여왕의-만찬-Coffee-Set-c242a770ab.jpg",
       "imageHash": "c242a770ab325470a0761933873c7810ca820e01b595a3888003b66e097064fc",
       "firstSeenAt": "2026-07-21T04:15:20.254Z",
-      "updatedAt": "2026-09-05T22:24:17.927Z"
+      "updatedAt": "2026-09-18T12:03:41.506Z"
     },
     "11912174": {
-      "fingerprint": "18689348ad8951ea4fc00dd4674766be74498fa9e6eb6b03d0cfdbf115096be0",
+      "fingerprint": "ca5a0a3612d28295561bf1cf0e13f403f6c3468827628fdac4964ea4939881df",
       "title": "레몬 아메리카노",
       "description": "첫맛은 레몬의 시트러스함이 입안을 깨우고, 끝맛은 원두 특유의 고소하고 쌉싸름한 풍미가 깔끔하게 마무리해줍니다.",
       "imageUrl": "https://place-static.tossplace.com/public/live/PUBLIC/2026-05-04/3d5dde56-e8bc-42f3-8d05-02ba3fe3d817",
       "imageLocalPath": "data/tossplace-menu/238090/images/11912174-레몬-아메리카노-a66b07d481.jpg",
       "imageHash": "a66b07d481ac0818167c513615f116e7f03da94f2358e3c195f5a2a7c00fee8f",
       "firstSeenAt": "2026-07-21T04:15:20.254Z",
-      "updatedAt": "2026-07-21T04:15:20.254Z"
+      "updatedAt": "2026-09-18T12:03:41.506Z"
     },
     "11912204": {
-      "fingerprint": "6dc3302aa896972bd074f3767bf80aaacadc37d908016299525080d3dc8d0c4d",
+      "fingerprint": "e667ea06e47c21354cd51e906ed6b9bd13cd2b1f606480826a6eeec87153d995",
       "title": "호지차 라떼",
       "description": "녹차 찻잎을 고온에서 볶아내 떫은맛은 비우고 구수함은 가득 채웠습니다. 입안 가득 퍼지는 특유의 향긋한 볶음 향과 우유의 담백함이 만나 마치 인절미처럼 고소한 풍미를 선사합니다.",
       "imageUrl": "https://place-static.tossplace.com/public/live/PUBLIC/2026-03-25/2b72dfd6-0b4d-4d5f-a33d-23cd8690965e",
       "imageLocalPath": "data/tossplace-menu/238090/images/11912204-호지차-라떼-b7b9b7705d.jpg",
       "imageHash": "b7b9b7705d2113bb56dd89566662be0c3e06d916cafc214e5ee2d52f4a6f443e",
       "firstSeenAt": "2026-07-21T04:15:20.254Z",
-      "updatedAt": "2026-08-20T21:16:07.047Z"
+      "updatedAt": "2026-09-18T12:03:41.506Z"
     },
     "12131403": {
-      "fingerprint": "dee7195918bf580157f34c4732b58df1ee3cf5f3426e237f972bea8062855488",
+      "fingerprint": "953c6a4f128cac6eab070e8c4af84dc7002022485be9b6ce3c66a363447566cb",
       "title": "레몬차",
       "description": "새콤달콤 레몬의 향과 맛을 담은 레몬차",
       "imageUrl": "https://place-static.tossplace.com/public/live/PUBLIC/2026-04-02/0d5f7d19-cced-42fd-ac05-515c249a7bab",
       "imageLocalPath": "data/tossplace-menu/238090/images/12131403-레몬차-a3fc0f726f.jpg",
       "imageHash": "a3fc0f726fa29afa688eb442843d05e2c18cff72b400c0e201e60312fa998879",
       "firstSeenAt": "2026-07-21T04:15:20.254Z",
-      "updatedAt": "2026-08-20T21:16:07.047Z"
+      "updatedAt": "2026-09-18T12:03:41.506Z"
     },
     "12829519": {
-      "fingerprint": "3c15341f0e03e0d56ce558a31efbd34aa702885a83a389c882456df34e37383c",
+      "fingerprint": "b22fb0b4ac7f2920c31a502e5191aa3d6a581e5f9d420de7dd7f7bcd72691df5",
       "title": "애플 아메리카노",
       "description": "사과의 산뜻한 단맛과 진한 아메리카노의 청량한 조화",
       "imageUrl": "https://place-static.tossplace.com/public/live/PUBLIC/2026-04-23/9a31ed11-9317-42a0-b5ed-3aad7bb48a0a",
       "imageLocalPath": "data/tossplace-menu/238090/images/12829519-애플-아메리카노-d516b7102e.jpg",
       "imageHash": "d516b7102eee2dcd238eaf8f66c9718b98b56ebec6202d0ea46daf66a3ec7221",
       "firstSeenAt": "2026-07-21T04:15:20.254Z",
-      "updatedAt": "2026-09-05T22:24:17.927Z"
+      "updatedAt": "2026-09-18T12:03:41.506Z"
     },
     "12936713": {
-      "fingerprint": "bace8057665188629bbeecb35c14298ca7c71ab2b35b2604d247455611e75a3b",
+      "fingerprint": "0f4128f065539ed4c5763a25dc368d3806018883857a59d249436f6e63f68c47",
       "title": "[여름 시그니처] 오렌지 비앙코",
       "description": "오렌지의 상큼함과 부드러운 크림이 어우러진 커피\n달콤쌉싸름한 매력의 시트러스 라떼",
       "imageUrl": "https://place-static.tossplace.com/public/live/PUBLIC/2026-06-06/f4281e0f-51c0-42d6-9bec-82c7ecef3d45",
       "imageLocalPath": "data/tossplace-menu/238090/images/14267209-오렌지-비앙코-dda910de0e.jpg",
       "imageHash": "dda910de0ece7d52a0b6ddcfbbd3ef6e0dc9d34497a543c355f61fa2781093e1",
       "firstSeenAt": "2026-07-21T04:15:20.254Z",
-      "updatedAt": "2026-08-25T21:15:22.454Z"
+      "updatedAt": "2026-09-18T12:03:41.506Z"
     },
     "13040656": {
       "fingerprint": "7c802e24bd8ed1f5e83bf3a0657e3716e1620ea1607b810ed01512facd5f61f9",
@@ -2894,24 +2894,24 @@
       "updatedAt": "2026-08-29T22:52:03.755Z"
     },
     "13137641": {
-      "fingerprint": "73bf1120dc3b3a48b402629a9e04ba167e31acea7974c4c26cd2d049eaf9a3a4",
+      "fingerprint": "294b8d19b122bccea474d9d34409349162fee2699d8298e4e8e1ad1a6ce2fa80",
       "title": "[피스타치오]초코 반하나와플",
       "description": "\"한 입 먹으면 정말 반할지도 몰라요!\"\n앵커 버터로 만든 겉바속쫀 리에주 와플에 바나나, 생크림, 초코소스, 피스타치오를 올린 클루미 시그니처 와플.",
       "imageUrl": "https://place-static.tossplace.com/public/live/PUBLIC/2026-05-09/ae7594c4-fb11-480f-a5c1-aeab9a2032d9",
       "imageLocalPath": "data/tossplace-menu/238090/images/10683603-피스타치오-초코-반하나-와플-87f8a2942f.jpg",
       "imageHash": "87f8a2942f2b5a6231dcf3474d72da5a0a7ddb0f9fcc603bdca0a39d9a4f5a0d",
       "firstSeenAt": "2026-07-21T04:15:20.254Z",
-      "updatedAt": "2026-09-08T23:01:40.222Z"
+      "updatedAt": "2026-09-18T12:03:41.506Z"
     },
     "13541356": {
-      "fingerprint": "efa5c0ed1f2f07ab9baee6002708fc101fef30c14fbcbd5475fe687f273e62dc",
+      "fingerprint": "3c4ace453aebb1fc9a6c592579228a93d12b29fa913678a03300a258ff37f7b7",
       "title": "블루베리&크림치즈 와플",
       "description": "\"눈과 입이 즐거워지는 상큼하고 진한 유혹\"\n세계 10대 슈퍼푸드인 블루베리와 부드럽고 진한 크림치즈가 만났습니다. 앵커 버터로 구워낸 따뜻한 와플 위에 펼쳐지는 상큼 고소한 하모니를 즐겨보세요. 건강한 달콤함이 필요할 때 최고의 선택입니다.",
       "imageUrl": "https://place-static.tossplace.com/public/live/PUBLIC/2026-08-13/45eb263f-b4c3-457b-8f1f-2e7d4df15ed7",
       "imageLocalPath": "data/tossplace-menu/238090/images/7735937-블루베리-크림치즈-와플-32131784ad.jpg",
       "imageHash": "32131784ada4511e43e0d64f09c2537f0933d80517a7fe28166c1ae3122af90d",
       "firstSeenAt": "2026-07-21T04:15:20.254Z",
-      "updatedAt": "2026-08-20T21:16:07.047Z"
+      "updatedAt": "2026-09-18T12:03:41.506Z"
     },
     "13579278": {
       "fingerprint": "249e9d84e7dfc58d254b1251f71f8f253c7052e4dfef9d243389773e82983a6c",
@@ -2924,14 +2924,14 @@
       "updatedAt": "2026-08-20T21:16:07.047Z"
     },
     "13579307": {
-      "fingerprint": "9b68d7eb755df8d675fb35236e96b5b6d905fc4b42dfd048fc5dfe44f02bdeba",
+      "fingerprint": "3f8ecff6502672fbb672f1a33417f75164a6ef2499dc40d1d996b2b17ddae495",
       "title": "코코넛커피 스무디",
       "description": "망고의 달콤함과 코코넛의 부드러운 풍미가 완벽한 밸런스를 이루는 아이스 블렌디드 음료입니다. 시원하고 크리미한 질감으로 마지막 한 입까지 기분 좋은 달콤함을 선사합니다. (에스프레소 추가하시면 맛있습니다)",
       "imageUrl": "https://place-static.tossplace.com/public/live/PUBLIC/2026-05-16/40311155-f618-45b7-942f-82a7541e923b",
       "imageLocalPath": "data/tossplace-menu/238090/images/13579307-코코넛커피-스무디-4f6638006a.jpg",
       "imageHash": "4f6638006a94e33f1c9df614b5bacad1ca84283cb3809ee274b38d69c34e68ee",
       "firstSeenAt": "2026-07-21T04:15:20.254Z",
-      "updatedAt": "2026-08-20T21:16:07.047Z"
+      "updatedAt": "2026-09-18T12:03:41.506Z"
     },
     "13579323": {
       "fingerprint": "2c5a9c74b016d2472d39506e3bdf8deaa7f8d5f1b2f89707e5c90bcb5634b72e",
@@ -2954,34 +2954,34 @@
       "updatedAt": "2026-07-21T04:15:20.254Z"
     },
     "14267200": {
-      "fingerprint": "2d5e7da86df6025db159506a510423fb4824fe2752f09e9062f4a91d70429554",
+      "fingerprint": "3c9946400f9926222b076c21dbc393d5baebeee2230a0a62699327dfd623cf59",
       "title": "땅콩크림라떼",
       "description": "",
       "imageUrl": "https://place-static.tossplace.com/public/live/PUBLIC/2026-06-06/f11c61fb-eed5-415b-ac44-69ebe82ef588",
       "imageLocalPath": "data/tossplace-menu/238090/images/14267200-땅콩크림라떼-2f5de2df2e.jpg",
       "imageHash": "2f5de2df2e4dd3b9ccd47dc8041f70376ca239ea3a8351f7cf16360af832e720",
       "firstSeenAt": "2026-07-21T04:15:20.254Z",
-      "updatedAt": "2026-08-20T21:16:07.047Z"
+      "updatedAt": "2026-09-18T12:03:41.506Z"
     },
     "14267209": {
-      "fingerprint": "eb58c719567aa20f138751e2c84e234075f06fd1fde6b4252467d44c04860583",
+      "fingerprint": "aad47de061cf43a7642c362b40b7c4b26bcbbebb8286fd883c29d5288983b845",
       "title": "오렌지 비앙코",
       "description": "",
       "imageUrl": "https://place-static.tossplace.com/public/live/PUBLIC/2026-06-06/2beb303a-c1f9-4dae-9725-b1d35a62317e",
       "imageLocalPath": "data/tossplace-menu/238090/images/14267209-오렌지-비앙코-dda910de0e.jpg",
       "imageHash": "dda910de0ece7d52a0b6ddcfbbd3ef6e0dc9d34497a543c355f61fa2781093e1",
       "firstSeenAt": "2026-07-21T04:15:20.254Z",
-      "updatedAt": "2026-08-29T22:52:03.755Z"
+      "updatedAt": "2026-09-18T12:03:41.506Z"
     },
     "15684826": {
-      "fingerprint": "fce318e8fc83fc1139fbc37e0c4366895ecf03503b19c0a0492ce996bf5ac7ab",
+      "fingerprint": "68c959fca4c57e52bbeaf13ba275d01c88f4602f6531e98f67732d3cc400f2b4",
       "title": "[시즌] 복숭아 한 컵",
       "description": "제철 황도 1개를 통째로 담았습니다.\n달콤한 생복숭아와 바삭한 그래놀라, 상큼한 요거트, 진한 바닐라 아이스크림이 어우러진 여름 한정 프리미엄 파르페",
       "imageUrl": "https://place-static.tossplace.com/public/live/PUBLIC/2026-07-24/3581f84c-1e13-48db-a8ca-0da22288a92f",
       "imageLocalPath": "data/tossplace-menu/238090/images/15684889-복숭아-한-컵-5f7a3ea8c3.jpg",
       "imageHash": "5f7a3ea8c3acf4c7cb72bf80a59b5faca086ac25d26996419ce96db7a50c15f3",
       "firstSeenAt": "2026-08-20T21:16:07.047Z",
-      "updatedAt": "2026-08-20T21:16:07.047Z"
+      "updatedAt": "2026-09-18T12:03:41.506Z"
     },
     "15684844": {
       "fingerprint": "0cd51e72965622d685a054f7225aec7ebd30e06227112a3bec37fcaea9d8fd7e",
@@ -2994,44 +2994,44 @@
       "updatedAt": "2026-09-12T22:41:01.782Z"
     },
     "15684885": {
-      "fingerprint": "66efa77f31ec2012e11a4da5b682d959f1b5cca3c3af483d0be3aacc8388d395",
+      "fingerprint": "20ac2f6a3ab3a5c783f10e3dc1b27da4693803ae9b6bd308479eafd25f283574",
       "title": "애플망고 한 컵",
       "description": "달콤한 망고를 듬뿍 담았습니다.\n애플망고와 진한 초코 아이스크림, 망고 샤베트, 바삭한 그래놀라, 고소한 치즈 큐브가 어우러진 시원한 디저트.",
       "imageUrl": "https://place-static.tossplace.com/public/live/PUBLIC/2026-07-25/859a2217-7c60-464a-bac3-d6c5ecfdd597",
       "imageLocalPath": "data/tossplace-menu/238090/images/15684885-애플망고-한-컵-69d37ad4fd.jpg",
       "imageHash": "69d37ad4fdba4e7d9acf34a2b2e2e4eda5782ee7eb0b1635c4f6dabba2641b70",
       "firstSeenAt": "2026-08-20T21:16:07.047Z",
-      "updatedAt": "2026-08-29T22:52:03.755Z"
+      "updatedAt": "2026-09-18T12:03:41.506Z"
     },
     "15684889": {
-      "fingerprint": "cf543fafcd607fcdb909c0b0153be26043ae20137118a28df622d5c00380c40c",
+      "fingerprint": "7588f81f26dd44fdf8c5c58ec36b06b9bb2910132d395fbdffb34e255372fa46",
       "title": "복숭아 한 컵",
       "description": "제철 황도 1개를 통째로 담았습니다.\n달콤한 생복숭아와 바삭한 그래놀라, 상큼한 요거트, 진한 바닐라 아이스크림이 어우러진 여름 한정 프리미엄 파르페",
       "imageUrl": "https://place-static.tossplace.com/public/live/PUBLIC/2026-07-24/2a3becfa-b55b-4ba3-a52e-43862b5cfee1",
       "imageLocalPath": "data/tossplace-menu/238090/images/15684889-복숭아-한-컵-5f7a3ea8c3.jpg",
       "imageHash": "5f7a3ea8c3acf4c7cb72bf80a59b5faca086ac25d26996419ce96db7a50c15f3",
       "firstSeenAt": "2026-08-20T21:16:07.047Z",
-      "updatedAt": "2026-08-29T22:52:03.755Z"
+      "updatedAt": "2026-09-18T12:03:41.506Z"
     },
     "15684896": {
-      "fingerprint": "cba2d1d98c85a3a8326e53792c7d2ef4b5d0ae2dc57a15c332fea755fe7b3edb",
+      "fingerprint": "0bacac8551e70491e985477114d384b00712c972e320d39085082943fffb1c12",
       "title": "무화과 크림치즈 와플",
       "description": "달콤한 무화과와 부드러운 크림치즈 무스, 피스타치오를 올린 바삭한 리에쥬 와플.",
       "imageUrl": "https://place-static.tossplace.com/public/live/PUBLIC/2026-08-29/865dc610-148e-4f5c-b11d-2f4597bd132a",
       "imageLocalPath": "data/tossplace-menu/238090/images/15684896-무화과-크림치즈-와플-db8948e195.jpg",
       "imageHash": "db8948e19509607d714b22e93137437cd66de1ae1b6cea0b2d0b8fb586cac9f4",
       "firstSeenAt": "2026-08-20T21:16:07.047Z",
-      "updatedAt": "2026-09-09T22:48:43.037Z"
+      "updatedAt": "2026-09-18T12:03:41.506Z"
     },
     "16230479": {
-      "fingerprint": "a7aa40850b8c323ea8d3575d6d30acc0a6266f587dc6944623573abc5270d4eb",
+      "fingerprint": "702b49eddf132ae584181257dd3493bca4c118280fa8245d7238b41600b75f41",
       "title": "[시즌한정]무화과&크림치즈 와플",
-      "description": "부드러운 크림치즈와 생무화과의 완벽한 앙상블~*",
+      "description": "달콤한 무화과와 부드러운 크림치즈 무스, 피스타치오를 올린 바삭한 리에쥬 와플.",
       "imageUrl": "https://place-static.tossplace.com/public/live/PUBLIC/2026-08-14/8f168e4d-f50e-4bc5-a80c-9e0a5bdbc879",
       "imageLocalPath": "data/tossplace-menu/238090/images/16230479-시즌한정-무화과-크림치즈-와플-45e9e0e7c1.jpg",
       "imageHash": "45e9e0e7c136465835a3fbf2c5a5478525780d51def39ddd6c40289eb5563bc0",
       "firstSeenAt": "2026-08-20T21:16:07.047Z",
-      "updatedAt": "2026-08-25T21:15:22.454Z"
+      "updatedAt": "2026-09-18T12:03:41.506Z"
     },
     "16385006": {
       "fingerprint": "ba13d7a087f00c28f97821f52e50e1d2aeabbd34ef9b6c4d1bdfbd67b94db63d",
@@ -3044,14 +3044,14 @@
       "updatedAt": "2026-08-29T22:52:03.755Z"
     },
     "16508079": {
-      "fingerprint": "7e4602b999ede7b5684bed86bb3d3f9bd621afd90b2409747fdd144afd3908c8",
+      "fingerprint": "09685d28ecc3b54a454198c6c5dc18fe8a427fdbe0456ee12938bb86d09afe44",
       "title": "카페라떼",
       "description": "에스프레소와 부드러운 밀크의 완벽한 밸런스.",
       "imageUrl": "https://place-static.tossplace.com/public/live/PUBLIC/2026-08-25/7bd9f6b6-a3f7-454f-b38b-37496a0d34e5",
       "imageLocalPath": "data/tossplace-menu/238090/images/16508079-카페라떼-2e771f0a3b.jpg",
       "imageHash": "2e771f0a3b85add8606b6bd0c287c10131989b4ca290fab570d753b2ba95c9bb",
       "firstSeenAt": "2026-08-25T21:15:22.454Z",
-      "updatedAt": "2026-09-05T22:24:17.927Z"
+      "updatedAt": "2026-09-18T12:03:41.506Z"
     },
     "17098517": {
       "fingerprint": "cce6cb8aa0db3b565440f6d3663dfa64c99a10cf4957e2210c93b385f94f5231",
@@ -3065,22 +3065,6 @@
     }
   },
   "runs": [
-    {
-      "at": "2026-07-21T02:45:05.074Z",
-      "summary": {
-        "total": 92,
-        "added": 11,
-        "changed": 46,
-        "unchanged": 35,
-        "removed": 15
-      },
-      "imageSummary": {
-        "skipped-existing-url": 67,
-        "skipped-existing-hash": 6,
-        "downloaded": 17,
-        "missing": 2
-      }
-    },
     {
       "at": "2026-07-21T04:15:20.254Z",
       "summary": {
@@ -3359,7 +3343,22 @@
         "failed-http-timeout": 1,
         "downloaded": 1
       }
+    },
+    {
+      "at": "2026-09-18T12:03:41.506Z",
+      "summary": {
+        "total": 89,
+        "added": 0,
+        "changed": 57,
+        "unchanged": 32,
+        "removed": 0
+      },
+      "imageSummary": {
+        "skipped-existing-url": 87,
+        "missing": 1,
+        "failed-http-timeout": 1
+      }
     }
   ],
-  "lastRunAt": "2026-09-12T22:41:01.782Z"
+  "lastRunAt": "2026-09-18T12:03:41.506Z"
 }

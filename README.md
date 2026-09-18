@@ -109,6 +109,14 @@ netlify/functions/submit-order.mjs
 - 실제 연동은 다음 단계로 남아 있습니다: 가게 전용 카카오 계정 생성 → 카운터에 상시 거치할 공기계에 로그인 → `developers.kakao.com`에 앱 등록 후 `talk_message` 스코프로 1회 OAuth 동의 → 발급된 `refresh_token`을 Netlify 환경변수(`KAKAO_REST_API_KEY`, `KAKAO_CLIENT_SECRET`, `KAKAO_REFRESH_TOKEN`)로 등록. 세 값이 모두 설정되면 같은 함수가 자동으로 실제 전송 모드로 전환됩니다.
 - 카카오 refresh token은 영구적이지 않을 수 있어, 연동 이후에도 주기적인 재인증이 필요할 수 있습니다.
 
+### 주문 내역 확인 (`/order/orders`)
+
+카카오 연동 여부와 무관하게, 제출된 모든 주문은 [Netlify Blobs](https://docs.netlify.com/build/data-and-storage/netlify-blobs/)(`orders` 스토어)에 저장됩니다. `@netlify/blobs`가 이 저장소의 첫 npm 의존성이며, `npm install`로 설치합니다.
+
+- 손님은 주문 제출 직후 화면에서 자신이 담은 항목·옵션·합계가 담긴 영수증을 바로 확인할 수 있고, 같은 브라우저 탭에서는 새로고침해도 "View my last order" 버튼으로 다시 볼 수 있습니다(`sessionStorage` 기준, 다른 기기·탭에는 남지 않습니다).
+- 직원은 `/order/orders`에서 최근 주문 목록(제출시각/주문번호/이름/연락처/픽업시간/아이템/합계/카카오 전송 상태)을 확인할 수 있습니다. 이 화면은 고객 개인정보를 담고 있으므로, Netlify 환경변수 `ORDERS_VIEW_KEY`(공유 암호)를 설정해야 열립니다 — **설정 전에는 누구도 조회할 수 없습니다.** 직원은 이 암호를 한 번 입력하면 같은 브라우저에 저장되어 다음부터 재입력하지 않아도 됩니다.
+- 이 화면은 로그인 시스템이 아니라 공유 암호 하나로만 보호되는 수준입니다. URL과 암호를 아는 사람만 접근할 수 있는 정도의 보호이니, 암호는 직원들에게만 구두로 공유하세요.
+
 ## 매장 정보와 Instagram 수정
 
 매장 소개, 주소, 영업시간, 전화번호와 네이버 지도 링크는 `data/store-info.json`에서 관리합니다.
@@ -188,11 +196,14 @@ clumiuniverse/
 ├── index.html
 ├── styles.css
 ├── netlify.toml
+├── package.json
 ├── order/
 │   ├── index.html
+│   ├── orders.html
 │   └── order.css
 ├── netlify/functions/
-│   └── submit-order.mjs
+│   ├── submit-order.mjs
+│   └── list-orders.mjs
 ├── assets/
 │   ├── clumi-logo.svg
 │   ├── bg/
