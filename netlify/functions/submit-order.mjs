@@ -32,7 +32,7 @@ function formatItemLine(item) {
 
 function buildMessageText(order) {
   const lines = [
-    `🐰 New pre-order #${order.orderCode}`,
+    `🐰 New pre-order #${order.orderCode || 'N/A'}`,
     '',
     `Name: ${order.name}`,
     `Contact: ${order.contact}`,
