@@ -168,9 +168,9 @@
             <polyline points="15 18 9 12 15 6"></polyline>
           </svg>
         </button>
-        <div class="menu-scroller" id="menuScroller" role="tabpanel" aria-labelledby="menu-tab-featured"
+        <div class="menu-scroller" id="menuScroller" role="tabpanel" aria-labelledby="menu-tab-popular"
           tabindex="0">
-          <!-- 메뉴 카드는 JS가 data/featured.json을 읽어 자동 생성합니다 -->
+          <!-- 메뉴 카드는 JS가 기본으로 인기 메뉴를 자동 생성합니다 -->
         </div>
         <button class="scroll-arrow scroll-arrow-next" id="menuNext" aria-label="다음">
           <svg xmlns="http://www.w3.org/2000/svg" width="22" height="22" viewBox="0 0 24 24" fill="none"
@@ -917,9 +917,9 @@
       }
 
       menuTabs.innerHTML = MENU_TABS.map(tab => `
-        <button type="button" class="menu-tab${tab.key === 'featured' ? ' is-active' : ''}" role="tab"
+        <button type="button" class="menu-tab${tab.key === 'popular' ? ' is-active' : ''}" role="tab"
           id="menu-tab-${escapeHtml(tab.key)}" aria-controls="menuScroller"
-          aria-selected="${tab.key === 'featured'}" tabindex="${tab.key === 'featured' ? '0' : '-1'}"
+          aria-selected="${tab.key === 'popular'}" tabindex="${tab.key === 'popular' ? '0' : '-1'}"
           data-menu-tab="${escapeHtml(tab.key)}">
           ${escapeHtml(tab.label)}
         </button>`).join('');
@@ -959,7 +959,7 @@
         activateMenuTab(tabs[nextIndex], { focus: true });
       });
 
-      renderMenuCards('featured');
+      renderMenuCards('popular');
 
       // ── 5-B. 리뷰 섹션 렌더링 ─────────────────────────────────
       const reviewsGrid = document.getElementById('reviewsGrid');
