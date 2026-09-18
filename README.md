@@ -108,7 +108,7 @@ netlify/functions/submit-order.mjs
 - 메뉴 데이터는 `data/order-menu.json`으로, `scripts/generate-site-data.mjs`의 `buildOrderMenu()`가 `data/site-menu.json`과 같은 소스에서 만들지만 가격·옵션(`optionSets`)·영문 텍스트를 그대로 보존합니다. 두 파일 모두 `node scripts/generate-site-data.mjs` 한 번으로 함께 생성/검증됩니다.
 - 옵션이 있는 메뉴(예: "내맘대로 브런치")는 카드에서 옵션을 고른 뒤 담을 수 있습니다. 화면에 표시되는 합계는 **예상 금액**이며, 실제 결제 금액은 매장에서 확정합니다.
 - **현재는 dry-run 상태**입니다. `netlify/functions/submit-order.mjs`는 주문을 검증만 하고, 실제로는 어디에도 전송하지 않습니다. 대신 카카오 "나에게 보내기" API에 실제로 보낼 요청 파라미터(`wouldSend.tokenRequest`, `wouldSend.messageRequest`)를 그대로 응답에 담아 반환합니다. 주문 완료 화면의 "Debug" 아코디언에서 확인할 수 있습니다.
-- 실제 연동은 다음 단계로 남아 있습니다: 가게 전용 카카오 계정 생성 → 카운터에 상시 거치할 공기계에 로그인 → `developers.kakao.com`에 앱 등록 후 `talk_message` 스코프로 1회 OAuth 동의 → 발급된 `refresh_token`을 Netlify 환경변수(`KAKAO_REST_API_KEY`, `KAKAO_CLIENT_SECRET`, `KAKAO_REFRESH_TOKEN`)로 등록. 세 값이 모두 설정되면 같은 함수가 자동으로 실제 전송 모드로 전환됩니다.
+- 실제 연동 절차: 가게 전용 카카오 계정 생성 → 카운터에 상시 거치할 공기계에 로그인 → `developers.kakao.com`에 앱 등록, "카카오 로그인" 활성화 + `talk_message` 스코프 추가, 그 계정을 테스트 사용자로 등록 → `node scripts/kakao-get-refresh-token.mjs --client-id <REST API 키> --redirect-uri <등록한 Redirect URI>`로 로그인 URL 생성 → 브라우저에서 승인 후 리다이렉트된 URL의 `code`를 복사해 같은 명령에 `--code <code>`로 재실행 → 출력된 `refresh_token`을 Netlify 환경변수(`KAKAO_REST_API_KEY`, `KAKAO_CLIENT_SECRET`, `KAKAO_REFRESH_TOKEN`)로 등록. 세 값이 모두 설정되면 같은 함수가 자동으로 실제 전송 모드로 전환됩니다.
 - 카카오 refresh token은 영구적이지 않을 수 있어, 연동 이후에도 주기적인 재인증이 필요할 수 있습니다.
 
 ### 주문 내역 확인 (`/order/orders`)
@@ -232,8 +232,10 @@ clumiuniverse/
 │       ├── state.json
 │       └── images/
 └── scripts/
+    ├── config.mjs
     ├── fetch-toss-menu.mjs
     ├── generate-site-data.mjs
+    ├── kakao-get-refresh-token.mjs
     ├── update-instagram.mjs
     ├── update-menu.mjs
     └── validate-site.mjs
