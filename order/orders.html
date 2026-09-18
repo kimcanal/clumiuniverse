@@ -1,0 +1,191 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Orders (Staff) | CLUMI UNIVERSE</title>
+  <meta name="robots" content="noindex, nofollow">
+  <link rel="icon" type="image/svg+xml" href="../assets/clumi-logo.svg">
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;500;600;700&display=swap">
+  <link rel="stylesheet" href="../styles.css">
+  <link rel="stylesheet" href="./order.css">
+</head>
+
+<body class="order-body">
+
+  <header class="order-header">
+    <div class="order-brand">Orders (Staff)</div>
+    <a class="order-home-link" href="./">← Back to order page</a>
+  </header>
+
+  <p class="order-experimental-notice">
+    🧪 실험 단계 서비스입니다. 아직 새 주문이 와도 알림이 뜨지 않으니, 이 페이지를 주기적으로 새로고침해서 확인해주세요.
+  </p>
+
+  <main class="order-container">
+    <div id="keyPrompt" class="order-drawer-body" style="max-width:420px;margin:0 auto;">
+      <div class="order-form-field">
+        <label for="keyInput">Staff passphrase</label>
+        <input type="password" id="keyInput" placeholder="Enter passphrase">
+      </div>
+      <button type="button" class="order-btn" id="keySubmitBtn">View orders</button>
+      <p class="order-error" id="keyError" hidden></p>
+    </div>
+    <div id="ordersList" hidden></div>
+  </main>
+
+  <script>
+    const STORAGE_KEY = 'ordersViewKey';
+    let activeKey = null;
+
+    function escapeHtml(value) {
+      return String(value ?? '').replace(/[&<>"']/g, ch => ({
+        '&': '&amp;', '<': '&lt;', '>': '&gt;', '"': '&quot;', "'": '&#39;',
+      }[ch]));
+    }
+
+    function formatWon(value) {
+      return `₩${Number(value || 0).toLocaleString('en-US')}`;
+    }
+
+    function deliveryStatusLabel(order) {
+      if (order.delivered === true) return '✅ Sent to Kakao';
+      if (order.delivered === false) return `❌ Failed: ${escapeHtml(order.deliveryError || 'unknown error')}`;
+      return '— Dry run (Kakao not connected yet)';
+    }
+
+    // Staff read Korean menu names first (matches the POS/menu board), with the
+    // English name the customer picked shown alongside for cross-reference.
+    function bilingualName(kr, en) {
+      if (kr && en && kr !== en) return `${kr} (${en})`;
+      return kr || en || '';
+    }
+
+    function renderOrder(order) {
+      const items = Array.isArray(order.items) ? order.items : [];
+      return `
+        <div class="order-receipt${order.completed ? ' is-completed' : ''}" data-key="${escapeHtml(order.key)}">
+          <div class="order-receipt-row"><span>Time</span><span>${escapeHtml(order.receivedAt ? new Date(order.receivedAt).toLocaleString() : '—')}</span></div>
+          <div class="order-receipt-row"><span>Order #</span><span>${escapeHtml(order.orderCode || 'N/A')}</span></div>
+          <div class="order-receipt-row"><span>Name</span><span>${escapeHtml(order.name)}</span></div>
+          <div class="order-receipt-row"><span>Contact</span><span>${escapeHtml(order.contact)}</span></div>
+          <div class="order-receipt-row"><span>Pickup</span><span>${escapeHtml(order.pickupTime)}</span></div>
+          ${order.notes ? `<div class="order-receipt-row"><span>Notes</span><span>${escapeHtml(order.notes)}</span></div>` : ''}
+          <div class="order-receipt-items">
+            ${items.map(item => `
+              <div class="order-cart-line">
+                <div>
+                  <div>${item.qty} × ${escapeHtml(bilingualName(item.title, item.titleEn))}</div>
+                  ${Array.isArray(item.selections) && item.selections.length
+                    ? `<div class="order-cart-line-selections">${item.selections.map(s => escapeHtml(bilingualName(s.choiceTitleKr, s.choiceTitle))).join(', ')}</div>`
+                    : ''}
+                </div>
+                <div>${formatWon(item.unitPrice * item.qty)}</div>
+              </div>
+            `).join('')}
+          </div>
+          <div class="order-summary-row"><span>Total</span><span>${formatWon(order.estimatedTotal)}</span></div>
+          <div class="order-receipt-row"><span>Delivery</span><span>${deliveryStatusLabel(order)}</span></div>
+          <div class="order-staff-actions">
+            <label>
+              <input type="checkbox" class="order-complete-checkbox" data-key="${escapeHtml(order.key)}" ${order.completed ? 'checked' : ''}>
+              Completed
+            </label>
+            <button type="button" class="order-cart-line-remove order-delete-btn" data-key="${escapeHtml(order.key)}">Delete</button>
+          </div>
+        </div>
+      `;
+    }
+
+    function renderOrders(orders) {
+      const root = document.getElementById('ordersList');
+      if (!orders.length) {
+        root.innerHTML = '<p class="order-empty-state">No orders yet.</p>';
+        return;
+      }
+      root.innerHTML = orders.map(renderOrder).join('');
+    }
+
+    async function tryLoad(key) {
+      const errorEl = document.getElementById('keyError');
+      errorEl.hidden = true;
+      try {
+        const res = await fetch('/.netlify/functions/list-orders', {
+          headers: { 'X-Orders-Key': key },
+        });
+        if (!res.ok) throw new Error('unauthorized');
+        const data = await res.json();
+        activeKey = key;
+        localStorage.setItem(STORAGE_KEY, key);
+        document.getElementById('keyPrompt').hidden = true;
+        const listEl = document.getElementById('ordersList');
+        listEl.hidden = false;
+        renderOrders(data.orders || []);
+      } catch {
+        activeKey = null;
+        try { localStorage.removeItem(STORAGE_KEY); } catch {}
+        errorEl.textContent = 'Wrong passphrase, or the order log is not set up yet.';
+        errorEl.hidden = false;
+      }
+    }
+
+    async function updateOrder(orderKey, action) {
+      const res = await fetch('/.netlify/functions/update-order', {
+        method: 'POST',
+        headers: { 'Content-Type': 'application/json', 'X-Orders-Key': activeKey },
+        body: JSON.stringify({ key: orderKey, action }),
+      });
+      if (!res.ok) throw new Error('update failed');
+    }
+
+    document.getElementById('ordersList').addEventListener('change', async event => {
+      const checkbox = event.target;
+      if (!checkbox.classList.contains('order-complete-checkbox')) return;
+      const orderKey = checkbox.dataset.key;
+      const action = checkbox.checked ? 'complete' : 'incomplete';
+      checkbox.disabled = true;
+      try {
+        await updateOrder(orderKey, action);
+        checkbox.closest('.order-receipt').classList.toggle('is-completed', checkbox.checked);
+      } catch {
+        checkbox.checked = !checkbox.checked;
+        alert('Could not update this order. Please try again.');
+      } finally {
+        checkbox.disabled = false;
+      }
+    });
+
+    document.getElementById('ordersList').addEventListener('click', async event => {
+      const btn = event.target.closest('.order-delete-btn');
+      if (!btn) return;
+      const orderKey = btn.dataset.key;
+      if (!confirm('Delete this order? This cannot be undone.')) return;
+      btn.disabled = true;
+      try {
+        await updateOrder(orderKey, 'delete');
+        btn.closest('.order-receipt').remove();
+      } catch {
+        alert('Could not delete this order. Please try again.');
+        btn.disabled = false;
+      }
+    });
+
+    document.getElementById('keySubmitBtn').addEventListener('click', () => {
+      const key = document.getElementById('keyInput').value.trim();
+      if (key) tryLoad(key);
+    });
+    document.getElementById('keyInput').addEventListener('keydown', event => {
+      if (event.key === 'Enter') document.getElementById('keySubmitBtn').click();
+    });
+
+    let savedKey = null;
+    try { savedKey = localStorage.getItem(STORAGE_KEY); } catch {}
+    if (savedKey) tryLoad(savedKey);
+  </script>
+</body>
+
+</html>

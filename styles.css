@@ -424,6 +424,20 @@ ul {
   flex-wrap: wrap;
 }
 
+.hero-foreign-link {
+  display: inline-block;
+  margin-top: 1.5rem;
+  font-size: 0.9rem;
+  color: var(--color-bg-white);
+  opacity: 0.85;
+  text-decoration: underline;
+  text-underline-offset: 3px;
+}
+
+.hero-foreign-link:hover {
+  opacity: 1;
+}
+
 .scroll-indicator {
   position: absolute;
   bottom: 2rem;

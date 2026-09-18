@@ -89,6 +89,42 @@ node scripts/update-menu.mjs --no-fetch --keep --no-deploy
 
 `generate-site-data.mjs`는 추천 메뉴 ID와 로컬 이미지 경로를 검증한 뒤, 메뉴 이미지를 최대 720px WebP로 최적화하고 웹 화면에서 사용하지 않는 가격·옵션·해시·원본 응답 필드를 제거한 `data/site-menu.json`을 만듭니다. 추천 ID가 최신 메뉴에서 사라지거나 최적화 이미지가 누락되면 자동 배포를 중단합니다. 로컬 실행에는 `cwebp`가 필요하며 macOS에서는 `brew install webp`로 설치할 수 있습니다. 기존 이미지까지 새 설정으로 다시 만들 때는 `node scripts/generate-site-data.mjs --force-images`를 실행합니다.
 
+## 외국인 픽업 프리오더 (`/order`)
+
+> ⚠️ **실험적 서비스입니다.** 카카오 실제 연동 전 dry-run 단계입니다. 손님·직원 화면 모두에 이 사실을 안내하는 배너를 넣어두었습니다. 운영하면서 문제가 보이면 언제든 되돌릴 수 있는 범위로 유지하세요.
+
+Toss Place 주문(`store.tossplace.com/order/238090`)은 카카오 로그인이 필수라, 구글맵을 보고 찾아온 외국인 관광객이 주문을 못 하는 문제가 있습니다. `/order`는 이를 우회하기 위한 영문 전용 프리오더 페이지입니다.
+
+```text
+방문자가 /order에서 장바구니 구성 · 폼 제출
+        ↓
+netlify/functions/submit-order.mjs
+        ↓
+(다음 단계) 가게 전용 카카오 계정으로 "나에게 보내기"
+        ↓
+손님이 매장 방문 후 카드 단말기로 결제
+```
+
+- 메뉴 데이터는 `data/order-menu.json`으로, `scripts/generate-site-data.mjs`의 `buildOrderMenu()`가 `data/site-menu.json`과 같은 소스에서 만들지만 가격·옵션(`optionSets`)·영문 텍스트를 그대로 보존합니다. 두 파일 모두 `node scripts/generate-site-data.mjs` 한 번으로 함께 생성/검증됩니다.
+- 옵션이 있는 메뉴(예: "내맘대로 브런치")는 카드에서 옵션을 고른 뒤 담을 수 있습니다. 화면에 표시되는 합계는 **예상 금액**이며, 실제 결제 금액은 매장에서 확정합니다.
+- **현재는 dry-run 상태**입니다. `netlify/functions/submit-order.mjs`는 주문을 검증만 하고, 실제로는 어디에도 전송하지 않습니다. 대신 카카오 "나에게 보내기" API에 실제로 보낼 요청 파라미터(`wouldSend.tokenRequest`, `wouldSend.messageRequest`)를 그대로 응답에 담아 반환합니다. 주문 완료 화면의 "Debug" 아코디언에서 확인할 수 있습니다.
+- 실제 연동은 다음 단계로 남아 있습니다: 가게 전용 카카오 계정 생성 → 카운터에 상시 거치할 공기계에 로그인 → `developers.kakao.com`에 앱 등록 후 `talk_message` 스코프로 1회 OAuth 동의 → 발급된 `refresh_token`을 Netlify 환경변수(`KAKAO_REST_API_KEY`, `KAKAO_CLIENT_SECRET`, `KAKAO_REFRESH_TOKEN`)로 등록. 세 값이 모두 설정되면 같은 함수가 자동으로 실제 전송 모드로 전환됩니다.
+- 카카오 refresh token은 영구적이지 않을 수 있어, 연동 이후에도 주기적인 재인증이 필요할 수 있습니다.
+
+### 주문 내역 확인 (`/order/orders`)
+
+카카오 연동 여부와 무관하게, 제출된 모든 주문은 [Netlify Blobs](https://docs.netlify.com/build/data-and-storage/netlify-blobs/)(`orders` 스토어)에 저장됩니다. `@netlify/blobs`가 이 저장소의 첫 npm 의존성이며, `npm install`로 설치합니다.
+
+- 손님은 주문 제출 직후 화면에서 자신이 담은 항목·옵션·합계가 담긴 영수증을 바로 확인할 수 있고, 같은 브라우저 탭에서는 새로고침해도 "View my last order" 버튼으로 다시 볼 수 있습니다(`sessionStorage` 기준, 다른 기기·탭에는 남지 않습니다).
+- 직원은 `/order/orders`에서 최근 주문 목록(제출시각/주문번호/이름/연락처/픽업시간/아이템/합계/카카오 전송 상태)을 확인할 수 있습니다. 이 화면은 고객 개인정보를 담고 있으므로, Netlify 환경변수 `ORDERS_VIEW_KEY`(공유 암호)를 설정해야 열립니다 — **설정 전에는 누구도 조회할 수 없습니다.** 직원은 이 암호를 한 번 입력하면 같은 브라우저에 저장되어 다음부터 재입력하지 않아도 됩니다.
+- 각 주문에는 **Completed 체크박스**와 **Delete 버튼**이 있어, 준비가 끝난 주문을 표시하거나 잘못 들어온/처리된 주문을 목록에서 지울 수 있습니다(`netlify/functions/update-order.mjs`, 같은 `ORDERS_VIEW_KEY`로 보호).
+- 손님이 고른 항목은 영어로 제출되지만, 직원이 보는 화면(카카오 메시지, `/order/orders`)에는 **한국어 메뉴명이 먼저** 표시되고 손님이 고른 영어명은 괄호로 함께 보여줍니다 (예: "내맘대로 브런치(Basic waffle) (Build Your Own Brunch)"). 옵션 선택지도 동일합니다. 손님용 화면(주문 페이지, 영수증)은 계속 영어 우선으로 표시됩니다.
+- 이 화면은 로그인 시스템이 아니라 공유 암호 하나로만 보호되는 수준입니다. URL과 암호를 아는 사람만 접근할 수 있는 정도의 보호이니, 암호는 직원들에게만 구두로 공유하세요.
+
+### 향후 계획
+
+- **새 주문 알림**: 지금은 `/order/orders`를 직원이 직접 새로고침해야 새 주문을 볼 수 있습니다. 카카오 연동(위 "다음 단계") 이후에는 카카오 메시지 자체가 알림 역할을 하겠지만, 그 전이나 그와 별개로 페이지가 열려 있는 동안 소리·브라우저 알림 등으로 알려주는 기능을 추가할 수 있습니다. 다만 폴링 방식은 Netlify Functions 호출 횟수(무료 티어 월 12.5만 회)를 갉아먹으므로, 영업시간에만 동작하게 제한하는 등 설계를 신중히 해야 합니다 — 이번 범위에는 포함하지 않았습니다.
+
 ## 매장 정보와 Instagram 수정
 
 매장 소개, 주소, 영업시간, 전화번호와 네이버 지도 링크는 `data/store-info.json`에서 관리합니다.
@@ -167,6 +203,16 @@ clumiuniverse/
 ├── docs/screenshots/
 ├── index.html
 ├── styles.css
+├── netlify.toml
+├── package.json
+├── order/
+│   ├── index.html
+│   ├── orders.html
+│   └── order.css
+├── netlify/functions/
+│   ├── submit-order.mjs
+│   ├── list-orders.mjs
+│   └── update-order.mjs
 ├── assets/
 │   ├── clumi-logo.svg
 │   ├── bg/
@@ -176,6 +222,7 @@ clumiuniverse/
 │   ├── featured.json
 │   ├── hidden-menu-items.json
 │   ├── instagram.json
+│   ├── order-menu.json
 │   ├── reviews.json
 │   ├── site-menu.json
 │   ├── store-info.json

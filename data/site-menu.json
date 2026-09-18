@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-12T22:41:01.782Z",
+  "generatedAt": "2026-09-18T12:03:41.506Z",
   "merchantId": 238090,
   "items": [
     {
@@ -378,7 +378,7 @@
       "categoryTitleEn": "CLUMI Emotion Potion",
       "title": "[미스트] 블루라떼",
       "description": "푹신한 구름 위에 올라간 듯,\n부드러운 화이트 초콜릿에 하늘의 빛을 담은 음료",
-      "state": "ON_SALE",
+      "state": "SOLD_OUT",
       "labels": [],
       "imageLocalPath": "data/tossplace-menu/238090/images/6986481-미스트-블루라떼-c272a2e69b.webp"
     },
@@ -475,7 +475,7 @@
       "categoryTitle": "벨기에와플",
       "categoryTitleEn": "Belgium Waffle",
       "title": "[시즌한정]무화과&크림치즈 와플",
-      "description": "부드러운 크림치즈와 생무화과의 완벽한 앙상블~*",
+      "description": "달콤한 무화과와 부드러운 크림치즈 무스, 피스타치오를 올린 바삭한 리에쥬 와플.",
       "state": "ON_SALE",
       "labels": [
         "인기"

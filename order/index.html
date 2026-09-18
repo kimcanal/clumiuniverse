@@ -1,0 +1,620 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Order Online (English) | CLUMI UNIVERSE</title>
+  <meta name="description"
+    content="Pre-order from CLUMI UNIVERSE's English menu — no Kakao account needed. Submit your order online, then pay at the counter when you arrive.">
+  <meta name="theme-color" content="#1c1c1c">
+  <link rel="canonical" href="https://clumiuniverse.netlify.app/order">
+
+  <link rel="icon" type="image/svg+xml" href="../assets/clumi-logo.svg">
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;500;600;700&display=swap">
+  <link rel="stylesheet" href="../styles.css">
+  <link rel="stylesheet" href="./order.css">
+</head>
+
+<body class="order-body">
+
+  <header class="order-header">
+    <div class="order-brand">
+      <img src="../assets/clumi-logo.svg" alt="" width="32" height="32">
+      CLUMI UNIVERSE
+    </div>
+    <a class="order-home-link" href="../">← Back to main site</a>
+  </header>
+
+  <p class="order-experimental-notice">
+    🧪 <strong>This is a new, experimental ordering page we're still testing.</strong>
+    If anything looks wrong or your order doesn't go through, please just order at the counter instead — no problem at all.
+  </p>
+
+  <p class="order-intro">
+    🌍 <strong>Pre-order in English</strong> — no Kakao account needed.
+    Browse the menu, submit your order below, then <strong>pay at the counter</strong> when you arrive at the store.
+  </p>
+
+  <p class="order-intro" id="lastOrderLink" hidden>
+    <button type="button" class="order-btn order-btn-outline" id="viewLastOrderBtn" style="width:auto;">View my last order</button>
+  </p>
+
+  <main class="order-container" id="orderMenuRoot">
+    <p class="order-empty-state">Loading menu…</p>
+  </main>
+
+  <div class="order-cart-bar" id="cartBar">
+    <div class="order-cart-summary">
+      <div><strong id="cartCount">0 items</strong> · <span id="cartTotal">₩0</span></div>
+      <div style="font-size:0.75rem;opacity:0.8;">Estimated — confirmed at pickup</div>
+    </div>
+    <button type="button" class="order-btn" id="openCartBtn" style="width:auto;">Review order</button>
+  </div>
+
+  <div class="order-drawer-overlay" id="drawerOverlay"></div>
+  <aside class="order-drawer" id="cartDrawer" aria-hidden="true">
+    <div class="order-drawer-header">
+      <h2>Your order</h2>
+      <button type="button" class="order-drawer-close" id="closeDrawerBtn" aria-label="Close">×</button>
+    </div>
+    <div class="order-drawer-body" id="drawerBody"></div>
+  </aside>
+
+  <script>
+    let MENU = [];
+    let cart = [];
+    let pickupChoice = 'ASAP';
+    let drawerState = 'closed';
+
+    function escapeHtml(value) {
+      return String(value ?? '').replace(/[&<>"']/g, ch => ({
+        '&': '&amp;', '<': '&lt;', '>': '&gt;', '"': '&quot;', "'": '&#39;',
+      }[ch]));
+    }
+
+    function formatWon(value) {
+      return `₩${Number(value || 0).toLocaleString('en-US')}`;
+    }
+
+    function findItem(id) {
+      return MENU.find(item => String(item.id) === String(id));
+    }
+
+    // ---- Menu rendering ----
+
+    function renderMenu() {
+      const root = document.getElementById('orderMenuRoot');
+      if (!MENU.length) {
+        root.innerHTML = '<p class="order-empty-state">Could not load the menu. Please refresh, or order at the counter.</p>';
+        return;
+      }
+
+      const order = [];
+      const groups = new Map();
+      MENU.forEach(item => {
+        const key = item.categoryTitleEn || item.categoryTitle || 'Menu';
+        if (!groups.has(key)) {
+          groups.set(key, []);
+          order.push(key);
+        }
+        groups.get(key).push(item);
+      });
+
+      root.innerHTML = order.map(category => `
+        <section class="order-category">
+          <h2>${escapeHtml(category)}</h2>
+          <div class="order-grid">
+            ${groups.get(category).map(renderCard).join('')}
+          </div>
+        </section>
+      `).join('');
+
+      activateCardEvents();
+    }
+
+    function renderCard(item) {
+      const soldOut = !item.available;
+      const imgSrc = item.imageLocalPath ? `../${item.imageLocalPath}` : '';
+      const hasOptions = Array.isArray(item.optionSets) && item.optionSets.length > 0;
+
+      let actionHtml;
+      if (soldOut) {
+        actionHtml = `<button type="button" class="order-btn" disabled>Sold out</button>`;
+      } else if (hasOptions) {
+        actionHtml = `<button type="button" class="order-btn order-select-options-btn">Select options</button>`;
+      } else {
+        actionHtml = `<button type="button" class="order-btn order-add-simple-btn">Add — ${formatWon(item.priceValue)}</button>`;
+      }
+
+      return `
+        <article class="order-card${soldOut ? ' is-sold-out' : ''}" data-item-id="${item.id}">
+          <div class="order-card-img">
+            ${imgSrc ? `<img src="${escapeHtml(imgSrc)}" alt="${escapeHtml(item.titleEn || item.title)}" loading="lazy">` : ''}
+            ${soldOut ? '<span class="order-sold-out-badge">Sold out</span>' : ''}
+          </div>
+          <div class="order-card-body">
+            <h3>${escapeHtml(item.titleEn || item.title)}</h3>
+            <div class="order-card-kr">${escapeHtml(item.title)}</div>
+            ${(item.descriptionEn || item.description)
+              ? `<p class="order-card-desc">${escapeHtml(item.descriptionEn || item.description)}</p>`
+              : ''}
+            <div class="order-card-price">${formatWon(item.priceValue)}${hasOptions ? '+' : ''}</div>
+            <div class="order-card-actions">${actionHtml}</div>
+            <div class="order-options-panel" hidden></div>
+          </div>
+        </article>
+      `;
+    }
+
+    function activateCardEvents() {
+      document.querySelectorAll('.order-add-simple-btn').forEach(btn => {
+        btn.addEventListener('click', () => {
+          const card = btn.closest('.order-card');
+          const item = findItem(card.dataset.itemId);
+          addToCart(item, [], 1);
+          const original = btn.textContent;
+          btn.textContent = 'Added ✓';
+          setTimeout(() => { btn.textContent = original; }, 900);
+        });
+      });
+
+      document.querySelectorAll('.order-select-options-btn').forEach(btn => {
+        btn.addEventListener('click', () => {
+          const card = btn.closest('.order-card');
+          const item = findItem(card.dataset.itemId);
+          const panel = card.querySelector('.order-options-panel');
+          if (panel.hidden) {
+            panel.innerHTML = renderOptionsPanel(item);
+            panel.hidden = false;
+            btn.textContent = 'Hide options';
+            wireOptionsPanel(panel, item, btn);
+          } else {
+            panel.hidden = true;
+            panel.innerHTML = '';
+            btn.textContent = 'Select options';
+          }
+        });
+      });
+    }
+
+    // ---- Option selection panel ----
+
+    function renderOptionsPanel(item) {
+      const setsHtml = item.optionSets.map(optionSet => {
+        const inputType = (optionSet.maxChoices ?? 1) === 1 ? 'radio' : 'checkbox';
+        const name = `os-${item.id}-${optionSet.id}`;
+        const min = optionSet.minChoices ?? 0;
+        const max = optionSet.maxChoices ?? 1;
+        const hint = min > 0
+          ? (min === max ? `choose ${min}` : `choose ${min}–${max}`)
+          : `up to ${max}, optional`;
+
+        return `
+          <fieldset class="order-option-set" data-optionset-id="${optionSet.id}" data-min="${min}" data-max="${max}">
+            <legend>${escapeHtml(optionSet.titleEn || optionSet.title)} <span class="order-option-hint">(${hint})</span></legend>
+            ${optionSet.choices.map(choice => `
+              <div class="order-option-choice">
+                <label>
+                  <input type="${inputType}" name="${name}" value="${choice.id}"
+                    data-price="${choice.priceValue}" data-title="${escapeHtml(choice.titleEn || choice.title)}"
+                    data-title-kr="${escapeHtml(choice.title)}"
+                    ${!choice.available ? 'disabled' : ''}>
+                  ${escapeHtml(choice.titleEn || choice.title)}${!choice.available ? ' (unavailable)' : ''}
+                </label>
+                <span class="order-option-price">${choice.priceValue ? `+${formatWon(choice.priceValue)}` : ''}</span>
+              </div>
+            `).join('')}
+          </fieldset>
+        `;
+      }).join('');
+
+      return `
+        ${setsHtml}
+        <div class="order-qty-row">
+          <div class="order-qty-stepper">
+            <button type="button" class="order-qty-minus" aria-label="Decrease quantity">−</button>
+            <span class="order-qty-value">1</span>
+            <button type="button" class="order-qty-plus" aria-label="Increase quantity">+</button>
+          </div>
+          <div class="order-panel-total">${formatWon(item.priceValue)}</div>
+        </div>
+        <button type="button" class="order-btn order-panel-add-btn" disabled>Add to cart</button>
+      `;
+    }
+
+    function wireOptionsPanel(panel, item, toggleBtn) {
+      let qty = 1;
+      const qtyValueEl = panel.querySelector('.order-qty-value');
+      const totalEl = panel.querySelector('.order-panel-total');
+      const addBtn = panel.querySelector('.order-panel-add-btn');
+
+      function currentSelections() {
+        return item.optionSets.map(optionSet => {
+          const fieldset = panel.querySelector(`fieldset[data-optionset-id="${optionSet.id}"]`);
+          return { optionSet, checked: [...fieldset.querySelectorAll('input:checked')] };
+        });
+      }
+
+      function isValid() {
+        return currentSelections().every(({ checked }, index) => {
+          const optionSet = item.optionSets[index];
+          const min = optionSet.minChoices ?? 0;
+          const max = optionSet.maxChoices ?? Infinity;
+          return checked.length >= min && checked.length <= max;
+        });
+      }
+
+      function unitPrice() {
+        const optionsTotal = currentSelections().reduce((sum, { checked }) =>
+          sum + checked.reduce((s, input) => s + Number(input.dataset.price || 0), 0), 0);
+        return Number(item.priceValue || 0) + optionsTotal;
+      }
+
+      function update() {
+        addBtn.disabled = !isValid();
+        totalEl.textContent = formatWon(unitPrice() * qty);
+      }
+
+      panel.querySelectorAll('input').forEach(input => {
+        input.addEventListener('change', () => {
+          const fieldset = input.closest('fieldset');
+          const max = Number(fieldset.dataset.max || Infinity);
+          if (input.type === 'checkbox') {
+            const checked = fieldset.querySelectorAll('input:checked');
+            if (checked.length > max) input.checked = false;
+          }
+          update();
+        });
+      });
+
+      panel.querySelector('.order-qty-minus').addEventListener('click', () => {
+        qty = Math.max(1, qty - 1);
+        qtyValueEl.textContent = qty;
+        update();
+      });
+      panel.querySelector('.order-qty-plus').addEventListener('click', () => {
+        qty += 1;
+        qtyValueEl.textContent = qty;
+        update();
+      });
+
+      addBtn.addEventListener('click', () => {
+        const selections = currentSelections().flatMap(({ optionSet, checked }) =>
+          checked.map(input => ({
+            optionSetTitle: optionSet.titleEn || optionSet.title,
+            optionSetTitleKr: optionSet.title,
+            choiceTitle: input.dataset.title,
+            choiceTitleKr: input.dataset.titleKr,
+            price: Number(input.dataset.price || 0),
+          }))
+        );
+        addToCart(item, selections, qty);
+        panel.hidden = true;
+        panel.innerHTML = '';
+        toggleBtn.textContent = 'Select options';
+      });
+
+      update();
+    }
+
+    // ---- Cart state ----
+
+    function cartKey(itemId, selections) {
+      return `${itemId}::${selections.map(s => s.choiceTitle).sort().join(',')}`;
+    }
+
+    function addToCart(item, selections, qty) {
+      const key = cartKey(item.id, selections);
+      const unitPrice = Number(item.priceValue || 0) + selections.reduce((sum, sel) => sum + sel.price, 0);
+      const existing = cart.find(line => line.key === key);
+      if (existing) {
+        existing.qty += qty;
+      } else {
+        cart.push({
+          key,
+          itemId: item.id,
+          title: item.title,
+          titleEn: item.titleEn || item.title,
+          unitPrice,
+          qty,
+          selections,
+        });
+      }
+      updateCartUI();
+    }
+
+    function cartTotalCount() {
+      return cart.reduce((sum, line) => sum + line.qty, 0);
+    }
+
+    function cartTotalPrice() {
+      return cart.reduce((sum, line) => sum + line.unitPrice * line.qty, 0);
+    }
+
+    function updateCartUI() {
+      const count = cartTotalCount();
+      document.getElementById('cartCount').textContent = `${count} item${count === 1 ? '' : 's'}`;
+      document.getElementById('cartTotal').textContent = formatWon(cartTotalPrice());
+      document.getElementById('cartBar').classList.toggle('is-visible', count > 0);
+      if (drawerState === 'cart') renderDrawerCart();
+    }
+
+    // ---- Cart / checkout drawer ----
+
+    function openDrawer(state) {
+      drawerState = state;
+      document.getElementById('drawerOverlay').classList.add('is-open');
+      document.getElementById('cartDrawer').classList.add('is-open');
+      document.getElementById('cartDrawer').setAttribute('aria-hidden', 'false');
+      if (state === 'cart') renderDrawerCart();
+    }
+
+    function closeDrawer() {
+      drawerState = 'closed';
+      document.getElementById('drawerOverlay').classList.remove('is-open');
+      document.getElementById('cartDrawer').classList.remove('is-open');
+      document.getElementById('cartDrawer').setAttribute('aria-hidden', 'true');
+    }
+
+    document.getElementById('openCartBtn').addEventListener('click', () => openDrawer('cart'));
+    document.getElementById('closeDrawerBtn').addEventListener('click', closeDrawer);
+    document.getElementById('drawerOverlay').addEventListener('click', closeDrawer);
+
+    function renderCartLine(line) {
+      return `
+        <div class="order-cart-line" data-key="${escapeHtml(line.key)}">
+          <div>
+            <div>${line.qty} × ${escapeHtml(line.titleEn)}</div>
+            ${line.selections.length
+              ? `<div class="order-cart-line-selections">${line.selections.map(s => escapeHtml(s.choiceTitle)).join(', ')}</div>`
+              : ''}
+          </div>
+          <div>
+            <div>${formatWon(line.unitPrice * line.qty)}</div>
+            <button type="button" class="order-cart-line-remove" data-remove-key="${escapeHtml(line.key)}">Remove</button>
+          </div>
+        </div>
+      `;
+    }
+
+    function renderDrawerCart() {
+      const body = document.getElementById('drawerBody');
+      if (!cart.length) {
+        const receipt = loadLastReceipt();
+        body.innerHTML = `
+          <p class="order-empty-state">Your cart is empty.</p>
+          ${receipt ? `
+            <div style="text-align:center;">
+              <button type="button" class="order-btn order-btn-outline" id="viewLastOrderFromCartBtn" style="width:auto;">
+                View my last order (#${escapeHtml(receipt.orderCode)})
+              </button>
+            </div>
+          ` : ''}
+        `;
+        if (receipt) {
+          document.getElementById('viewLastOrderFromCartBtn').addEventListener('click', () => {
+            showConfirmation(receipt.orderCode, {}, receipt.order);
+          });
+        }
+        return;
+      }
+
+      body.innerHTML = `
+        <div id="cartLines">${cart.map(renderCartLine).join('')}</div>
+        <div class="order-summary-row">
+          <span>Estimated total</span>
+          <span>${formatWon(cartTotalPrice())}</span>
+        </div>
+        <p class="order-disclaimer">Estimated total — the final amount is confirmed and paid at the counter when you arrive.</p>
+        <form id="checkoutForm">
+          <div class="order-form-field">
+            <label for="fieldName">Name *</label>
+            <input type="text" id="fieldName" name="name" required>
+          </div>
+          <div class="order-form-field">
+            <label for="fieldContact">Phone / WhatsApp *</label>
+            <input type="tel" id="fieldContact" name="contact" required placeholder="e.g. +1 555 123 4567">
+          </div>
+          <div class="order-form-field">
+            <label>Pickup time</label>
+            <div class="order-pickup-chips" id="pickupChips">
+              ${['ASAP', 'In 15 min', 'In 30 min', 'In 1 hour', 'Custom'].map(label => `
+                <button type="button" class="order-chip${pickupChoice === label ? ' is-selected' : ''}" data-pickup="${label}">${label}</button>
+              `).join('')}
+            </div>
+            <input type="time" id="fieldCustomTime" name="customTime" style="${pickupChoice === 'Custom' ? '' : 'display:none;'}">
+          </div>
+          <div class="order-form-field">
+            <label for="fieldNotes">Notes (optional)</label>
+            <textarea id="fieldNotes" name="notes" placeholder="Allergies, substitutions, etc."></textarea>
+          </div>
+          <div class="order-honeypot" aria-hidden="true">
+            <label for="fieldWebsite">Leave this field empty</label>
+            <input type="text" id="fieldWebsite" name="website" tabindex="-1" autocomplete="off">
+          </div>
+          <div class="order-error" id="formError" hidden></div>
+          <button type="submit" class="order-btn" id="submitOrderBtn">Place order</button>
+        </form>
+      `;
+
+      document.querySelectorAll('[data-remove-key]').forEach(btn => {
+        btn.addEventListener('click', () => {
+          cart = cart.filter(line => line.key !== btn.dataset.removeKey);
+          updateCartUI();
+        });
+      });
+
+      document.querySelectorAll('#pickupChips .order-chip').forEach(chip => {
+        chip.addEventListener('click', () => {
+          pickupChoice = chip.dataset.pickup;
+          document.querySelectorAll('#pickupChips .order-chip').forEach(c => c.classList.toggle('is-selected', c === chip));
+          document.getElementById('fieldCustomTime').style.display = pickupChoice === 'Custom' ? '' : 'none';
+        });
+      });
+
+      document.getElementById('checkoutForm').addEventListener('submit', handleSubmit);
+    }
+
+    function generateOrderCode() {
+      return String(Math.floor(1000 + Math.random() * 9000));
+    }
+
+    async function handleSubmit(event) {
+      event.preventDefault();
+      const form = event.target;
+      const errorEl = document.getElementById('formError');
+      errorEl.hidden = true;
+
+      const website = form.website.value.trim();
+      if (website) return; // honeypot filled — silently drop, likely a bot
+
+      const name = form.name.value.trim();
+      const contact = form.contact.value.trim();
+      if (!name || !contact) {
+        errorEl.textContent = 'Please fill in your name and phone/WhatsApp number.';
+        errorEl.hidden = false;
+        return;
+      }
+
+      const pickupTime = pickupChoice === 'Custom' ? (form.customTime.value || 'Not specified') : pickupChoice;
+      const orderCode = generateOrderCode();
+      const payload = {
+        orderCode,
+        name,
+        contact,
+        pickupTime,
+        notes: form.notes.value.trim(),
+        website,
+        items: cart.map(line => ({
+          title: line.title,
+          titleEn: line.titleEn,
+          qty: line.qty,
+          unitPrice: line.unitPrice,
+          selections: line.selections,
+        })),
+        estimatedTotal: cartTotalPrice(),
+      };
+
+      const submitBtn = document.getElementById('submitOrderBtn');
+      submitBtn.disabled = true;
+      submitBtn.textContent = 'Sending…';
+
+      try {
+        const res = await fetch('/.netlify/functions/submit-order', {
+          method: 'POST',
+          headers: { 'Content-Type': 'application/json' },
+          body: JSON.stringify(payload),
+        });
+        const data = await res.json().catch(() => ({}));
+        if (!res.ok || !data.ok) {
+          throw new Error(data.error || 'Could not submit order.');
+        }
+        saveLastReceipt(orderCode, payload);
+        updateLastOrderLink();
+        showConfirmation(orderCode, data, payload);
+        cart = [];
+        updateCartUI();
+      } catch (err) {
+        errorEl.textContent = 'Something went wrong submitting your order. Please order at the counter instead.';
+        errorEl.hidden = false;
+        submitBtn.disabled = false;
+        submitBtn.textContent = 'Place order';
+      }
+    }
+
+    function renderReceiptLine(item) {
+      const selections = Array.isArray(item.selections) && item.selections.length
+        ? `<div class="order-cart-line-selections">${item.selections.map(s => escapeHtml(s.choiceTitle)).join(', ')}</div>`
+        : '';
+      return `
+        <div class="order-cart-line">
+          <div>
+            <div>${item.qty} × ${escapeHtml(item.titleEn || item.title)}</div>
+            ${selections}
+          </div>
+          <div>${formatWon(item.unitPrice * item.qty)}</div>
+        </div>
+      `;
+    }
+
+    function saveLastReceipt(orderCode, order) {
+      try {
+        sessionStorage.setItem('lastOrderReceipt', JSON.stringify({ orderCode, order }));
+      } catch {
+        // sessionStorage unavailable (private browsing, etc.) — receipt just won't survive a refresh.
+      }
+    }
+
+    function loadLastReceipt() {
+      try {
+        const raw = sessionStorage.getItem('lastOrderReceipt');
+        return raw ? JSON.parse(raw) : null;
+      } catch {
+        return null;
+      }
+    }
+
+    function showConfirmation(orderCode, data, order) {
+      const body = document.getElementById('drawerBody');
+      const debugSection = data.wouldSend
+        ? `<details class="order-debug">
+            <summary>Debug: what this order would send to Kakao (dry run)</summary>
+            <pre>${escapeHtml(JSON.stringify(data.wouldSend, null, 2))}</pre>
+          </details>`
+        : '';
+      body.innerHTML = `
+        <div class="order-confirmation">
+          <p>Order received!</p>
+          <div class="order-code">#${escapeHtml(orderCode)}</div>
+          <p>Show this number at the counter and pay there. See you soon! 🐰</p>
+          <div class="order-receipt">
+            <div class="order-receipt-row"><span>Name</span><span>${escapeHtml(order.name)}</span></div>
+            <div class="order-receipt-row"><span>Contact</span><span>${escapeHtml(order.contact)}</span></div>
+            <div class="order-receipt-row"><span>Pickup</span><span>${escapeHtml(order.pickupTime)}</span></div>
+            ${order.notes ? `<div class="order-receipt-row"><span>Notes</span><span>${escapeHtml(order.notes)}</span></div>` : ''}
+            <div class="order-receipt-items">${order.items.map(renderReceiptLine).join('')}</div>
+            <div class="order-summary-row"><span>Estimated total</span><span>${formatWon(order.estimatedTotal)}</span></div>
+          </div>
+          <button type="button" class="order-btn order-btn-outline" id="closeConfirmBtn">Done</button>
+          ${debugSection}
+        </div>
+      `;
+      document.getElementById('closeConfirmBtn').addEventListener('click', closeDrawer);
+    }
+
+    function updateLastOrderLink() {
+      const receipt = loadLastReceipt();
+      const linkWrap = document.getElementById('lastOrderLink');
+      if (!receipt) {
+        linkWrap.hidden = true;
+        return;
+      }
+      linkWrap.hidden = false;
+      document.getElementById('viewLastOrderBtn').onclick = () => {
+        openDrawer('confirmation');
+        showConfirmation(receipt.orderCode, {}, receipt.order);
+      };
+    }
+
+    // ---- Init ----
+
+    updateLastOrderLink();
+
+    fetch('../data/order-menu.json')
+      .then(res => res.json())
+      .then(data => {
+        MENU = Array.isArray(data.items) ? data.items : [];
+        renderMenu();
+      })
+      .catch(() => {
+        document.getElementById('orderMenuRoot').innerHTML =
+          '<p class="order-empty-state">Could not load the menu. Please refresh, or order at the counter.</p>';
+      });
+  </script>
+</body>
+
+</html>
