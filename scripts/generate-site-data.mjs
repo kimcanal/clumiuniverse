@@ -179,7 +179,7 @@ export async function buildOrderMenu({ optimizeImages = false, forceImages = fal
 
   return {
     generatedAt: menu.fetchedAt || null,
-    merchantId: menu.merchantId || '238090',
+    merchantId: menu.merchantId || MERCHANT_ID,
     items: visibleItems.map(item => projectOrderItem(item, optimizedPaths.get(Number(item.id)) || '')),
   };
 }
