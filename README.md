@@ -115,6 +115,7 @@ netlify/functions/submit-order.mjs
 
 - 손님은 주문 제출 직후 화면에서 자신이 담은 항목·옵션·합계가 담긴 영수증을 바로 확인할 수 있고, 같은 브라우저 탭에서는 새로고침해도 "View my last order" 버튼으로 다시 볼 수 있습니다(`sessionStorage` 기준, 다른 기기·탭에는 남지 않습니다).
 - 직원은 `/order/orders`에서 최근 주문 목록(제출시각/주문번호/이름/연락처/픽업시간/아이템/합계/카카오 전송 상태)을 확인할 수 있습니다. 이 화면은 고객 개인정보를 담고 있으므로, Netlify 환경변수 `ORDERS_VIEW_KEY`(공유 암호)를 설정해야 열립니다 — **설정 전에는 누구도 조회할 수 없습니다.** 직원은 이 암호를 한 번 입력하면 같은 브라우저에 저장되어 다음부터 재입력하지 않아도 됩니다.
+- 각 주문에는 **Completed 체크박스**와 **Delete 버튼**이 있어, 준비가 끝난 주문을 표시하거나 잘못 들어온/처리된 주문을 목록에서 지울 수 있습니다(`netlify/functions/update-order.mjs`, 같은 `ORDERS_VIEW_KEY`로 보호).
 - 이 화면은 로그인 시스템이 아니라 공유 암호 하나로만 보호되는 수준입니다. URL과 암호를 아는 사람만 접근할 수 있는 정도의 보호이니, 암호는 직원들에게만 구두로 공유하세요.
 
 ## 매장 정보와 Instagram 수정
@@ -203,7 +204,8 @@ clumiuniverse/
 │   └── order.css
 ├── netlify/functions/
 │   ├── submit-order.mjs
-│   └── list-orders.mjs
+│   ├── list-orders.mjs
+│   └── update-order.mjs
 ├── assets/
 │   ├── clumi-logo.svg
 │   ├── bg/

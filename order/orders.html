@@ -36,6 +36,7 @@
 
   <script>
     const STORAGE_KEY = 'ordersViewKey';
+    let activeKey = null;
 
     function escapeHtml(value) {
       return String(value ?? '').replace(/[&<>"']/g, ch => ({
@@ -56,7 +57,7 @@
     function renderOrder(order) {
       const items = Array.isArray(order.items) ? order.items : [];
       return `
-        <div class="order-receipt">
+        <div class="order-receipt${order.completed ? ' is-completed' : ''}" data-key="${escapeHtml(order.key)}">
           <div class="order-receipt-row"><span>Time</span><span>${escapeHtml(order.receivedAt ? new Date(order.receivedAt).toLocaleString() : '—')}</span></div>
           <div class="order-receipt-row"><span>Order #</span><span>${escapeHtml(order.orderCode || 'N/A')}</span></div>
           <div class="order-receipt-row"><span>Name</span><span>${escapeHtml(order.name)}</span></div>
@@ -78,6 +79,13 @@
           </div>
           <div class="order-summary-row"><span>Total</span><span>${formatWon(order.estimatedTotal)}</span></div>
           <div class="order-receipt-row"><span>Delivery</span><span>${deliveryStatusLabel(order)}</span></div>
+          <div class="order-staff-actions">
+            <label>
+              <input type="checkbox" class="order-complete-checkbox" data-key="${escapeHtml(order.key)}" ${order.completed ? 'checked' : ''}>
+              Completed
+            </label>
+            <button type="button" class="order-cart-line-remove order-delete-btn" data-key="${escapeHtml(order.key)}">Delete</button>
+          </div>
         </div>
       `;
     }
@@ -100,17 +108,60 @@
         });
         if (!res.ok) throw new Error('unauthorized');
         const data = await res.json();
+        activeKey = key;
         localStorage.setItem(STORAGE_KEY, key);
         document.getElementById('keyPrompt').hidden = true;
         const listEl = document.getElementById('ordersList');
         listEl.hidden = false;
         renderOrders(data.orders || []);
       } catch {
+        activeKey = null;
         try { localStorage.removeItem(STORAGE_KEY); } catch {}
         errorEl.textContent = 'Wrong passphrase, or the order log is not set up yet.';
         errorEl.hidden = false;
       }
     }
+
+    async function updateOrder(orderKey, action) {
+      const res = await fetch('/.netlify/functions/update-order', {
+        method: 'POST',
+        headers: { 'Content-Type': 'application/json', 'X-Orders-Key': activeKey },
+        body: JSON.stringify({ key: orderKey, action }),
+      });
+      if (!res.ok) throw new Error('update failed');
+    }
+
+    document.getElementById('ordersList').addEventListener('change', async event => {
+      const checkbox = event.target;
+      if (!checkbox.classList.contains('order-complete-checkbox')) return;
+      const orderKey = checkbox.dataset.key;
+      const action = checkbox.checked ? 'complete' : 'incomplete';
+      checkbox.disabled = true;
+      try {
+        await updateOrder(orderKey, action);
+        checkbox.closest('.order-receipt').classList.toggle('is-completed', checkbox.checked);
+      } catch {
+        checkbox.checked = !checkbox.checked;
+        alert('Could not update this order. Please try again.');
+      } finally {
+        checkbox.disabled = false;
+      }
+    });
+
+    document.getElementById('ordersList').addEventListener('click', async event => {
+      const btn = event.target.closest('.order-delete-btn');
+      if (!btn) return;
+      const orderKey = btn.dataset.key;
+      if (!confirm('Delete this order? This cannot be undone.')) return;
+      btn.disabled = true;
+      try {
+        await updateOrder(orderKey, 'delete');
+        btn.closest('.order-receipt').remove();
+      } catch {
+        alert('Could not delete this order. Please try again.');
+        btn.disabled = false;
+      }
+    });
 
     document.getElementById('keySubmitBtn').addEventListener('click', () => {
       const key = document.getElementById('keyInput').value.trim();

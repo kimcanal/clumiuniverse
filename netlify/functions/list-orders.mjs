@@ -35,7 +35,10 @@ export default async (request) => {
       .reverse()
       .slice(0, MAX_ORDERS);
 
-    const orders = await Promise.all(recentKeys.map(key => store.get(key, { type: 'json' })));
+    const orders = await Promise.all(recentKeys.map(async key => {
+      const record = await store.get(key, { type: 'json' });
+      return record ? { key, ...record } : null;
+    }));
 
     return jsonResponse(200, { ok: true, orders: orders.filter(Boolean) });
   } catch (error) {
