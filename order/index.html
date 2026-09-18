@@ -376,7 +376,22 @@
     function renderDrawerCart() {
       const body = document.getElementById('drawerBody');
       if (!cart.length) {
-        body.innerHTML = '<p class="order-empty-state">Your cart is empty.</p>';
+        const receipt = loadLastReceipt();
+        body.innerHTML = `
+          <p class="order-empty-state">Your cart is empty.</p>
+          ${receipt ? `
+            <div style="text-align:center;">
+              <button type="button" class="order-btn order-btn-outline" id="viewLastOrderFromCartBtn" style="width:auto;">
+                View my last order (#${escapeHtml(receipt.orderCode)})
+              </button>
+            </div>
+          ` : ''}
+        `;
+        if (receipt) {
+          document.getElementById('viewLastOrderFromCartBtn').addEventListener('click', () => {
+            showConfirmation(receipt.orderCode, {}, receipt.order);
+          });
+        }
         return;
       }
 
@@ -491,6 +506,7 @@
           throw new Error(data.error || 'Could not submit order.');
         }
         saveLastReceipt(orderCode, payload);
+        updateLastOrderLink();
         showConfirmation(orderCode, data, payload);
         cart = [];
         updateCartUI();
@@ -562,17 +578,23 @@
       document.getElementById('closeConfirmBtn').addEventListener('click', closeDrawer);
     }
 
+    function updateLastOrderLink() {
+      const receipt = loadLastReceipt();
+      const linkWrap = document.getElementById('lastOrderLink');
+      if (!receipt) {
+        linkWrap.hidden = true;
+        return;
+      }
+      linkWrap.hidden = false;
+      document.getElementById('viewLastOrderBtn').onclick = () => {
+        openDrawer('confirmation');
+        showConfirmation(receipt.orderCode, {}, receipt.order);
+      };
+    }
+
     // ---- Init ----
 
-    const savedReceipt = loadLastReceipt();
-    if (savedReceipt) {
-      const linkWrap = document.getElementById('lastOrderLink');
-      linkWrap.hidden = false;
-      document.getElementById('viewLastOrderBtn').addEventListener('click', () => {
-        openDrawer('confirmation');
-        showConfirmation(savedReceipt.orderCode, {}, savedReceipt.order);
-      });
-    }
+    updateLastOrderLink();
 
     fetch('../data/order-menu.json')
       .then(res => res.json())
