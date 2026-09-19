@@ -2,16 +2,16 @@
   "merchantId": 238090,
   "merchantName": "클루미 유니버스",
   "merchantStatus": "OPEN",
-  "fetchedAt": "2026-09-18T12:03:41.506Z",
+  "fetchedAt": "2026-09-19T22:32:44.862Z",
   "summary": {
-    "total": 89,
+    "total": 87,
     "added": 0,
-    "changed": 57,
-    "unchanged": 32,
-    "removed": 0
+    "changed": 1,
+    "unchanged": 86,
+    "removed": 2
   },
   "imageSummary": {
-    "skipped-existing-url": 87,
+    "skipped-existing-url": 85,
     "missing": 1,
     "failed-http-timeout": 1
   },
@@ -1334,47 +1334,6 @@
       "imageLocalPath": null,
       "imageHash": null,
       "imageStatus": "missing"
-    },
-    {
-      "id": 15684885,
-      "categoryId": 867315,
-      "categoryTitle": "인기 메뉴",
-      "categoryTitleEn": "BEST",
-      "position": 1,
-      "title": "애플망고 한 컵",
-      "titleEn": "Mango Chocolate Parfait",
-      "description": "달콤한 망고를 듬뿍 담았습니다.\n애플망고와 진한 초코 아이스크림, 망고 샤베트, 바삭한 그래놀라, 고소한 치즈 큐브가 어우러진 시원한 디저트.",
-      "descriptionEn": "Made with sweet, juicy mango.\nA refreshing parfait with mango, rich chocolate ice cream, mango sorbet, crunchy granola, whipped cream, and cheese cubes.",
-      "state": "ON_SALE",
-      "priceValue": 15000,
-      "priceTitle": "기본",
-      "imageUrl": "https://place-static.tossplace.com/public/live/PUBLIC/2026-07-25/859a2217-7c60-464a-bac3-d6c5ecfdd597",
-      "labels": [
-        "인기"
-      ],
-      "optionSets": [
-        {
-          "id": 539375,
-          "title": "연유 추가",
-          "titleEn": "condensed milk",
-          "required": false,
-          "minChoices": 0,
-          "maxChoices": 1,
-          "choices": [
-            {
-              "id": 1671091,
-              "title": "연유추가(20ml)",
-              "titleEn": "condensed milk",
-              "priceValue": 1500,
-              "state": "ON_SALE"
-            }
-          ]
-        }
-      ],
-      "fingerprint": "20ac2f6a3ab3a5c783f10e3dc1b27da4693803ae9b6bd308479eafd25f283574",
-      "imageLocalPath": "data/tossplace-menu/238090/images/15684885-애플망고-한-컵-69d37ad4fd.jpg",
-      "imageHash": "69d37ad4fdba4e7d9acf34a2b2e2e4eda5782ee7eb0b1635c4f6dabba2641b70",
-      "imageStatus": "skipped-existing-url"
     },
     {
       "id": 15684889,
@@ -5249,7 +5208,7 @@
       "titleEn": "[100%] Strawberry Juice",
       "description": "100% 딸기가 전하는 순수한 맛:\n오직 신선한 제철 딸기만을 아낌없이 갈아 넣어, 첨가물 없이도 딸기 본연의 달콤하고 상큼한 맛을 완벽하게 즐길 수 있습니다. 한 모금 마실 때마다 입안 가득 퍼지는 신선한 딸기 향을 느껴보세요.",
       "descriptionEn": "100% Pure Taste from Strawberries:\nWe generously blend only the freshest in-season strawberries, so you can perfectly enjoy their natural, sweet, and refreshing taste, completely free of additives. Experience the vibrant, fresh strawberry aroma that fills your mouth with every single sip.",
-      "state": "ON_SALE",
+      "state": "SOLD_OUT",
       "priceValue": 7500,
       "priceTitle": "기본",
       "imageUrl": "https://place-static.tossplace.com/public/live/PUBLIC/2026-05-16/ac9448af-48d7-457d-b7dd-dffe70077851",
@@ -5257,7 +5216,7 @@
         "인기"
       ],
       "optionSets": [],
-      "fingerprint": "ca8b9629e4b89cec0955f16b1cff4de6bb2e4f61b90c6bb041578d8759cfee05",
+      "fingerprint": "a5f7b855c4eafe7efa4f4602075c5f5f89dbedb9c18205fb9a15643a95549b59",
       "imageLocalPath": "data/tossplace-menu/238090/images/6979395-100-딸기주스-759a10f7aa.jpg",
       "imageHash": "759a10f7aac596cc29851495f75b6e5f1f036cea4ec249ca3b8a257b1baac2fc",
       "imageStatus": "skipped-existing-url"
@@ -5764,27 +5723,6 @@
       "fingerprint": "68c959fca4c57e52bbeaf13ba275d01c88f4602f6531e98f67732d3cc400f2b4",
       "imageLocalPath": "data/tossplace-menu/238090/images/15684889-복숭아-한-컵-5f7a3ea8c3.jpg",
       "imageHash": "5f7a3ea8c3acf4c7cb72bf80a59b5faca086ac25d26996419ce96db7a50c15f3",
-      "imageStatus": "skipped-existing-url"
-    },
-    {
-      "id": 15684844,
-      "categoryId": 765263,
-      "categoryTitle": "파르페",
-      "categoryTitleEn": "Parfait",
-      "position": 8,
-      "title": "[시즌] 밀크팥빙수 한 컵",
-      "titleEn": "Snow Red Bean Parfait",
-      "description": "국내산 팥과 우유 얼음으로 만든 클래식 빙수.\n부드러운 우유 얼음 위에 풍성한 팥, 진한 바닐라 아이스크림, 달콤한 연유, 쫀득한 찰떡, 바삭한 그래놀라를 더한 한 컵 빙수.",
-      "descriptionEn": "Made with Korean sweet red beans and creamy milk ice.\nTopped with vanilla ice cream, condensed milk, chewy rice cake, and crunchy granola for a classic Korean dessert.",
-      "state": "SOLD_OUT",
-      "priceValue": 12000,
-      "priceTitle": "기본",
-      "imageUrl": "https://place-static.tossplace.com/public/live/PUBLIC/2026-07-25/e39c0bca-aaa7-455d-8275-b99363caaa45",
-      "labels": [],
-      "optionSets": [],
-      "fingerprint": "0cd51e72965622d685a054f7225aec7ebd30e06227112a3bec37fcaea9d8fd7e",
-      "imageLocalPath": "data/tossplace-menu/238090/images/15684896-밀크팥빙수-한-컵-b3ed4a325c.jpg",
-      "imageHash": "b3ed4a325c89adca4955d0b412e4d1a587a8b4c26d1f7f083fe6291e411abc7f",
       "imageStatus": "skipped-existing-url"
     },
     {

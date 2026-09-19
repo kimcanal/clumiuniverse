@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-18T12:03:41.506Z",
+  "generatedAt": "2026-09-19T22:32:44.862Z",
   "merchantId": 238090,
   "items": [
     {
@@ -89,18 +89,6 @@
       "state": "ON_SALE",
       "labels": [],
       "imageLocalPath": ""
-    },
-    {
-      "id": 15684885,
-      "categoryTitle": "인기 메뉴",
-      "categoryTitleEn": "BEST",
-      "title": "애플망고 한 컵",
-      "description": "달콤한 망고를 듬뿍 담았습니다.\n애플망고와 진한 초코 아이스크림, 망고 샤베트, 바삭한 그래놀라, 고소한 치즈 큐브가 어우러진 시원한 디저트.",
-      "state": "ON_SALE",
-      "labels": [
-        "인기"
-      ],
-      "imageLocalPath": "data/tossplace-menu/238090/images/15684885-애플망고-한-컵-69d37ad4fd.webp"
     },
     {
       "id": 15684889,
@@ -662,7 +650,7 @@
       "categoryTitleEn": "Smoothie",
       "title": "[100%]딸기주스",
       "description": "100% 딸기가 전하는 순수한 맛:\n오직 신선한 제철 딸기만을 아낌없이 갈아 넣어, 첨가물 없이도 딸기 본연의 달콤하고 상큼한 맛을 완벽하게 즐길 수 있습니다. 한 모금 마실 때마다 입안 가득 퍼지는 신선한 딸기 향을 느껴보세요.",
-      "state": "ON_SALE",
+      "state": "SOLD_OUT",
       "labels": [
         "인기"
       ],
@@ -817,16 +805,6 @@
         "신규"
       ],
       "imageLocalPath": "data/tossplace-menu/238090/images/15684889-복숭아-한-컵-5f7a3ea8c3.webp"
-    },
-    {
-      "id": 15684844,
-      "categoryTitle": "파르페",
-      "categoryTitleEn": "Parfait",
-      "title": "[시즌] 밀크팥빙수 한 컵",
-      "description": "국내산 팥과 우유 얼음으로 만든 클래식 빙수.\n부드러운 우유 얼음 위에 풍성한 팥, 진한 바닐라 아이스크림, 달콤한 연유, 쫀득한 찰떡, 바삭한 그래놀라를 더한 한 컵 빙수.",
-      "state": "SOLD_OUT",
-      "labels": [],
-      "imageLocalPath": "data/tossplace-menu/238090/images/15684896-밀크팥빙수-한-컵-b3ed4a325c.webp"
     },
     {
       "id": 9276227,

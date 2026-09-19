@@ -41,14 +41,6 @@
       "sourceUrl": "https://place-static.tossplace.com/public/live/PUBLIC/2026-02-15/c3afe580-fd6a-438e-816f-8dfb5c702a6c",
       "updatedAt": "2026-05-01T03:23:58.756Z"
     },
-    "https://place-static.tossplace.com/public/live/PUBLIC/2026-02-13/dd7c174b-8a27-4881-8e14-3dade2e4ada9": {
-      "localPath": "data/tossplace-menu/238090/images/10983172-에그돔-스크램블-6662462cf2.jpg",
-      "hash": "6662462cf29d478ab87386c6a3b7956a5ffdd0a317caec03cdfda34f99970b53",
-      "itemId": 10983172,
-      "title": "에그돔 스크램블",
-      "sourceUrl": "https://place-static.tossplace.com/public/live/PUBLIC/2026-02-13/dd7c174b-8a27-4881-8e14-3dade2e4ada9",
-      "updatedAt": "2026-05-01T03:23:58.757Z"
-    },
     "https://place-static.tossplace.com/public/live/PUBLIC/2026-04-28/2e2fe351-43c8-4d9c-953c-88babf6b09b3": {
       "localPath": "data/tossplace-menu/238090/images/13040656-에그-3개-스크램블-6cbbab4fe9.jpg",
       "hash": "6cbbab4fe90e181361bafaef0264f8c548073675bed4b0089633e4f04d4a4189",
@@ -65,36 +57,12 @@
       "sourceUrl": "https://place-static.tossplace.com/public/live/PUBLIC/2026-03-04/9f9e4d0e-8f27-4d4e-a18b-769c79f6f55c",
       "updatedAt": "2026-05-01T03:23:58.769Z"
     },
-    "https://place-static.tossplace.com/public/live/PUBLIC/2026-04-09/79ca2a21-1668-4235-af21-4431110ebb67": {
-      "localPath": "data/tossplace-menu/238090/images/9479299-시즌한정-딸기왕창와플-381c363183.jpg",
-      "hash": "381c363183e4e47c8b2fe8b268e76d1a24d5a8d8ab864b826fdc5d5c1c7161bf",
-      "itemId": 9479299,
-      "title": "[시즌한정]딸기왕창와플",
-      "sourceUrl": "https://place-static.tossplace.com/public/live/PUBLIC/2026-04-09/79ca2a21-1668-4235-af21-4431110ebb67",
-      "updatedAt": "2026-05-01T03:23:58.780Z"
-    },
-    "https://place-static.tossplace.com/public/live/PUBLIC/2026-04-09/1a6b41c9-6fb9-4d76-9d9a-ac9f2dac4921": {
-      "localPath": "data/tossplace-menu/238090/images/10639334-베리베리와플-95fd9c7476.jpg",
-      "hash": "95fd9c7476b80890cfe5596119a97d091beb01b8dd7ebf62ece3410e437394e0",
-      "itemId": 10639334,
-      "title": "베리베리와플",
-      "sourceUrl": "https://place-static.tossplace.com/public/live/PUBLIC/2026-04-09/1a6b41c9-6fb9-4d76-9d9a-ac9f2dac4921",
-      "updatedAt": "2026-05-01T03:23:58.781Z"
-    },
     "https://place-static.tossplace.com/public/live/PUBLIC/2026-03-03/a192cd00-dc2a-41b4-ad02-47f2f7585ea1": {
       "localPath": "data/tossplace-menu/238090/images/11075904-여왕의접시4-아보카도-Coffee-Set-76b7edcaa3.jpg",
       "hash": "76b7edcaa34530e5781599b022854d03a94b2a5d3d9fa65917e2ef864acdc41a",
       "itemId": 11075904,
       "title": "여왕의접시4(아보카도)Coffee Set",
       "sourceUrl": "https://place-static.tossplace.com/public/live/PUBLIC/2026-03-03/a192cd00-dc2a-41b4-ad02-47f2f7585ea1",
-      "updatedAt": "2026-05-01T03:23:58.790Z"
-    },
-    "https://place-static.tossplace.com/public/live/PUBLIC/2026-01-05/53cec940-10cb-4541-a1c4-ad85bfd3fe95": {
-      "localPath": "data/tossplace-menu/238090/images/7735910-저당-메이플-시나몬-와플-775c9f1b1a.jpg",
-      "hash": "775c9f1b1ab85d0e7e7731696c35f8d4742d5ce8cf32909372f62b272e806b3b",
-      "itemId": 7735910,
-      "title": "[저당]메이플 시나몬 와플",
-      "sourceUrl": "https://place-static.tossplace.com/public/live/PUBLIC/2026-01-05/53cec940-10cb-4541-a1c4-ad85bfd3fe95",
       "updatedAt": "2026-05-01T03:23:58.790Z"
     },
     "https://place-static.tossplace.com/public/live/PUBLIC/2025-09-27/90db900b-3846-425d-a1df-b37dee5da353": {
@@ -121,22 +89,6 @@
       "sourceUrl": "https://place-static.tossplace.com/public/live/PUBLIC/2026-02-01/3b4ea4c3-7956-4199-8154-e649174142cf",
       "updatedAt": "2026-05-01T03:23:58.813Z"
     },
-    "https://place-static.tossplace.com/public/live/PUBLIC/2026-01-05/7091f1aa-5c0a-4838-bad3-27e2c6723015": {
-      "localPath": "data/tossplace-menu/238090/images/7735791-클래식-와플-b6d73bbc24.jpg",
-      "hash": "b6d73bbc24ffe9167b19a01211dbcd750717322451fa5c039e3f6cc0a212bf9d",
-      "itemId": 7735791,
-      "title": "클래식 와플",
-      "sourceUrl": "https://place-static.tossplace.com/public/live/PUBLIC/2026-01-05/7091f1aa-5c0a-4838-bad3-27e2c6723015",
-      "updatedAt": "2026-05-01T03:23:58.815Z"
-    },
-    "https://place-static.tossplace.com/public/live/PUBLIC/2025-10-24/1a0cbe35-21ed-463d-b5e3-1d01335e7de6": {
-      "localPath": "data/tossplace-menu/238090/images/8433327-아이스크림-와플-43603d9f22.jpg",
-      "hash": "43603d9f2232bc6a3e1da3b8c3295ff14bcf19ed786f6bc3ce803648c9c90ab4",
-      "itemId": 8433327,
-      "title": "아이스크림 와플",
-      "sourceUrl": "https://place-static.tossplace.com/public/live/PUBLIC/2025-10-24/1a0cbe35-21ed-463d-b5e3-1d01335e7de6",
-      "updatedAt": "2026-05-01T03:23:58.818Z"
-    },
     "https://place-static.tossplace.com/public/live/PUBLIC/2025-10-01/d04d6ee8-d9ab-4ede-bd8b-ebd0bb618765": {
       "localPath": "data/tossplace-menu/238090/images/7965785-와플-3개팩-2e0099ae98.png",
       "hash": "2e0099ae9860055c9306bcf14e8f51eb53107f525516a972a87fcfbacc9308a1",
@@ -144,14 +96,6 @@
       "title": "와플 3개팩",
       "sourceUrl": "https://place-static.tossplace.com/public/live/PUBLIC/2025-10-01/d04d6ee8-d9ab-4ede-bd8b-ebd0bb618765",
       "updatedAt": "2026-05-01T03:23:58.823Z"
-    },
-    "https://place-static.tossplace.com/public/live/PUBLIC/2026-01-05/99c5fb5e-bf0f-4f4c-b501-b239dcd7eeec": {
-      "localPath": "data/tossplace-menu/238090/images/7736391-애플잼-와플-9b9caea113.jpg",
-      "hash": "9b9caea113665582c17441482e938f205d0f2373ac9ed682ce6e2044d96c1d5e",
-      "itemId": 7736391,
-      "title": "애플잼  와플",
-      "sourceUrl": "https://place-static.tossplace.com/public/live/PUBLIC/2026-01-05/99c5fb5e-bf0f-4f4c-b501-b239dcd7eeec",
-      "updatedAt": "2026-05-01T03:23:58.824Z"
     },
     "https://place-static.tossplace.com/public/live/PUBLIC/2026-02-01/623bf7fd-1ce5-422b-b4a1-f096addcaa9a": {
       "localPath": "data/tossplace-menu/238090/images/6986480-스텔라-딸기주스-da1e21ee8c.jpg",
@@ -168,14 +112,6 @@
       "title": "[미스트] 블루라떼",
       "sourceUrl": "https://place-static.tossplace.com/public/live/PUBLIC/2026-02-01/b2512be1-179a-4d79-9d7f-2150a08cb25a",
       "updatedAt": "2026-05-01T03:23:58.826Z"
-    },
-    "https://place-static.tossplace.com/public/live/PUBLIC/2026-01-05/103d083d-526c-4ba8-b994-be47385ed332": {
-      "localPath": "data/tossplace-menu/238090/images/7826722-딸기잼-와플-c922a0014e.jpg",
-      "hash": "c922a0014e1ff8eaa25aa2dd1b82c57875488a86daed8f7d01117c4c6db3b4ca",
-      "itemId": 7826722,
-      "title": "딸기잼 와플",
-      "sourceUrl": "https://place-static.tossplace.com/public/live/PUBLIC/2026-01-05/103d083d-526c-4ba8-b994-be47385ed332",
-      "updatedAt": "2026-05-01T03:23:58.827Z"
     },
     "https://place-static.tossplace.com/public/live/PUBLIC/2026-01-30/0636436a-6b39-4533-bd34-0ee9ef8bb6a5": {
       "localPath": "data/tossplace-menu/238090/images/6986485-플래미-노을에이드-524d256888.jpg",
@@ -209,22 +145,6 @@
       "sourceUrl": "https://place-static.tossplace.com/public/live/PUBLIC/2025-11-22/6f49a1f7-d4b5-490f-9bf2-b6d32053c994",
       "updatedAt": "2026-05-01T03:23:58.838Z"
     },
-    "https://place-static.tossplace.com/public/live/PUBLIC/2025-12-21/28f19693-2553-48c8-8469-d2787c0cf901": {
-      "localPath": "data/tossplace-menu/238090/images/9820365-No.1-딸기왕창와플-9c9762d20b.jpg",
-      "hash": "9c9762d20bdbb5ce53117a4fd488cde1f175fa3ba7b878667d7364dae9853915",
-      "itemId": 9820365,
-      "title": "[No.1] 딸기왕창와플",
-      "sourceUrl": "https://place-static.tossplace.com/public/live/PUBLIC/2025-12-21/28f19693-2553-48c8-8469-d2787c0cf901",
-      "updatedAt": "2026-05-01T03:23:58.840Z"
-    },
-    "https://place-static.tossplace.com/public/live/PUBLIC/2026-01-04/b7a91033-7774-4d96-b1b1-765df884cdd5": {
-      "localPath": "data/tossplace-menu/238090/images/10077936-삿포로-딸기파르페-0d2467dd08.jpg",
-      "hash": "0d2467dd089fad16e8d3661c657aa363bdf106866bdfd5894cc47ba754550840",
-      "itemId": 10077936,
-      "title": "삿포로 딸기파르페",
-      "sourceUrl": "https://place-static.tossplace.com/public/live/PUBLIC/2026-01-04/b7a91033-7774-4d96-b1b1-765df884cdd5",
-      "updatedAt": "2026-05-01T03:23:58.843Z"
-    },
     "https://place-static.tossplace.com/public/live/PUBLIC/2025-08-23/a68035ca-5eb2-4f62-8e79-5c5195129ce1": {
       "localPath": "data/tossplace-menu/238090/images/6960804-아메리카노-bae6d92526.jpg",
       "hash": "bae6d925264ce8eeaa9210b57b615d089703c9218bea5f7003bc036444411b6a",
@@ -249,14 +169,6 @@
       "sourceUrl": "https://place-static.tossplace.com/public/live/PUBLIC/2026-02-01/c355f2aa-5045-470e-9af4-ba6d29d46199",
       "updatedAt": "2026-05-01T03:23:58.849Z"
     },
-    "https://place-static.tossplace.com/public/live/PUBLIC/2025-08-23/907579a1-9993-4685-a987-fc41101e1f82": {
-      "localPath": "data/tossplace-menu/238090/images/6978418-플랫화이트-bdb5e5b2bc.jpg",
-      "hash": "bdb5e5b2bc4cf3b7b3f5538cd7416829f595f9abc97290a6e669318427231f8f",
-      "itemId": 6978418,
-      "title": "플랫화이트",
-      "sourceUrl": "https://place-static.tossplace.com/public/live/PUBLIC/2025-08-23/907579a1-9993-4685-a987-fc41101e1f82",
-      "updatedAt": "2026-05-01T03:23:58.850Z"
-    },
     "https://place-static.tossplace.com/public/live/PUBLIC/2026-02-01/ad8a57d4-735b-41d4-a132-9d77a5ae6bd2": {
       "localPath": "data/tossplace-menu/238090/images/6986486-루티-제주말차라떼-54751f3c1a.jpg",
       "hash": "54751f3c1a2e8e588efdaab686c214f335c6f8b38d6d6a7b4f8d881f368a2e0a",
@@ -264,14 +176,6 @@
       "title": "[루티] 제주말차라떼",
       "sourceUrl": "https://place-static.tossplace.com/public/live/PUBLIC/2026-02-01/ad8a57d4-735b-41d4-a132-9d77a5ae6bd2",
       "updatedAt": "2026-05-01T03:23:58.882Z"
-    },
-    "https://place-static.tossplace.com/public/live/PUBLIC/2026-01-05/309d30f9-fb8d-4759-a6e5-c77ac579ba7b": {
-      "localPath": "data/tossplace-menu/238090/images/7735937-블루베리-크림치즈-와플-2067253bb0.jpg",
-      "hash": "2067253bb014fe61757f06204e8815048e16436385a5a1f08f65fcdb65cce67d",
-      "itemId": 7735937,
-      "title": "블루베리&크림치즈 와플",
-      "sourceUrl": "https://place-static.tossplace.com/public/live/PUBLIC/2026-01-05/309d30f9-fb8d-4759-a6e5-c77ac579ba7b",
-      "updatedAt": "2026-05-01T03:23:58.886Z"
     },
     "https://place-static.tossplace.com/public/live/PUBLIC/2025-09-20/71bd114a-0912-408b-9a9f-34620e88fbdf": {
       "localPath": "data/tossplace-menu/238090/images/9142726-시그니처-합정라떼-2481923ac8.jpg",
@@ -288,22 +192,6 @@
       "title": "에스프레소",
       "sourceUrl": "https://place-static.tossplace.com/public/live/PUBLIC/2025-08-23/662d9720-ad5c-4ac4-ae89-c85affe9324c",
       "updatedAt": "2026-05-01T03:23:58.913Z"
-    },
-    "https://place-static.tossplace.com/public/live/PUBLIC/2026-04-09/5fd196ce-3be0-445a-a3c8-b64dc0df6d5c": {
-      "localPath": "data/tossplace-menu/238090/images/11912174-레몬-아메리카노-393de909df.jpg",
-      "hash": "393de909df4b052e253f9a8696e25a9fa39c19f2e2c296268743b7dfb2343ec5",
-      "itemId": 11912174,
-      "title": "레몬 아메리카노",
-      "sourceUrl": "https://place-static.tossplace.com/public/live/PUBLIC/2026-04-09/5fd196ce-3be0-445a-a3c8-b64dc0df6d5c",
-      "updatedAt": "2026-05-01T03:23:58.925Z"
-    },
-    "https://place-static.tossplace.com/public/live/PUBLIC/2026-01-31/033d8200-a0e1-4d12-ab50-3d9ff55f8677": {
-      "localPath": "data/tossplace-menu/238090/images/10683603-시즌-베리베리와플-05d2579139.jpg",
-      "hash": "05d2579139fbc073132de7eeca1820c2d69e36a82334ff9359d9c10e0918a8fc",
-      "itemId": 10683603,
-      "title": "[시즌]베리베리와플",
-      "sourceUrl": "https://place-static.tossplace.com/public/live/PUBLIC/2026-01-31/033d8200-a0e1-4d12-ab50-3d9ff55f8677",
-      "updatedAt": "2026-05-01T03:23:58.926Z"
     },
     "https://place-static.tossplace.com/public/live/PUBLIC/2025-11-18/3fa027b7-5e2f-4244-93df-28ad231bd35e": {
       "localPath": "data/tossplace-menu/238090/images/9018438-상수라떼-e7d82881d9.jpg",
@@ -337,14 +225,6 @@
       "sourceUrl": "https://place-static.tossplace.com/public/live/PUBLIC/2025-09-20/1ea29fc4-454d-4c42-8fa9-f45d7794b18d",
       "updatedAt": "2026-05-01T03:23:58.959Z"
     },
-    "https://place-static.tossplace.com/public/live/PUBLIC/2025-08-23/366b99bf-6304-447e-9e59-bf43c84a91dc": {
-      "localPath": "data/tossplace-menu/238090/images/6978481-헤이즐넛라떼-364a0aac51.png",
-      "hash": "364a0aac5134975cc78f3e0e59c5459dfc413c954425edb62a50423a7b306abb",
-      "itemId": 6978481,
-      "title": "헤이즐넛라떼",
-      "sourceUrl": "https://place-static.tossplace.com/public/live/PUBLIC/2025-08-23/366b99bf-6304-447e-9e59-bf43c84a91dc",
-      "updatedAt": "2026-05-01T03:23:58.973Z"
-    },
     "https://place-static.tossplace.com/public/live/PUBLIC/2026-03-25/2b72dfd6-0b4d-4d5f-a33d-23cd8690965e": {
       "localPath": "data/tossplace-menu/238090/images/11912204-호지차-라떼-b7b9b7705d.jpg",
       "hash": "b7b9b7705d2113bb56dd89566662be0c3e06d916cafc214e5ee2d52f4a6f443e",
@@ -353,78 +233,6 @@
       "sourceUrl": "https://place-static.tossplace.com/public/live/PUBLIC/2026-03-25/2b72dfd6-0b4d-4d5f-a33d-23cd8690965e",
       "updatedAt": "2026-05-01T03:23:58.993Z"
     },
-    "https://place-static.tossplace.com/public/live/PUBLIC/2025-10-19/692b90d7-e4a2-4966-a673-5707b9258ad1": {
-      "localPath": "data/tossplace-menu/238090/images/8191084-크림-밤라떼-1cfebc8f5e.jpg",
-      "hash": "1cfebc8f5ea2bbcc84c3d1688a844955ce238ae57f81f4caa5abf8693b8f6c6e",
-      "itemId": 8191084,
-      "title": "크림 밤라떼",
-      "sourceUrl": "https://place-static.tossplace.com/public/live/PUBLIC/2025-10-19/692b90d7-e4a2-4966-a673-5707b9258ad1",
-      "updatedAt": "2026-05-01T03:23:59.017Z"
-    },
-    "https://place-static.tossplace.com/public/live/PUBLIC/2025-08-23/d29c0b2f-5bd2-4c3a-ae32-c382ac071558": {
-      "localPath": "data/tossplace-menu/238090/images/6978817-딥초코라떼-7a0f0cd408.png",
-      "hash": "7a0f0cd408850c74ceaa32b3cbc584f7ed7b1da20fad0287fe7a07782a7b3d2a",
-      "itemId": 6978817,
-      "title": "딥초코라떼",
-      "sourceUrl": "https://place-static.tossplace.com/public/live/PUBLIC/2025-08-23/d29c0b2f-5bd2-4c3a-ae32-c382ac071558",
-      "updatedAt": "2026-05-01T03:23:59.033Z"
-    },
-    "https://place-static.tossplace.com/public/live/PUBLIC/2026-04-25/3cb521f8-4864-42e7-b1e3-658692267b22": {
-      "localPath": "data/tossplace-menu/238090/images/12936713-오렌지-비앙코-89b562874e.jpg",
-      "hash": "89b562874e04926f38bd96786453ffdad5ca40ee0bc46f8779f44f3e2af3016d",
-      "itemId": 12936713,
-      "title": "오렌지 비앙코",
-      "sourceUrl": "https://place-static.tossplace.com/public/live/PUBLIC/2026-04-25/3cb521f8-4864-42e7-b1e3-658692267b22",
-      "updatedAt": "2026-05-01T03:23:59.071Z"
-    },
-    "https://place-static.tossplace.com/public/live/PUBLIC/2026-04-25/c8dc07de-a876-4f43-a47b-483916623336": {
-      "localPath": "data/tossplace-menu/238090/images/12936816-오렌지-아메리카노-70bc0ca887.jpg",
-      "hash": "70bc0ca887e53fd4e7111b906747975881fb827f3e0080e7ff33ee6c60b71a39",
-      "itemId": 12936816,
-      "title": "오렌지 아메리카노",
-      "sourceUrl": "https://place-static.tossplace.com/public/live/PUBLIC/2026-04-25/c8dc07de-a876-4f43-a47b-483916623336",
-      "updatedAt": "2026-05-01T03:23:59.116Z"
-    },
-    "https://place-static.tossplace.com/public/live/PUBLIC/2025-10-17/1fc4f897-2562-4355-98c7-f9932f8de6d1": {
-      "localPath": "data/tossplace-menu/238090/images/8191069-크림고구마라떼-8ea132bda7.png",
-      "hash": "8ea132bda714a3b84763470f5a35792ce8fda2a85632f2b98d083b2a95ddfcca",
-      "itemId": 8191069,
-      "title": "크림고구마라떼",
-      "sourceUrl": "https://place-static.tossplace.com/public/live/PUBLIC/2025-10-17/1fc4f897-2562-4355-98c7-f9932f8de6d1",
-      "updatedAt": "2026-05-01T03:23:59.120Z"
-    },
-    "https://place-static.tossplace.com/public/live/PUBLIC/2025-08-24/dcc68527-a053-46d1-bbfb-fcced37c9457": {
-      "localPath": "data/tossplace-menu/238090/images/6981305-제주말차프라페-2069e13ad8.png",
-      "hash": "2069e13ad8687b1f87013ec4b8349ac772fe141d06c78b770273373093501d00",
-      "itemId": 6981305,
-      "title": "제주말차프라페",
-      "sourceUrl": "https://place-static.tossplace.com/public/live/PUBLIC/2025-08-24/dcc68527-a053-46d1-bbfb-fcced37c9457",
-      "updatedAt": "2026-05-01T03:23:59.129Z"
-    },
-    "https://place-static.tossplace.com/public/live/PUBLIC/2025-08-23/0086ad6b-8c1b-4470-9124-00063da99ff9": {
-      "localPath": "data/tossplace-menu/238090/images/6981978-망코인프라페-4ea5523632.jpg",
-      "hash": "4ea55236328b8c2e72f334bb7287636b7654f657fcde6f8d93879e35fca672c6",
-      "itemId": 6981978,
-      "title": "망코인프라페",
-      "sourceUrl": "https://place-static.tossplace.com/public/live/PUBLIC/2025-08-23/0086ad6b-8c1b-4470-9124-00063da99ff9",
-      "updatedAt": "2026-05-01T03:23:59.142Z"
-    },
-    "https://place-static.tossplace.com/public/live/PUBLIC/2025-08-24/9afa10e1-1139-441d-bbe1-12f7f965c577": {
-      "localPath": "data/tossplace-menu/238090/images/6979395-생과일딸기주스-8041f2af5d.png",
-      "hash": "8041f2af5d968f283976683b823450ac0949f8dd99ba9d95ce579e88185970c7",
-      "itemId": 6979395,
-      "title": "생과일딸기주스",
-      "sourceUrl": "https://place-static.tossplace.com/public/live/PUBLIC/2025-08-24/9afa10e1-1139-441d-bbe1-12f7f965c577",
-      "updatedAt": "2026-05-01T03:23:59.152Z"
-    },
-    "https://place-static.tossplace.com/public/live/PUBLIC/2025-08-23/2a669799-6b46-4407-821f-5e7b67a98776": {
-      "localPath": "data/tossplace-menu/238090/images/6981971-딥초코프라페-8003af12f4.png",
-      "hash": "8003af12f4755011be02ac67b5767e0549a23b9d96eb94561331d47aafd2fd9e",
-      "itemId": 6981971,
-      "title": "딥초코프라페",
-      "sourceUrl": "https://place-static.tossplace.com/public/live/PUBLIC/2025-08-23/2a669799-6b46-4407-821f-5e7b67a98776",
-      "updatedAt": "2026-05-01T03:23:59.154Z"
-    },
     "https://place-static.tossplace.com/public/live/PUBLIC/2025-08-23/30af44d6-9bc5-42fb-862c-c62985c9ad13": {
       "localPath": "data/tossplace-menu/238090/images/6979166-봄물결-d6b5a9a22e.jpg",
       "hash": "d6b5a9a22e1230a7b24c77635f7abe4932f3d0efbadfcca5c42231e844514c56",
@@ -432,14 +240,6 @@
       "title": "봄물결",
       "sourceUrl": "https://place-static.tossplace.com/public/live/PUBLIC/2025-08-23/30af44d6-9bc5-42fb-862c-c62985c9ad13",
       "updatedAt": "2026-05-01T03:23:59.170Z"
-    },
-    "https://place-static.tossplace.com/public/live/PUBLIC/2025-08-23/80e518d6-9038-4f7f-b5bd-4af8c20c8a3b": {
-      "localPath": "data/tossplace-menu/238090/images/6978834-딸기라떼-f4623284a9.png",
-      "hash": "f4623284a993d00faed3f20405edb468002bd02c3a4cac57737178aaf4bf2a12",
-      "itemId": 6978834,
-      "title": "딸기라떼",
-      "sourceUrl": "https://place-static.tossplace.com/public/live/PUBLIC/2025-08-23/80e518d6-9038-4f7f-b5bd-4af8c20c8a3b",
-      "updatedAt": "2026-05-01T03:23:59.173Z"
     },
     "https://place-static.tossplace.com/public/live/PUBLIC/2025-08-23/c0df2951-a89f-4db8-8559-b02eec39024c": {
       "localPath": "data/tossplace-menu/238090/images/6979222-루이벨벳-e13c447c71.jpg",
@@ -455,14 +255,6 @@
       "itemId": 6979241,
       "title": "현월호지",
       "sourceUrl": "https://place-static.tossplace.com/public/live/PUBLIC/2025-08-23/3355a36e-2a57-4af5-8588-7dff824fc7e1",
-      "updatedAt": "2026-05-01T03:23:59.191Z"
-    },
-    "https://place-static.tossplace.com/public/live/PUBLIC/2025-11-18/e986312f-2199-4c57-904c-b07d84a5992c": {
-      "localPath": "data/tossplace-menu/238090/images/6997998-땅콩크림라떼-e013077f1d.jpg",
-      "hash": "e013077f1db74d3542fee684c60ea6028a3f56b79a1171398e9a5a7610ccbc71",
-      "itemId": 6997998,
-      "title": "땅콩크림라떼",
-      "sourceUrl": "https://place-static.tossplace.com/public/live/PUBLIC/2025-11-18/e986312f-2199-4c57-904c-b07d84a5992c",
       "updatedAt": "2026-05-01T03:23:59.191Z"
     },
     "https://place-static.tossplace.com/public/live/PUBLIC/2025-08-23/7388c254-4a19-4d96-a390-b1971a011d85": {
@@ -481,30 +273,6 @@
       "sourceUrl": "https://place-static.tossplace.com/public/live/PUBLIC/2025-08-23/a9141e9f-6174-4181-8cf7-22022adc7e77",
       "updatedAt": "2026-05-01T03:23:59.198Z"
     },
-    "https://place-static.tossplace.com/public/live/PUBLIC/2025-10-11/6915588b-aea9-401f-9153-89e75bad6320": {
-      "localPath": "data/tossplace-menu/238090/images/8092522-자몽차-8d0a95d1e6.jpg",
-      "hash": "8d0a95d1e60f2ad25c091d14bc7e3c5f8cda55996fd71b06746e60d6cc6f551e",
-      "itemId": 8092522,
-      "title": "자몽차",
-      "sourceUrl": "https://place-static.tossplace.com/public/live/PUBLIC/2025-10-11/6915588b-aea9-401f-9153-89e75bad6320",
-      "updatedAt": "2026-05-01T03:23:59.200Z"
-    },
-    "https://place-static.tossplace.com/public/live/PUBLIC/2026-01-05/69bb14a7-ff0e-400b-8530-62b1f5ef147a": {
-      "localPath": "data/tossplace-menu/238090/images/10084541-레몬마테-758965c122.jpg",
-      "hash": "758965c122f1093febbae0719c71f5da6e264b4c11201e2dac54363e9de63118",
-      "itemId": 10084541,
-      "title": "레몬마테",
-      "sourceUrl": "https://place-static.tossplace.com/public/live/PUBLIC/2026-01-05/69bb14a7-ff0e-400b-8530-62b1f5ef147a",
-      "updatedAt": "2026-05-01T03:23:59.201Z"
-    },
-    "https://place-static.tossplace.com/public/live/PUBLIC/2025-08-24/691fb4b2-ae82-441e-987d-3e52e32bf623": {
-      "localPath": "data/tossplace-menu/238090/images/6999994-아몬드라떼-3bbca293e8.png",
-      "hash": "3bbca293e8afb19ad8c75beea60c6cc7f74e5c31ff57c53e327f691081025569",
-      "itemId": 6999994,
-      "title": "아몬드라떼",
-      "sourceUrl": "https://place-static.tossplace.com/public/live/PUBLIC/2025-08-24/691fb4b2-ae82-441e-987d-3e52e32bf623",
-      "updatedAt": "2026-05-01T03:23:59.205Z"
-    },
     "https://place-static.tossplace.com/public/live/PUBLIC/2026-04-02/0d5f7d19-cced-42fd-ac05-515c249a7bab": {
       "localPath": "data/tossplace-menu/238090/images/12131403-레몬차-a3fc0f726f.jpg",
       "hash": "a3fc0f726fa29afa688eb442843d05e2c18cff72b400c0e201e60312fa998879",
@@ -513,78 +281,6 @@
       "sourceUrl": "https://place-static.tossplace.com/public/live/PUBLIC/2026-04-02/0d5f7d19-cced-42fd-ac05-515c249a7bab",
       "updatedAt": "2026-05-01T03:23:59.209Z"
     },
-    "https://place-static.tossplace.com/public/live/PUBLIC/2026-05-01/03cd4361-7f13-4980-8d53-f561f522adc7": {
-      "localPath": "data/tossplace-menu/238090/images/13135786-누누-망고캐슬-2인-e903459c6c.jpg",
-      "hash": "e903459c6c3dc837d57fa4231daa5329960817079da40f2e7536f7f4f94e46da",
-      "itemId": 13135786,
-      "title": "누누 망고캐슬(2인)",
-      "sourceUrl": "https://place-static.tossplace.com/public/live/PUBLIC/2026-05-01/03cd4361-7f13-4980-8d53-f561f522adc7",
-      "updatedAt": "2026-05-01T03:23:59.212Z"
-    },
-    "https://place-static.tossplace.com/public/live/PUBLIC/2026-04-09/908a0029-e9d8-420f-84eb-5b5c1fccf695": {
-      "localPath": "data/tossplace-menu/238090/images/10641666-딸기포레누아-12e4b312bd.jpg",
-      "hash": "12e4b312bdab5741c4ac97828f5f9e7dcaa0dbe0fad8d33137eeca88e37d7023",
-      "itemId": 10641666,
-      "title": "딸기포레누아",
-      "sourceUrl": "https://place-static.tossplace.com/public/live/PUBLIC/2026-04-09/908a0029-e9d8-420f-84eb-5b5c1fccf695",
-      "updatedAt": "2026-05-01T03:23:59.216Z"
-    },
-    "https://place-static.tossplace.com/public/live/PUBLIC/2026-04-27/c2237ec0-036c-4728-928c-e4c72d1afd92": {
-      "localPath": "data/tossplace-menu/238090/images/13135786-누누-망고캐슬-2인-e903459c6c.jpg",
-      "hash": "e903459c6c3dc837d57fa4231daa5329960817079da40f2e7536f7f4f94e46da",
-      "itemId": 12986704,
-      "title": "클루미 망고캐슬(1인)",
-      "sourceUrl": "https://place-static.tossplace.com/public/live/PUBLIC/2026-04-27/c2237ec0-036c-4728-928c-e4c72d1afd92",
-      "updatedAt": "2026-05-01T03:23:59.216Z"
-    },
-    "https://place-static.tossplace.com/public/live/PUBLIC/2026-01-10/2d3f6ee6-32c0-4606-89a8-30c8e355253a": {
-      "localPath": "data/tossplace-menu/238090/images/10197088-교토말차쇼콜라-2345af4b89.jpg",
-      "hash": "2345af4b89b8de6ff25e828d90f74ade7241ff1fe27d46541ca6fe65472f7664",
-      "itemId": 10197088,
-      "title": "교토말차쇼콜라",
-      "sourceUrl": "https://place-static.tossplace.com/public/live/PUBLIC/2026-01-10/2d3f6ee6-32c0-4606-89a8-30c8e355253a",
-      "updatedAt": "2026-05-01T03:23:59.218Z"
-    },
-    "https://place-static.tossplace.com/public/live/PUBLIC/2026-02-07/8852e284-04b4-4f5f-84ad-625c84f6f021": {
-      "localPath": "data/tossplace-menu/238090/images/10842350-얼그레이-무화과-409f46f66d.jpg",
-      "hash": "409f46f66d350411b3f9f8fce7c7a4316f28d5391b3a0da777f5a5ac43e80489",
-      "itemId": 10842350,
-      "title": "얼그레이 무화과",
-      "sourceUrl": "https://place-static.tossplace.com/public/live/PUBLIC/2026-02-07/8852e284-04b4-4f5f-84ad-625c84f6f021",
-      "updatedAt": "2026-05-01T03:23:59.219Z"
-    },
-    "https://place-static.tossplace.com/public/live/PUBLIC/2026-01-10/600646e8-b9a9-4a75-8c63-cf1024a73bbd": {
-      "localPath": "data/tossplace-menu/238090/images/10192464-초콜릿로쉐케익-0622bb516a.jpg",
-      "hash": "0622bb516a998365cbee792cfce659ead0377d3aa9f3bf5209efec4c9f23e654",
-      "itemId": 10192464,
-      "title": "초콜릿로쉐케익",
-      "sourceUrl": "https://place-static.tossplace.com/public/live/PUBLIC/2026-01-10/600646e8-b9a9-4a75-8c63-cf1024a73bbd",
-      "updatedAt": "2026-05-01T03:23:59.222Z"
-    },
-    "https://place-static.tossplace.com/public/live/PUBLIC/2026-04-11/225fe498-e18e-41b7-a18c-0ae0a1589e6e": {
-      "localPath": "data/tossplace-menu/238090/images/12451098-슈크림케이크-0159237948.jpg",
-      "hash": "0159237948de7b98952b34f020e86979fbf7a93082d55535f45e1e3c79170963",
-      "itemId": 12451098,
-      "title": "슈크림케이크",
-      "sourceUrl": "https://place-static.tossplace.com/public/live/PUBLIC/2026-04-11/225fe498-e18e-41b7-a18c-0ae0a1589e6e",
-      "updatedAt": "2026-05-01T03:23:59.223Z"
-    },
-    "https://place-static.tossplace.com/public/live/PUBLIC/2026-03-05/6aa6454e-ccf2-4f56-8187-43e189d284d0": {
-      "localPath": "data/tossplace-menu/238090/images/11352437-레몬구름-토르테-72ffb4e4d5.jpg",
-      "hash": "72ffb4e4d58872b8311947848722a5621b3693e9be4e1f1670316ca5e0592a33",
-      "itemId": 11352437,
-      "title": "레몬구름 토르테",
-      "sourceUrl": "https://place-static.tossplace.com/public/live/PUBLIC/2026-03-05/6aa6454e-ccf2-4f56-8187-43e189d284d0",
-      "updatedAt": "2026-05-01T03:23:59.228Z"
-    },
-    "https://place-static.tossplace.com/public/live/PUBLIC/2026-04-10/aeede396-caf9-4910-b284-669aca6263a5": {
-      "localPath": "data/tossplace-menu/238090/images/12440627-버터떡-4개-세트-0ecc751e3b.jpg",
-      "hash": "0ecc751e3bbafa33cccab2e52ffe2a771bbf94c29045ad27918634c7a313c616",
-      "itemId": 12440627,
-      "title": "버터떡 (4개 세트)",
-      "sourceUrl": "https://place-static.tossplace.com/public/live/PUBLIC/2026-04-10/aeede396-caf9-4910-b284-669aca6263a5",
-      "updatedAt": "2026-05-01T03:23:59.232Z"
-    },
     "https://place-static.tossplace.com/public/live/PUBLIC/2026-04-09/9165e0e1-a2fd-4131-a4c7-52ef45eaec7a": {
       "localPath": "data/tossplace-menu/238090/images/8748567-아이스크림브라우니-1ca4423910.jpg",
       "hash": "1ca44239101ed59b00b661edae8ae559877d2fd56061b9d0dfac41f712a4eedb",
@@ -592,22 +288,6 @@
       "title": "아이스크림 브라우니",
       "sourceUrl": "https://place-static.tossplace.com/public/live/PUBLIC/2026-04-09/9165e0e1-a2fd-4131-a4c7-52ef45eaec7a",
       "updatedAt": "2026-05-01T03:23:59.234Z"
-    },
-    "https://place-static.tossplace.com/public/live/PUBLIC/2026-04-10/dc11a468-55c9-44b9-869d-9d6e4ea8ff26": {
-      "localPath": "data/tossplace-menu/238090/images/12440627-버터떡-4개-세트-0ecc751e3b.jpg",
-      "hash": "0ecc751e3bbafa33cccab2e52ffe2a771bbf94c29045ad27918634c7a313c616",
-      "itemId": 12069864,
-      "title": "버터떡 (2개 세트)",
-      "sourceUrl": "https://place-static.tossplace.com/public/live/PUBLIC/2026-04-10/dc11a468-55c9-44b9-869d-9d6e4ea8ff26",
-      "updatedAt": "2026-05-01T03:23:59.235Z"
-    },
-    "https://place-static.tossplace.com/public/live/PUBLIC/2026-03-14/b21d3cfb-795d-4d71-998a-8e839aad2609": {
-      "localPath": "data/tossplace-menu/238090/images/11622362-딸기-그래놀라-쫀득쿠키-8a42d2a9c0.jpg",
-      "hash": "8a42d2a9c02869cc086b8f4eee953e251cd0253cc3bdf2a456b6bf85ec4ef7ed",
-      "itemId": 11622362,
-      "title": "딸기  그래놀라 쫀득쿠키",
-      "sourceUrl": "https://place-static.tossplace.com/public/live/PUBLIC/2026-03-14/b21d3cfb-795d-4d71-998a-8e839aad2609",
-      "updatedAt": "2026-05-01T03:23:59.238Z"
     },
     "https://place-static.tossplace.com/public/live/PUBLIC/2026-01-31/93d3acf0-5dc6-40e1-b6ef-2e263d52a7fd": {
       "localPath": "data/tossplace-menu/238090/images/10652155-케이크-초-8ae83ded46.jpg",
@@ -721,14 +401,6 @@
       "sourceUrl": "https://place-static.tossplace.com/public/live/PUBLIC/2025-11-13/110e9467-f811-4fe1-b744-316e02b45c2e",
       "updatedAt": "2026-05-01T03:23:59.353Z"
     },
-    "https://place-static.tossplace.com/public/live/PUBLIC/2025-08-23/e4c77254-e71c-472a-bc59-b84eab1af3c0": {
-      "localPath": "data/tossplace-menu/238090/images/6979380-키위에이드-85c4b26062.png",
-      "hash": "85c4b26062df926daa1fc2928e8d85069c21305c256694fa4ac9839ba4fcd648",
-      "itemId": 6979380,
-      "title": "키위에이드",
-      "sourceUrl": "https://place-static.tossplace.com/public/live/PUBLIC/2025-08-23/e4c77254-e71c-472a-bc59-b84eab1af3c0",
-      "updatedAt": "2026-05-01T03:23:59.361Z"
-    },
     "https://place-static.tossplace.com/public/live/PUBLIC/2025-08-23/3dc927d4-6cb4-4162-87d6-2cb43d887bc4": {
       "localPath": "data/tossplace-menu/238090/images/6982172-에비앙-생수-c701abbf20.jpg",
       "hash": "c701abbf20622f9ba9ded8b04d249268ab1cc7df1a3a77820e5662631aeac2a3",
@@ -777,30 +449,6 @@
       "sourceUrl": "https://place-static.tossplace.com/public/live/PUBLIC/2026-05-01/c08e2265-4057-4f8e-9774-d638d57ba315",
       "updatedAt": "2026-05-01T11:08:52.435Z"
     },
-    "https://place-static.tossplace.com/public/live/PUBLIC/2026-05-01/d77f498a-b9b2-4181-8868-30c4b82301a0": {
-      "localPath": "data/tossplace-menu/238090/images/12986704-귀여운클루미-망고캐슬-1인-99e6d81133.jpg",
-      "hash": "99e6d8113305bcabbb3512590bb83a6ca07eab7fda7e9d13d63c9c0febf52d87",
-      "itemId": 12986704,
-      "title": "[귀여운클루미] 망고캐슬(1인)",
-      "sourceUrl": "https://place-static.tossplace.com/public/live/PUBLIC/2026-05-01/d77f498a-b9b2-4181-8868-30c4b82301a0",
-      "updatedAt": "2026-05-01T11:08:52.469Z"
-    },
-    "https://place-static.tossplace.com/public/live/PUBLIC/2026-05-01/6caa0266-dff8-4182-ad90-f77c809d6115": {
-      "localPath": "data/tossplace-menu/238090/images/13137641-New-반하나-와플-ed83c64e0d.jpg",
-      "hash": "ed83c64e0d0fe64c00f74ae0016eba9db48ef3d3d30661f06d0cf83a9e32f4e4",
-      "itemId": 13137641,
-      "title": "[New]반하나 와플",
-      "sourceUrl": "https://place-static.tossplace.com/public/live/PUBLIC/2026-05-01/6caa0266-dff8-4182-ad90-f77c809d6115",
-      "updatedAt": "2026-05-01T11:08:52.492Z"
-    },
-    "https://place-static.tossplace.com/public/live/PUBLIC/2026-05-01/518c647b-41eb-403a-83dd-591dd3842bc5": {
-      "localPath": "data/tossplace-menu/238090/images/13135786-클루미-누누-망고캐슬-2인-a2bcc17da9.jpg",
-      "hash": "a2bcc17da97ef562c9adf51a14a7ef1490f16efaf45ccc9a518d5e5faf1eb66e",
-      "itemId": 13135786,
-      "title": "[클루미&누누]망고캐슬(2인)",
-      "sourceUrl": "https://place-static.tossplace.com/public/live/PUBLIC/2026-05-01/518c647b-41eb-403a-83dd-591dd3842bc5",
-      "updatedAt": "2026-05-01T11:08:52.496Z"
-    },
     "https://place-static.tossplace.com/public/live/PUBLIC/2026-06-06/f11c61fb-eed5-415b-ac44-69ebe82ef588": {
       "localPath": "data/tossplace-menu/238090/images/14267200-땅콩크림라떼-2f5de2df2e.jpg",
       "hash": "2f5de2df2e4dd3b9ccd47dc8041f70376ca239ea3a8351f7cf16360af832e720",
@@ -808,14 +456,6 @@
       "title": "땅콩크림라떼",
       "sourceUrl": "https://place-static.tossplace.com/public/live/PUBLIC/2026-06-06/f11c61fb-eed5-415b-ac44-69ebe82ef588",
       "updatedAt": "2026-07-21T02:45:02.439Z"
-    },
-    "https://place-static.tossplace.com/public/live/PUBLIC/2026-07-18/b86e446d-8130-403c-a4a8-d4ec088e243e": {
-      "localPath": "data/tossplace-menu/238090/images/13540786-딸기-포레누아-5fc1c84123.jpg",
-      "hash": "5fc1c84123246819d007edc62d7df8dbd829350a219a8796abc73a029b17345b",
-      "itemId": 13540786,
-      "title": "딸기 포레누아",
-      "sourceUrl": "https://place-static.tossplace.com/public/live/PUBLIC/2026-07-18/b86e446d-8130-403c-a4a8-d4ec088e243e",
-      "updatedAt": "2026-07-21T02:45:02.440Z"
     },
     "https://place-static.tossplace.com/public/live/PUBLIC/2026-05-09/59d70125-6af4-4c19-a4c7-31c8f4d0eb00": {
       "localPath": "data/tossplace-menu/238090/images/10683603-피스타치오-초코-반하나-와플-87f8a2942f.jpg",
@@ -832,22 +472,6 @@
       "title": "[피스타치오]초코 반하나와플",
       "sourceUrl": "https://place-static.tossplace.com/public/live/PUBLIC/2026-05-09/ae7594c4-fb11-480f-a5c1-aeab9a2032d9",
       "updatedAt": "2026-07-21T02:45:02.469Z"
-    },
-    "https://place-static.tossplace.com/public/live/PUBLIC/2026-07-18/4c5d0714-f923-4343-8e9b-4204dd43ccb4": {
-      "localPath": "data/tossplace-menu/238090/images/10077936-망고-도깨비-2인-f4ff32c77d.jpg",
-      "hash": "f4ff32c77d1ab137bb2354ec5bdaeab20e114bc6c6275fe946882907e91d9579",
-      "itemId": 10077936,
-      "title": "망고 도깨비 (2인)",
-      "sourceUrl": "https://place-static.tossplace.com/public/live/PUBLIC/2026-07-18/4c5d0714-f923-4343-8e9b-4204dd43ccb4",
-      "updatedAt": "2026-07-21T02:45:02.513Z"
-    },
-    "https://place-static.tossplace.com/public/live/PUBLIC/2026-05-15/4dc5bda6-21a3-4c98-a16c-6b849462d8f2": {
-      "localPath": "data/tossplace-menu/238090/images/7735937-블루베리-크림치즈-와플-2067253bb0.jpg",
-      "hash": "2067253bb014fe61757f06204e8815048e16436385a5a1f08f65fcdb65cce67d",
-      "itemId": 13541356,
-      "title": "[블루베리 & 크림치즈] 와플",
-      "sourceUrl": "https://place-static.tossplace.com/public/live/PUBLIC/2026-05-15/4dc5bda6-21a3-4c98-a16c-6b849462d8f2",
-      "updatedAt": "2026-07-21T02:45:02.697Z"
     },
     "https://place-static.tossplace.com/public/live/PUBLIC/2026-05-04/3d5dde56-e8bc-42f3-8d05-02ba3fe3d817": {
       "localPath": "data/tossplace-menu/238090/images/11912174-레몬-아메리카노-a66b07d481.jpg",
@@ -880,22 +504,6 @@
       "title": "[여름 시그니처] 오렌지 비앙코",
       "sourceUrl": "https://place-static.tossplace.com/public/live/PUBLIC/2026-06-06/f4281e0f-51c0-42d6-9bec-82c7ecef3d45",
       "updatedAt": "2026-07-21T02:45:03.224Z"
-    },
-    "https://place-static.tossplace.com/public/live/PUBLIC/2026-05-13/8a453da7-a2f8-4d0d-bf0d-73ce0bbcbf3e": {
-      "localPath": "data/tossplace-menu/238090/images/10641666-딸기포레누아-a0bf52ee2f.jpg",
-      "hash": "a0bf52ee2f95df60f753e56e5e51ae7a1102b4c42bf9b44125b02dcca8568213",
-      "itemId": 10641666,
-      "title": "딸기포레누아",
-      "sourceUrl": "https://place-static.tossplace.com/public/live/PUBLIC/2026-05-13/8a453da7-a2f8-4d0d-bf0d-73ce0bbcbf3e",
-      "updatedAt": "2026-07-21T02:45:03.501Z"
-    },
-    "https://place-static.tossplace.com/public/live/PUBLIC/2025-08-23/53502701-5d38-4175-a737-0a08a3e778d2": {
-      "localPath": "data/tossplace-menu/238090/images/6999994-아몬드라떼-3bbca293e8.png",
-      "hash": "3bbca293e8afb19ad8c75beea60c6cc7f74e5c31ff57c53e327f691081025569",
-      "itemId": 6978847,
-      "title": "얼그레이 밀크티",
-      "sourceUrl": "https://place-static.tossplace.com/public/live/PUBLIC/2025-08-23/53502701-5d38-4175-a737-0a08a3e778d2",
-      "updatedAt": "2026-07-21T02:45:03.584Z"
     },
     "https://place-static.tossplace.com/public/live/PUBLIC/2026-05-12/965186ba-98fb-4c6b-bdd7-15c905728f22": {
       "localPath": "data/tossplace-menu/238090/images/10842350-얼그레이-무화과-0f5f5e5bf2.jpg",
@@ -953,14 +561,6 @@
       "sourceUrl": "https://place-static.tossplace.com/public/live/PUBLIC/2026-05-16/7284ea54-7229-44a7-a769-e18751b9fc12",
       "updatedAt": "2026-07-21T02:45:04.461Z"
     },
-    "https://place-static.tossplace.com/public/live/PUBLIC/2026-05-13/eac52ca4-f28b-4dac-8ae2-573d8ec91376": {
-      "localPath": "data/tossplace-menu/238090/images/12986704-망고도깨비-1인-26bda87d18.jpg",
-      "hash": "26bda87d18950930ecbce7742e0c5e547fb3ca2d6817c03b27bad09e035c19ed",
-      "itemId": 12986704,
-      "title": "망고도깨비(1인)",
-      "sourceUrl": "https://place-static.tossplace.com/public/live/PUBLIC/2026-05-13/eac52ca4-f28b-4dac-8ae2-573d8ec91376",
-      "updatedAt": "2026-07-21T02:45:04.703Z"
-    },
     "https://place-static.tossplace.com/public/live/PUBLIC/2026-05-21/4cf9bc9b-f371-4877-abf2-d036187bd6bc": {
       "localPath": "data/tossplace-menu/238090/images/13734740-청포도에이드-91f4fb1163.jpg",
       "hash": "91f4fb1163526883c3b14cc0b7562e34b9fbacaeab106d11b8fd3dd10f42e878",
@@ -968,22 +568,6 @@
       "title": "청포도에이드",
       "sourceUrl": "https://place-static.tossplace.com/public/live/PUBLIC/2026-05-21/4cf9bc9b-f371-4877-abf2-d036187bd6bc",
       "updatedAt": "2026-07-21T02:45:04.765Z"
-    },
-    "https://place-static.tossplace.com/public/live/PUBLIC/2026-05-13/688ca76a-6f8f-47bb-abcd-2b3931f02533": {
-      "localPath": "data/tossplace-menu/238090/images/12986704-망고도깨비-1인-26bda87d18.jpg",
-      "hash": "26bda87d18950930ecbce7742e0c5e547fb3ca2d6817c03b27bad09e035c19ed",
-      "itemId": 13135786,
-      "title": "망고도깨비(2인)",
-      "sourceUrl": "https://place-static.tossplace.com/public/live/PUBLIC/2026-05-13/688ca76a-6f8f-47bb-abcd-2b3931f02533",
-      "updatedAt": "2026-07-21T02:45:04.830Z"
-    },
-    "https://place-static.tossplace.com/public/live/PUBLIC/2025-09-12/54524f4a-17f1-47a6-9889-91b712a3898f": {
-      "localPath": "data/tossplace-menu/238090/images/7411076-삿포로초코파르페-97216e9a5a.png",
-      "hash": "97216e9a5a559c0e32a2172e5e3671e97a2644084c83192638673c0e01722445",
-      "itemId": 7411076,
-      "title": "삿포로초코파르페",
-      "sourceUrl": "https://place-static.tossplace.com/public/live/PUBLIC/2025-09-12/54524f4a-17f1-47a6-9889-91b712a3898f",
-      "updatedAt": "2026-07-21T02:45:05.073Z"
     },
     "https://place-static.tossplace.com/public/live/PUBLIC/2026-08-13/f871ea8f-94c4-4b2c-bd42-766ff3fc9bcb": {
       "localPath": "data/tossplace-menu/238090/images/7735910-저당-메이플-시나몬-와플-1795427119.jpg",
@@ -1041,22 +625,6 @@
       "sourceUrl": "https://place-static.tossplace.com/public/live/PUBLIC/2026-07-24/2a3becfa-b55b-4ba3-a52e-43862b5cfee1",
       "updatedAt": "2026-08-20T21:16:02.882Z"
     },
-    "https://place-static.tossplace.com/public/live/PUBLIC/2026-07-25/ac05e794-719d-4438-9c38-1798491acffd": {
-      "localPath": "data/tossplace-menu/238090/images/15684896-밀크팥빙수-한-컵-b3ed4a325c.jpg",
-      "hash": "b3ed4a325c89adca4955d0b412e4d1a587a8b4c26d1f7f083fe6291e411abc7f",
-      "itemId": 15684896,
-      "title": "밀크팥빙수 한 컵",
-      "sourceUrl": "https://place-static.tossplace.com/public/live/PUBLIC/2026-07-25/ac05e794-719d-4438-9c38-1798491acffd",
-      "updatedAt": "2026-08-20T21:16:02.894Z"
-    },
-    "https://place-static.tossplace.com/public/live/PUBLIC/2026-07-25/859a2217-7c60-464a-bac3-d6c5ecfdd597": {
-      "localPath": "data/tossplace-menu/238090/images/15684885-애플망고-한-컵-69d37ad4fd.jpg",
-      "hash": "69d37ad4fdba4e7d9acf34a2b2e2e4eda5782ee7eb0b1635c4f6dabba2641b70",
-      "itemId": 15684885,
-      "title": "애플망고 한 컵",
-      "sourceUrl": "https://place-static.tossplace.com/public/live/PUBLIC/2026-07-25/859a2217-7c60-464a-bac3-d6c5ecfdd597",
-      "updatedAt": "2026-08-20T21:16:03.205Z"
-    },
     "https://place-static.tossplace.com/public/live/PUBLIC/2026-08-13/45eb263f-b4c3-457b-8f1f-2e7d4df15ed7": {
       "localPath": "data/tossplace-menu/238090/images/7735937-블루베리-크림치즈-와플-32131784ad.jpg",
       "hash": "32131784ada4511e43e0d64f09c2537f0933d80517a7fe28166c1ae3122af90d",
@@ -1073,14 +641,6 @@
       "sourceUrl": "https://place-static.tossplace.com/public/live/PUBLIC/2026-05-12/5058ffa0-185b-446a-a2b0-8f8701d1ca87",
       "updatedAt": "2026-08-20T21:16:03.575Z"
     },
-    "https://place-static.tossplace.com/public/live/PUBLIC/2026-05-12/bdaaa36b-6c45-44f2-b3b5-b20a15bdec04": {
-      "localPath": "data/tossplace-menu/238090/images/11352437-레몬구름-토르테-b87b32ee1f.jpg",
-      "hash": "b87b32ee1fe8cd16e8ead9a25282d6d33a836b0f686257341f9fbc057a6bd2a9",
-      "itemId": 11352437,
-      "title": "레몬구름 토르테",
-      "sourceUrl": "https://place-static.tossplace.com/public/live/PUBLIC/2026-05-12/bdaaa36b-6c45-44f2-b3b5-b20a15bdec04",
-      "updatedAt": "2026-08-20T21:16:03.619Z"
-    },
     "https://place-static.tossplace.com/public/live/PUBLIC/2026-08-20/3d5b5f05-a32a-4579-b025-d13b6ae5d1be": {
       "localPath": "data/tossplace-menu/238090/images/16385006-진한-치즈-케이크-5c0eb416f1.jpg",
       "hash": "5c0eb416f12c31a2270dff556cd595c5088501ffb03a028c07058a291f5c2a67",
@@ -1096,22 +656,6 @@
       "title": "[시즌] 복숭아 한 컵",
       "sourceUrl": "https://place-static.tossplace.com/public/live/PUBLIC/2026-07-24/3581f84c-1e13-48db-a8ca-0da22288a92f",
       "updatedAt": "2026-08-20T21:16:03.947Z"
-    },
-    "https://place-static.tossplace.com/public/live/PUBLIC/2026-07-25/b050e5c0-310e-4348-8e1a-eddbf9cbf7c8": {
-      "localPath": "data/tossplace-menu/238090/images/15684885-애플망고-한-컵-69d37ad4fd.jpg",
-      "hash": "69d37ad4fdba4e7d9acf34a2b2e2e4eda5782ee7eb0b1635c4f6dabba2641b70",
-      "itemId": 15684832,
-      "title": "[시즌] 애플망고 한 컵",
-      "sourceUrl": "https://place-static.tossplace.com/public/live/PUBLIC/2026-07-25/b050e5c0-310e-4348-8e1a-eddbf9cbf7c8",
-      "updatedAt": "2026-08-20T21:16:03.983Z"
-    },
-    "https://place-static.tossplace.com/public/live/PUBLIC/2026-07-25/e39c0bca-aaa7-455d-8275-b99363caaa45": {
-      "localPath": "data/tossplace-menu/238090/images/15684896-밀크팥빙수-한-컵-b3ed4a325c.jpg",
-      "hash": "b3ed4a325c89adca4955d0b412e4d1a587a8b4c26d1f7f083fe6291e411abc7f",
-      "itemId": 15684844,
-      "title": "[시즌] 밀크팥빙수 한 컵",
-      "sourceUrl": "https://place-static.tossplace.com/public/live/PUBLIC/2026-07-25/e39c0bca-aaa7-455d-8275-b99363caaa45",
-      "updatedAt": "2026-08-20T21:16:04.275Z"
     },
     "https://place-static.tossplace.com/public/live/PUBLIC/2026-08-25/7bd9f6b6-a3f7-454f-b38b-37496a0d34e5": {
       "localPath": "data/tossplace-menu/238090/images/16508079-카페라떼-2e771f0a3b.jpg",
@@ -1187,14 +731,6 @@
       "sourceUrl": "https://place-static.tossplace.com/public/live/PUBLIC/2026-02-15/c3afe580-fd6a-438e-816f-8dfb5c702a6c",
       "updatedAt": "2026-05-01T03:23:58.756Z"
     },
-    "6662462cf29d478ab87386c6a3b7956a5ffdd0a317caec03cdfda34f99970b53": {
-      "localPath": "data/tossplace-menu/238090/images/10983172-에그돔-스크램블-6662462cf2.jpg",
-      "hash": "6662462cf29d478ab87386c6a3b7956a5ffdd0a317caec03cdfda34f99970b53",
-      "itemId": 10983172,
-      "title": "에그돔 스크램블",
-      "sourceUrl": "https://place-static.tossplace.com/public/live/PUBLIC/2026-02-13/dd7c174b-8a27-4881-8e14-3dade2e4ada9",
-      "updatedAt": "2026-05-01T03:23:58.757Z"
-    },
     "6cbbab4fe90e181361bafaef0264f8c548073675bed4b0089633e4f04d4a4189": {
       "localPath": "data/tossplace-menu/238090/images/13040656-에그-3개-스크램블-6cbbab4fe9.jpg",
       "hash": "6cbbab4fe90e181361bafaef0264f8c548073675bed4b0089633e4f04d4a4189",
@@ -1211,36 +747,12 @@
       "sourceUrl": "https://place-static.tossplace.com/public/live/PUBLIC/2026-03-04/9f9e4d0e-8f27-4d4e-a18b-769c79f6f55c",
       "updatedAt": "2026-05-01T03:23:58.769Z"
     },
-    "381c363183e4e47c8b2fe8b268e76d1a24d5a8d8ab864b826fdc5d5c1c7161bf": {
-      "localPath": "data/tossplace-menu/238090/images/9479299-시즌한정-딸기왕창와플-381c363183.jpg",
-      "hash": "381c363183e4e47c8b2fe8b268e76d1a24d5a8d8ab864b826fdc5d5c1c7161bf",
-      "itemId": 9479299,
-      "title": "[시즌한정]딸기왕창와플",
-      "sourceUrl": "https://place-static.tossplace.com/public/live/PUBLIC/2026-04-09/79ca2a21-1668-4235-af21-4431110ebb67",
-      "updatedAt": "2026-05-01T03:23:58.780Z"
-    },
-    "95fd9c7476b80890cfe5596119a97d091beb01b8dd7ebf62ece3410e437394e0": {
-      "localPath": "data/tossplace-menu/238090/images/10639334-베리베리와플-95fd9c7476.jpg",
-      "hash": "95fd9c7476b80890cfe5596119a97d091beb01b8dd7ebf62ece3410e437394e0",
-      "itemId": 10639334,
-      "title": "베리베리와플",
-      "sourceUrl": "https://place-static.tossplace.com/public/live/PUBLIC/2026-04-09/1a6b41c9-6fb9-4d76-9d9a-ac9f2dac4921",
-      "updatedAt": "2026-05-01T03:23:58.781Z"
-    },
     "76b7edcaa34530e5781599b022854d03a94b2a5d3d9fa65917e2ef864acdc41a": {
       "localPath": "data/tossplace-menu/238090/images/11075904-여왕의접시4-아보카도-Coffee-Set-76b7edcaa3.jpg",
       "hash": "76b7edcaa34530e5781599b022854d03a94b2a5d3d9fa65917e2ef864acdc41a",
       "itemId": 11075904,
       "title": "여왕의접시4(아보카도)Coffee Set",
       "sourceUrl": "https://place-static.tossplace.com/public/live/PUBLIC/2026-03-03/a192cd00-dc2a-41b4-ad02-47f2f7585ea1",
-      "updatedAt": "2026-05-01T03:23:58.790Z"
-    },
-    "775c9f1b1ab85d0e7e7731696c35f8d4742d5ce8cf32909372f62b272e806b3b": {
-      "localPath": "data/tossplace-menu/238090/images/7735910-저당-메이플-시나몬-와플-775c9f1b1a.jpg",
-      "hash": "775c9f1b1ab85d0e7e7731696c35f8d4742d5ce8cf32909372f62b272e806b3b",
-      "itemId": 7735910,
-      "title": "[저당]메이플 시나몬 와플",
-      "sourceUrl": "https://place-static.tossplace.com/public/live/PUBLIC/2026-01-05/53cec940-10cb-4541-a1c4-ad85bfd3fe95",
       "updatedAt": "2026-05-01T03:23:58.790Z"
     },
     "77e69269885364d3986b8716967fb7e60ee71b0f2cca317e6d9223975750dcaa": {
@@ -1267,22 +779,6 @@
       "sourceUrl": "https://place-static.tossplace.com/public/live/PUBLIC/2026-02-01/3b4ea4c3-7956-4199-8154-e649174142cf",
       "updatedAt": "2026-05-01T03:23:58.813Z"
     },
-    "b6d73bbc24ffe9167b19a01211dbcd750717322451fa5c039e3f6cc0a212bf9d": {
-      "localPath": "data/tossplace-menu/238090/images/7735791-클래식-와플-b6d73bbc24.jpg",
-      "hash": "b6d73bbc24ffe9167b19a01211dbcd750717322451fa5c039e3f6cc0a212bf9d",
-      "itemId": 7735791,
-      "title": "클래식 와플",
-      "sourceUrl": "https://place-static.tossplace.com/public/live/PUBLIC/2026-01-05/7091f1aa-5c0a-4838-bad3-27e2c6723015",
-      "updatedAt": "2026-05-01T03:23:58.815Z"
-    },
-    "43603d9f2232bc6a3e1da3b8c3295ff14bcf19ed786f6bc3ce803648c9c90ab4": {
-      "localPath": "data/tossplace-menu/238090/images/8433327-아이스크림-와플-43603d9f22.jpg",
-      "hash": "43603d9f2232bc6a3e1da3b8c3295ff14bcf19ed786f6bc3ce803648c9c90ab4",
-      "itemId": 8433327,
-      "title": "아이스크림 와플",
-      "sourceUrl": "https://place-static.tossplace.com/public/live/PUBLIC/2025-10-24/1a0cbe35-21ed-463d-b5e3-1d01335e7de6",
-      "updatedAt": "2026-05-01T03:23:58.818Z"
-    },
     "2e0099ae9860055c9306bcf14e8f51eb53107f525516a972a87fcfbacc9308a1": {
       "localPath": "data/tossplace-menu/238090/images/7965785-와플-3개팩-2e0099ae98.png",
       "hash": "2e0099ae9860055c9306bcf14e8f51eb53107f525516a972a87fcfbacc9308a1",
@@ -1290,14 +786,6 @@
       "title": "와플 3개팩",
       "sourceUrl": "https://place-static.tossplace.com/public/live/PUBLIC/2025-10-01/d04d6ee8-d9ab-4ede-bd8b-ebd0bb618765",
       "updatedAt": "2026-05-01T03:23:58.823Z"
-    },
-    "9b9caea113665582c17441482e938f205d0f2373ac9ed682ce6e2044d96c1d5e": {
-      "localPath": "data/tossplace-menu/238090/images/7736391-애플잼-와플-9b9caea113.jpg",
-      "hash": "9b9caea113665582c17441482e938f205d0f2373ac9ed682ce6e2044d96c1d5e",
-      "itemId": 7736391,
-      "title": "애플잼  와플",
-      "sourceUrl": "https://place-static.tossplace.com/public/live/PUBLIC/2026-01-05/99c5fb5e-bf0f-4f4c-b501-b239dcd7eeec",
-      "updatedAt": "2026-05-01T03:23:58.824Z"
     },
     "da1e21ee8c0e3def5806f8293b3d87b22c8cbc16075feb21a72a223fa71e1c66": {
       "localPath": "data/tossplace-menu/238090/images/6986480-스텔라-딸기주스-da1e21ee8c.jpg",
@@ -1314,14 +802,6 @@
       "title": "[미스트] 블루라떼",
       "sourceUrl": "https://place-static.tossplace.com/public/live/PUBLIC/2026-02-01/b2512be1-179a-4d79-9d7f-2150a08cb25a",
       "updatedAt": "2026-05-01T03:23:58.826Z"
-    },
-    "c922a0014e1ff8eaa25aa2dd1b82c57875488a86daed8f7d01117c4c6db3b4ca": {
-      "localPath": "data/tossplace-menu/238090/images/7826722-딸기잼-와플-c922a0014e.jpg",
-      "hash": "c922a0014e1ff8eaa25aa2dd1b82c57875488a86daed8f7d01117c4c6db3b4ca",
-      "itemId": 7826722,
-      "title": "딸기잼 와플",
-      "sourceUrl": "https://place-static.tossplace.com/public/live/PUBLIC/2026-01-05/103d083d-526c-4ba8-b994-be47385ed332",
-      "updatedAt": "2026-05-01T03:23:58.827Z"
     },
     "524d2568886d8aae372ac1145e16b5fb777776d2ca92e788e6950c598a9d76d0": {
       "localPath": "data/tossplace-menu/238090/images/6986485-플래미-노을에이드-524d256888.jpg",
@@ -1355,22 +835,6 @@
       "sourceUrl": "https://place-static.tossplace.com/public/live/PUBLIC/2025-11-22/6f49a1f7-d4b5-490f-9bf2-b6d32053c994",
       "updatedAt": "2026-05-01T03:23:58.838Z"
     },
-    "9c9762d20bdbb5ce53117a4fd488cde1f175fa3ba7b878667d7364dae9853915": {
-      "localPath": "data/tossplace-menu/238090/images/9820365-No.1-딸기왕창와플-9c9762d20b.jpg",
-      "hash": "9c9762d20bdbb5ce53117a4fd488cde1f175fa3ba7b878667d7364dae9853915",
-      "itemId": 9820365,
-      "title": "[No.1] 딸기왕창와플",
-      "sourceUrl": "https://place-static.tossplace.com/public/live/PUBLIC/2025-12-21/28f19693-2553-48c8-8469-d2787c0cf901",
-      "updatedAt": "2026-05-01T03:23:58.840Z"
-    },
-    "0d2467dd089fad16e8d3661c657aa363bdf106866bdfd5894cc47ba754550840": {
-      "localPath": "data/tossplace-menu/238090/images/10077936-삿포로-딸기파르페-0d2467dd08.jpg",
-      "hash": "0d2467dd089fad16e8d3661c657aa363bdf106866bdfd5894cc47ba754550840",
-      "itemId": 10077936,
-      "title": "삿포로 딸기파르페",
-      "sourceUrl": "https://place-static.tossplace.com/public/live/PUBLIC/2026-01-04/b7a91033-7774-4d96-b1b1-765df884cdd5",
-      "updatedAt": "2026-05-01T03:23:58.843Z"
-    },
     "bae6d925264ce8eeaa9210b57b615d089703c9218bea5f7003bc036444411b6a": {
       "localPath": "data/tossplace-menu/238090/images/6960804-아메리카노-bae6d92526.jpg",
       "hash": "bae6d925264ce8eeaa9210b57b615d089703c9218bea5f7003bc036444411b6a",
@@ -1387,14 +851,6 @@
       "sourceUrl": "https://place-static.tossplace.com/public/live/PUBLIC/2026-02-01/c355f2aa-5045-470e-9af4-ba6d29d46199",
       "updatedAt": "2026-05-01T03:23:58.849Z"
     },
-    "bdb5e5b2bc4cf3b7b3f5538cd7416829f595f9abc97290a6e669318427231f8f": {
-      "localPath": "data/tossplace-menu/238090/images/6978418-플랫화이트-bdb5e5b2bc.jpg",
-      "hash": "bdb5e5b2bc4cf3b7b3f5538cd7416829f595f9abc97290a6e669318427231f8f",
-      "itemId": 6978418,
-      "title": "플랫화이트",
-      "sourceUrl": "https://place-static.tossplace.com/public/live/PUBLIC/2025-08-23/907579a1-9993-4685-a987-fc41101e1f82",
-      "updatedAt": "2026-05-01T03:23:58.850Z"
-    },
     "54751f3c1a2e8e588efdaab686c214f335c6f8b38d6d6a7b4f8d881f368a2e0a": {
       "localPath": "data/tossplace-menu/238090/images/6986486-루티-제주말차라떼-54751f3c1a.jpg",
       "hash": "54751f3c1a2e8e588efdaab686c214f335c6f8b38d6d6a7b4f8d881f368a2e0a",
@@ -1403,14 +859,6 @@
       "sourceUrl": "https://place-static.tossplace.com/public/live/PUBLIC/2026-02-01/ad8a57d4-735b-41d4-a132-9d77a5ae6bd2",
       "updatedAt": "2026-05-01T03:23:58.882Z"
     },
-    "2067253bb014fe61757f06204e8815048e16436385a5a1f08f65fcdb65cce67d": {
-      "localPath": "data/tossplace-menu/238090/images/7735937-블루베리-크림치즈-와플-2067253bb0.jpg",
-      "hash": "2067253bb014fe61757f06204e8815048e16436385a5a1f08f65fcdb65cce67d",
-      "itemId": 7735937,
-      "title": "블루베리&크림치즈 와플",
-      "sourceUrl": "https://place-static.tossplace.com/public/live/PUBLIC/2026-01-05/309d30f9-fb8d-4759-a6e5-c77ac579ba7b",
-      "updatedAt": "2026-05-01T03:23:58.886Z"
-    },
     "ee9b99ba657009c282c21b7aa2d906e2596d11660d2d0a3317280182c3d515da": {
       "localPath": "data/tossplace-menu/238090/images/6978203-에스프레소-ee9b99ba65.png",
       "hash": "ee9b99ba657009c282c21b7aa2d906e2596d11660d2d0a3317280182c3d515da",
@@ -1418,22 +866,6 @@
       "title": "에스프레소",
       "sourceUrl": "https://place-static.tossplace.com/public/live/PUBLIC/2025-08-23/662d9720-ad5c-4ac4-ae89-c85affe9324c",
       "updatedAt": "2026-05-01T03:23:58.913Z"
-    },
-    "393de909df4b052e253f9a8696e25a9fa39c19f2e2c296268743b7dfb2343ec5": {
-      "localPath": "data/tossplace-menu/238090/images/11912174-레몬-아메리카노-393de909df.jpg",
-      "hash": "393de909df4b052e253f9a8696e25a9fa39c19f2e2c296268743b7dfb2343ec5",
-      "itemId": 11912174,
-      "title": "레몬 아메리카노",
-      "sourceUrl": "https://place-static.tossplace.com/public/live/PUBLIC/2026-04-09/5fd196ce-3be0-445a-a3c8-b64dc0df6d5c",
-      "updatedAt": "2026-05-01T03:23:58.925Z"
-    },
-    "05d2579139fbc073132de7eeca1820c2d69e36a82334ff9359d9c10e0918a8fc": {
-      "localPath": "data/tossplace-menu/238090/images/10683603-시즌-베리베리와플-05d2579139.jpg",
-      "hash": "05d2579139fbc073132de7eeca1820c2d69e36a82334ff9359d9c10e0918a8fc",
-      "itemId": 10683603,
-      "title": "[시즌]베리베리와플",
-      "sourceUrl": "https://place-static.tossplace.com/public/live/PUBLIC/2026-01-31/033d8200-a0e1-4d12-ab50-3d9ff55f8677",
-      "updatedAt": "2026-05-01T03:23:58.926Z"
     },
     "e7d82881d9c3c844c1456db57162c65fcf33b429e1547c5a25ae3b7478c030b5": {
       "localPath": "data/tossplace-menu/238090/images/9018438-상수라떼-e7d82881d9.jpg",
@@ -1467,14 +899,6 @@
       "sourceUrl": "https://place-static.tossplace.com/public/live/PUBLIC/2025-09-20/1ea29fc4-454d-4c42-8fa9-f45d7794b18d",
       "updatedAt": "2026-05-01T03:23:58.959Z"
     },
-    "364a0aac5134975cc78f3e0e59c5459dfc413c954425edb62a50423a7b306abb": {
-      "localPath": "data/tossplace-menu/238090/images/6978481-헤이즐넛라떼-364a0aac51.png",
-      "hash": "364a0aac5134975cc78f3e0e59c5459dfc413c954425edb62a50423a7b306abb",
-      "itemId": 6978481,
-      "title": "헤이즐넛라떼",
-      "sourceUrl": "https://place-static.tossplace.com/public/live/PUBLIC/2025-08-23/366b99bf-6304-447e-9e59-bf43c84a91dc",
-      "updatedAt": "2026-05-01T03:23:58.973Z"
-    },
     "b7b9b7705d2113bb56dd89566662be0c3e06d916cafc214e5ee2d52f4a6f443e": {
       "localPath": "data/tossplace-menu/238090/images/11912204-호지차-라떼-b7b9b7705d.jpg",
       "hash": "b7b9b7705d2113bb56dd89566662be0c3e06d916cafc214e5ee2d52f4a6f443e",
@@ -1483,78 +907,6 @@
       "sourceUrl": "https://place-static.tossplace.com/public/live/PUBLIC/2026-03-25/2b72dfd6-0b4d-4d5f-a33d-23cd8690965e",
       "updatedAt": "2026-05-01T03:23:58.993Z"
     },
-    "1cfebc8f5ea2bbcc84c3d1688a844955ce238ae57f81f4caa5abf8693b8f6c6e": {
-      "localPath": "data/tossplace-menu/238090/images/8191084-크림-밤라떼-1cfebc8f5e.jpg",
-      "hash": "1cfebc8f5ea2bbcc84c3d1688a844955ce238ae57f81f4caa5abf8693b8f6c6e",
-      "itemId": 8191084,
-      "title": "크림 밤라떼",
-      "sourceUrl": "https://place-static.tossplace.com/public/live/PUBLIC/2025-10-19/692b90d7-e4a2-4966-a673-5707b9258ad1",
-      "updatedAt": "2026-05-01T03:23:59.017Z"
-    },
-    "7a0f0cd408850c74ceaa32b3cbc584f7ed7b1da20fad0287fe7a07782a7b3d2a": {
-      "localPath": "data/tossplace-menu/238090/images/6978817-딥초코라떼-7a0f0cd408.png",
-      "hash": "7a0f0cd408850c74ceaa32b3cbc584f7ed7b1da20fad0287fe7a07782a7b3d2a",
-      "itemId": 6978817,
-      "title": "딥초코라떼",
-      "sourceUrl": "https://place-static.tossplace.com/public/live/PUBLIC/2025-08-23/d29c0b2f-5bd2-4c3a-ae32-c382ac071558",
-      "updatedAt": "2026-05-01T03:23:59.033Z"
-    },
-    "89b562874e04926f38bd96786453ffdad5ca40ee0bc46f8779f44f3e2af3016d": {
-      "localPath": "data/tossplace-menu/238090/images/12936713-오렌지-비앙코-89b562874e.jpg",
-      "hash": "89b562874e04926f38bd96786453ffdad5ca40ee0bc46f8779f44f3e2af3016d",
-      "itemId": 12936713,
-      "title": "오렌지 비앙코",
-      "sourceUrl": "https://place-static.tossplace.com/public/live/PUBLIC/2026-04-25/3cb521f8-4864-42e7-b1e3-658692267b22",
-      "updatedAt": "2026-05-01T03:23:59.071Z"
-    },
-    "70bc0ca887e53fd4e7111b906747975881fb827f3e0080e7ff33ee6c60b71a39": {
-      "localPath": "data/tossplace-menu/238090/images/12936816-오렌지-아메리카노-70bc0ca887.jpg",
-      "hash": "70bc0ca887e53fd4e7111b906747975881fb827f3e0080e7ff33ee6c60b71a39",
-      "itemId": 12936816,
-      "title": "오렌지 아메리카노",
-      "sourceUrl": "https://place-static.tossplace.com/public/live/PUBLIC/2026-04-25/c8dc07de-a876-4f43-a47b-483916623336",
-      "updatedAt": "2026-05-01T03:23:59.116Z"
-    },
-    "8ea132bda714a3b84763470f5a35792ce8fda2a85632f2b98d083b2a95ddfcca": {
-      "localPath": "data/tossplace-menu/238090/images/8191069-크림고구마라떼-8ea132bda7.png",
-      "hash": "8ea132bda714a3b84763470f5a35792ce8fda2a85632f2b98d083b2a95ddfcca",
-      "itemId": 8191069,
-      "title": "크림고구마라떼",
-      "sourceUrl": "https://place-static.tossplace.com/public/live/PUBLIC/2025-10-17/1fc4f897-2562-4355-98c7-f9932f8de6d1",
-      "updatedAt": "2026-05-01T03:23:59.120Z"
-    },
-    "2069e13ad8687b1f87013ec4b8349ac772fe141d06c78b770273373093501d00": {
-      "localPath": "data/tossplace-menu/238090/images/6981305-제주말차프라페-2069e13ad8.png",
-      "hash": "2069e13ad8687b1f87013ec4b8349ac772fe141d06c78b770273373093501d00",
-      "itemId": 6981305,
-      "title": "제주말차프라페",
-      "sourceUrl": "https://place-static.tossplace.com/public/live/PUBLIC/2025-08-24/dcc68527-a053-46d1-bbfb-fcced37c9457",
-      "updatedAt": "2026-05-01T03:23:59.129Z"
-    },
-    "4ea55236328b8c2e72f334bb7287636b7654f657fcde6f8d93879e35fca672c6": {
-      "localPath": "data/tossplace-menu/238090/images/6981978-망코인프라페-4ea5523632.jpg",
-      "hash": "4ea55236328b8c2e72f334bb7287636b7654f657fcde6f8d93879e35fca672c6",
-      "itemId": 6981978,
-      "title": "망코인프라페",
-      "sourceUrl": "https://place-static.tossplace.com/public/live/PUBLIC/2025-08-23/0086ad6b-8c1b-4470-9124-00063da99ff9",
-      "updatedAt": "2026-05-01T03:23:59.142Z"
-    },
-    "8041f2af5d968f283976683b823450ac0949f8dd99ba9d95ce579e88185970c7": {
-      "localPath": "data/tossplace-menu/238090/images/6979395-생과일딸기주스-8041f2af5d.png",
-      "hash": "8041f2af5d968f283976683b823450ac0949f8dd99ba9d95ce579e88185970c7",
-      "itemId": 6979395,
-      "title": "생과일딸기주스",
-      "sourceUrl": "https://place-static.tossplace.com/public/live/PUBLIC/2025-08-24/9afa10e1-1139-441d-bbe1-12f7f965c577",
-      "updatedAt": "2026-05-01T03:23:59.152Z"
-    },
-    "8003af12f4755011be02ac67b5767e0549a23b9d96eb94561331d47aafd2fd9e": {
-      "localPath": "data/tossplace-menu/238090/images/6981971-딥초코프라페-8003af12f4.png",
-      "hash": "8003af12f4755011be02ac67b5767e0549a23b9d96eb94561331d47aafd2fd9e",
-      "itemId": 6981971,
-      "title": "딥초코프라페",
-      "sourceUrl": "https://place-static.tossplace.com/public/live/PUBLIC/2025-08-23/2a669799-6b46-4407-821f-5e7b67a98776",
-      "updatedAt": "2026-05-01T03:23:59.154Z"
-    },
     "d6b5a9a22e1230a7b24c77635f7abe4932f3d0efbadfcca5c42231e844514c56": {
       "localPath": "data/tossplace-menu/238090/images/6979166-봄물결-d6b5a9a22e.jpg",
       "hash": "d6b5a9a22e1230a7b24c77635f7abe4932f3d0efbadfcca5c42231e844514c56",
@@ -1562,14 +914,6 @@
       "title": "봄물결",
       "sourceUrl": "https://place-static.tossplace.com/public/live/PUBLIC/2025-08-23/30af44d6-9bc5-42fb-862c-c62985c9ad13",
       "updatedAt": "2026-05-01T03:23:59.170Z"
-    },
-    "f4623284a993d00faed3f20405edb468002bd02c3a4cac57737178aaf4bf2a12": {
-      "localPath": "data/tossplace-menu/238090/images/6978834-딸기라떼-f4623284a9.png",
-      "hash": "f4623284a993d00faed3f20405edb468002bd02c3a4cac57737178aaf4bf2a12",
-      "itemId": 6978834,
-      "title": "딸기라떼",
-      "sourceUrl": "https://place-static.tossplace.com/public/live/PUBLIC/2025-08-23/80e518d6-9038-4f7f-b5bd-4af8c20c8a3b",
-      "updatedAt": "2026-05-01T03:23:59.173Z"
     },
     "e13c447c715888f1f502002a7ae6b03c1a3e00d11e8213353aea893de430cf9e": {
       "localPath": "data/tossplace-menu/238090/images/6979222-루이벨벳-e13c447c71.jpg",
@@ -1585,14 +929,6 @@
       "itemId": 6979241,
       "title": "현월호지",
       "sourceUrl": "https://place-static.tossplace.com/public/live/PUBLIC/2025-08-23/3355a36e-2a57-4af5-8588-7dff824fc7e1",
-      "updatedAt": "2026-05-01T03:23:59.191Z"
-    },
-    "e013077f1db74d3542fee684c60ea6028a3f56b79a1171398e9a5a7610ccbc71": {
-      "localPath": "data/tossplace-menu/238090/images/6997998-땅콩크림라떼-e013077f1d.jpg",
-      "hash": "e013077f1db74d3542fee684c60ea6028a3f56b79a1171398e9a5a7610ccbc71",
-      "itemId": 6997998,
-      "title": "땅콩크림라떼",
-      "sourceUrl": "https://place-static.tossplace.com/public/live/PUBLIC/2025-11-18/e986312f-2199-4c57-904c-b07d84a5992c",
       "updatedAt": "2026-05-01T03:23:59.191Z"
     },
     "c2a0848d6e8fc942320c3221af4d66b535ffbc2fa42287fbd96b07e709fafe6c": {
@@ -1611,30 +947,6 @@
       "sourceUrl": "https://place-static.tossplace.com/public/live/PUBLIC/2025-08-23/a9141e9f-6174-4181-8cf7-22022adc7e77",
       "updatedAt": "2026-05-01T03:23:59.198Z"
     },
-    "8d0a95d1e60f2ad25c091d14bc7e3c5f8cda55996fd71b06746e60d6cc6f551e": {
-      "localPath": "data/tossplace-menu/238090/images/8092522-자몽차-8d0a95d1e6.jpg",
-      "hash": "8d0a95d1e60f2ad25c091d14bc7e3c5f8cda55996fd71b06746e60d6cc6f551e",
-      "itemId": 8092522,
-      "title": "자몽차",
-      "sourceUrl": "https://place-static.tossplace.com/public/live/PUBLIC/2025-10-11/6915588b-aea9-401f-9153-89e75bad6320",
-      "updatedAt": "2026-05-01T03:23:59.200Z"
-    },
-    "758965c122f1093febbae0719c71f5da6e264b4c11201e2dac54363e9de63118": {
-      "localPath": "data/tossplace-menu/238090/images/10084541-레몬마테-758965c122.jpg",
-      "hash": "758965c122f1093febbae0719c71f5da6e264b4c11201e2dac54363e9de63118",
-      "itemId": 10084541,
-      "title": "레몬마테",
-      "sourceUrl": "https://place-static.tossplace.com/public/live/PUBLIC/2026-01-05/69bb14a7-ff0e-400b-8530-62b1f5ef147a",
-      "updatedAt": "2026-05-01T03:23:59.201Z"
-    },
-    "3bbca293e8afb19ad8c75beea60c6cc7f74e5c31ff57c53e327f691081025569": {
-      "localPath": "data/tossplace-menu/238090/images/6999994-아몬드라떼-3bbca293e8.png",
-      "hash": "3bbca293e8afb19ad8c75beea60c6cc7f74e5c31ff57c53e327f691081025569",
-      "itemId": 6999994,
-      "title": "아몬드라떼",
-      "sourceUrl": "https://place-static.tossplace.com/public/live/PUBLIC/2025-08-24/691fb4b2-ae82-441e-987d-3e52e32bf623",
-      "updatedAt": "2026-05-01T03:23:59.205Z"
-    },
     "a3fc0f726fa29afa688eb442843d05e2c18cff72b400c0e201e60312fa998879": {
       "localPath": "data/tossplace-menu/238090/images/12131403-레몬차-a3fc0f726f.jpg",
       "hash": "a3fc0f726fa29afa688eb442843d05e2c18cff72b400c0e201e60312fa998879",
@@ -1642,78 +954,6 @@
       "title": "레몬차",
       "sourceUrl": "https://place-static.tossplace.com/public/live/PUBLIC/2026-04-02/0d5f7d19-cced-42fd-ac05-515c249a7bab",
       "updatedAt": "2026-05-01T03:23:59.209Z"
-    },
-    "e903459c6c3dc837d57fa4231daa5329960817079da40f2e7536f7f4f94e46da": {
-      "localPath": "data/tossplace-menu/238090/images/13135786-누누-망고캐슬-2인-e903459c6c.jpg",
-      "hash": "e903459c6c3dc837d57fa4231daa5329960817079da40f2e7536f7f4f94e46da",
-      "itemId": 13135786,
-      "title": "누누 망고캐슬(2인)",
-      "sourceUrl": "https://place-static.tossplace.com/public/live/PUBLIC/2026-05-01/03cd4361-7f13-4980-8d53-f561f522adc7",
-      "updatedAt": "2026-05-01T03:23:59.212Z"
-    },
-    "12e4b312bdab5741c4ac97828f5f9e7dcaa0dbe0fad8d33137eeca88e37d7023": {
-      "localPath": "data/tossplace-menu/238090/images/10641666-딸기포레누아-12e4b312bd.jpg",
-      "hash": "12e4b312bdab5741c4ac97828f5f9e7dcaa0dbe0fad8d33137eeca88e37d7023",
-      "itemId": 10641666,
-      "title": "딸기포레누아",
-      "sourceUrl": "https://place-static.tossplace.com/public/live/PUBLIC/2026-04-09/908a0029-e9d8-420f-84eb-5b5c1fccf695",
-      "updatedAt": "2026-05-01T03:23:59.216Z"
-    },
-    "2345af4b89b8de6ff25e828d90f74ade7241ff1fe27d46541ca6fe65472f7664": {
-      "localPath": "data/tossplace-menu/238090/images/10197088-교토말차쇼콜라-2345af4b89.jpg",
-      "hash": "2345af4b89b8de6ff25e828d90f74ade7241ff1fe27d46541ca6fe65472f7664",
-      "itemId": 10197088,
-      "title": "교토말차쇼콜라",
-      "sourceUrl": "https://place-static.tossplace.com/public/live/PUBLIC/2026-01-10/2d3f6ee6-32c0-4606-89a8-30c8e355253a",
-      "updatedAt": "2026-05-01T03:23:59.218Z"
-    },
-    "409f46f66d350411b3f9f8fce7c7a4316f28d5391b3a0da777f5a5ac43e80489": {
-      "localPath": "data/tossplace-menu/238090/images/10842350-얼그레이-무화과-409f46f66d.jpg",
-      "hash": "409f46f66d350411b3f9f8fce7c7a4316f28d5391b3a0da777f5a5ac43e80489",
-      "itemId": 10842350,
-      "title": "얼그레이 무화과",
-      "sourceUrl": "https://place-static.tossplace.com/public/live/PUBLIC/2026-02-07/8852e284-04b4-4f5f-84ad-625c84f6f021",
-      "updatedAt": "2026-05-01T03:23:59.219Z"
-    },
-    "0622bb516a998365cbee792cfce659ead0377d3aa9f3bf5209efec4c9f23e654": {
-      "localPath": "data/tossplace-menu/238090/images/10192464-초콜릿로쉐케익-0622bb516a.jpg",
-      "hash": "0622bb516a998365cbee792cfce659ead0377d3aa9f3bf5209efec4c9f23e654",
-      "itemId": 10192464,
-      "title": "초콜릿로쉐케익",
-      "sourceUrl": "https://place-static.tossplace.com/public/live/PUBLIC/2026-01-10/600646e8-b9a9-4a75-8c63-cf1024a73bbd",
-      "updatedAt": "2026-05-01T03:23:59.222Z"
-    },
-    "0159237948de7b98952b34f020e86979fbf7a93082d55535f45e1e3c79170963": {
-      "localPath": "data/tossplace-menu/238090/images/12451098-슈크림케이크-0159237948.jpg",
-      "hash": "0159237948de7b98952b34f020e86979fbf7a93082d55535f45e1e3c79170963",
-      "itemId": 12451098,
-      "title": "슈크림케이크",
-      "sourceUrl": "https://place-static.tossplace.com/public/live/PUBLIC/2026-04-11/225fe498-e18e-41b7-a18c-0ae0a1589e6e",
-      "updatedAt": "2026-05-01T03:23:59.223Z"
-    },
-    "72ffb4e4d58872b8311947848722a5621b3693e9be4e1f1670316ca5e0592a33": {
-      "localPath": "data/tossplace-menu/238090/images/11352437-레몬구름-토르테-72ffb4e4d5.jpg",
-      "hash": "72ffb4e4d58872b8311947848722a5621b3693e9be4e1f1670316ca5e0592a33",
-      "itemId": 11352437,
-      "title": "레몬구름 토르테",
-      "sourceUrl": "https://place-static.tossplace.com/public/live/PUBLIC/2026-03-05/6aa6454e-ccf2-4f56-8187-43e189d284d0",
-      "updatedAt": "2026-05-01T03:23:59.228Z"
-    },
-    "0ecc751e3bbafa33cccab2e52ffe2a771bbf94c29045ad27918634c7a313c616": {
-      "localPath": "data/tossplace-menu/238090/images/12440627-버터떡-4개-세트-0ecc751e3b.jpg",
-      "hash": "0ecc751e3bbafa33cccab2e52ffe2a771bbf94c29045ad27918634c7a313c616",
-      "itemId": 12440627,
-      "title": "버터떡 (4개 세트)",
-      "sourceUrl": "https://place-static.tossplace.com/public/live/PUBLIC/2026-04-10/aeede396-caf9-4910-b284-669aca6263a5",
-      "updatedAt": "2026-05-01T03:23:59.232Z"
-    },
-    "8a42d2a9c02869cc086b8f4eee953e251cd0253cc3bdf2a456b6bf85ec4ef7ed": {
-      "localPath": "data/tossplace-menu/238090/images/11622362-딸기-그래놀라-쫀득쿠키-8a42d2a9c0.jpg",
-      "hash": "8a42d2a9c02869cc086b8f4eee953e251cd0253cc3bdf2a456b6bf85ec4ef7ed",
-      "itemId": 11622362,
-      "title": "딸기  그래놀라 쫀득쿠키",
-      "sourceUrl": "https://place-static.tossplace.com/public/live/PUBLIC/2026-03-14/b21d3cfb-795d-4d71-998a-8e839aad2609",
-      "updatedAt": "2026-05-01T03:23:59.238Z"
     },
     "8ae83ded46ea1c86e242e363810d5c8537cc2bcf6de2268d853616770c3bf6c4": {
       "localPath": "data/tossplace-menu/238090/images/10652155-케이크-초-8ae83ded46.jpg",
@@ -1827,14 +1067,6 @@
       "sourceUrl": "https://place-static.tossplace.com/public/live/PUBLIC/2025-11-13/110e9467-f811-4fe1-b744-316e02b45c2e",
       "updatedAt": "2026-05-01T03:23:59.353Z"
     },
-    "85c4b26062df926daa1fc2928e8d85069c21305c256694fa4ac9839ba4fcd648": {
-      "localPath": "data/tossplace-menu/238090/images/6979380-키위에이드-85c4b26062.png",
-      "hash": "85c4b26062df926daa1fc2928e8d85069c21305c256694fa4ac9839ba4fcd648",
-      "itemId": 6979380,
-      "title": "키위에이드",
-      "sourceUrl": "https://place-static.tossplace.com/public/live/PUBLIC/2025-08-23/e4c77254-e71c-472a-bc59-b84eab1af3c0",
-      "updatedAt": "2026-05-01T03:23:59.361Z"
-    },
     "c701abbf20622f9ba9ded8b04d249268ab1cc7df1a3a77820e5662631aeac2a3": {
       "localPath": "data/tossplace-menu/238090/images/6982172-에비앙-생수-c701abbf20.jpg",
       "hash": "c701abbf20622f9ba9ded8b04d249268ab1cc7df1a3a77820e5662631aeac2a3",
@@ -1883,30 +1115,6 @@
       "sourceUrl": "https://place-static.tossplace.com/public/live/PUBLIC/2026-05-01/c08e2265-4057-4f8e-9774-d638d57ba315",
       "updatedAt": "2026-05-01T11:08:52.435Z"
     },
-    "99e6d8113305bcabbb3512590bb83a6ca07eab7fda7e9d13d63c9c0febf52d87": {
-      "localPath": "data/tossplace-menu/238090/images/12986704-귀여운클루미-망고캐슬-1인-99e6d81133.jpg",
-      "hash": "99e6d8113305bcabbb3512590bb83a6ca07eab7fda7e9d13d63c9c0febf52d87",
-      "itemId": 12986704,
-      "title": "[귀여운클루미] 망고캐슬(1인)",
-      "sourceUrl": "https://place-static.tossplace.com/public/live/PUBLIC/2026-05-01/d77f498a-b9b2-4181-8868-30c4b82301a0",
-      "updatedAt": "2026-05-01T11:08:52.469Z"
-    },
-    "ed83c64e0d0fe64c00f74ae0016eba9db48ef3d3d30661f06d0cf83a9e32f4e4": {
-      "localPath": "data/tossplace-menu/238090/images/13137641-New-반하나-와플-ed83c64e0d.jpg",
-      "hash": "ed83c64e0d0fe64c00f74ae0016eba9db48ef3d3d30661f06d0cf83a9e32f4e4",
-      "itemId": 13137641,
-      "title": "[New]반하나 와플",
-      "sourceUrl": "https://place-static.tossplace.com/public/live/PUBLIC/2026-05-01/6caa0266-dff8-4182-ad90-f77c809d6115",
-      "updatedAt": "2026-05-01T11:08:52.492Z"
-    },
-    "a2bcc17da97ef562c9adf51a14a7ef1490f16efaf45ccc9a518d5e5faf1eb66e": {
-      "localPath": "data/tossplace-menu/238090/images/13135786-클루미-누누-망고캐슬-2인-a2bcc17da9.jpg",
-      "hash": "a2bcc17da97ef562c9adf51a14a7ef1490f16efaf45ccc9a518d5e5faf1eb66e",
-      "itemId": 13135786,
-      "title": "[클루미&누누]망고캐슬(2인)",
-      "sourceUrl": "https://place-static.tossplace.com/public/live/PUBLIC/2026-05-01/518c647b-41eb-403a-83dd-591dd3842bc5",
-      "updatedAt": "2026-05-01T11:08:52.496Z"
-    },
     "2f5de2df2e4dd3b9ccd47dc8041f70376ca239ea3a8351f7cf16360af832e720": {
       "localPath": "data/tossplace-menu/238090/images/14267200-땅콩크림라떼-2f5de2df2e.jpg",
       "hash": "2f5de2df2e4dd3b9ccd47dc8041f70376ca239ea3a8351f7cf16360af832e720",
@@ -1915,14 +1123,6 @@
       "sourceUrl": "https://place-static.tossplace.com/public/live/PUBLIC/2026-06-06/f11c61fb-eed5-415b-ac44-69ebe82ef588",
       "updatedAt": "2026-07-21T02:45:02.439Z"
     },
-    "5fc1c84123246819d007edc62d7df8dbd829350a219a8796abc73a029b17345b": {
-      "localPath": "data/tossplace-menu/238090/images/13540786-딸기-포레누아-5fc1c84123.jpg",
-      "hash": "5fc1c84123246819d007edc62d7df8dbd829350a219a8796abc73a029b17345b",
-      "itemId": 13540786,
-      "title": "딸기 포레누아",
-      "sourceUrl": "https://place-static.tossplace.com/public/live/PUBLIC/2026-07-18/b86e446d-8130-403c-a4a8-d4ec088e243e",
-      "updatedAt": "2026-07-21T02:45:02.440Z"
-    },
     "87f8a2942f2b5a6231dcf3474d72da5a0a7ddb0f9fcc603bdca0a39d9a4f5a0d": {
       "localPath": "data/tossplace-menu/238090/images/10683603-피스타치오-초코-반하나-와플-87f8a2942f.jpg",
       "hash": "87f8a2942f2b5a6231dcf3474d72da5a0a7ddb0f9fcc603bdca0a39d9a4f5a0d",
@@ -1930,14 +1130,6 @@
       "title": "[피스타치오] 초코 반하나 와플",
       "sourceUrl": "https://place-static.tossplace.com/public/live/PUBLIC/2026-05-09/59d70125-6af4-4c19-a4c7-31c8f4d0eb00",
       "updatedAt": "2026-07-21T02:45:02.456Z"
-    },
-    "f4ff32c77d1ab137bb2354ec5bdaeab20e114bc6c6275fe946882907e91d9579": {
-      "localPath": "data/tossplace-menu/238090/images/10077936-망고-도깨비-2인-f4ff32c77d.jpg",
-      "hash": "f4ff32c77d1ab137bb2354ec5bdaeab20e114bc6c6275fe946882907e91d9579",
-      "itemId": 10077936,
-      "title": "망고 도깨비 (2인)",
-      "sourceUrl": "https://place-static.tossplace.com/public/live/PUBLIC/2026-07-18/4c5d0714-f923-4343-8e9b-4204dd43ccb4",
-      "updatedAt": "2026-07-21T02:45:02.513Z"
     },
     "a66b07d481ac0818167c513615f116e7f03da94f2358e3c195f5a2a7c00fee8f": {
       "localPath": "data/tossplace-menu/238090/images/11912174-레몬-아메리카노-a66b07d481.jpg",
@@ -1954,14 +1146,6 @@
       "title": "오렌지 비앙코",
       "sourceUrl": "https://place-static.tossplace.com/public/live/PUBLIC/2026-06-06/2beb303a-c1f9-4dae-9725-b1d35a62317e",
       "updatedAt": "2026-07-21T02:45:03.146Z"
-    },
-    "a0bf52ee2f95df60f753e56e5e51ae7a1102b4c42bf9b44125b02dcca8568213": {
-      "localPath": "data/tossplace-menu/238090/images/10641666-딸기포레누아-a0bf52ee2f.jpg",
-      "hash": "a0bf52ee2f95df60f753e56e5e51ae7a1102b4c42bf9b44125b02dcca8568213",
-      "itemId": 10641666,
-      "title": "딸기포레누아",
-      "sourceUrl": "https://place-static.tossplace.com/public/live/PUBLIC/2026-05-13/8a453da7-a2f8-4d0d-bf0d-73ce0bbcbf3e",
-      "updatedAt": "2026-07-21T02:45:03.501Z"
     },
     "0f5f5e5bf2263c6d32c3cf25d28b16a234dd70a0ccd3b2088184f007f50fbc48": {
       "localPath": "data/tossplace-menu/238090/images/10842350-얼그레이-무화과-0f5f5e5bf2.jpg",
@@ -2019,14 +1203,6 @@
       "sourceUrl": "https://place-static.tossplace.com/public/live/PUBLIC/2026-05-16/7284ea54-7229-44a7-a769-e18751b9fc12",
       "updatedAt": "2026-07-21T02:45:04.461Z"
     },
-    "26bda87d18950930ecbce7742e0c5e547fb3ca2d6817c03b27bad09e035c19ed": {
-      "localPath": "data/tossplace-menu/238090/images/12986704-망고도깨비-1인-26bda87d18.jpg",
-      "hash": "26bda87d18950930ecbce7742e0c5e547fb3ca2d6817c03b27bad09e035c19ed",
-      "itemId": 12986704,
-      "title": "망고도깨비(1인)",
-      "sourceUrl": "https://place-static.tossplace.com/public/live/PUBLIC/2026-05-13/eac52ca4-f28b-4dac-8ae2-573d8ec91376",
-      "updatedAt": "2026-07-21T02:45:04.703Z"
-    },
     "91f4fb1163526883c3b14cc0b7562e34b9fbacaeab106d11b8fd3dd10f42e878": {
       "localPath": "data/tossplace-menu/238090/images/13734740-청포도에이드-91f4fb1163.jpg",
       "hash": "91f4fb1163526883c3b14cc0b7562e34b9fbacaeab106d11b8fd3dd10f42e878",
@@ -2034,14 +1210,6 @@
       "title": "청포도에이드",
       "sourceUrl": "https://place-static.tossplace.com/public/live/PUBLIC/2026-05-21/4cf9bc9b-f371-4877-abf2-d036187bd6bc",
       "updatedAt": "2026-07-21T02:45:04.765Z"
-    },
-    "97216e9a5a559c0e32a2172e5e3671e97a2644084c83192638673c0e01722445": {
-      "localPath": "data/tossplace-menu/238090/images/7411076-삿포로초코파르페-97216e9a5a.png",
-      "hash": "97216e9a5a559c0e32a2172e5e3671e97a2644084c83192638673c0e01722445",
-      "itemId": 7411076,
-      "title": "삿포로초코파르페",
-      "sourceUrl": "https://place-static.tossplace.com/public/live/PUBLIC/2025-09-12/54524f4a-17f1-47a6-9889-91b712a3898f",
-      "updatedAt": "2026-07-21T02:45:05.073Z"
     },
     "17954271198c05fedd3d4a176b730718dd0085c632ed10ca45f9d604901331ad": {
       "localPath": "data/tossplace-menu/238090/images/7735910-저당-메이플-시나몬-와플-1795427119.jpg",
@@ -2099,22 +1267,6 @@
       "sourceUrl": "https://place-static.tossplace.com/public/live/PUBLIC/2026-07-24/2a3becfa-b55b-4ba3-a52e-43862b5cfee1",
       "updatedAt": "2026-08-20T21:16:02.882Z"
     },
-    "b3ed4a325c89adca4955d0b412e4d1a587a8b4c26d1f7f083fe6291e411abc7f": {
-      "localPath": "data/tossplace-menu/238090/images/15684896-밀크팥빙수-한-컵-b3ed4a325c.jpg",
-      "hash": "b3ed4a325c89adca4955d0b412e4d1a587a8b4c26d1f7f083fe6291e411abc7f",
-      "itemId": 15684896,
-      "title": "밀크팥빙수 한 컵",
-      "sourceUrl": "https://place-static.tossplace.com/public/live/PUBLIC/2026-07-25/ac05e794-719d-4438-9c38-1798491acffd",
-      "updatedAt": "2026-08-20T21:16:02.894Z"
-    },
-    "69d37ad4fdba4e7d9acf34a2b2e2e4eda5782ee7eb0b1635c4f6dabba2641b70": {
-      "localPath": "data/tossplace-menu/238090/images/15684885-애플망고-한-컵-69d37ad4fd.jpg",
-      "hash": "69d37ad4fdba4e7d9acf34a2b2e2e4eda5782ee7eb0b1635c4f6dabba2641b70",
-      "itemId": 15684885,
-      "title": "애플망고 한 컵",
-      "sourceUrl": "https://place-static.tossplace.com/public/live/PUBLIC/2026-07-25/859a2217-7c60-464a-bac3-d6c5ecfdd597",
-      "updatedAt": "2026-08-20T21:16:03.205Z"
-    },
     "9d28d3d031d728cd946817c735c6dd9ba1693b50a7c16e5636b47a33b131f455": {
       "localPath": "data/tossplace-menu/238090/images/10197088-교토말차쇼콜라-9d28d3d031.jpg",
       "hash": "9d28d3d031d728cd946817c735c6dd9ba1693b50a7c16e5636b47a33b131f455",
@@ -2122,14 +1274,6 @@
       "title": "교토말차쇼콜라",
       "sourceUrl": "https://place-static.tossplace.com/public/live/PUBLIC/2026-05-12/5058ffa0-185b-446a-a2b0-8f8701d1ca87",
       "updatedAt": "2026-08-20T21:16:03.575Z"
-    },
-    "b87b32ee1fe8cd16e8ead9a25282d6d33a836b0f686257341f9fbc057a6bd2a9": {
-      "localPath": "data/tossplace-menu/238090/images/11352437-레몬구름-토르테-b87b32ee1f.jpg",
-      "hash": "b87b32ee1fe8cd16e8ead9a25282d6d33a836b0f686257341f9fbc057a6bd2a9",
-      "itemId": 11352437,
-      "title": "레몬구름 토르테",
-      "sourceUrl": "https://place-static.tossplace.com/public/live/PUBLIC/2026-05-12/bdaaa36b-6c45-44f2-b3b5-b20a15bdec04",
-      "updatedAt": "2026-08-20T21:16:03.619Z"
     },
     "5c0eb416f12c31a2270dff556cd595c5088501ffb03a028c07058a291f5c2a67": {
       "localPath": "data/tossplace-menu/238090/images/16385006-진한-치즈-케이크-5c0eb416f1.jpg",
@@ -2344,14 +1488,14 @@
       "updatedAt": "2026-09-01T22:52:17.089Z"
     },
     "6979395": {
-      "fingerprint": "ca8b9629e4b89cec0955f16b1cff4de6bb2e4f61b90c6bb041578d8759cfee05",
+      "fingerprint": "a5f7b855c4eafe7efa4f4602075c5f5f89dbedb9c18205fb9a15643a95549b59",
       "title": "[100%]딸기주스",
       "description": "100% 딸기가 전하는 순수한 맛:\n오직 신선한 제철 딸기만을 아낌없이 갈아 넣어, 첨가물 없이도 딸기 본연의 달콤하고 상큼한 맛을 완벽하게 즐길 수 있습니다. 한 모금 마실 때마다 입안 가득 퍼지는 신선한 딸기 향을 느껴보세요.",
       "imageUrl": "https://place-static.tossplace.com/public/live/PUBLIC/2026-05-16/ac9448af-48d7-457d-b7dd-dffe70077851",
       "imageLocalPath": "data/tossplace-menu/238090/images/6979395-100-딸기주스-759a10f7aa.jpg",
       "imageHash": "759a10f7aac596cc29851495f75b6e5f1f036cea4ec249ca3b8a257b1baac2fc",
       "firstSeenAt": "2026-07-21T04:15:20.254Z",
-      "updatedAt": "2026-07-21T21:51:17.143Z"
+      "updatedAt": "2026-09-19T22:32:44.862Z"
     },
     "6981978": {
       "fingerprint": "5fb25a977be9834e3a05e107a83d4c5a28fa4ec7513bafbb010847e6f34ca830",
@@ -2983,26 +2127,6 @@
       "firstSeenAt": "2026-08-20T21:16:07.047Z",
       "updatedAt": "2026-09-18T12:03:41.506Z"
     },
-    "15684844": {
-      "fingerprint": "0cd51e72965622d685a054f7225aec7ebd30e06227112a3bec37fcaea9d8fd7e",
-      "title": "[시즌] 밀크팥빙수 한 컵",
-      "description": "국내산 팥과 우유 얼음으로 만든 클래식 빙수.\n부드러운 우유 얼음 위에 풍성한 팥, 진한 바닐라 아이스크림, 달콤한 연유, 쫀득한 찰떡, 바삭한 그래놀라를 더한 한 컵 빙수.",
-      "imageUrl": "https://place-static.tossplace.com/public/live/PUBLIC/2026-07-25/e39c0bca-aaa7-455d-8275-b99363caaa45",
-      "imageLocalPath": "data/tossplace-menu/238090/images/15684896-밀크팥빙수-한-컵-b3ed4a325c.jpg",
-      "imageHash": "b3ed4a325c89adca4955d0b412e4d1a587a8b4c26d1f7f083fe6291e411abc7f",
-      "firstSeenAt": "2026-08-20T21:16:07.047Z",
-      "updatedAt": "2026-09-12T22:41:01.782Z"
-    },
-    "15684885": {
-      "fingerprint": "20ac2f6a3ab3a5c783f10e3dc1b27da4693803ae9b6bd308479eafd25f283574",
-      "title": "애플망고 한 컵",
-      "description": "달콤한 망고를 듬뿍 담았습니다.\n애플망고와 진한 초코 아이스크림, 망고 샤베트, 바삭한 그래놀라, 고소한 치즈 큐브가 어우러진 시원한 디저트.",
-      "imageUrl": "https://place-static.tossplace.com/public/live/PUBLIC/2026-07-25/859a2217-7c60-464a-bac3-d6c5ecfdd597",
-      "imageLocalPath": "data/tossplace-menu/238090/images/15684885-애플망고-한-컵-69d37ad4fd.jpg",
-      "imageHash": "69d37ad4fdba4e7d9acf34a2b2e2e4eda5782ee7eb0b1635c4f6dabba2641b70",
-      "firstSeenAt": "2026-08-20T21:16:07.047Z",
-      "updatedAt": "2026-09-18T12:03:41.506Z"
-    },
     "15684889": {
       "fingerprint": "7588f81f26dd44fdf8c5c58ec36b06b9bb2910132d395fbdffb34e255372fa46",
       "title": "복숭아 한 컵",
@@ -3065,20 +2189,6 @@
     }
   },
   "runs": [
-    {
-      "at": "2026-07-21T04:15:20.254Z",
-      "summary": {
-        "total": 92,
-        "added": 0,
-        "changed": 0,
-        "unchanged": 92,
-        "removed": 0
-      },
-      "imageSummary": {
-        "skipped-existing-url": 90,
-        "missing": 2
-      }
-    },
     {
       "at": "2026-07-21T21:51:17.143Z",
       "summary": {
@@ -3358,7 +2468,22 @@
         "missing": 1,
         "failed-http-timeout": 1
       }
+    },
+    {
+      "at": "2026-09-19T22:32:44.862Z",
+      "summary": {
+        "total": 87,
+        "added": 0,
+        "changed": 1,
+        "unchanged": 86,
+        "removed": 2
+      },
+      "imageSummary": {
+        "skipped-existing-url": 85,
+        "missing": 1,
+        "failed-http-timeout": 1
+      }
     }
   ],
-  "lastRunAt": "2026-09-18T12:03:41.506Z"
+  "lastRunAt": "2026-09-19T22:32:44.862Z"
 }
