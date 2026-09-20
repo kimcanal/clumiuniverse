@@ -505,14 +505,6 @@
       "sourceUrl": "https://place-static.tossplace.com/public/live/PUBLIC/2026-06-06/f4281e0f-51c0-42d6-9bec-82c7ecef3d45",
       "updatedAt": "2026-07-21T02:45:03.224Z"
     },
-    "https://place-static.tossplace.com/public/live/PUBLIC/2026-05-12/965186ba-98fb-4c6b-bdd7-15c905728f22": {
-      "localPath": "data/tossplace-menu/238090/images/10842350-얼그레이-무화과-0f5f5e5bf2.jpg",
-      "hash": "0f5f5e5bf2263c6d32c3cf25d28b16a234dd70a0ccd3b2088184f007f50fbc48",
-      "itemId": 10842350,
-      "title": "얼그레이 무화과",
-      "sourceUrl": "https://place-static.tossplace.com/public/live/PUBLIC/2026-05-12/965186ba-98fb-4c6b-bdd7-15c905728f22",
-      "updatedAt": "2026-07-21T02:45:03.743Z"
-    },
     "https://place-static.tossplace.com/public/live/PUBLIC/2026-05-16/40311155-f618-45b7-942f-82a7541e923b": {
       "localPath": "data/tossplace-menu/238090/images/13579307-코코넛커피-스무디-4f6638006a.jpg",
       "hash": "4f6638006a94e33f1c9df614b5bacad1ca84283cb3809ee274b38d69c34e68ee",
@@ -680,14 +672,6 @@
       "title": "딸기라떼",
       "sourceUrl": "https://place-static.tossplace.com/public/live/PUBLIC/2026-08-29/5ba6752a-bc8c-461e-bca6-1dcc3e0026b4",
       "updatedAt": "2026-08-29T22:52:00.542Z"
-    },
-    "https://place-static.tossplace.com/public/live/PUBLIC/2026-09-12/9a2366aa-76e5-47c0-b976-35c05f5b08d4": {
-      "localPath": "data/tossplace-menu/238090/images/17098517-클루미-당근케이크-1d9744db1a.jpg",
-      "hash": "1d9744db1a7e6be251ef0ae9ff7b66a98042695bea2c5ecfa33d869545b78f96",
-      "itemId": 17098517,
-      "title": "클루미 당근케이크",
-      "sourceUrl": "https://place-static.tossplace.com/public/live/PUBLIC/2026-09-12/9a2366aa-76e5-47c0-b976-35c05f5b08d4",
-      "updatedAt": "2026-09-12T22:40:58.511Z"
     }
   },
   "imagesByHash": {
@@ -1147,14 +1131,6 @@
       "sourceUrl": "https://place-static.tossplace.com/public/live/PUBLIC/2026-06-06/2beb303a-c1f9-4dae-9725-b1d35a62317e",
       "updatedAt": "2026-07-21T02:45:03.146Z"
     },
-    "0f5f5e5bf2263c6d32c3cf25d28b16a234dd70a0ccd3b2088184f007f50fbc48": {
-      "localPath": "data/tossplace-menu/238090/images/10842350-얼그레이-무화과-0f5f5e5bf2.jpg",
-      "hash": "0f5f5e5bf2263c6d32c3cf25d28b16a234dd70a0ccd3b2088184f007f50fbc48",
-      "itemId": 10842350,
-      "title": "얼그레이 무화과",
-      "sourceUrl": "https://place-static.tossplace.com/public/live/PUBLIC/2026-05-12/965186ba-98fb-4c6b-bdd7-15c905728f22",
-      "updatedAt": "2026-07-21T02:45:03.743Z"
-    },
     "4f6638006a94e33f1c9df614b5bacad1ca84283cb3809ee274b38d69c34e68ee": {
       "localPath": "data/tossplace-menu/238090/images/13579307-코코넛커피-스무디-4f6638006a.jpg",
       "hash": "4f6638006a94e33f1c9df614b5bacad1ca84283cb3809ee274b38d69c34e68ee",
@@ -1306,14 +1282,6 @@
       "title": "딸기라떼",
       "sourceUrl": "https://place-static.tossplace.com/public/live/PUBLIC/2026-08-29/5ba6752a-bc8c-461e-bca6-1dcc3e0026b4",
       "updatedAt": "2026-08-29T22:52:00.542Z"
-    },
-    "1d9744db1a7e6be251ef0ae9ff7b66a98042695bea2c5ecfa33d869545b78f96": {
-      "localPath": "data/tossplace-menu/238090/images/17098517-클루미-당근케이크-1d9744db1a.jpg",
-      "hash": "1d9744db1a7e6be251ef0ae9ff7b66a98042695bea2c5ecfa33d869545b78f96",
-      "itemId": 17098517,
-      "title": "클루미 당근케이크",
-      "sourceUrl": "https://place-static.tossplace.com/public/live/PUBLIC/2026-09-12/9a2366aa-76e5-47c0-b976-35c05f5b08d4",
-      "updatedAt": "2026-09-12T22:40:58.511Z"
     }
   },
   "itemsById": {
@@ -1897,16 +1865,6 @@
       "firstSeenAt": "2026-07-21T04:15:20.254Z",
       "updatedAt": "2026-08-20T21:16:07.047Z"
     },
-    "10842350": {
-      "fingerprint": "bea39c24cc19ba3c58b4451ef946ea31b50d59ded39af8c64c570ad057cccc31",
-      "title": "얼그레이 무화과",
-      "description": "달콤한 무화과가 듬뿍 들어간 고소한 시트 위에,\n향긋한 얼그레이 크림을 올린 부드러운 케이크 ☕🍰",
-      "imageUrl": "https://place-static.tossplace.com/public/live/PUBLIC/2026-05-12/965186ba-98fb-4c6b-bdd7-15c905728f22",
-      "imageLocalPath": "data/tossplace-menu/238090/images/10842350-얼그레이-무화과-0f5f5e5bf2.jpg",
-      "imageHash": "0f5f5e5bf2263c6d32c3cf25d28b16a234dd70a0ccd3b2088184f007f50fbc48",
-      "firstSeenAt": "2026-07-21T04:15:20.254Z",
-      "updatedAt": "2026-09-18T12:03:41.506Z"
-    },
     "10983319": {
       "fingerprint": "65feb9bfe9146ff94ac4d68cfd30046fa3ad0435b262748c535c30d274431c84",
       "title": "[브런치]오렌지주스",
@@ -2176,33 +2134,9 @@
       "imageHash": "2e771f0a3b85add8606b6bd0c287c10131989b4ca290fab570d753b2ba95c9bb",
       "firstSeenAt": "2026-08-25T21:15:22.454Z",
       "updatedAt": "2026-09-18T12:03:41.506Z"
-    },
-    "17098517": {
-      "fingerprint": "cce6cb8aa0db3b565440f6d3663dfa64c99a10cf4957e2210c93b385f94f5231",
-      "title": "클루미 당근케이크",
-      "description": "진한 치즈 크림과 호두가 가득한 클래식 스타일 당근케이크",
-      "imageUrl": "https://place-static.tossplace.com/public/live/PUBLIC/2026-09-12/9a2366aa-76e5-47c0-b976-35c05f5b08d4",
-      "imageLocalPath": "data/tossplace-menu/238090/images/17098517-클루미-당근케이크-1d9744db1a.jpg",
-      "imageHash": "1d9744db1a7e6be251ef0ae9ff7b66a98042695bea2c5ecfa33d869545b78f96",
-      "firstSeenAt": "2026-09-12T22:41:01.782Z",
-      "updatedAt": "2026-09-12T22:41:01.782Z"
     }
   },
   "runs": [
-    {
-      "at": "2026-07-21T21:51:17.143Z",
-      "summary": {
-        "total": 92,
-        "added": 0,
-        "changed": 1,
-        "unchanged": 91,
-        "removed": 0
-      },
-      "imageSummary": {
-        "skipped-existing-url": 90,
-        "missing": 2
-      }
-    },
     {
       "at": "2026-07-23T21:53:25.922Z",
       "summary": {
@@ -2483,7 +2417,22 @@
         "missing": 1,
         "failed-http-timeout": 1
       }
+    },
+    {
+      "at": "2026-09-20T22:45:33.264Z",
+      "summary": {
+        "total": 85,
+        "added": 0,
+        "changed": 0,
+        "unchanged": 85,
+        "removed": 2
+      },
+      "imageSummary": {
+        "skipped-existing-url": 83,
+        "missing": 1,
+        "failed-http-timeout": 1
+      }
     }
   ],
-  "lastRunAt": "2026-09-19T22:32:44.862Z"
+  "lastRunAt": "2026-09-20T22:45:33.264Z"
 }

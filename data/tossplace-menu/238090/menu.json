@@ -2,16 +2,16 @@
   "merchantId": 238090,
   "merchantName": "클루미 유니버스",
   "merchantStatus": "OPEN",
-  "fetchedAt": "2026-09-19T22:32:44.862Z",
+  "fetchedAt": "2026-09-20T22:45:33.264Z",
   "summary": {
-    "total": 87,
+    "total": 85,
     "added": 0,
-    "changed": 1,
-    "unchanged": 86,
+    "changed": 0,
+    "unchanged": 85,
     "removed": 2
   },
   "imageSummary": {
-    "skipped-existing-url": 85,
+    "skipped-existing-url": 83,
     "missing": 1,
     "failed-http-timeout": 1
   },
@@ -4955,47 +4955,6 @@
       "imageStatus": "skipped-existing-url"
     },
     {
-      "id": 10842350,
-      "categoryId": 985967,
-      "categoryTitle": "디저트",
-      "categoryTitleEn": "Dessert",
-      "position": 3,
-      "title": "얼그레이 무화과",
-      "titleEn": "Earl Grey Fig",
-      "description": "달콤한 무화과가 듬뿍 들어간 고소한 시트 위에,\n향긋한 얼그레이 크림을 올린 부드러운 케이크 ☕🍰",
-      "descriptionEn": "A soft cake layered with nutty sponge filled with sweet figs, topped with fragrant Earl Grey cream ☕🍰",
-      "state": "ON_SALE",
-      "priceValue": 10900,
-      "priceTitle": "기본",
-      "imageUrl": "https://place-static.tossplace.com/public/live/PUBLIC/2026-05-12/965186ba-98fb-4c6b-bdd7-15c905728f22",
-      "labels": [
-        "인기"
-      ],
-      "optionSets": [
-        {
-          "id": 377185,
-          "title": "하트 초",
-          "titleEn": "Heart Candle ",
-          "required": false,
-          "minChoices": 0,
-          "maxChoices": 1,
-          "choices": [
-            {
-              "id": 1168613,
-              "title": "하트 초",
-              "titleEn": "Heart Candle ",
-              "priceValue": 1500,
-              "state": "ON_SALE"
-            }
-          ]
-        }
-      ],
-      "fingerprint": "bea39c24cc19ba3c58b4451ef946ea31b50d59ded39af8c64c570ad057cccc31",
-      "imageLocalPath": "data/tossplace-menu/238090/images/10842350-얼그레이-무화과-0f5f5e5bf2.jpg",
-      "imageHash": "0f5f5e5bf2263c6d32c3cf25d28b16a234dd70a0ccd3b2088184f007f50fbc48",
-      "imageStatus": "skipped-existing-url"
-    },
-    {
       "id": 10192464,
       "categoryId": 985967,
       "categoryTitle": "디저트",
@@ -5099,27 +5058,6 @@
       "fingerprint": "ba13d7a087f00c28f97821f52e50e1d2aeabbd34ef9b6c4d1bdfbd67b94db63d",
       "imageLocalPath": "data/tossplace-menu/238090/images/16385006-진한-치즈-케이크-5c0eb416f1.jpg",
       "imageHash": "5c0eb416f12c31a2270dff556cd595c5088501ffb03a028c07058a291f5c2a67",
-      "imageStatus": "skipped-existing-url"
-    },
-    {
-      "id": 17098517,
-      "categoryId": 985967,
-      "categoryTitle": "디저트",
-      "categoryTitleEn": "Dessert",
-      "position": 17,
-      "title": "클루미 당근케이크",
-      "titleEn": "Clumi Carrot Cake",
-      "description": "진한 치즈 크림과 호두가 가득한 클래식 스타일 당근케이크",
-      "descriptionEn": "Classic Carrot Cake with Cream Cheese Frosting & Walnuts",
-      "state": "ON_SALE",
-      "priceValue": 10900,
-      "priceTitle": "기본",
-      "imageUrl": "https://place-static.tossplace.com/public/live/PUBLIC/2026-09-12/9a2366aa-76e5-47c0-b976-35c05f5b08d4",
-      "labels": [],
-      "optionSets": [],
-      "fingerprint": "cce6cb8aa0db3b565440f6d3663dfa64c99a10cf4957e2210c93b385f94f5231",
-      "imageLocalPath": "data/tossplace-menu/238090/images/17098517-클루미-당근케이크-1d9744db1a.jpg",
-      "imageHash": "1d9744db1a7e6be251ef0ae9ff7b66a98042695bea2c5ecfa33d869545b78f96",
       "imageStatus": "skipped-existing-url"
     },
     {

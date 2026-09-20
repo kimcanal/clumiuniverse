@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-19T22:32:44.862Z",
+  "generatedAt": "2026-09-20T22:45:33.264Z",
   "merchantId": 238090,
   "items": [
     {
@@ -557,18 +557,6 @@
       "imageLocalPath": "data/tossplace-menu/238090/images/10197088-교토말차쇼콜라-9d28d3d031.webp"
     },
     {
-      "id": 10842350,
-      "categoryTitle": "디저트",
-      "categoryTitleEn": "Dessert",
-      "title": "얼그레이 무화과",
-      "description": "달콤한 무화과가 듬뿍 들어간 고소한 시트 위에,\n향긋한 얼그레이 크림을 올린 부드러운 케이크 ☕🍰",
-      "state": "ON_SALE",
-      "labels": [
-        "인기"
-      ],
-      "imageLocalPath": "data/tossplace-menu/238090/images/10842350-얼그레이-무화과-0f5f5e5bf2.webp"
-    },
-    {
       "id": 10192464,
       "categoryTitle": "디저트",
       "categoryTitleEn": "Dessert",
@@ -611,16 +599,6 @@
       "state": "ON_SALE",
       "labels": [],
       "imageLocalPath": "data/tossplace-menu/238090/images/16385006-진한-치즈-케이크-5c0eb416f1.webp"
-    },
-    {
-      "id": 17098517,
-      "categoryTitle": "디저트",
-      "categoryTitleEn": "Dessert",
-      "title": "클루미 당근케이크",
-      "description": "진한 치즈 크림과 호두가 가득한 클래식 스타일 당근케이크",
-      "state": "ON_SALE",
-      "labels": [],
-      "imageLocalPath": "data/tossplace-menu/238090/images/17098517-클루미-당근케이크-1d9744db1a.webp"
     },
     {
       "id": 13579307,
