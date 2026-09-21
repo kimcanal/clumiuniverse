@@ -180,6 +180,29 @@
       }, { once: true });
     }
 
+    async function refreshOrders() {
+      if (!activeKey) return;
+      try {
+        const res = await fetch('/.netlify/functions/list-orders', {
+          headers: { 'X-Orders-Key': activeKey },
+        });
+        if (!res.ok) return;
+        const data = await res.json();
+        renderOrders(data.orders || []);
+      } catch {
+        // Ignore transient errors — the next push notification or a manual reload will retry.
+      }
+    }
+
+    // The service worker tells us (via postMessage) whenever a push notification
+    // for a new order arrives, so the on-screen list updates immediately instead
+    // of only showing the popup and leaving the page stale until reloaded.
+    if ('serviceWorker' in navigator) {
+      navigator.serviceWorker.addEventListener('message', event => {
+        if (event.data?.type === 'clumi-new-order') refreshOrders();
+      });
+    }
+
     async function tryLoad(key) {
       const errorEl = document.getElementById('keyError');
       errorEl.hidden = true;
