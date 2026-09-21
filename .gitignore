@@ -19,3 +19,4 @@ serve.pid
 
 # Local Netlify folder
 .netlify
+deno.lock

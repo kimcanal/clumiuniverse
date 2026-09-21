@@ -23,7 +23,7 @@
   </header>
 
   <p class="order-experimental-notice">
-    🧪 실험 단계 서비스입니다. 아직 새 주문이 와도 알림이 뜨지 않으니, 이 페이지를 주기적으로 새로고침해서 확인해주세요.
+    🧪 실험 단계 서비스입니다. 아래에서 알림을 켜두면 새 주문이 들어올 때 이 기기로 바로 알려드립니다.
   </p>
 
   <main class="order-container">
@@ -34,6 +34,10 @@
       </div>
       <button type="button" class="order-btn" id="keySubmitBtn">View orders</button>
       <p class="order-error" id="keyError" hidden></p>
+    </div>
+    <div id="pushControls" style="text-align:center; margin-bottom:1.5rem;" hidden>
+      <button type="button" class="order-btn order-btn-outline" id="enablePushBtn" style="width:auto;" hidden>🔔 Enable notifications for new orders</button>
+      <p class="order-disclaimer" id="pushStatus"></p>
     </div>
     <div id="ordersList" hidden></div>
   </main>
@@ -110,6 +114,72 @@
       root.innerHTML = orders.map(renderOrder).join('');
     }
 
+    function urlBase64ToUint8Array(base64String) {
+      const padding = '='.repeat((4 - (base64String.length % 4)) % 4);
+      const base64 = (base64String + padding).replace(/-/g, '+').replace(/_/g, '/');
+      const rawData = atob(base64);
+      return Uint8Array.from([...rawData].map(char => char.charCodeAt(0)));
+    }
+
+    async function setupPush() {
+      const controls = document.getElementById('pushControls');
+      const statusEl = document.getElementById('pushStatus');
+      const btn = document.getElementById('enablePushBtn');
+      controls.hidden = false;
+
+      if (!('serviceWorker' in navigator) || !('PushManager' in window)) {
+        btn.hidden = true;
+        statusEl.textContent = '🔕 This browser does not support push notifications.';
+        return;
+      }
+
+      let registration;
+      try {
+        registration = await navigator.serviceWorker.register('./sw.js');
+      } catch {
+        btn.hidden = true;
+        statusEl.textContent = '🔕 Could not set up notifications in this browser.';
+        return;
+      }
+
+      const existing = await registration.pushManager.getSubscription();
+      if (existing) {
+        btn.hidden = true;
+        statusEl.textContent = '🔔 Notifications are enabled for new orders on this device.';
+        return;
+      }
+
+      btn.hidden = false;
+      statusEl.textContent = 'Turn on notifications so this device alerts you the moment a new order comes in.';
+
+      btn.addEventListener('click', async () => {
+        btn.disabled = true;
+        try {
+          const keyRes = await fetch('/.netlify/functions/vapid-public-key');
+          const keyData = await keyRes.json();
+          if (!keyRes.ok || !keyData.publicKey) throw new Error('Push is not configured yet.');
+
+          const subscription = await registration.pushManager.subscribe({
+            userVisibleOnly: true,
+            applicationServerKey: urlBase64ToUint8Array(keyData.publicKey),
+          });
+
+          const subscribeRes = await fetch('/.netlify/functions/subscribe-push', {
+            method: 'POST',
+            headers: { 'Content-Type': 'application/json', 'X-Orders-Key': activeKey },
+            body: JSON.stringify(subscription),
+          });
+          if (!subscribeRes.ok) throw new Error('Could not register this device.');
+
+          btn.hidden = true;
+          statusEl.textContent = '🔔 Notifications are enabled for new orders on this device.';
+        } catch {
+          statusEl.textContent = '🔕 Could not enable notifications — check your browser permission settings and try again.';
+          btn.disabled = false;
+        }
+      }, { once: true });
+    }
+
     async function tryLoad(key) {
       const errorEl = document.getElementById('keyError');
       errorEl.hidden = true;
@@ -125,6 +195,7 @@
         const listEl = document.getElementById('ordersList');
         listEl.hidden = false;
         renderOrders(data.orders || []);
+        setupPush();
       } catch {
         activeKey = null;
         try { localStorage.removeItem(STORAGE_KEY); } catch {}

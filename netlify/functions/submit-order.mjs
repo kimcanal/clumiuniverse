@@ -12,8 +12,13 @@
 // Every order is also persisted to Netlify Blobs (the "orders" store) regardless of
 // Kakao delivery status, so staff have a durable log even before/without Kakao —
 // see netlify/functions/list-orders.mjs and order/orders.html.
+//
+// Every order also triggers a Web Push notification to any staff browser subscribed
+// via /order/orders.html (see subscribe-push.mjs) — this is the real-time "ding",
+// independent of Kakao and with no polling involved.
 
 import { getStore } from '@netlify/blobs';
+import webpush from 'web-push';
 
 const KAKAO_TOKEN_URL = 'https://kauth.kakao.com/oauth/token';
 const KAKAO_SEND_URL = 'https://kapi.kakao.com/v2/api/talk/memo/default/send';
@@ -88,6 +93,54 @@ async function saveOrderRecord(order, extra) {
   }
 }
 
+async function sendPushNotifications(order) {
+  const publicKey = process.env.VAPID_PUBLIC_KEY;
+  const privateKey = process.env.VAPID_PRIVATE_KEY;
+  const subject = process.env.VAPID_SUBJECT;
+  if (!publicKey || !privateKey || !subject) return; // push not configured yet
+
+  let store;
+  let subscriptionKeys;
+  try {
+    store = getStore('push-subscriptions');
+    const { blobs } = await store.list();
+    subscriptionKeys = blobs.map(blob => blob.key);
+  } catch (error) {
+    console.error('[submit-order] failed to list push subscriptions:', error);
+    return;
+  }
+  if (!subscriptionKeys.length) return;
+
+  webpush.setVapidDetails(subject, publicKey, privateKey);
+
+  const itemCount = order.items.length;
+  const payload = JSON.stringify({
+    title: `🐰 New order #${order.orderCode || 'N/A'}`,
+    body: `${order.name} — ${itemCount} item${itemCount === 1 ? '' : 's'}, pickup ${order.pickupTime}`,
+  });
+
+  await Promise.all(subscriptionKeys.map(async key => {
+    try {
+      const subscription = await store.get(key, { type: 'json' });
+      if (!subscription) return;
+      await webpush.sendNotification(subscription, payload);
+    } catch (error) {
+      // 404/410 means the browser unsubscribed or the subscription expired —
+      // clean it up so future orders don't keep failing against it.
+      if (error?.statusCode === 404 || error?.statusCode === 410) {
+        await store.delete(key).catch(() => {});
+      } else {
+        console.error('[submit-order] push send failed:', error?.message || error);
+      }
+    }
+  }));
+}
+
+async function finalizeOrder(order, extra) {
+  await saveOrderRecord(order, extra);
+  await sendPushNotifications(order);
+}
+
 export default async (request) => {
   if (request.method !== 'POST') {
     return jsonResponse(405, { ok: false, error: 'Method not allowed.' });
@@ -142,7 +195,7 @@ export default async (request) => {
   if (!kakaoConfigured) {
     console.log('[submit-order] dry run — order:', JSON.stringify(order));
     console.log('[submit-order] would send to Kakao:', JSON.stringify({ tokenRequest, messageRequest }, null, 2));
-    await saveOrderRecord(order, { delivered: null });
+    await finalizeOrder(order, { delivered: null });
     return jsonResponse(200, {
       ok: true,
       dryRun: true,
@@ -187,11 +240,11 @@ export default async (request) => {
       throw new Error(`Kakao send failed: ${JSON.stringify(sendData)}`);
     }
 
-    await saveOrderRecord(order, { delivered: true });
+    await finalizeOrder(order, { delivered: true });
     return jsonResponse(200, { ok: true, dryRun: false });
   } catch (error) {
     console.error('[submit-order] Kakao delivery failed:', error);
-    await saveOrderRecord(order, { delivered: false, deliveryError: String(error?.message || error) });
+    await finalizeOrder(order, { delivered: false, deliveryError: String(error?.message || error) });
     return jsonResponse(502, { ok: false, error: 'Could not deliver the order notification. Please order at the counter instead.' });
   }
 };
