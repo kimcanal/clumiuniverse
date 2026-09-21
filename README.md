@@ -121,9 +121,15 @@ netlify/functions/submit-order.mjs
 - 손님이 고른 항목은 영어로 제출되지만, 직원이 보는 화면(카카오 메시지, `/order/orders`)에는 **한국어 메뉴명이 먼저** 표시되고 손님이 고른 영어명은 괄호로 함께 보여줍니다 (예: "내맘대로 브런치(Basic waffle) (Build Your Own Brunch)"). 옵션 선택지도 동일합니다. 손님용 화면(주문 페이지, 영수증)은 계속 영어 우선으로 표시됩니다.
 - 이 화면은 로그인 시스템이 아니라 공유 암호 하나로만 보호되는 수준입니다. URL과 암호를 아는 사람만 접근할 수 있는 정도의 보호이니, 암호는 직원들에게만 구두로 공유하세요.
 
-### 향후 계획
+### 새 주문 알림 (Web Push)
 
-- **새 주문 알림**: 지금은 `/order/orders`를 직원이 직접 새로고침해야 새 주문을 볼 수 있습니다. 카카오 연동(위 "다음 단계") 이후에는 카카오 메시지 자체가 알림 역할을 하겠지만, 그 전이나 그와 별개로 페이지가 열려 있는 동안 소리·브라우저 알림 등으로 알려주는 기능을 추가할 수 있습니다. 다만 폴링 방식은 Netlify Functions 호출 횟수(무료 티어 월 12.5만 회)를 갉아먹으므로, 영업시간에만 동작하게 제한하는 등 설계를 신중히 해야 합니다 — 이번 범위에는 포함하지 않았습니다.
+`/order/orders`에서 "🔔 Enable notifications for new orders" 버튼을 누르면, 새 주문이 들어오는 그 순간 해당 기기에 브라우저 알림이 뜹니다. 폴링이 아니라 **[Web Push API](https://developer.mozilla.org/en-US/docs/Web/API/Push_API)를 이용한 트리거 기반**이라 평소엔 함수 호출이 전혀 없고, 실제로 주문이 들어올 때만 서버가 구독된 기기로 직접 알림을 보냅니다. 카카오 "나에게 보내기"는 이 알림을 못 준다는 게 확인되어(다른 사람이 보낸 메시지와 달리 팝업/소리 알림이 뜨지 않음) 이 방식으로 대체했습니다.
+
+- 1회성 설정: `node scripts/generate-vapid-keys.mjs`로 VAPID 키 쌍을 생성한 뒤, `VAPID_PUBLIC_KEY`/`VAPID_PRIVATE_KEY`/`VAPID_SUBJECT`(예: `mailto:you@example.com`)를 Netlify 환경변수로 등록합니다. 세 값이 없으면 알림 기능은 조용히 비활성 상태로 남습니다(주문 접수 자체엔 영향 없음).
+- 구독 정보는 `netlify/functions/subscribe-push.mjs`가 Netlify Blobs(`push-subscriptions` 스토어)에 저장하고, `submit-order.mjs`가 주문마다 `web-push` 패키지로 구독된 모든 기기에 알림을 전송합니다. 구독이 만료/취소된 기기는 전송 실패(404/410) 시 자동으로 정리됩니다.
+- `order/sw.js`가 알림 수신·클릭(주문 페이지로 포커스 이동)을 처리하는 Service Worker입니다. `/order/` 범위에만 등록되어 메인 사이트에는 영향이 없습니다.
+- 이 저장소 두 번째 npm 의존성으로 `web-push`가 추가되었습니다.
+- 카카오 연동은 이제 필수가 아니라 **선택적인 기록용**입니다. 끄고 싶으면 `KAKAO_*` 환경변수 3개만 지우면 자동으로 dry-run 모드로 돌아갑니다.
 
 ## 매장 정보와 Instagram 수정
 
@@ -208,11 +214,14 @@ clumiuniverse/
 ├── order/
 │   ├── index.html
 │   ├── orders.html
-│   └── order.css
+│   ├── order.css
+│   └── sw.js
 ├── netlify/functions/
 │   ├── submit-order.mjs
 │   ├── list-orders.mjs
-│   └── update-order.mjs
+│   ├── update-order.mjs
+│   ├── subscribe-push.mjs
+│   └── vapid-public-key.mjs
 ├── assets/
 │   ├── clumi-logo.svg
 │   ├── bg/
@@ -235,6 +244,7 @@ clumiuniverse/
     ├── config.mjs
     ├── fetch-toss-menu.mjs
     ├── generate-site-data.mjs
+    ├── generate-vapid-keys.mjs
     ├── kakao-get-refresh-token.mjs
     ├── update-instagram.mjs
     ├── update-menu.mjs
