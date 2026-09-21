@@ -2,17 +2,18 @@
   "merchantId": 238090,
   "merchantName": "클루미 유니버스",
   "merchantStatus": "OPEN",
-  "fetchedAt": "2026-09-20T22:45:33.264Z",
+  "fetchedAt": "2026-09-21T04:56:43.613Z",
   "summary": {
     "total": 85,
     "added": 0,
-    "changed": 0,
-    "unchanged": 85,
-    "removed": 2
+    "changed": 1,
+    "unchanged": 84,
+    "removed": 0
   },
   "imageSummary": {
-    "skipped-existing-url": 83,
+    "skipped-existing-url": 82,
     "missing": 1,
+    "downloaded": 1,
     "failed-http-timeout": 1
   },
   "checks": {
@@ -3490,12 +3491,12 @@
       "position": 5,
       "title": "[미스트] 블루라떼",
       "titleEn": "[Mist] Blue Latte",
-      "description": "푹신한 구름 위에 올라간 듯,\n부드러운 화이트 초콜릿에 하늘의 빛을 담은 음료",
-      "descriptionEn": "A sip of fluffy clouds,\nsmooth white chocolate infused with the light of the sky.",
-      "state": "SOLD_OUT",
+      "description": "에스프레소의 깊은 맛과 부드러운 우유, 그리고 신비로운 하늘 빛이 어우러진 라떼",
+      "descriptionEn": "A latte blending the deep flavor of espresso, velvety milk, and the mysterious color of the sky.",
+      "state": "ON_SALE",
       "priceValue": 7500,
       "priceTitle": "기본",
-      "imageUrl": "https://place-static.tossplace.com/public/live/PUBLIC/2026-02-01/b2512be1-179a-4d79-9d7f-2150a08cb25a",
+      "imageUrl": "https://place-static.tossplace.com/public/live/PUBLIC/2026-09-21/450b2083-b867-4f0d-9c62-be0cfcfcc952",
       "labels": [],
       "optionSets": [
         {
@@ -3516,10 +3517,10 @@
           ]
         }
       ],
-      "fingerprint": "c85c659d590566a959a47d9d03d74f8a91b786e31d3bb151466a4f709e2d0081",
-      "imageLocalPath": "data/tossplace-menu/238090/images/6986481-미스트-블루라떼-c272a2e69b.jpg",
-      "imageHash": "c272a2e69b9a8ca4aa90639957c048edd935c01fc9c1d815b6668f0267003eca",
-      "imageStatus": "skipped-existing-url"
+      "fingerprint": "2675bd50c429272cca18d5f46c808278623f20275a6ec4fbfe36c42392fd6182",
+      "imageLocalPath": "data/tossplace-menu/238090/images/6986481-미스트-블루라떼-d0215a57b4.jpg",
+      "imageHash": "d0215a57b4e0ed6baeac88b55fcfd1946d57a17460fd791ecdb3e3be7abfe248",
+      "imageStatus": "downloaded"
     },
     {
       "id": 6986486,

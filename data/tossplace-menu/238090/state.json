@@ -105,14 +105,6 @@
       "sourceUrl": "https://place-static.tossplace.com/public/live/PUBLIC/2026-02-01/623bf7fd-1ce5-422b-b4a1-f096addcaa9a",
       "updatedAt": "2026-05-01T03:23:58.824Z"
     },
-    "https://place-static.tossplace.com/public/live/PUBLIC/2026-02-01/b2512be1-179a-4d79-9d7f-2150a08cb25a": {
-      "localPath": "data/tossplace-menu/238090/images/6986481-미스트-블루라떼-c272a2e69b.jpg",
-      "hash": "c272a2e69b9a8ca4aa90639957c048edd935c01fc9c1d815b6668f0267003eca",
-      "itemId": 6986481,
-      "title": "[미스트] 블루라떼",
-      "sourceUrl": "https://place-static.tossplace.com/public/live/PUBLIC/2026-02-01/b2512be1-179a-4d79-9d7f-2150a08cb25a",
-      "updatedAt": "2026-05-01T03:23:58.826Z"
-    },
     "https://place-static.tossplace.com/public/live/PUBLIC/2026-01-30/0636436a-6b39-4533-bd34-0ee9ef8bb6a5": {
       "localPath": "data/tossplace-menu/238090/images/6986485-플래미-노을에이드-524d256888.jpg",
       "hash": "524d2568886d8aae372ac1145e16b5fb777776d2ca92e788e6950c598a9d76d0",
@@ -672,6 +664,14 @@
       "title": "딸기라떼",
       "sourceUrl": "https://place-static.tossplace.com/public/live/PUBLIC/2026-08-29/5ba6752a-bc8c-461e-bca6-1dcc3e0026b4",
       "updatedAt": "2026-08-29T22:52:00.542Z"
+    },
+    "https://place-static.tossplace.com/public/live/PUBLIC/2026-09-21/450b2083-b867-4f0d-9c62-be0cfcfcc952": {
+      "localPath": "data/tossplace-menu/238090/images/6986481-미스트-블루라떼-d0215a57b4.jpg",
+      "hash": "d0215a57b4e0ed6baeac88b55fcfd1946d57a17460fd791ecdb3e3be7abfe248",
+      "itemId": 6986481,
+      "title": "[미스트] 블루라떼",
+      "sourceUrl": "https://place-static.tossplace.com/public/live/PUBLIC/2026-09-21/450b2083-b867-4f0d-9c62-be0cfcfcc952",
+      "updatedAt": "2026-09-21T04:56:39.943Z"
     }
   },
   "imagesByHash": {
@@ -778,14 +778,6 @@
       "title": "[스텔라] 딸기주스",
       "sourceUrl": "https://place-static.tossplace.com/public/live/PUBLIC/2026-02-01/623bf7fd-1ce5-422b-b4a1-f096addcaa9a",
       "updatedAt": "2026-05-01T03:23:58.824Z"
-    },
-    "c272a2e69b9a8ca4aa90639957c048edd935c01fc9c1d815b6668f0267003eca": {
-      "localPath": "data/tossplace-menu/238090/images/6986481-미스트-블루라떼-c272a2e69b.jpg",
-      "hash": "c272a2e69b9a8ca4aa90639957c048edd935c01fc9c1d815b6668f0267003eca",
-      "itemId": 6986481,
-      "title": "[미스트] 블루라떼",
-      "sourceUrl": "https://place-static.tossplace.com/public/live/PUBLIC/2026-02-01/b2512be1-179a-4d79-9d7f-2150a08cb25a",
-      "updatedAt": "2026-05-01T03:23:58.826Z"
     },
     "524d2568886d8aae372ac1145e16b5fb777776d2ca92e788e6950c598a9d76d0": {
       "localPath": "data/tossplace-menu/238090/images/6986485-플래미-노을에이드-524d256888.jpg",
@@ -1282,6 +1274,14 @@
       "title": "딸기라떼",
       "sourceUrl": "https://place-static.tossplace.com/public/live/PUBLIC/2026-08-29/5ba6752a-bc8c-461e-bca6-1dcc3e0026b4",
       "updatedAt": "2026-08-29T22:52:00.542Z"
+    },
+    "d0215a57b4e0ed6baeac88b55fcfd1946d57a17460fd791ecdb3e3be7abfe248": {
+      "localPath": "data/tossplace-menu/238090/images/6986481-미스트-블루라떼-d0215a57b4.jpg",
+      "hash": "d0215a57b4e0ed6baeac88b55fcfd1946d57a17460fd791ecdb3e3be7abfe248",
+      "itemId": 6986481,
+      "title": "[미스트] 블루라떼",
+      "sourceUrl": "https://place-static.tossplace.com/public/live/PUBLIC/2026-09-21/450b2083-b867-4f0d-9c62-be0cfcfcc952",
+      "updatedAt": "2026-09-21T04:56:39.943Z"
     }
   },
   "itemsById": {
@@ -1516,14 +1516,14 @@
       "updatedAt": "2026-07-21T04:15:20.254Z"
     },
     "6986481": {
-      "fingerprint": "c85c659d590566a959a47d9d03d74f8a91b786e31d3bb151466a4f709e2d0081",
+      "fingerprint": "2675bd50c429272cca18d5f46c808278623f20275a6ec4fbfe36c42392fd6182",
       "title": "[미스트] 블루라떼",
-      "description": "푹신한 구름 위에 올라간 듯,\n부드러운 화이트 초콜릿에 하늘의 빛을 담은 음료",
-      "imageUrl": "https://place-static.tossplace.com/public/live/PUBLIC/2026-02-01/b2512be1-179a-4d79-9d7f-2150a08cb25a",
-      "imageLocalPath": "data/tossplace-menu/238090/images/6986481-미스트-블루라떼-c272a2e69b.jpg",
-      "imageHash": "c272a2e69b9a8ca4aa90639957c048edd935c01fc9c1d815b6668f0267003eca",
+      "description": "에스프레소의 깊은 맛과 부드러운 우유, 그리고 신비로운 하늘 빛이 어우러진 라떼",
+      "imageUrl": "https://place-static.tossplace.com/public/live/PUBLIC/2026-09-21/450b2083-b867-4f0d-9c62-be0cfcfcc952",
+      "imageLocalPath": "data/tossplace-menu/238090/images/6986481-미스트-블루라떼-d0215a57b4.jpg",
+      "imageHash": "d0215a57b4e0ed6baeac88b55fcfd1946d57a17460fd791ecdb3e3be7abfe248",
       "firstSeenAt": "2026-07-21T04:15:20.254Z",
-      "updatedAt": "2026-09-18T12:03:41.506Z"
+      "updatedAt": "2026-09-21T04:56:43.613Z"
     },
     "6986485": {
       "fingerprint": "6e527c8a99b1d43539c843fca3c85c86cb7a5bbf64ad7212f36f87adeacc0569",
@@ -2138,20 +2138,6 @@
   },
   "runs": [
     {
-      "at": "2026-07-23T21:53:25.922Z",
-      "summary": {
-        "total": 92,
-        "added": 0,
-        "changed": 1,
-        "unchanged": 91,
-        "removed": 0
-      },
-      "imageSummary": {
-        "skipped-existing-url": 90,
-        "missing": 2
-      }
-    },
-    {
       "at": "2026-08-20T21:16:07.047Z",
       "summary": {
         "total": 91,
@@ -2432,7 +2418,23 @@
         "missing": 1,
         "failed-http-timeout": 1
       }
+    },
+    {
+      "at": "2026-09-21T04:56:43.613Z",
+      "summary": {
+        "total": 85,
+        "added": 0,
+        "changed": 1,
+        "unchanged": 84,
+        "removed": 0
+      },
+      "imageSummary": {
+        "skipped-existing-url": 82,
+        "missing": 1,
+        "downloaded": 1,
+        "failed-http-timeout": 1
+      }
     }
   ],
-  "lastRunAt": "2026-09-20T22:45:33.264Z"
+  "lastRunAt": "2026-09-21T04:56:43.613Z"
 }

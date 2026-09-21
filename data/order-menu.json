@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-20T22:45:33.264Z",
+  "generatedAt": "2026-09-21T04:56:43.613Z",
   "merchantId": 238090,
   "items": [
     {
@@ -2884,11 +2884,11 @@
       "categoryTitleEn": "CLUMI Emotion Potion",
       "title": "[미스트] 블루라떼",
       "titleEn": "[Mist] Blue Latte",
-      "description": "푹신한 구름 위에 올라간 듯,\n부드러운 화이트 초콜릿에 하늘의 빛을 담은 음료",
-      "descriptionEn": "A sip of fluffy clouds,\nsmooth white chocolate infused with the light of the sky.",
+      "description": "에스프레소의 깊은 맛과 부드러운 우유, 그리고 신비로운 하늘 빛이 어우러진 라떼",
+      "descriptionEn": "A latte blending the deep flavor of espresso, velvety milk, and the mysterious color of the sky.",
       "priceValue": 7500,
       "priceTitle": "기본",
-      "available": false,
+      "available": true,
       "labels": [],
       "optionSets": [
         {
@@ -2909,7 +2909,7 @@
           ]
         }
       ],
-      "imageLocalPath": "data/tossplace-menu/238090/images/6986481-미스트-블루라떼-c272a2e69b.webp"
+      "imageLocalPath": "data/tossplace-menu/238090/images/6986481-미스트-블루라떼-d0215a57b4.webp"
     },
     {
       "id": 6986486,

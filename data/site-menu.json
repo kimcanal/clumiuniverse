@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-20T22:45:33.264Z",
+  "generatedAt": "2026-09-21T04:56:43.613Z",
   "merchantId": 238090,
   "items": [
     {
@@ -365,10 +365,10 @@
       "categoryTitle": "클루미 감정포션",
       "categoryTitleEn": "CLUMI Emotion Potion",
       "title": "[미스트] 블루라떼",
-      "description": "푹신한 구름 위에 올라간 듯,\n부드러운 화이트 초콜릿에 하늘의 빛을 담은 음료",
-      "state": "SOLD_OUT",
+      "description": "에스프레소의 깊은 맛과 부드러운 우유, 그리고 신비로운 하늘 빛이 어우러진 라떼",
+      "state": "ON_SALE",
       "labels": [],
-      "imageLocalPath": "data/tossplace-menu/238090/images/6986481-미스트-블루라떼-c272a2e69b.webp"
+      "imageLocalPath": "data/tossplace-menu/238090/images/6986481-미스트-블루라떼-d0215a57b4.webp"
     },
     {
       "id": 6986486,
