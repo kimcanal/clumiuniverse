@@ -131,6 +131,16 @@ netlify/functions/submit-order.mjs
 - 이 저장소 두 번째 npm 의존성으로 `web-push`가 추가되었습니다.
 - 카카오 연동은 이제 필수가 아니라 **선택적인 기록용**입니다. 끄고 싶으면 `KAKAO_*` 환경변수 3개만 지우면 자동으로 dry-run 모드로 돌아갑니다.
 
+**브라우저 호환성 (직접 확인됨)**
+
+| 브라우저 | 결과 |
+| --- | --- |
+| Safari (Mac) | ✅ 정상 동작 |
+| Samsung Internet (Android) | ✅ 정상 동작 |
+| 네이버 웨일 (Whale) | ❌ 구독(subscribe)은 성공하지만 실제 알림이 오지 않음 |
+
+웨일은 Chromium 기반이지만 구글 정식 라이선스 없이 자체 개발되어, 푸시 배송에 필요한 "푸시 서비스"(크롬은 구글 FCM 사용)가 제대로 구현되어 있지 않은 것으로 보입니다. 저희 코드로 고칠 수 있는 부분이 아니므로, **주문 알림을 받을 기기(카운터 공기계 등)는 웨일이 아닌 Chrome/Edge/Safari/Samsung Internet 중 하나를 사용하세요.**
+
 ## 매장 정보와 Instagram 수정
 
 매장 소개, 주소, 영업시간, 전화번호와 네이버 지도 링크는 `data/store-info.json`에서 관리합니다.
