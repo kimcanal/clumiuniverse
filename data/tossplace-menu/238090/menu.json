@@ -2,19 +2,20 @@
   "merchantId": 238090,
   "merchantName": "클루미 유니버스",
   "merchantStatus": "OPEN",
-  "fetchedAt": "2026-09-21T04:56:43.613Z",
+  "fetchedAt": "2026-09-26T23:13:16.016Z",
   "summary": {
-    "total": 85,
+    "total": 82,
     "added": 0,
-    "changed": 1,
-    "unchanged": 84,
-    "removed": 0
+    "changed": 10,
+    "unchanged": 72,
+    "removed": 3
   },
   "imageSummary": {
-    "skipped-existing-url": 82,
+    "skipped-existing-url": 78,
     "missing": 1,
-    "downloaded": 1,
-    "failed-http-timeout": 1
+    "skipped-existing-hash": 1,
+    "failed-http-timeout": 1,
+    "downloaded": 1
   },
   "checks": {
     "missingImages": [
@@ -175,22 +176,22 @@
         ]
       },
       {
-        "imageHash": "87f8a2942f2b5a6231dcf3474d72da5a0a7ddb0f9fcc603bdca0a39d9a4f5a0d",
-        "imageLocalPath": "data/tossplace-menu/238090/images/10683603-피스타치오-초코-반하나-와플-87f8a2942f.jpg",
+        "imageHash": "86ba9a15c7dfd9f8d97086281499444715fe62d2c3207f639cdb6ba7f9798225",
+        "imageLocalPath": "data/tossplace-menu/238090/images/16230479-시즌한정-무화과-크림치즈-와플-86ba9a15c7.jpg",
         "items": [
           {
-            "id": 10683603,
+            "id": 15684896,
             "categoryTitle": "인기 메뉴",
-            "title": "[피스타치오] 초코 반하나 와플",
-            "description": "앵커 버터로 만든 겉바속쫀 리에주 와플에 바나나, 생크림, 초코소스, 피스타치오를 올린 클루미 시그니처 와플. 한 입에 반해버릴지도 몰라요.",
-            "imageLocalPath": "data/tossplace-menu/238090/images/10683603-피스타치오-초코-반하나-와플-87f8a2942f.jpg"
+            "title": "무화과 크림치즈 와플",
+            "description": "달콤한 무화과와 부드러운 크림치즈 무스, 피스타치오를 올린 바삭한 리에쥬 와플.",
+            "imageLocalPath": "data/tossplace-menu/238090/images/16230479-시즌한정-무화과-크림치즈-와플-86ba9a15c7.jpg"
           },
           {
-            "id": 13137641,
+            "id": 16230479,
             "categoryTitle": "벨기에와플",
-            "title": "[피스타치오]초코 반하나와플",
-            "description": "\"한 입 먹으면 정말 반할지도 몰라요!\"\n앵커 버터로 만든 겉바속쫀 리에주 와플에 바나나, 생크림, 초코소스, 피스타치오를 올린 클루미 시그니처 와플.",
-            "imageLocalPath": "data/tossplace-menu/238090/images/10683603-피스타치오-초코-반하나-와플-87f8a2942f.jpg"
+            "title": "[시즌한정]무화과&크림치즈 와플",
+            "description": "달콤한 무화과와 부드러운 크림치즈 무스, 피스타치오를 올린 바삭한 리에쥬 와플.",
+            "imageLocalPath": "data/tossplace-menu/238090/images/16230479-시즌한정-무화과-크림치즈-와플-86ba9a15c7.jpg"
           }
         ]
       },
@@ -1390,7 +1391,7 @@
       "state": "ON_SALE",
       "priceValue": 15000,
       "priceTitle": "기본",
-      "imageUrl": "https://place-static.tossplace.com/public/live/PUBLIC/2026-08-29/865dc610-148e-4f5c-b11d-2f4597bd132a",
+      "imageUrl": "https://place-static.tossplace.com/public/live/PUBLIC/2026-09-26/4bdb0d99-3ad9-4bf2-9cd9-9714d90cb099",
       "labels": [
         "인기"
       ],
@@ -1420,103 +1421,27 @@
           ]
         },
         {
-          "id": 316934,
-          "title": "와플 옵션",
-          "titleEn": "Waffle Option",
+          "id": 589739,
+          "title": "추가옵션",
+          "titleEn": "Extra option",
           "required": false,
           "minChoices": 0,
-          "maxChoices": 5,
-          "choices": [
-            {
-              "id": 971773,
-              "title": "시나몬 추가",
-              "titleEn": "Cinnamon",
-              "priceValue": 500,
-              "state": "ON_SALE"
-            },
-            {
-              "id": 971774,
-              "title": "크림치즈 추가",
-              "titleEn": "Cream Cheese",
-              "priceValue": 1000,
-              "state": "ON_SALE"
-            },
-            {
-              "id": 971775,
-              "title": "골든애플잼 추가",
-              "titleEn": "Golden Apple Jam ",
-              "priceValue": 1000,
-              "state": "ON_SALE"
-            },
-            {
-              "id": 1129310,
-              "title": "블루베리잼 추가",
-              "titleEn": "Blueberry Jam",
-              "priceValue": 1000,
-              "state": "ON_SALE"
-            },
-            {
-              "id": 1129311,
-              "title": "딸기잼 추가",
-              "titleEn": "Strawberry Jam",
-              "priceValue": 1000,
-              "state": "ON_SALE"
-            }
-          ]
-        }
-      ],
-      "fingerprint": "0bacac8551e70491e985477114d384b00712c972e320d39085082943fffb1c12",
-      "imageLocalPath": "data/tossplace-menu/238090/images/15684896-무화과-크림치즈-와플-db8948e195.jpg",
-      "imageHash": "db8948e19509607d714b22e93137437cd66de1ae1b6cea0b2d0b8fb586cac9f4",
-      "imageStatus": "skipped-existing-url"
-    },
-    {
-      "id": 10683603,
-      "categoryId": 867315,
-      "categoryTitle": "인기 메뉴",
-      "categoryTitleEn": "BEST",
-      "position": 7,
-      "title": "[피스타치오] 초코 반하나 와플",
-      "titleEn": "[Pistachio] Banana Waffle",
-      "description": "앵커 버터로 만든 겉바속쫀 리에주 와플에 바나나, 생크림, 초코소스, 피스타치오를 올린 클루미 시그니처 와플. 한 입에 반해버릴지도 몰라요.",
-      "descriptionEn": "A Liège waffle made with Anchor butter, topped with banana, whipped cream, chocolate sauce, and pistachio. Crispy, chewy, and dangerously easy to fall for.",
-      "state": "ON_SALE",
-      "priceValue": 12000,
-      "priceTitle": "기본",
-      "imageUrl": "https://place-static.tossplace.com/public/live/PUBLIC/2026-05-09/59d70125-6af4-4c19-a4c7-31c8f4d0eb00",
-      "labels": [
-        "인기"
-      ],
-      "optionSets": [
-        {
-          "id": 366680,
-          "title": "와플 컷팅",
-          "titleEn": "Waffle Cutting",
-          "required": true,
-          "minChoices": 1,
           "maxChoices": 1,
           "choices": [
             {
-              "id": 1135717,
-              "title": "그대로 주세요",
-              "titleEn": "Whole",
-              "priceValue": 0,
-              "state": "ON_SALE"
-            },
-            {
-              "id": 1135716,
-              "title": "먹기좋게 잘라주세요",
-              "titleEn": "Cut",
-              "priceValue": 0,
+              "id": 1838208,
+              "title": "저당메이플시럽",
+              "titleEn": "Low sugar maple syrup",
+              "priceValue": 1000,
               "state": "ON_SALE"
             }
           ]
         }
       ],
-      "fingerprint": "b8217821c33b131d922de8f58fd06eb2b1c60bc2a3f0411ebdebb9f701f7bea8",
-      "imageLocalPath": "data/tossplace-menu/238090/images/10683603-피스타치오-초코-반하나-와플-87f8a2942f.jpg",
-      "imageHash": "87f8a2942f2b5a6231dcf3474d72da5a0a7ddb0f9fcc603bdca0a39d9a4f5a0d",
-      "imageStatus": "skipped-existing-url"
+      "fingerprint": "30889dcc46246ce43db3975c123ea554fd91650b02ed6262a2506f927b1c98d1",
+      "imageLocalPath": "data/tossplace-menu/238090/images/16230479-시즌한정-무화과-크림치즈-와플-86ba9a15c7.jpg",
+      "imageHash": "86ba9a15c7dfd9f8d97086281499444715fe62d2c3207f639cdb6ba7f9798225",
+      "imageStatus": "skipped-existing-hash"
     },
     {
       "id": 13541356,
@@ -1557,9 +1482,47 @@
               "state": "ON_SALE"
             }
           ]
+        },
+        {
+          "id": 316934,
+          "title": "와플 옵션",
+          "titleEn": "Waffle Option",
+          "required": false,
+          "minChoices": 0,
+          "maxChoices": 4,
+          "choices": [
+            {
+              "id": 971773,
+              "title": "시나몬 추가",
+              "titleEn": "Cinnamon",
+              "priceValue": 500,
+              "state": "ON_SALE"
+            },
+            {
+              "id": 971774,
+              "title": "크림치즈 추가",
+              "titleEn": "Cream Cheese",
+              "priceValue": 1000,
+              "state": "ON_SALE"
+            },
+            {
+              "id": 971775,
+              "title": "골든애플잼 추가",
+              "titleEn": "Golden Apple Jam ",
+              "priceValue": 1000,
+              "state": "ON_SALE"
+            },
+            {
+              "id": 1129310,
+              "title": "블루베리잼 추가",
+              "titleEn": "Blueberry Jam",
+              "priceValue": 1000,
+              "state": "ON_SALE"
+            }
+          ]
         }
       ],
-      "fingerprint": "3c4ace453aebb1fc9a6c592579228a93d12b29fa913678a03300a258ff37f7b7",
+      "fingerprint": "be59476853c8d9a90d1c10ac19ec40a280f4933208e96c3e781593ecaeaa076a",
       "imageLocalPath": "data/tossplace-menu/238090/images/7735937-블루베리-크림치즈-와플-32131784ad.jpg",
       "imageHash": "32131784ada4511e43e0d64f09c2537f0933d80517a7fe28166c1ae3122af90d",
       "imageStatus": "skipped-existing-url"
@@ -3520,7 +3483,7 @@
       "fingerprint": "2675bd50c429272cca18d5f46c808278623f20275a6ec4fbfe36c42392fd6182",
       "imageLocalPath": "data/tossplace-menu/238090/images/6986481-미스트-블루라떼-d0215a57b4.jpg",
       "imageHash": "d0215a57b4e0ed6baeac88b55fcfd1946d57a17460fd791ecdb3e3be7abfe248",
-      "imageStatus": "downloaded"
+      "imageStatus": "skipped-existing-url"
     },
     {
       "id": 6986486,
@@ -3887,19 +3850,19 @@
       "imageStatus": "skipped-existing-url"
     },
     {
-      "id": 13137641,
+      "id": 16230479,
       "categoryId": 789332,
       "categoryTitle": "벨기에와플",
       "categoryTitleEn": "Belgium Waffle",
-      "position": 1,
-      "title": "[피스타치오]초코 반하나와플",
-      "titleEn": "[Pistachio] Banana Waffle",
-      "description": "\"한 입 먹으면 정말 반할지도 몰라요!\"\n앵커 버터로 만든 겉바속쫀 리에주 와플에 바나나, 생크림, 초코소스, 피스타치오를 올린 클루미 시그니처 와플.",
-      "descriptionEn": "A Liège waffle made with Anchor butter, topped with banana, whipped cream, chocolate sauce, and pistachio. Crispy, chewy, and dangerously easy to fall for.",
+      "position": 2,
+      "title": "[시즌한정]무화과&크림치즈 와플",
+      "titleEn": "FIG&Cream Cheese Waffle",
+      "description": "달콤한 무화과와 부드러운 크림치즈 무스, 피스타치오를 올린 바삭한 리에쥬 와플.",
+      "descriptionEn": "A crisp Belgian Liège waffle topped with sweet fresh figs, smooth cream cheese mousse, pistachio crumble, and a drizzle of maple syrup.",
       "state": "ON_SALE",
-      "priceValue": 12000,
+      "priceValue": 15000,
       "priceTitle": "기본",
-      "imageUrl": "https://place-static.tossplace.com/public/live/PUBLIC/2026-05-09/ae7594c4-fb11-480f-a5c1-aeab9a2032d9",
+      "imageUrl": "https://place-static.tossplace.com/public/live/PUBLIC/2026-09-26/cea32c70-fe60-4031-82fa-825dfd717a11",
       "labels": [
         "인기"
       ],
@@ -3929,82 +3892,27 @@
           ]
         },
         {
-          "id": 473272,
-          "title": "와플 아이스크림 추가",
-          "titleEn": "Ice Cream",
+          "id": 589739,
+          "title": "추가옵션",
+          "titleEn": "Extra option",
           "required": false,
           "minChoices": 0,
-          "maxChoices": 2,
-          "choices": [
-            {
-              "id": 1462666,
-              "title": "바닐라",
-              "titleEn": "Vanilla",
-              "priceValue": 2500,
-              "state": "ON_SALE"
-            },
-            {
-              "id": 1462667,
-              "title": "초코",
-              "titleEn": "Chocolate",
-              "priceValue": 2500,
-              "state": "ON_SALE"
-            }
-          ]
-        }
-      ],
-      "fingerprint": "294b8d19b122bccea474d9d34409349162fee2699d8298e4e8e1ad1a6ce2fa80",
-      "imageLocalPath": "data/tossplace-menu/238090/images/10683603-피스타치오-초코-반하나-와플-87f8a2942f.jpg",
-      "imageHash": "87f8a2942f2b5a6231dcf3474d72da5a0a7ddb0f9fcc603bdca0a39d9a4f5a0d",
-      "imageStatus": "skipped-existing-url"
-    },
-    {
-      "id": 16230479,
-      "categoryId": 789332,
-      "categoryTitle": "벨기에와플",
-      "categoryTitleEn": "Belgium Waffle",
-      "position": 2,
-      "title": "[시즌한정]무화과&크림치즈 와플",
-      "titleEn": "FIG&Cream Cheese Waffle",
-      "description": "달콤한 무화과와 부드러운 크림치즈 무스, 피스타치오를 올린 바삭한 리에쥬 와플.",
-      "descriptionEn": "A crisp Belgian Liège waffle topped with sweet fresh figs, smooth cream cheese mousse, pistachio crumble, and a drizzle of maple syrup.",
-      "state": "ON_SALE",
-      "priceValue": 15000,
-      "priceTitle": "기본",
-      "imageUrl": "https://place-static.tossplace.com/public/live/PUBLIC/2026-08-14/8f168e4d-f50e-4bc5-a80c-9e0a5bdbc879",
-      "labels": [
-        "인기"
-      ],
-      "optionSets": [
-        {
-          "id": 366680,
-          "title": "와플 컷팅",
-          "titleEn": "Waffle Cutting",
-          "required": true,
-          "minChoices": 1,
           "maxChoices": 1,
           "choices": [
             {
-              "id": 1135717,
-              "title": "그대로 주세요",
-              "titleEn": "Whole",
-              "priceValue": 0,
-              "state": "ON_SALE"
-            },
-            {
-              "id": 1135716,
-              "title": "먹기좋게 잘라주세요",
-              "titleEn": "Cut",
-              "priceValue": 0,
+              "id": 1838208,
+              "title": "저당메이플시럽",
+              "titleEn": "Low sugar maple syrup",
+              "priceValue": 1000,
               "state": "ON_SALE"
             }
           ]
         }
       ],
-      "fingerprint": "702b49eddf132ae584181257dd3493bca4c118280fa8245d7238b41600b75f41",
-      "imageLocalPath": "data/tossplace-menu/238090/images/16230479-시즌한정-무화과-크림치즈-와플-45e9e0e7c1.jpg",
-      "imageHash": "45e9e0e7c136465835a3fbf2c5a5478525780d51def39ddd6c40289eb5563bc0",
-      "imageStatus": "skipped-existing-url"
+      "fingerprint": "93a12d1415f9a1c38956f6d7b98f09d1175f5e29711f208eb39003f4eca344b8",
+      "imageLocalPath": "data/tossplace-menu/238090/images/16230479-시즌한정-무화과-크림치즈-와플-86ba9a15c7.jpg",
+      "imageHash": "86ba9a15c7dfd9f8d97086281499444715fe62d2c3207f639cdb6ba7f9798225",
+      "imageStatus": "downloaded"
     },
     {
       "id": 7735791,
@@ -4052,7 +3960,7 @@
           "titleEn": "Waffle Option",
           "required": false,
           "minChoices": 0,
-          "maxChoices": 5,
+          "maxChoices": 4,
           "choices": [
             {
               "id": 971773,
@@ -4079,13 +3987,6 @@
               "id": 1129310,
               "title": "블루베리잼 추가",
               "titleEn": "Blueberry Jam",
-              "priceValue": 1000,
-              "state": "ON_SALE"
-            },
-            {
-              "id": 1129311,
-              "title": "딸기잼 추가",
-              "titleEn": "Strawberry Jam",
               "priceValue": 1000,
               "state": "ON_SALE"
             }
@@ -4133,7 +4034,7 @@
           ]
         }
       ],
-      "fingerprint": "1387d6ef51db04e22f678bb41a1f73b50c5d5fb4acb497a23457ba4b83bc5ec5",
+      "fingerprint": "a963e7dddbd1ee4812ce61f9a94a94267e0241ba4d75bda293c871970ce2d8f7",
       "imageLocalPath": "data/tossplace-menu/238090/images/7735791-클래식-와플-e996468283.jpg",
       "imageHash": "e996468283edb35712f6108cc2152d0afea2abd7e94734a065e9cfff7aed14e1",
       "imageStatus": "skipped-existing-url"
@@ -4186,7 +4087,7 @@
           "titleEn": "Waffle Option",
           "required": false,
           "minChoices": 0,
-          "maxChoices": 5,
+          "maxChoices": 4,
           "choices": [
             {
               "id": 971773,
@@ -4213,13 +4114,6 @@
               "id": 1129310,
               "title": "블루베리잼 추가",
               "titleEn": "Blueberry Jam",
-              "priceValue": 1000,
-              "state": "ON_SALE"
-            },
-            {
-              "id": 1129311,
-              "title": "딸기잼 추가",
-              "titleEn": "Strawberry Jam",
               "priceValue": 1000,
               "state": "ON_SALE"
             }
@@ -4250,7 +4144,7 @@
           ]
         }
       ],
-      "fingerprint": "18d01aea7c58807f87fabe06b55385e85a697ac3579c34548266026b7132dad5",
+      "fingerprint": "6a6e6c6e935eb8f48dbccf0eb014e05c207b3d14721e909a3a7d73820c517503",
       "imageLocalPath": "data/tossplace-menu/238090/images/7735937-블루베리-크림치즈-와플-32131784ad.jpg",
       "imageHash": "32131784ada4511e43e0d64f09c2537f0933d80517a7fe28166c1ae3122af90d",
       "imageStatus": "skipped-existing-url"
@@ -4301,7 +4195,7 @@
           "titleEn": "Waffle Option",
           "required": false,
           "minChoices": 0,
-          "maxChoices": 5,
+          "maxChoices": 4,
           "choices": [
             {
               "id": 971773,
@@ -4328,13 +4222,6 @@
               "id": 1129310,
               "title": "블루베리잼 추가",
               "titleEn": "Blueberry Jam",
-              "priceValue": 1000,
-              "state": "ON_SALE"
-            },
-            {
-              "id": 1129311,
-              "title": "딸기잼 추가",
-              "titleEn": "Strawberry Jam",
               "priceValue": 1000,
               "state": "ON_SALE"
             }
@@ -4382,7 +4269,7 @@
           ]
         }
       ],
-      "fingerprint": "821366d8079901616f45010ed3238c916521641dc8e27a5202ccb37b5aeaaf85",
+      "fingerprint": "f0734fefedc49c4611516b0ea8d73bb634fddd5ba2df4db337a52905b9e27784",
       "imageLocalPath": "data/tossplace-menu/238090/images/7735910-저당-메이플-시나몬-와플-1795427119.jpg",
       "imageHash": "17954271198c05fedd3d4a176b730718dd0085c632ed10ca45f9d604901331ad",
       "imageStatus": "skipped-existing-url"
@@ -4435,7 +4322,7 @@
           "titleEn": "Waffle Option",
           "required": false,
           "minChoices": 0,
-          "maxChoices": 5,
+          "maxChoices": 4,
           "choices": [
             {
               "id": 971773,
@@ -4462,13 +4349,6 @@
               "id": 1129310,
               "title": "블루베리잼 추가",
               "titleEn": "Blueberry Jam",
-              "priceValue": 1000,
-              "state": "ON_SALE"
-            },
-            {
-              "id": 1129311,
-              "title": "딸기잼 추가",
-              "titleEn": "Strawberry Jam",
               "priceValue": 1000,
               "state": "ON_SALE"
             }
@@ -4499,7 +4379,7 @@
           ]
         }
       ],
-      "fingerprint": "b154e50e55d7f036cd3faae0ae0f969be63ceadc2436bed5a0e262935525e848",
+      "fingerprint": "a01ce44ad83a465255f333bb2be86bc48efc15bdf681369d87b7c518f7c41034",
       "imageLocalPath": "data/tossplace-menu/238090/images/7736391-애플잼-와플-8d65b9a46f.jpg",
       "imageHash": "8d65b9a46f1c183f11ecff2102e5a0df694e601a435f30fb3d4a04819259a8d0",
       "imageStatus": "skipped-existing-url"
@@ -4660,7 +4540,7 @@
           "titleEn": "Waffle Option",
           "required": false,
           "minChoices": 0,
-          "maxChoices": 5,
+          "maxChoices": 4,
           "choices": [
             {
               "id": 971773,
@@ -4687,13 +4567,6 @@
               "id": 1129310,
               "title": "블루베리잼 추가",
               "titleEn": "Blueberry Jam",
-              "priceValue": 1000,
-              "state": "ON_SALE"
-            },
-            {
-              "id": 1129311,
-              "title": "딸기잼 추가",
-              "titleEn": "Strawberry Jam",
               "priceValue": 1000,
               "state": "ON_SALE"
             }
@@ -4724,7 +4597,7 @@
           ]
         }
       ],
-      "fingerprint": "238d7d8adbc154f56c9af73e4c2096fa5d2182ed109931980d3ecc24537f4bc8",
+      "fingerprint": "c70219a10bd51cee1ab0e6379d829ac4a8e1e35a4af01121822dfab7eb860dd1",
       "imageLocalPath": "data/tossplace-menu/238090/images/7853022-클래식-와플-커피-세트-77e6926988.jpg",
       "imageHash": "77e69269885364d3986b8716967fb7e60ee71b0f2cca317e6d9223975750dcaa",
       "imageStatus": "skipped-existing-url"
@@ -4775,7 +4648,7 @@
           "titleEn": "Waffle Option",
           "required": false,
           "minChoices": 0,
-          "maxChoices": 5,
+          "maxChoices": 4,
           "choices": [
             {
               "id": 971773,
@@ -4804,18 +4677,11 @@
               "titleEn": "Blueberry Jam",
               "priceValue": 1000,
               "state": "ON_SALE"
-            },
-            {
-              "id": 1129311,
-              "title": "딸기잼 추가",
-              "titleEn": "Strawberry Jam",
-              "priceValue": 1000,
-              "state": "ON_SALE"
             }
           ]
         }
       ],
-      "fingerprint": "8c2dd51635ccc4f50bc92aff5e330379cf6222857c9707fbe9b3251fd87a27e1",
+      "fingerprint": "1c3ded843924f2160f438ef9d9c5e19d5fd3d23e255e9f57fe25ddcefb5e457e",
       "imageLocalPath": "data/tossplace-menu/238090/images/7965785-와플-3개팩-2e0099ae98.png",
       "imageHash": "2e0099ae9860055c9306bcf14e8f51eb53107f525516a972a87fcfbacc9308a1",
       "imageStatus": "skipped-existing-url"
@@ -4885,6 +4751,44 @@
           ]
         },
         {
+          "id": 316934,
+          "title": "와플 옵션",
+          "titleEn": "Waffle Option",
+          "required": false,
+          "minChoices": 0,
+          "maxChoices": 4,
+          "choices": [
+            {
+              "id": 971773,
+              "title": "시나몬 추가",
+              "titleEn": "Cinnamon",
+              "priceValue": 500,
+              "state": "ON_SALE"
+            },
+            {
+              "id": 971774,
+              "title": "크림치즈 추가",
+              "titleEn": "Cream Cheese",
+              "priceValue": 1000,
+              "state": "ON_SALE"
+            },
+            {
+              "id": 971775,
+              "title": "골든애플잼 추가",
+              "titleEn": "Golden Apple Jam ",
+              "priceValue": 1000,
+              "state": "ON_SALE"
+            },
+            {
+              "id": 1129310,
+              "title": "블루베리잼 추가",
+              "titleEn": "Blueberry Jam",
+              "priceValue": 1000,
+              "state": "ON_SALE"
+            }
+          ]
+        },
+        {
           "id": 473272,
           "title": "와플 아이스크림 추가",
           "titleEn": "Ice Cream",
@@ -4909,7 +4813,7 @@
           ]
         }
       ],
-      "fingerprint": "cb8f819f5ef1a39bb73ef4099d406175b109389b18bc594eae111212f049f864",
+      "fingerprint": "6f3da159dc341c30b0d398ab17148dfe1a2a599fd25ffe8439076e7deb87a431",
       "imageLocalPath": "data/tossplace-menu/238090/images/8433327-아이스크림-와플-8d991c06d1.jpg",
       "imageHash": "8d991c06d123b798de6e608d2d240785c21110acf36e95b055b7639f16e40eb7",
       "imageStatus": "skipped-existing-url"
@@ -4953,47 +4857,6 @@
       "fingerprint": "2871ebbbaaa3ed5df90b7cac8b304c30b9c7be24516d002807fa87f6cc9bcb26",
       "imageLocalPath": "data/tossplace-menu/238090/images/10197088-교토말차쇼콜라-9d28d3d031.jpg",
       "imageHash": "9d28d3d031d728cd946817c735c6dd9ba1693b50a7c16e5636b47a33b131f455",
-      "imageStatus": "skipped-existing-url"
-    },
-    {
-      "id": 10192464,
-      "categoryId": 985967,
-      "categoryTitle": "디저트",
-      "categoryTitleEn": "Dessert",
-      "position": 4,
-      "title": "초콜릿로쉐케익",
-      "titleEn": "Chocolate Roche Cake",
-      "description": "부드러운 스페인산 고급 초콜릿 위에 고소하게 구운 헤이즐넛을 올려\n한 입 베어 물면 진한 초콜릿 풍미가 가득 퍼지는 케이크",
-      "descriptionEn": "Chocolate-coated cake with roasted hazelnuts and rich chocolate flavor.",
-      "state": "ON_SALE",
-      "priceValue": 10900,
-      "priceTitle": "기본",
-      "imageUrl": "https://place-static.tossplace.com/public/live/PUBLIC/2026-05-12/643d509d-6f8f-4186-a5ba-28c4839cc761",
-      "labels": [
-        "인기"
-      ],
-      "optionSets": [
-        {
-          "id": 377185,
-          "title": "하트 초",
-          "titleEn": "Heart Candle ",
-          "required": false,
-          "minChoices": 0,
-          "maxChoices": 1,
-          "choices": [
-            {
-              "id": 1168613,
-              "title": "하트 초",
-              "titleEn": "Heart Candle ",
-              "priceValue": 1500,
-              "state": "ON_SALE"
-            }
-          ]
-        }
-      ],
-      "fingerprint": "cd65ec7707ff0a4eed5f0e599d14e98080b709f368b6c48bab968e2da7e2dfd7",
-      "imageLocalPath": "data/tossplace-menu/238090/images/10192464-초콜릿로쉐케익-52fe1dcc82.jpg",
-      "imageHash": "52fe1dcc82b800fd1494dbfa9cf12ca59474a0af9d602087499a9d4e9a1ce6fe",
       "imageStatus": "skipped-existing-url"
     },
     {
