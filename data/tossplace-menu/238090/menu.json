@@ -2,20 +2,20 @@
   "merchantId": 238090,
   "merchantName": "클루미 유니버스",
   "merchantStatus": "OPEN",
-  "fetchedAt": "2026-09-26T23:13:16.016Z",
+  "fetchedAt": "2026-09-27T23:27:08.429Z",
   "summary": {
-    "total": 82,
-    "added": 0,
-    "changed": 10,
-    "unchanged": 72,
-    "removed": 3
+    "total": 79,
+    "added": 2,
+    "changed": 1,
+    "unchanged": 76,
+    "removed": 5
   },
   "imageSummary": {
-    "skipped-existing-url": 78,
+    "skipped-existing-url": 75,
     "missing": 1,
-    "skipped-existing-hash": 1,
+    "downloaded": 1,
     "failed-http-timeout": 1,
-    "downloaded": 1
+    "skipped-existing-hash": 1
   },
   "checks": {
     "missingImages": [
@@ -85,13 +85,6 @@
         "imageLocalPath": "data/tossplace-menu/238090/images/6979125-복숭아아이스티-4cd29fc8e8.jpg"
       },
       {
-        "id": 6979384,
-        "categoryTitle": "에이드",
-        "title": "자몽에이드",
-        "description": "",
-        "imageLocalPath": "data/tossplace-menu/238090/images/6979384-자몽에이드-ab280d617a.png"
-      },
-      {
         "id": 6979327,
         "categoryTitle": "에이드",
         "title": "레몬에이드",
@@ -111,27 +104,6 @@
         "title": "클루미 맨투맨 티셔츠",
         "description": "",
         "imageLocalPath": "data/tossplace-menu/238090/images/9276227-클루미-맨투맨-티셔츠-f6692afc7b.png"
-      },
-      {
-        "id": 6982159,
-        "categoryTitle": "병음료",
-        "title": "제로콜라",
-        "description": "",
-        "imageLocalPath": "data/tossplace-menu/238090/images/6982159-제로콜라-4100e0e807.jpg"
-      },
-      {
-        "id": 8535124,
-        "categoryTitle": "병음료",
-        "title": "콜라",
-        "description": "",
-        "imageLocalPath": "data/tossplace-menu/238090/images/8535124-콜라-716006158c.jpg"
-      },
-      {
-        "id": 6982172,
-        "categoryTitle": "병음료",
-        "title": "에비앙 생수",
-        "description": "",
-        "imageLocalPath": "data/tossplace-menu/238090/images/6982172-에비앙-생수-c701abbf20.jpg"
       }
     ],
     "duplicateImages": [
@@ -192,6 +164,26 @@
             "title": "[시즌한정]무화과&크림치즈 와플",
             "description": "달콤한 무화과와 부드러운 크림치즈 무스, 피스타치오를 올린 바삭한 리에쥬 와플.",
             "imageLocalPath": "data/tossplace-menu/238090/images/16230479-시즌한정-무화과-크림치즈-와플-86ba9a15c7.jpg"
+          }
+        ]
+      },
+      {
+        "imageHash": "87f8a2942f2b5a6231dcf3474d72da5a0a7ddb0f9fcc603bdca0a39d9a4f5a0d",
+        "imageLocalPath": "data/tossplace-menu/238090/images/10683603-피스타치오-초코-반하나-와플-87f8a2942f.jpg",
+        "items": [
+          {
+            "id": 10683603,
+            "categoryTitle": "인기 메뉴",
+            "title": "[피스타치오] 초코 반하나 와플",
+            "description": "앵커 버터로 만든 겉바속쫀 리에주 와플에 바나나, 생크림, 초코소스, 피스타치오를 올린 클루미 시그니처 와플. 한 입에 반해버릴지도 몰라요.",
+            "imageLocalPath": "data/tossplace-menu/238090/images/10683603-피스타치오-초코-반하나-와플-87f8a2942f.jpg"
+          },
+          {
+            "id": 13137641,
+            "categoryTitle": "벨기에와플",
+            "title": "[피스타치오]초코 반하나와플",
+            "description": "\"한 입 먹으면 정말 반할지도 몰라요!\"\n앵커 버터로 만든 겉바속쫀 리에주 와플에 바나나, 생크림, 초코소스, 피스타치오를 올린 클루미 시그니처 와플.",
+            "imageLocalPath": "data/tossplace-menu/238090/images/10683603-피스타치오-초코-반하나-와플-87f8a2942f.jpg"
           }
         ]
       },
@@ -1441,7 +1433,55 @@
       "fingerprint": "30889dcc46246ce43db3975c123ea554fd91650b02ed6262a2506f927b1c98d1",
       "imageLocalPath": "data/tossplace-menu/238090/images/16230479-시즌한정-무화과-크림치즈-와플-86ba9a15c7.jpg",
       "imageHash": "86ba9a15c7dfd9f8d97086281499444715fe62d2c3207f639cdb6ba7f9798225",
-      "imageStatus": "skipped-existing-hash"
+      "imageStatus": "skipped-existing-url"
+    },
+    {
+      "id": 10683603,
+      "categoryId": 867315,
+      "categoryTitle": "인기 메뉴",
+      "categoryTitleEn": "BEST",
+      "position": 7,
+      "title": "[피스타치오] 초코 반하나 와플",
+      "titleEn": "[Pistachio] Banana Waffle",
+      "description": "앵커 버터로 만든 겉바속쫀 리에주 와플에 바나나, 생크림, 초코소스, 피스타치오를 올린 클루미 시그니처 와플. 한 입에 반해버릴지도 몰라요.",
+      "descriptionEn": "A Liège waffle made with Anchor butter, topped with banana, whipped cream, chocolate sauce, and pistachio. Crispy, chewy, and dangerously easy to fall for.",
+      "state": "ON_SALE",
+      "priceValue": 12000,
+      "priceTitle": "기본",
+      "imageUrl": "https://place-static.tossplace.com/public/live/PUBLIC/2026-05-09/59d70125-6af4-4c19-a4c7-31c8f4d0eb00",
+      "labels": [
+        "인기"
+      ],
+      "optionSets": [
+        {
+          "id": 366680,
+          "title": "와플 컷팅",
+          "titleEn": "Waffle Cutting",
+          "required": true,
+          "minChoices": 1,
+          "maxChoices": 1,
+          "choices": [
+            {
+              "id": 1135717,
+              "title": "그대로 주세요",
+              "titleEn": "Whole",
+              "priceValue": 0,
+              "state": "ON_SALE"
+            },
+            {
+              "id": 1135716,
+              "title": "먹기좋게 잘라주세요",
+              "titleEn": "Cut",
+              "priceValue": 0,
+              "state": "ON_SALE"
+            }
+          ]
+        }
+      ],
+      "fingerprint": "b8217821c33b131d922de8f58fd06eb2b1c60bc2a3f0411ebdebb9f701f7bea8",
+      "imageLocalPath": "data/tossplace-menu/238090/images/10683603-피스타치오-초코-반하나-와플-87f8a2942f.jpg",
+      "imageHash": "87f8a2942f2b5a6231dcf3474d72da5a0a7ddb0f9fcc603bdca0a39d9a4f5a0d",
+      "imageStatus": "downloaded"
     },
     {
       "id": 13541356,
@@ -3850,6 +3890,78 @@
       "imageStatus": "skipped-existing-url"
     },
     {
+      "id": 13137641,
+      "categoryId": 789332,
+      "categoryTitle": "벨기에와플",
+      "categoryTitleEn": "Belgium Waffle",
+      "position": 1,
+      "title": "[피스타치오]초코 반하나와플",
+      "titleEn": "[Pistachio] Banana Waffle",
+      "description": "\"한 입 먹으면 정말 반할지도 몰라요!\"\n앵커 버터로 만든 겉바속쫀 리에주 와플에 바나나, 생크림, 초코소스, 피스타치오를 올린 클루미 시그니처 와플.",
+      "descriptionEn": "A Liège waffle made with Anchor butter, topped with banana, whipped cream, chocolate sauce, and pistachio. Crispy, chewy, and dangerously easy to fall for.",
+      "state": "ON_SALE",
+      "priceValue": 12000,
+      "priceTitle": "기본",
+      "imageUrl": "https://place-static.tossplace.com/public/live/PUBLIC/2026-05-09/ae7594c4-fb11-480f-a5c1-aeab9a2032d9",
+      "labels": [
+        "인기"
+      ],
+      "optionSets": [
+        {
+          "id": 366680,
+          "title": "와플 컷팅",
+          "titleEn": "Waffle Cutting",
+          "required": true,
+          "minChoices": 1,
+          "maxChoices": 1,
+          "choices": [
+            {
+              "id": 1135717,
+              "title": "그대로 주세요",
+              "titleEn": "Whole",
+              "priceValue": 0,
+              "state": "ON_SALE"
+            },
+            {
+              "id": 1135716,
+              "title": "먹기좋게 잘라주세요",
+              "titleEn": "Cut",
+              "priceValue": 0,
+              "state": "ON_SALE"
+            }
+          ]
+        },
+        {
+          "id": 473272,
+          "title": "와플 아이스크림 추가",
+          "titleEn": "Ice Cream",
+          "required": false,
+          "minChoices": 0,
+          "maxChoices": 2,
+          "choices": [
+            {
+              "id": 1462666,
+              "title": "바닐라",
+              "titleEn": "Vanilla",
+              "priceValue": 2500,
+              "state": "ON_SALE"
+            },
+            {
+              "id": 1462667,
+              "title": "초코",
+              "titleEn": "Chocolate",
+              "priceValue": 2500,
+              "state": "ON_SALE"
+            }
+          ]
+        }
+      ],
+      "fingerprint": "294b8d19b122bccea474d9d34409349162fee2699d8298e4e8e1ad1a6ce2fa80",
+      "imageLocalPath": "data/tossplace-menu/238090/images/10683603-피스타치오-초코-반하나-와플-87f8a2942f.jpg",
+      "imageHash": "87f8a2942f2b5a6231dcf3474d72da5a0a7ddb0f9fcc603bdca0a39d9a4f5a0d",
+      "imageStatus": "skipped-existing-hash"
+    },
+    {
       "id": 16230479,
       "categoryId": 789332,
       "categoryTitle": "벨기에와플",
@@ -3912,7 +4024,7 @@
       "fingerprint": "93a12d1415f9a1c38956f6d7b98f09d1175f5e29711f208eb39003f4eca344b8",
       "imageLocalPath": "data/tossplace-menu/238090/images/16230479-시즌한정-무화과-크림치즈-와플-86ba9a15c7.jpg",
       "imageHash": "86ba9a15c7dfd9f8d97086281499444715fe62d2c3207f639cdb6ba7f9798225",
-      "imageStatus": "downloaded"
+      "imageStatus": "skipped-existing-url"
     },
     {
       "id": 7735791,
@@ -4819,47 +4931,6 @@
       "imageStatus": "skipped-existing-url"
     },
     {
-      "id": 10197088,
-      "categoryId": 985967,
-      "categoryTitle": "디저트",
-      "categoryTitleEn": "Dessert",
-      "position": 2,
-      "title": "교토말차쇼콜라",
-      "titleEn": "Kyoto Matcha Chocolat",
-      "description": "꾸덕한 갸또 시트와 말차 가나슈에\n부드러운 우유 크림이 어우러진 케이크",
-      "descriptionEn": "White chocolate matcha cake with creamy matcha ganache — a melt-in-your-mouth delight.",
-      "state": "ON_SALE",
-      "priceValue": 10900,
-      "priceTitle": "기본",
-      "imageUrl": "https://place-static.tossplace.com/public/live/PUBLIC/2026-05-12/5058ffa0-185b-446a-a2b0-8f8701d1ca87",
-      "labels": [
-        "인기"
-      ],
-      "optionSets": [
-        {
-          "id": 377185,
-          "title": "하트 초",
-          "titleEn": "Heart Candle ",
-          "required": false,
-          "minChoices": 0,
-          "maxChoices": 1,
-          "choices": [
-            {
-              "id": 1168613,
-              "title": "하트 초",
-              "titleEn": "Heart Candle ",
-              "priceValue": 1500,
-              "state": "ON_SALE"
-            }
-          ]
-        }
-      ],
-      "fingerprint": "2871ebbbaaa3ed5df90b7cac8b304c30b9c7be24516d002807fa87f6cc9bcb26",
-      "imageLocalPath": "data/tossplace-menu/238090/images/10197088-교토말차쇼콜라-9d28d3d031.jpg",
-      "imageHash": "9d28d3d031d728cd946817c735c6dd9ba1693b50a7c16e5636b47a33b131f455",
-      "imageStatus": "skipped-existing-url"
-    },
-    {
       "id": 10114893,
       "categoryId": 985967,
       "categoryTitle": "디저트",
@@ -5010,7 +5081,7 @@
       "titleEn": "[100%] Strawberry Juice",
       "description": "100% 딸기가 전하는 순수한 맛:\n오직 신선한 제철 딸기만을 아낌없이 갈아 넣어, 첨가물 없이도 딸기 본연의 달콤하고 상큼한 맛을 완벽하게 즐길 수 있습니다. 한 모금 마실 때마다 입안 가득 퍼지는 신선한 딸기 향을 느껴보세요.",
       "descriptionEn": "100% Pure Taste from Strawberries:\nWe generously blend only the freshest in-season strawberries, so you can perfectly enjoy their natural, sweet, and refreshing taste, completely free of additives. Experience the vibrant, fresh strawberry aroma that fills your mouth with every single sip.",
-      "state": "SOLD_OUT",
+      "state": "ON_SALE",
       "priceValue": 7500,
       "priceTitle": "기본",
       "imageUrl": "https://place-static.tossplace.com/public/live/PUBLIC/2026-05-16/ac9448af-48d7-457d-b7dd-dffe70077851",
@@ -5018,7 +5089,7 @@
         "인기"
       ],
       "optionSets": [],
-      "fingerprint": "a5f7b855c4eafe7efa4f4602075c5f5f89dbedb9c18205fb9a15643a95549b59",
+      "fingerprint": "ca8b9629e4b89cec0955f16b1cff4de6bb2e4f61b90c6bb041578d8759cfee05",
       "imageLocalPath": "data/tossplace-menu/238090/images/6979395-100-딸기주스-759a10f7aa.jpg",
       "imageHash": "759a10f7aac596cc29851495f75b6e5f1f036cea4ec249ca3b8a257b1baac2fc",
       "imageStatus": "skipped-existing-url"
@@ -5424,27 +5495,6 @@
       "imageStatus": "skipped-existing-url"
     },
     {
-      "id": 6979384,
-      "categoryId": 722148,
-      "categoryTitle": "에이드",
-      "categoryTitleEn": "Ade",
-      "position": 1,
-      "title": "자몽에이드",
-      "titleEn": "Grapefruit Ade",
-      "description": "",
-      "descriptionEn": "",
-      "state": "SOLD_OUT",
-      "priceValue": 6000,
-      "priceTitle": "기본",
-      "imageUrl": "https://place-static.tossplace.com/public/live/PUBLIC/2025-08-24/f8d85512-f882-41c1-871c-7dab55c3ade6",
-      "labels": [],
-      "optionSets": [],
-      "fingerprint": "0d91eaaf3adf827bbcaf8175ce0d63cccf499c46e38d5f8b047ebab71717aaa7",
-      "imageLocalPath": "data/tossplace-menu/238090/images/6979384-자몽에이드-ab280d617a.png",
-      "imageHash": "ab280d617a950893105daf718d9c478499c70a91d5c3bcff6901db5e2ef29dbc",
-      "imageStatus": "skipped-existing-url"
-    },
-    {
       "id": 6979327,
       "categoryId": 722148,
       "categoryTitle": "에이드",
@@ -5763,69 +5813,6 @@
       "fingerprint": "b48a197a332aa24c17b8bf426566b61aaa5cca9708ddb86776dd82e9264266b7",
       "imageLocalPath": "data/tossplace-menu/238090/images/10028854-클루미-서울-반팔티-adfae42acb.jpg",
       "imageHash": "adfae42acba0d05b9767ff7a101b9212297323124e371ab74c11496e4d2188e1",
-      "imageStatus": "skipped-existing-url"
-    },
-    {
-      "id": 6982159,
-      "categoryId": 724071,
-      "categoryTitle": "병음료",
-      "categoryTitleEn": "Bottle",
-      "position": 2,
-      "title": "제로콜라",
-      "titleEn": "Coke Zero",
-      "description": "",
-      "descriptionEn": "",
-      "state": "ON_SALE",
-      "priceValue": 3000,
-      "priceTitle": "기본",
-      "imageUrl": "https://place-static.tossplace.com/public/live/PUBLIC/2025-08-23/a5c60d93-2d29-4c3a-a88f-7d698e97fe29",
-      "labels": [],
-      "optionSets": [],
-      "fingerprint": "aec4746771a6575f3e7dfe2262651eb811e410708f0ce770bad36e1f8e2285d4",
-      "imageLocalPath": "data/tossplace-menu/238090/images/6982159-제로콜라-4100e0e807.jpg",
-      "imageHash": "4100e0e8077b031f57e62eec506fe94c1552fa00f95ea517416c9e0a4b49d17f",
-      "imageStatus": "skipped-existing-url"
-    },
-    {
-      "id": 8535124,
-      "categoryId": 724071,
-      "categoryTitle": "병음료",
-      "categoryTitleEn": "Bottle",
-      "position": 3,
-      "title": "콜라",
-      "titleEn": "Coke",
-      "description": "",
-      "descriptionEn": "",
-      "state": "ON_SALE",
-      "priceValue": 3000,
-      "priceTitle": "기본",
-      "imageUrl": "https://place-static.tossplace.com/public/live/PUBLIC/2025-11-13/110e9467-f811-4fe1-b744-316e02b45c2e",
-      "labels": [],
-      "optionSets": [],
-      "fingerprint": "3ee4d72438cf57762e4b2c48fa7b2adde6346c516b0f404b0d44602fbc21b565",
-      "imageLocalPath": "data/tossplace-menu/238090/images/8535124-콜라-716006158c.jpg",
-      "imageHash": "716006158cc01bb27e9b85619a8ddb2a470a904940d2127248c4f489a23498ae",
-      "imageStatus": "skipped-existing-url"
-    },
-    {
-      "id": 6982172,
-      "categoryId": 724071,
-      "categoryTitle": "병음료",
-      "categoryTitleEn": "Bottle",
-      "position": 4,
-      "title": "에비앙 생수",
-      "titleEn": "Evian Water",
-      "description": "",
-      "descriptionEn": "",
-      "state": "ON_SALE",
-      "priceValue": 3000,
-      "priceTitle": "기본",
-      "imageUrl": "https://place-static.tossplace.com/public/live/PUBLIC/2025-08-23/3dc927d4-6cb4-4162-87d6-2cb43d887bc4",
-      "labels": [],
-      "optionSets": [],
-      "fingerprint": "7e32c747717870e681ecdc3ea7c935acd874893d028340e983427178351b6cdb",
-      "imageLocalPath": "data/tossplace-menu/238090/images/6982172-에비앙-생수-c701abbf20.jpg",
-      "imageHash": "c701abbf20622f9ba9ded8b04d249268ab1cc7df1a3a77820e5662631aeac2a3",
       "imageStatus": "skipped-existing-url"
     }
   ],
