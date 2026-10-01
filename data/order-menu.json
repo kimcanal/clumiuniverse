@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-27T23:27:08.429Z",
+  "generatedAt": "2026-10-01T00:13:33.831Z",
   "merchantId": 238090,
   "items": [
     {
@@ -2536,6 +2536,53 @@
       "imageLocalPath": "data/tossplace-menu/238090/images/12829519-애플-아메리카노-d516b7102e.webp"
     },
     {
+      "id": 12936816,
+      "categoryTitle": "커피",
+      "categoryTitleEn": "Coffee",
+      "title": "[오렌지100%] 아메리카노",
+      "titleEn": "[Orange100%] Americano",
+      "description": "상큼한 오렌지100% 와 깊은 커피가 어우러진 아메리카노\n가볍고 청량한 시트러스 커피",
+      "descriptionEn": "A refreshing Americano with fresh orange100%  and rich coffee\nLight, citrusy, and crisp taste",
+      "priceValue": 6500,
+      "priceTitle": "기본",
+      "available": false,
+      "labels": [],
+      "optionSets": [
+        {
+          "id": 296010,
+          "title": "원두 선택",
+          "titleEn": "beans",
+          "required": true,
+          "minChoices": 1,
+          "maxChoices": 1,
+          "choices": [
+            {
+              "id": 901204,
+              "title": "고소한 원두",
+              "titleEn": "savory beans",
+              "priceValue": 0,
+              "available": true
+            },
+            {
+              "id": 901205,
+              "title": "산미있는 원두",
+              "titleEn": "acidity beans",
+              "priceValue": 0,
+              "available": true
+            },
+            {
+              "id": 901206,
+              "title": "디카페인 원두",
+              "titleEn": "decaffeine",
+              "priceValue": 500,
+              "available": true
+            }
+          ]
+        }
+      ],
+      "imageLocalPath": "data/tossplace-menu/238090/images/12936816-오렌지100-아메리카노-70bc0ca887.webp"
+    },
+    {
       "id": 12936713,
       "categoryTitle": "커피",
       "categoryTitleEn": "Coffee",
@@ -4231,6 +4278,111 @@
       "imageLocalPath": "data/tossplace-menu/238090/images/8433327-아이스크림-와플-8d991c06d1.webp"
     },
     {
+      "id": 10197088,
+      "categoryTitle": "디저트",
+      "categoryTitleEn": "Dessert",
+      "title": "교토말차쇼콜라",
+      "titleEn": "Kyoto Matcha Chocolat",
+      "description": "꾸덕한 갸또 시트와 말차 가나슈에\n부드러운 우유 크림이 어우러진 케이크",
+      "descriptionEn": "White chocolate matcha cake with creamy matcha ganache — a melt-in-your-mouth delight.",
+      "priceValue": 10900,
+      "priceTitle": "기본",
+      "available": true,
+      "labels": [
+        "인기"
+      ],
+      "optionSets": [
+        {
+          "id": 377185,
+          "title": "하트 초",
+          "titleEn": "Heart Candle ",
+          "required": false,
+          "minChoices": 0,
+          "maxChoices": 1,
+          "choices": [
+            {
+              "id": 1168613,
+              "title": "하트 초",
+              "titleEn": "Heart Candle ",
+              "priceValue": 1500,
+              "available": true
+            }
+          ]
+        }
+      ],
+      "imageLocalPath": "data/tossplace-menu/238090/images/10197088-교토말차쇼콜라-9d28d3d031.webp"
+    },
+    {
+      "id": 10842350,
+      "categoryTitle": "디저트",
+      "categoryTitleEn": "Dessert",
+      "title": "얼그레이 무화과",
+      "titleEn": "Earl Grey Fig",
+      "description": "달콤한 무화과가 듬뿍 들어간 고소한 시트 위에,\n향긋한 얼그레이 크림을 올린 부드러운 케이크 ☕🍰",
+      "descriptionEn": "A soft cake layered with nutty sponge filled with sweet figs, topped with fragrant Earl Grey cream ☕🍰",
+      "priceValue": 10900,
+      "priceTitle": "기본",
+      "available": true,
+      "labels": [
+        "인기"
+      ],
+      "optionSets": [
+        {
+          "id": 377185,
+          "title": "하트 초",
+          "titleEn": "Heart Candle ",
+          "required": false,
+          "minChoices": 0,
+          "maxChoices": 1,
+          "choices": [
+            {
+              "id": 1168613,
+              "title": "하트 초",
+              "titleEn": "Heart Candle ",
+              "priceValue": 1500,
+              "available": true
+            }
+          ]
+        }
+      ],
+      "imageLocalPath": "data/tossplace-menu/238090/images/10842350-얼그레이-무화과-0f5f5e5bf2.webp"
+    },
+    {
+      "id": 10192464,
+      "categoryTitle": "디저트",
+      "categoryTitleEn": "Dessert",
+      "title": "초콜릿로쉐케익",
+      "titleEn": "Chocolate Roche Cake",
+      "description": "부드러운 스페인산 고급 초콜릿 위에 고소하게 구운 헤이즐넛을 올려\n한 입 베어 물면 진한 초콜릿 풍미가 가득 퍼지는 케이크",
+      "descriptionEn": "Chocolate-coated cake with roasted hazelnuts and rich chocolate flavor.",
+      "priceValue": 10900,
+      "priceTitle": "기본",
+      "available": true,
+      "labels": [
+        "인기"
+      ],
+      "optionSets": [
+        {
+          "id": 377185,
+          "title": "하트 초",
+          "titleEn": "Heart Candle ",
+          "required": false,
+          "minChoices": 0,
+          "maxChoices": 1,
+          "choices": [
+            {
+              "id": 1168613,
+              "title": "하트 초",
+              "titleEn": "Heart Candle ",
+              "priceValue": 1500,
+              "available": true
+            }
+          ]
+        }
+      ],
+      "imageLocalPath": "data/tossplace-menu/238090/images/10192464-초콜릿로쉐케익-52fe1dcc82.webp"
+    },
+    {
       "id": 10114893,
       "categoryTitle": "디저트",
       "categoryTitleEn": "Dessert",
@@ -4276,6 +4428,21 @@
       "labels": [],
       "optionSets": [],
       "imageLocalPath": "data/tossplace-menu/238090/images/16385006-진한-치즈-케이크-5c0eb416f1.webp"
+    },
+    {
+      "id": 17098517,
+      "categoryTitle": "디저트",
+      "categoryTitleEn": "Dessert",
+      "title": "클루미 당근케이크",
+      "titleEn": "Clumi Carrot Cake",
+      "description": "진한 치즈 크림과 호두가 가득한 클래식 스타일 당근케이크",
+      "descriptionEn": "Classic Carrot Cake with Cream Cheese Frosting & Walnuts",
+      "priceValue": 10900,
+      "priceTitle": "기본",
+      "available": true,
+      "labels": [],
+      "optionSets": [],
+      "imageLocalPath": "data/tossplace-menu/238090/images/17098517-클루미-당근케이크-1d9744db1a.webp"
     },
     {
       "id": 13579307,

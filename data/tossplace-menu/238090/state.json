@@ -624,6 +624,46 @@
       "title": "[피스타치오]초코 반하나와플",
       "sourceUrl": "https://place-static.tossplace.com/public/live/PUBLIC/2026-05-09/ae7594c4-fb11-480f-a5c1-aeab9a2032d9",
       "updatedAt": "2026-09-27T23:27:04.937Z"
+    },
+    "https://place-static.tossplace.com/public/live/PUBLIC/2026-04-25/c8dc07de-a876-4f43-a47b-483916623336": {
+      "localPath": "data/tossplace-menu/238090/images/12936816-오렌지100-아메리카노-70bc0ca887.jpg",
+      "hash": "70bc0ca887e53fd4e7111b906747975881fb827f3e0080e7ff33ee6c60b71a39",
+      "itemId": 12936816,
+      "title": "[오렌지100%] 아메리카노",
+      "sourceUrl": "https://place-static.tossplace.com/public/live/PUBLIC/2026-04-25/c8dc07de-a876-4f43-a47b-483916623336",
+      "updatedAt": "2026-10-01T00:13:30.574Z"
+    },
+    "https://place-static.tossplace.com/public/live/PUBLIC/2026-05-12/5058ffa0-185b-446a-a2b0-8f8701d1ca87": {
+      "localPath": "data/tossplace-menu/238090/images/10197088-교토말차쇼콜라-9d28d3d031.jpg",
+      "hash": "9d28d3d031d728cd946817c735c6dd9ba1693b50a7c16e5636b47a33b131f455",
+      "itemId": 10197088,
+      "title": "교토말차쇼콜라",
+      "sourceUrl": "https://place-static.tossplace.com/public/live/PUBLIC/2026-05-12/5058ffa0-185b-446a-a2b0-8f8701d1ca87",
+      "updatedAt": "2026-10-01T00:13:30.620Z"
+    },
+    "https://place-static.tossplace.com/public/live/PUBLIC/2026-05-12/965186ba-98fb-4c6b-bdd7-15c905728f22": {
+      "localPath": "data/tossplace-menu/238090/images/10842350-얼그레이-무화과-0f5f5e5bf2.jpg",
+      "hash": "0f5f5e5bf2263c6d32c3cf25d28b16a234dd70a0ccd3b2088184f007f50fbc48",
+      "itemId": 10842350,
+      "title": "얼그레이 무화과",
+      "sourceUrl": "https://place-static.tossplace.com/public/live/PUBLIC/2026-05-12/965186ba-98fb-4c6b-bdd7-15c905728f22",
+      "updatedAt": "2026-10-01T00:13:30.629Z"
+    },
+    "https://place-static.tossplace.com/public/live/PUBLIC/2026-05-12/643d509d-6f8f-4186-a5ba-28c4839cc761": {
+      "localPath": "data/tossplace-menu/238090/images/10192464-초콜릿로쉐케익-52fe1dcc82.jpg",
+      "hash": "52fe1dcc82b800fd1494dbfa9cf12ca59474a0af9d602087499a9d4e9a1ce6fe",
+      "itemId": 10192464,
+      "title": "초콜릿로쉐케익",
+      "sourceUrl": "https://place-static.tossplace.com/public/live/PUBLIC/2026-05-12/643d509d-6f8f-4186-a5ba-28c4839cc761",
+      "updatedAt": "2026-10-01T00:13:30.689Z"
+    },
+    "https://place-static.tossplace.com/public/live/PUBLIC/2026-09-12/9a2366aa-76e5-47c0-b976-35c05f5b08d4": {
+      "localPath": "data/tossplace-menu/238090/images/17098517-클루미-당근케이크-1d9744db1a.jpg",
+      "hash": "1d9744db1a7e6be251ef0ae9ff7b66a98042695bea2c5ecfa33d869545b78f96",
+      "itemId": 17098517,
+      "title": "클루미 당근케이크",
+      "sourceUrl": "https://place-static.tossplace.com/public/live/PUBLIC/2026-09-12/9a2366aa-76e5-47c0-b976-35c05f5b08d4",
+      "updatedAt": "2026-10-01T00:13:30.819Z"
     }
   },
   "imagesByHash": {
@@ -1178,6 +1218,46 @@
       "title": "[피스타치오] 초코 반하나 와플",
       "sourceUrl": "https://place-static.tossplace.com/public/live/PUBLIC/2026-05-09/59d70125-6af4-4c19-a4c7-31c8f4d0eb00",
       "updatedAt": "2026-09-27T23:27:04.759Z"
+    },
+    "70bc0ca887e53fd4e7111b906747975881fb827f3e0080e7ff33ee6c60b71a39": {
+      "localPath": "data/tossplace-menu/238090/images/12936816-오렌지100-아메리카노-70bc0ca887.jpg",
+      "hash": "70bc0ca887e53fd4e7111b906747975881fb827f3e0080e7ff33ee6c60b71a39",
+      "itemId": 12936816,
+      "title": "[오렌지100%] 아메리카노",
+      "sourceUrl": "https://place-static.tossplace.com/public/live/PUBLIC/2026-04-25/c8dc07de-a876-4f43-a47b-483916623336",
+      "updatedAt": "2026-10-01T00:13:30.574Z"
+    },
+    "9d28d3d031d728cd946817c735c6dd9ba1693b50a7c16e5636b47a33b131f455": {
+      "localPath": "data/tossplace-menu/238090/images/10197088-교토말차쇼콜라-9d28d3d031.jpg",
+      "hash": "9d28d3d031d728cd946817c735c6dd9ba1693b50a7c16e5636b47a33b131f455",
+      "itemId": 10197088,
+      "title": "교토말차쇼콜라",
+      "sourceUrl": "https://place-static.tossplace.com/public/live/PUBLIC/2026-05-12/5058ffa0-185b-446a-a2b0-8f8701d1ca87",
+      "updatedAt": "2026-10-01T00:13:30.620Z"
+    },
+    "0f5f5e5bf2263c6d32c3cf25d28b16a234dd70a0ccd3b2088184f007f50fbc48": {
+      "localPath": "data/tossplace-menu/238090/images/10842350-얼그레이-무화과-0f5f5e5bf2.jpg",
+      "hash": "0f5f5e5bf2263c6d32c3cf25d28b16a234dd70a0ccd3b2088184f007f50fbc48",
+      "itemId": 10842350,
+      "title": "얼그레이 무화과",
+      "sourceUrl": "https://place-static.tossplace.com/public/live/PUBLIC/2026-05-12/965186ba-98fb-4c6b-bdd7-15c905728f22",
+      "updatedAt": "2026-10-01T00:13:30.629Z"
+    },
+    "52fe1dcc82b800fd1494dbfa9cf12ca59474a0af9d602087499a9d4e9a1ce6fe": {
+      "localPath": "data/tossplace-menu/238090/images/10192464-초콜릿로쉐케익-52fe1dcc82.jpg",
+      "hash": "52fe1dcc82b800fd1494dbfa9cf12ca59474a0af9d602087499a9d4e9a1ce6fe",
+      "itemId": 10192464,
+      "title": "초콜릿로쉐케익",
+      "sourceUrl": "https://place-static.tossplace.com/public/live/PUBLIC/2026-05-12/643d509d-6f8f-4186-a5ba-28c4839cc761",
+      "updatedAt": "2026-10-01T00:13:30.689Z"
+    },
+    "1d9744db1a7e6be251ef0ae9ff7b66a98042695bea2c5ecfa33d869545b78f96": {
+      "localPath": "data/tossplace-menu/238090/images/17098517-클루미-당근케이크-1d9744db1a.jpg",
+      "hash": "1d9744db1a7e6be251ef0ae9ff7b66a98042695bea2c5ecfa33d869545b78f96",
+      "itemId": 17098517,
+      "title": "클루미 당근케이크",
+      "sourceUrl": "https://place-static.tossplace.com/public/live/PUBLIC/2026-09-12/9a2366aa-76e5-47c0-b976-35c05f5b08d4",
+      "updatedAt": "2026-10-01T00:13:30.819Z"
     }
   },
   "itemsById": {
@@ -1661,6 +1741,26 @@
       "firstSeenAt": "2026-07-21T04:15:20.254Z",
       "updatedAt": "2026-09-03T22:52:12.943Z"
     },
+    "10192464": {
+      "fingerprint": "cd65ec7707ff0a4eed5f0e599d14e98080b709f368b6c48bab968e2da7e2dfd7",
+      "title": "초콜릿로쉐케익",
+      "description": "부드러운 스페인산 고급 초콜릿 위에 고소하게 구운 헤이즐넛을 올려\n한 입 베어 물면 진한 초콜릿 풍미가 가득 퍼지는 케이크",
+      "imageUrl": "https://place-static.tossplace.com/public/live/PUBLIC/2026-05-12/643d509d-6f8f-4186-a5ba-28c4839cc761",
+      "imageLocalPath": "data/tossplace-menu/238090/images/10192464-초콜릿로쉐케익-52fe1dcc82.jpg",
+      "imageHash": "52fe1dcc82b800fd1494dbfa9cf12ca59474a0af9d602087499a9d4e9a1ce6fe",
+      "firstSeenAt": "2026-10-01T00:13:33.831Z",
+      "updatedAt": "2026-10-01T00:13:33.831Z"
+    },
+    "10197088": {
+      "fingerprint": "2871ebbbaaa3ed5df90b7cac8b304c30b9c7be24516d002807fa87f6cc9bcb26",
+      "title": "교토말차쇼콜라",
+      "description": "꾸덕한 갸또 시트와 말차 가나슈에\n부드러운 우유 크림이 어우러진 케이크",
+      "imageUrl": "https://place-static.tossplace.com/public/live/PUBLIC/2026-05-12/5058ffa0-185b-446a-a2b0-8f8701d1ca87",
+      "imageLocalPath": "data/tossplace-menu/238090/images/10197088-교토말차쇼콜라-9d28d3d031.jpg",
+      "imageHash": "9d28d3d031d728cd946817c735c6dd9ba1693b50a7c16e5636b47a33b131f455",
+      "firstSeenAt": "2026-10-01T00:13:33.831Z",
+      "updatedAt": "2026-10-01T00:13:33.831Z"
+    },
     "10433709": {
       "fingerprint": "81987fafdca06b63f066d6b90b838f2d905b291a371ef1a1522d4352a30b427a",
       "title": "리뷰이벤트 Google Review Event",
@@ -1700,6 +1800,16 @@
       "imageHash": "8a7755e5fcbcecfc88db324273149ad47a47514a9afdeb1b07baa4a4b4b17178",
       "firstSeenAt": "2026-07-21T04:15:20.254Z",
       "updatedAt": "2026-08-20T21:16:07.047Z"
+    },
+    "10842350": {
+      "fingerprint": "bea39c24cc19ba3c58b4451ef946ea31b50d59ded39af8c64c570ad057cccc31",
+      "title": "얼그레이 무화과",
+      "description": "달콤한 무화과가 듬뿍 들어간 고소한 시트 위에,\n향긋한 얼그레이 크림을 올린 부드러운 케이크 ☕🍰",
+      "imageUrl": "https://place-static.tossplace.com/public/live/PUBLIC/2026-05-12/965186ba-98fb-4c6b-bdd7-15c905728f22",
+      "imageLocalPath": "data/tossplace-menu/238090/images/10842350-얼그레이-무화과-0f5f5e5bf2.jpg",
+      "imageHash": "0f5f5e5bf2263c6d32c3cf25d28b16a234dd70a0ccd3b2088184f007f50fbc48",
+      "firstSeenAt": "2026-10-01T00:13:33.831Z",
+      "updatedAt": "2026-10-01T00:13:33.831Z"
     },
     "10983319": {
       "fingerprint": "65feb9bfe9146ff94ac4d68cfd30046fa3ad0435b262748c535c30d274431c84",
@@ -1820,6 +1930,16 @@
       "imageHash": "dda910de0ece7d52a0b6ddcfbbd3ef6e0dc9d34497a543c355f61fa2781093e1",
       "firstSeenAt": "2026-07-21T04:15:20.254Z",
       "updatedAt": "2026-09-18T12:03:41.506Z"
+    },
+    "12936816": {
+      "fingerprint": "e55420a46b0086cc59f81ac26bdd4a0811861d6efef53ef4c0f864242dffd8c8",
+      "title": "[오렌지100%] 아메리카노",
+      "description": "상큼한 오렌지100% 와 깊은 커피가 어우러진 아메리카노\n가볍고 청량한 시트러스 커피",
+      "imageUrl": "https://place-static.tossplace.com/public/live/PUBLIC/2026-04-25/c8dc07de-a876-4f43-a47b-483916623336",
+      "imageLocalPath": "data/tossplace-menu/238090/images/12936816-오렌지100-아메리카노-70bc0ca887.jpg",
+      "imageHash": "70bc0ca887e53fd4e7111b906747975881fb827f3e0080e7ff33ee6c60b71a39",
+      "firstSeenAt": "2026-10-01T00:13:33.831Z",
+      "updatedAt": "2026-10-01T00:13:33.831Z"
     },
     "13040656": {
       "fingerprint": "7c802e24bd8ed1f5e83bf3a0657e3716e1620ea1607b810ed01512facd5f61f9",
@@ -1970,24 +2090,19 @@
       "imageHash": "2e771f0a3b85add8606b6bd0c287c10131989b4ca290fab570d753b2ba95c9bb",
       "firstSeenAt": "2026-08-25T21:15:22.454Z",
       "updatedAt": "2026-09-18T12:03:41.506Z"
+    },
+    "17098517": {
+      "fingerprint": "cce6cb8aa0db3b565440f6d3663dfa64c99a10cf4957e2210c93b385f94f5231",
+      "title": "클루미 당근케이크",
+      "description": "진한 치즈 크림과 호두가 가득한 클래식 스타일 당근케이크",
+      "imageUrl": "https://place-static.tossplace.com/public/live/PUBLIC/2026-09-12/9a2366aa-76e5-47c0-b976-35c05f5b08d4",
+      "imageLocalPath": "data/tossplace-menu/238090/images/17098517-클루미-당근케이크-1d9744db1a.jpg",
+      "imageHash": "1d9744db1a7e6be251ef0ae9ff7b66a98042695bea2c5ecfa33d869545b78f96",
+      "firstSeenAt": "2026-10-01T00:13:33.831Z",
+      "updatedAt": "2026-10-01T00:13:33.831Z"
     }
   },
   "runs": [
-    {
-      "at": "2026-08-23T21:09:46.558Z",
-      "summary": {
-        "total": 90,
-        "added": 0,
-        "changed": 1,
-        "unchanged": 89,
-        "removed": 0
-      },
-      "imageSummary": {
-        "skipped-existing-url": 88,
-        "missing": 1,
-        "failed-http-timeout": 1
-      }
-    },
     {
       "at": "2026-08-24T21:17:02.516Z",
       "summary": {
@@ -2272,7 +2387,23 @@
         "failed-http-timeout": 1,
         "skipped-existing-hash": 1
       }
+    },
+    {
+      "at": "2026-10-01T00:13:33.831Z",
+      "summary": {
+        "total": 84,
+        "added": 5,
+        "changed": 0,
+        "unchanged": 79,
+        "removed": 0
+      },
+      "imageSummary": {
+        "skipped-existing-url": 77,
+        "missing": 1,
+        "downloaded": 5,
+        "failed-http-timeout": 1
+      }
     }
   ],
-  "lastRunAt": "2026-09-27T23:27:08.429Z"
+  "lastRunAt": "2026-10-01T00:13:33.831Z"
 }

@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-27T23:27:08.429Z",
+  "generatedAt": "2026-10-01T00:13:33.831Z",
   "merchantId": 238090,
   "items": [
     {
@@ -295,6 +295,16 @@
       "imageLocalPath": "data/tossplace-menu/238090/images/12829519-애플-아메리카노-d516b7102e.webp"
     },
     {
+      "id": 12936816,
+      "categoryTitle": "커피",
+      "categoryTitleEn": "Coffee",
+      "title": "[오렌지100%] 아메리카노",
+      "description": "상큼한 오렌지100% 와 깊은 커피가 어우러진 아메리카노\n가볍고 청량한 시트러스 커피",
+      "state": "SOLD_OUT",
+      "labels": [],
+      "imageLocalPath": "data/tossplace-menu/238090/images/12936816-오렌지100-아메리카노-70bc0ca887.webp"
+    },
+    {
       "id": 12936713,
       "categoryTitle": "커피",
       "categoryTitleEn": "Coffee",
@@ -545,6 +555,42 @@
       "imageLocalPath": "data/tossplace-menu/238090/images/8433327-아이스크림-와플-8d991c06d1.webp"
     },
     {
+      "id": 10197088,
+      "categoryTitle": "디저트",
+      "categoryTitleEn": "Dessert",
+      "title": "교토말차쇼콜라",
+      "description": "꾸덕한 갸또 시트와 말차 가나슈에\n부드러운 우유 크림이 어우러진 케이크",
+      "state": "ON_SALE",
+      "labels": [
+        "인기"
+      ],
+      "imageLocalPath": "data/tossplace-menu/238090/images/10197088-교토말차쇼콜라-9d28d3d031.webp"
+    },
+    {
+      "id": 10842350,
+      "categoryTitle": "디저트",
+      "categoryTitleEn": "Dessert",
+      "title": "얼그레이 무화과",
+      "description": "달콤한 무화과가 듬뿍 들어간 고소한 시트 위에,\n향긋한 얼그레이 크림을 올린 부드러운 케이크 ☕🍰",
+      "state": "ON_SALE",
+      "labels": [
+        "인기"
+      ],
+      "imageLocalPath": "data/tossplace-menu/238090/images/10842350-얼그레이-무화과-0f5f5e5bf2.webp"
+    },
+    {
+      "id": 10192464,
+      "categoryTitle": "디저트",
+      "categoryTitleEn": "Dessert",
+      "title": "초콜릿로쉐케익",
+      "description": "부드러운 스페인산 고급 초콜릿 위에 고소하게 구운 헤이즐넛을 올려\n한 입 베어 물면 진한 초콜릿 풍미가 가득 퍼지는 케이크",
+      "state": "ON_SALE",
+      "labels": [
+        "인기"
+      ],
+      "imageLocalPath": "data/tossplace-menu/238090/images/10192464-초콜릿로쉐케익-52fe1dcc82.webp"
+    },
+    {
       "id": 10114893,
       "categoryTitle": "디저트",
       "categoryTitleEn": "Dessert",
@@ -575,6 +621,16 @@
       "state": "ON_SALE",
       "labels": [],
       "imageLocalPath": "data/tossplace-menu/238090/images/16385006-진한-치즈-케이크-5c0eb416f1.webp"
+    },
+    {
+      "id": 17098517,
+      "categoryTitle": "디저트",
+      "categoryTitleEn": "Dessert",
+      "title": "클루미 당근케이크",
+      "description": "진한 치즈 크림과 호두가 가득한 클래식 스타일 당근케이크",
+      "state": "ON_SALE",
+      "labels": [],
+      "imageLocalPath": "data/tossplace-menu/238090/images/17098517-클루미-당근케이크-1d9744db1a.webp"
     },
     {
       "id": 13579307,
