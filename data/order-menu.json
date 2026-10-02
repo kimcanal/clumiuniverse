@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-01T00:13:33.831Z",
+  "generatedAt": "2026-10-02T00:17:13.897Z",
   "merchantId": 238090,
   "items": [
     {
@@ -4383,6 +4383,23 @@
       "imageLocalPath": "data/tossplace-menu/238090/images/10192464-초콜릿로쉐케익-52fe1dcc82.webp"
     },
     {
+      "id": 11352437,
+      "categoryTitle": "디저트",
+      "categoryTitleEn": "Dessert",
+      "title": "레몬구름 토르테",
+      "titleEn": "Lemon Cloud Torte",
+      "description": "상큼하게 퍼지는 부드러운 레몬 커드와 레몬 제스트,\n입안 가득 싱그러운 풍미를 채워주며 지친 하루에 생기를 더해주는 레몬 케이크.",
+      "descriptionEn": "Infused with silky lemon curd and fresh zest. A vibrant, zesty slice designed to refresh your senses.",
+      "priceValue": 10900,
+      "priceTitle": "기본",
+      "available": false,
+      "labels": [
+        "신규"
+      ],
+      "optionSets": [],
+      "imageLocalPath": "data/tossplace-menu/238090/images/11352437-레몬구름-토르테-b87b32ee1f.webp"
+    },
+    {
       "id": 10114893,
       "categoryTitle": "디저트",
       "categoryTitleEn": "Dessert",
@@ -4424,7 +4441,7 @@
       "descriptionEn": "A classic cheesecake with rich, creamy cheese flavor, crafted simply and traditionally for an everyday favorite.",
       "priceValue": 10900,
       "priceTitle": "기본",
-      "available": true,
+      "available": false,
       "labels": [],
       "optionSets": [],
       "imageLocalPath": "data/tossplace-menu/238090/images/16385006-진한-치즈-케이크-5c0eb416f1.webp"
