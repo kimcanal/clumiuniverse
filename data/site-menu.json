@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-03T00:02:54.648Z",
+  "generatedAt": "2026-10-03T23:24:52.480Z",
   "merchantId": 238090,
   "items": [
     {
@@ -79,16 +79,6 @@
         "신규"
       ],
       "imageLocalPath": "data/tossplace-menu/238090/images/10983319-브런치-오렌지주스-c5355b1554.webp"
-    },
-    {
-      "id": 10433709,
-      "categoryTitle": "브런치",
-      "categoryTitleEn": "Brunch",
-      "title": "리뷰이벤트 Google Review Event",
-      "description": "",
-      "state": "ON_SALE",
-      "labels": [],
-      "imageLocalPath": ""
     },
     {
       "id": 15684889,
@@ -270,7 +260,7 @@
       "description": "에스프레소와 바닐라 아이스크림의 달콤한 조화",
       "state": "ON_SALE",
       "labels": [],
-      "imageLocalPath": "data/tossplace-menu/238090/images/7499596-아포가토-bc9ffd2a33.webp"
+      "imageLocalPath": "data/tossplace-menu/238090/images/7499596-아포가토-65ef9fa43b.webp"
     },
     {
       "id": 11912174,
@@ -283,26 +273,6 @@
         "신규"
       ],
       "imageLocalPath": "data/tossplace-menu/238090/images/11912174-레몬-아메리카노-a66b07d481.webp"
-    },
-    {
-      "id": 12829519,
-      "categoryTitle": "커피",
-      "categoryTitleEn": "Coffee",
-      "title": "애플 아메리카노",
-      "description": "사과의 산뜻한 단맛과 진한 아메리카노의 청량한 조화",
-      "state": "SOLD_OUT",
-      "labels": [],
-      "imageLocalPath": "data/tossplace-menu/238090/images/12829519-애플-아메리카노-d516b7102e.webp"
-    },
-    {
-      "id": 12936816,
-      "categoryTitle": "커피",
-      "categoryTitleEn": "Coffee",
-      "title": "[오렌지100%] 아메리카노",
-      "description": "상큼한 오렌지100% 와 깊은 커피가 어우러진 아메리카노\n가볍고 청량한 시트러스 커피",
-      "state": "SOLD_OUT",
-      "labels": [],
-      "imageLocalPath": "data/tossplace-menu/238090/images/12936816-오렌지100-아메리카노-70bc0ca887.webp"
     },
     {
       "id": 12936713,
@@ -444,7 +414,7 @@
       "description": "진한초콜릿과 부드러운 우유가 만나\n깊고 풍부한 맛을 선사하는 딥 초코 라떼 ☕🍫\n한 모금에 진한 초콜릿의 만족감을 느낄 수 있어요.",
       "state": "ON_SALE",
       "labels": [],
-      "imageLocalPath": ""
+      "imageLocalPath": "data/tossplace-menu/238090/images/6978817-딥초코라떼-f08b05ebed.webp"
     },
     {
       "id": 6978874,
@@ -579,24 +549,12 @@
       "imageLocalPath": "data/tossplace-menu/238090/images/10842350-얼그레이-무화과-0f5f5e5bf2.webp"
     },
     {
-      "id": 10192464,
-      "categoryTitle": "디저트",
-      "categoryTitleEn": "Dessert",
-      "title": "초콜릿로쉐케익",
-      "description": "부드러운 스페인산 고급 초콜릿 위에 고소하게 구운 헤이즐넛을 올려\n한 입 베어 물면 진한 초콜릿 풍미가 가득 퍼지는 케이크",
-      "state": "SOLD_OUT",
-      "labels": [
-        "인기"
-      ],
-      "imageLocalPath": "data/tossplace-menu/238090/images/10192464-초콜릿로쉐케익-52fe1dcc82.webp"
-    },
-    {
       "id": 11352437,
       "categoryTitle": "디저트",
       "categoryTitleEn": "Dessert",
       "title": "레몬구름 토르테",
       "description": "상큼하게 퍼지는 부드러운 레몬 커드와 레몬 제스트,\n입안 가득 싱그러운 풍미를 채워주며 지친 하루에 생기를 더해주는 레몬 케이크.",
-      "state": "SOLD_OUT",
+      "state": "ON_SALE",
       "labels": [
         "신규"
       ],
@@ -625,6 +583,18 @@
       "imageLocalPath": "data/tossplace-menu/238090/images/10652155-케이크-초-8ae83ded46.webp"
     },
     {
+      "id": 11260479,
+      "categoryTitle": "디저트",
+      "categoryTitleEn": "Dessert",
+      "title": "마스카포네 티라미수",
+      "description": "한 스푼 떠올리면 사르르 녹아드는\n부드러운 마스카포네 크림과 깊은 커피 향.\n달콤함 뒤로 은은한 쌉싸름함이 남는 티라미수.",
+      "state": "ON_SALE",
+      "labels": [
+        "신규"
+      ],
+      "imageLocalPath": "data/tossplace-menu/238090/images/11260479-마스카포네-티라미수-bd813e8673.webp"
+    },
+    {
       "id": 17098517,
       "categoryTitle": "디저트",
       "categoryTitleEn": "Dessert",
@@ -633,6 +603,18 @@
       "state": "ON_SALE",
       "labels": [],
       "imageLocalPath": "data/tossplace-menu/238090/images/17098517-클루미-당근케이크-1d9744db1a.webp"
+    },
+    {
+      "id": 17753479,
+      "categoryTitle": "디저트",
+      "categoryTitleEn": "Dessert",
+      "title": "밤송이 몽블랑",
+      "description": "달콤하고 고소한 밤 크림이\n입안에서 사르르 녹아드는 몽블랑.\n",
+      "state": "ON_SALE",
+      "labels": [
+        "신규"
+      ],
+      "imageLocalPath": "data/tossplace-menu/238090/images/17753479-밤송이-몽블랑-1800cf14aa.webp"
     },
     {
       "id": 13579307,
@@ -752,7 +734,7 @@
       "labels": [
         "인기"
       ],
-      "imageLocalPath": "data/tossplace-menu/238090/images/10686488-수월경화-티세트-5개입-8a7755e5fc.webp"
+      "imageLocalPath": "data/tossplace-menu/238090/images/10686488-수월경화-티세트-5개입-ef3d90e4f5.webp"
     },
     {
       "id": 6979125,
@@ -770,7 +752,7 @@
       "categoryTitleEn": "Tea",
       "title": "레몬차",
       "description": "새콤달콤 레몬의 향과 맛을 담은 레몬차",
-      "state": "ON_SALE",
+      "state": "SOLD_OUT",
       "labels": [
         "신규"
       ],

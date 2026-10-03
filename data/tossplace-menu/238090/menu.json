@@ -2,36 +2,20 @@
   "merchantId": 238090,
   "merchantName": "클루미 유니버스",
   "merchantStatus": "OPEN",
-  "fetchedAt": "2026-10-03T00:02:54.648Z",
+  "fetchedAt": "2026-10-03T23:24:52.480Z",
   "summary": {
-    "total": 84,
-    "added": 0,
-    "changed": 2,
-    "unchanged": 82,
-    "removed": 1
+    "total": 82,
+    "added": 2,
+    "changed": 5,
+    "unchanged": 75,
+    "removed": 4
   },
   "imageSummary": {
-    "skipped-existing-url": 82,
-    "missing": 1,
-    "failed-http-timeout": 1
+    "skipped-existing-url": 77,
+    "downloaded": 5
   },
   "checks": {
-    "missingImages": [
-      {
-        "id": 10433709,
-        "categoryTitle": "브런치",
-        "title": "리뷰이벤트 Google Review Event",
-        "description": "",
-        "imageLocalPath": null
-      },
-      {
-        "id": 6978817,
-        "categoryTitle": "논커피",
-        "title": "딥초코라떼",
-        "description": "진한초콜릿과 부드러운 우유가 만나\n깊고 풍부한 맛을 선사하는 딥 초코 라떼 ☕🍫\n한 모금에 진한 초콜릿의 만족감을 느낄 수 있어요.",
-        "imageLocalPath": null
-      }
-    ],
+    "missingImages": [],
     "missingDescriptions": [
       {
         "id": 10999047,
@@ -46,13 +30,6 @@
         "title": "[브런치]오렌지주스",
         "description": "",
         "imageLocalPath": "data/tossplace-menu/238090/images/10983319-브런치-오렌지주스-c5355b1554.jpg"
-      },
-      {
-        "id": 10433709,
-        "categoryTitle": "브런치",
-        "title": "리뷰이벤트 Google Review Event",
-        "description": "",
-        "imageLocalPath": null
       },
       {
         "id": 14267200,
@@ -1305,27 +1282,6 @@
       "imageLocalPath": "data/tossplace-menu/238090/images/11057081-발사믹-글레이즈-7e15828b47.jpg",
       "imageHash": "7e15828b47b7c989d7e559cb459d47c6ac1e66b81900c4fb7ff9fd3da3d33f0b",
       "imageStatus": "skipped-existing-url"
-    },
-    {
-      "id": 10433709,
-      "categoryId": 747020,
-      "categoryTitle": "브런치",
-      "categoryTitleEn": "Brunch",
-      "position": 14,
-      "title": "리뷰이벤트 Google Review Event",
-      "titleEn": "",
-      "description": "",
-      "descriptionEn": "",
-      "state": "ON_SALE",
-      "priceValue": 0,
-      "priceTitle": "기본",
-      "imageUrl": "",
-      "labels": [],
-      "optionSets": [],
-      "fingerprint": "81987fafdca06b63f066d6b90b838f2d905b291a371ef1a1522d4352a30b427a",
-      "imageLocalPath": null,
-      "imageHash": null,
-      "imageStatus": "missing"
     },
     {
       "id": 15684889,
@@ -2868,7 +2824,7 @@
       "state": "ON_SALE",
       "priceValue": 7000,
       "priceTitle": "기본",
-      "imageUrl": "https://place-static.tossplace.com/public/live/PUBLIC/2025-09-20/75a68c84-ec9b-4816-98be-ecaa4cf60783",
+      "imageUrl": "https://place-static.tossplace.com/public/live/PUBLIC/2026-10-03/cfd2b831-1ed4-4059-bbc5-c8b852e50530",
       "labels": [],
       "optionSets": [
         {
@@ -2903,10 +2859,10 @@
           ]
         }
       ],
-      "fingerprint": "fbdba1bfb6d62a4073e99c7fe8c3a1cf8336b505f9ba631e9468562b1b7b3e0e",
-      "imageLocalPath": "data/tossplace-menu/238090/images/7499596-아포가토-bc9ffd2a33.jpg",
-      "imageHash": "bc9ffd2a33be5574ea1b22d4b002a051adc27eed0db3a5ac6709c9c7d8e83fe6",
-      "imageStatus": "skipped-existing-url"
+      "fingerprint": "5c693553cfabb18e6a7e1ce1dd22d404449e0c37c8c2fc0efb09167583a5f802",
+      "imageLocalPath": "data/tossplace-menu/238090/images/7499596-아포가토-65ef9fa43b.jpg",
+      "imageHash": "65ef9fa43ba8485abb2c99ff5ee1f1b5282122534bc31f312955cd84bdae6e4b",
+      "imageStatus": "downloaded"
     },
     {
       "id": 11912174,
@@ -2961,191 +2917,6 @@
       "fingerprint": "ca5a0a3612d28295561bf1cf0e13f403f6c3468827628fdac4964ea4939881df",
       "imageLocalPath": "data/tossplace-menu/238090/images/11912174-레몬-아메리카노-a66b07d481.jpg",
       "imageHash": "a66b07d481ac0818167c513615f116e7f03da94f2358e3c195f5a2a7c00fee8f",
-      "imageStatus": "skipped-existing-url"
-    },
-    {
-      "id": 12829519,
-      "categoryId": 716702,
-      "categoryTitle": "커피",
-      "categoryTitleEn": "Coffee",
-      "position": 12,
-      "title": "애플 아메리카노",
-      "titleEn": "Apple Americano",
-      "description": "사과의 산뜻한 단맛과 진한 아메리카노의 청량한 조화",
-      "descriptionEn": "A refreshing blend of crisp apple sweetness and bold Americano.",
-      "state": "SOLD_OUT",
-      "priceValue": 6000,
-      "priceTitle": "기본",
-      "imageUrl": "https://place-static.tossplace.com/public/live/PUBLIC/2026-04-23/9a31ed11-9317-42a0-b5ed-3aad7bb48a0a",
-      "labels": [],
-      "optionSets": [
-        {
-          "id": 296010,
-          "title": "원두 선택",
-          "titleEn": "beans",
-          "required": true,
-          "minChoices": 1,
-          "maxChoices": 1,
-          "choices": [
-            {
-              "id": 901204,
-              "title": "고소한 원두",
-              "titleEn": "savory beans",
-              "priceValue": 0,
-              "state": "ON_SALE"
-            },
-            {
-              "id": 901205,
-              "title": "산미있는 원두",
-              "titleEn": "acidity beans",
-              "priceValue": 0,
-              "state": "ON_SALE"
-            },
-            {
-              "id": 901206,
-              "title": "디카페인 원두",
-              "titleEn": "decaffeine",
-              "priceValue": 500,
-              "state": "ON_SALE"
-            }
-          ]
-        },
-        {
-          "id": 294937,
-          "title": "온도",
-          "titleEn": "temperature",
-          "required": true,
-          "minChoices": 1,
-          "maxChoices": 1,
-          "choices": [
-            {
-              "id": 897956,
-              "title": "따뜻하게",
-              "titleEn": "HOT",
-              "priceValue": 0,
-              "state": "ON_SALE"
-            },
-            {
-              "id": 897957,
-              "title": "차갑게",
-              "titleEn": "ICE ",
-              "priceValue": 0,
-              "state": "ON_SALE"
-            }
-          ]
-        },
-        {
-          "id": 460585,
-          "title": "컵 사이즈",
-          "titleEn": "Cup Size",
-          "required": false,
-          "minChoices": 0,
-          "maxChoices": 1,
-          "choices": [
-            {
-              "id": 1420320,
-              "title": "레귤러",
-              "titleEn": "Regular",
-              "priceValue": 0,
-              "state": "ON_SALE"
-            },
-            {
-              "id": 1420321,
-              "title": "라지(포장전용)",
-              "titleEn": "Large(To go)",
-              "priceValue": 0,
-              "state": "ON_SALE"
-            }
-          ]
-        },
-        {
-          "id": 294938,
-          "title": "커피 옵션",
-          "titleEn": "Coffee Option",
-          "required": false,
-          "minChoices": 0,
-          "maxChoices": 1,
-          "choices": [
-            {
-              "id": 897960,
-              "title": "샷 추가",
-              "titleEn": "Extra Shot",
-              "priceValue": 500,
-              "state": "ON_SALE"
-            },
-            {
-              "id": 901463,
-              "title": "연하게",
-              "titleEn": "one shot",
-              "priceValue": 0,
-              "state": "ON_SALE"
-            },
-            {
-              "id": 901465,
-              "title": "바닐라시럽추가",
-              "titleEn": "vanilla syrup",
-              "priceValue": 500,
-              "state": "ON_SALE"
-            }
-          ]
-        }
-      ],
-      "fingerprint": "9d4540bf126e2b2f1097bc892bd7ce302b0127c99ee9bae130ed858a257ca3b8",
-      "imageLocalPath": "data/tossplace-menu/238090/images/12829519-애플-아메리카노-d516b7102e.jpg",
-      "imageHash": "d516b7102eee2dcd238eaf8f66c9718b98b56ebec6202d0ea46daf66a3ec7221",
-      "imageStatus": "skipped-existing-url"
-    },
-    {
-      "id": 12936816,
-      "categoryId": 716702,
-      "categoryTitle": "커피",
-      "categoryTitleEn": "Coffee",
-      "position": 13,
-      "title": "[오렌지100%] 아메리카노",
-      "titleEn": "[Orange100%] Americano",
-      "description": "상큼한 오렌지100% 와 깊은 커피가 어우러진 아메리카노\n가볍고 청량한 시트러스 커피",
-      "descriptionEn": "A refreshing Americano with fresh orange100%  and rich coffee\nLight, citrusy, and crisp taste",
-      "state": "SOLD_OUT",
-      "priceValue": 6500,
-      "priceTitle": "기본",
-      "imageUrl": "https://place-static.tossplace.com/public/live/PUBLIC/2026-04-25/c8dc07de-a876-4f43-a47b-483916623336",
-      "labels": [],
-      "optionSets": [
-        {
-          "id": 296010,
-          "title": "원두 선택",
-          "titleEn": "beans",
-          "required": true,
-          "minChoices": 1,
-          "maxChoices": 1,
-          "choices": [
-            {
-              "id": 901204,
-              "title": "고소한 원두",
-              "titleEn": "savory beans",
-              "priceValue": 0,
-              "state": "ON_SALE"
-            },
-            {
-              "id": 901205,
-              "title": "산미있는 원두",
-              "titleEn": "acidity beans",
-              "priceValue": 0,
-              "state": "ON_SALE"
-            },
-            {
-              "id": 901206,
-              "title": "디카페인 원두",
-              "titleEn": "decaffeine",
-              "priceValue": 500,
-              "state": "ON_SALE"
-            }
-          ]
-        }
-      ],
-      "fingerprint": "e55420a46b0086cc59f81ac26bdd4a0811861d6efef53ef4c0f864242dffd8c8",
-      "imageLocalPath": "data/tossplace-menu/238090/images/12936816-오렌지100-아메리카노-70bc0ca887.jpg",
-      "imageHash": "70bc0ca887e53fd4e7111b906747975881fb827f3e0080e7ff33ee6c60b71a39",
       "imageStatus": "skipped-existing-url"
     },
     {
@@ -3844,7 +3615,7 @@
       "state": "ON_SALE",
       "priceValue": 6500,
       "priceTitle": "기본",
-      "imageUrl": "https://place-static.tossplace.com/public/live/PUBLIC/2026-08-14/eb42cdc1-f686-43b7-a517-55d120bc70ac",
+      "imageUrl": "https://place-static.tossplace.com/public/live/PUBLIC/2026-10-03/05369c53-6803-4d1e-b302-1bb0f90873e0",
       "labels": [],
       "optionSets": [
         {
@@ -3889,10 +3660,10 @@
           ]
         }
       ],
-      "fingerprint": "2c675492d98a8451029270b85201ccec8a98b7697f456c07635fdfa87cdaee9a",
-      "imageLocalPath": null,
-      "imageHash": null,
-      "imageStatus": "failed-http-timeout"
+      "fingerprint": "5964cd912e226215a26979be745a8068b4dc460f85a81ae39720c536b8dd325c",
+      "imageLocalPath": "data/tossplace-menu/238090/images/6978817-딥초코라떼-f08b05ebed.jpg",
+      "imageHash": "f08b05ebedaefb7204a9752a0536f889726fa03b4cc81dc57966356f7efca4d7",
+      "imageStatus": "downloaded"
     },
     {
       "id": 6978874,
@@ -5064,47 +4835,6 @@
       "imageStatus": "skipped-existing-url"
     },
     {
-      "id": 10192464,
-      "categoryId": 985967,
-      "categoryTitle": "디저트",
-      "categoryTitleEn": "Dessert",
-      "position": 4,
-      "title": "초콜릿로쉐케익",
-      "titleEn": "Chocolate Roche Cake",
-      "description": "부드러운 스페인산 고급 초콜릿 위에 고소하게 구운 헤이즐넛을 올려\n한 입 베어 물면 진한 초콜릿 풍미가 가득 퍼지는 케이크",
-      "descriptionEn": "Chocolate-coated cake with roasted hazelnuts and rich chocolate flavor.",
-      "state": "SOLD_OUT",
-      "priceValue": 10900,
-      "priceTitle": "기본",
-      "imageUrl": "https://place-static.tossplace.com/public/live/PUBLIC/2026-05-12/643d509d-6f8f-4186-a5ba-28c4839cc761",
-      "labels": [
-        "인기"
-      ],
-      "optionSets": [
-        {
-          "id": 377185,
-          "title": "하트 초",
-          "titleEn": "Heart Candle ",
-          "required": false,
-          "minChoices": 0,
-          "maxChoices": 1,
-          "choices": [
-            {
-              "id": 1168613,
-              "title": "하트 초",
-              "titleEn": "Heart Candle ",
-              "priceValue": 1500,
-              "state": "ON_SALE"
-            }
-          ]
-        }
-      ],
-      "fingerprint": "cd8e9b4f2157263db12aa960f37d4561990a1f1d6254b1fe381051b34d8d50d6",
-      "imageLocalPath": "data/tossplace-menu/238090/images/10192464-초콜릿로쉐케익-52fe1dcc82.jpg",
-      "imageHash": "52fe1dcc82b800fd1494dbfa9cf12ca59474a0af9d602087499a9d4e9a1ce6fe",
-      "imageStatus": "skipped-existing-url"
-    },
-    {
       "id": 11352437,
       "categoryId": 985967,
       "categoryTitle": "디저트",
@@ -5114,7 +4844,7 @@
       "titleEn": "Lemon Cloud Torte",
       "description": "상큼하게 퍼지는 부드러운 레몬 커드와 레몬 제스트,\n입안 가득 싱그러운 풍미를 채워주며 지친 하루에 생기를 더해주는 레몬 케이크.",
       "descriptionEn": "Infused with silky lemon curd and fresh zest. A vibrant, zesty slice designed to refresh your senses.",
-      "state": "SOLD_OUT",
+      "state": "ON_SALE",
       "priceValue": 10900,
       "priceTitle": "기본",
       "imageUrl": "https://place-static.tossplace.com/public/live/PUBLIC/2026-05-12/bdaaa36b-6c45-44f2-b3b5-b20a15bdec04",
@@ -5122,7 +4852,7 @@
         "신규"
       ],
       "optionSets": [],
-      "fingerprint": "893a8580c8042f7899b33163b78eea1885e2aa65408ea6d4fc5ea4d92af1ebaf",
+      "fingerprint": "94f5537c4ddfbaa511784ad5b615cc61ca6582ae7792b7e8f6791cb70758c386",
       "imageLocalPath": "data/tossplace-menu/238090/images/11352437-레몬구름-토르테-b87b32ee1f.jpg",
       "imageHash": "b87b32ee1fe8cd16e8ead9a25282d6d33a836b0f686257341f9fbc057a6bd2a9",
       "imageStatus": "skipped-existing-url"
@@ -5172,6 +4902,29 @@
       "imageStatus": "skipped-existing-url"
     },
     {
+      "id": 11260479,
+      "categoryId": 985967,
+      "categoryTitle": "디저트",
+      "categoryTitleEn": "Dessert",
+      "position": 13,
+      "title": "마스카포네 티라미수",
+      "titleEn": "Mascarpone Tiramisu",
+      "description": "한 스푼 떠올리면 사르르 녹아드는\n부드러운 마스카포네 크림과 깊은 커피 향.\n달콤함 뒤로 은은한 쌉싸름함이 남는 티라미수.",
+      "descriptionEn": "Silky mascarpone cream,\nrich coffee notes, and a soft, delicate sweetness\nin every spoonful.",
+      "state": "ON_SALE",
+      "priceValue": 10900,
+      "priceTitle": "기본",
+      "imageUrl": "https://place-static.tossplace.com/public/live/PUBLIC/2026-10-03/a1c7d624-b077-4810-b8be-bfc2900e0a43",
+      "labels": [
+        "신규"
+      ],
+      "optionSets": [],
+      "fingerprint": "ab975c3d8c941ebed4b6ae527e165d38f71f38ebc2e6568f2a488724e65b2bbb",
+      "imageLocalPath": "data/tossplace-menu/238090/images/11260479-마스카포네-티라미수-bd813e8673.png",
+      "imageHash": "bd813e86733fce7a569f3c2749e8d5b51ab3c47bbe41046b12b6ccc7d6d253ea",
+      "imageStatus": "downloaded"
+    },
+    {
       "id": 17098517,
       "categoryId": 985967,
       "categoryTitle": "디저트",
@@ -5191,6 +4944,29 @@
       "imageLocalPath": "data/tossplace-menu/238090/images/17098517-클루미-당근케이크-1d9744db1a.jpg",
       "imageHash": "1d9744db1a7e6be251ef0ae9ff7b66a98042695bea2c5ecfa33d869545b78f96",
       "imageStatus": "skipped-existing-url"
+    },
+    {
+      "id": 17753479,
+      "categoryId": 985967,
+      "categoryTitle": "디저트",
+      "categoryTitleEn": "Dessert",
+      "position": 18,
+      "title": "밤송이 몽블랑",
+      "titleEn": "Mont Blanc Cake",
+      "description": "달콤하고 고소한 밤 크림이\n입안에서 사르르 녹아드는 몽블랑.\n",
+      "descriptionEn": "Sweet, nutty chestnut cream\nmelts softly in your mouth with every bite.",
+      "state": "ON_SALE",
+      "priceValue": 10900,
+      "priceTitle": "기본",
+      "imageUrl": "https://place-static.tossplace.com/public/live/PUBLIC/2026-10-03/1c4cf3a6-a0b7-4bb1-864d-ec1c8a55f6a6",
+      "labels": [
+        "신규"
+      ],
+      "optionSets": [],
+      "fingerprint": "bf5e0fd90144668b71aa137d31eb7421f1856a0289197e8ecab5ba7e52900623",
+      "imageLocalPath": "data/tossplace-menu/238090/images/17753479-밤송이-몽블랑-1800cf14aa.png",
+      "imageHash": "1800cf14aabc96a8b21250ec859870bc84d7ffa81c532b3f29e8b167349ad719",
+      "imageStatus": "downloaded"
     },
     {
       "id": 13579307,
@@ -5580,15 +5356,15 @@
       "state": "ON_SALE",
       "priceValue": 15000,
       "priceTitle": "기본",
-      "imageUrl": "https://place-static.tossplace.com/public/live/PUBLIC/2026-01-31/df1bbc94-d529-4a1f-9d0a-f1b1016ebcae",
+      "imageUrl": "https://place-static.tossplace.com/public/live/PUBLIC/2026-10-03/6925b2f1-3d78-4155-85fa-804e367a85bf",
       "labels": [
         "인기"
       ],
       "optionSets": [],
-      "fingerprint": "5ff430b9f2a592bcb32ac095b827bf1e4c3eaef0e1816f60855557551c011464",
-      "imageLocalPath": "data/tossplace-menu/238090/images/10686488-수월경화-티세트-5개입-8a7755e5fc.png",
-      "imageHash": "8a7755e5fcbcecfc88db324273149ad47a47514a9afdeb1b07baa4a4b4b17178",
-      "imageStatus": "skipped-existing-url"
+      "fingerprint": "51d7ea1aa64f619edbf651548a5b7cb0113261705817828719a44b0756288dda",
+      "imageLocalPath": "data/tossplace-menu/238090/images/10686488-수월경화-티세트-5개입-ef3d90e4f5.jpg",
+      "imageHash": "ef3d90e4f5b43d1b51843c7c64479d8f492f57939203c46ca8e2c2019dad3b34",
+      "imageStatus": "downloaded"
     },
     {
       "id": 6979125,
@@ -5653,7 +5429,7 @@
       "titleEn": "Lemon Tea",
       "description": "새콤달콤 레몬의 향과 맛을 담은 레몬차",
       "descriptionEn": "Citrus Sweet and sour Lemon Tea",
-      "state": "ON_SALE",
+      "state": "SOLD_OUT",
       "priceValue": 6500,
       "priceTitle": "기본",
       "imageUrl": "https://place-static.tossplace.com/public/live/PUBLIC/2026-04-02/0d5f7d19-cced-42fd-ac05-515c249a7bab",
@@ -5686,7 +5462,7 @@
           ]
         }
       ],
-      "fingerprint": "953c6a4f128cac6eab070e8c4af84dc7002022485be9b6ce3c66a363447566cb",
+      "fingerprint": "d84b69f8cfd7e31e876e0527d0c86e4e8f4afa28efaa7afbb85f9b4b041a2cd4",
       "imageLocalPath": "data/tossplace-menu/238090/images/12131403-레몬차-a3fc0f726f.jpg",
       "imageHash": "a3fc0f726fa29afa688eb442843d05e2c18cff72b400c0e201e60312fa998879",
       "imageStatus": "skipped-existing-url"

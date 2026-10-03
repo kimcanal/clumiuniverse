@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-03T00:02:54.648Z",
+  "generatedAt": "2026-10-03T23:24:52.480Z",
   "merchantId": 238090,
   "items": [
     {
@@ -865,21 +865,6 @@
       ],
       "optionSets": [],
       "imageLocalPath": "data/tossplace-menu/238090/images/10983319-브런치-오렌지주스-c5355b1554.webp"
-    },
-    {
-      "id": 10433709,
-      "categoryTitle": "브런치",
-      "categoryTitleEn": "Brunch",
-      "title": "리뷰이벤트 Google Review Event",
-      "titleEn": "",
-      "description": "",
-      "descriptionEn": "",
-      "priceValue": 0,
-      "priceTitle": "기본",
-      "available": true,
-      "labels": [],
-      "optionSets": [],
-      "imageLocalPath": ""
     },
     {
       "id": 15684889,
@@ -2358,7 +2343,7 @@
           ]
         }
       ],
-      "imageLocalPath": "data/tossplace-menu/238090/images/7499596-아포가토-bc9ffd2a33.webp"
+      "imageLocalPath": "data/tossplace-menu/238090/images/7499596-아포가토-65ef9fa43b.webp"
     },
     {
       "id": 11912174,
@@ -2408,179 +2393,6 @@
         }
       ],
       "imageLocalPath": "data/tossplace-menu/238090/images/11912174-레몬-아메리카노-a66b07d481.webp"
-    },
-    {
-      "id": 12829519,
-      "categoryTitle": "커피",
-      "categoryTitleEn": "Coffee",
-      "title": "애플 아메리카노",
-      "titleEn": "Apple Americano",
-      "description": "사과의 산뜻한 단맛과 진한 아메리카노의 청량한 조화",
-      "descriptionEn": "A refreshing blend of crisp apple sweetness and bold Americano.",
-      "priceValue": 6000,
-      "priceTitle": "기본",
-      "available": false,
-      "labels": [],
-      "optionSets": [
-        {
-          "id": 296010,
-          "title": "원두 선택",
-          "titleEn": "beans",
-          "required": true,
-          "minChoices": 1,
-          "maxChoices": 1,
-          "choices": [
-            {
-              "id": 901204,
-              "title": "고소한 원두",
-              "titleEn": "savory beans",
-              "priceValue": 0,
-              "available": true
-            },
-            {
-              "id": 901205,
-              "title": "산미있는 원두",
-              "titleEn": "acidity beans",
-              "priceValue": 0,
-              "available": true
-            },
-            {
-              "id": 901206,
-              "title": "디카페인 원두",
-              "titleEn": "decaffeine",
-              "priceValue": 500,
-              "available": true
-            }
-          ]
-        },
-        {
-          "id": 294937,
-          "title": "온도",
-          "titleEn": "temperature",
-          "required": true,
-          "minChoices": 1,
-          "maxChoices": 1,
-          "choices": [
-            {
-              "id": 897956,
-              "title": "따뜻하게",
-              "titleEn": "HOT",
-              "priceValue": 0,
-              "available": true
-            },
-            {
-              "id": 897957,
-              "title": "차갑게",
-              "titleEn": "ICE ",
-              "priceValue": 0,
-              "available": true
-            }
-          ]
-        },
-        {
-          "id": 460585,
-          "title": "컵 사이즈",
-          "titleEn": "Cup Size",
-          "required": false,
-          "minChoices": 0,
-          "maxChoices": 1,
-          "choices": [
-            {
-              "id": 1420320,
-              "title": "레귤러",
-              "titleEn": "Regular",
-              "priceValue": 0,
-              "available": true
-            },
-            {
-              "id": 1420321,
-              "title": "라지(포장전용)",
-              "titleEn": "Large(To go)",
-              "priceValue": 0,
-              "available": true
-            }
-          ]
-        },
-        {
-          "id": 294938,
-          "title": "커피 옵션",
-          "titleEn": "Coffee Option",
-          "required": false,
-          "minChoices": 0,
-          "maxChoices": 1,
-          "choices": [
-            {
-              "id": 897960,
-              "title": "샷 추가",
-              "titleEn": "Extra Shot",
-              "priceValue": 500,
-              "available": true
-            },
-            {
-              "id": 901463,
-              "title": "연하게",
-              "titleEn": "one shot",
-              "priceValue": 0,
-              "available": true
-            },
-            {
-              "id": 901465,
-              "title": "바닐라시럽추가",
-              "titleEn": "vanilla syrup",
-              "priceValue": 500,
-              "available": true
-            }
-          ]
-        }
-      ],
-      "imageLocalPath": "data/tossplace-menu/238090/images/12829519-애플-아메리카노-d516b7102e.webp"
-    },
-    {
-      "id": 12936816,
-      "categoryTitle": "커피",
-      "categoryTitleEn": "Coffee",
-      "title": "[오렌지100%] 아메리카노",
-      "titleEn": "[Orange100%] Americano",
-      "description": "상큼한 오렌지100% 와 깊은 커피가 어우러진 아메리카노\n가볍고 청량한 시트러스 커피",
-      "descriptionEn": "A refreshing Americano with fresh orange100%  and rich coffee\nLight, citrusy, and crisp taste",
-      "priceValue": 6500,
-      "priceTitle": "기본",
-      "available": false,
-      "labels": [],
-      "optionSets": [
-        {
-          "id": 296010,
-          "title": "원두 선택",
-          "titleEn": "beans",
-          "required": true,
-          "minChoices": 1,
-          "maxChoices": 1,
-          "choices": [
-            {
-              "id": 901204,
-              "title": "고소한 원두",
-              "titleEn": "savory beans",
-              "priceValue": 0,
-              "available": true
-            },
-            {
-              "id": 901205,
-              "title": "산미있는 원두",
-              "titleEn": "acidity beans",
-              "priceValue": 0,
-              "available": true
-            },
-            {
-              "id": 901206,
-              "title": "디카페인 원두",
-              "titleEn": "decaffeine",
-              "priceValue": 500,
-              "available": true
-            }
-          ]
-        }
-      ],
-      "imageLocalPath": "data/tossplace-menu/238090/images/12936816-오렌지100-아메리카노-70bc0ca887.webp"
     },
     {
       "id": 12936713,
@@ -3248,7 +3060,7 @@
           ]
         }
       ],
-      "imageLocalPath": ""
+      "imageLocalPath": "data/tossplace-menu/238090/images/6978817-딥초코라떼-f08b05ebed.webp"
     },
     {
       "id": 6978874,
@@ -4348,41 +4160,6 @@
       "imageLocalPath": "data/tossplace-menu/238090/images/10842350-얼그레이-무화과-0f5f5e5bf2.webp"
     },
     {
-      "id": 10192464,
-      "categoryTitle": "디저트",
-      "categoryTitleEn": "Dessert",
-      "title": "초콜릿로쉐케익",
-      "titleEn": "Chocolate Roche Cake",
-      "description": "부드러운 스페인산 고급 초콜릿 위에 고소하게 구운 헤이즐넛을 올려\n한 입 베어 물면 진한 초콜릿 풍미가 가득 퍼지는 케이크",
-      "descriptionEn": "Chocolate-coated cake with roasted hazelnuts and rich chocolate flavor.",
-      "priceValue": 10900,
-      "priceTitle": "기본",
-      "available": false,
-      "labels": [
-        "인기"
-      ],
-      "optionSets": [
-        {
-          "id": 377185,
-          "title": "하트 초",
-          "titleEn": "Heart Candle ",
-          "required": false,
-          "minChoices": 0,
-          "maxChoices": 1,
-          "choices": [
-            {
-              "id": 1168613,
-              "title": "하트 초",
-              "titleEn": "Heart Candle ",
-              "priceValue": 1500,
-              "available": true
-            }
-          ]
-        }
-      ],
-      "imageLocalPath": "data/tossplace-menu/238090/images/10192464-초콜릿로쉐케익-52fe1dcc82.webp"
-    },
-    {
       "id": 11352437,
       "categoryTitle": "디저트",
       "categoryTitleEn": "Dessert",
@@ -4392,7 +4169,7 @@
       "descriptionEn": "Infused with silky lemon curd and fresh zest. A vibrant, zesty slice designed to refresh your senses.",
       "priceValue": 10900,
       "priceTitle": "기본",
-      "available": false,
+      "available": true,
       "labels": [
         "신규"
       ],
@@ -4432,6 +4209,23 @@
       "imageLocalPath": "data/tossplace-menu/238090/images/10652155-케이크-초-8ae83ded46.webp"
     },
     {
+      "id": 11260479,
+      "categoryTitle": "디저트",
+      "categoryTitleEn": "Dessert",
+      "title": "마스카포네 티라미수",
+      "titleEn": "Mascarpone Tiramisu",
+      "description": "한 스푼 떠올리면 사르르 녹아드는\n부드러운 마스카포네 크림과 깊은 커피 향.\n달콤함 뒤로 은은한 쌉싸름함이 남는 티라미수.",
+      "descriptionEn": "Silky mascarpone cream,\nrich coffee notes, and a soft, delicate sweetness\nin every spoonful.",
+      "priceValue": 10900,
+      "priceTitle": "기본",
+      "available": true,
+      "labels": [
+        "신규"
+      ],
+      "optionSets": [],
+      "imageLocalPath": "data/tossplace-menu/238090/images/11260479-마스카포네-티라미수-bd813e8673.webp"
+    },
+    {
       "id": 17098517,
       "categoryTitle": "디저트",
       "categoryTitleEn": "Dessert",
@@ -4445,6 +4239,23 @@
       "labels": [],
       "optionSets": [],
       "imageLocalPath": "data/tossplace-menu/238090/images/17098517-클루미-당근케이크-1d9744db1a.webp"
+    },
+    {
+      "id": 17753479,
+      "categoryTitle": "디저트",
+      "categoryTitleEn": "Dessert",
+      "title": "밤송이 몽블랑",
+      "titleEn": "Mont Blanc Cake",
+      "description": "달콤하고 고소한 밤 크림이\n입안에서 사르르 녹아드는 몽블랑.\n",
+      "descriptionEn": "Sweet, nutty chestnut cream\nmelts softly in your mouth with every bite.",
+      "priceValue": 10900,
+      "priceTitle": "기본",
+      "available": true,
+      "labels": [
+        "신규"
+      ],
+      "optionSets": [],
+      "imageLocalPath": "data/tossplace-menu/238090/images/17753479-밤송이-몽블랑-1800cf14aa.webp"
     },
     {
       "id": 13579307,
@@ -4776,7 +4587,7 @@
         "인기"
       ],
       "optionSets": [],
-      "imageLocalPath": "data/tossplace-menu/238090/images/10686488-수월경화-티세트-5개입-8a7755e5fc.webp"
+      "imageLocalPath": "data/tossplace-menu/238090/images/10686488-수월경화-티세트-5개입-ef3d90e4f5.webp"
     },
     {
       "id": 6979125,
@@ -4835,7 +4646,7 @@
       "descriptionEn": "Citrus Sweet and sour Lemon Tea",
       "priceValue": 6500,
       "priceTitle": "기본",
-      "available": true,
+      "available": false,
       "labels": [
         "신규"
       ],
