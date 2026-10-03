@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-02T00:17:13.897Z",
+  "generatedAt": "2026-10-03T00:02:54.648Z",
   "merchantId": 238090,
   "items": [
     {
@@ -290,7 +290,7 @@
       "categoryTitleEn": "Coffee",
       "title": "애플 아메리카노",
       "description": "사과의 산뜻한 단맛과 진한 아메리카노의 청량한 조화",
-      "state": "ON_SALE",
+      "state": "SOLD_OUT",
       "labels": [],
       "imageLocalPath": "data/tossplace-menu/238090/images/12829519-애플-아메리카노-d516b7102e.webp"
     },
@@ -584,7 +584,7 @@
       "categoryTitleEn": "Dessert",
       "title": "초콜릿로쉐케익",
       "description": "부드러운 스페인산 고급 초콜릿 위에 고소하게 구운 헤이즐넛을 올려\n한 입 베어 물면 진한 초콜릿 풍미가 가득 퍼지는 케이크",
-      "state": "ON_SALE",
+      "state": "SOLD_OUT",
       "labels": [
         "인기"
       ],
@@ -623,16 +623,6 @@
       "state": "ON_SALE",
       "labels": [],
       "imageLocalPath": "data/tossplace-menu/238090/images/10652155-케이크-초-8ae83ded46.webp"
-    },
-    {
-      "id": 16385006,
-      "categoryTitle": "디저트",
-      "categoryTitleEn": "Dessert",
-      "title": "진한 치즈 케이크",
-      "description": "진한 크림치즈의 풍미를 가장 기본에 충실하게 구현한, 매일 찾게 되는 정통 치즈 케이크",
-      "state": "SOLD_OUT",
-      "labels": [],
-      "imageLocalPath": "data/tossplace-menu/238090/images/16385006-진한-치즈-케이크-5c0eb416f1.webp"
     },
     {
       "id": 17098517,

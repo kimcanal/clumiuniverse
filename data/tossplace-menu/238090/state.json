@@ -553,14 +553,6 @@
       "sourceUrl": "https://place-static.tossplace.com/public/live/PUBLIC/2026-08-13/45eb263f-b4c3-457b-8f1f-2e7d4df15ed7",
       "updatedAt": "2026-08-20T21:16:03.244Z"
     },
-    "https://place-static.tossplace.com/public/live/PUBLIC/2026-08-20/3d5b5f05-a32a-4579-b025-d13b6ae5d1be": {
-      "localPath": "data/tossplace-menu/238090/images/16385006-진한-치즈-케이크-5c0eb416f1.jpg",
-      "hash": "5c0eb416f12c31a2270dff556cd595c5088501ffb03a028c07058a291f5c2a67",
-      "itemId": 16385006,
-      "title": "진한 치즈 케이크",
-      "sourceUrl": "https://place-static.tossplace.com/public/live/PUBLIC/2026-08-20/3d5b5f05-a32a-4579-b025-d13b6ae5d1be",
-      "updatedAt": "2026-08-20T21:16:03.711Z"
-    },
     "https://place-static.tossplace.com/public/live/PUBLIC/2026-07-24/3581f84c-1e13-48db-a8ca-0da22288a92f": {
       "localPath": "data/tossplace-menu/238090/images/15684889-복숭아-한-컵-5f7a3ea8c3.jpg",
       "hash": "5f7a3ea8c3acf4c7cb72bf80a59b5faca086ac25d26996419ce96db7a50c15f3",
@@ -1179,14 +1171,6 @@
       "sourceUrl": "https://place-static.tossplace.com/public/live/PUBLIC/2026-07-24/2a3becfa-b55b-4ba3-a52e-43862b5cfee1",
       "updatedAt": "2026-08-20T21:16:02.882Z"
     },
-    "5c0eb416f12c31a2270dff556cd595c5088501ffb03a028c07058a291f5c2a67": {
-      "localPath": "data/tossplace-menu/238090/images/16385006-진한-치즈-케이크-5c0eb416f1.jpg",
-      "hash": "5c0eb416f12c31a2270dff556cd595c5088501ffb03a028c07058a291f5c2a67",
-      "itemId": 16385006,
-      "title": "진한 치즈 케이크",
-      "sourceUrl": "https://place-static.tossplace.com/public/live/PUBLIC/2026-08-20/3d5b5f05-a32a-4579-b025-d13b6ae5d1be",
-      "updatedAt": "2026-08-20T21:16:03.711Z"
-    },
     "2e771f0a3b85add8606b6bd0c287c10131989b4ca290fab570d753b2ba95c9bb": {
       "localPath": "data/tossplace-menu/238090/images/16508079-카페라떼-2e771f0a3b.jpg",
       "hash": "2e771f0a3b85add8606b6bd0c287c10131989b4ca290fab570d753b2ba95c9bb",
@@ -1758,14 +1742,14 @@
       "updatedAt": "2026-09-03T22:52:12.943Z"
     },
     "10192464": {
-      "fingerprint": "cd65ec7707ff0a4eed5f0e599d14e98080b709f368b6c48bab968e2da7e2dfd7",
+      "fingerprint": "cd8e9b4f2157263db12aa960f37d4561990a1f1d6254b1fe381051b34d8d50d6",
       "title": "초콜릿로쉐케익",
       "description": "부드러운 스페인산 고급 초콜릿 위에 고소하게 구운 헤이즐넛을 올려\n한 입 베어 물면 진한 초콜릿 풍미가 가득 퍼지는 케이크",
       "imageUrl": "https://place-static.tossplace.com/public/live/PUBLIC/2026-05-12/643d509d-6f8f-4186-a5ba-28c4839cc761",
       "imageLocalPath": "data/tossplace-menu/238090/images/10192464-초콜릿로쉐케익-52fe1dcc82.jpg",
       "imageHash": "52fe1dcc82b800fd1494dbfa9cf12ca59474a0af9d602087499a9d4e9a1ce6fe",
       "firstSeenAt": "2026-10-01T00:13:33.831Z",
-      "updatedAt": "2026-10-01T00:13:33.831Z"
+      "updatedAt": "2026-10-03T00:02:54.648Z"
     },
     "10197088": {
       "fingerprint": "2871ebbbaaa3ed5df90b7cac8b304c30b9c7be24516d002807fa87f6cc9bcb26",
@@ -1938,14 +1922,14 @@
       "updatedAt": "2026-09-18T12:03:41.506Z"
     },
     "12829519": {
-      "fingerprint": "b22fb0b4ac7f2920c31a502e5191aa3d6a581e5f9d420de7dd7f7bcd72691df5",
+      "fingerprint": "9d4540bf126e2b2f1097bc892bd7ce302b0127c99ee9bae130ed858a257ca3b8",
       "title": "애플 아메리카노",
       "description": "사과의 산뜻한 단맛과 진한 아메리카노의 청량한 조화",
       "imageUrl": "https://place-static.tossplace.com/public/live/PUBLIC/2026-04-23/9a31ed11-9317-42a0-b5ed-3aad7bb48a0a",
       "imageLocalPath": "data/tossplace-menu/238090/images/12829519-애플-아메리카노-d516b7102e.jpg",
       "imageHash": "d516b7102eee2dcd238eaf8f66c9718b98b56ebec6202d0ea46daf66a3ec7221",
       "firstSeenAt": "2026-07-21T04:15:20.254Z",
-      "updatedAt": "2026-09-18T12:03:41.506Z"
+      "updatedAt": "2026-10-03T00:02:54.648Z"
     },
     "12936713": {
       "fingerprint": "0f4128f065539ed4c5763a25dc368d3806018883857a59d249436f6e63f68c47",
@@ -2097,16 +2081,6 @@
       "firstSeenAt": "2026-08-20T21:16:07.047Z",
       "updatedAt": "2026-09-26T23:13:16.016Z"
     },
-    "16385006": {
-      "fingerprint": "65b11010fcb4124a19854eb942a65974c0350e30cc52cf3c07ea85e6be0736ff",
-      "title": "진한 치즈 케이크",
-      "description": "진한 크림치즈의 풍미를 가장 기본에 충실하게 구현한, 매일 찾게 되는 정통 치즈 케이크",
-      "imageUrl": "https://place-static.tossplace.com/public/live/PUBLIC/2026-08-20/3d5b5f05-a32a-4579-b025-d13b6ae5d1be",
-      "imageLocalPath": "data/tossplace-menu/238090/images/16385006-진한-치즈-케이크-5c0eb416f1.jpg",
-      "imageHash": "5c0eb416f12c31a2270dff556cd595c5088501ffb03a028c07058a291f5c2a67",
-      "firstSeenAt": "2026-08-20T21:16:07.047Z",
-      "updatedAt": "2026-10-02T00:17:13.897Z"
-    },
     "16508079": {
       "fingerprint": "09685d28ecc3b54a454198c6c5dc18fe8a427fdbe0456ee12938bb86d09afe44",
       "title": "카페라떼",
@@ -2129,22 +2103,6 @@
     }
   },
   "runs": [
-    {
-      "at": "2026-08-25T21:15:22.454Z",
-      "summary": {
-        "total": 91,
-        "added": 1,
-        "changed": 4,
-        "unchanged": 86,
-        "removed": 0
-      },
-      "imageSummary": {
-        "skipped-existing-url": 88,
-        "downloaded": 1,
-        "missing": 1,
-        "failed-http-timeout": 1
-      }
-    },
     {
       "at": "2026-08-28T04:59:27.387Z",
       "summary": {
@@ -2430,7 +2388,22 @@
         "failed-http-timeout": 1,
         "downloaded": 1
       }
+    },
+    {
+      "at": "2026-10-03T00:02:54.648Z",
+      "summary": {
+        "total": 84,
+        "added": 0,
+        "changed": 2,
+        "unchanged": 82,
+        "removed": 1
+      },
+      "imageSummary": {
+        "skipped-existing-url": 82,
+        "missing": 1,
+        "failed-http-timeout": 1
+      }
     }
   ],
-  "lastRunAt": "2026-10-02T00:17:13.897Z"
+  "lastRunAt": "2026-10-03T00:02:54.648Z"
 }
