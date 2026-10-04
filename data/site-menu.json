@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-03T23:24:52.480Z",
+  "generatedAt": "2026-10-04T23:39:04.112Z",
   "merchantId": 238090,
   "items": [
     {
@@ -752,7 +752,7 @@
       "categoryTitleEn": "Tea",
       "title": "레몬차",
       "description": "새콤달콤 레몬의 향과 맛을 담은 레몬차",
-      "state": "SOLD_OUT",
+      "state": "ON_SALE",
       "labels": [
         "신규"
       ],

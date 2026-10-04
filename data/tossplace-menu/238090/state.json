@@ -1902,14 +1902,14 @@
       "updatedAt": "2026-09-18T12:03:41.506Z"
     },
     "12131403": {
-      "fingerprint": "d84b69f8cfd7e31e876e0527d0c86e4e8f4afa28efaa7afbb85f9b4b041a2cd4",
+      "fingerprint": "953c6a4f128cac6eab070e8c4af84dc7002022485be9b6ce3c66a363447566cb",
       "title": "레몬차",
       "description": "새콤달콤 레몬의 향과 맛을 담은 레몬차",
       "imageUrl": "https://place-static.tossplace.com/public/live/PUBLIC/2026-04-02/0d5f7d19-cced-42fd-ac05-515c249a7bab",
       "imageLocalPath": "data/tossplace-menu/238090/images/12131403-레몬차-a3fc0f726f.jpg",
       "imageHash": "a3fc0f726fa29afa688eb442843d05e2c18cff72b400c0e201e60312fa998879",
       "firstSeenAt": "2026-07-21T04:15:20.254Z",
-      "updatedAt": "2026-10-03T23:24:52.480Z"
+      "updatedAt": "2026-10-04T23:39:04.112Z"
     },
     "12936713": {
       "fingerprint": "0f4128f065539ed4c5763a25dc368d3806018883857a59d249436f6e63f68c47",
@@ -2083,21 +2083,6 @@
     }
   },
   "runs": [
-    {
-      "at": "2026-08-29T02:55:55.411Z",
-      "summary": {
-        "total": 91,
-        "added": 0,
-        "changed": 2,
-        "unchanged": 89,
-        "removed": 0
-      },
-      "imageSummary": {
-        "skipped-existing-url": 89,
-        "missing": 1,
-        "failed-http-timeout": 1
-      }
-    },
     {
       "at": "2026-08-29T22:52:03.755Z",
       "summary": {
@@ -2382,7 +2367,20 @@
         "skipped-existing-url": 77,
         "downloaded": 5
       }
+    },
+    {
+      "at": "2026-10-04T23:39:04.112Z",
+      "summary": {
+        "total": 82,
+        "added": 0,
+        "changed": 1,
+        "unchanged": 81,
+        "removed": 0
+      },
+      "imageSummary": {
+        "skipped-existing-url": 82
+      }
     }
   ],
-  "lastRunAt": "2026-10-03T23:24:52.480Z"
+  "lastRunAt": "2026-10-04T23:39:04.112Z"
 }

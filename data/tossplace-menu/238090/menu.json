@@ -2,17 +2,16 @@
   "merchantId": 238090,
   "merchantName": "클루미 유니버스",
   "merchantStatus": "OPEN",
-  "fetchedAt": "2026-10-03T23:24:52.480Z",
+  "fetchedAt": "2026-10-04T23:39:04.112Z",
   "summary": {
     "total": 82,
-    "added": 2,
-    "changed": 5,
-    "unchanged": 75,
-    "removed": 4
+    "added": 0,
+    "changed": 1,
+    "unchanged": 81,
+    "removed": 0
   },
   "imageSummary": {
-    "skipped-existing-url": 77,
-    "downloaded": 5
+    "skipped-existing-url": 82
   },
   "checks": {
     "missingImages": [],
@@ -2862,7 +2861,7 @@
       "fingerprint": "5c693553cfabb18e6a7e1ce1dd22d404449e0c37c8c2fc0efb09167583a5f802",
       "imageLocalPath": "data/tossplace-menu/238090/images/7499596-아포가토-65ef9fa43b.jpg",
       "imageHash": "65ef9fa43ba8485abb2c99ff5ee1f1b5282122534bc31f312955cd84bdae6e4b",
-      "imageStatus": "downloaded"
+      "imageStatus": "skipped-existing-url"
     },
     {
       "id": 11912174,
@@ -3663,7 +3662,7 @@
       "fingerprint": "5964cd912e226215a26979be745a8068b4dc460f85a81ae39720c536b8dd325c",
       "imageLocalPath": "data/tossplace-menu/238090/images/6978817-딥초코라떼-f08b05ebed.jpg",
       "imageHash": "f08b05ebedaefb7204a9752a0536f889726fa03b4cc81dc57966356f7efca4d7",
-      "imageStatus": "downloaded"
+      "imageStatus": "skipped-existing-url"
     },
     {
       "id": 6978874,
@@ -4922,7 +4921,7 @@
       "fingerprint": "ab975c3d8c941ebed4b6ae527e165d38f71f38ebc2e6568f2a488724e65b2bbb",
       "imageLocalPath": "data/tossplace-menu/238090/images/11260479-마스카포네-티라미수-bd813e8673.png",
       "imageHash": "bd813e86733fce7a569f3c2749e8d5b51ab3c47bbe41046b12b6ccc7d6d253ea",
-      "imageStatus": "downloaded"
+      "imageStatus": "skipped-existing-url"
     },
     {
       "id": 17098517,
@@ -4966,7 +4965,7 @@
       "fingerprint": "bf5e0fd90144668b71aa137d31eb7421f1856a0289197e8ecab5ba7e52900623",
       "imageLocalPath": "data/tossplace-menu/238090/images/17753479-밤송이-몽블랑-1800cf14aa.png",
       "imageHash": "1800cf14aabc96a8b21250ec859870bc84d7ffa81c532b3f29e8b167349ad719",
-      "imageStatus": "downloaded"
+      "imageStatus": "skipped-existing-url"
     },
     {
       "id": 13579307,
@@ -5364,7 +5363,7 @@
       "fingerprint": "51d7ea1aa64f619edbf651548a5b7cb0113261705817828719a44b0756288dda",
       "imageLocalPath": "data/tossplace-menu/238090/images/10686488-수월경화-티세트-5개입-ef3d90e4f5.jpg",
       "imageHash": "ef3d90e4f5b43d1b51843c7c64479d8f492f57939203c46ca8e2c2019dad3b34",
-      "imageStatus": "downloaded"
+      "imageStatus": "skipped-existing-url"
     },
     {
       "id": 6979125,
@@ -5429,7 +5428,7 @@
       "titleEn": "Lemon Tea",
       "description": "새콤달콤 레몬의 향과 맛을 담은 레몬차",
       "descriptionEn": "Citrus Sweet and sour Lemon Tea",
-      "state": "SOLD_OUT",
+      "state": "ON_SALE",
       "priceValue": 6500,
       "priceTitle": "기본",
       "imageUrl": "https://place-static.tossplace.com/public/live/PUBLIC/2026-04-02/0d5f7d19-cced-42fd-ac05-515c249a7bab",
@@ -5462,7 +5461,7 @@
           ]
         }
       ],
-      "fingerprint": "d84b69f8cfd7e31e876e0527d0c86e4e8f4afa28efaa7afbb85f9b4b041a2cd4",
+      "fingerprint": "953c6a4f128cac6eab070e8c4af84dc7002022485be9b6ce3c66a363447566cb",
       "imageLocalPath": "data/tossplace-menu/238090/images/12131403-레몬차-a3fc0f726f.jpg",
       "imageHash": "a3fc0f726fa29afa688eb442843d05e2c18cff72b400c0e201e60312fa998879",
       "imageStatus": "skipped-existing-url"

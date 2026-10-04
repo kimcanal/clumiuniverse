@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-03T23:24:52.480Z",
+  "generatedAt": "2026-10-04T23:39:04.112Z",
   "merchantId": 238090,
   "items": [
     {
@@ -4646,7 +4646,7 @@
       "descriptionEn": "Citrus Sweet and sour Lemon Tea",
       "priceValue": 6500,
       "priceTitle": "기본",
-      "available": false,
+      "available": true,
       "labels": [
         "신규"
       ],
