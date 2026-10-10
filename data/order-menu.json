@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-04T23:39:04.112Z",
+  "generatedAt": "2026-10-10T00:22:08.798Z",
   "merchantId": 238090,
   "items": [
     {
@@ -1123,6 +1123,23 @@
               "available": true
             }
           ]
+        },
+        {
+          "id": 296015,
+          "title": "오트 변경",
+          "titleEn": "Oat milk",
+          "required": false,
+          "minChoices": 0,
+          "maxChoices": 1,
+          "choices": [
+            {
+              "id": 901219,
+              "title": "오트 변경",
+              "titleEn": "Oat milk",
+              "priceValue": 800,
+              "available": true
+            }
+          ]
         }
       ],
       "imageLocalPath": "data/tossplace-menu/238090/images/14267200-땅콩크림라떼-2f5de2df2e.webp"
@@ -1167,6 +1184,23 @@
               "title": "디카페인 원두",
               "titleEn": "decaffeine",
               "priceValue": 500,
+              "available": true
+            }
+          ]
+        },
+        {
+          "id": 296015,
+          "title": "오트 변경",
+          "titleEn": "Oat milk",
+          "required": false,
+          "minChoices": 0,
+          "maxChoices": 1,
+          "choices": [
+            {
+              "id": 901219,
+              "title": "오트 변경",
+              "titleEn": "Oat milk",
+              "priceValue": 800,
               "available": true
             }
           ]

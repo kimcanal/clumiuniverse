@@ -1992,24 +1992,24 @@
       "updatedAt": "2026-07-21T04:15:20.254Z"
     },
     "14267200": {
-      "fingerprint": "3c9946400f9926222b076c21dbc393d5baebeee2230a0a62699327dfd623cf59",
+      "fingerprint": "5dabe7527a51761c3f2fa1426e6515c3655c76d4c62db8e914f700acfa3c757d",
       "title": "땅콩크림라떼",
       "description": "",
       "imageUrl": "https://place-static.tossplace.com/public/live/PUBLIC/2026-06-06/f11c61fb-eed5-415b-ac44-69ebe82ef588",
       "imageLocalPath": "data/tossplace-menu/238090/images/14267200-땅콩크림라떼-2f5de2df2e.jpg",
       "imageHash": "2f5de2df2e4dd3b9ccd47dc8041f70376ca239ea3a8351f7cf16360af832e720",
       "firstSeenAt": "2026-07-21T04:15:20.254Z",
-      "updatedAt": "2026-09-18T12:03:41.506Z"
+      "updatedAt": "2026-10-10T00:22:08.798Z"
     },
     "14267209": {
-      "fingerprint": "aad47de061cf43a7642c362b40b7c4b26bcbbebb8286fd883c29d5288983b845",
+      "fingerprint": "9b11098c07b592b117ceeacc8acaad87a54ae7bc2f8831a26a267ebfdb8c61ad",
       "title": "오렌지 비앙코",
       "description": "",
       "imageUrl": "https://place-static.tossplace.com/public/live/PUBLIC/2026-06-06/2beb303a-c1f9-4dae-9725-b1d35a62317e",
       "imageLocalPath": "data/tossplace-menu/238090/images/14267209-오렌지-비앙코-dda910de0e.jpg",
       "imageHash": "dda910de0ece7d52a0b6ddcfbbd3ef6e0dc9d34497a543c355f61fa2781093e1",
       "firstSeenAt": "2026-07-21T04:15:20.254Z",
-      "updatedAt": "2026-09-18T12:03:41.506Z"
+      "updatedAt": "2026-10-10T00:22:08.798Z"
     },
     "15684826": {
       "fingerprint": "68c959fca4c57e52bbeaf13ba275d01c88f4602f6531e98f67732d3cc400f2b4",
@@ -2083,21 +2083,6 @@
     }
   },
   "runs": [
-    {
-      "at": "2026-08-29T22:52:03.755Z",
-      "summary": {
-        "total": 90,
-        "added": 0,
-        "changed": 14,
-        "unchanged": 76,
-        "removed": 1
-      },
-      "imageSummary": {
-        "skipped-existing-url": 87,
-        "downloaded": 2,
-        "failed-http-timeout": 1
-      }
-    },
     {
       "at": "2026-08-30T22:58:13.301Z",
       "summary": {
@@ -2380,7 +2365,20 @@
       "imageSummary": {
         "skipped-existing-url": 82
       }
+    },
+    {
+      "at": "2026-10-10T00:22:08.798Z",
+      "summary": {
+        "total": 82,
+        "added": 0,
+        "changed": 2,
+        "unchanged": 80,
+        "removed": 0
+      },
+      "imageSummary": {
+        "skipped-existing-url": 82
+      }
     }
   ],
-  "lastRunAt": "2026-10-04T23:39:04.112Z"
+  "lastRunAt": "2026-10-10T00:22:08.798Z"
 }

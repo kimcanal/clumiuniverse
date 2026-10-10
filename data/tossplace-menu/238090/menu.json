@@ -2,12 +2,12 @@
   "merchantId": 238090,
   "merchantName": "클루미 유니버스",
   "merchantStatus": "OPEN",
-  "fetchedAt": "2026-10-04T23:39:04.112Z",
+  "fetchedAt": "2026-10-10T00:22:08.798Z",
   "summary": {
     "total": 82,
     "added": 0,
-    "changed": 1,
-    "unchanged": 81,
+    "changed": 2,
+    "unchanged": 80,
     "removed": 0
   },
   "imageSummary": {
@@ -1566,9 +1566,26 @@
               "state": "ON_SALE"
             }
           ]
+        },
+        {
+          "id": 296015,
+          "title": "오트 변경",
+          "titleEn": "Oat milk",
+          "required": false,
+          "minChoices": 0,
+          "maxChoices": 1,
+          "choices": [
+            {
+              "id": 901219,
+              "title": "오트 변경",
+              "titleEn": "Oat milk",
+              "priceValue": 800,
+              "state": "ON_SALE"
+            }
+          ]
         }
       ],
-      "fingerprint": "3c9946400f9926222b076c21dbc393d5baebeee2230a0a62699327dfd623cf59",
+      "fingerprint": "5dabe7527a51761c3f2fa1426e6515c3655c76d4c62db8e914f700acfa3c757d",
       "imageLocalPath": "data/tossplace-menu/238090/images/14267200-땅콩크림라떼-2f5de2df2e.jpg",
       "imageHash": "2f5de2df2e4dd3b9ccd47dc8041f70376ca239ea3a8351f7cf16360af832e720",
       "imageStatus": "skipped-existing-url"
@@ -1619,9 +1636,26 @@
               "state": "ON_SALE"
             }
           ]
+        },
+        {
+          "id": 296015,
+          "title": "오트 변경",
+          "titleEn": "Oat milk",
+          "required": false,
+          "minChoices": 0,
+          "maxChoices": 1,
+          "choices": [
+            {
+              "id": 901219,
+              "title": "오트 변경",
+              "titleEn": "Oat milk",
+              "priceValue": 800,
+              "state": "ON_SALE"
+            }
+          ]
         }
       ],
-      "fingerprint": "aad47de061cf43a7642c362b40b7c4b26bcbbebb8286fd883c29d5288983b845",
+      "fingerprint": "9b11098c07b592b117ceeacc8acaad87a54ae7bc2f8831a26a267ebfdb8c61ad",
       "imageLocalPath": "data/tossplace-menu/238090/images/14267209-오렌지-비앙코-dda910de0e.jpg",
       "imageHash": "dda910de0ece7d52a0b6ddcfbbd3ef6e0dc9d34497a543c355f61fa2781093e1",
       "imageStatus": "skipped-existing-url"
