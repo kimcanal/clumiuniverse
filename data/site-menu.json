@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-10T00:22:08.798Z",
+  "generatedAt": "2026-10-12T00:02:53.469Z",
   "merchantId": 238090,
   "items": [
     {
@@ -98,7 +98,7 @@
       "categoryTitleEn": "BEST",
       "title": "무화과 크림치즈 와플",
       "description": "달콤한 무화과와 부드러운 크림치즈 무스, 피스타치오를 올린 바삭한 리에쥬 와플.",
-      "state": "ON_SALE",
+      "state": "SOLD_OUT",
       "labels": [
         "인기"
       ],
@@ -444,7 +444,7 @@
       "categoryTitleEn": "Belgium Waffle",
       "title": "[시즌한정]무화과&크림치즈 와플",
       "description": "달콤한 무화과와 부드러운 크림치즈 무스, 피스타치오를 올린 바삭한 리에쥬 와플.",
-      "state": "ON_SALE",
+      "state": "SOLD_OUT",
       "labels": [
         "인기"
       ],
@@ -535,18 +535,6 @@
         "인기"
       ],
       "imageLocalPath": "data/tossplace-menu/238090/images/10197088-교토말차쇼콜라-9d28d3d031.webp"
-    },
-    {
-      "id": 10842350,
-      "categoryTitle": "디저트",
-      "categoryTitleEn": "Dessert",
-      "title": "얼그레이 무화과",
-      "description": "달콤한 무화과가 듬뿍 들어간 고소한 시트 위에,\n향긋한 얼그레이 크림을 올린 부드러운 케이크 ☕🍰",
-      "state": "ON_SALE",
-      "labels": [
-        "인기"
-      ],
-      "imageLocalPath": "data/tossplace-menu/238090/images/10842350-얼그레이-무화과-0f5f5e5bf2.webp"
     },
     {
       "id": 11352437,
@@ -720,7 +708,7 @@
       "categoryTitleEn": "Tea",
       "title": "멜롱망스",
       "description": "여름의 시원함과 달콤함을 머금은 머스크 멜론과 꽃내음 가득한 우롱차의 하모니 한 잔",
-      "state": "ON_SALE",
+      "state": "SOLD_OUT",
       "labels": [],
       "imageLocalPath": "data/tossplace-menu/238090/images/6979179-멜롱망스-c2a0848d6e.webp"
     },

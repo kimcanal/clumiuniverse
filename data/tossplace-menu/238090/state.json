@@ -601,14 +601,6 @@
       "sourceUrl": "https://place-static.tossplace.com/public/live/PUBLIC/2026-05-12/5058ffa0-185b-446a-a2b0-8f8701d1ca87",
       "updatedAt": "2026-10-01T00:13:30.620Z"
     },
-    "https://place-static.tossplace.com/public/live/PUBLIC/2026-05-12/965186ba-98fb-4c6b-bdd7-15c905728f22": {
-      "localPath": "data/tossplace-menu/238090/images/10842350-얼그레이-무화과-0f5f5e5bf2.jpg",
-      "hash": "0f5f5e5bf2263c6d32c3cf25d28b16a234dd70a0ccd3b2088184f007f50fbc48",
-      "itemId": 10842350,
-      "title": "얼그레이 무화과",
-      "sourceUrl": "https://place-static.tossplace.com/public/live/PUBLIC/2026-05-12/965186ba-98fb-4c6b-bdd7-15c905728f22",
-      "updatedAt": "2026-10-01T00:13:30.629Z"
-    },
     "https://place-static.tossplace.com/public/live/PUBLIC/2026-09-12/9a2366aa-76e5-47c0-b976-35c05f5b08d4": {
       "localPath": "data/tossplace-menu/238090/images/17098517-클루미-당근케이크-1d9744db1a.jpg",
       "hash": "1d9744db1a7e6be251ef0ae9ff7b66a98042695bea2c5ecfa33d869545b78f96",
@@ -1195,14 +1187,6 @@
       "sourceUrl": "https://place-static.tossplace.com/public/live/PUBLIC/2026-05-12/5058ffa0-185b-446a-a2b0-8f8701d1ca87",
       "updatedAt": "2026-10-01T00:13:30.620Z"
     },
-    "0f5f5e5bf2263c6d32c3cf25d28b16a234dd70a0ccd3b2088184f007f50fbc48": {
-      "localPath": "data/tossplace-menu/238090/images/10842350-얼그레이-무화과-0f5f5e5bf2.jpg",
-      "hash": "0f5f5e5bf2263c6d32c3cf25d28b16a234dd70a0ccd3b2088184f007f50fbc48",
-      "itemId": 10842350,
-      "title": "얼그레이 무화과",
-      "sourceUrl": "https://place-static.tossplace.com/public/live/PUBLIC/2026-05-12/965186ba-98fb-4c6b-bdd7-15c905728f22",
-      "updatedAt": "2026-10-01T00:13:30.629Z"
-    },
     "1d9744db1a7e6be251ef0ae9ff7b66a98042695bea2c5ecfa33d869545b78f96": {
       "localPath": "data/tossplace-menu/238090/images/17098517-클루미-당근케이크-1d9744db1a.jpg",
       "hash": "1d9744db1a7e6be251ef0ae9ff7b66a98042695bea2c5ecfa33d869545b78f96",
@@ -1352,14 +1336,14 @@
       "updatedAt": "2026-09-18T12:03:41.506Z"
     },
     "6979179": {
-      "fingerprint": "92d2fbc45b6a297bb9146473294d6004bd6bd64469b095250989c6fc2077f0c4",
+      "fingerprint": "cbf0523094609c686dcddc4522496e3e5420615cb33406f850768b64c48cb310",
       "title": "멜롱망스",
       "description": "여름의 시원함과 달콤함을 머금은 머스크 멜론과 꽃내음 가득한 우롱차의 하모니 한 잔",
       "imageUrl": "https://place-static.tossplace.com/public/live/PUBLIC/2025-08-23/7388c254-4a19-4d96-a390-b1971a011d85",
       "imageLocalPath": "data/tossplace-menu/238090/images/6979179-멜롱망스-c2a0848d6e.jpg",
       "imageHash": "c2a0848d6e8fc942320c3221af4d66b535ffbc2fa42287fbd96b07e709fafe6c",
       "firstSeenAt": "2026-07-21T04:15:20.254Z",
-      "updatedAt": "2026-09-18T12:03:41.506Z"
+      "updatedAt": "2026-10-12T00:02:53.469Z"
     },
     "6979222": {
       "fingerprint": "14b5f08f6d212c818705161d7410f7005237081394a0011abd8c4b9680638ffe",
@@ -1781,16 +1765,6 @@
       "firstSeenAt": "2026-07-21T04:15:20.254Z",
       "updatedAt": "2026-10-03T23:24:52.480Z"
     },
-    "10842350": {
-      "fingerprint": "bea39c24cc19ba3c58b4451ef946ea31b50d59ded39af8c64c570ad057cccc31",
-      "title": "얼그레이 무화과",
-      "description": "달콤한 무화과가 듬뿍 들어간 고소한 시트 위에,\n향긋한 얼그레이 크림을 올린 부드러운 케이크 ☕🍰",
-      "imageUrl": "https://place-static.tossplace.com/public/live/PUBLIC/2026-05-12/965186ba-98fb-4c6b-bdd7-15c905728f22",
-      "imageLocalPath": "data/tossplace-menu/238090/images/10842350-얼그레이-무화과-0f5f5e5bf2.jpg",
-      "imageHash": "0f5f5e5bf2263c6d32c3cf25d28b16a234dd70a0ccd3b2088184f007f50fbc48",
-      "firstSeenAt": "2026-10-01T00:13:33.831Z",
-      "updatedAt": "2026-10-01T00:13:33.831Z"
-    },
     "10983319": {
       "fingerprint": "65feb9bfe9146ff94ac4d68cfd30046fa3ad0435b262748c535c30d274431c84",
       "title": "[브런치]오렌지주스",
@@ -2032,24 +2006,24 @@
       "updatedAt": "2026-09-18T12:03:41.506Z"
     },
     "15684896": {
-      "fingerprint": "30889dcc46246ce43db3975c123ea554fd91650b02ed6262a2506f927b1c98d1",
+      "fingerprint": "b51b32e5f7a1522c0b655719392d547c5b6e27e133978f336613fed12b824ed8",
       "title": "무화과 크림치즈 와플",
       "description": "달콤한 무화과와 부드러운 크림치즈 무스, 피스타치오를 올린 바삭한 리에쥬 와플.",
       "imageUrl": "https://place-static.tossplace.com/public/live/PUBLIC/2026-09-26/4bdb0d99-3ad9-4bf2-9cd9-9714d90cb099",
       "imageLocalPath": "data/tossplace-menu/238090/images/16230479-시즌한정-무화과-크림치즈-와플-86ba9a15c7.jpg",
       "imageHash": "86ba9a15c7dfd9f8d97086281499444715fe62d2c3207f639cdb6ba7f9798225",
       "firstSeenAt": "2026-08-20T21:16:07.047Z",
-      "updatedAt": "2026-09-26T23:13:16.016Z"
+      "updatedAt": "2026-10-12T00:02:53.469Z"
     },
     "16230479": {
-      "fingerprint": "93a12d1415f9a1c38956f6d7b98f09d1175f5e29711f208eb39003f4eca344b8",
+      "fingerprint": "1b162fcb549c95a130f9920a07f3631cf3e395e5949aa601083537debd6972db",
       "title": "[시즌한정]무화과&크림치즈 와플",
       "description": "달콤한 무화과와 부드러운 크림치즈 무스, 피스타치오를 올린 바삭한 리에쥬 와플.",
       "imageUrl": "https://place-static.tossplace.com/public/live/PUBLIC/2026-09-26/cea32c70-fe60-4031-82fa-825dfd717a11",
       "imageLocalPath": "data/tossplace-menu/238090/images/16230479-시즌한정-무화과-크림치즈-와플-86ba9a15c7.jpg",
       "imageHash": "86ba9a15c7dfd9f8d97086281499444715fe62d2c3207f639cdb6ba7f9798225",
       "firstSeenAt": "2026-08-20T21:16:07.047Z",
-      "updatedAt": "2026-09-26T23:13:16.016Z"
+      "updatedAt": "2026-10-12T00:02:53.469Z"
     },
     "16508079": {
       "fingerprint": "09685d28ecc3b54a454198c6c5dc18fe8a427fdbe0456ee12938bb86d09afe44",
@@ -2083,20 +2057,6 @@
     }
   },
   "runs": [
-    {
-      "at": "2026-08-30T22:58:13.301Z",
-      "summary": {
-        "total": 90,
-        "added": 0,
-        "changed": 1,
-        "unchanged": 89,
-        "removed": 0
-      },
-      "imageSummary": {
-        "skipped-existing-url": 89,
-        "failed-http-timeout": 1
-      }
-    },
     {
       "at": "2026-09-01T22:52:17.089Z",
       "summary": {
@@ -2378,7 +2338,20 @@
       "imageSummary": {
         "skipped-existing-url": 82
       }
+    },
+    {
+      "at": "2026-10-12T00:02:53.469Z",
+      "summary": {
+        "total": 81,
+        "added": 0,
+        "changed": 3,
+        "unchanged": 78,
+        "removed": 1
+      },
+      "imageSummary": {
+        "skipped-existing-url": 81
+      }
     }
   ],
-  "lastRunAt": "2026-10-10T00:22:08.798Z"
+  "lastRunAt": "2026-10-12T00:02:53.469Z"
 }
