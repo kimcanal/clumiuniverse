@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-12T00:02:53.469Z",
+  "generatedAt": "2026-10-13T02:17:05.884Z",
   "merchantId": 238090,
   "items": [
     {
@@ -98,7 +98,7 @@
       "categoryTitleEn": "BEST",
       "title": "무화과 크림치즈 와플",
       "description": "달콤한 무화과와 부드러운 크림치즈 무스, 피스타치오를 올린 바삭한 리에쥬 와플.",
-      "state": "SOLD_OUT",
+      "state": "ON_SALE",
       "labels": [
         "인기"
       ],
@@ -444,7 +444,7 @@
       "categoryTitleEn": "Belgium Waffle",
       "title": "[시즌한정]무화과&크림치즈 와플",
       "description": "달콤한 무화과와 부드러운 크림치즈 무스, 피스타치오를 올린 바삭한 리에쥬 와플.",
-      "state": "SOLD_OUT",
+      "state": "ON_SALE",
       "labels": [
         "인기"
       ],
@@ -486,7 +486,7 @@
       "id": 7736391,
       "categoryTitle": "벨기에와플",
       "categoryTitleEn": "Belgium Waffle",
-      "title": "애플잼  와플",
+      "title": "[수제]애플잼  와플",
       "description": "\"사과 알맹이가 톡톡! 자연이 준 기분 좋은 달콤함\"\n엄선한 국산 사과로 만든 수제 느낌의 애플잼을 듬뿍 올렸습니다. 아삭하게 씹히는 사과 과육과 앵커 버터 향 가득한 따뜻한 와플의 조화를 만나보세요. 인위적이지 않은 깔끔한 달콤함이 매력적이에요.",
       "state": "ON_SALE",
       "labels": [
@@ -523,6 +523,30 @@
       "state": "ON_SALE",
       "labels": [],
       "imageLocalPath": "data/tossplace-menu/238090/images/8433327-아이스크림-와플-8d991c06d1.webp"
+    },
+    {
+      "id": 9479299,
+      "categoryTitle": "벨기에와플",
+      "categoryTitleEn": "Belgium Waffle",
+      "title": "[시즌한정]딸기왕창와플",
+      "description": "뉴질랜드 앵커 버터 향 가득한 와플 위에 클루미가 딸기를 실수로(?) 와르르— 쏟아버렸대요!\n쏟아진 딸기 양에 깜짝 놀랄지도 몰라요. 겉바속쫀 와플과 상큼한 딸기 폭탄, 그리고 진한 아이스크림의 환상적인 만남! 클루미의 귀여운 실수를 맛있게 즐겨보세요! 💘",
+      "state": "ON_SALE",
+      "labels": [
+        "인기"
+      ],
+      "imageLocalPath": "data/tossplace-menu/238090/images/9479299-시즌한정-딸기왕창와플-381c363183.webp"
+    },
+    {
+      "id": 10639334,
+      "categoryTitle": "벨기에와플",
+      "categoryTitleEn": "Belgium Waffle",
+      "title": "[시즌한정]베리베리와플",
+      "description": "뉴질랜드 앵커 버터를 넣어 직접 반죽한 겉바속쫀 벨기에와플에\n상큼한 딸기와 블루베리, 부드러운 생크림을 듬뿍 올린 디저트",
+      "state": "ON_SALE",
+      "labels": [
+        "인기"
+      ],
+      "imageLocalPath": "data/tossplace-menu/238090/images/10639334-시즌한정-베리베리와플-95fd9c7476.webp"
     },
     {
       "id": 10197088,
