@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-13T02:17:05.884Z",
+  "generatedAt": "2026-10-14T00:00:00.132Z",
   "merchantId": 238090,
   "items": [
     {
@@ -876,7 +876,7 @@
       "descriptionEn": "Made with one whole fresh seasonal peach.\nA premium summer parfait layered with crunchy granola, creamy yogurt, whipped cream, and rich vanilla ice cream.",
       "priceValue": 15000,
       "priceTitle": "기본",
-      "available": true,
+      "available": false,
       "labels": [
         "인기"
       ],
@@ -4849,7 +4849,7 @@
       "descriptionEn": "One Whole Peach. One Perfect Summer.\nMade with a whole fresh seasonal peach, layered with crunchy granola, creamy yogurt, whipped cream, and rich vanilla ice cream.",
       "priceValue": 15000,
       "priceTitle": "기본",
-      "available": true,
+      "available": false,
       "labels": [
         "신규"
       ],

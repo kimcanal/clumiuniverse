@@ -2038,24 +2038,24 @@
       "updatedAt": "2026-10-10T00:22:08.798Z"
     },
     "15684826": {
-      "fingerprint": "68c959fca4c57e52bbeaf13ba275d01c88f4602f6531e98f67732d3cc400f2b4",
+      "fingerprint": "a13d90c365a0214c244bb1f611d145a97174d6083d203c7b47547926c4d448c2",
       "title": "[시즌] 복숭아 한 컵",
       "description": "제철 황도 1개를 통째로 담았습니다.\n달콤한 생복숭아와 바삭한 그래놀라, 상큼한 요거트, 진한 바닐라 아이스크림이 어우러진 여름 한정 프리미엄 파르페",
       "imageUrl": "https://place-static.tossplace.com/public/live/PUBLIC/2026-07-24/3581f84c-1e13-48db-a8ca-0da22288a92f",
       "imageLocalPath": "data/tossplace-menu/238090/images/15684889-복숭아-한-컵-5f7a3ea8c3.jpg",
       "imageHash": "5f7a3ea8c3acf4c7cb72bf80a59b5faca086ac25d26996419ce96db7a50c15f3",
       "firstSeenAt": "2026-08-20T21:16:07.047Z",
-      "updatedAt": "2026-09-18T12:03:41.506Z"
+      "updatedAt": "2026-10-14T00:00:00.132Z"
     },
     "15684889": {
-      "fingerprint": "7588f81f26dd44fdf8c5c58ec36b06b9bb2910132d395fbdffb34e255372fa46",
+      "fingerprint": "037e5500874693bd173482efa2de19dd408fa7b0481183c83ee1a00966ec38fa",
       "title": "복숭아 한 컵",
       "description": "제철 황도 1개를 통째로 담았습니다.\n달콤한 생복숭아와 바삭한 그래놀라, 상큼한 요거트, 진한 바닐라 아이스크림이 어우러진 여름 한정 프리미엄 파르페",
       "imageUrl": "https://place-static.tossplace.com/public/live/PUBLIC/2026-07-24/2a3becfa-b55b-4ba3-a52e-43862b5cfee1",
       "imageLocalPath": "data/tossplace-menu/238090/images/15684889-복숭아-한-컵-5f7a3ea8c3.jpg",
       "imageHash": "5f7a3ea8c3acf4c7cb72bf80a59b5faca086ac25d26996419ce96db7a50c15f3",
       "firstSeenAt": "2026-08-20T21:16:07.047Z",
-      "updatedAt": "2026-09-18T12:03:41.506Z"
+      "updatedAt": "2026-10-14T00:00:00.132Z"
     },
     "15684896": {
       "fingerprint": "30889dcc46246ce43db3975c123ea554fd91650b02ed6262a2506f927b1c98d1",
@@ -2109,20 +2109,6 @@
     }
   },
   "runs": [
-    {
-      "at": "2026-09-03T22:52:12.943Z",
-      "summary": {
-        "total": 89,
-        "added": 0,
-        "changed": 1,
-        "unchanged": 88,
-        "removed": 0
-      },
-      "imageSummary": {
-        "skipped-existing-url": 88,
-        "failed-http-timeout": 1
-      }
-    },
     {
       "at": "2026-09-05T22:24:17.927Z",
       "summary": {
@@ -2403,7 +2389,20 @@
         "skipped-existing-url": 81,
         "downloaded": 2
       }
+    },
+    {
+      "at": "2026-10-14T00:00:00.132Z",
+      "summary": {
+        "total": 83,
+        "added": 0,
+        "changed": 2,
+        "unchanged": 81,
+        "removed": 0
+      },
+      "imageSummary": {
+        "skipped-existing-url": 83
+      }
     }
   ],
-  "lastRunAt": "2026-10-13T02:17:05.884Z"
+  "lastRunAt": "2026-10-14T00:00:00.132Z"
 }

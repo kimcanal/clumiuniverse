@@ -2,17 +2,16 @@
   "merchantId": 238090,
   "merchantName": "클루미 유니버스",
   "merchantStatus": "OPEN",
-  "fetchedAt": "2026-10-13T02:17:05.884Z",
+  "fetchedAt": "2026-10-14T00:00:00.132Z",
   "summary": {
     "total": 83,
-    "added": 2,
-    "changed": 6,
-    "unchanged": 75,
+    "added": 0,
+    "changed": 2,
+    "unchanged": 81,
     "removed": 0
   },
   "imageSummary": {
-    "skipped-existing-url": 81,
-    "downloaded": 2
+    "skipped-existing-url": 83
   },
   "checks": {
     "missingImages": [],
@@ -1293,7 +1292,7 @@
       "titleEn": "Whole Peach Cup Parfait",
       "description": "제철 황도 1개를 통째로 담았습니다.\n달콤한 생복숭아와 바삭한 그래놀라, 상큼한 요거트, 진한 바닐라 아이스크림이 어우러진 여름 한정 프리미엄 파르페",
       "descriptionEn": "Made with one whole fresh seasonal peach.\nA premium summer parfait layered with crunchy granola, creamy yogurt, whipped cream, and rich vanilla ice cream.",
-      "state": "ON_SALE",
+      "state": "SOLD_OUT",
       "priceValue": 15000,
       "priceTitle": "기본",
       "imageUrl": "https://place-static.tossplace.com/public/live/PUBLIC/2026-07-24/2a3becfa-b55b-4ba3-a52e-43862b5cfee1",
@@ -1319,7 +1318,7 @@
           ]
         }
       ],
-      "fingerprint": "7588f81f26dd44fdf8c5c58ec36b06b9bb2910132d395fbdffb34e255372fa46",
+      "fingerprint": "037e5500874693bd173482efa2de19dd408fa7b0481183c83ee1a00966ec38fa",
       "imageLocalPath": "data/tossplace-menu/238090/images/15684889-복숭아-한-컵-5f7a3ea8c3.jpg",
       "imageHash": "5f7a3ea8c3acf4c7cb72bf80a59b5faca086ac25d26996419ce96db7a50c15f3",
       "imageStatus": "skipped-existing-url"
@@ -4856,7 +4855,7 @@
       "fingerprint": "5be712d171e5484ec6aa3ec9a3d06fc24eca5a496c58f4aedd4038901f1044ea",
       "imageLocalPath": "data/tossplace-menu/238090/images/9479299-시즌한정-딸기왕창와플-381c363183.jpg",
       "imageHash": "381c363183e4e47c8b2fe8b268e76d1a24d5a8d8ab864b826fdc5d5c1c7161bf",
-      "imageStatus": "downloaded"
+      "imageStatus": "skipped-existing-url"
     },
     {
       "id": 10639334,
@@ -4928,7 +4927,7 @@
       "fingerprint": "543d8c080da6846768724bdf1851825cf81fa65a8baa741cf989a6c949ed1700",
       "imageLocalPath": "data/tossplace-menu/238090/images/10639334-시즌한정-베리베리와플-95fd9c7476.jpg",
       "imageHash": "95fd9c7476b80890cfe5596119a97d091beb01b8dd7ebf62ece3410e437394e0",
-      "imageStatus": "downloaded"
+      "imageStatus": "skipped-existing-url"
     },
     {
       "id": 10197088,
@@ -5656,7 +5655,7 @@
       "titleEn": "Whole Peach Cup Parfait",
       "description": "제철 황도 1개를 통째로 담았습니다.\n달콤한 생복숭아와 바삭한 그래놀라, 상큼한 요거트, 진한 바닐라 아이스크림이 어우러진 여름 한정 프리미엄 파르페",
       "descriptionEn": "One Whole Peach. One Perfect Summer.\nMade with a whole fresh seasonal peach, layered with crunchy granola, creamy yogurt, whipped cream, and rich vanilla ice cream.",
-      "state": "ON_SALE",
+      "state": "SOLD_OUT",
       "priceValue": 15000,
       "priceTitle": "기본",
       "imageUrl": "https://place-static.tossplace.com/public/live/PUBLIC/2026-07-24/3581f84c-1e13-48db-a8ca-0da22288a92f",
@@ -5682,7 +5681,7 @@
           ]
         }
       ],
-      "fingerprint": "68c959fca4c57e52bbeaf13ba275d01c88f4602f6531e98f67732d3cc400f2b4",
+      "fingerprint": "a13d90c365a0214c244bb1f611d145a97174d6083d203c7b47547926c4d448c2",
       "imageLocalPath": "data/tossplace-menu/238090/images/15684889-복숭아-한-컵-5f7a3ea8c3.jpg",
       "imageHash": "5f7a3ea8c3acf4c7cb72bf80a59b5faca086ac25d26996419ce96db7a50c15f3",
       "imageStatus": "skipped-existing-url"

@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-13T02:17:05.884Z",
+  "generatedAt": "2026-10-14T00:00:00.132Z",
   "merchantId": 238090,
   "items": [
     {
@@ -86,7 +86,7 @@
       "categoryTitleEn": "BEST",
       "title": "복숭아 한 컵",
       "description": "제철 황도 1개를 통째로 담았습니다.\n달콤한 생복숭아와 바삭한 그래놀라, 상큼한 요거트, 진한 바닐라 아이스크림이 어우러진 여름 한정 프리미엄 파르페",
-      "state": "ON_SALE",
+      "state": "SOLD_OUT",
       "labels": [
         "인기"
       ],
@@ -796,7 +796,7 @@
       "categoryTitleEn": "Parfait",
       "title": "[시즌] 복숭아 한 컵",
       "description": "제철 황도 1개를 통째로 담았습니다.\n달콤한 생복숭아와 바삭한 그래놀라, 상큼한 요거트, 진한 바닐라 아이스크림이 어우러진 여름 한정 프리미엄 파르페",
-      "state": "ON_SALE",
+      "state": "SOLD_OUT",
       "labels": [
         "신규"
       ],
