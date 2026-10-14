@@ -2,7 +2,7 @@
   "merchantId": 238090,
   "merchantName": "클루미 유니버스",
   "merchantStatus": "OPEN",
-  "fetchedAt": "2026-10-14T00:00:00.132Z",
+  "fetchedAt": "2026-10-14T23:30:59.385Z",
   "summary": {
     "total": 83,
     "added": 0,
@@ -4939,7 +4939,7 @@
       "titleEn": "Kyoto Matcha Chocolat",
       "description": "꾸덕한 갸또 시트와 말차 가나슈에\n부드러운 우유 크림이 어우러진 케이크",
       "descriptionEn": "White chocolate matcha cake with creamy matcha ganache — a melt-in-your-mouth delight.",
-      "state": "ON_SALE",
+      "state": "SOLD_OUT",
       "priceValue": 10900,
       "priceTitle": "기본",
       "imageUrl": "https://place-static.tossplace.com/public/live/PUBLIC/2026-05-12/5058ffa0-185b-446a-a2b0-8f8701d1ca87",
@@ -4965,7 +4965,7 @@
           ]
         }
       ],
-      "fingerprint": "2871ebbbaaa3ed5df90b7cac8b304c30b9c7be24516d002807fa87f6cc9bcb26",
+      "fingerprint": "084f64a547178e732431bd0ec28abaecbe9e76166eb7ff005a4771e9dd905d5c",
       "imageLocalPath": "data/tossplace-menu/238090/images/10197088-교토말차쇼콜라-9d28d3d031.jpg",
       "imageHash": "9d28d3d031d728cd946817c735c6dd9ba1693b50a7c16e5636b47a33b131f455",
       "imageStatus": "skipped-existing-url"
@@ -5091,7 +5091,7 @@
       "titleEn": "Mont Blanc Cake",
       "description": "달콤하고 고소한 밤 크림이\n입안에서 사르르 녹아드는 몽블랑.\n",
       "descriptionEn": "Sweet, nutty chestnut cream\nmelts softly in your mouth with every bite.",
-      "state": "ON_SALE",
+      "state": "SOLD_OUT",
       "priceValue": 10900,
       "priceTitle": "기본",
       "imageUrl": "https://place-static.tossplace.com/public/live/PUBLIC/2026-10-03/1c4cf3a6-a0b7-4bb1-864d-ec1c8a55f6a6",
@@ -5099,7 +5099,7 @@
         "신규"
       ],
       "optionSets": [],
-      "fingerprint": "bf5e0fd90144668b71aa137d31eb7421f1856a0289197e8ecab5ba7e52900623",
+      "fingerprint": "9f457c10703a7f37bcce7e5c66bca8a849c2eecfcab6d5a871cb5b5e731f2f11",
       "imageLocalPath": "data/tossplace-menu/238090/images/17753479-밤송이-몽블랑-1800cf14aa.png",
       "imageHash": "1800cf14aabc96a8b21250ec859870bc84d7ffa81c532b3f29e8b167349ad719",
       "imageStatus": "skipped-existing-url"

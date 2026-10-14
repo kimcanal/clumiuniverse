@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-14T00:00:00.132Z",
+  "generatedAt": "2026-10-14T23:30:59.385Z",
   "merchantId": 238090,
   "items": [
     {
@@ -554,7 +554,7 @@
       "categoryTitleEn": "Dessert",
       "title": "교토말차쇼콜라",
       "description": "꾸덕한 갸또 시트와 말차 가나슈에\n부드러운 우유 크림이 어우러진 케이크",
-      "state": "ON_SALE",
+      "state": "SOLD_OUT",
       "labels": [
         "인기"
       ],
@@ -622,7 +622,7 @@
       "categoryTitleEn": "Dessert",
       "title": "밤송이 몽블랑",
       "description": "달콤하고 고소한 밤 크림이\n입안에서 사르르 녹아드는 몽블랑.\n",
-      "state": "ON_SALE",
+      "state": "SOLD_OUT",
       "labels": [
         "신규"
       ],
