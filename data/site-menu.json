@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-14T23:30:59.385Z",
+  "generatedAt": "2026-10-15T23:21:26.283Z",
   "merchantId": 238090,
   "items": [
     {
@@ -600,7 +600,7 @@
       "categoryTitleEn": "Dessert",
       "title": "마스카포네 티라미수",
       "description": "한 스푼 떠올리면 사르르 녹아드는\n부드러운 마스카포네 크림과 깊은 커피 향.\n달콤함 뒤로 은은한 쌉싸름함이 남는 티라미수.",
-      "state": "ON_SALE",
+      "state": "SOLD_OUT",
       "labels": [
         "신규"
       ],

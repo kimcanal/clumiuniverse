@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-14T23:30:59.385Z",
+  "generatedAt": "2026-10-15T23:21:26.283Z",
   "merchantId": 238090,
   "items": [
     {
@@ -4349,7 +4349,7 @@
       "descriptionEn": "Silky mascarpone cream,\nrich coffee notes, and a soft, delicate sweetness\nin every spoonful.",
       "priceValue": 10900,
       "priceTitle": "기본",
-      "available": true,
+      "available": false,
       "labels": [
         "신규"
       ],

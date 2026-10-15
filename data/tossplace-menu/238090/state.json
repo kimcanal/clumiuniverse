@@ -1888,14 +1888,14 @@
       "updatedAt": "2026-09-18T12:03:41.506Z"
     },
     "11260479": {
-      "fingerprint": "ab975c3d8c941ebed4b6ae527e165d38f71f38ebc2e6568f2a488724e65b2bbb",
+      "fingerprint": "498c69e63d09e6d7b0dd29d517f13aa798f0bedd3e882b4ea1c1e5714a4a98fd",
       "title": "마스카포네 티라미수",
       "description": "한 스푼 떠올리면 사르르 녹아드는\n부드러운 마스카포네 크림과 깊은 커피 향.\n달콤함 뒤로 은은한 쌉싸름함이 남는 티라미수.",
       "imageUrl": "https://place-static.tossplace.com/public/live/PUBLIC/2026-10-03/a1c7d624-b077-4810-b8be-bfc2900e0a43",
       "imageLocalPath": "data/tossplace-menu/238090/images/11260479-마스카포네-티라미수-bd813e8673.png",
       "imageHash": "bd813e86733fce7a569f3c2749e8d5b51ab3c47bbe41046b12b6ccc7d6d253ea",
       "firstSeenAt": "2026-10-03T23:24:52.480Z",
-      "updatedAt": "2026-10-03T23:24:52.480Z"
+      "updatedAt": "2026-10-15T23:21:26.283Z"
     },
     "11352437": {
       "fingerprint": "94f5537c4ddfbaa511784ad5b615cc61ca6582ae7792b7e8f6791cb70758c386",
@@ -2109,20 +2109,6 @@
     }
   },
   "runs": [
-    {
-      "at": "2026-09-06T22:29:46.157Z",
-      "summary": {
-        "total": 88,
-        "added": 0,
-        "changed": 0,
-        "unchanged": 88,
-        "removed": 1
-      },
-      "imageSummary": {
-        "skipped-existing-url": 87,
-        "failed-http-timeout": 1
-      }
-    },
     {
       "at": "2026-09-08T23:01:40.222Z",
       "summary": {
@@ -2401,7 +2387,20 @@
       "imageSummary": {
         "skipped-existing-url": 83
       }
+    },
+    {
+      "at": "2026-10-15T23:21:26.283Z",
+      "summary": {
+        "total": 83,
+        "added": 0,
+        "changed": 1,
+        "unchanged": 82,
+        "removed": 0
+      },
+      "imageSummary": {
+        "skipped-existing-url": 83
+      }
     }
   ],
-  "lastRunAt": "2026-10-14T23:30:59.385Z"
+  "lastRunAt": "2026-10-15T23:21:26.283Z"
 }

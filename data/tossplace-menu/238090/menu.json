@@ -2,12 +2,12 @@
   "merchantId": 238090,
   "merchantName": "클루미 유니버스",
   "merchantStatus": "OPEN",
-  "fetchedAt": "2026-10-14T23:30:59.385Z",
+  "fetchedAt": "2026-10-15T23:21:26.283Z",
   "summary": {
     "total": 83,
     "added": 0,
-    "changed": 2,
-    "unchanged": 81,
+    "changed": 1,
+    "unchanged": 82,
     "removed": 0
   },
   "imageSummary": {
@@ -5047,7 +5047,7 @@
       "titleEn": "Mascarpone Tiramisu",
       "description": "한 스푼 떠올리면 사르르 녹아드는\n부드러운 마스카포네 크림과 깊은 커피 향.\n달콤함 뒤로 은은한 쌉싸름함이 남는 티라미수.",
       "descriptionEn": "Silky mascarpone cream,\nrich coffee notes, and a soft, delicate sweetness\nin every spoonful.",
-      "state": "ON_SALE",
+      "state": "SOLD_OUT",
       "priceValue": 10900,
       "priceTitle": "기본",
       "imageUrl": "https://place-static.tossplace.com/public/live/PUBLIC/2026-10-03/a1c7d624-b077-4810-b8be-bfc2900e0a43",
@@ -5055,7 +5055,7 @@
         "신규"
       ],
       "optionSets": [],
-      "fingerprint": "ab975c3d8c941ebed4b6ae527e165d38f71f38ebc2e6568f2a488724e65b2bbb",
+      "fingerprint": "498c69e63d09e6d7b0dd29d517f13aa798f0bedd3e882b4ea1c1e5714a4a98fd",
       "imageLocalPath": "data/tossplace-menu/238090/images/11260479-마스카포네-티라미수-bd813e8673.png",
       "imageHash": "bd813e86733fce7a569f3c2749e8d5b51ab3c47bbe41046b12b6ccc7d6d253ea",
       "imageStatus": "skipped-existing-url"
