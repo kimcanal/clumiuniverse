@@ -65,14 +65,6 @@
       "sourceUrl": "https://place-static.tossplace.com/public/live/PUBLIC/2026-03-03/a192cd00-dc2a-41b4-ad02-47f2f7585ea1",
       "updatedAt": "2026-05-01T03:23:58.790Z"
     },
-    "https://place-static.tossplace.com/public/live/PUBLIC/2025-09-27/90db900b-3846-425d-a1df-b37dee5da353": {
-      "localPath": "data/tossplace-menu/238090/images/7853022-클래식-와플-커피-세트-77e6926988.jpg",
-      "hash": "77e69269885364d3986b8716967fb7e60ee71b0f2cca317e6d9223975750dcaa",
-      "itemId": 7853022,
-      "title": "클래식 와플&커피 세트",
-      "sourceUrl": "https://place-static.tossplace.com/public/live/PUBLIC/2025-09-27/90db900b-3846-425d-a1df-b37dee5da353",
-      "updatedAt": "2026-05-01T03:23:58.792Z"
-    },
     "https://place-static.tossplace.com/public/live/PUBLIC/2026-01-30/92e3c5f0-ef45-40cd-b1a3-c713c5addadc": {
       "localPath": "data/tossplace-menu/238090/images/6979310-클루미-파인애플에이드-9fd7b723cb.jpg",
       "hash": "9fd7b723cbb896b351f61c35fef6514c7c41f08a192e23b945468d8c99aaea40",
@@ -593,14 +585,6 @@
       "sourceUrl": "https://place-static.tossplace.com/public/live/PUBLIC/2026-05-09/ae7594c4-fb11-480f-a5c1-aeab9a2032d9",
       "updatedAt": "2026-09-27T23:27:04.937Z"
     },
-    "https://place-static.tossplace.com/public/live/PUBLIC/2026-05-12/5058ffa0-185b-446a-a2b0-8f8701d1ca87": {
-      "localPath": "data/tossplace-menu/238090/images/10197088-교토말차쇼콜라-9d28d3d031.jpg",
-      "hash": "9d28d3d031d728cd946817c735c6dd9ba1693b50a7c16e5636b47a33b131f455",
-      "itemId": 10197088,
-      "title": "교토말차쇼콜라",
-      "sourceUrl": "https://place-static.tossplace.com/public/live/PUBLIC/2026-05-12/5058ffa0-185b-446a-a2b0-8f8701d1ca87",
-      "updatedAt": "2026-10-01T00:13:30.620Z"
-    },
     "https://place-static.tossplace.com/public/live/PUBLIC/2026-09-12/9a2366aa-76e5-47c0-b976-35c05f5b08d4": {
       "localPath": "data/tossplace-menu/238090/images/17098517-클루미-당근케이크-1d9744db1a.jpg",
       "hash": "1d9744db1a7e6be251ef0ae9ff7b66a98042695bea2c5ecfa33d869545b78f96",
@@ -632,22 +616,6 @@
       "title": "수월경화 티세트(5개입)",
       "sourceUrl": "https://place-static.tossplace.com/public/live/PUBLIC/2026-10-03/6925b2f1-3d78-4155-85fa-804e367a85bf",
       "updatedAt": "2026-10-03T23:24:51.355Z"
-    },
-    "https://place-static.tossplace.com/public/live/PUBLIC/2026-10-03/1c4cf3a6-a0b7-4bb1-864d-ec1c8a55f6a6": {
-      "localPath": "data/tossplace-menu/238090/images/17753479-밤송이-몽블랑-1800cf14aa.png",
-      "hash": "1800cf14aabc96a8b21250ec859870bc84d7ffa81c532b3f29e8b167349ad719",
-      "itemId": 17753479,
-      "title": "밤송이 몽블랑",
-      "sourceUrl": "https://place-static.tossplace.com/public/live/PUBLIC/2026-10-03/1c4cf3a6-a0b7-4bb1-864d-ec1c8a55f6a6",
-      "updatedAt": "2026-10-03T23:24:51.910Z"
-    },
-    "https://place-static.tossplace.com/public/live/PUBLIC/2026-10-03/a1c7d624-b077-4810-b8be-bfc2900e0a43": {
-      "localPath": "data/tossplace-menu/238090/images/11260479-마스카포네-티라미수-bd813e8673.png",
-      "hash": "bd813e86733fce7a569f3c2749e8d5b51ab3c47bbe41046b12b6ccc7d6d253ea",
-      "itemId": 11260479,
-      "title": "마스카포네 티라미수",
-      "sourceUrl": "https://place-static.tossplace.com/public/live/PUBLIC/2026-10-03/a1c7d624-b077-4810-b8be-bfc2900e0a43",
-      "updatedAt": "2026-10-03T23:24:52.056Z"
     },
     "https://place-static.tossplace.com/public/live/PUBLIC/2026-10-03/05369c53-6803-4d1e-b302-1bb0f90873e0": {
       "localPath": "data/tossplace-menu/238090/images/6978817-딥초코라떼-f08b05ebed.jpg",
@@ -738,14 +706,6 @@
       "title": "여왕의접시4(아보카도)Coffee Set",
       "sourceUrl": "https://place-static.tossplace.com/public/live/PUBLIC/2026-03-03/a192cd00-dc2a-41b4-ad02-47f2f7585ea1",
       "updatedAt": "2026-05-01T03:23:58.790Z"
-    },
-    "77e69269885364d3986b8716967fb7e60ee71b0f2cca317e6d9223975750dcaa": {
-      "localPath": "data/tossplace-menu/238090/images/7853022-클래식-와플-커피-세트-77e6926988.jpg",
-      "hash": "77e69269885364d3986b8716967fb7e60ee71b0f2cca317e6d9223975750dcaa",
-      "itemId": 7853022,
-      "title": "클래식 와플&커피 세트",
-      "sourceUrl": "https://place-static.tossplace.com/public/live/PUBLIC/2025-09-27/90db900b-3846-425d-a1df-b37dee5da353",
-      "updatedAt": "2026-05-01T03:23:58.792Z"
     },
     "9fd7b723cbb896b351f61c35fef6514c7c41f08a192e23b945468d8c99aaea40": {
       "localPath": "data/tossplace-menu/238090/images/6979310-클루미-파인애플에이드-9fd7b723cb.jpg",
@@ -1195,14 +1155,6 @@
       "sourceUrl": "https://place-static.tossplace.com/public/live/PUBLIC/2026-05-09/59d70125-6af4-4c19-a4c7-31c8f4d0eb00",
       "updatedAt": "2026-09-27T23:27:04.759Z"
     },
-    "9d28d3d031d728cd946817c735c6dd9ba1693b50a7c16e5636b47a33b131f455": {
-      "localPath": "data/tossplace-menu/238090/images/10197088-교토말차쇼콜라-9d28d3d031.jpg",
-      "hash": "9d28d3d031d728cd946817c735c6dd9ba1693b50a7c16e5636b47a33b131f455",
-      "itemId": 10197088,
-      "title": "교토말차쇼콜라",
-      "sourceUrl": "https://place-static.tossplace.com/public/live/PUBLIC/2026-05-12/5058ffa0-185b-446a-a2b0-8f8701d1ca87",
-      "updatedAt": "2026-10-01T00:13:30.620Z"
-    },
     "1d9744db1a7e6be251ef0ae9ff7b66a98042695bea2c5ecfa33d869545b78f96": {
       "localPath": "data/tossplace-menu/238090/images/17098517-클루미-당근케이크-1d9744db1a.jpg",
       "hash": "1d9744db1a7e6be251ef0ae9ff7b66a98042695bea2c5ecfa33d869545b78f96",
@@ -1234,22 +1186,6 @@
       "title": "수월경화 티세트(5개입)",
       "sourceUrl": "https://place-static.tossplace.com/public/live/PUBLIC/2026-10-03/6925b2f1-3d78-4155-85fa-804e367a85bf",
       "updatedAt": "2026-10-03T23:24:51.355Z"
-    },
-    "1800cf14aabc96a8b21250ec859870bc84d7ffa81c532b3f29e8b167349ad719": {
-      "localPath": "data/tossplace-menu/238090/images/17753479-밤송이-몽블랑-1800cf14aa.png",
-      "hash": "1800cf14aabc96a8b21250ec859870bc84d7ffa81c532b3f29e8b167349ad719",
-      "itemId": 17753479,
-      "title": "밤송이 몽블랑",
-      "sourceUrl": "https://place-static.tossplace.com/public/live/PUBLIC/2026-10-03/1c4cf3a6-a0b7-4bb1-864d-ec1c8a55f6a6",
-      "updatedAt": "2026-10-03T23:24:51.910Z"
-    },
-    "bd813e86733fce7a569f3c2749e8d5b51ab3c47bbe41046b12b6ccc7d6d253ea": {
-      "localPath": "data/tossplace-menu/238090/images/11260479-마스카포네-티라미수-bd813e8673.png",
-      "hash": "bd813e86733fce7a569f3c2749e8d5b51ab3c47bbe41046b12b6ccc7d6d253ea",
-      "itemId": 11260479,
-      "title": "마스카포네 티라미수",
-      "sourceUrl": "https://place-static.tossplace.com/public/live/PUBLIC/2026-10-03/a1c7d624-b077-4810-b8be-bfc2900e0a43",
-      "updatedAt": "2026-10-03T23:24:52.056Z"
     },
     "f08b05ebedaefb7204a9752a0536f889726fa03b4cc81dc57966356f7efca4d7": {
       "localPath": "data/tossplace-menu/238090/images/6978817-딥초코라떼-f08b05ebed.jpg",
@@ -1607,16 +1543,6 @@
       "firstSeenAt": "2026-07-21T04:15:20.254Z",
       "updatedAt": "2026-10-13T02:17:05.884Z"
     },
-    "7853022": {
-      "fingerprint": "c70219a10bd51cee1ab0e6379d829ac4a8e1e35a4af01121822dfab7eb860dd1",
-      "title": "클래식 와플&커피 세트",
-      "description": "\"가장 완벽하고 달콤한 휴식의 조합\"\n깊은 풍미의 앵커 버터로 구워낸 클래식 와플과 향긋한 커피를 세트로 만나보세요. 입안 가득 퍼지는 기분 좋은 달콤함이 당신의 하루를 더욱 특별하게 만들어 줍니다.",
-      "imageUrl": "https://place-static.tossplace.com/public/live/PUBLIC/2025-09-27/90db900b-3846-425d-a1df-b37dee5da353",
-      "imageLocalPath": "data/tossplace-menu/238090/images/7853022-클래식-와플-커피-세트-77e6926988.jpg",
-      "imageHash": "77e69269885364d3986b8716967fb7e60ee71b0f2cca317e6d9223975750dcaa",
-      "firstSeenAt": "2026-07-21T04:15:20.254Z",
-      "updatedAt": "2026-09-26T23:13:16.016Z"
-    },
     "7965785": {
       "fingerprint": "1c3ded843924f2160f438ef9d9c5e19d5fd3d23e255e9f57fe25ddcefb5e457e",
       "title": "와플 3개팩",
@@ -1767,16 +1693,6 @@
       "firstSeenAt": "2026-07-21T04:15:20.254Z",
       "updatedAt": "2026-09-03T22:52:12.943Z"
     },
-    "10197088": {
-      "fingerprint": "084f64a547178e732431bd0ec28abaecbe9e76166eb7ff005a4771e9dd905d5c",
-      "title": "교토말차쇼콜라",
-      "description": "꾸덕한 갸또 시트와 말차 가나슈에\n부드러운 우유 크림이 어우러진 케이크",
-      "imageUrl": "https://place-static.tossplace.com/public/live/PUBLIC/2026-05-12/5058ffa0-185b-446a-a2b0-8f8701d1ca87",
-      "imageLocalPath": "data/tossplace-menu/238090/images/10197088-교토말차쇼콜라-9d28d3d031.jpg",
-      "imageHash": "9d28d3d031d728cd946817c735c6dd9ba1693b50a7c16e5636b47a33b131f455",
-      "firstSeenAt": "2026-10-01T00:13:33.831Z",
-      "updatedAt": "2026-10-14T23:30:59.385Z"
-    },
     "10639334": {
       "fingerprint": "543d8c080da6846768724bdf1851825cf81fa65a8baa741cf989a6c949ed1700",
       "title": "[시즌한정]베리베리와플",
@@ -1886,16 +1802,6 @@
       "imageHash": "c242a770ab325470a0761933873c7810ca820e01b595a3888003b66e097064fc",
       "firstSeenAt": "2026-07-21T04:15:20.254Z",
       "updatedAt": "2026-09-18T12:03:41.506Z"
-    },
-    "11260479": {
-      "fingerprint": "498c69e63d09e6d7b0dd29d517f13aa798f0bedd3e882b4ea1c1e5714a4a98fd",
-      "title": "마스카포네 티라미수",
-      "description": "한 스푼 떠올리면 사르르 녹아드는\n부드러운 마스카포네 크림과 깊은 커피 향.\n달콤함 뒤로 은은한 쌉싸름함이 남는 티라미수.",
-      "imageUrl": "https://place-static.tossplace.com/public/live/PUBLIC/2026-10-03/a1c7d624-b077-4810-b8be-bfc2900e0a43",
-      "imageLocalPath": "data/tossplace-menu/238090/images/11260479-마스카포네-티라미수-bd813e8673.png",
-      "imageHash": "bd813e86733fce7a569f3c2749e8d5b51ab3c47bbe41046b12b6ccc7d6d253ea",
-      "firstSeenAt": "2026-10-03T23:24:52.480Z",
-      "updatedAt": "2026-10-15T23:21:26.283Z"
     },
     "11352437": {
       "fingerprint": "94f5537c4ddfbaa511784ad5b615cc61ca6582ae7792b7e8f6791cb70758c386",
@@ -2096,33 +2002,9 @@
       "imageHash": "1d9744db1a7e6be251ef0ae9ff7b66a98042695bea2c5ecfa33d869545b78f96",
       "firstSeenAt": "2026-10-01T00:13:33.831Z",
       "updatedAt": "2026-10-01T00:13:33.831Z"
-    },
-    "17753479": {
-      "fingerprint": "9f457c10703a7f37bcce7e5c66bca8a849c2eecfcab6d5a871cb5b5e731f2f11",
-      "title": "밤송이 몽블랑",
-      "description": "달콤하고 고소한 밤 크림이\n입안에서 사르르 녹아드는 몽블랑.\n",
-      "imageUrl": "https://place-static.tossplace.com/public/live/PUBLIC/2026-10-03/1c4cf3a6-a0b7-4bb1-864d-ec1c8a55f6a6",
-      "imageLocalPath": "data/tossplace-menu/238090/images/17753479-밤송이-몽블랑-1800cf14aa.png",
-      "imageHash": "1800cf14aabc96a8b21250ec859870bc84d7ffa81c532b3f29e8b167349ad719",
-      "firstSeenAt": "2026-10-03T23:24:52.480Z",
-      "updatedAt": "2026-10-14T23:30:59.385Z"
     }
   },
   "runs": [
-    {
-      "at": "2026-09-08T23:01:40.222Z",
-      "summary": {
-        "total": 88,
-        "added": 0,
-        "changed": 2,
-        "unchanged": 86,
-        "removed": 0
-      },
-      "imageSummary": {
-        "skipped-existing-url": 87,
-        "failed-http-timeout": 1
-      }
-    },
     {
       "at": "2026-09-09T22:48:43.037Z",
       "summary": {
@@ -2400,7 +2282,20 @@
       "imageSummary": {
         "skipped-existing-url": 83
       }
+    },
+    {
+      "at": "2026-10-16T23:04:58.543Z",
+      "summary": {
+        "total": 79,
+        "added": 0,
+        "changed": 0,
+        "unchanged": 79,
+        "removed": 4
+      },
+      "imageSummary": {
+        "skipped-existing-url": 79
+      }
     }
   ],
-  "lastRunAt": "2026-10-15T23:21:26.283Z"
+  "lastRunAt": "2026-10-16T23:04:58.543Z"
 }

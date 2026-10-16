@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-15T23:21:26.283Z",
+  "generatedAt": "2026-10-16T23:04:58.543Z",
   "merchantId": 238090,
   "items": [
     {
@@ -495,16 +495,6 @@
       "imageLocalPath": "data/tossplace-menu/238090/images/7736391-애플잼-와플-8d65b9a46f.webp"
     },
     {
-      "id": 7853022,
-      "categoryTitle": "벨기에와플",
-      "categoryTitleEn": "Belgium Waffle",
-      "title": "클래식 와플&커피 세트",
-      "description": "\"가장 완벽하고 달콤한 휴식의 조합\"\n깊은 풍미의 앵커 버터로 구워낸 클래식 와플과 향긋한 커피를 세트로 만나보세요. 입안 가득 퍼지는 기분 좋은 달콤함이 당신의 하루를 더욱 특별하게 만들어 줍니다.",
-      "state": "ON_SALE",
-      "labels": [],
-      "imageLocalPath": "data/tossplace-menu/238090/images/7853022-클래식-와플-커피-세트-77e6926988.webp"
-    },
-    {
       "id": 7965785,
       "categoryTitle": "벨기에와플",
       "categoryTitleEn": "Belgium Waffle",
@@ -549,18 +539,6 @@
       "imageLocalPath": "data/tossplace-menu/238090/images/10639334-시즌한정-베리베리와플-95fd9c7476.webp"
     },
     {
-      "id": 10197088,
-      "categoryTitle": "디저트",
-      "categoryTitleEn": "Dessert",
-      "title": "교토말차쇼콜라",
-      "description": "꾸덕한 갸또 시트와 말차 가나슈에\n부드러운 우유 크림이 어우러진 케이크",
-      "state": "SOLD_OUT",
-      "labels": [
-        "인기"
-      ],
-      "imageLocalPath": "data/tossplace-menu/238090/images/10197088-교토말차쇼콜라-9d28d3d031.webp"
-    },
-    {
       "id": 11352437,
       "categoryTitle": "디저트",
       "categoryTitleEn": "Dessert",
@@ -595,18 +573,6 @@
       "imageLocalPath": "data/tossplace-menu/238090/images/10652155-케이크-초-8ae83ded46.webp"
     },
     {
-      "id": 11260479,
-      "categoryTitle": "디저트",
-      "categoryTitleEn": "Dessert",
-      "title": "마스카포네 티라미수",
-      "description": "한 스푼 떠올리면 사르르 녹아드는\n부드러운 마스카포네 크림과 깊은 커피 향.\n달콤함 뒤로 은은한 쌉싸름함이 남는 티라미수.",
-      "state": "SOLD_OUT",
-      "labels": [
-        "신규"
-      ],
-      "imageLocalPath": "data/tossplace-menu/238090/images/11260479-마스카포네-티라미수-bd813e8673.webp"
-    },
-    {
       "id": 17098517,
       "categoryTitle": "디저트",
       "categoryTitleEn": "Dessert",
@@ -615,18 +581,6 @@
       "state": "ON_SALE",
       "labels": [],
       "imageLocalPath": "data/tossplace-menu/238090/images/17098517-클루미-당근케이크-1d9744db1a.webp"
-    },
-    {
-      "id": 17753479,
-      "categoryTitle": "디저트",
-      "categoryTitleEn": "Dessert",
-      "title": "밤송이 몽블랑",
-      "description": "달콤하고 고소한 밤 크림이\n입안에서 사르르 녹아드는 몽블랑.\n",
-      "state": "SOLD_OUT",
-      "labels": [
-        "신규"
-      ],
-      "imageLocalPath": "data/tossplace-menu/238090/images/17753479-밤송이-몽블랑-1800cf14aa.webp"
     },
     {
       "id": 13579307,
