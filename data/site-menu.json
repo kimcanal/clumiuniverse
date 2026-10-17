@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-16T23:04:58.543Z",
+  "generatedAt": "2026-10-17T22:44:10.583Z",
   "merchantId": 238090,
   "items": [
     {
@@ -234,7 +234,7 @@
       "id": 6978463,
       "categoryTitle": "커피",
       "categoryTitleEn": "Coffee",
-      "title": "바닐라라떼",
+      "title": "바닐라빈라떼",
       "description": "바닐라빈 시럽이 더해진 달콤하고 부드러운 라떼",
       "state": "ON_SALE",
       "labels": [],
@@ -520,7 +520,7 @@
       "categoryTitleEn": "Belgium Waffle",
       "title": "[시즌한정]딸기왕창와플",
       "description": "뉴질랜드 앵커 버터 향 가득한 와플 위에 클루미가 딸기를 실수로(?) 와르르— 쏟아버렸대요!\n쏟아진 딸기 양에 깜짝 놀랄지도 몰라요. 겉바속쫀 와플과 상큼한 딸기 폭탄, 그리고 진한 아이스크림의 환상적인 만남! 클루미의 귀여운 실수를 맛있게 즐겨보세요! 💘",
-      "state": "ON_SALE",
+      "state": "SOLD_OUT",
       "labels": [
         "인기"
       ],
@@ -532,23 +532,59 @@
       "categoryTitleEn": "Belgium Waffle",
       "title": "[시즌한정]베리베리와플",
       "description": "뉴질랜드 앵커 버터를 넣어 직접 반죽한 겉바속쫀 벨기에와플에\n상큼한 딸기와 블루베리, 부드러운 생크림을 듬뿍 올린 디저트",
-      "state": "ON_SALE",
+      "state": "SOLD_OUT",
       "labels": [
         "인기"
       ],
       "imageLocalPath": "data/tossplace-menu/238090/images/10639334-시즌한정-베리베리와플-95fd9c7476.webp"
     },
     {
-      "id": 11352437,
+      "id": 10641666,
       "categoryTitle": "디저트",
       "categoryTitleEn": "Dessert",
-      "title": "레몬구름 토르테",
-      "description": "상큼하게 퍼지는 부드러운 레몬 커드와 레몬 제스트,\n입안 가득 싱그러운 풍미를 채워주며 지친 하루에 생기를 더해주는 레몬 케이크.",
+      "title": "딸기포레누아",
+      "description": "상큼한 딸기, 부드러운 우유 크림, 달콤한 화이트 초콜릿이 만나 포근하게 완성된 딸기 케이크 🍓",
       "state": "ON_SALE",
       "labels": [
-        "신규"
+        "인기"
       ],
-      "imageLocalPath": "data/tossplace-menu/238090/images/11352437-레몬구름-토르테-b87b32ee1f.webp"
+      "imageLocalPath": "data/tossplace-menu/238090/images/10641666-딸기포레누아-a0bf52ee2f.webp"
+    },
+    {
+      "id": 10197088,
+      "categoryTitle": "디저트",
+      "categoryTitleEn": "Dessert",
+      "title": "교토말차쇼콜라",
+      "description": "꾸덕한 갸또 시트와 말차 가나슈에\n부드러운 우유 크림이 어우러진 케이크",
+      "state": "ON_SALE",
+      "labels": [
+        "인기"
+      ],
+      "imageLocalPath": "data/tossplace-menu/238090/images/10197088-교토말차쇼콜라-9d28d3d031.webp"
+    },
+    {
+      "id": 10842350,
+      "categoryTitle": "디저트",
+      "categoryTitleEn": "Dessert",
+      "title": "얼그레이 무화과",
+      "description": "달콤한 무화과가 듬뿍 들어간 고소한 시트 위에,\n향긋한 얼그레이 크림을 올린 부드러운 케이크 ☕🍰",
+      "state": "ON_SALE",
+      "labels": [
+        "인기"
+      ],
+      "imageLocalPath": "data/tossplace-menu/238090/images/10842350-얼그레이-무화과-0f5f5e5bf2.webp"
+    },
+    {
+      "id": 10192464,
+      "categoryTitle": "디저트",
+      "categoryTitleEn": "Dessert",
+      "title": "초콜릿로쉐케익",
+      "description": "부드러운 스페인산 고급 초콜릿 위에 고소하게 구운 헤이즐넛을 올려\n한 입 베어 물면 진한 초콜릿 풍미가 가득 퍼지는 케이크",
+      "state": "ON_SALE",
+      "labels": [
+        "인기"
+      ],
+      "imageLocalPath": "data/tossplace-menu/238090/images/10192464-초콜릿로쉐케익-52fe1dcc82.webp"
     },
     {
       "id": 10114893,
@@ -581,6 +617,18 @@
       "state": "ON_SALE",
       "labels": [],
       "imageLocalPath": "data/tossplace-menu/238090/images/17098517-클루미-당근케이크-1d9744db1a.webp"
+    },
+    {
+      "id": 17753479,
+      "categoryTitle": "디저트",
+      "categoryTitleEn": "Dessert",
+      "title": "밤송이 몽블랑",
+      "description": "달콤하고 고소한 밤 크림이\n입안에서 사르르 녹아드는 몽블랑.\n",
+      "state": "ON_SALE",
+      "labels": [
+        "신규"
+      ],
+      "imageLocalPath": "data/tossplace-menu/238090/images/17753479-밤송이-몽블랑-1800cf14aa.webp"
     },
     {
       "id": 13579307,

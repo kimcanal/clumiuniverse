@@ -593,14 +593,6 @@
       "sourceUrl": "https://place-static.tossplace.com/public/live/PUBLIC/2026-09-12/9a2366aa-76e5-47c0-b976-35c05f5b08d4",
       "updatedAt": "2026-10-01T00:13:30.819Z"
     },
-    "https://place-static.tossplace.com/public/live/PUBLIC/2026-05-12/bdaaa36b-6c45-44f2-b3b5-b20a15bdec04": {
-      "localPath": "data/tossplace-menu/238090/images/11352437-레몬구름-토르테-b87b32ee1f.jpg",
-      "hash": "b87b32ee1fe8cd16e8ead9a25282d6d33a836b0f686257341f9fbc057a6bd2a9",
-      "itemId": 11352437,
-      "title": "레몬구름 토르테",
-      "sourceUrl": "https://place-static.tossplace.com/public/live/PUBLIC/2026-05-12/bdaaa36b-6c45-44f2-b3b5-b20a15bdec04",
-      "updatedAt": "2026-10-02T00:17:10.654Z"
-    },
     "https://place-static.tossplace.com/public/live/PUBLIC/2026-10-03/cfd2b831-1ed4-4059-bbc5-c8b852e50530": {
       "localPath": "data/tossplace-menu/238090/images/7499596-아포가토-65ef9fa43b.jpg",
       "hash": "65ef9fa43ba8485abb2c99ff5ee1f1b5282122534bc31f312955cd84bdae6e4b",
@@ -640,6 +632,46 @@
       "title": "[시즌한정]딸기왕창와플",
       "sourceUrl": "https://place-static.tossplace.com/public/live/PUBLIC/2026-04-09/79ca2a21-1668-4235-af21-4431110ebb67",
       "updatedAt": "2026-10-13T02:17:05.884Z"
+    },
+    "https://place-static.tossplace.com/public/live/PUBLIC/2026-05-12/5058ffa0-185b-446a-a2b0-8f8701d1ca87": {
+      "localPath": "data/tossplace-menu/238090/images/10197088-교토말차쇼콜라-9d28d3d031.jpg",
+      "hash": "9d28d3d031d728cd946817c735c6dd9ba1693b50a7c16e5636b47a33b131f455",
+      "itemId": 10197088,
+      "title": "교토말차쇼콜라",
+      "sourceUrl": "https://place-static.tossplace.com/public/live/PUBLIC/2026-05-12/5058ffa0-185b-446a-a2b0-8f8701d1ca87",
+      "updatedAt": "2026-10-17T22:44:09.751Z"
+    },
+    "https://place-static.tossplace.com/public/live/PUBLIC/2026-05-12/643d509d-6f8f-4186-a5ba-28c4839cc761": {
+      "localPath": "data/tossplace-menu/238090/images/10192464-초콜릿로쉐케익-52fe1dcc82.jpg",
+      "hash": "52fe1dcc82b800fd1494dbfa9cf12ca59474a0af9d602087499a9d4e9a1ce6fe",
+      "itemId": 10192464,
+      "title": "초콜릿로쉐케익",
+      "sourceUrl": "https://place-static.tossplace.com/public/live/PUBLIC/2026-05-12/643d509d-6f8f-4186-a5ba-28c4839cc761",
+      "updatedAt": "2026-10-17T22:44:09.799Z"
+    },
+    "https://place-static.tossplace.com/public/live/PUBLIC/2026-05-12/965186ba-98fb-4c6b-bdd7-15c905728f22": {
+      "localPath": "data/tossplace-menu/238090/images/10842350-얼그레이-무화과-0f5f5e5bf2.jpg",
+      "hash": "0f5f5e5bf2263c6d32c3cf25d28b16a234dd70a0ccd3b2088184f007f50fbc48",
+      "itemId": 10842350,
+      "title": "얼그레이 무화과",
+      "sourceUrl": "https://place-static.tossplace.com/public/live/PUBLIC/2026-05-12/965186ba-98fb-4c6b-bdd7-15c905728f22",
+      "updatedAt": "2026-10-17T22:44:09.830Z"
+    },
+    "https://place-static.tossplace.com/public/live/PUBLIC/2026-05-13/8a453da7-a2f8-4d0d-bf0d-73ce0bbcbf3e": {
+      "localPath": "data/tossplace-menu/238090/images/10641666-딸기포레누아-a0bf52ee2f.jpg",
+      "hash": "a0bf52ee2f95df60f753e56e5e51ae7a1102b4c42bf9b44125b02dcca8568213",
+      "itemId": 10641666,
+      "title": "딸기포레누아",
+      "sourceUrl": "https://place-static.tossplace.com/public/live/PUBLIC/2026-05-13/8a453da7-a2f8-4d0d-bf0d-73ce0bbcbf3e",
+      "updatedAt": "2026-10-17T22:44:09.911Z"
+    },
+    "https://place-static.tossplace.com/public/live/PUBLIC/2026-10-03/1c4cf3a6-a0b7-4bb1-864d-ec1c8a55f6a6": {
+      "localPath": "data/tossplace-menu/238090/images/17753479-밤송이-몽블랑-1800cf14aa.png",
+      "hash": "1800cf14aabc96a8b21250ec859870bc84d7ffa81c532b3f29e8b167349ad719",
+      "itemId": 17753479,
+      "title": "밤송이 몽블랑",
+      "sourceUrl": "https://place-static.tossplace.com/public/live/PUBLIC/2026-10-03/1c4cf3a6-a0b7-4bb1-864d-ec1c8a55f6a6",
+      "updatedAt": "2026-10-17T22:44:10.582Z"
     }
   },
   "imagesByHash": {
@@ -1163,14 +1195,6 @@
       "sourceUrl": "https://place-static.tossplace.com/public/live/PUBLIC/2026-09-12/9a2366aa-76e5-47c0-b976-35c05f5b08d4",
       "updatedAt": "2026-10-01T00:13:30.819Z"
     },
-    "b87b32ee1fe8cd16e8ead9a25282d6d33a836b0f686257341f9fbc057a6bd2a9": {
-      "localPath": "data/tossplace-menu/238090/images/11352437-레몬구름-토르테-b87b32ee1f.jpg",
-      "hash": "b87b32ee1fe8cd16e8ead9a25282d6d33a836b0f686257341f9fbc057a6bd2a9",
-      "itemId": 11352437,
-      "title": "레몬구름 토르테",
-      "sourceUrl": "https://place-static.tossplace.com/public/live/PUBLIC/2026-05-12/bdaaa36b-6c45-44f2-b3b5-b20a15bdec04",
-      "updatedAt": "2026-10-02T00:17:10.654Z"
-    },
     "65ef9fa43ba8485abb2c99ff5ee1f1b5282122534bc31f312955cd84bdae6e4b": {
       "localPath": "data/tossplace-menu/238090/images/7499596-아포가토-65ef9fa43b.jpg",
       "hash": "65ef9fa43ba8485abb2c99ff5ee1f1b5282122534bc31f312955cd84bdae6e4b",
@@ -1210,6 +1234,46 @@
       "title": "[시즌한정]딸기왕창와플",
       "sourceUrl": "https://place-static.tossplace.com/public/live/PUBLIC/2026-04-09/79ca2a21-1668-4235-af21-4431110ebb67",
       "updatedAt": "2026-10-13T02:17:05.884Z"
+    },
+    "9d28d3d031d728cd946817c735c6dd9ba1693b50a7c16e5636b47a33b131f455": {
+      "localPath": "data/tossplace-menu/238090/images/10197088-교토말차쇼콜라-9d28d3d031.jpg",
+      "hash": "9d28d3d031d728cd946817c735c6dd9ba1693b50a7c16e5636b47a33b131f455",
+      "itemId": 10197088,
+      "title": "교토말차쇼콜라",
+      "sourceUrl": "https://place-static.tossplace.com/public/live/PUBLIC/2026-05-12/5058ffa0-185b-446a-a2b0-8f8701d1ca87",
+      "updatedAt": "2026-10-17T22:44:09.751Z"
+    },
+    "52fe1dcc82b800fd1494dbfa9cf12ca59474a0af9d602087499a9d4e9a1ce6fe": {
+      "localPath": "data/tossplace-menu/238090/images/10192464-초콜릿로쉐케익-52fe1dcc82.jpg",
+      "hash": "52fe1dcc82b800fd1494dbfa9cf12ca59474a0af9d602087499a9d4e9a1ce6fe",
+      "itemId": 10192464,
+      "title": "초콜릿로쉐케익",
+      "sourceUrl": "https://place-static.tossplace.com/public/live/PUBLIC/2026-05-12/643d509d-6f8f-4186-a5ba-28c4839cc761",
+      "updatedAt": "2026-10-17T22:44:09.799Z"
+    },
+    "0f5f5e5bf2263c6d32c3cf25d28b16a234dd70a0ccd3b2088184f007f50fbc48": {
+      "localPath": "data/tossplace-menu/238090/images/10842350-얼그레이-무화과-0f5f5e5bf2.jpg",
+      "hash": "0f5f5e5bf2263c6d32c3cf25d28b16a234dd70a0ccd3b2088184f007f50fbc48",
+      "itemId": 10842350,
+      "title": "얼그레이 무화과",
+      "sourceUrl": "https://place-static.tossplace.com/public/live/PUBLIC/2026-05-12/965186ba-98fb-4c6b-bdd7-15c905728f22",
+      "updatedAt": "2026-10-17T22:44:09.830Z"
+    },
+    "a0bf52ee2f95df60f753e56e5e51ae7a1102b4c42bf9b44125b02dcca8568213": {
+      "localPath": "data/tossplace-menu/238090/images/10641666-딸기포레누아-a0bf52ee2f.jpg",
+      "hash": "a0bf52ee2f95df60f753e56e5e51ae7a1102b4c42bf9b44125b02dcca8568213",
+      "itemId": 10641666,
+      "title": "딸기포레누아",
+      "sourceUrl": "https://place-static.tossplace.com/public/live/PUBLIC/2026-05-13/8a453da7-a2f8-4d0d-bf0d-73ce0bbcbf3e",
+      "updatedAt": "2026-10-17T22:44:09.911Z"
+    },
+    "1800cf14aabc96a8b21250ec859870bc84d7ffa81c532b3f29e8b167349ad719": {
+      "localPath": "data/tossplace-menu/238090/images/17753479-밤송이-몽블랑-1800cf14aa.png",
+      "hash": "1800cf14aabc96a8b21250ec859870bc84d7ffa81c532b3f29e8b167349ad719",
+      "itemId": 17753479,
+      "title": "밤송이 몽블랑",
+      "sourceUrl": "https://place-static.tossplace.com/public/live/PUBLIC/2026-10-03/1c4cf3a6-a0b7-4bb1-864d-ec1c8a55f6a6",
+      "updatedAt": "2026-10-17T22:44:10.582Z"
     }
   },
   "itemsById": {
@@ -1244,14 +1308,14 @@
       "updatedAt": "2026-09-18T12:03:41.506Z"
     },
     "6978463": {
-      "fingerprint": "a81bb1bb538ff6241fc2ecd27f7b442989408a6f9f63cb6d71b0b3ff61ee9616",
-      "title": "바닐라라떼",
+      "fingerprint": "95731f2e12721d7b7348f309b53066877a95147c625a84b7e13fa4affd39a893",
+      "title": "바닐라빈라떼",
       "description": "바닐라빈 시럽이 더해진 달콤하고 부드러운 라떼",
       "imageUrl": "https://place-static.tossplace.com/public/live/PUBLIC/2025-08-23/a71a3699-96e3-41fb-b344-3925207d4cb8",
       "imageLocalPath": "data/tossplace-menu/238090/images/6978463-바닐라라떼-1266f04cf4.png",
       "imageHash": "1266f04cf44382e9a9707a7397f479bf2ba378f142ce34dbd61019e7a80c1682",
       "firstSeenAt": "2026-07-21T04:15:20.254Z",
-      "updatedAt": "2026-09-18T12:03:41.506Z"
+      "updatedAt": "2026-10-17T22:44:10.583Z"
     },
     "6978817": {
       "fingerprint": "5964cd912e226215a26979be745a8068b4dc460f85a81ae39720c536b8dd325c",
@@ -1644,14 +1708,14 @@
       "updatedAt": "2026-09-18T12:03:41.506Z"
     },
     "9479299": {
-      "fingerprint": "5be712d171e5484ec6aa3ec9a3d06fc24eca5a496c58f4aedd4038901f1044ea",
+      "fingerprint": "47d93e4a13dc8247c8c368ae41a0b1c060fb0874037472118d36ac0c96fba98a",
       "title": "[시즌한정]딸기왕창와플",
       "description": "뉴질랜드 앵커 버터 향 가득한 와플 위에 클루미가 딸기를 실수로(?) 와르르— 쏟아버렸대요!\n쏟아진 딸기 양에 깜짝 놀랄지도 몰라요. 겉바속쫀 와플과 상큼한 딸기 폭탄, 그리고 진한 아이스크림의 환상적인 만남! 클루미의 귀여운 실수를 맛있게 즐겨보세요! 💘",
       "imageUrl": "https://place-static.tossplace.com/public/live/PUBLIC/2026-04-09/79ca2a21-1668-4235-af21-4431110ebb67",
       "imageLocalPath": "data/tossplace-menu/238090/images/9479299-시즌한정-딸기왕창와플-381c363183.jpg",
       "imageHash": "381c363183e4e47c8b2fe8b268e76d1a24d5a8d8ab864b826fdc5d5c1c7161bf",
       "firstSeenAt": "2026-10-13T02:17:05.884Z",
-      "updatedAt": "2026-10-13T02:17:05.884Z"
+      "updatedAt": "2026-10-17T22:44:10.583Z"
     },
     "9779978": {
       "fingerprint": "0d33f227f77772c9ab7ee7ce26cf048db4164568bd72305be0a9e03b27cea78e",
@@ -1693,15 +1757,45 @@
       "firstSeenAt": "2026-07-21T04:15:20.254Z",
       "updatedAt": "2026-09-03T22:52:12.943Z"
     },
+    "10192464": {
+      "fingerprint": "cd65ec7707ff0a4eed5f0e599d14e98080b709f368b6c48bab968e2da7e2dfd7",
+      "title": "초콜릿로쉐케익",
+      "description": "부드러운 스페인산 고급 초콜릿 위에 고소하게 구운 헤이즐넛을 올려\n한 입 베어 물면 진한 초콜릿 풍미가 가득 퍼지는 케이크",
+      "imageUrl": "https://place-static.tossplace.com/public/live/PUBLIC/2026-05-12/643d509d-6f8f-4186-a5ba-28c4839cc761",
+      "imageLocalPath": "data/tossplace-menu/238090/images/10192464-초콜릿로쉐케익-52fe1dcc82.jpg",
+      "imageHash": "52fe1dcc82b800fd1494dbfa9cf12ca59474a0af9d602087499a9d4e9a1ce6fe",
+      "firstSeenAt": "2026-10-17T22:44:10.583Z",
+      "updatedAt": "2026-10-17T22:44:10.583Z"
+    },
+    "10197088": {
+      "fingerprint": "2871ebbbaaa3ed5df90b7cac8b304c30b9c7be24516d002807fa87f6cc9bcb26",
+      "title": "교토말차쇼콜라",
+      "description": "꾸덕한 갸또 시트와 말차 가나슈에\n부드러운 우유 크림이 어우러진 케이크",
+      "imageUrl": "https://place-static.tossplace.com/public/live/PUBLIC/2026-05-12/5058ffa0-185b-446a-a2b0-8f8701d1ca87",
+      "imageLocalPath": "data/tossplace-menu/238090/images/10197088-교토말차쇼콜라-9d28d3d031.jpg",
+      "imageHash": "9d28d3d031d728cd946817c735c6dd9ba1693b50a7c16e5636b47a33b131f455",
+      "firstSeenAt": "2026-10-17T22:44:10.583Z",
+      "updatedAt": "2026-10-17T22:44:10.583Z"
+    },
     "10639334": {
-      "fingerprint": "543d8c080da6846768724bdf1851825cf81fa65a8baa741cf989a6c949ed1700",
+      "fingerprint": "8332643e754c54a8d1db168af798a99a08d0cc56b3dd1a3211f7bf5c50e2b365",
       "title": "[시즌한정]베리베리와플",
       "description": "뉴질랜드 앵커 버터를 넣어 직접 반죽한 겉바속쫀 벨기에와플에\n상큼한 딸기와 블루베리, 부드러운 생크림을 듬뿍 올린 디저트",
       "imageUrl": "https://place-static.tossplace.com/public/live/PUBLIC/2026-04-09/1a6b41c9-6fb9-4d76-9d9a-ac9f2dac4921",
       "imageLocalPath": "data/tossplace-menu/238090/images/10639334-시즌한정-베리베리와플-95fd9c7476.jpg",
       "imageHash": "95fd9c7476b80890cfe5596119a97d091beb01b8dd7ebf62ece3410e437394e0",
       "firstSeenAt": "2026-10-13T02:17:05.884Z",
-      "updatedAt": "2026-10-13T02:17:05.884Z"
+      "updatedAt": "2026-10-17T22:44:10.583Z"
+    },
+    "10641666": {
+      "fingerprint": "70ea37f8ab1f539f9c44d214cf59e241692b7780ba5f6fa1a3be1e7a8bb34da4",
+      "title": "딸기포레누아",
+      "description": "상큼한 딸기, 부드러운 우유 크림, 달콤한 화이트 초콜릿이 만나 포근하게 완성된 딸기 케이크 🍓",
+      "imageUrl": "https://place-static.tossplace.com/public/live/PUBLIC/2026-05-13/8a453da7-a2f8-4d0d-bf0d-73ce0bbcbf3e",
+      "imageLocalPath": "data/tossplace-menu/238090/images/10641666-딸기포레누아-a0bf52ee2f.jpg",
+      "imageHash": "a0bf52ee2f95df60f753e56e5e51ae7a1102b4c42bf9b44125b02dcca8568213",
+      "firstSeenAt": "2026-10-17T22:44:10.583Z",
+      "updatedAt": "2026-10-17T22:44:10.583Z"
     },
     "10652155": {
       "fingerprint": "e60a851c6018b7c7568784dfb88a01688900d1db54ef75f2c54bc9ac17d5a7c3",
@@ -1732,6 +1826,16 @@
       "imageHash": "ef3d90e4f5b43d1b51843c7c64479d8f492f57939203c46ca8e2c2019dad3b34",
       "firstSeenAt": "2026-07-21T04:15:20.254Z",
       "updatedAt": "2026-10-03T23:24:52.480Z"
+    },
+    "10842350": {
+      "fingerprint": "bea39c24cc19ba3c58b4451ef946ea31b50d59ded39af8c64c570ad057cccc31",
+      "title": "얼그레이 무화과",
+      "description": "달콤한 무화과가 듬뿍 들어간 고소한 시트 위에,\n향긋한 얼그레이 크림을 올린 부드러운 케이크 ☕🍰",
+      "imageUrl": "https://place-static.tossplace.com/public/live/PUBLIC/2026-05-12/965186ba-98fb-4c6b-bdd7-15c905728f22",
+      "imageLocalPath": "data/tossplace-menu/238090/images/10842350-얼그레이-무화과-0f5f5e5bf2.jpg",
+      "imageHash": "0f5f5e5bf2263c6d32c3cf25d28b16a234dd70a0ccd3b2088184f007f50fbc48",
+      "firstSeenAt": "2026-10-17T22:44:10.583Z",
+      "updatedAt": "2026-10-17T22:44:10.583Z"
     },
     "10983319": {
       "fingerprint": "65feb9bfe9146ff94ac4d68cfd30046fa3ad0435b262748c535c30d274431c84",
@@ -1802,16 +1906,6 @@
       "imageHash": "c242a770ab325470a0761933873c7810ca820e01b595a3888003b66e097064fc",
       "firstSeenAt": "2026-07-21T04:15:20.254Z",
       "updatedAt": "2026-09-18T12:03:41.506Z"
-    },
-    "11352437": {
-      "fingerprint": "94f5537c4ddfbaa511784ad5b615cc61ca6582ae7792b7e8f6791cb70758c386",
-      "title": "레몬구름 토르테",
-      "description": "상큼하게 퍼지는 부드러운 레몬 커드와 레몬 제스트,\n입안 가득 싱그러운 풍미를 채워주며 지친 하루에 생기를 더해주는 레몬 케이크.",
-      "imageUrl": "https://place-static.tossplace.com/public/live/PUBLIC/2026-05-12/bdaaa36b-6c45-44f2-b3b5-b20a15bdec04",
-      "imageLocalPath": "data/tossplace-menu/238090/images/11352437-레몬구름-토르테-b87b32ee1f.jpg",
-      "imageHash": "b87b32ee1fe8cd16e8ead9a25282d6d33a836b0f686257341f9fbc057a6bd2a9",
-      "firstSeenAt": "2026-10-02T00:17:13.897Z",
-      "updatedAt": "2026-10-03T23:24:52.480Z"
     },
     "11912174": {
       "fingerprint": "ca5a0a3612d28295561bf1cf0e13f403f6c3468827628fdac4964ea4939881df",
@@ -2002,23 +2096,19 @@
       "imageHash": "1d9744db1a7e6be251ef0ae9ff7b66a98042695bea2c5ecfa33d869545b78f96",
       "firstSeenAt": "2026-10-01T00:13:33.831Z",
       "updatedAt": "2026-10-01T00:13:33.831Z"
+    },
+    "17753479": {
+      "fingerprint": "bf5e0fd90144668b71aa137d31eb7421f1856a0289197e8ecab5ba7e52900623",
+      "title": "밤송이 몽블랑",
+      "description": "달콤하고 고소한 밤 크림이\n입안에서 사르르 녹아드는 몽블랑.\n",
+      "imageUrl": "https://place-static.tossplace.com/public/live/PUBLIC/2026-10-03/1c4cf3a6-a0b7-4bb1-864d-ec1c8a55f6a6",
+      "imageLocalPath": "data/tossplace-menu/238090/images/17753479-밤송이-몽블랑-1800cf14aa.png",
+      "imageHash": "1800cf14aabc96a8b21250ec859870bc84d7ffa81c532b3f29e8b167349ad719",
+      "firstSeenAt": "2026-10-17T22:44:10.583Z",
+      "updatedAt": "2026-10-17T22:44:10.583Z"
     }
   },
   "runs": [
-    {
-      "at": "2026-09-09T22:48:43.037Z",
-      "summary": {
-        "total": 88,
-        "added": 0,
-        "changed": 7,
-        "unchanged": 81,
-        "removed": 0
-      },
-      "imageSummary": {
-        "skipped-existing-url": 87,
-        "failed-http-timeout": 1
-      }
-    },
     {
       "at": "2026-09-12T22:41:01.782Z",
       "summary": {
@@ -2295,7 +2385,21 @@
       "imageSummary": {
         "skipped-existing-url": 79
       }
+    },
+    {
+      "at": "2026-10-17T22:44:10.583Z",
+      "summary": {
+        "total": 83,
+        "added": 5,
+        "changed": 3,
+        "unchanged": 75,
+        "removed": 1
+      },
+      "imageSummary": {
+        "skipped-existing-url": 78,
+        "downloaded": 5
+      }
     }
   ],
-  "lastRunAt": "2026-10-16T23:04:58.543Z"
+  "lastRunAt": "2026-10-17T22:44:10.583Z"
 }
