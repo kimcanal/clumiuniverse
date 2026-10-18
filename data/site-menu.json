@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-17T22:44:10.583Z",
+  "generatedAt": "2026-10-18T22:39:18.949Z",
   "merchantId": 238090,
   "items": [
     {
@@ -79,18 +79,6 @@
         "신규"
       ],
       "imageLocalPath": "data/tossplace-menu/238090/images/10983319-브런치-오렌지주스-c5355b1554.webp"
-    },
-    {
-      "id": 15684889,
-      "categoryTitle": "인기 메뉴",
-      "categoryTitleEn": "BEST",
-      "title": "복숭아 한 컵",
-      "description": "제철 황도 1개를 통째로 담았습니다.\n달콤한 생복숭아와 바삭한 그래놀라, 상큼한 요거트, 진한 바닐라 아이스크림이 어우러진 여름 한정 프리미엄 파르페",
-      "state": "SOLD_OUT",
-      "labels": [
-        "인기"
-      ],
-      "imageLocalPath": "data/tossplace-menu/238090/images/15684889-복숭아-한-컵-5f7a3ea8c3.webp"
     },
     {
       "id": 15684896,
@@ -614,7 +602,7 @@
       "categoryTitleEn": "Dessert",
       "title": "클루미 당근케이크",
       "description": "진한 치즈 크림과 호두가 가득한 클래식 스타일 당근케이크",
-      "state": "ON_SALE",
+      "state": "SOLD_OUT",
       "labels": [],
       "imageLocalPath": "data/tossplace-menu/238090/images/17098517-클루미-당근케이크-1d9744db1a.webp"
     },
@@ -739,18 +727,6 @@
       "imageLocalPath": "data/tossplace-menu/238090/images/6979179-멜롱망스-c2a0848d6e.webp"
     },
     {
-      "id": 10686488,
-      "categoryTitle": "티",
-      "categoryTitleEn": "Tea",
-      "title": "수월경화 티세트(5개입)",
-      "description": "부산 블루리본 서베이 등재 프리미엄 티 브랜드 수월경화 깊은 향과 부드러운 여운을 담은 티세트 🌿 ",
-      "state": "ON_SALE",
-      "labels": [
-        "인기"
-      ],
-      "imageLocalPath": "data/tossplace-menu/238090/images/10686488-수월경화-티세트-5개입-ef3d90e4f5.webp"
-    },
-    {
       "id": 6979125,
       "categoryTitle": "티",
       "categoryTitleEn": "Tea",
@@ -773,6 +749,38 @@
       "imageLocalPath": "data/tossplace-menu/238090/images/12131403-레몬차-a3fc0f726f.webp"
     },
     {
+      "id": 18186313,
+      "categoryTitle": "티",
+      "categoryTitleEn": "Tea",
+      "title": "블랙 다즐링",
+      "description": "은은한 머스캣 향과 섬세하고 깔끔한 풍미가 매력적인 홍차입니다. 가볍고 산뜻한 여운을 즐겨보세요.",
+      "state": "ON_SALE",
+      "labels": [],
+      "imageLocalPath": "data/tossplace-menu/238090/images/18186313-블랙-다즐링-0e901cae56.webp"
+    },
+    {
+      "id": 18186297,
+      "categoryTitle": "티",
+      "categoryTitleEn": "Tea",
+      "title": "잉글리쉬 블랙퍼스트",
+      "description": "깊고 풍부한 풍미와 부드러운 몰트 향이 특징인 클래식 블랙티입니다. 묵직하면서도 균형 잡힌 맛으로 따뜻한 휴식의 순간을 즐겨보세요.",
+      "state": "ON_SALE",
+      "labels": [],
+      "imageLocalPath": "data/tossplace-menu/238090/images/18186297-잉글리쉬-블랙퍼스트-0e901cae56.webp"
+    },
+    {
+      "id": 10686488,
+      "categoryTitle": "티",
+      "categoryTitleEn": "Tea",
+      "title": "수월경화 티세트(5개입)",
+      "description": "부산 블루리본 서베이 등재 프리미엄 티 브랜드 수월경화 깊은 향과 부드러운 여운을 담은 티세트 🌿 ",
+      "state": "ON_SALE",
+      "labels": [
+        "인기"
+      ],
+      "imageLocalPath": "data/tossplace-menu/238090/images/10686488-수월경화-티세트-5개입-ef3d90e4f5.webp"
+    },
+    {
       "id": 6979327,
       "categoryTitle": "에이드",
       "categoryTitleEn": "Ade",
@@ -791,6 +799,16 @@
       "state": "ON_SALE",
       "labels": [],
       "imageLocalPath": "data/tossplace-menu/238090/images/13734740-청포도에이드-91f4fb1163.webp"
+    },
+    {
+      "id": 7411076,
+      "categoryTitle": "파르페",
+      "categoryTitleEn": "Parfait",
+      "title": "삿포로초코파르페",
+      "description": "깊고 진한 초콜릿을 담은 파르페, 달콤하면서도 깔끔한 풍미.",
+      "state": "ON_SALE",
+      "labels": [],
+      "imageLocalPath": "data/tossplace-menu/238090/images/7411076-삿포로초코파르페-97216e9a5a.webp"
     },
     {
       "id": 15684826,

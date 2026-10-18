@@ -2,17 +2,17 @@
   "merchantId": 238090,
   "merchantName": "클루미 유니버스",
   "merchantStatus": "OPEN",
-  "fetchedAt": "2026-10-17T22:44:10.583Z",
+  "fetchedAt": "2026-10-18T22:39:18.949Z",
   "summary": {
-    "total": 83,
-    "added": 5,
-    "changed": 3,
-    "unchanged": 75,
+    "total": 85,
+    "added": 3,
+    "changed": 6,
+    "unchanged": 76,
     "removed": 1
   },
   "imageSummary": {
-    "skipped-existing-url": 78,
-    "downloaded": 5
+    "skipped-existing-url": 82,
+    "downloaded": 3
   },
   "checks": {
     "missingImages": [],
@@ -99,26 +99,6 @@
             "title": "카푸치노",
             "description": "진한 에스프레소에 폭신한 밀크폼을 더해 부드럽게 즐기는 정통 카푸치노",
             "imageLocalPath": "data/tossplace-menu/238090/images/10999047-브런치-커피-2d26673b2f.jpg"
-          }
-        ]
-      },
-      {
-        "imageHash": "5f7a3ea8c3acf4c7cb72bf80a59b5faca086ac25d26996419ce96db7a50c15f3",
-        "imageLocalPath": "data/tossplace-menu/238090/images/15684889-복숭아-한-컵-5f7a3ea8c3.jpg",
-        "items": [
-          {
-            "id": 15684889,
-            "categoryTitle": "인기 메뉴",
-            "title": "복숭아 한 컵",
-            "description": "제철 황도 1개를 통째로 담았습니다.\n달콤한 생복숭아와 바삭한 그래놀라, 상큼한 요거트, 진한 바닐라 아이스크림이 어우러진 여름 한정 프리미엄 파르페",
-            "imageLocalPath": "data/tossplace-menu/238090/images/15684889-복숭아-한-컵-5f7a3ea8c3.jpg"
-          },
-          {
-            "id": 15684826,
-            "categoryTitle": "파르페",
-            "title": "[시즌] 복숭아 한 컵",
-            "description": "제철 황도 1개를 통째로 담았습니다.\n달콤한 생복숭아와 바삭한 그래놀라, 상큼한 요거트, 진한 바닐라 아이스크림이 어우러진 여름 한정 프리미엄 파르페",
-            "imageLocalPath": "data/tossplace-menu/238090/images/15684889-복숭아-한-컵-5f7a3ea8c3.jpg"
           }
         ]
       },
@@ -239,6 +219,26 @@
             "title": "합정라떼",
             "description": "합정의 여유와 달콤한 버터스카치 풍미를 담은 시그니처 라떼",
             "imageLocalPath": "data/tossplace-menu/238090/images/9142726-시그니처-합정라떼-2481923ac8.jpg"
+          }
+        ]
+      },
+      {
+        "imageHash": "0e901cae56f3203dfd64e9f56931e92459d8d25ab2ba2345cac21466c26c1453",
+        "imageLocalPath": "data/tossplace-menu/238090/images/18186313-블랙-다즐링-0e901cae56.jpg",
+        "items": [
+          {
+            "id": 18186313,
+            "categoryTitle": "티",
+            "title": "블랙 다즐링",
+            "description": "은은한 머스캣 향과 섬세하고 깔끔한 풍미가 매력적인 홍차입니다. 가볍고 산뜻한 여운을 즐겨보세요.",
+            "imageLocalPath": "data/tossplace-menu/238090/images/18186313-블랙-다즐링-0e901cae56.jpg"
+          },
+          {
+            "id": 18186297,
+            "categoryTitle": "티",
+            "title": "잉글리쉬 블랙퍼스트",
+            "description": "깊고 풍부한 풍미와 부드러운 몰트 향이 특징인 클래식 블랙티입니다. 묵직하면서도 균형 잡힌 맛으로 따뜻한 휴식의 순간을 즐겨보세요.",
+            "imageLocalPath": "data/tossplace-menu/238090/images/18186297-잉글리쉬-블랙퍼스트-0e901cae56.jpg"
           }
         ]
       }
@@ -1284,47 +1284,6 @@
       "imageStatus": "skipped-existing-url"
     },
     {
-      "id": 15684889,
-      "categoryId": 867315,
-      "categoryTitle": "인기 메뉴",
-      "categoryTitleEn": "BEST",
-      "position": 2,
-      "title": "복숭아 한 컵",
-      "titleEn": "Whole Peach Cup Parfait",
-      "description": "제철 황도 1개를 통째로 담았습니다.\n달콤한 생복숭아와 바삭한 그래놀라, 상큼한 요거트, 진한 바닐라 아이스크림이 어우러진 여름 한정 프리미엄 파르페",
-      "descriptionEn": "Made with one whole fresh seasonal peach.\nA premium summer parfait layered with crunchy granola, creamy yogurt, whipped cream, and rich vanilla ice cream.",
-      "state": "SOLD_OUT",
-      "priceValue": 15000,
-      "priceTitle": "기본",
-      "imageUrl": "https://place-static.tossplace.com/public/live/PUBLIC/2026-07-24/2a3becfa-b55b-4ba3-a52e-43862b5cfee1",
-      "labels": [
-        "인기"
-      ],
-      "optionSets": [
-        {
-          "id": 539375,
-          "title": "연유 추가",
-          "titleEn": "condensed milk",
-          "required": false,
-          "minChoices": 0,
-          "maxChoices": 1,
-          "choices": [
-            {
-              "id": 1671091,
-              "title": "연유추가(20ml)",
-              "titleEn": "condensed milk",
-              "priceValue": 1500,
-              "state": "ON_SALE"
-            }
-          ]
-        }
-      ],
-      "fingerprint": "037e5500874693bd173482efa2de19dd408fa7b0481183c83ee1a00966ec38fa",
-      "imageLocalPath": "data/tossplace-menu/238090/images/15684889-복숭아-한-컵-5f7a3ea8c3.jpg",
-      "imageHash": "5f7a3ea8c3acf4c7cb72bf80a59b5faca086ac25d26996419ce96db7a50c15f3",
-      "imageStatus": "skipped-existing-url"
-    },
-    {
       "id": 15684896,
       "categoryId": 867315,
       "categoryTitle": "인기 메뉴",
@@ -2093,7 +2052,7 @@
         {
           "id": 296013,
           "title": "아메리카노 우유 추가",
-          "titleEn": "milk 20ml",
+          "titleEn": "Add milk 30ml",
           "required": false,
           "minChoices": 0,
           "maxChoices": 1,
@@ -2101,14 +2060,14 @@
             {
               "id": 901216,
               "title": "우유 30ml 추가",
-              "titleEn": "milk 20ml",
+              "titleEn": "Add milk 30ml",
               "priceValue": 500,
               "state": "ON_SALE"
             }
           ]
         }
       ],
-      "fingerprint": "2cc1d67f73d4a6dc3e118c9bdef70227953448e18d8546f6d6462894e44888a9",
+      "fingerprint": "bb55e5545fef66ddc84c648efabfa027f770d83e490e1bd4a41977b0910093f0",
       "imageLocalPath": "data/tossplace-menu/238090/images/6960804-아메리카노-bae6d92526.jpg",
       "imageHash": "bae6d925264ce8eeaa9210b57b615d089703c9218bea5f7003bc036444411b6a",
       "imageStatus": "skipped-existing-url"
@@ -4751,7 +4710,7 @@
       "fingerprint": "70ea37f8ab1f539f9c44d214cf59e241692b7780ba5f6fa1a3be1e7a8bb34da4",
       "imageLocalPath": "data/tossplace-menu/238090/images/10641666-딸기포레누아-a0bf52ee2f.jpg",
       "imageHash": "a0bf52ee2f95df60f753e56e5e51ae7a1102b4c42bf9b44125b02dcca8568213",
-      "imageStatus": "downloaded"
+      "imageStatus": "skipped-existing-url"
     },
     {
       "id": 10197088,
@@ -4792,7 +4751,7 @@
       "fingerprint": "2871ebbbaaa3ed5df90b7cac8b304c30b9c7be24516d002807fa87f6cc9bcb26",
       "imageLocalPath": "data/tossplace-menu/238090/images/10197088-교토말차쇼콜라-9d28d3d031.jpg",
       "imageHash": "9d28d3d031d728cd946817c735c6dd9ba1693b50a7c16e5636b47a33b131f455",
-      "imageStatus": "downloaded"
+      "imageStatus": "skipped-existing-url"
     },
     {
       "id": 10842350,
@@ -4833,7 +4792,7 @@
       "fingerprint": "bea39c24cc19ba3c58b4451ef946ea31b50d59ded39af8c64c570ad057cccc31",
       "imageLocalPath": "data/tossplace-menu/238090/images/10842350-얼그레이-무화과-0f5f5e5bf2.jpg",
       "imageHash": "0f5f5e5bf2263c6d32c3cf25d28b16a234dd70a0ccd3b2088184f007f50fbc48",
-      "imageStatus": "downloaded"
+      "imageStatus": "skipped-existing-url"
     },
     {
       "id": 10192464,
@@ -4874,7 +4833,7 @@
       "fingerprint": "cd65ec7707ff0a4eed5f0e599d14e98080b709f368b6c48bab968e2da7e2dfd7",
       "imageLocalPath": "data/tossplace-menu/238090/images/10192464-초콜릿로쉐케익-52fe1dcc82.jpg",
       "imageHash": "52fe1dcc82b800fd1494dbfa9cf12ca59474a0af9d602087499a9d4e9a1ce6fe",
-      "imageStatus": "downloaded"
+      "imageStatus": "skipped-existing-url"
     },
     {
       "id": 10114893,
@@ -4930,13 +4889,13 @@
       "titleEn": "Clumi Carrot Cake",
       "description": "진한 치즈 크림과 호두가 가득한 클래식 스타일 당근케이크",
       "descriptionEn": "Classic Carrot Cake with Cream Cheese Frosting & Walnuts",
-      "state": "ON_SALE",
+      "state": "SOLD_OUT",
       "priceValue": 10900,
       "priceTitle": "기본",
       "imageUrl": "https://place-static.tossplace.com/public/live/PUBLIC/2026-09-12/9a2366aa-76e5-47c0-b976-35c05f5b08d4",
       "labels": [],
       "optionSets": [],
-      "fingerprint": "cce6cb8aa0db3b565440f6d3663dfa64c99a10cf4957e2210c93b385f94f5231",
+      "fingerprint": "5bc7f904c8246e9251d4258b47bbe43519b74da38d103848fea0d8f02f6273e2",
       "imageLocalPath": "data/tossplace-menu/238090/images/17098517-클루미-당근케이크-1d9744db1a.jpg",
       "imageHash": "1d9744db1a7e6be251ef0ae9ff7b66a98042695bea2c5ecfa33d869545b78f96",
       "imageStatus": "skipped-existing-url"
@@ -4962,7 +4921,7 @@
       "fingerprint": "bf5e0fd90144668b71aa137d31eb7421f1856a0289197e8ecab5ba7e52900623",
       "imageLocalPath": "data/tossplace-menu/238090/images/17753479-밤송이-몽블랑-1800cf14aa.png",
       "imageHash": "1800cf14aabc96a8b21250ec859870bc84d7ffa81c532b3f29e8b167349ad719",
-      "imageStatus": "downloaded"
+      "imageStatus": "skipped-existing-url"
     },
     {
       "id": 13579307,
@@ -5238,9 +5197,33 @@
               "state": "ON_SALE"
             }
           ]
+        },
+        {
+          "id": 607017,
+          "title": "홍차 옵션",
+          "titleEn": "Tea Options",
+          "required": false,
+          "minChoices": 0,
+          "maxChoices": 2,
+          "choices": [
+            {
+              "id": 1898594,
+              "title": "우유 추가(30ml)",
+              "titleEn": "Add Milk(30ml)",
+              "priceValue": 500,
+              "state": "ON_SALE"
+            },
+            {
+              "id": 1898595,
+              "title": "바닐라 시럽 추가",
+              "titleEn": "Add Vanilla Syrup",
+              "priceValue": 500,
+              "state": "ON_SALE"
+            }
+          ]
         }
       ],
-      "fingerprint": "14b5f08f6d212c818705161d7410f7005237081394a0011abd8c4b9680638ffe",
+      "fingerprint": "fed037b8db9363b76f4a16a5c2276e2f976c9840fa59f865e54e060b53f17cf8",
       "imageLocalPath": "data/tossplace-menu/238090/images/6979222-루이벨벳-e13c447c71.jpg",
       "imageHash": "e13c447c715888f1f502002a7ae6b03c1a3e00d11e8213353aea893de430cf9e",
       "imageStatus": "skipped-existing-url"
@@ -5340,34 +5323,11 @@
       "imageStatus": "skipped-existing-url"
     },
     {
-      "id": 10686488,
-      "categoryId": 722147,
-      "categoryTitle": "티",
-      "categoryTitleEn": "Tea",
-      "position": 7,
-      "title": "수월경화 티세트(5개입)",
-      "titleEn": "SWGH Tea Set(5ea)",
-      "description": "부산 블루리본 서베이 등재 프리미엄 티 브랜드 수월경화 깊은 향과 부드러운 여운을 담은 티세트 🌿 ",
-      "descriptionEn": "Listed in the Busan Blue Ribbon Survey\nPremium tea brand, Suwol Gyeonghwa\ntea sets with deep aroma and a smooth, lingering finish",
-      "state": "ON_SALE",
-      "priceValue": 15000,
-      "priceTitle": "기본",
-      "imageUrl": "https://place-static.tossplace.com/public/live/PUBLIC/2026-10-03/6925b2f1-3d78-4155-85fa-804e367a85bf",
-      "labels": [
-        "인기"
-      ],
-      "optionSets": [],
-      "fingerprint": "51d7ea1aa64f619edbf651548a5b7cb0113261705817828719a44b0756288dda",
-      "imageLocalPath": "data/tossplace-menu/238090/images/10686488-수월경화-티세트-5개입-ef3d90e4f5.jpg",
-      "imageHash": "ef3d90e4f5b43d1b51843c7c64479d8f492f57939203c46ca8e2c2019dad3b34",
-      "imageStatus": "skipped-existing-url"
-    },
-    {
       "id": 6979125,
       "categoryId": 722147,
       "categoryTitle": "티",
       "categoryTitleEn": "Tea",
-      "position": 8,
+      "position": 6,
       "title": "복숭아아이스티",
       "titleEn": "Peach Iced Tea",
       "description": "",
@@ -5410,7 +5370,7 @@
           ]
         }
       ],
-      "fingerprint": "2f1173d6179b57877897a02ba62322bc6b71be91445b2dd7ca7703f68c786290",
+      "fingerprint": "2eb129e5c81de7241abe6c79d4788e512869022ec40d6c7fb0905cfbdc52205b",
       "imageLocalPath": "data/tossplace-menu/238090/images/6979125-복숭아아이스티-4cd29fc8e8.jpg",
       "imageHash": "4cd29fc8e85ca112e4a71cc0b651b90b5d208fcf7d9cf55ea439f692e45c3b87",
       "imageStatus": "skipped-existing-url"
@@ -5420,7 +5380,7 @@
       "categoryId": 722147,
       "categoryTitle": "티",
       "categoryTitleEn": "Tea",
-      "position": 9,
+      "position": 7,
       "title": "레몬차",
       "titleEn": "Lemon Tea",
       "description": "새콤달콤 레몬의 향과 맛을 담은 레몬차",
@@ -5458,9 +5418,124 @@
           ]
         }
       ],
-      "fingerprint": "953c6a4f128cac6eab070e8c4af84dc7002022485be9b6ce3c66a363447566cb",
+      "fingerprint": "d583c60933d7f0f961b37d77946fc90abd0cddb84ced00fe174dbceddc3eff91",
       "imageLocalPath": "data/tossplace-menu/238090/images/12131403-레몬차-a3fc0f726f.jpg",
       "imageHash": "a3fc0f726fa29afa688eb442843d05e2c18cff72b400c0e201e60312fa998879",
+      "imageStatus": "skipped-existing-url"
+    },
+    {
+      "id": 18186313,
+      "categoryId": 722147,
+      "categoryTitle": "티",
+      "categoryTitleEn": "Tea",
+      "position": 13,
+      "title": "블랙 다즐링",
+      "titleEn": "Black Darjeeling",
+      "description": "은은한 머스캣 향과 섬세하고 깔끔한 풍미가 매력적인 홍차입니다. 가볍고 산뜻한 여운을 즐겨보세요.",
+      "descriptionEn": "A delicate black tea with subtle muscat notes and a clean, refreshing finish.",
+      "state": "ON_SALE",
+      "priceValue": 6500,
+      "priceTitle": "기본",
+      "imageUrl": "https://place-static.tossplace.com/public/live/PUBLIC/2026-10-18/cfffb50b-a54e-4dd0-870c-8010856f9dd5",
+      "labels": [],
+      "optionSets": [
+        {
+          "id": 607017,
+          "title": "홍차 옵션",
+          "titleEn": "Tea Options",
+          "required": false,
+          "minChoices": 0,
+          "maxChoices": 2,
+          "choices": [
+            {
+              "id": 1898594,
+              "title": "우유 추가(30ml)",
+              "titleEn": "Add Milk(30ml)",
+              "priceValue": 500,
+              "state": "ON_SALE"
+            },
+            {
+              "id": 1898595,
+              "title": "바닐라 시럽 추가",
+              "titleEn": "Add Vanilla Syrup",
+              "priceValue": 500,
+              "state": "ON_SALE"
+            }
+          ]
+        }
+      ],
+      "fingerprint": "d1434fe34cd621d87ca60753c50a6814d680ab15aa00746c8eb5379086079b35",
+      "imageLocalPath": "data/tossplace-menu/238090/images/18186313-블랙-다즐링-0e901cae56.jpg",
+      "imageHash": "0e901cae56f3203dfd64e9f56931e92459d8d25ab2ba2345cac21466c26c1453",
+      "imageStatus": "downloaded"
+    },
+    {
+      "id": 18186297,
+      "categoryId": 722147,
+      "categoryTitle": "티",
+      "categoryTitleEn": "Tea",
+      "position": 14,
+      "title": "잉글리쉬 블랙퍼스트",
+      "titleEn": "English Breakfast",
+      "description": "깊고 풍부한 풍미와 부드러운 몰트 향이 특징인 클래식 블랙티입니다. 묵직하면서도 균형 잡힌 맛으로 따뜻한 휴식의 순간을 즐겨보세요.",
+      "descriptionEn": "A classic black tea with a rich, full-bodied flavour and smooth malty notes. Enjoy this well-balanced blend for a comforting tea moment.",
+      "state": "ON_SALE",
+      "priceValue": 6500,
+      "priceTitle": "기본",
+      "imageUrl": "https://place-static.tossplace.com/public/live/PUBLIC/2026-10-18/8232f213-9371-4fde-b020-8c1ad8fc25c8",
+      "labels": [],
+      "optionSets": [
+        {
+          "id": 607017,
+          "title": "홍차 옵션",
+          "titleEn": "Tea Options",
+          "required": false,
+          "minChoices": 0,
+          "maxChoices": 2,
+          "choices": [
+            {
+              "id": 1898594,
+              "title": "우유 추가(30ml)",
+              "titleEn": "Add Milk(30ml)",
+              "priceValue": 500,
+              "state": "ON_SALE"
+            },
+            {
+              "id": 1898595,
+              "title": "바닐라 시럽 추가",
+              "titleEn": "Add Vanilla Syrup",
+              "priceValue": 500,
+              "state": "ON_SALE"
+            }
+          ]
+        }
+      ],
+      "fingerprint": "52300e47eb573b9ab84d62172ccdc6b49edc117ced2719c41d84dcf7600bd9f8",
+      "imageLocalPath": "data/tossplace-menu/238090/images/18186297-잉글리쉬-블랙퍼스트-0e901cae56.jpg",
+      "imageHash": "0e901cae56f3203dfd64e9f56931e92459d8d25ab2ba2345cac21466c26c1453",
+      "imageStatus": "downloaded"
+    },
+    {
+      "id": 10686488,
+      "categoryId": 722147,
+      "categoryTitle": "티",
+      "categoryTitleEn": "Tea",
+      "position": 18,
+      "title": "수월경화 티세트(5개입)",
+      "titleEn": "SWGH Tea Set(5ea)",
+      "description": "부산 블루리본 서베이 등재 프리미엄 티 브랜드 수월경화 깊은 향과 부드러운 여운을 담은 티세트 🌿 ",
+      "descriptionEn": "Listed in the Busan Blue Ribbon Survey\nPremium tea brand, Suwol Gyeonghwa\ntea sets with deep aroma and a smooth, lingering finish",
+      "state": "ON_SALE",
+      "priceValue": 15000,
+      "priceTitle": "기본",
+      "imageUrl": "https://place-static.tossplace.com/public/live/PUBLIC/2026-10-03/6925b2f1-3d78-4155-85fa-804e367a85bf",
+      "labels": [
+        "인기"
+      ],
+      "optionSets": [],
+      "fingerprint": "959bb8e3dd75dfd80dccdccd176e71a419ed758ed72606cf9f559f4ffcdcab5d",
+      "imageLocalPath": "data/tossplace-menu/238090/images/10686488-수월경화-티세트-5개입-ef3d90e4f5.jpg",
+      "imageHash": "ef3d90e4f5b43d1b51843c7c64479d8f492f57939203c46ca8e2c2019dad3b34",
       "imageStatus": "skipped-existing-url"
     },
     {
@@ -5504,6 +5579,27 @@
       "imageLocalPath": "data/tossplace-menu/238090/images/13734740-청포도에이드-91f4fb1163.jpg",
       "imageHash": "91f4fb1163526883c3b14cc0b7562e34b9fbacaeab106d11b8fd3dd10f42e878",
       "imageStatus": "skipped-existing-url"
+    },
+    {
+      "id": 7411076,
+      "categoryId": 765263,
+      "categoryTitle": "파르페",
+      "categoryTitleEn": "Parfait",
+      "position": 2,
+      "title": "삿포로초코파르페",
+      "titleEn": "Sapporo Choco Parfait",
+      "description": "깊고 진한 초콜릿을 담은 파르페, 달콤하면서도 깔끔한 풍미.",
+      "descriptionEn": "A parfait with deep, dark chocolate, sweet and clean flavor.",
+      "state": "ON_SALE",
+      "priceValue": 15000,
+      "priceTitle": "기본",
+      "imageUrl": "https://place-static.tossplace.com/public/live/PUBLIC/2025-09-12/54524f4a-17f1-47a6-9889-91b712a3898f",
+      "labels": [],
+      "optionSets": [],
+      "fingerprint": "ac5b06838955b5001f5a4ac13f045c5de447389a4bff429565944c1ad863d2c4",
+      "imageLocalPath": "data/tossplace-menu/238090/images/7411076-삿포로초코파르페-97216e9a5a.png",
+      "imageHash": "97216e9a5a559c0e32a2172e5e3671e97a2644084c83192638673c0e01722445",
+      "imageStatus": "downloaded"
     },
     {
       "id": 15684826,
