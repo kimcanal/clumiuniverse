@@ -696,6 +696,14 @@
       "title": "삿포로초코파르페",
       "sourceUrl": "https://place-static.tossplace.com/public/live/PUBLIC/2025-09-12/54524f4a-17f1-47a6-9889-91b712a3898f",
       "updatedAt": "2026-10-18T22:39:18.948Z"
+    },
+    "https://place-static.tossplace.com/public/live/PUBLIC/2025-09-27/90db900b-3846-425d-a1df-b37dee5da353": {
+      "localPath": "data/tossplace-menu/238090/images/7853022-클래식-와플-커피-세트-77e6926988.jpg",
+      "hash": "77e69269885364d3986b8716967fb7e60ee71b0f2cca317e6d9223975750dcaa",
+      "itemId": 7853022,
+      "title": "클래식 와플&커피 세트",
+      "sourceUrl": "https://place-static.tossplace.com/public/live/PUBLIC/2025-09-27/90db900b-3846-425d-a1df-b37dee5da353",
+      "updatedAt": "2026-10-19T23:59:13.702Z"
     }
   },
   "imagesByHash": {
@@ -1314,6 +1322,14 @@
       "title": "삿포로초코파르페",
       "sourceUrl": "https://place-static.tossplace.com/public/live/PUBLIC/2025-09-12/54524f4a-17f1-47a6-9889-91b712a3898f",
       "updatedAt": "2026-10-18T22:39:18.948Z"
+    },
+    "77e69269885364d3986b8716967fb7e60ee71b0f2cca317e6d9223975750dcaa": {
+      "localPath": "data/tossplace-menu/238090/images/7853022-클래식-와플-커피-세트-77e6926988.jpg",
+      "hash": "77e69269885364d3986b8716967fb7e60ee71b0f2cca317e6d9223975750dcaa",
+      "itemId": 7853022,
+      "title": "클래식 와플&커피 세트",
+      "sourceUrl": "https://place-static.tossplace.com/public/live/PUBLIC/2025-09-27/90db900b-3846-425d-a1df-b37dee5da353",
+      "updatedAt": "2026-10-19T23:59:13.702Z"
     }
   },
   "itemsById": {
@@ -1428,24 +1444,24 @@
       "updatedAt": "2026-10-18T22:39:18.949Z"
     },
     "6979241": {
-      "fingerprint": "16c4497f84804240017d8d6eda45e64d2bdae2ca1a40b73009a701f4e9743766",
+      "fingerprint": "0729da6b1de2c4fdf36f93591575ac1b9a6fa9cbbe01d5f0fceda652f048786a",
       "title": "현월호지",
       "description": "덖은 녹차와 호지차의 구수함과 진득한 달콤함을 가진 흑당의 콜라보레이션 한 잔",
       "imageUrl": "https://place-static.tossplace.com/public/live/PUBLIC/2025-08-23/3355a36e-2a57-4af5-8588-7dff824fc7e1",
       "imageLocalPath": "data/tossplace-menu/238090/images/6979241-현월호지-0c8e00ea34.jpg",
       "imageHash": "0c8e00ea34349dd9cef13bc8f9addd29e554e1797ec71c2d93ca4e7fa5b71292",
       "firstSeenAt": "2026-07-21T04:15:20.254Z",
-      "updatedAt": "2026-09-18T12:03:41.506Z"
+      "updatedAt": "2026-10-19T23:59:13.704Z"
     },
     "6979257": {
-      "fingerprint": "91603c601b318322a004dc806ce9dbd7c4811fd5efeaf82721dfe39ee6edfdf5",
+      "fingerprint": "3a1e46e3ff5bd8fc86d2eaef610d1dd7a32b1602d86d91f496dbf66458ebda0f",
       "title": "레몬석양",
       "description": "히비스커스가 그린 아름다운 바닷가 석양을 담은 수색에 레모니한 상큼함과 달콤한의 조화 한 잔",
       "imageUrl": "https://place-static.tossplace.com/public/live/PUBLIC/2025-08-23/fbe2749f-9fc9-42ad-a239-6b1acd44b140",
       "imageLocalPath": "data/tossplace-menu/238090/images/6979257-레몬석양-5fbcf385df.jpg",
       "imageHash": "5fbcf385df583b5e3e36125b1434352ff4604b916e4025ea0d8c4985e84af9ec",
       "firstSeenAt": "2026-07-21T04:15:20.254Z",
-      "updatedAt": "2026-09-18T12:03:41.506Z"
+      "updatedAt": "2026-10-19T23:59:13.704Z"
     },
     "6979310": {
       "fingerprint": "1e9b656c170f7876eb9bf47f76cf3ad42fa68ac6cbc543eafeb240158c34bec0",
@@ -1656,6 +1672,16 @@
       "imageHash": "8d65b9a46f1c183f11ecff2102e5a0df694e601a435f30fb3d4a04819259a8d0",
       "firstSeenAt": "2026-07-21T04:15:20.254Z",
       "updatedAt": "2026-10-13T02:17:05.884Z"
+    },
+    "7853022": {
+      "fingerprint": "c70219a10bd51cee1ab0e6379d829ac4a8e1e35a4af01121822dfab7eb860dd1",
+      "title": "클래식 와플&커피 세트",
+      "description": "\"가장 완벽하고 달콤한 휴식의 조합\"\n깊은 풍미의 앵커 버터로 구워낸 클래식 와플과 향긋한 커피를 세트로 만나보세요. 입안 가득 퍼지는 기분 좋은 달콤함이 당신의 하루를 더욱 특별하게 만들어 줍니다.",
+      "imageUrl": "https://place-static.tossplace.com/public/live/PUBLIC/2025-09-27/90db900b-3846-425d-a1df-b37dee5da353",
+      "imageLocalPath": "data/tossplace-menu/238090/images/7853022-클래식-와플-커피-세트-77e6926988.jpg",
+      "imageHash": "77e69269885364d3986b8716967fb7e60ee71b0f2cca317e6d9223975750dcaa",
+      "firstSeenAt": "2026-10-19T23:59:13.704Z",
+      "updatedAt": "2026-10-19T23:59:13.704Z"
     },
     "7965785": {
       "fingerprint": "1c3ded843924f2160f438ef9d9c5e19d5fd3d23e255e9f57fe25ddcefb5e457e",
@@ -2170,21 +2196,6 @@
   },
   "runs": [
     {
-      "at": "2026-09-18T12:03:41.506Z",
-      "summary": {
-        "total": 89,
-        "added": 0,
-        "changed": 57,
-        "unchanged": 32,
-        "removed": 0
-      },
-      "imageSummary": {
-        "skipped-existing-url": 87,
-        "missing": 1,
-        "failed-http-timeout": 1
-      }
-    },
-    {
       "at": "2026-09-19T22:32:44.862Z",
       "summary": {
         "total": 87,
@@ -2457,7 +2468,21 @@
         "skipped-existing-url": 82,
         "downloaded": 3
       }
+    },
+    {
+      "at": "2026-10-19T23:59:13.704Z",
+      "summary": {
+        "total": 86,
+        "added": 1,
+        "changed": 2,
+        "unchanged": 83,
+        "removed": 0
+      },
+      "imageSummary": {
+        "skipped-existing-url": 85,
+        "downloaded": 1
+      }
     }
   ],
-  "lastRunAt": "2026-10-18T22:39:18.949Z"
+  "lastRunAt": "2026-10-19T23:59:13.704Z"
 }

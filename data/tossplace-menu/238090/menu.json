@@ -2,17 +2,17 @@
   "merchantId": 238090,
   "merchantName": "클루미 유니버스",
   "merchantStatus": "OPEN",
-  "fetchedAt": "2026-10-18T22:39:18.949Z",
+  "fetchedAt": "2026-10-19T23:59:13.704Z",
   "summary": {
-    "total": 85,
-    "added": 3,
-    "changed": 6,
-    "unchanged": 76,
-    "removed": 1
+    "total": 86,
+    "added": 1,
+    "changed": 2,
+    "unchanged": 83,
+    "removed": 0
   },
   "imageSummary": {
-    "skipped-existing-url": 82,
-    "downloaded": 3
+    "skipped-existing-url": 85,
+    "downloaded": 1
   },
   "checks": {
     "missingImages": [],
@@ -4312,6 +4312,224 @@
       "imageStatus": "skipped-existing-url"
     },
     {
+      "id": 7853022,
+      "categoryId": 789332,
+      "categoryTitle": "벨기에와플",
+      "categoryTitleEn": "Belgium Waffle",
+      "position": 8,
+      "title": "클래식 와플&커피 세트",
+      "titleEn": "Classic Waffle Coffee Set",
+      "description": "\"가장 완벽하고 달콤한 휴식의 조합\"\n깊은 풍미의 앵커 버터로 구워낸 클래식 와플과 향긋한 커피를 세트로 만나보세요. 입안 가득 퍼지는 기분 좋은 달콤함이 당신의 하루를 더욱 특별하게 만들어 줍니다.",
+      "descriptionEn": "\"The ultimate duo for your sweet escape.\"\nTreat yourself to our signature handmade waffle paired with a freshly brewed coffee. Experience the perfect balance of rich, buttery sweetness and a smooth coffee finish.",
+      "state": "ON_SALE",
+      "priceValue": 10500,
+      "priceTitle": "기본",
+      "imageUrl": "https://place-static.tossplace.com/public/live/PUBLIC/2025-09-27/90db900b-3846-425d-a1df-b37dee5da353",
+      "labels": [],
+      "optionSets": [
+        {
+          "id": 296010,
+          "title": "원두 선택",
+          "titleEn": "beans",
+          "required": true,
+          "minChoices": 1,
+          "maxChoices": 1,
+          "choices": [
+            {
+              "id": 901204,
+              "title": "고소한 원두",
+              "titleEn": "savory beans",
+              "priceValue": 0,
+              "state": "ON_SALE"
+            },
+            {
+              "id": 901205,
+              "title": "산미있는 원두",
+              "titleEn": "acidity beans",
+              "priceValue": 0,
+              "state": "ON_SALE"
+            },
+            {
+              "id": 901206,
+              "title": "디카페인 원두",
+              "titleEn": "decaffeine",
+              "priceValue": 500,
+              "state": "ON_SALE"
+            }
+          ]
+        },
+        {
+          "id": 294937,
+          "title": "온도",
+          "titleEn": "temperature",
+          "required": true,
+          "minChoices": 1,
+          "maxChoices": 1,
+          "choices": [
+            {
+              "id": 897956,
+              "title": "따뜻하게",
+              "titleEn": "HOT",
+              "priceValue": 0,
+              "state": "ON_SALE"
+            },
+            {
+              "id": 897957,
+              "title": "차갑게",
+              "titleEn": "ICE ",
+              "priceValue": 0,
+              "state": "ON_SALE"
+            }
+          ]
+        },
+        {
+          "id": 294938,
+          "title": "커피 옵션",
+          "titleEn": "Coffee Option",
+          "required": false,
+          "minChoices": 0,
+          "maxChoices": 1,
+          "choices": [
+            {
+              "id": 897960,
+              "title": "샷 추가",
+              "titleEn": "Extra Shot",
+              "priceValue": 500,
+              "state": "ON_SALE"
+            },
+            {
+              "id": 901463,
+              "title": "연하게",
+              "titleEn": "one shot",
+              "priceValue": 0,
+              "state": "ON_SALE"
+            },
+            {
+              "id": 901465,
+              "title": "바닐라시럽추가",
+              "titleEn": "vanilla syrup",
+              "priceValue": 500,
+              "state": "ON_SALE"
+            }
+          ]
+        },
+        {
+          "id": 366680,
+          "title": "와플 컷팅",
+          "titleEn": "Waffle Cutting",
+          "required": true,
+          "minChoices": 1,
+          "maxChoices": 1,
+          "choices": [
+            {
+              "id": 1135717,
+              "title": "그대로 주세요",
+              "titleEn": "Whole",
+              "priceValue": 0,
+              "state": "ON_SALE"
+            },
+            {
+              "id": 1135716,
+              "title": "먹기좋게 잘라주세요",
+              "titleEn": "Cut",
+              "priceValue": 0,
+              "state": "ON_SALE"
+            }
+          ]
+        },
+        {
+          "id": 302280,
+          "title": "라떼 변경",
+          "titleEn": "Cafe Latte",
+          "required": false,
+          "minChoices": 0,
+          "maxChoices": 1,
+          "choices": [
+            {
+              "id": 923610,
+              "title": "카페라떼(핫)",
+              "titleEn": "Hot Cafe Latte",
+              "priceValue": 1000,
+              "state": "ON_SALE"
+            },
+            {
+              "id": 923611,
+              "title": "카페라떼(아이스)",
+              "titleEn": "Ice Cafe Latte",
+              "priceValue": 1000,
+              "state": "ON_SALE"
+            }
+          ]
+        },
+        {
+          "id": 316934,
+          "title": "와플 옵션",
+          "titleEn": "Waffle Option",
+          "required": false,
+          "minChoices": 0,
+          "maxChoices": 4,
+          "choices": [
+            {
+              "id": 971773,
+              "title": "시나몬 추가",
+              "titleEn": "Cinnamon",
+              "priceValue": 500,
+              "state": "ON_SALE"
+            },
+            {
+              "id": 971774,
+              "title": "크림치즈 추가",
+              "titleEn": "Cream Cheese",
+              "priceValue": 1000,
+              "state": "ON_SALE"
+            },
+            {
+              "id": 971775,
+              "title": "골든애플잼 추가",
+              "titleEn": "Golden Apple Jam ",
+              "priceValue": 1000,
+              "state": "ON_SALE"
+            },
+            {
+              "id": 1129310,
+              "title": "블루베리잼 추가",
+              "titleEn": "Blueberry Jam",
+              "priceValue": 1000,
+              "state": "ON_SALE"
+            }
+          ]
+        },
+        {
+          "id": 473272,
+          "title": "와플 아이스크림 추가",
+          "titleEn": "Ice Cream",
+          "required": false,
+          "minChoices": 0,
+          "maxChoices": 2,
+          "choices": [
+            {
+              "id": 1462666,
+              "title": "바닐라",
+              "titleEn": "Vanilla",
+              "priceValue": 2500,
+              "state": "ON_SALE"
+            },
+            {
+              "id": 1462667,
+              "title": "초코",
+              "titleEn": "Chocolate",
+              "priceValue": 2500,
+              "state": "ON_SALE"
+            }
+          ]
+        }
+      ],
+      "fingerprint": "c70219a10bd51cee1ab0e6379d829ac4a8e1e35a4af01121822dfab7eb860dd1",
+      "imageLocalPath": "data/tossplace-menu/238090/images/7853022-클래식-와플-커피-세트-77e6926988.jpg",
+      "imageHash": "77e69269885364d3986b8716967fb7e60ee71b0f2cca317e6d9223975750dcaa",
+      "imageStatus": "downloaded"
+    },
+    {
       "id": 7965785,
       "categoryId": 789332,
       "categoryTitle": "벨기에와플",
@@ -5122,7 +5340,7 @@
       "titleEn": "Lemon Sunset",
       "description": "히비스커스가 그린 아름다운 바닷가 석양을 담은 수색에 레모니한 상큼함과 달콤한의 조화 한 잔",
       "descriptionEn": "A drink of lemoni freshness and sweet harmony in the search for the beautiful beach sunset painted by Hibiscus",
-      "state": "ON_SALE",
+      "state": "SOLD_OUT",
       "priceValue": 6500,
       "priceTitle": "기본",
       "imageUrl": "https://place-static.tossplace.com/public/live/PUBLIC/2025-08-23/fbe2749f-9fc9-42ad-a239-6b1acd44b140",
@@ -5153,7 +5371,7 @@
           ]
         }
       ],
-      "fingerprint": "91603c601b318322a004dc806ce9dbd7c4811fd5efeaf82721dfe39ee6edfdf5",
+      "fingerprint": "3a1e46e3ff5bd8fc86d2eaef610d1dd7a32b1602d86d91f496dbf66458ebda0f",
       "imageLocalPath": "data/tossplace-menu/238090/images/6979257-레몬석양-5fbcf385df.jpg",
       "imageHash": "5fbcf385df583b5e3e36125b1434352ff4604b916e4025ea0d8c4985e84af9ec",
       "imageStatus": "skipped-existing-url"
@@ -5238,7 +5456,7 @@
       "titleEn": "Black Moon Hoji",
       "description": "덖은 녹차와 호지차의 구수함과 진득한 달콤함을 가진 흑당의 콜라보레이션 한 잔",
       "descriptionEn": "A collaboration cup of black sugar with the savory and rich sweetness of green tea and Hoji tea",
-      "state": "ON_SALE",
+      "state": "SOLD_OUT",
       "priceValue": 6500,
       "priceTitle": "기본",
       "imageUrl": "https://place-static.tossplace.com/public/live/PUBLIC/2025-08-23/3355a36e-2a57-4af5-8588-7dff824fc7e1",
@@ -5271,7 +5489,7 @@
           ]
         }
       ],
-      "fingerprint": "16c4497f84804240017d8d6eda45e64d2bdae2ca1a40b73009a701f4e9743766",
+      "fingerprint": "0729da6b1de2c4fdf36f93591575ac1b9a6fa9cbbe01d5f0fceda652f048786a",
       "imageLocalPath": "data/tossplace-menu/238090/images/6979241-현월호지-0c8e00ea34.jpg",
       "imageHash": "0c8e00ea34349dd9cef13bc8f9addd29e554e1797ec71c2d93ca4e7fa5b71292",
       "imageStatus": "skipped-existing-url"
@@ -5467,7 +5685,7 @@
       "fingerprint": "d1434fe34cd621d87ca60753c50a6814d680ab15aa00746c8eb5379086079b35",
       "imageLocalPath": "data/tossplace-menu/238090/images/18186313-블랙-다즐링-0e901cae56.jpg",
       "imageHash": "0e901cae56f3203dfd64e9f56931e92459d8d25ab2ba2345cac21466c26c1453",
-      "imageStatus": "downloaded"
+      "imageStatus": "skipped-existing-url"
     },
     {
       "id": 18186297,
@@ -5513,7 +5731,7 @@
       "fingerprint": "52300e47eb573b9ab84d62172ccdc6b49edc117ced2719c41d84dcf7600bd9f8",
       "imageLocalPath": "data/tossplace-menu/238090/images/18186297-잉글리쉬-블랙퍼스트-0e901cae56.jpg",
       "imageHash": "0e901cae56f3203dfd64e9f56931e92459d8d25ab2ba2345cac21466c26c1453",
-      "imageStatus": "downloaded"
+      "imageStatus": "skipped-existing-url"
     },
     {
       "id": 10686488,
@@ -5599,7 +5817,7 @@
       "fingerprint": "ac5b06838955b5001f5a4ac13f045c5de447389a4bff429565944c1ad863d2c4",
       "imageLocalPath": "data/tossplace-menu/238090/images/7411076-삿포로초코파르페-97216e9a5a.png",
       "imageHash": "97216e9a5a559c0e32a2172e5e3671e97a2644084c83192638673c0e01722445",
-      "imageStatus": "downloaded"
+      "imageStatus": "skipped-existing-url"
     },
     {
       "id": 15684826,
