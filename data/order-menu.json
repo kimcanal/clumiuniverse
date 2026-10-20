@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-19T23:59:13.704Z",
+  "generatedAt": "2026-10-20T23:30:39.688Z",
   "merchantId": 238090,
   "items": [
     {
@@ -935,7 +935,7 @@
       "descriptionEn": "A Liège waffle made with Anchor butter, topped with banana, whipped cream, chocolate sauce, and pistachio. Crispy, chewy, and dangerously easy to fall for.",
       "priceValue": 12000,
       "priceTitle": "기본",
-      "available": true,
+      "available": false,
       "labels": [
         "인기"
       ],
@@ -2848,7 +2848,7 @@
       "descriptionEn": "A sunset-hued tea ade,\nbright, lemony, and refreshingly sweet.",
       "priceValue": 6500,
       "priceTitle": "기본",
-      "available": true,
+      "available": false,
       "labels": [],
       "optionSets": [],
       "imageLocalPath": "data/tossplace-menu/238090/images/6986485-플래미-노을에이드-524d256888.webp"

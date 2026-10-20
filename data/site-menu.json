@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-19T23:59:13.704Z",
+  "generatedAt": "2026-10-20T23:30:39.688Z",
   "merchantId": 238090,
   "items": [
     {
@@ -98,7 +98,7 @@
       "categoryTitleEn": "BEST",
       "title": "[피스타치오] 초코 반하나 와플",
       "description": "앵커 버터로 만든 겉바속쫀 리에주 와플에 바나나, 생크림, 초코소스, 피스타치오를 올린 클루미 시그니처 와플. 한 입에 반해버릴지도 몰라요.",
-      "state": "ON_SALE",
+      "state": "SOLD_OUT",
       "labels": [
         "인기"
       ],
@@ -356,7 +356,7 @@
       "categoryTitleEn": "CLUMI Emotion Potion",
       "title": "[플래미] 노을에이드",
       "description": "저녁 노을을 닮은 빛깔에\n레몬 향이 은은하게 퍼지는 새콤달콤 티 에이드",
-      "state": "ON_SALE",
+      "state": "SOLD_OUT",
       "labels": [],
       "imageLocalPath": "data/tossplace-menu/238090/images/6986485-플래미-노을에이드-524d256888.webp"
     },

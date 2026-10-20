@@ -2,17 +2,16 @@
   "merchantId": 238090,
   "merchantName": "클루미 유니버스",
   "merchantStatus": "OPEN",
-  "fetchedAt": "2026-10-19T23:59:13.704Z",
+  "fetchedAt": "2026-10-20T23:30:39.688Z",
   "summary": {
     "total": 86,
-    "added": 1,
+    "added": 0,
     "changed": 2,
-    "unchanged": 83,
+    "unchanged": 84,
     "removed": 0
   },
   "imageSummary": {
-    "skipped-existing-url": 85,
-    "downloaded": 1
+    "skipped-existing-url": 86
   },
   "checks": {
     "missingImages": [],
@@ -1358,7 +1357,7 @@
       "titleEn": "[Pistachio] Banana Waffle",
       "description": "앵커 버터로 만든 겉바속쫀 리에주 와플에 바나나, 생크림, 초코소스, 피스타치오를 올린 클루미 시그니처 와플. 한 입에 반해버릴지도 몰라요.",
       "descriptionEn": "A Liège waffle made with Anchor butter, topped with banana, whipped cream, chocolate sauce, and pistachio. Crispy, chewy, and dangerously easy to fall for.",
-      "state": "ON_SALE",
+      "state": "SOLD_OUT",
       "priceValue": 12000,
       "priceTitle": "기본",
       "imageUrl": "https://place-static.tossplace.com/public/live/PUBLIC/2026-05-09/59d70125-6af4-4c19-a4c7-31c8f4d0eb00",
@@ -1391,7 +1390,7 @@
           ]
         }
       ],
-      "fingerprint": "b8217821c33b131d922de8f58fd06eb2b1c60bc2a3f0411ebdebb9f701f7bea8",
+      "fingerprint": "1004681641c5b823f4a802603a429cdc81aaa398caa7de1afdafa12d165d8646",
       "imageLocalPath": "data/tossplace-menu/238090/images/10683603-피스타치오-초코-반하나-와플-87f8a2942f.jpg",
       "imageHash": "87f8a2942f2b5a6231dcf3474d72da5a0a7ddb0f9fcc603bdca0a39d9a4f5a0d",
       "imageStatus": "skipped-existing-url"
@@ -3415,13 +3414,13 @@
       "titleEn": "[Flamy] Sunset Tea Ade",
       "description": "저녁 노을을 닮은 빛깔에\n레몬 향이 은은하게 퍼지는 새콤달콤 티 에이드",
       "descriptionEn": "A sunset-hued tea ade,\nbright, lemony, and refreshingly sweet.",
-      "state": "ON_SALE",
+      "state": "SOLD_OUT",
       "priceValue": 6500,
       "priceTitle": "기본",
       "imageUrl": "https://place-static.tossplace.com/public/live/PUBLIC/2026-01-30/0636436a-6b39-4533-bd34-0ee9ef8bb6a5",
       "labels": [],
       "optionSets": [],
-      "fingerprint": "6e527c8a99b1d43539c843fca3c85c86cb7a5bbf64ad7212f36f87adeacc0569",
+      "fingerprint": "1d9e87b6b21bc7ca87f1867b10878b9d96f4843f838afb3fa81d844a1a53f9e4",
       "imageLocalPath": "data/tossplace-menu/238090/images/6986485-플래미-노을에이드-524d256888.jpg",
       "imageHash": "524d2568886d8aae372ac1145e16b5fb777776d2ca92e788e6950c598a9d76d0",
       "imageStatus": "skipped-existing-url"
@@ -4527,7 +4526,7 @@
       "fingerprint": "c70219a10bd51cee1ab0e6379d829ac4a8e1e35a4af01121822dfab7eb860dd1",
       "imageLocalPath": "data/tossplace-menu/238090/images/7853022-클래식-와플-커피-세트-77e6926988.jpg",
       "imageHash": "77e69269885364d3986b8716967fb7e60ee71b0f2cca317e6d9223975750dcaa",
-      "imageStatus": "downloaded"
+      "imageStatus": "skipped-existing-url"
     },
     {
       "id": 7965785,
