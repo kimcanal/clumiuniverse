@@ -585,14 +585,6 @@
       "sourceUrl": "https://place-static.tossplace.com/public/live/PUBLIC/2026-05-09/ae7594c4-fb11-480f-a5c1-aeab9a2032d9",
       "updatedAt": "2026-09-27T23:27:04.937Z"
     },
-    "https://place-static.tossplace.com/public/live/PUBLIC/2026-09-12/9a2366aa-76e5-47c0-b976-35c05f5b08d4": {
-      "localPath": "data/tossplace-menu/238090/images/17098517-클루미-당근케이크-1d9744db1a.jpg",
-      "hash": "1d9744db1a7e6be251ef0ae9ff7b66a98042695bea2c5ecfa33d869545b78f96",
-      "itemId": 17098517,
-      "title": "클루미 당근케이크",
-      "sourceUrl": "https://place-static.tossplace.com/public/live/PUBLIC/2026-09-12/9a2366aa-76e5-47c0-b976-35c05f5b08d4",
-      "updatedAt": "2026-10-01T00:13:30.819Z"
-    },
     "https://place-static.tossplace.com/public/live/PUBLIC/2026-10-03/cfd2b831-1ed4-4059-bbc5-c8b852e50530": {
       "localPath": "data/tossplace-menu/238090/images/7499596-아포가토-65ef9fa43b.jpg",
       "hash": "65ef9fa43ba8485abb2c99ff5ee1f1b5282122534bc31f312955cd84bdae6e4b",
@@ -1218,14 +1210,6 @@
       "title": "[피스타치오] 초코 반하나 와플",
       "sourceUrl": "https://place-static.tossplace.com/public/live/PUBLIC/2026-05-09/59d70125-6af4-4c19-a4c7-31c8f4d0eb00",
       "updatedAt": "2026-09-27T23:27:04.759Z"
-    },
-    "1d9744db1a7e6be251ef0ae9ff7b66a98042695bea2c5ecfa33d869545b78f96": {
-      "localPath": "data/tossplace-menu/238090/images/17098517-클루미-당근케이크-1d9744db1a.jpg",
-      "hash": "1d9744db1a7e6be251ef0ae9ff7b66a98042695bea2c5ecfa33d869545b78f96",
-      "itemId": 17098517,
-      "title": "클루미 당근케이크",
-      "sourceUrl": "https://place-static.tossplace.com/public/live/PUBLIC/2026-09-12/9a2366aa-76e5-47c0-b976-35c05f5b08d4",
-      "updatedAt": "2026-10-01T00:13:30.819Z"
     },
     "65ef9fa43ba8485abb2c99ff5ee1f1b5282122534bc31f312955cd84bdae6e4b": {
       "localPath": "data/tossplace-menu/238090/images/7499596-아포가토-65ef9fa43b.jpg",
@@ -2153,25 +2137,15 @@
       "firstSeenAt": "2026-08-25T21:15:22.454Z",
       "updatedAt": "2026-09-18T12:03:41.506Z"
     },
-    "17098517": {
-      "fingerprint": "5bc7f904c8246e9251d4258b47bbe43519b74da38d103848fea0d8f02f6273e2",
-      "title": "클루미 당근케이크",
-      "description": "진한 치즈 크림과 호두가 가득한 클래식 스타일 당근케이크",
-      "imageUrl": "https://place-static.tossplace.com/public/live/PUBLIC/2026-09-12/9a2366aa-76e5-47c0-b976-35c05f5b08d4",
-      "imageLocalPath": "data/tossplace-menu/238090/images/17098517-클루미-당근케이크-1d9744db1a.jpg",
-      "imageHash": "1d9744db1a7e6be251ef0ae9ff7b66a98042695bea2c5ecfa33d869545b78f96",
-      "firstSeenAt": "2026-10-01T00:13:33.831Z",
-      "updatedAt": "2026-10-18T22:39:18.949Z"
-    },
     "17753479": {
-      "fingerprint": "bf5e0fd90144668b71aa137d31eb7421f1856a0289197e8ecab5ba7e52900623",
-      "title": "밤송이 몽블랑",
+      "fingerprint": "89fb87fef33b6c8dac9c943a8e8fe9b618b36a3b88606e0369c912955e9ae83f",
+      "title": "밤 몽블랑",
       "description": "달콤하고 고소한 밤 크림이\n입안에서 사르르 녹아드는 몽블랑.\n",
       "imageUrl": "https://place-static.tossplace.com/public/live/PUBLIC/2026-10-03/1c4cf3a6-a0b7-4bb1-864d-ec1c8a55f6a6",
       "imageLocalPath": "data/tossplace-menu/238090/images/17753479-밤송이-몽블랑-1800cf14aa.png",
       "imageHash": "1800cf14aabc96a8b21250ec859870bc84d7ffa81c532b3f29e8b167349ad719",
       "firstSeenAt": "2026-10-17T22:44:10.583Z",
-      "updatedAt": "2026-10-17T22:44:10.583Z"
+      "updatedAt": "2026-10-23T23:36:33.632Z"
     },
     "18186297": {
       "fingerprint": "52300e47eb573b9ab84d62172ccdc6b49edc117ced2719c41d84dcf7600bd9f8",
@@ -2195,21 +2169,6 @@
     }
   },
   "runs": [
-    {
-      "at": "2026-09-20T22:45:33.264Z",
-      "summary": {
-        "total": 85,
-        "added": 0,
-        "changed": 0,
-        "unchanged": 85,
-        "removed": 2
-      },
-      "imageSummary": {
-        "skipped-existing-url": 83,
-        "missing": 1,
-        "failed-http-timeout": 1
-      }
-    },
     {
       "at": "2026-09-21T04:56:43.613Z",
       "summary": {
@@ -2480,7 +2439,20 @@
       "imageSummary": {
         "skipped-existing-url": 86
       }
+    },
+    {
+      "at": "2026-10-23T23:36:33.632Z",
+      "summary": {
+        "total": 85,
+        "added": 0,
+        "changed": 1,
+        "unchanged": 84,
+        "removed": 1
+      },
+      "imageSummary": {
+        "skipped-existing-url": 85
+      }
     }
   ],
-  "lastRunAt": "2026-10-20T23:30:39.688Z"
+  "lastRunAt": "2026-10-23T23:36:33.632Z"
 }

@@ -2,16 +2,16 @@
   "merchantId": 238090,
   "merchantName": "클루미 유니버스",
   "merchantStatus": "OPEN",
-  "fetchedAt": "2026-10-20T23:30:39.688Z",
+  "fetchedAt": "2026-10-23T23:36:33.632Z",
   "summary": {
-    "total": 86,
+    "total": 85,
     "added": 0,
-    "changed": 2,
+    "changed": 1,
     "unchanged": 84,
-    "removed": 0
+    "removed": 1
   },
   "imageSummary": {
-    "skipped-existing-url": 86
+    "skipped-existing-url": 85
   },
   "checks": {
     "missingImages": [],
@@ -5097,33 +5097,12 @@
       "imageStatus": "skipped-existing-url"
     },
     {
-      "id": 17098517,
-      "categoryId": 985967,
-      "categoryTitle": "디저트",
-      "categoryTitleEn": "Dessert",
-      "position": 17,
-      "title": "클루미 당근케이크",
-      "titleEn": "Clumi Carrot Cake",
-      "description": "진한 치즈 크림과 호두가 가득한 클래식 스타일 당근케이크",
-      "descriptionEn": "Classic Carrot Cake with Cream Cheese Frosting & Walnuts",
-      "state": "SOLD_OUT",
-      "priceValue": 10900,
-      "priceTitle": "기본",
-      "imageUrl": "https://place-static.tossplace.com/public/live/PUBLIC/2026-09-12/9a2366aa-76e5-47c0-b976-35c05f5b08d4",
-      "labels": [],
-      "optionSets": [],
-      "fingerprint": "5bc7f904c8246e9251d4258b47bbe43519b74da38d103848fea0d8f02f6273e2",
-      "imageLocalPath": "data/tossplace-menu/238090/images/17098517-클루미-당근케이크-1d9744db1a.jpg",
-      "imageHash": "1d9744db1a7e6be251ef0ae9ff7b66a98042695bea2c5ecfa33d869545b78f96",
-      "imageStatus": "skipped-existing-url"
-    },
-    {
       "id": 17753479,
       "categoryId": 985967,
       "categoryTitle": "디저트",
       "categoryTitleEn": "Dessert",
       "position": 18,
-      "title": "밤송이 몽블랑",
+      "title": "밤 몽블랑",
       "titleEn": "Mont Blanc Cake",
       "description": "달콤하고 고소한 밤 크림이\n입안에서 사르르 녹아드는 몽블랑.\n",
       "descriptionEn": "Sweet, nutty chestnut cream\nmelts softly in your mouth with every bite.",
@@ -5135,7 +5114,7 @@
         "신규"
       ],
       "optionSets": [],
-      "fingerprint": "bf5e0fd90144668b71aa137d31eb7421f1856a0289197e8ecab5ba7e52900623",
+      "fingerprint": "89fb87fef33b6c8dac9c943a8e8fe9b618b36a3b88606e0369c912955e9ae83f",
       "imageLocalPath": "data/tossplace-menu/238090/images/17753479-밤송이-몽블랑-1800cf14aa.png",
       "imageHash": "1800cf14aabc96a8b21250ec859870bc84d7ffa81c532b3f29e8b167349ad719",
       "imageStatus": "skipped-existing-url"
