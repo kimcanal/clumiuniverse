@@ -2,16 +2,17 @@
   "merchantId": 238090,
   "merchantName": "클루미 유니버스",
   "merchantStatus": "OPEN",
-  "fetchedAt": "2026-10-23T23:36:33.632Z",
+  "fetchedAt": "2026-10-24T22:46:01.399Z",
   "summary": {
-    "total": 85,
-    "added": 0,
+    "total": 86,
+    "added": 1,
     "changed": 1,
     "unchanged": 84,
-    "removed": 1
+    "removed": 0
   },
   "imageSummary": {
-    "skipped-existing-url": 85
+    "skipped-existing-url": 85,
+    "downloaded": 1
   },
   "checks": {
     "missingImages": [],
@@ -57,6 +58,13 @@
         "title": "복숭아아이스티",
         "description": "",
         "imageLocalPath": "data/tossplace-menu/238090/images/6979125-복숭아아이스티-4cd29fc8e8.jpg"
+      },
+      {
+        "id": 6979384,
+        "categoryTitle": "에이드",
+        "title": "망고에이드",
+        "description": "",
+        "imageLocalPath": "data/tossplace-menu/238090/images/6979384-망고에이드-a12a663ceb.jpg"
       },
       {
         "id": 6979327,
@@ -4980,7 +4988,7 @@
       "titleEn": "Earl Grey Fig",
       "description": "달콤한 무화과가 듬뿍 들어간 고소한 시트 위에,\n향긋한 얼그레이 크림을 올린 부드러운 케이크 ☕🍰",
       "descriptionEn": "A soft cake layered with nutty sponge filled with sweet figs, topped with fragrant Earl Grey cream ☕🍰",
-      "state": "ON_SALE",
+      "state": "SOLD_OUT",
       "priceValue": 10900,
       "priceTitle": "기본",
       "imageUrl": "https://place-static.tossplace.com/public/live/PUBLIC/2026-05-12/965186ba-98fb-4c6b-bdd7-15c905728f22",
@@ -5006,7 +5014,7 @@
           ]
         }
       ],
-      "fingerprint": "bea39c24cc19ba3c58b4451ef946ea31b50d59ded39af8c64c570ad057cccc31",
+      "fingerprint": "844b4c11f41561e4a4b7cc0bf6a3ebb71d8729faa3c5454971bce64f844b3cf8",
       "imageLocalPath": "data/tossplace-menu/238090/images/10842350-얼그레이-무화과-0f5f5e5bf2.jpg",
       "imageHash": "0f5f5e5bf2263c6d32c3cf25d28b16a234dd70a0ccd3b2088184f007f50fbc48",
       "imageStatus": "skipped-existing-url"
@@ -5733,6 +5741,27 @@
       "imageLocalPath": "data/tossplace-menu/238090/images/10686488-수월경화-티세트-5개입-ef3d90e4f5.jpg",
       "imageHash": "ef3d90e4f5b43d1b51843c7c64479d8f492f57939203c46ca8e2c2019dad3b34",
       "imageStatus": "skipped-existing-url"
+    },
+    {
+      "id": 6979384,
+      "categoryId": 722148,
+      "categoryTitle": "에이드",
+      "categoryTitleEn": "Ade",
+      "position": 1,
+      "title": "망고에이드",
+      "titleEn": "Grapefruit Ade",
+      "description": "",
+      "descriptionEn": "",
+      "state": "ON_SALE",
+      "priceValue": 6000,
+      "priceTitle": "기본",
+      "imageUrl": "https://place-static.tossplace.com/public/live/PUBLIC/2026-10-24/9739df27-1f25-44a4-b2bb-b7ec7abcba17",
+      "labels": [],
+      "optionSets": [],
+      "fingerprint": "cf96e0c385b0f3d91ab0974a3466f8a66ec16afe8002edac4331c95d7c79f2a0",
+      "imageLocalPath": "data/tossplace-menu/238090/images/6979384-망고에이드-a12a663ceb.jpg",
+      "imageHash": "a12a663ceb2b800ad2944ed961d1523a556fd7a5f984d37300142f5dbfff1069",
+      "imageStatus": "downloaded"
     },
     {
       "id": 6979327,

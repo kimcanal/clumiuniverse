@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-23T23:36:33.632Z",
+  "generatedAt": "2026-10-24T22:46:01.399Z",
   "merchantId": 238090,
   "items": [
     {
@@ -566,7 +566,7 @@
       "categoryTitleEn": "Dessert",
       "title": "얼그레이 무화과",
       "description": "달콤한 무화과가 듬뿍 들어간 고소한 시트 위에,\n향긋한 얼그레이 크림을 올린 부드러운 케이크 ☕🍰",
-      "state": "ON_SALE",
+      "state": "SOLD_OUT",
       "labels": [
         "인기"
       ],
@@ -779,6 +779,16 @@
         "인기"
       ],
       "imageLocalPath": "data/tossplace-menu/238090/images/10686488-수월경화-티세트-5개입-ef3d90e4f5.webp"
+    },
+    {
+      "id": 6979384,
+      "categoryTitle": "에이드",
+      "categoryTitleEn": "Ade",
+      "title": "망고에이드",
+      "description": "",
+      "state": "ON_SALE",
+      "labels": [],
+      "imageLocalPath": "data/tossplace-menu/238090/images/6979384-망고에이드-a12a663ceb.webp"
     },
     {
       "id": 6979327,

@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-23T23:36:33.632Z",
+  "generatedAt": "2026-10-24T22:46:01.399Z",
   "merchantId": 238090,
   "items": [
     {
@@ -4300,7 +4300,7 @@
       "descriptionEn": "A soft cake layered with nutty sponge filled with sweet figs, topped with fragrant Earl Grey cream ☕🍰",
       "priceValue": 10900,
       "priceTitle": "기본",
-      "available": true,
+      "available": false,
       "labels": [
         "인기"
       ],
@@ -4933,6 +4933,21 @@
       ],
       "optionSets": [],
       "imageLocalPath": "data/tossplace-menu/238090/images/10686488-수월경화-티세트-5개입-ef3d90e4f5.webp"
+    },
+    {
+      "id": 6979384,
+      "categoryTitle": "에이드",
+      "categoryTitleEn": "Ade",
+      "title": "망고에이드",
+      "titleEn": "Grapefruit Ade",
+      "description": "",
+      "descriptionEn": "",
+      "priceValue": 6000,
+      "priceTitle": "기본",
+      "available": true,
+      "labels": [],
+      "optionSets": [],
+      "imageLocalPath": "data/tossplace-menu/238090/images/6979384-망고에이드-a12a663ceb.webp"
     },
     {
       "id": 6979327,

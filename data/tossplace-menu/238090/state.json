@@ -696,6 +696,14 @@
       "title": "클래식 와플&커피 세트",
       "sourceUrl": "https://place-static.tossplace.com/public/live/PUBLIC/2025-09-27/90db900b-3846-425d-a1df-b37dee5da353",
       "updatedAt": "2026-10-19T23:59:13.702Z"
+    },
+    "https://place-static.tossplace.com/public/live/PUBLIC/2026-10-24/9739df27-1f25-44a4-b2bb-b7ec7abcba17": {
+      "localPath": "data/tossplace-menu/238090/images/6979384-망고에이드-a12a663ceb.jpg",
+      "hash": "a12a663ceb2b800ad2944ed961d1523a556fd7a5f984d37300142f5dbfff1069",
+      "itemId": 6979384,
+      "title": "망고에이드",
+      "sourceUrl": "https://place-static.tossplace.com/public/live/PUBLIC/2026-10-24/9739df27-1f25-44a4-b2bb-b7ec7abcba17",
+      "updatedAt": "2026-10-24T22:46:01.398Z"
     }
   },
   "imagesByHash": {
@@ -1314,6 +1322,14 @@
       "title": "클래식 와플&커피 세트",
       "sourceUrl": "https://place-static.tossplace.com/public/live/PUBLIC/2025-09-27/90db900b-3846-425d-a1df-b37dee5da353",
       "updatedAt": "2026-10-19T23:59:13.702Z"
+    },
+    "a12a663ceb2b800ad2944ed961d1523a556fd7a5f984d37300142f5dbfff1069": {
+      "localPath": "data/tossplace-menu/238090/images/6979384-망고에이드-a12a663ceb.jpg",
+      "hash": "a12a663ceb2b800ad2944ed961d1523a556fd7a5f984d37300142f5dbfff1069",
+      "itemId": 6979384,
+      "title": "망고에이드",
+      "sourceUrl": "https://place-static.tossplace.com/public/live/PUBLIC/2026-10-24/9739df27-1f25-44a4-b2bb-b7ec7abcba17",
+      "updatedAt": "2026-10-24T22:46:01.398Z"
     }
   },
   "itemsById": {
@@ -1476,6 +1492,16 @@
       "imageHash": "c1854203da03264c8a1a2a6a3c3375493b5261aeb62f740ca244f2b72414a89d",
       "firstSeenAt": "2026-07-21T04:15:20.254Z",
       "updatedAt": "2026-07-21T04:15:20.254Z"
+    },
+    "6979384": {
+      "fingerprint": "cf96e0c385b0f3d91ab0974a3466f8a66ec16afe8002edac4331c95d7c79f2a0",
+      "title": "망고에이드",
+      "description": "",
+      "imageUrl": "https://place-static.tossplace.com/public/live/PUBLIC/2026-10-24/9739df27-1f25-44a4-b2bb-b7ec7abcba17",
+      "imageLocalPath": "data/tossplace-menu/238090/images/6979384-망고에이드-a12a663ceb.jpg",
+      "imageHash": "a12a663ceb2b800ad2944ed961d1523a556fd7a5f984d37300142f5dbfff1069",
+      "firstSeenAt": "2026-10-24T22:46:01.399Z",
+      "updatedAt": "2026-10-24T22:46:01.399Z"
     },
     "6979395": {
       "fingerprint": "ca8b9629e4b89cec0955f16b1cff4de6bb2e4f61b90c6bb041578d8759cfee05",
@@ -1888,14 +1914,14 @@
       "updatedAt": "2026-10-18T22:39:18.949Z"
     },
     "10842350": {
-      "fingerprint": "bea39c24cc19ba3c58b4451ef946ea31b50d59ded39af8c64c570ad057cccc31",
+      "fingerprint": "844b4c11f41561e4a4b7cc0bf6a3ebb71d8729faa3c5454971bce64f844b3cf8",
       "title": "얼그레이 무화과",
       "description": "달콤한 무화과가 듬뿍 들어간 고소한 시트 위에,\n향긋한 얼그레이 크림을 올린 부드러운 케이크 ☕🍰",
       "imageUrl": "https://place-static.tossplace.com/public/live/PUBLIC/2026-05-12/965186ba-98fb-4c6b-bdd7-15c905728f22",
       "imageLocalPath": "data/tossplace-menu/238090/images/10842350-얼그레이-무화과-0f5f5e5bf2.jpg",
       "imageHash": "0f5f5e5bf2263c6d32c3cf25d28b16a234dd70a0ccd3b2088184f007f50fbc48",
       "firstSeenAt": "2026-10-17T22:44:10.583Z",
-      "updatedAt": "2026-10-17T22:44:10.583Z"
+      "updatedAt": "2026-10-24T22:46:01.399Z"
     },
     "10983319": {
       "fingerprint": "65feb9bfe9146ff94ac4d68cfd30046fa3ad0435b262748c535c30d274431c84",
@@ -2170,22 +2196,6 @@
   },
   "runs": [
     {
-      "at": "2026-09-21T04:56:43.613Z",
-      "summary": {
-        "total": 85,
-        "added": 0,
-        "changed": 1,
-        "unchanged": 84,
-        "removed": 0
-      },
-      "imageSummary": {
-        "skipped-existing-url": 82,
-        "missing": 1,
-        "downloaded": 1,
-        "failed-http-timeout": 1
-      }
-    },
-    {
       "at": "2026-09-26T23:13:16.016Z",
       "summary": {
         "total": 82,
@@ -2452,7 +2462,21 @@
       "imageSummary": {
         "skipped-existing-url": 85
       }
+    },
+    {
+      "at": "2026-10-24T22:46:01.399Z",
+      "summary": {
+        "total": 86,
+        "added": 1,
+        "changed": 1,
+        "unchanged": 84,
+        "removed": 0
+      },
+      "imageSummary": {
+        "skipped-existing-url": 85,
+        "downloaded": 1
+      }
     }
   ],
-  "lastRunAt": "2026-10-23T23:36:33.632Z"
+  "lastRunAt": "2026-10-24T22:46:01.399Z"
 }
