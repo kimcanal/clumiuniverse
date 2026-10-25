@@ -1474,24 +1474,24 @@
       "updatedAt": "2026-07-21T04:15:20.254Z"
     },
     "6979327": {
-      "fingerprint": "65c3ba113e8fdfd24b864d64c1ae1d1d40ee08574565dc1b5a139f888ea994f9",
+      "fingerprint": "f1bd263bb8a1cea762cb9c208a1d94ce5b99c08d4a9e0e4b31a392b03c668b43",
       "title": "레몬에이드",
       "description": "",
       "imageUrl": "https://place-static.tossplace.com/public/live/PUBLIC/2025-08-23/d4c1b460-193f-4a06-82c4-1c349117e66c",
       "imageLocalPath": "data/tossplace-menu/238090/images/6979327-레몬에이드-33f8afbcdc.png",
       "imageHash": "33f8afbcdc1f894b8012b915d07e0649d6b7b9711fc4eeb5f57f6980484dde2e",
       "firstSeenAt": "2026-07-21T04:15:20.254Z",
-      "updatedAt": "2026-07-21T04:15:20.254Z"
+      "updatedAt": "2026-10-25T22:52:20.282Z"
     },
     "6979343": {
-      "fingerprint": "b4d0f98ed3390e86aed4f8d6657f11384b0e4f101826c228aeab5471cdcfaa72",
+      "fingerprint": "4159f808e98e6c143ec1919eaffff36edd6799f0a7924effaffd511b52b0960f",
       "title": "[드로피] 블루레몬에이드",
       "description": "상큼한 레몬에 파란빛을 더해\n기분 전환에 어울리는 블루레몬에이드 💙🍋",
       "imageUrl": "https://place-static.tossplace.com/public/live/PUBLIC/2026-02-01/3b4ea4c3-7956-4199-8154-e649174142cf",
       "imageLocalPath": "data/tossplace-menu/238090/images/6979343-드로피-블루레몬에이드-c1854203da.jpg",
       "imageHash": "c1854203da03264c8a1a2a6a3c3375493b5261aeb62f740ca244f2b72414a89d",
       "firstSeenAt": "2026-07-21T04:15:20.254Z",
-      "updatedAt": "2026-07-21T04:15:20.254Z"
+      "updatedAt": "2026-10-25T22:52:20.282Z"
     },
     "6979384": {
       "fingerprint": "cf96e0c385b0f3d91ab0974a3466f8a66ec16afe8002edac4331c95d7c79f2a0",
@@ -1844,14 +1844,14 @@
       "updatedAt": "2026-09-03T22:52:12.943Z"
     },
     "10192464": {
-      "fingerprint": "cd65ec7707ff0a4eed5f0e599d14e98080b709f368b6c48bab968e2da7e2dfd7",
+      "fingerprint": "cd8e9b4f2157263db12aa960f37d4561990a1f1d6254b1fe381051b34d8d50d6",
       "title": "초콜릿로쉐케익",
       "description": "부드러운 스페인산 고급 초콜릿 위에 고소하게 구운 헤이즐넛을 올려\n한 입 베어 물면 진한 초콜릿 풍미가 가득 퍼지는 케이크",
       "imageUrl": "https://place-static.tossplace.com/public/live/PUBLIC/2026-05-12/643d509d-6f8f-4186-a5ba-28c4839cc761",
       "imageLocalPath": "data/tossplace-menu/238090/images/10192464-초콜릿로쉐케익-52fe1dcc82.jpg",
       "imageHash": "52fe1dcc82b800fd1494dbfa9cf12ca59474a0af9d602087499a9d4e9a1ce6fe",
       "firstSeenAt": "2026-10-17T22:44:10.583Z",
-      "updatedAt": "2026-10-17T22:44:10.583Z"
+      "updatedAt": "2026-10-25T22:52:20.282Z"
     },
     "10197088": {
       "fingerprint": "2871ebbbaaa3ed5df90b7cac8b304c30b9c7be24516d002807fa87f6cc9bcb26",
@@ -1994,14 +1994,14 @@
       "updatedAt": "2026-09-18T12:03:41.506Z"
     },
     "11912174": {
-      "fingerprint": "ca5a0a3612d28295561bf1cf0e13f403f6c3468827628fdac4964ea4939881df",
+      "fingerprint": "1f977774d47ddd3915f20f277d01012b960b9bba0b2dceda2d004e2377b13faa",
       "title": "레몬 아메리카노",
       "description": "첫맛은 레몬의 시트러스함이 입안을 깨우고, 끝맛은 원두 특유의 고소하고 쌉싸름한 풍미가 깔끔하게 마무리해줍니다.",
       "imageUrl": "https://place-static.tossplace.com/public/live/PUBLIC/2026-05-04/3d5dde56-e8bc-42f3-8d05-02ba3fe3d817",
       "imageLocalPath": "data/tossplace-menu/238090/images/11912174-레몬-아메리카노-a66b07d481.jpg",
       "imageHash": "a66b07d481ac0818167c513615f116e7f03da94f2358e3c195f5a2a7c00fee8f",
       "firstSeenAt": "2026-07-21T04:15:20.254Z",
-      "updatedAt": "2026-09-18T12:03:41.506Z"
+      "updatedAt": "2026-10-25T22:52:20.282Z"
     },
     "11912204": {
       "fingerprint": "e667ea06e47c21354cd51e906ed6b9bd13cd2b1f606480826a6eeec87153d995",
@@ -2195,23 +2195,6 @@
     }
   },
   "runs": [
-    {
-      "at": "2026-09-26T23:13:16.016Z",
-      "summary": {
-        "total": 82,
-        "added": 0,
-        "changed": 10,
-        "unchanged": 72,
-        "removed": 3
-      },
-      "imageSummary": {
-        "skipped-existing-url": 78,
-        "missing": 1,
-        "skipped-existing-hash": 1,
-        "failed-http-timeout": 1,
-        "downloaded": 1
-      }
-    },
     {
       "at": "2026-09-27T23:27:08.429Z",
       "summary": {
@@ -2476,7 +2459,20 @@
         "skipped-existing-url": 85,
         "downloaded": 1
       }
+    },
+    {
+      "at": "2026-10-25T22:52:20.282Z",
+      "summary": {
+        "total": 86,
+        "added": 0,
+        "changed": 4,
+        "unchanged": 82,
+        "removed": 0
+      },
+      "imageSummary": {
+        "skipped-existing-url": 86
+      }
     }
   ],
-  "lastRunAt": "2026-10-24T22:46:01.399Z"
+  "lastRunAt": "2026-10-25T22:52:20.282Z"
 }

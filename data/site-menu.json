@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-24T22:46:01.399Z",
+  "generatedAt": "2026-10-25T22:52:20.282Z",
   "merchantId": 238090,
   "items": [
     {
@@ -256,7 +256,7 @@
       "categoryTitleEn": "Coffee",
       "title": "레몬 아메리카노",
       "description": "첫맛은 레몬의 시트러스함이 입안을 깨우고, 끝맛은 원두 특유의 고소하고 쌉싸름한 풍미가 깔끔하게 마무리해줍니다.",
-      "state": "ON_SALE",
+      "state": "SOLD_OUT",
       "labels": [
         "신규"
       ],
@@ -302,7 +302,7 @@
       "categoryTitleEn": "CLUMI Emotion Potion",
       "title": "[드로피] 블루레몬에이드",
       "description": "상큼한 레몬에 파란빛을 더해\n기분 전환에 어울리는 블루레몬에이드 💙🍋",
-      "state": "ON_SALE",
+      "state": "SOLD_OUT",
       "labels": [],
       "imageLocalPath": "data/tossplace-menu/238090/images/6979343-드로피-블루레몬에이드-c1854203da.webp"
     },
@@ -578,7 +578,7 @@
       "categoryTitleEn": "Dessert",
       "title": "초콜릿로쉐케익",
       "description": "부드러운 스페인산 고급 초콜릿 위에 고소하게 구운 헤이즐넛을 올려\n한 입 베어 물면 진한 초콜릿 풍미가 가득 퍼지는 케이크",
-      "state": "ON_SALE",
+      "state": "SOLD_OUT",
       "labels": [
         "인기"
       ],
@@ -796,7 +796,7 @@
       "categoryTitleEn": "Ade",
       "title": "레몬에이드",
       "description": "",
-      "state": "ON_SALE",
+      "state": "SOLD_OUT",
       "labels": [],
       "imageLocalPath": "data/tossplace-menu/238090/images/6979327-레몬에이드-33f8afbcdc.webp"
     },
