@@ -2,12 +2,12 @@
   "merchantId": 238090,
   "merchantName": "클루미 유니버스",
   "merchantStatus": "OPEN",
-  "fetchedAt": "2026-10-25T22:52:20.282Z",
+  "fetchedAt": "2026-10-27T00:07:19.544Z",
   "summary": {
     "total": 86,
     "added": 0,
-    "changed": 4,
-    "unchanged": 82,
+    "changed": 2,
+    "unchanged": 84,
     "removed": 0
   },
   "imageSummary": {
@@ -1364,7 +1364,7 @@
       "titleEn": "[Pistachio] Banana Waffle",
       "description": "앵커 버터로 만든 겉바속쫀 리에주 와플에 바나나, 생크림, 초코소스, 피스타치오를 올린 클루미 시그니처 와플. 한 입에 반해버릴지도 몰라요.",
       "descriptionEn": "A Liège waffle made with Anchor butter, topped with banana, whipped cream, chocolate sauce, and pistachio. Crispy, chewy, and dangerously easy to fall for.",
-      "state": "SOLD_OUT",
+      "state": "ON_SALE",
       "priceValue": 12000,
       "priceTitle": "기본",
       "imageUrl": "https://place-static.tossplace.com/public/live/PUBLIC/2026-05-09/59d70125-6af4-4c19-a4c7-31c8f4d0eb00",
@@ -1397,7 +1397,7 @@
           ]
         }
       ],
-      "fingerprint": "1004681641c5b823f4a802603a429cdc81aaa398caa7de1afdafa12d165d8646",
+      "fingerprint": "b8217821c33b131d922de8f58fd06eb2b1c60bc2a3f0411ebdebb9f701f7bea8",
       "imageLocalPath": "data/tossplace-menu/238090/images/10683603-피스타치오-초코-반하나-와플-87f8a2942f.jpg",
       "imageHash": "87f8a2942f2b5a6231dcf3474d72da5a0a7ddb0f9fcc603bdca0a39d9a4f5a0d",
       "imageStatus": "skipped-existing-url"
@@ -5277,7 +5277,7 @@
       "titleEn": "Spring Breeze",
       "description": "봄바람에 흩날리는 꽃내음을 가득 머금은 싱그러운 제주의 봄을 그린 어린 잎 녹차 블렌딩 한 잔",
       "descriptionEn": "A cup of green tea blending depicting the fresh spring of Jeju filled with the scent of flowers scattered in the spring breeze",
-      "state": "ON_SALE",
+      "state": "SOLD_OUT",
       "priceValue": 6500,
       "priceTitle": "기본",
       "imageUrl": "https://place-static.tossplace.com/public/live/PUBLIC/2025-08-23/30af44d6-9bc5-42fb-862c-c62985c9ad13",
@@ -5310,7 +5310,7 @@
           ]
         }
       ],
-      "fingerprint": "36076e01ef42865e5bf3b18d7117111a83b454ee3ef86395c231af80f83517dd",
+      "fingerprint": "a0e58933a9d663b3a2db1deece8f1505864441cb9fafc17a26ed5a75db705d87",
       "imageLocalPath": "data/tossplace-menu/238090/images/6979166-봄물결-d6b5a9a22e.jpg",
       "imageHash": "d6b5a9a22e1230a7b24c77635f7abe4932f3d0efbadfcca5c42231e844514c56",
       "imageStatus": "skipped-existing-url"

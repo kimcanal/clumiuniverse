@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-25T22:52:20.282Z",
+  "generatedAt": "2026-10-27T00:07:19.544Z",
   "merchantId": 238090,
   "items": [
     {
@@ -98,7 +98,7 @@
       "categoryTitleEn": "BEST",
       "title": "[피스타치오] 초코 반하나 와플",
       "description": "앵커 버터로 만든 겉바속쫀 리에주 와플에 바나나, 생크림, 초코소스, 피스타치오를 올린 클루미 시그니처 와플. 한 입에 반해버릴지도 몰라요.",
-      "state": "SOLD_OUT",
+      "state": "ON_SALE",
       "labels": [
         "인기"
       ],
@@ -678,7 +678,7 @@
       "categoryTitleEn": "Tea",
       "title": "봄물결",
       "description": "봄바람에 흩날리는 꽃내음을 가득 머금은 싱그러운 제주의 봄을 그린 어린 잎 녹차 블렌딩 한 잔",
-      "state": "ON_SALE",
+      "state": "SOLD_OUT",
       "labels": [
         "인기"
       ],

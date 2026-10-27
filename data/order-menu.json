@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-25T22:52:20.282Z",
+  "generatedAt": "2026-10-27T00:07:19.544Z",
   "merchantId": 238090,
   "items": [
     {
@@ -935,7 +935,7 @@
       "descriptionEn": "A Liège waffle made with Anchor butter, topped with banana, whipped cream, chocolate sauce, and pistachio. Crispy, chewy, and dangerously easy to fall for.",
       "priceValue": 12000,
       "priceTitle": "기본",
-      "available": false,
+      "available": true,
       "labels": [
         "인기"
       ],
@@ -4530,7 +4530,7 @@
       "descriptionEn": "A cup of green tea blending depicting the fresh spring of Jeju filled with the scent of flowers scattered in the spring breeze",
       "priceValue": 6500,
       "priceTitle": "기본",
-      "available": true,
+      "available": false,
       "labels": [
         "인기"
       ],
