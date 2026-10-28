@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-27T00:07:19.544Z",
+  "generatedAt": "2026-10-28T00:06:55.842Z",
   "merchantId": 238090,
   "items": [
     {
@@ -2354,7 +2354,7 @@
       "descriptionEn": "The Perfect Harmony of Bold Coffee and Zesty Lemon",
       "priceValue": 6500,
       "priceTitle": "기본",
-      "available": false,
+      "available": true,
       "labels": [
         "신규"
       ],
@@ -4230,7 +4230,7 @@
       "descriptionEn": "A strawberry cake with a harmonious blend of fresh strawberries, smooth milk cream, and white chocolate.",
       "priceValue": 12000,
       "priceTitle": "기본",
-      "available": true,
+      "available": false,
       "labels": [
         "인기"
       ],
@@ -4370,7 +4370,7 @@
       "descriptionEn": "A rich chocolate brownie topped with smooth vanilla ice cream.\nWarm and cold in perfect balance one bite is all it takes to fall in love.",
       "priceValue": 10900,
       "priceTitle": "기본",
-      "available": true,
+      "available": false,
       "labels": [
         "인기"
       ],
@@ -4530,7 +4530,7 @@
       "descriptionEn": "A cup of green tea blending depicting the fresh spring of Jeju filled with the scent of flowers scattered in the spring breeze",
       "priceValue": 6500,
       "priceTitle": "기본",
-      "available": false,
+      "available": true,
       "labels": [
         "인기"
       ],
@@ -4676,7 +4676,7 @@
       "descriptionEn": "A collaboration cup of black sugar with the savory and rich sweetness of green tea and Hoji tea",
       "priceValue": 6500,
       "priceTitle": "기본",
-      "available": false,
+      "available": true,
       "labels": [
         "인기"
       ],
@@ -4718,7 +4718,7 @@
       "descriptionEn": "A glass of harmony between musk melon and oolong tea filled with the coolness and sweetness of summer",
       "priceValue": 6500,
       "priceTitle": "기본",
-      "available": false,
+      "available": true,
       "labels": [],
       "optionSets": [
         {
@@ -4959,7 +4959,7 @@
       "descriptionEn": "",
       "priceValue": 6000,
       "priceTitle": "기본",
-      "available": false,
+      "available": true,
       "labels": [],
       "optionSets": [],
       "imageLocalPath": "data/tossplace-menu/238090/images/6979327-레몬에이드-33f8afbcdc.webp"

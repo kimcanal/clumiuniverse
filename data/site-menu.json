@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-27T00:07:19.544Z",
+  "generatedAt": "2026-10-28T00:06:55.842Z",
   "merchantId": 238090,
   "items": [
     {
@@ -256,7 +256,7 @@
       "categoryTitleEn": "Coffee",
       "title": "레몬 아메리카노",
       "description": "첫맛은 레몬의 시트러스함이 입안을 깨우고, 끝맛은 원두 특유의 고소하고 쌉싸름한 풍미가 깔끔하게 마무리해줍니다.",
-      "state": "SOLD_OUT",
+      "state": "ON_SALE",
       "labels": [
         "신규"
       ],
@@ -542,7 +542,7 @@
       "categoryTitleEn": "Dessert",
       "title": "딸기포레누아",
       "description": "상큼한 딸기, 부드러운 우유 크림, 달콤한 화이트 초콜릿이 만나 포근하게 완성된 딸기 케이크 🍓",
-      "state": "ON_SALE",
+      "state": "SOLD_OUT",
       "labels": [
         "인기"
       ],
@@ -590,7 +590,7 @@
       "categoryTitleEn": "Dessert",
       "title": "아이스크림 브라우니",
       "description": "진한 초콜릿 브라우니 위에\n부드러운 바닐라 아이스크림을 올렸어요.\n따뜻함과 차가움이 만나 한 입만으로도 충분히 행복해지는 디저트.",
-      "state": "ON_SALE",
+      "state": "SOLD_OUT",
       "labels": [
         "인기"
       ],
@@ -678,7 +678,7 @@
       "categoryTitleEn": "Tea",
       "title": "봄물결",
       "description": "봄바람에 흩날리는 꽃내음을 가득 머금은 싱그러운 제주의 봄을 그린 어린 잎 녹차 블렌딩 한 잔",
-      "state": "SOLD_OUT",
+      "state": "ON_SALE",
       "labels": [
         "인기"
       ],
@@ -710,7 +710,7 @@
       "categoryTitleEn": "Tea",
       "title": "현월호지",
       "description": "덖은 녹차와 호지차의 구수함과 진득한 달콤함을 가진 흑당의 콜라보레이션 한 잔",
-      "state": "SOLD_OUT",
+      "state": "ON_SALE",
       "labels": [
         "인기"
       ],
@@ -722,7 +722,7 @@
       "categoryTitleEn": "Tea",
       "title": "멜롱망스",
       "description": "여름의 시원함과 달콤함을 머금은 머스크 멜론과 꽃내음 가득한 우롱차의 하모니 한 잔",
-      "state": "SOLD_OUT",
+      "state": "ON_SALE",
       "labels": [],
       "imageLocalPath": "data/tossplace-menu/238090/images/6979179-멜롱망스-c2a0848d6e.webp"
     },
@@ -796,7 +796,7 @@
       "categoryTitleEn": "Ade",
       "title": "레몬에이드",
       "description": "",
-      "state": "SOLD_OUT",
+      "state": "ON_SALE",
       "labels": [],
       "imageLocalPath": "data/tossplace-menu/238090/images/6979327-레몬에이드-33f8afbcdc.webp"
     },

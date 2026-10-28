@@ -2,12 +2,12 @@
   "merchantId": 238090,
   "merchantName": "클루미 유니버스",
   "merchantStatus": "OPEN",
-  "fetchedAt": "2026-10-27T00:07:19.544Z",
+  "fetchedAt": "2026-10-28T00:06:55.842Z",
   "summary": {
     "total": 86,
     "added": 0,
-    "changed": 2,
-    "unchanged": 84,
+    "changed": 7,
+    "unchanged": 79,
     "removed": 0
   },
   "imageSummary": {
@@ -2873,7 +2873,7 @@
       "titleEn": "Lemon Americano",
       "description": "첫맛은 레몬의 시트러스함이 입안을 깨우고, 끝맛은 원두 특유의 고소하고 쌉싸름한 풍미가 깔끔하게 마무리해줍니다.",
       "descriptionEn": "The Perfect Harmony of Bold Coffee and Zesty Lemon",
-      "state": "SOLD_OUT",
+      "state": "ON_SALE",
       "priceValue": 6500,
       "priceTitle": "기본",
       "imageUrl": "https://place-static.tossplace.com/public/live/PUBLIC/2026-05-04/3d5dde56-e8bc-42f3-8d05-02ba3fe3d817",
@@ -2913,7 +2913,7 @@
           ]
         }
       ],
-      "fingerprint": "1f977774d47ddd3915f20f277d01012b960b9bba0b2dceda2d004e2377b13faa",
+      "fingerprint": "ca5a0a3612d28295561bf1cf0e13f403f6c3468827628fdac4964ea4939881df",
       "imageLocalPath": "data/tossplace-menu/238090/images/11912174-레몬-아메리카노-a66b07d481.jpg",
       "imageHash": "a66b07d481ac0818167c513615f116e7f03da94f2358e3c195f5a2a7c00fee8f",
       "imageStatus": "skipped-existing-url"
@@ -4905,7 +4905,7 @@
       "titleEn": "Strawberry Forêt noire",
       "description": "상큼한 딸기, 부드러운 우유 크림, 달콤한 화이트 초콜릿이 만나 포근하게 완성된 딸기 케이크 🍓",
       "descriptionEn": "A strawberry cake with a harmonious blend of fresh strawberries, smooth milk cream, and white chocolate.",
-      "state": "ON_SALE",
+      "state": "SOLD_OUT",
       "priceValue": 12000,
       "priceTitle": "기본",
       "imageUrl": "https://place-static.tossplace.com/public/live/PUBLIC/2026-05-13/8a453da7-a2f8-4d0d-bf0d-73ce0bbcbf3e",
@@ -4931,7 +4931,7 @@
           ]
         }
       ],
-      "fingerprint": "70ea37f8ab1f539f9c44d214cf59e241692b7780ba5f6fa1a3be1e7a8bb34da4",
+      "fingerprint": "88a7a17cc2df27d7ccf31efd3e2d55bbe6430095e69f340b384e1e60f091b314",
       "imageLocalPath": "data/tossplace-menu/238090/images/10641666-딸기포레누아-a0bf52ee2f.jpg",
       "imageHash": "a0bf52ee2f95df60f753e56e5e51ae7a1102b4c42bf9b44125b02dcca8568213",
       "imageStatus": "skipped-existing-url"
@@ -5069,7 +5069,7 @@
       "titleEn": "Ice cream Brownie",
       "description": "진한 초콜릿 브라우니 위에\n부드러운 바닐라 아이스크림을 올렸어요.\n따뜻함과 차가움이 만나 한 입만으로도 충분히 행복해지는 디저트.",
       "descriptionEn": "A rich chocolate brownie topped with smooth vanilla ice cream.\nWarm and cold in perfect balance one bite is all it takes to fall in love.",
-      "state": "ON_SALE",
+      "state": "SOLD_OUT",
       "priceValue": 10900,
       "priceTitle": "기본",
       "imageUrl": "https://place-static.tossplace.com/public/live/PUBLIC/2026-04-09/9165e0e1-a2fd-4131-a4c7-52ef45eaec7a",
@@ -5077,7 +5077,7 @@
         "인기"
       ],
       "optionSets": [],
-      "fingerprint": "02ffa648bff2197cc9e86ec9c9b0f7422bd1d0cf6085049f90935719e13b4511",
+      "fingerprint": "4a5ffe33f320d41b28e226383b60bd58f5afd563fea5b243cfbdfd16cd477d00",
       "imageLocalPath": "data/tossplace-menu/238090/images/8748567-아이스크림브라우니-1ca4423910.jpg",
       "imageHash": "1ca44239101ed59b00b661edae8ae559877d2fd56061b9d0dfac41f712a4eedb",
       "imageStatus": "skipped-existing-url"
@@ -5277,7 +5277,7 @@
       "titleEn": "Spring Breeze",
       "description": "봄바람에 흩날리는 꽃내음을 가득 머금은 싱그러운 제주의 봄을 그린 어린 잎 녹차 블렌딩 한 잔",
       "descriptionEn": "A cup of green tea blending depicting the fresh spring of Jeju filled with the scent of flowers scattered in the spring breeze",
-      "state": "SOLD_OUT",
+      "state": "ON_SALE",
       "priceValue": 6500,
       "priceTitle": "기본",
       "imageUrl": "https://place-static.tossplace.com/public/live/PUBLIC/2025-08-23/30af44d6-9bc5-42fb-862c-c62985c9ad13",
@@ -5310,7 +5310,7 @@
           ]
         }
       ],
-      "fingerprint": "a0e58933a9d663b3a2db1deece8f1505864441cb9fafc17a26ed5a75db705d87",
+      "fingerprint": "36076e01ef42865e5bf3b18d7117111a83b454ee3ef86395c231af80f83517dd",
       "imageLocalPath": "data/tossplace-menu/238090/images/6979166-봄물결-d6b5a9a22e.jpg",
       "imageHash": "d6b5a9a22e1230a7b24c77635f7abe4932f3d0efbadfcca5c42231e844514c56",
       "imageStatus": "skipped-existing-url"
@@ -5441,7 +5441,7 @@
       "titleEn": "Black Moon Hoji",
       "description": "덖은 녹차와 호지차의 구수함과 진득한 달콤함을 가진 흑당의 콜라보레이션 한 잔",
       "descriptionEn": "A collaboration cup of black sugar with the savory and rich sweetness of green tea and Hoji tea",
-      "state": "SOLD_OUT",
+      "state": "ON_SALE",
       "priceValue": 6500,
       "priceTitle": "기본",
       "imageUrl": "https://place-static.tossplace.com/public/live/PUBLIC/2025-08-23/3355a36e-2a57-4af5-8588-7dff824fc7e1",
@@ -5474,7 +5474,7 @@
           ]
         }
       ],
-      "fingerprint": "0729da6b1de2c4fdf36f93591575ac1b9a6fa9cbbe01d5f0fceda652f048786a",
+      "fingerprint": "16c4497f84804240017d8d6eda45e64d2bdae2ca1a40b73009a701f4e9743766",
       "imageLocalPath": "data/tossplace-menu/238090/images/6979241-현월호지-0c8e00ea34.jpg",
       "imageHash": "0c8e00ea34349dd9cef13bc8f9addd29e554e1797ec71c2d93ca4e7fa5b71292",
       "imageStatus": "skipped-existing-url"
@@ -5489,7 +5489,7 @@
       "titleEn": "Melong Mangs",
       "description": "여름의 시원함과 달콤함을 머금은 머스크 멜론과 꽃내음 가득한 우롱차의 하모니 한 잔",
       "descriptionEn": "A glass of harmony between musk melon and oolong tea filled with the coolness and sweetness of summer",
-      "state": "SOLD_OUT",
+      "state": "ON_SALE",
       "priceValue": 6500,
       "priceTitle": "기본",
       "imageUrl": "https://place-static.tossplace.com/public/live/PUBLIC/2025-08-23/7388c254-4a19-4d96-a390-b1971a011d85",
@@ -5520,7 +5520,7 @@
           ]
         }
       ],
-      "fingerprint": "cbf0523094609c686dcddc4522496e3e5420615cb33406f850768b64c48cb310",
+      "fingerprint": "92d2fbc45b6a297bb9146473294d6004bd6bd64469b095250989c6fc2077f0c4",
       "imageLocalPath": "data/tossplace-menu/238090/images/6979179-멜롱망스-c2a0848d6e.jpg",
       "imageHash": "c2a0848d6e8fc942320c3221af4d66b535ffbc2fa42287fbd96b07e709fafe6c",
       "imageStatus": "skipped-existing-url"
@@ -5772,13 +5772,13 @@
       "titleEn": "Lemon Ade",
       "description": "",
       "descriptionEn": "",
-      "state": "SOLD_OUT",
+      "state": "ON_SALE",
       "priceValue": 6000,
       "priceTitle": "기본",
       "imageUrl": "https://place-static.tossplace.com/public/live/PUBLIC/2025-08-23/d4c1b460-193f-4a06-82c4-1c349117e66c",
       "labels": [],
       "optionSets": [],
-      "fingerprint": "f1bd263bb8a1cea762cb9c208a1d94ce5b99c08d4a9e0e4b31a392b03c668b43",
+      "fingerprint": "65c3ba113e8fdfd24b864d64c1ae1d1d40ee08574565dc1b5a139f888ea994f9",
       "imageLocalPath": "data/tossplace-menu/238090/images/6979327-레몬에이드-33f8afbcdc.png",
       "imageHash": "33f8afbcdc1f894b8012b915d07e0649d6b7b9711fc4eeb5f57f6980484dde2e",
       "imageStatus": "skipped-existing-url"
