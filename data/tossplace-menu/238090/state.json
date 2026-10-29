@@ -1634,14 +1634,14 @@
       "updatedAt": "2026-10-03T23:24:52.480Z"
     },
     "7628072": {
-      "fingerprint": "45a2e5be3780b9d4f63f4ead8d5088198591dc9c9870d54efd688aa89a5b4cd6",
+      "fingerprint": "3e8810bdffdf6fd8647fe637f8b4307568fffc6508f80332d2a17915d93a9222",
       "title": "우리제주말차",
       "description": "제주산 우리 말차와 부드러운 우유가 어우러진 말차라떼 🌿🥛\n진한 풍미와 은은한 쌉싸름함이 조화로운,깊고 부드러운 한 잔입니다.",
       "imageUrl": "https://place-static.tossplace.com/public/live/PUBLIC/2025-09-20/1ea29fc4-454d-4c42-8fa9-f45d7794b18d",
       "imageLocalPath": "data/tossplace-menu/238090/images/7628072-우리제주말차-801558d68f.jpg",
       "imageHash": "801558d68fd450abd445473bfb51d7a7a4196446ac904a54ea4642efc51ada64",
       "firstSeenAt": "2026-07-21T04:15:20.254Z",
-      "updatedAt": "2026-09-18T12:03:41.506Z"
+      "updatedAt": "2026-10-29T00:28:58.256Z"
     },
     "7735791": {
       "fingerprint": "a963e7dddbd1ee4812ce61f9a94a94267e0241ba4d75bda293c871970ce2d8f7",
@@ -2196,22 +2196,6 @@
   },
   "runs": [
     {
-      "at": "2026-10-02T00:17:13.897Z",
-      "summary": {
-        "total": 85,
-        "added": 1,
-        "changed": 1,
-        "unchanged": 83,
-        "removed": 0
-      },
-      "imageSummary": {
-        "skipped-existing-url": 82,
-        "missing": 1,
-        "failed-http-timeout": 1,
-        "downloaded": 1
-      }
-    },
-    {
       "at": "2026-10-03T00:02:54.648Z",
       "summary": {
         "total": 84,
@@ -2465,7 +2449,20 @@
       "imageSummary": {
         "skipped-existing-url": 86
       }
+    },
+    {
+      "at": "2026-10-29T00:28:58.256Z",
+      "summary": {
+        "total": 86,
+        "added": 0,
+        "changed": 1,
+        "unchanged": 85,
+        "removed": 0
+      },
+      "imageSummary": {
+        "skipped-existing-url": 86
+      }
     }
   ],
-  "lastRunAt": "2026-10-28T00:06:55.842Z"
+  "lastRunAt": "2026-10-29T00:28:58.256Z"
 }

@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-28T00:06:55.842Z",
+  "generatedAt": "2026-10-29T00:28:58.256Z",
   "merchantId": 238090,
   "items": [
     {
@@ -2864,9 +2864,7 @@
       "priceValue": 6500,
       "priceTitle": "기본",
       "available": true,
-      "labels": [
-        "인기"
-      ],
+      "labels": [],
       "optionSets": [
         {
           "id": 294937,

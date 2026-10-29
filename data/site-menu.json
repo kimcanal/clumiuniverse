@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-28T00:06:55.842Z",
+  "generatedAt": "2026-10-29T00:28:58.256Z",
   "merchantId": 238090,
   "items": [
     {
@@ -367,9 +367,7 @@
       "title": "우리제주말차",
       "description": "제주산 우리 말차와 부드러운 우유가 어우러진 말차라떼 🌿🥛\n진한 풍미와 은은한 쌉싸름함이 조화로운,깊고 부드러운 한 잔입니다.",
       "state": "ON_SALE",
-      "labels": [
-        "인기"
-      ],
+      "labels": [],
       "imageLocalPath": "data/tossplace-menu/238090/images/7628072-우리제주말차-801558d68f.webp"
     },
     {

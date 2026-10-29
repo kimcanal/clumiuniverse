@@ -2,12 +2,12 @@
   "merchantId": 238090,
   "merchantName": "클루미 유니버스",
   "merchantStatus": "OPEN",
-  "fetchedAt": "2026-10-28T00:06:55.842Z",
+  "fetchedAt": "2026-10-29T00:28:58.256Z",
   "summary": {
     "total": 86,
     "added": 0,
-    "changed": 7,
-    "unchanged": 79,
+    "changed": 1,
+    "unchanged": 85,
     "removed": 0
   },
   "imageSummary": {
@@ -3446,9 +3446,7 @@
       "priceValue": 6500,
       "priceTitle": "기본",
       "imageUrl": "https://place-static.tossplace.com/public/live/PUBLIC/2025-09-20/1ea29fc4-454d-4c42-8fa9-f45d7794b18d",
-      "labels": [
-        "인기"
-      ],
+      "labels": [],
       "optionSets": [
         {
           "id": 294937,
@@ -3492,7 +3490,7 @@
           ]
         }
       ],
-      "fingerprint": "45a2e5be3780b9d4f63f4ead8d5088198591dc9c9870d54efd688aa89a5b4cd6",
+      "fingerprint": "3e8810bdffdf6fd8647fe637f8b4307568fffc6508f80332d2a17915d93a9222",
       "imageLocalPath": "data/tossplace-menu/238090/images/7628072-우리제주말차-801558d68f.jpg",
       "imageHash": "801558d68fd450abd445473bfb51d7a7a4196446ac904a54ea4642efc51ada64",
       "imageStatus": "skipped-existing-url"
