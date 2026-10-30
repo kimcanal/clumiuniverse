@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-29T00:28:58.256Z",
+  "generatedAt": "2026-10-30T00:28:49.431Z",
   "merchantId": 238090,
   "items": [
     {
@@ -804,7 +804,7 @@
       "categoryTitleEn": "Ade",
       "title": "청포도에이드",
       "description": "",
-      "state": "ON_SALE",
+      "state": "SOLD_OUT",
       "labels": [],
       "imageLocalPath": "data/tossplace-menu/238090/images/13734740-청포도에이드-91f4fb1163.webp"
     },

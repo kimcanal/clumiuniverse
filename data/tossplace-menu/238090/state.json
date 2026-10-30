@@ -2094,14 +2094,14 @@
       "updatedAt": "2026-08-20T21:16:07.047Z"
     },
     "13734740": {
-      "fingerprint": "19ac5b25a383cd33eb595c2b41f322298271e0864f52f18ef16b450b4e67ad00",
+      "fingerprint": "f636ba902b030683f1c755527250c35b76751549aa811d4388994b22a4f1c2df",
       "title": "청포도에이드",
       "description": "",
       "imageUrl": "https://place-static.tossplace.com/public/live/PUBLIC/2026-05-21/4cf9bc9b-f371-4877-abf2-d036187bd6bc",
       "imageLocalPath": "data/tossplace-menu/238090/images/13734740-청포도에이드-91f4fb1163.jpg",
       "imageHash": "91f4fb1163526883c3b14cc0b7562e34b9fbacaeab106d11b8fd3dd10f42e878",
       "firstSeenAt": "2026-07-21T04:15:20.254Z",
-      "updatedAt": "2026-07-21T04:15:20.254Z"
+      "updatedAt": "2026-10-30T00:28:49.431Z"
     },
     "14267200": {
       "fingerprint": "5dabe7527a51761c3f2fa1426e6515c3655c76d4c62db8e914f700acfa3c757d",
@@ -2195,21 +2195,6 @@
     }
   },
   "runs": [
-    {
-      "at": "2026-10-03T00:02:54.648Z",
-      "summary": {
-        "total": 84,
-        "added": 0,
-        "changed": 2,
-        "unchanged": 82,
-        "removed": 1
-      },
-      "imageSummary": {
-        "skipped-existing-url": 82,
-        "missing": 1,
-        "failed-http-timeout": 1
-      }
-    },
     {
       "at": "2026-10-03T23:24:52.480Z",
       "summary": {
@@ -2462,7 +2447,20 @@
       "imageSummary": {
         "skipped-existing-url": 86
       }
+    },
+    {
+      "at": "2026-10-30T00:28:49.431Z",
+      "summary": {
+        "total": 86,
+        "added": 0,
+        "changed": 1,
+        "unchanged": 85,
+        "removed": 0
+      },
+      "imageSummary": {
+        "skipped-existing-url": 86
+      }
     }
   ],
-  "lastRunAt": "2026-10-29T00:28:58.256Z"
+  "lastRunAt": "2026-10-30T00:28:49.431Z"
 }

@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-29T00:28:58.256Z",
+  "generatedAt": "2026-10-30T00:28:49.431Z",
   "merchantId": 238090,
   "items": [
     {
@@ -4972,7 +4972,7 @@
       "descriptionEn": "",
       "priceValue": 6000,
       "priceTitle": "기본",
-      "available": true,
+      "available": false,
       "labels": [],
       "optionSets": [],
       "imageLocalPath": "data/tossplace-menu/238090/images/13734740-청포도에이드-91f4fb1163.webp"
