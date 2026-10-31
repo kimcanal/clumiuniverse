@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-31T00:12:39.869Z",
+  "generatedAt": "2026-10-31T23:49:27.664Z",
   "merchantId": 238090,
   "items": [
     {
@@ -367,10 +367,10 @@
       "categoryTitle": "클루미 감정포션",
       "categoryTitleEn": "CLUMI Emotion Potion",
       "title": "[플래미] 노을에이드",
-      "description": "저녁 노을을 닮은 빛깔에\n레몬 향이 은은하게 퍼지는 새콤달콤 티 에이드",
-      "state": "SOLD_OUT",
+      "description": "붉은 히비스커스와 상큼한 레몬, 톡 쏘는 탄산이 만나 뜨거운 열정은 채우고 답답한 분노는 시원하게 가라앉혀 주는 반전 매력의 티 에이드 ",
+      "state": "ON_SALE",
       "labels": [],
-      "imageLocalPath": "data/tossplace-menu/238090/images/6986485-플래미-노을에이드-524d256888.webp"
+      "imageLocalPath": "data/tossplace-menu/238090/images/6986485-플래미-노을에이드-4e700db524.webp"
     },
     {
       "id": 7628072,
@@ -552,7 +552,7 @@
       "categoryTitleEn": "Dessert",
       "title": "딸기포레누아",
       "description": "상큼한 딸기, 부드러운 우유 크림, 달콤한 화이트 초콜릿이 만나 포근하게 완성된 딸기 케이크 🍓",
-      "state": "SOLD_OUT",
+      "state": "ON_SALE",
       "labels": [
         "인기"
       ],
@@ -564,7 +564,7 @@
       "categoryTitleEn": "Dessert",
       "title": "교토말차쇼콜라",
       "description": "꾸덕한 갸또 시트와 말차 가나슈에\n부드러운 우유 크림이 어우러진 케이크",
-      "state": "SOLD_OUT",
+      "state": "ON_SALE",
       "labels": [
         "인기"
       ],
@@ -576,7 +576,7 @@
       "categoryTitleEn": "Dessert",
       "title": "얼그레이 무화과",
       "description": "달콤한 무화과가 듬뿍 들어간 고소한 시트 위에,\n향긋한 얼그레이 크림을 올린 부드러운 케이크 ☕🍰",
-      "state": "SOLD_OUT",
+      "state": "ON_SALE",
       "labels": [
         "인기"
       ],
@@ -588,23 +588,23 @@
       "categoryTitleEn": "Dessert",
       "title": "초콜릿로쉐케익",
       "description": "부드러운 스페인산 고급 초콜릿 위에 고소하게 구운 헤이즐넛을 올려\n한 입 베어 물면 진한 초콜릿 풍미가 가득 퍼지는 케이크",
-      "state": "SOLD_OUT",
+      "state": "ON_SALE",
       "labels": [
         "인기"
       ],
       "imageLocalPath": "data/tossplace-menu/238090/images/10192464-초콜릿로쉐케익-52fe1dcc82.webp"
     },
     {
-      "id": 17753479,
+      "id": 10114893,
       "categoryTitle": "디저트",
       "categoryTitleEn": "Dessert",
-      "title": "밤 몽블랑",
-      "description": "달콤하고 고소한 밤 크림이\n입안에서 사르르 녹아드는 몽블랑.\n",
+      "title": "아이스크림 브라우니",
+      "description": "진한 초콜릿 브라우니 위에\n부드러운 바닐라 아이스크림을 올렸어요.\n따뜻함과 차가움이 만나 한 입만으로도 충분히 행복해지는 디저트.",
       "state": "SOLD_OUT",
       "labels": [
-        "신규"
+        "인기"
       ],
-      "imageLocalPath": "data/tossplace-menu/238090/images/17753479-밤송이-몽블랑-1800cf14aa.webp"
+      "imageLocalPath": "data/tossplace-menu/238090/images/10114893-아이스크림-브라우니-1ca4423910.webp"
     },
     {
       "id": 10652155,
@@ -797,6 +797,36 @@
       "state": "ON_SALE",
       "labels": [],
       "imageLocalPath": "data/tossplace-menu/238090/images/6979327-레몬에이드-33f8afbcdc.webp"
+    },
+    {
+      "id": 18570558,
+      "categoryTitle": "에이드",
+      "categoryTitleEn": "Ade",
+      "title": "파인애플에이드",
+      "description": "파인애플 과육이 씹히는\n기분 좋은 달콤상큼 파인애플 에이드 ",
+      "state": "ON_SALE",
+      "labels": [],
+      "imageLocalPath": "data/tossplace-menu/238090/images/18570558-파인애플에이드-d7e5443560.webp"
+    },
+    {
+      "id": 18570580,
+      "categoryTitle": "에이드",
+      "categoryTitleEn": "Ade",
+      "title": "블루레몬에이드",
+      "description": "상큼한 레몬에 파란빛을 더해\n기분 전환에 어울리는 블루레몬에이드 💙🍋",
+      "state": "ON_SALE",
+      "labels": [],
+      "imageLocalPath": "data/tossplace-menu/238090/images/18570580-블루레몬에이드-0dc510dffd.webp"
+    },
+    {
+      "id": 18570601,
+      "categoryTitle": "에이드",
+      "categoryTitleEn": "Ade",
+      "title": "노을에이드",
+      "description": "붉은 히비스커스와 상큼한 레몬, 톡 쏘는 탄산이 만나 뜨거운 열정은 채우고 답답한 분노는 시원하게 가라앉혀 주는 반전 매력의 티 에이드",
+      "state": "ON_SALE",
+      "labels": [],
+      "imageLocalPath": "data/tossplace-menu/238090/images/18570601-노을에이드-e9682c37fa.webp"
     },
     {
       "id": 7411040,

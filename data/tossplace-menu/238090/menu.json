@@ -2,17 +2,17 @@
   "merchantId": 238090,
   "merchantName": "클루미 유니버스",
   "merchantStatus": "OPEN",
-  "fetchedAt": "2026-10-31T00:12:39.869Z",
+  "fetchedAt": "2026-10-31T23:49:27.664Z",
   "summary": {
-    "total": 85,
-    "added": 2,
-    "changed": 11,
-    "unchanged": 72,
-    "removed": 3
+    "total": 88,
+    "added": 4,
+    "changed": 5,
+    "unchanged": 79,
+    "removed": 1
   },
   "imageSummary": {
     "skipped-existing-url": 83,
-    "downloaded": 2
+    "downloaded": 5
   },
   "checks": {
     "missingImages": [],
@@ -1891,7 +1891,7 @@
       "fingerprint": "6438de49cb3647c986dec10de9945c4dfd5d7bcb79f40d696c41e916993fc6a1",
       "imageLocalPath": "data/tossplace-menu/238090/images/10077936-삿포로-초코-파르페-e255157cdb.jpg",
       "imageHash": "e255157cdb0e8e04b3ee0eadacf392050cc30cc62d911cc41fb3d620a1bea622",
-      "imageStatus": "downloaded"
+      "imageStatus": "skipped-existing-url"
     },
     {
       "id": 6978203,
@@ -3491,18 +3491,18 @@
       "position": 8,
       "title": "[플래미] 노을에이드",
       "titleEn": "[Flamy] Sunset Tea Ade",
-      "description": "저녁 노을을 닮은 빛깔에\n레몬 향이 은은하게 퍼지는 새콤달콤 티 에이드",
-      "descriptionEn": "A sunset-hued tea ade,\nbright, lemony, and refreshingly sweet.",
-      "state": "SOLD_OUT",
+      "description": "붉은 히비스커스와 상큼한 레몬, 톡 쏘는 탄산이 만나 뜨거운 열정은 채우고 답답한 분노는 시원하게 가라앉혀 주는 반전 매력의 티 에이드 ",
+      "descriptionEn": "A refreshing blend of vibrant hibiscus, zesty lemon, and sparkling soda—igniting your passion while cooling down your anger.",
+      "state": "ON_SALE",
       "priceValue": 6500,
       "priceTitle": "기본",
-      "imageUrl": "https://place-static.tossplace.com/public/live/PUBLIC/2026-01-30/0636436a-6b39-4533-bd34-0ee9ef8bb6a5",
+      "imageUrl": "https://place-static.tossplace.com/public/live/PUBLIC/2026-10-31/ee042a7d-8f8f-4cca-9c3f-60a86f1e0480",
       "labels": [],
       "optionSets": [],
-      "fingerprint": "1d9e87b6b21bc7ca87f1867b10878b9d96f4843f838afb3fa81d844a1a53f9e4",
-      "imageLocalPath": "data/tossplace-menu/238090/images/6986485-플래미-노을에이드-524d256888.jpg",
-      "imageHash": "524d2568886d8aae372ac1145e16b5fb777776d2ca92e788e6950c598a9d76d0",
-      "imageStatus": "skipped-existing-url"
+      "fingerprint": "debda4411c826b9a6240c3e7a1c75b284ac7514a9603ae52fa9808fdcf36522c",
+      "imageLocalPath": "data/tossplace-menu/238090/images/6986485-플래미-노을에이드-4e700db524.jpg",
+      "imageHash": "4e700db5243974426a6de65826fc3a218dbe85a3152c4b9952254c6971712593",
+      "imageStatus": "downloaded"
     },
     {
       "id": 7628072,
@@ -4975,7 +4975,7 @@
       "titleEn": "Strawberry Forêt noire",
       "description": "상큼한 딸기, 부드러운 우유 크림, 달콤한 화이트 초콜릿이 만나 포근하게 완성된 딸기 케이크 🍓",
       "descriptionEn": "A strawberry cake with a harmonious blend of fresh strawberries, smooth milk cream, and white chocolate.",
-      "state": "SOLD_OUT",
+      "state": "ON_SALE",
       "priceValue": 12000,
       "priceTitle": "기본",
       "imageUrl": "https://place-static.tossplace.com/public/live/PUBLIC/2026-05-13/8a453da7-a2f8-4d0d-bf0d-73ce0bbcbf3e",
@@ -5001,7 +5001,7 @@
           ]
         }
       ],
-      "fingerprint": "88a7a17cc2df27d7ccf31efd3e2d55bbe6430095e69f340b384e1e60f091b314",
+      "fingerprint": "70ea37f8ab1f539f9c44d214cf59e241692b7780ba5f6fa1a3be1e7a8bb34da4",
       "imageLocalPath": "data/tossplace-menu/238090/images/10641666-딸기포레누아-a0bf52ee2f.jpg",
       "imageHash": "a0bf52ee2f95df60f753e56e5e51ae7a1102b4c42bf9b44125b02dcca8568213",
       "imageStatus": "skipped-existing-url"
@@ -5016,7 +5016,7 @@
       "titleEn": "Kyoto Matcha Chocolat",
       "description": "꾸덕한 갸또 시트와 말차 가나슈에\n부드러운 우유 크림이 어우러진 케이크",
       "descriptionEn": "White chocolate matcha cake with creamy matcha ganache — a melt-in-your-mouth delight.",
-      "state": "SOLD_OUT",
+      "state": "ON_SALE",
       "priceValue": 10900,
       "priceTitle": "기본",
       "imageUrl": "https://place-static.tossplace.com/public/live/PUBLIC/2026-05-12/5058ffa0-185b-446a-a2b0-8f8701d1ca87",
@@ -5042,7 +5042,7 @@
           ]
         }
       ],
-      "fingerprint": "084f64a547178e732431bd0ec28abaecbe9e76166eb7ff005a4771e9dd905d5c",
+      "fingerprint": "2871ebbbaaa3ed5df90b7cac8b304c30b9c7be24516d002807fa87f6cc9bcb26",
       "imageLocalPath": "data/tossplace-menu/238090/images/10197088-교토말차쇼콜라-9d28d3d031.jpg",
       "imageHash": "9d28d3d031d728cd946817c735c6dd9ba1693b50a7c16e5636b47a33b131f455",
       "imageStatus": "skipped-existing-url"
@@ -5057,7 +5057,7 @@
       "titleEn": "Earl Grey Fig",
       "description": "달콤한 무화과가 듬뿍 들어간 고소한 시트 위에,\n향긋한 얼그레이 크림을 올린 부드러운 케이크 ☕🍰",
       "descriptionEn": "A soft cake layered with nutty sponge filled with sweet figs, topped with fragrant Earl Grey cream ☕🍰",
-      "state": "SOLD_OUT",
+      "state": "ON_SALE",
       "priceValue": 10900,
       "priceTitle": "기본",
       "imageUrl": "https://place-static.tossplace.com/public/live/PUBLIC/2026-05-12/965186ba-98fb-4c6b-bdd7-15c905728f22",
@@ -5083,7 +5083,7 @@
           ]
         }
       ],
-      "fingerprint": "844b4c11f41561e4a4b7cc0bf6a3ebb71d8729faa3c5454971bce64f844b3cf8",
+      "fingerprint": "bea39c24cc19ba3c58b4451ef946ea31b50d59ded39af8c64c570ad057cccc31",
       "imageLocalPath": "data/tossplace-menu/238090/images/10842350-얼그레이-무화과-0f5f5e5bf2.jpg",
       "imageHash": "0f5f5e5bf2263c6d32c3cf25d28b16a234dd70a0ccd3b2088184f007f50fbc48",
       "imageStatus": "skipped-existing-url"
@@ -5098,7 +5098,7 @@
       "titleEn": "Chocolate Roche Cake",
       "description": "부드러운 스페인산 고급 초콜릿 위에 고소하게 구운 헤이즐넛을 올려\n한 입 베어 물면 진한 초콜릿 풍미가 가득 퍼지는 케이크",
       "descriptionEn": "Chocolate-coated cake with roasted hazelnuts and rich chocolate flavor.",
-      "state": "SOLD_OUT",
+      "state": "ON_SALE",
       "priceValue": 10900,
       "priceTitle": "기본",
       "imageUrl": "https://place-static.tossplace.com/public/live/PUBLIC/2026-05-12/643d509d-6f8f-4186-a5ba-28c4839cc761",
@@ -5124,33 +5124,33 @@
           ]
         }
       ],
-      "fingerprint": "cd8e9b4f2157263db12aa960f37d4561990a1f1d6254b1fe381051b34d8d50d6",
+      "fingerprint": "cd65ec7707ff0a4eed5f0e599d14e98080b709f368b6c48bab968e2da7e2dfd7",
       "imageLocalPath": "data/tossplace-menu/238090/images/10192464-초콜릿로쉐케익-52fe1dcc82.jpg",
       "imageHash": "52fe1dcc82b800fd1494dbfa9cf12ca59474a0af9d602087499a9d4e9a1ce6fe",
       "imageStatus": "skipped-existing-url"
     },
     {
-      "id": 17753479,
+      "id": 10114893,
       "categoryId": 985967,
       "categoryTitle": "디저트",
       "categoryTitleEn": "Dessert",
-      "position": 6,
-      "title": "밤 몽블랑",
-      "titleEn": "Mont Blanc Cake",
-      "description": "달콤하고 고소한 밤 크림이\n입안에서 사르르 녹아드는 몽블랑.\n",
-      "descriptionEn": "Sweet, nutty chestnut cream\nmelts softly in your mouth with every bite.",
+      "position": 7,
+      "title": "아이스크림 브라우니",
+      "titleEn": "Ice cream Brownie",
+      "description": "진한 초콜릿 브라우니 위에\n부드러운 바닐라 아이스크림을 올렸어요.\n따뜻함과 차가움이 만나 한 입만으로도 충분히 행복해지는 디저트.",
+      "descriptionEn": "A rich chocolate brownie topped with smooth vanilla ice cream.\nWarm and cold in perfect balance one bite is all it takes to fall in love.",
       "state": "SOLD_OUT",
       "priceValue": 10900,
       "priceTitle": "기본",
-      "imageUrl": "https://place-static.tossplace.com/public/live/PUBLIC/2026-10-03/1c4cf3a6-a0b7-4bb1-864d-ec1c8a55f6a6",
+      "imageUrl": "https://place-static.tossplace.com/public/live/PUBLIC/2026-04-09/9165e0e1-a2fd-4131-a4c7-52ef45eaec7a",
       "labels": [
-        "신규"
+        "인기"
       ],
       "optionSets": [],
-      "fingerprint": "f98c960aa64cbd7ea75fe8dba1fa2a34460d47b9476be0dc62647b29ab8a4b77",
-      "imageLocalPath": "data/tossplace-menu/238090/images/17753479-밤송이-몽블랑-1800cf14aa.png",
-      "imageHash": "1800cf14aabc96a8b21250ec859870bc84d7ffa81c532b3f29e8b167349ad719",
-      "imageStatus": "skipped-existing-url"
+      "fingerprint": "2febf0d9a6d9022eae20250b063c015e9bc2900185ef580eda179d3f33318288",
+      "imageLocalPath": "data/tossplace-menu/238090/images/10114893-아이스크림-브라우니-1ca4423910.jpg",
+      "imageHash": "1ca44239101ed59b00b661edae8ae559877d2fd56061b9d0dfac41f712a4eedb",
+      "imageStatus": "downloaded"
     },
     {
       "id": 10652155,
@@ -5831,6 +5831,69 @@
       "imageStatus": "skipped-existing-url"
     },
     {
+      "id": 18570558,
+      "categoryId": 722148,
+      "categoryTitle": "에이드",
+      "categoryTitleEn": "Ade",
+      "position": 5,
+      "title": "파인애플에이드",
+      "titleEn": "Pineapple Ade",
+      "description": "파인애플 과육이 씹히는\n기분 좋은 달콤상큼 파인애플 에이드 ",
+      "descriptionEn": "A refreshing pineapple ade\nwith juicy pineapple pieces.",
+      "state": "ON_SALE",
+      "priceValue": 6500,
+      "priceTitle": "기본",
+      "imageUrl": "https://place-static.tossplace.com/public/live/PUBLIC/2026-10-31/007baec9-7e3d-4294-9d91-114c5db86b22",
+      "labels": [],
+      "optionSets": [],
+      "fingerprint": "a1eb00c66ef853f88365d3eb9ddc8e59a9a127adc65d57871c78117639b15ae2",
+      "imageLocalPath": "data/tossplace-menu/238090/images/18570558-파인애플에이드-d7e5443560.jpg",
+      "imageHash": "d7e5443560372f9fb996bab16c869fe8123a2edd78ff32b4958bb4677a2d70c2",
+      "imageStatus": "downloaded"
+    },
+    {
+      "id": 18570580,
+      "categoryId": 722148,
+      "categoryTitle": "에이드",
+      "categoryTitleEn": "Ade",
+      "position": 6,
+      "title": "블루레몬에이드",
+      "titleEn": "Blue Lemon Ade",
+      "description": "상큼한 레몬에 파란빛을 더해\n기분 전환에 어울리는 블루레몬에이드 💙🍋",
+      "descriptionEn": "A refreshing blue lemonade,\nblending bright lemon flavor with a hint of blue.",
+      "state": "ON_SALE",
+      "priceValue": 6500,
+      "priceTitle": "기본",
+      "imageUrl": "https://place-static.tossplace.com/public/live/PUBLIC/2026-10-31/2f833f89-c5cc-43a8-9463-f104baef3509",
+      "labels": [],
+      "optionSets": [],
+      "fingerprint": "ebf666aaacee67e61a10880a4b6b88df2785154692da0f164556dfb8378e1a9c",
+      "imageLocalPath": "data/tossplace-menu/238090/images/18570580-블루레몬에이드-0dc510dffd.jpg",
+      "imageHash": "0dc510dffdcac925deb4550bf3403108776e3bc69ea0505e4f402b05207a60ac",
+      "imageStatus": "downloaded"
+    },
+    {
+      "id": 18570601,
+      "categoryId": 722148,
+      "categoryTitle": "에이드",
+      "categoryTitleEn": "Ade",
+      "position": 7,
+      "title": "노을에이드",
+      "titleEn": "Sunset Tea Ade",
+      "description": "붉은 히비스커스와 상큼한 레몬, 톡 쏘는 탄산이 만나 뜨거운 열정은 채우고 답답한 분노는 시원하게 가라앉혀 주는 반전 매력의 티 에이드",
+      "descriptionEn": " A refreshing blend of vibrant hibiscus, zesty lemon, and sparkling soda—igniting your passion while cooling down your anger.",
+      "state": "ON_SALE",
+      "priceValue": 6500,
+      "priceTitle": "기본",
+      "imageUrl": "https://place-static.tossplace.com/public/live/PUBLIC/2026-10-31/de82e3c6-8966-4559-9479-0f21a9b8e2c9",
+      "labels": [],
+      "optionSets": [],
+      "fingerprint": "dbef16e8fa2678265b2ec3251a81bede15e44f22019d9fc357082afca525ebd0",
+      "imageLocalPath": "data/tossplace-menu/238090/images/18570601-노을에이드-e9682c37fa.jpg",
+      "imageHash": "e9682c37faad7633098c41771e8f93d5311ac760819c941ae14d82b2330c62eb",
+      "imageStatus": "downloaded"
+    },
+    {
       "id": 7411040,
       "categoryId": 765263,
       "categoryTitle": "파르페",
@@ -5849,7 +5912,7 @@
       "fingerprint": "9b245d332fd5ed459ffd36bf15b0eff40cdbaa7fbe84fe5d671350516c853a4e",
       "imageLocalPath": "data/tossplace-menu/238090/images/7411040-삿포로-과일파르페-0d2467dd08.jpg",
       "imageHash": "0d2467dd089fad16e8d3661c657aa363bdf106866bdfd5894cc47ba754550840",
-      "imageStatus": "downloaded"
+      "imageStatus": "skipped-existing-url"
     },
     {
       "id": 7411076,
