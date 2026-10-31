@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-30T00:28:49.431Z",
+  "generatedAt": "2026-10-31T00:12:39.869Z",
   "merchantId": 238090,
   "items": [
     {
@@ -155,6 +155,18 @@
       "imageLocalPath": "data/tossplace-menu/238090/images/9142742-시그니처-상수라떼-0065c0682f.webp"
     },
     {
+      "id": 10077936,
+      "categoryTitle": "인기 메뉴",
+      "categoryTitleEn": "BEST",
+      "title": "삿포로 초코 파르페",
+      "description": "깊고 진한 초콜릿을 담은 파르페, 달콤하면서도 깔끔한 풍미.",
+      "state": "ON_SALE",
+      "labels": [
+        "인기"
+      ],
+      "imageLocalPath": "data/tossplace-menu/238090/images/10077936-삿포로-초코-파르페-e255157cdb.webp"
+    },
+    {
       "id": 6978203,
       "categoryTitle": "커피",
       "categoryTitleEn": "Coffee",
@@ -229,6 +241,18 @@
       "imageLocalPath": "data/tossplace-menu/238090/images/6978463-바닐라라떼-1266f04cf4.webp"
     },
     {
+      "id": 12936713,
+      "categoryTitle": "커피",
+      "categoryTitleEn": "Coffee",
+      "title": "[시그니처] 오렌지 비앙코",
+      "description": "오렌지의 상큼함과 부드러운 크림이 어우러진 커피\n달콤쌉싸름한 매력의 시트러스 라떼",
+      "state": "ON_SALE",
+      "labels": [
+        "신규"
+      ],
+      "imageLocalPath": "data/tossplace-menu/238090/images/14267209-오렌지-비앙코-dda910de0e.webp"
+    },
+    {
       "id": 6997998,
       "categoryTitle": "커피",
       "categoryTitleEn": "Coffee",
@@ -263,18 +287,6 @@
       "imageLocalPath": "data/tossplace-menu/238090/images/11912174-레몬-아메리카노-a66b07d481.webp"
     },
     {
-      "id": 12936713,
-      "categoryTitle": "커피",
-      "categoryTitleEn": "Coffee",
-      "title": "[여름 시그니처] 오렌지 비앙코",
-      "description": "오렌지의 상큼함과 부드러운 크림이 어우러진 커피\n달콤쌉싸름한 매력의 시트러스 라떼",
-      "state": "ON_SALE",
-      "labels": [
-        "신규"
-      ],
-      "imageLocalPath": "data/tossplace-menu/238090/images/14267209-오렌지-비앙코-dda910de0e.webp"
-    },
-    {
       "id": 16508079,
       "categoryTitle": "커피",
       "categoryTitleEn": "Coffee",
@@ -302,7 +314,7 @@
       "categoryTitleEn": "CLUMI Emotion Potion",
       "title": "[드로피] 블루레몬에이드",
       "description": "상큼한 레몬에 파란빛을 더해\n기분 전환에 어울리는 블루레몬에이드 💙🍋",
-      "state": "SOLD_OUT",
+      "state": "ON_SALE",
       "labels": [],
       "imageLocalPath": "data/tossplace-menu/238090/images/6979343-드로피-블루레몬에이드-c1854203da.webp"
     },
@@ -322,7 +334,7 @@
       "id": 6986480,
       "categoryTitle": "클루미 감정포션",
       "categoryTitleEn": "CLUMI Emotion Potion",
-      "title": "[스텔라] 딸기주스",
+      "title": "[스텔라] 생딸기주스",
       "description": "잘 익은 생딸기를 통째로 갈아\n상큼함과 달콤함이 살아있는 한 잔",
       "state": "ON_SALE",
       "labels": [],
@@ -552,7 +564,7 @@
       "categoryTitleEn": "Dessert",
       "title": "교토말차쇼콜라",
       "description": "꾸덕한 갸또 시트와 말차 가나슈에\n부드러운 우유 크림이 어우러진 케이크",
-      "state": "ON_SALE",
+      "state": "SOLD_OUT",
       "labels": [
         "인기"
       ],
@@ -583,16 +595,16 @@
       "imageLocalPath": "data/tossplace-menu/238090/images/10192464-초콜릿로쉐케익-52fe1dcc82.webp"
     },
     {
-      "id": 10114893,
+      "id": 17753479,
       "categoryTitle": "디저트",
       "categoryTitleEn": "Dessert",
-      "title": "아이스크림 브라우니",
-      "description": "진한 초콜릿 브라우니 위에\n부드러운 바닐라 아이스크림을 올렸어요.\n따뜻함과 차가움이 만나 한 입만으로도 충분히 행복해지는 디저트.",
+      "title": "밤 몽블랑",
+      "description": "달콤하고 고소한 밤 크림이\n입안에서 사르르 녹아드는 몽블랑.\n",
       "state": "SOLD_OUT",
       "labels": [
-        "인기"
+        "신규"
       ],
-      "imageLocalPath": "data/tossplace-menu/238090/images/8748567-아이스크림브라우니-1ca4423910.webp"
+      "imageLocalPath": "data/tossplace-menu/238090/images/17753479-밤송이-몽블랑-1800cf14aa.webp"
     },
     {
       "id": 10652155,
@@ -603,18 +615,6 @@
       "state": "ON_SALE",
       "labels": [],
       "imageLocalPath": "data/tossplace-menu/238090/images/10652155-케이크-초-8ae83ded46.webp"
-    },
-    {
-      "id": 17753479,
-      "categoryTitle": "디저트",
-      "categoryTitleEn": "Dessert",
-      "title": "밤 몽블랑",
-      "description": "달콤하고 고소한 밤 크림이\n입안에서 사르르 녹아드는 몽블랑.\n",
-      "state": "ON_SALE",
-      "labels": [
-        "신규"
-      ],
-      "imageLocalPath": "data/tossplace-menu/238090/images/17753479-밤송이-몽블랑-1800cf14aa.webp"
     },
     {
       "id": 13579307,
@@ -725,16 +725,6 @@
       "imageLocalPath": "data/tossplace-menu/238090/images/6979179-멜롱망스-c2a0848d6e.webp"
     },
     {
-      "id": 6979125,
-      "categoryTitle": "티",
-      "categoryTitleEn": "Tea",
-      "title": "복숭아아이스티",
-      "description": "",
-      "state": "ON_SALE",
-      "labels": [],
-      "imageLocalPath": "data/tossplace-menu/238090/images/6979125-복숭아아이스티-4cd29fc8e8.webp"
-    },
-    {
       "id": 12131403,
       "categoryTitle": "티",
       "categoryTitleEn": "Tea",
@@ -745,6 +735,16 @@
         "신규"
       ],
       "imageLocalPath": "data/tossplace-menu/238090/images/12131403-레몬차-a3fc0f726f.webp"
+    },
+    {
+      "id": 6979125,
+      "categoryTitle": "티",
+      "categoryTitleEn": "Tea",
+      "title": "복숭아아이스티",
+      "description": "",
+      "state": "ON_SALE",
+      "labels": [],
+      "imageLocalPath": "data/tossplace-menu/238090/images/6979125-복숭아아이스티-4cd29fc8e8.webp"
     },
     {
       "id": 18186313,
@@ -799,14 +799,14 @@
       "imageLocalPath": "data/tossplace-menu/238090/images/6979327-레몬에이드-33f8afbcdc.webp"
     },
     {
-      "id": 13734740,
-      "categoryTitle": "에이드",
-      "categoryTitleEn": "Ade",
-      "title": "청포도에이드",
-      "description": "",
+      "id": 7411040,
+      "categoryTitle": "파르페",
+      "categoryTitleEn": "Parfait",
+      "title": "삿포로 과일파르페",
+      "description": "계절 과일의 상큼함을 담아 가볍고 산뜻하게 즐기는 과일 파르페입니다.\n향긋하고 달콤한 설향딸기가 올라가 한입 한입 더 특별한 맛을 선물해요. 🍓❄️",
       "state": "SOLD_OUT",
       "labels": [],
-      "imageLocalPath": "data/tossplace-menu/238090/images/13734740-청포도에이드-91f4fb1163.webp"
+      "imageLocalPath": "data/tossplace-menu/238090/images/7411040-삿포로-과일파르페-0d2467dd08.webp"
     },
     {
       "id": 7411076,
@@ -817,18 +817,6 @@
       "state": "ON_SALE",
       "labels": [],
       "imageLocalPath": "data/tossplace-menu/238090/images/7411076-삿포로초코파르페-97216e9a5a.webp"
-    },
-    {
-      "id": 15684826,
-      "categoryTitle": "파르페",
-      "categoryTitleEn": "Parfait",
-      "title": "[시즌] 복숭아 한 컵",
-      "description": "제철 황도 1개를 통째로 담았습니다.\n달콤한 생복숭아와 바삭한 그래놀라, 상큼한 요거트, 진한 바닐라 아이스크림이 어우러진 여름 한정 프리미엄 파르페",
-      "state": "SOLD_OUT",
-      "labels": [
-        "신규"
-      ],
-      "imageLocalPath": "data/tossplace-menu/238090/images/15684889-복숭아-한-컵-5f7a3ea8c3.webp"
     },
     {
       "id": 9276227,
