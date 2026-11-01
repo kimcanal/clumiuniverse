@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-31T23:49:27.664Z",
+  "generatedAt": "2026-11-01T23:59:17.943Z",
   "merchantId": 238090,
   "items": [
     {
@@ -91,7 +91,7 @@
           ]
         }
       ],
-      "imageLocalPath": "data/tossplace-menu/238090/images/10991140-내맘대로-브런치-Basic-waffle-f5ce2306c3.webp"
+      "imageLocalPath": "data/tossplace-menu/238090/images/10991140-내맘대로-브런치-Basic-waffle-2bf91a2b67.webp"
     },
     {
       "id": 11075478,
@@ -876,7 +876,7 @@
       "descriptionEn": "A crisp Belgian Liège waffle topped with sweet fresh figs, smooth cream cheese mousse, pistachio crumble, and a drizzle of maple syrup.",
       "priceValue": 15000,
       "priceTitle": "기본",
-      "available": true,
+      "available": false,
       "labels": [
         "인기"
       ],
@@ -2641,7 +2641,7 @@
         "인기"
       ],
       "optionSets": [],
-      "imageLocalPath": "data/tossplace-menu/238090/images/6979310-클루미-파인애플에이드-9fd7b723cb.webp"
+      "imageLocalPath": "data/tossplace-menu/238090/images/18570558-파인애플에이드-f0e2144032.webp"
     },
     {
       "id": 6979343,
@@ -3247,7 +3247,7 @@
       "descriptionEn": "A crisp Belgian Liège waffle topped with sweet fresh figs, smooth cream cheese mousse, pistachio crumble, and a drizzle of maple syrup.",
       "priceValue": 15000,
       "priceTitle": "기본",
-      "available": true,
+      "available": false,
       "labels": [
         "인기"
       ],
@@ -5030,7 +5030,7 @@
       "available": true,
       "labels": [],
       "optionSets": [],
-      "imageLocalPath": "data/tossplace-menu/238090/images/18570558-파인애플에이드-d7e5443560.webp"
+      "imageLocalPath": "data/tossplace-menu/238090/images/18570558-파인애플에이드-f0e2144032.webp"
     },
     {
       "id": 18570580,

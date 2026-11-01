@@ -1,14 +1,6 @@
 {
   "merchantId": "238090",
   "imagesByUrl": {
-    "https://place-static.tossplace.com/public/live/PUBLIC/2026-02-15/ae758868-33f4-4ee7-96ae-db9f449a9b8f": {
-      "localPath": "data/tossplace-menu/238090/images/10991140-내맘대로-브런치-Basic-waffle-f5ce2306c3.jpg",
-      "hash": "f5ce2306c30e2e6edb9de09ee6d4772aeaa99f3d9bdce0ad40fd05d4e4878f24",
-      "itemId": 10991140,
-      "title": "내맘대로 브런치(Basic waffle)",
-      "sourceUrl": "https://place-static.tossplace.com/public/live/PUBLIC/2026-02-15/ae758868-33f4-4ee7-96ae-db9f449a9b8f",
-      "updatedAt": "2026-05-01T03:23:58.747Z"
-    },
     "https://place-static.tossplace.com/public/live/PUBLIC/2026-03-10/41fec0aa-9e8f-43c8-9330-2a05866d2a0c": {
       "localPath": "data/tossplace-menu/238090/images/11191767-여왕의-만찬-Coffee-Set-c242a770ab.jpg",
       "hash": "c242a770ab325470a0761933873c7810ca820e01b595a3888003b66e097064fc",
@@ -64,14 +56,6 @@
       "title": "여왕의접시4(아보카도)Coffee Set",
       "sourceUrl": "https://place-static.tossplace.com/public/live/PUBLIC/2026-03-03/a192cd00-dc2a-41b4-ad02-47f2f7585ea1",
       "updatedAt": "2026-05-01T03:23:58.790Z"
-    },
-    "https://place-static.tossplace.com/public/live/PUBLIC/2026-01-30/92e3c5f0-ef45-40cd-b1a3-c713c5addadc": {
-      "localPath": "data/tossplace-menu/238090/images/6979310-클루미-파인애플에이드-9fd7b723cb.jpg",
-      "hash": "9fd7b723cbb896b351f61c35fef6514c7c41f08a192e23b945468d8c99aaea40",
-      "itemId": 6979310,
-      "title": "[클루미] 파인애플에이드",
-      "sourceUrl": "https://place-static.tossplace.com/public/live/PUBLIC/2026-01-30/92e3c5f0-ef45-40cd-b1a3-c713c5addadc",
-      "updatedAt": "2026-05-01T03:23:58.807Z"
     },
     "https://place-static.tossplace.com/public/live/PUBLIC/2026-02-01/3b4ea4c3-7956-4199-8154-e649174142cf": {
       "localPath": "data/tossplace-menu/238090/images/6979343-드로피-블루레몬에이드-c1854203da.jpg",
@@ -673,14 +657,6 @@
       "sourceUrl": "https://place-static.tossplace.com/public/live/PUBLIC/2026-10-31/ee042a7d-8f8f-4cca-9c3f-60a86f1e0480",
       "updatedAt": "2026-10-31T23:49:27.582Z"
     },
-    "https://place-static.tossplace.com/public/live/PUBLIC/2026-10-31/007baec9-7e3d-4294-9d91-114c5db86b22": {
-      "localPath": "data/tossplace-menu/238090/images/18570558-파인애플에이드-d7e5443560.jpg",
-      "hash": "d7e5443560372f9fb996bab16c869fe8123a2edd78ff32b4958bb4677a2d70c2",
-      "itemId": 18570558,
-      "title": "파인애플에이드",
-      "sourceUrl": "https://place-static.tossplace.com/public/live/PUBLIC/2026-10-31/007baec9-7e3d-4294-9d91-114c5db86b22",
-      "updatedAt": "2026-10-31T23:49:27.599Z"
-    },
     "https://place-static.tossplace.com/public/live/PUBLIC/2026-10-31/2f833f89-c5cc-43a8-9463-f104baef3509": {
       "localPath": "data/tossplace-menu/238090/images/18570580-블루레몬에이드-0dc510dffd.jpg",
       "hash": "0dc510dffdcac925deb4550bf3403108776e3bc69ea0505e4f402b05207a60ac",
@@ -704,17 +680,33 @@
       "title": "노을에이드",
       "sourceUrl": "https://place-static.tossplace.com/public/live/PUBLIC/2026-10-31/de82e3c6-8966-4559-9479-0f21a9b8e2c9",
       "updatedAt": "2026-10-31T23:49:27.663Z"
+    },
+    "https://place-static.tossplace.com/public/live/PUBLIC/2026-11-01/a2b1554e-1fa6-427c-bd5f-61dccd9c8ad3": {
+      "localPath": "data/tossplace-menu/238090/images/18570558-파인애플에이드-f0e2144032.jpg",
+      "hash": "f0e2144032dc79277ad51c539f4d681141e2953aca355412f1d2138bca881f56",
+      "itemId": 18570558,
+      "title": "파인애플에이드",
+      "sourceUrl": "https://place-static.tossplace.com/public/live/PUBLIC/2026-11-01/a2b1554e-1fa6-427c-bd5f-61dccd9c8ad3",
+      "updatedAt": "2026-11-01T23:59:17.626Z"
+    },
+    "https://place-static.tossplace.com/public/live/PUBLIC/2026-11-01/c0402758-2351-4eb8-a061-29561b8709e6": {
+      "localPath": "data/tossplace-menu/238090/images/18570558-파인애플에이드-f0e2144032.jpg",
+      "hash": "f0e2144032dc79277ad51c539f4d681141e2953aca355412f1d2138bca881f56",
+      "itemId": 6979310,
+      "title": "[클루미] 파인애플에이드",
+      "sourceUrl": "https://place-static.tossplace.com/public/live/PUBLIC/2026-11-01/c0402758-2351-4eb8-a061-29561b8709e6",
+      "updatedAt": "2026-11-01T23:59:17.660Z"
+    },
+    "https://place-static.tossplace.com/public/live/PUBLIC/2026-11-01/bd06faad-a5cb-4ef1-91ba-0a4172fd9517": {
+      "localPath": "data/tossplace-menu/238090/images/10991140-내맘대로-브런치-Basic-waffle-2bf91a2b67.jpg",
+      "hash": "2bf91a2b6763b0b5dc4eca2c2bc5134c704cdb27bcb9704fc4e44860f374f879",
+      "itemId": 10991140,
+      "title": "내맘대로 브런치(Basic waffle)",
+      "sourceUrl": "https://place-static.tossplace.com/public/live/PUBLIC/2026-11-01/bd06faad-a5cb-4ef1-91ba-0a4172fd9517",
+      "updatedAt": "2026-11-01T23:59:17.943Z"
     }
   },
   "imagesByHash": {
-    "f5ce2306c30e2e6edb9de09ee6d4772aeaa99f3d9bdce0ad40fd05d4e4878f24": {
-      "localPath": "data/tossplace-menu/238090/images/10991140-내맘대로-브런치-Basic-waffle-f5ce2306c3.jpg",
-      "hash": "f5ce2306c30e2e6edb9de09ee6d4772aeaa99f3d9bdce0ad40fd05d4e4878f24",
-      "itemId": 10991140,
-      "title": "내맘대로 브런치(Basic waffle)",
-      "sourceUrl": "https://place-static.tossplace.com/public/live/PUBLIC/2026-02-15/ae758868-33f4-4ee7-96ae-db9f449a9b8f",
-      "updatedAt": "2026-05-01T03:23:58.747Z"
-    },
     "c242a770ab325470a0761933873c7810ca820e01b595a3888003b66e097064fc": {
       "localPath": "data/tossplace-menu/238090/images/11191767-여왕의-만찬-Coffee-Set-c242a770ab.jpg",
       "hash": "c242a770ab325470a0761933873c7810ca820e01b595a3888003b66e097064fc",
@@ -770,14 +762,6 @@
       "title": "여왕의접시4(아보카도)Coffee Set",
       "sourceUrl": "https://place-static.tossplace.com/public/live/PUBLIC/2026-03-03/a192cd00-dc2a-41b4-ad02-47f2f7585ea1",
       "updatedAt": "2026-05-01T03:23:58.790Z"
-    },
-    "9fd7b723cbb896b351f61c35fef6514c7c41f08a192e23b945468d8c99aaea40": {
-      "localPath": "data/tossplace-menu/238090/images/6979310-클루미-파인애플에이드-9fd7b723cb.jpg",
-      "hash": "9fd7b723cbb896b351f61c35fef6514c7c41f08a192e23b945468d8c99aaea40",
-      "itemId": 6979310,
-      "title": "[클루미] 파인애플에이드",
-      "sourceUrl": "https://place-static.tossplace.com/public/live/PUBLIC/2026-01-30/92e3c5f0-ef45-40cd-b1a3-c713c5addadc",
-      "updatedAt": "2026-05-01T03:23:58.807Z"
     },
     "c1854203da03264c8a1a2a6a3c3375493b5261aeb62f740ca244f2b72414a89d": {
       "localPath": "data/tossplace-menu/238090/images/6979343-드로피-블루레몬에이드-c1854203da.jpg",
@@ -1315,14 +1299,6 @@
       "sourceUrl": "https://place-static.tossplace.com/public/live/PUBLIC/2026-10-31/ee042a7d-8f8f-4cca-9c3f-60a86f1e0480",
       "updatedAt": "2026-10-31T23:49:27.582Z"
     },
-    "d7e5443560372f9fb996bab16c869fe8123a2edd78ff32b4958bb4677a2d70c2": {
-      "localPath": "data/tossplace-menu/238090/images/18570558-파인애플에이드-d7e5443560.jpg",
-      "hash": "d7e5443560372f9fb996bab16c869fe8123a2edd78ff32b4958bb4677a2d70c2",
-      "itemId": 18570558,
-      "title": "파인애플에이드",
-      "sourceUrl": "https://place-static.tossplace.com/public/live/PUBLIC/2026-10-31/007baec9-7e3d-4294-9d91-114c5db86b22",
-      "updatedAt": "2026-10-31T23:49:27.599Z"
-    },
     "0dc510dffdcac925deb4550bf3403108776e3bc69ea0505e4f402b05207a60ac": {
       "localPath": "data/tossplace-menu/238090/images/18570580-블루레몬에이드-0dc510dffd.jpg",
       "hash": "0dc510dffdcac925deb4550bf3403108776e3bc69ea0505e4f402b05207a60ac",
@@ -1346,6 +1322,22 @@
       "title": "노을에이드",
       "sourceUrl": "https://place-static.tossplace.com/public/live/PUBLIC/2026-10-31/de82e3c6-8966-4559-9479-0f21a9b8e2c9",
       "updatedAt": "2026-10-31T23:49:27.663Z"
+    },
+    "f0e2144032dc79277ad51c539f4d681141e2953aca355412f1d2138bca881f56": {
+      "localPath": "data/tossplace-menu/238090/images/18570558-파인애플에이드-f0e2144032.jpg",
+      "hash": "f0e2144032dc79277ad51c539f4d681141e2953aca355412f1d2138bca881f56",
+      "itemId": 18570558,
+      "title": "파인애플에이드",
+      "sourceUrl": "https://place-static.tossplace.com/public/live/PUBLIC/2026-11-01/a2b1554e-1fa6-427c-bd5f-61dccd9c8ad3",
+      "updatedAt": "2026-11-01T23:59:17.626Z"
+    },
+    "2bf91a2b6763b0b5dc4eca2c2bc5134c704cdb27bcb9704fc4e44860f374f879": {
+      "localPath": "data/tossplace-menu/238090/images/10991140-내맘대로-브런치-Basic-waffle-2bf91a2b67.jpg",
+      "hash": "2bf91a2b6763b0b5dc4eca2c2bc5134c704cdb27bcb9704fc4e44860f374f879",
+      "itemId": 10991140,
+      "title": "내맘대로 브런치(Basic waffle)",
+      "sourceUrl": "https://place-static.tossplace.com/public/live/PUBLIC/2026-11-01/bd06faad-a5cb-4ef1-91ba-0a4172fd9517",
+      "updatedAt": "2026-11-01T23:59:17.943Z"
     }
   },
   "itemsById": {
@@ -1480,14 +1472,14 @@
       "updatedAt": "2026-10-19T23:59:13.704Z"
     },
     "6979310": {
-      "fingerprint": "1e9b656c170f7876eb9bf47f76cf3ad42fa68ac6cbc543eafeb240158c34bec0",
+      "fingerprint": "48acd8aa26da5184ff84283154167c0d4f84d0049a78e5c1fd1ed031b8bc015a",
       "title": "[클루미] 파인애플에이드",
       "description": "파인애플 과육이 씹히는\n기분 좋은 달콤상큼 파인애플 에이드",
-      "imageUrl": "https://place-static.tossplace.com/public/live/PUBLIC/2026-01-30/92e3c5f0-ef45-40cd-b1a3-c713c5addadc",
-      "imageLocalPath": "data/tossplace-menu/238090/images/6979310-클루미-파인애플에이드-9fd7b723cb.jpg",
-      "imageHash": "9fd7b723cbb896b351f61c35fef6514c7c41f08a192e23b945468d8c99aaea40",
+      "imageUrl": "https://place-static.tossplace.com/public/live/PUBLIC/2026-11-01/c0402758-2351-4eb8-a061-29561b8709e6",
+      "imageLocalPath": "data/tossplace-menu/238090/images/18570558-파인애플에이드-f0e2144032.jpg",
+      "imageHash": "f0e2144032dc79277ad51c539f4d681141e2953aca355412f1d2138bca881f56",
       "firstSeenAt": "2026-07-21T04:15:20.254Z",
-      "updatedAt": "2026-07-21T04:15:20.254Z"
+      "updatedAt": "2026-11-01T23:59:17.943Z"
     },
     "6979327": {
       "fingerprint": "65c3ba113e8fdfd24b864d64c1ae1d1d40ee08574565dc1b5a139f888ea994f9",
@@ -1970,14 +1962,14 @@
       "updatedAt": "2026-08-29T22:52:03.755Z"
     },
     "10991140": {
-      "fingerprint": "0876cf8460c9e599f9f4a0579a805cff201faf89805b02c554f48cad32099ef3",
+      "fingerprint": "ec80a17d95b2faad9b6a0143a486114f54029fa3b2c36c20922de5cf09e4515b",
       "title": "내맘대로 브런치(Basic waffle)",
       "description": "[뉴질랜드 앵커 무염 버터 100%] 벨기에 리에주 방식의 와플로 겉은 바삭 속은 촉촉한 벨기에 와플,원하는 메뉴를 담아서 나만의 유니크한 메뉴를 만드세요.(Basic waffle)",
-      "imageUrl": "https://place-static.tossplace.com/public/live/PUBLIC/2026-02-15/ae758868-33f4-4ee7-96ae-db9f449a9b8f",
-      "imageLocalPath": "data/tossplace-menu/238090/images/10991140-내맘대로-브런치-Basic-waffle-f5ce2306c3.jpg",
-      "imageHash": "f5ce2306c30e2e6edb9de09ee6d4772aeaa99f3d9bdce0ad40fd05d4e4878f24",
+      "imageUrl": "https://place-static.tossplace.com/public/live/PUBLIC/2026-11-01/bd06faad-a5cb-4ef1-91ba-0a4172fd9517",
+      "imageLocalPath": "data/tossplace-menu/238090/images/10991140-내맘대로-브런치-Basic-waffle-2bf91a2b67.jpg",
+      "imageHash": "2bf91a2b6763b0b5dc4eca2c2bc5134c704cdb27bcb9704fc4e44860f374f879",
       "firstSeenAt": "2026-07-21T04:15:20.254Z",
-      "updatedAt": "2026-09-18T12:03:41.506Z"
+      "updatedAt": "2026-11-01T23:59:17.943Z"
     },
     "10999047": {
       "fingerprint": "f96aa071a9ca0bf1c67af5ee33a1cf911394c77046d85ab692a17dd079eab048",
@@ -2150,24 +2142,24 @@
       "updatedAt": "2026-10-10T00:22:08.798Z"
     },
     "15684896": {
-      "fingerprint": "30889dcc46246ce43db3975c123ea554fd91650b02ed6262a2506f927b1c98d1",
+      "fingerprint": "b51b32e5f7a1522c0b655719392d547c5b6e27e133978f336613fed12b824ed8",
       "title": "무화과 크림치즈 와플",
       "description": "달콤한 무화과와 부드러운 크림치즈 무스, 피스타치오를 올린 바삭한 리에쥬 와플.",
       "imageUrl": "https://place-static.tossplace.com/public/live/PUBLIC/2026-09-26/4bdb0d99-3ad9-4bf2-9cd9-9714d90cb099",
       "imageLocalPath": "data/tossplace-menu/238090/images/16230479-시즌한정-무화과-크림치즈-와플-86ba9a15c7.jpg",
       "imageHash": "86ba9a15c7dfd9f8d97086281499444715fe62d2c3207f639cdb6ba7f9798225",
       "firstSeenAt": "2026-08-20T21:16:07.047Z",
-      "updatedAt": "2026-10-13T02:17:05.884Z"
+      "updatedAt": "2026-11-01T23:59:17.943Z"
     },
     "16230479": {
-      "fingerprint": "93a12d1415f9a1c38956f6d7b98f09d1175f5e29711f208eb39003f4eca344b8",
+      "fingerprint": "1b162fcb549c95a130f9920a07f3631cf3e395e5949aa601083537debd6972db",
       "title": "[시즌한정]무화과&크림치즈 와플",
       "description": "달콤한 무화과와 부드러운 크림치즈 무스, 피스타치오를 올린 바삭한 리에쥬 와플.",
       "imageUrl": "https://place-static.tossplace.com/public/live/PUBLIC/2026-09-26/cea32c70-fe60-4031-82fa-825dfd717a11",
       "imageLocalPath": "data/tossplace-menu/238090/images/16230479-시즌한정-무화과-크림치즈-와플-86ba9a15c7.jpg",
       "imageHash": "86ba9a15c7dfd9f8d97086281499444715fe62d2c3207f639cdb6ba7f9798225",
       "firstSeenAt": "2026-08-20T21:16:07.047Z",
-      "updatedAt": "2026-10-13T02:17:05.884Z"
+      "updatedAt": "2026-11-01T23:59:17.943Z"
     },
     "16508079": {
       "fingerprint": "740ea4fc9df45f5390e051a02f2cbe6f87a570e1ecdb907efa43f49447652a87",
@@ -2200,14 +2192,14 @@
       "updatedAt": "2026-10-18T22:39:18.949Z"
     },
     "18570558": {
-      "fingerprint": "a1eb00c66ef853f88365d3eb9ddc8e59a9a127adc65d57871c78117639b15ae2",
+      "fingerprint": "aa4d4caca312ad5d97b79f8d3b9a2eb844b03975aba0f3de238e185e9edc6d77",
       "title": "파인애플에이드",
       "description": "파인애플 과육이 씹히는\n기분 좋은 달콤상큼 파인애플 에이드 ",
-      "imageUrl": "https://place-static.tossplace.com/public/live/PUBLIC/2026-10-31/007baec9-7e3d-4294-9d91-114c5db86b22",
-      "imageLocalPath": "data/tossplace-menu/238090/images/18570558-파인애플에이드-d7e5443560.jpg",
-      "imageHash": "d7e5443560372f9fb996bab16c869fe8123a2edd78ff32b4958bb4677a2d70c2",
+      "imageUrl": "https://place-static.tossplace.com/public/live/PUBLIC/2026-11-01/a2b1554e-1fa6-427c-bd5f-61dccd9c8ad3",
+      "imageLocalPath": "data/tossplace-menu/238090/images/18570558-파인애플에이드-f0e2144032.jpg",
+      "imageHash": "f0e2144032dc79277ad51c539f4d681141e2953aca355412f1d2138bca881f56",
       "firstSeenAt": "2026-10-31T23:49:27.664Z",
-      "updatedAt": "2026-10-31T23:49:27.664Z"
+      "updatedAt": "2026-11-01T23:59:17.943Z"
     },
     "18570580": {
       "fingerprint": "ebf666aaacee67e61a10880a4b6b88df2785154692da0f164556dfb8378e1a9c",
@@ -2231,19 +2223,6 @@
     }
   },
   "runs": [
-    {
-      "at": "2026-10-10T00:22:08.798Z",
-      "summary": {
-        "total": 82,
-        "added": 0,
-        "changed": 2,
-        "unchanged": 80,
-        "removed": 0
-      },
-      "imageSummary": {
-        "skipped-existing-url": 82
-      }
-    },
     {
       "at": "2026-10-12T00:02:53.469Z",
       "summary": {
@@ -2497,7 +2476,22 @@
         "skipped-existing-url": 83,
         "downloaded": 5
       }
+    },
+    {
+      "at": "2026-11-01T23:59:17.943Z",
+      "summary": {
+        "total": 88,
+        "added": 0,
+        "changed": 5,
+        "unchanged": 83,
+        "removed": 0
+      },
+      "imageSummary": {
+        "downloaded": 2,
+        "skipped-existing-url": 85,
+        "skipped-existing-hash": 1
+      }
     }
   ],
-  "lastRunAt": "2026-10-31T23:49:27.664Z"
+  "lastRunAt": "2026-11-01T23:59:17.943Z"
 }

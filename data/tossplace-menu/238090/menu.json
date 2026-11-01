@@ -2,17 +2,18 @@
   "merchantId": 238090,
   "merchantName": "클루미 유니버스",
   "merchantStatus": "OPEN",
-  "fetchedAt": "2026-10-31T23:49:27.664Z",
+  "fetchedAt": "2026-11-01T23:59:17.943Z",
   "summary": {
     "total": 88,
-    "added": 4,
+    "added": 0,
     "changed": 5,
-    "unchanged": 79,
-    "removed": 1
+    "unchanged": 83,
+    "removed": 0
   },
   "imageSummary": {
-    "skipped-existing-url": 83,
-    "downloaded": 5
+    "downloaded": 2,
+    "skipped-existing-url": 85,
+    "skipped-existing-hash": 1
   },
   "checks": {
     "missingImages": [],
@@ -223,6 +224,26 @@
         ]
       },
       {
+        "imageHash": "f0e2144032dc79277ad51c539f4d681141e2953aca355412f1d2138bca881f56",
+        "imageLocalPath": "data/tossplace-menu/238090/images/18570558-파인애플에이드-f0e2144032.jpg",
+        "items": [
+          {
+            "id": 6979310,
+            "categoryTitle": "클루미 감정포션",
+            "title": "[클루미] 파인애플에이드",
+            "description": "파인애플 과육이 씹히는\n기분 좋은 달콤상큼 파인애플 에이드",
+            "imageLocalPath": "data/tossplace-menu/238090/images/18570558-파인애플에이드-f0e2144032.jpg"
+          },
+          {
+            "id": 18570558,
+            "categoryTitle": "에이드",
+            "title": "파인애플에이드",
+            "description": "파인애플 과육이 씹히는\n기분 좋은 달콤상큼 파인애플 에이드 ",
+            "imageLocalPath": "data/tossplace-menu/238090/images/18570558-파인애플에이드-f0e2144032.jpg"
+          }
+        ]
+      },
+      {
         "imageHash": "0e901cae56f3203dfd64e9f56931e92459d8d25ab2ba2345cac21466c26c1453",
         "imageLocalPath": "data/tossplace-menu/238090/images/18186313-블랙-다즐링-0e901cae56.jpg",
         "items": [
@@ -369,7 +390,7 @@
       "state": "ON_SALE",
       "priceValue": 6000,
       "priceTitle": "기본",
-      "imageUrl": "https://place-static.tossplace.com/public/live/PUBLIC/2026-02-15/ae758868-33f4-4ee7-96ae-db9f449a9b8f",
+      "imageUrl": "https://place-static.tossplace.com/public/live/PUBLIC/2026-11-01/bd06faad-a5cb-4ef1-91ba-0a4172fd9517",
       "labels": [
         "인기"
       ],
@@ -448,10 +469,10 @@
           ]
         }
       ],
-      "fingerprint": "0876cf8460c9e599f9f4a0579a805cff201faf89805b02c554f48cad32099ef3",
-      "imageLocalPath": "data/tossplace-menu/238090/images/10991140-내맘대로-브런치-Basic-waffle-f5ce2306c3.jpg",
-      "imageHash": "f5ce2306c30e2e6edb9de09ee6d4772aeaa99f3d9bdce0ad40fd05d4e4878f24",
-      "imageStatus": "skipped-existing-url"
+      "fingerprint": "ec80a17d95b2faad9b6a0143a486114f54029fa3b2c36c20922de5cf09e4515b",
+      "imageLocalPath": "data/tossplace-menu/238090/images/10991140-내맘대로-브런치-Basic-waffle-2bf91a2b67.jpg",
+      "imageHash": "2bf91a2b6763b0b5dc4eca2c2bc5134c704cdb27bcb9704fc4e44860f374f879",
+      "imageStatus": "downloaded"
     },
     {
       "id": 11075478,
@@ -1293,7 +1314,7 @@
       "titleEn": "Fig Cream Cheese Waffle",
       "description": "달콤한 무화과와 부드러운 크림치즈 무스, 피스타치오를 올린 바삭한 리에쥬 와플.",
       "descriptionEn": "A crisp Belgian Liège waffle topped with sweet fresh figs, smooth cream cheese mousse, pistachio crumble, and a drizzle of maple syrup.",
-      "state": "ON_SALE",
+      "state": "SOLD_OUT",
       "priceValue": 15000,
       "priceTitle": "기본",
       "imageUrl": "https://place-static.tossplace.com/public/live/PUBLIC/2026-09-26/4bdb0d99-3ad9-4bf2-9cd9-9714d90cb099",
@@ -1343,7 +1364,7 @@
           ]
         }
       ],
-      "fingerprint": "30889dcc46246ce43db3975c123ea554fd91650b02ed6262a2506f927b1c98d1",
+      "fingerprint": "b51b32e5f7a1522c0b655719392d547c5b6e27e133978f336613fed12b824ed8",
       "imageLocalPath": "data/tossplace-menu/238090/images/16230479-시즌한정-무화과-크림치즈-와플-86ba9a15c7.jpg",
       "imageHash": "86ba9a15c7dfd9f8d97086281499444715fe62d2c3207f639cdb6ba7f9798225",
       "imageStatus": "skipped-existing-url"
@@ -3176,15 +3197,15 @@
       "state": "ON_SALE",
       "priceValue": 6000,
       "priceTitle": "기본",
-      "imageUrl": "https://place-static.tossplace.com/public/live/PUBLIC/2026-01-30/92e3c5f0-ef45-40cd-b1a3-c713c5addadc",
+      "imageUrl": "https://place-static.tossplace.com/public/live/PUBLIC/2026-11-01/c0402758-2351-4eb8-a061-29561b8709e6",
       "labels": [
         "인기"
       ],
       "optionSets": [],
-      "fingerprint": "1e9b656c170f7876eb9bf47f76cf3ad42fa68ac6cbc543eafeb240158c34bec0",
-      "imageLocalPath": "data/tossplace-menu/238090/images/6979310-클루미-파인애플에이드-9fd7b723cb.jpg",
-      "imageHash": "9fd7b723cbb896b351f61c35fef6514c7c41f08a192e23b945468d8c99aaea40",
-      "imageStatus": "skipped-existing-url"
+      "fingerprint": "48acd8aa26da5184ff84283154167c0d4f84d0049a78e5c1fd1ed031b8bc015a",
+      "imageLocalPath": "data/tossplace-menu/238090/images/18570558-파인애플에이드-f0e2144032.jpg",
+      "imageHash": "f0e2144032dc79277ad51c539f4d681141e2953aca355412f1d2138bca881f56",
+      "imageStatus": "skipped-existing-hash"
     },
     {
       "id": 6979343,
@@ -3502,7 +3523,7 @@
       "fingerprint": "debda4411c826b9a6240c3e7a1c75b284ac7514a9603ae52fa9808fdcf36522c",
       "imageLocalPath": "data/tossplace-menu/238090/images/6986485-플래미-노을에이드-4e700db524.jpg",
       "imageHash": "4e700db5243974426a6de65826fc3a218dbe85a3152c4b9952254c6971712593",
-      "imageStatus": "downloaded"
+      "imageStatus": "skipped-existing-url"
     },
     {
       "id": 7628072,
@@ -3862,7 +3883,7 @@
       "titleEn": "FIG&Cream Cheese Waffle",
       "description": "달콤한 무화과와 부드러운 크림치즈 무스, 피스타치오를 올린 바삭한 리에쥬 와플.",
       "descriptionEn": "A crisp Belgian Liège waffle topped with sweet fresh figs, smooth cream cheese mousse, pistachio crumble, and a drizzle of maple syrup.",
-      "state": "ON_SALE",
+      "state": "SOLD_OUT",
       "priceValue": 15000,
       "priceTitle": "기본",
       "imageUrl": "https://place-static.tossplace.com/public/live/PUBLIC/2026-09-26/cea32c70-fe60-4031-82fa-825dfd717a11",
@@ -3912,7 +3933,7 @@
           ]
         }
       ],
-      "fingerprint": "93a12d1415f9a1c38956f6d7b98f09d1175f5e29711f208eb39003f4eca344b8",
+      "fingerprint": "1b162fcb549c95a130f9920a07f3631cf3e395e5949aa601083537debd6972db",
       "imageLocalPath": "data/tossplace-menu/238090/images/16230479-시즌한정-무화과-크림치즈-와플-86ba9a15c7.jpg",
       "imageHash": "86ba9a15c7dfd9f8d97086281499444715fe62d2c3207f639cdb6ba7f9798225",
       "imageStatus": "skipped-existing-url"
@@ -5150,7 +5171,7 @@
       "fingerprint": "2febf0d9a6d9022eae20250b063c015e9bc2900185ef580eda179d3f33318288",
       "imageLocalPath": "data/tossplace-menu/238090/images/10114893-아이스크림-브라우니-1ca4423910.jpg",
       "imageHash": "1ca44239101ed59b00b661edae8ae559877d2fd56061b9d0dfac41f712a4eedb",
-      "imageStatus": "downloaded"
+      "imageStatus": "skipped-existing-url"
     },
     {
       "id": 10652155,
@@ -5843,12 +5864,12 @@
       "state": "ON_SALE",
       "priceValue": 6500,
       "priceTitle": "기본",
-      "imageUrl": "https://place-static.tossplace.com/public/live/PUBLIC/2026-10-31/007baec9-7e3d-4294-9d91-114c5db86b22",
+      "imageUrl": "https://place-static.tossplace.com/public/live/PUBLIC/2026-11-01/a2b1554e-1fa6-427c-bd5f-61dccd9c8ad3",
       "labels": [],
       "optionSets": [],
-      "fingerprint": "a1eb00c66ef853f88365d3eb9ddc8e59a9a127adc65d57871c78117639b15ae2",
-      "imageLocalPath": "data/tossplace-menu/238090/images/18570558-파인애플에이드-d7e5443560.jpg",
-      "imageHash": "d7e5443560372f9fb996bab16c869fe8123a2edd78ff32b4958bb4677a2d70c2",
+      "fingerprint": "aa4d4caca312ad5d97b79f8d3b9a2eb844b03975aba0f3de238e185e9edc6d77",
+      "imageLocalPath": "data/tossplace-menu/238090/images/18570558-파인애플에이드-f0e2144032.jpg",
+      "imageHash": "f0e2144032dc79277ad51c539f4d681141e2953aca355412f1d2138bca881f56",
       "imageStatus": "downloaded"
     },
     {
@@ -5870,7 +5891,7 @@
       "fingerprint": "ebf666aaacee67e61a10880a4b6b88df2785154692da0f164556dfb8378e1a9c",
       "imageLocalPath": "data/tossplace-menu/238090/images/18570580-블루레몬에이드-0dc510dffd.jpg",
       "imageHash": "0dc510dffdcac925deb4550bf3403108776e3bc69ea0505e4f402b05207a60ac",
-      "imageStatus": "downloaded"
+      "imageStatus": "skipped-existing-url"
     },
     {
       "id": 18570601,
@@ -5891,7 +5912,7 @@
       "fingerprint": "dbef16e8fa2678265b2ec3251a81bede15e44f22019d9fc357082afca525ebd0",
       "imageLocalPath": "data/tossplace-menu/238090/images/18570601-노을에이드-e9682c37fa.jpg",
       "imageHash": "e9682c37faad7633098c41771e8f93d5311ac760819c941ae14d82b2330c62eb",
-      "imageStatus": "downloaded"
+      "imageStatus": "skipped-existing-url"
     },
     {
       "id": 7411040,

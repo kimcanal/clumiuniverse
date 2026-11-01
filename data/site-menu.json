@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-31T23:49:27.664Z",
+  "generatedAt": "2026-11-01T23:59:17.943Z",
   "merchantId": 238090,
   "items": [
     {
@@ -12,7 +12,7 @@
       "labels": [
         "인기"
       ],
-      "imageLocalPath": "data/tossplace-menu/238090/images/10991140-내맘대로-브런치-Basic-waffle-f5ce2306c3.webp"
+      "imageLocalPath": "data/tossplace-menu/238090/images/10991140-내맘대로-브런치-Basic-waffle-2bf91a2b67.webp"
     },
     {
       "id": 11075478,
@@ -86,7 +86,7 @@
       "categoryTitleEn": "BEST",
       "title": "무화과 크림치즈 와플",
       "description": "달콤한 무화과와 부드러운 크림치즈 무스, 피스타치오를 올린 바삭한 리에쥬 와플.",
-      "state": "ON_SALE",
+      "state": "SOLD_OUT",
       "labels": [
         "인기"
       ],
@@ -306,7 +306,7 @@
       "labels": [
         "인기"
       ],
-      "imageLocalPath": "data/tossplace-menu/238090/images/6979310-클루미-파인애플에이드-9fd7b723cb.webp"
+      "imageLocalPath": "data/tossplace-menu/238090/images/18570558-파인애플에이드-f0e2144032.webp"
     },
     {
       "id": 6979343,
@@ -442,7 +442,7 @@
       "categoryTitleEn": "Belgium Waffle",
       "title": "[시즌한정]무화과&크림치즈 와플",
       "description": "달콤한 무화과와 부드러운 크림치즈 무스, 피스타치오를 올린 바삭한 리에쥬 와플.",
-      "state": "ON_SALE",
+      "state": "SOLD_OUT",
       "labels": [
         "인기"
       ],
@@ -806,7 +806,7 @@
       "description": "파인애플 과육이 씹히는\n기분 좋은 달콤상큼 파인애플 에이드 ",
       "state": "ON_SALE",
       "labels": [],
-      "imageLocalPath": "data/tossplace-menu/238090/images/18570558-파인애플에이드-d7e5443560.webp"
+      "imageLocalPath": "data/tossplace-menu/238090/images/18570558-파인애플에이드-f0e2144032.webp"
     },
     {
       "id": 18570580,
