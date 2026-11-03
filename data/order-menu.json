@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-01T23:59:17.943Z",
+  "generatedAt": "2026-11-03T02:42:08.378Z",
   "merchantId": 238090,
   "items": [
     {
@@ -876,7 +876,7 @@
       "descriptionEn": "A crisp Belgian Liège waffle topped with sweet fresh figs, smooth cream cheese mousse, pistachio crumble, and a drizzle of maple syrup.",
       "priceValue": 15000,
       "priceTitle": "기본",
-      "available": false,
+      "available": true,
       "labels": [
         "인기"
       ],
@@ -3247,7 +3247,7 @@
       "descriptionEn": "A crisp Belgian Liège waffle topped with sweet fresh figs, smooth cream cheese mousse, pistachio crumble, and a drizzle of maple syrup.",
       "priceValue": 15000,
       "priceTitle": "기본",
-      "available": false,
+      "available": true,
       "labels": [
         "인기"
       ],
@@ -4904,6 +4904,30 @@
       "labels": [],
       "optionSets": [
         {
+          "id": 294937,
+          "title": "온도",
+          "titleEn": "temperature",
+          "required": true,
+          "minChoices": 1,
+          "maxChoices": 1,
+          "choices": [
+            {
+              "id": 897956,
+              "title": "따뜻하게",
+              "titleEn": "HOT",
+              "priceValue": 0,
+              "available": true
+            },
+            {
+              "id": 897957,
+              "title": "차갑게",
+              "titleEn": "ICE ",
+              "priceValue": 0,
+              "available": true
+            }
+          ]
+        },
+        {
           "id": 607017,
           "title": "홍차 옵션",
           "titleEn": "Tea Options",
@@ -4943,6 +4967,30 @@
       "available": true,
       "labels": [],
       "optionSets": [
+        {
+          "id": 294937,
+          "title": "온도",
+          "titleEn": "temperature",
+          "required": true,
+          "minChoices": 1,
+          "maxChoices": 1,
+          "choices": [
+            {
+              "id": 897956,
+              "title": "따뜻하게",
+              "titleEn": "HOT",
+              "priceValue": 0,
+              "available": true
+            },
+            {
+              "id": 897957,
+              "title": "차갑게",
+              "titleEn": "ICE ",
+              "priceValue": 0,
+              "available": true
+            }
+          ]
+        },
         {
           "id": 607017,
           "title": "홍차 옵션",
