@@ -1462,14 +1462,14 @@
       "updatedAt": "2026-10-28T00:06:55.842Z"
     },
     "6979257": {
-      "fingerprint": "3a1e46e3ff5bd8fc86d2eaef610d1dd7a32b1602d86d91f496dbf66458ebda0f",
+      "fingerprint": "91603c601b318322a004dc806ce9dbd7c4811fd5efeaf82721dfe39ee6edfdf5",
       "title": "레몬석양",
       "description": "히비스커스가 그린 아름다운 바닷가 석양을 담은 수색에 레모니한 상큼함과 달콤한의 조화 한 잔",
       "imageUrl": "https://place-static.tossplace.com/public/live/PUBLIC/2025-08-23/fbe2749f-9fc9-42ad-a239-6b1acd44b140",
       "imageLocalPath": "data/tossplace-menu/238090/images/6979257-레몬석양-5fbcf385df.jpg",
       "imageHash": "5fbcf385df583b5e3e36125b1434352ff4604b916e4025ea0d8c4985e84af9ec",
       "firstSeenAt": "2026-07-21T04:15:20.254Z",
-      "updatedAt": "2026-10-19T23:59:13.704Z"
+      "updatedAt": "2026-11-05T01:07:07.615Z"
     },
     "6979310": {
       "fingerprint": "48acd8aa26da5184ff84283154167c0d4f84d0049a78e5c1fd1ed031b8bc015a",
@@ -2224,20 +2224,6 @@
   },
   "runs": [
     {
-      "at": "2026-10-13T02:17:05.884Z",
-      "summary": {
-        "total": 83,
-        "added": 2,
-        "changed": 6,
-        "unchanged": 75,
-        "removed": 0
-      },
-      "imageSummary": {
-        "skipped-existing-url": 81,
-        "downloaded": 2
-      }
-    },
-    {
       "at": "2026-10-14T00:00:00.132Z",
       "summary": {
         "total": 83,
@@ -2491,7 +2477,20 @@
       "imageSummary": {
         "skipped-existing-url": 88
       }
+    },
+    {
+      "at": "2026-11-05T01:07:07.615Z",
+      "summary": {
+        "total": 88,
+        "added": 0,
+        "changed": 1,
+        "unchanged": 87,
+        "removed": 0
+      },
+      "imageSummary": {
+        "skipped-existing-url": 88
+      }
     }
   ],
-  "lastRunAt": "2026-11-03T02:42:08.378Z"
+  "lastRunAt": "2026-11-05T01:07:07.615Z"
 }

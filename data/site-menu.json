@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-03T02:42:08.378Z",
+  "generatedAt": "2026-11-05T01:07:07.615Z",
   "merchantId": 238090,
   "items": [
     {
@@ -688,7 +688,7 @@
       "categoryTitleEn": "Tea",
       "title": "레몬석양",
       "description": "히비스커스가 그린 아름다운 바닷가 석양을 담은 수색에 레모니한 상큼함과 달콤한의 조화 한 잔",
-      "state": "SOLD_OUT",
+      "state": "ON_SALE",
       "labels": [],
       "imageLocalPath": "data/tossplace-menu/238090/images/6979257-레몬석양-5fbcf385df.webp"
     },

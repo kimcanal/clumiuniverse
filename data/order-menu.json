@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-03T02:42:08.378Z",
+  "generatedAt": "2026-11-05T01:07:07.615Z",
   "merchantId": 238090,
   "items": [
     {
@@ -4625,7 +4625,7 @@
       "descriptionEn": "A drink of lemoni freshness and sweet harmony in the search for the beautiful beach sunset painted by Hibiscus",
       "priceValue": 6500,
       "priceTitle": "기본",
-      "available": false,
+      "available": true,
       "labels": [],
       "optionSets": [
         {

@@ -2,12 +2,12 @@
   "merchantId": 238090,
   "merchantName": "클루미 유니버스",
   "merchantStatus": "OPEN",
-  "fetchedAt": "2026-11-03T02:42:08.378Z",
+  "fetchedAt": "2026-11-05T01:07:07.615Z",
   "summary": {
     "total": 88,
     "added": 0,
-    "changed": 4,
-    "unchanged": 84,
+    "changed": 1,
+    "unchanged": 87,
     "removed": 0
   },
   "imageSummary": {
@@ -5391,7 +5391,7 @@
       "titleEn": "Lemon Sunset",
       "description": "히비스커스가 그린 아름다운 바닷가 석양을 담은 수색에 레모니한 상큼함과 달콤한의 조화 한 잔",
       "descriptionEn": "A drink of lemoni freshness and sweet harmony in the search for the beautiful beach sunset painted by Hibiscus",
-      "state": "SOLD_OUT",
+      "state": "ON_SALE",
       "priceValue": 6500,
       "priceTitle": "기본",
       "imageUrl": "https://place-static.tossplace.com/public/live/PUBLIC/2025-08-23/fbe2749f-9fc9-42ad-a239-6b1acd44b140",
@@ -5422,7 +5422,7 @@
           ]
         }
       ],
-      "fingerprint": "3a1e46e3ff5bd8fc86d2eaef610d1dd7a32b1602d86d91f496dbf66458ebda0f",
+      "fingerprint": "91603c601b318322a004dc806ce9dbd7c4811fd5efeaf82721dfe39ee6edfdf5",
       "imageLocalPath": "data/tossplace-menu/238090/images/6979257-레몬석양-5fbcf385df.jpg",
       "imageHash": "5fbcf385df583b5e3e36125b1434352ff4604b916e4025ea0d8c4985e84af9ec",
       "imageStatus": "skipped-existing-url"
