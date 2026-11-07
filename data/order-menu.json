@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-05T01:07:07.615Z",
+  "generatedAt": "2026-11-07T00:27:43.728Z",
   "merchantId": 238090,
   "items": [
     {
@@ -2627,6 +2627,23 @@
       "imageLocalPath": "data/tossplace-menu/238090/images/16508079-카페라떼-2e771f0a3b.webp"
     },
     {
+      "id": 18536961,
+      "categoryTitle": "커피",
+      "categoryTitleEn": "Coffee",
+      "title": "[시즌한정] 블랙 글레이즈드 라떼",
+      "titleEn": "Black Glazed Latte",
+      "description": "진한 에스프레소와 달콤한 카라멜 우유 위에 부드러운 글레이즈드 크림을 올린 시그니처 라떼.",
+      "descriptionEn": "A signature latte made with rich espresso and sweet caramel milk, topped with smooth and sweet glazed cream.",
+      "priceValue": 7500,
+      "priceTitle": "기본",
+      "available": true,
+      "labels": [
+        "신규"
+      ],
+      "optionSets": [],
+      "imageLocalPath": "data/tossplace-menu/238090/images/18536961-시즌한정-블랙-글레이즈드-라떼-805c7e68a8.webp"
+    },
+    {
       "id": 6979310,
       "categoryTitle": "클루미 감정포션",
       "categoryTitleEn": "CLUMI Emotion Potion",
@@ -3170,6 +3187,23 @@
         }
       ],
       "imageLocalPath": "data/tossplace-menu/238090/images/6978874-우유-b842270d61.webp"
+    },
+    {
+      "id": 18537002,
+      "categoryTitle": "논커피",
+      "categoryTitleEn": "Non Coffee",
+      "title": "[시즌한정] 호지 글레이즈드 라떼",
+      "titleEn": "Hoji Glazed Latte ",
+      "description": "깊고 구수한 호지차 라떼에 달콤하고 부드러운 글레이즈드 크림을 더한 고소한 풍미의 라떼.",
+      "descriptionEn": "A rich and nutty hojicha latte topped with smooth, sweet glazed cream for a perfectly balanced roasted flavor.",
+      "priceValue": 7500,
+      "priceTitle": "기본",
+      "available": true,
+      "labels": [
+        "인기"
+      ],
+      "optionSets": [],
+      "imageLocalPath": "data/tossplace-menu/238090/images/18537002-시즌한정-호지-글레이즈드-라떼-b313b9a689.webp"
     },
     {
       "id": 13137641,
@@ -4405,7 +4439,7 @@
       "descriptionEn": "Chocolate-coated cake with roasted hazelnuts and rich chocolate flavor.",
       "priceValue": 10900,
       "priceTitle": "기본",
-      "available": true,
+      "available": false,
       "labels": [
         "인기"
       ],

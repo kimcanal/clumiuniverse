@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-05T01:07:07.615Z",
+  "generatedAt": "2026-11-07T00:27:43.728Z",
   "merchantId": 238090,
   "items": [
     {
@@ -297,6 +297,18 @@
       "imageLocalPath": "data/tossplace-menu/238090/images/16508079-카페라떼-2e771f0a3b.webp"
     },
     {
+      "id": 18536961,
+      "categoryTitle": "커피",
+      "categoryTitleEn": "Coffee",
+      "title": "[시즌한정] 블랙 글레이즈드 라떼",
+      "description": "진한 에스프레소와 달콤한 카라멜 우유 위에 부드러운 글레이즈드 크림을 올린 시그니처 라떼.",
+      "state": "ON_SALE",
+      "labels": [
+        "신규"
+      ],
+      "imageLocalPath": "data/tossplace-menu/238090/images/18536961-시즌한정-블랙-글레이즈드-라떼-805c7e68a8.webp"
+    },
+    {
       "id": 6979310,
       "categoryTitle": "클루미 감정포션",
       "categoryTitleEn": "CLUMI Emotion Potion",
@@ -423,6 +435,18 @@
       "state": "ON_SALE",
       "labels": [],
       "imageLocalPath": "data/tossplace-menu/238090/images/6978874-우유-b842270d61.webp"
+    },
+    {
+      "id": 18537002,
+      "categoryTitle": "논커피",
+      "categoryTitleEn": "Non Coffee",
+      "title": "[시즌한정] 호지 글레이즈드 라떼",
+      "description": "깊고 구수한 호지차 라떼에 달콤하고 부드러운 글레이즈드 크림을 더한 고소한 풍미의 라떼.",
+      "state": "ON_SALE",
+      "labels": [
+        "인기"
+      ],
+      "imageLocalPath": "data/tossplace-menu/238090/images/18537002-시즌한정-호지-글레이즈드-라떼-b313b9a689.webp"
     },
     {
       "id": 13137641,
@@ -588,7 +612,7 @@
       "categoryTitleEn": "Dessert",
       "title": "초콜릿로쉐케익",
       "description": "부드러운 스페인산 고급 초콜릿 위에 고소하게 구운 헤이즐넛을 올려\n한 입 베어 물면 진한 초콜릿 풍미가 가득 퍼지는 케이크",
-      "state": "ON_SALE",
+      "state": "SOLD_OUT",
       "labels": [
         "인기"
       ],
