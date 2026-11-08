@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-07T00:27:43.728Z",
+  "generatedAt": "2026-11-08T00:02:22.534Z",
   "merchantId": 238090,
   "items": [
     {
@@ -612,23 +612,11 @@
       "categoryTitleEn": "Dessert",
       "title": "초콜릿로쉐케익",
       "description": "부드러운 스페인산 고급 초콜릿 위에 고소하게 구운 헤이즐넛을 올려\n한 입 베어 물면 진한 초콜릿 풍미가 가득 퍼지는 케이크",
-      "state": "SOLD_OUT",
+      "state": "ON_SALE",
       "labels": [
         "인기"
       ],
       "imageLocalPath": "data/tossplace-menu/238090/images/10192464-초콜릿로쉐케익-52fe1dcc82.webp"
-    },
-    {
-      "id": 10114893,
-      "categoryTitle": "디저트",
-      "categoryTitleEn": "Dessert",
-      "title": "아이스크림 브라우니",
-      "description": "진한 초콜릿 브라우니 위에\n부드러운 바닐라 아이스크림을 올렸어요.\n따뜻함과 차가움이 만나 한 입만으로도 충분히 행복해지는 디저트.",
-      "state": "SOLD_OUT",
-      "labels": [
-        "인기"
-      ],
-      "imageLocalPath": "data/tossplace-menu/238090/images/10114893-아이스크림-브라우니-1ca4423910.webp"
     },
     {
       "id": 10652155,

@@ -2,17 +2,16 @@
   "merchantId": 238090,
   "merchantName": "클루미 유니버스",
   "merchantStatus": "OPEN",
-  "fetchedAt": "2026-11-07T00:27:43.728Z",
+  "fetchedAt": "2026-11-08T00:02:22.534Z",
   "summary": {
-    "total": 90,
-    "added": 2,
-    "changed": 1,
+    "total": 89,
+    "added": 0,
+    "changed": 2,
     "unchanged": 87,
-    "removed": 0
+    "removed": 1
   },
   "imageSummary": {
-    "skipped-existing-url": 88,
-    "downloaded": 2
+    "skipped-existing-url": 89
   },
   "checks": {
     "missingImages": [],
@@ -3200,11 +3199,43 @@
       "labels": [
         "신규"
       ],
-      "optionSets": [],
-      "fingerprint": "4e105e9322a98e7efb2035613d0102e16bcdc81a13337f598da8e27d0d497a12",
+      "optionSets": [
+        {
+          "id": 296010,
+          "title": "원두 선택",
+          "titleEn": "beans",
+          "required": true,
+          "minChoices": 1,
+          "maxChoices": 1,
+          "choices": [
+            {
+              "id": 901204,
+              "title": "고소한 원두",
+              "titleEn": "savory beans",
+              "priceValue": 0,
+              "state": "ON_SALE"
+            },
+            {
+              "id": 901205,
+              "title": "산미있는 원두",
+              "titleEn": "acidity beans",
+              "priceValue": 0,
+              "state": "ON_SALE"
+            },
+            {
+              "id": 901206,
+              "title": "디카페인 원두",
+              "titleEn": "decaffeine",
+              "priceValue": 500,
+              "state": "ON_SALE"
+            }
+          ]
+        }
+      ],
+      "fingerprint": "66b4748a6490c8979606737f55ef445b8add1f069064a1219c7668f276039143",
       "imageLocalPath": "data/tossplace-menu/238090/images/18536961-시즌한정-블랙-글레이즈드-라떼-805c7e68a8.jpg",
       "imageHash": "805c7e68a8680449dee277e56446cd930344f5d18c7f6603658dc71941fa5364",
-      "imageStatus": "downloaded"
+      "imageStatus": "skipped-existing-url"
     },
     {
       "id": 6979310,
@@ -3844,7 +3875,7 @@
       "fingerprint": "256c33f1ee524a120f7fd928eea8d77c135288ce4250aafd8c974e19b7c30b04",
       "imageLocalPath": "data/tossplace-menu/238090/images/18537002-시즌한정-호지-글레이즈드-라떼-b313b9a689.jpg",
       "imageHash": "b313b9a689d0c983534a01f627be6e7de82c50d1b6172e3a9f0704e870010719",
-      "imageStatus": "downloaded"
+      "imageStatus": "skipped-existing-url"
     },
     {
       "id": 13137641,
@@ -5164,7 +5195,7 @@
       "titleEn": "Chocolate Roche Cake",
       "description": "부드러운 스페인산 고급 초콜릿 위에 고소하게 구운 헤이즐넛을 올려\n한 입 베어 물면 진한 초콜릿 풍미가 가득 퍼지는 케이크",
       "descriptionEn": "Chocolate-coated cake with roasted hazelnuts and rich chocolate flavor.",
-      "state": "SOLD_OUT",
+      "state": "ON_SALE",
       "priceValue": 10900,
       "priceTitle": "기본",
       "imageUrl": "https://place-static.tossplace.com/public/live/PUBLIC/2026-05-12/643d509d-6f8f-4186-a5ba-28c4839cc761",
@@ -5190,32 +5221,9 @@
           ]
         }
       ],
-      "fingerprint": "cd8e9b4f2157263db12aa960f37d4561990a1f1d6254b1fe381051b34d8d50d6",
+      "fingerprint": "cd65ec7707ff0a4eed5f0e599d14e98080b709f368b6c48bab968e2da7e2dfd7",
       "imageLocalPath": "data/tossplace-menu/238090/images/10192464-초콜릿로쉐케익-52fe1dcc82.jpg",
       "imageHash": "52fe1dcc82b800fd1494dbfa9cf12ca59474a0af9d602087499a9d4e9a1ce6fe",
-      "imageStatus": "skipped-existing-url"
-    },
-    {
-      "id": 10114893,
-      "categoryId": 985967,
-      "categoryTitle": "디저트",
-      "categoryTitleEn": "Dessert",
-      "position": 7,
-      "title": "아이스크림 브라우니",
-      "titleEn": "Ice cream Brownie",
-      "description": "진한 초콜릿 브라우니 위에\n부드러운 바닐라 아이스크림을 올렸어요.\n따뜻함과 차가움이 만나 한 입만으로도 충분히 행복해지는 디저트.",
-      "descriptionEn": "A rich chocolate brownie topped with smooth vanilla ice cream.\nWarm and cold in perfect balance one bite is all it takes to fall in love.",
-      "state": "SOLD_OUT",
-      "priceValue": 10900,
-      "priceTitle": "기본",
-      "imageUrl": "https://place-static.tossplace.com/public/live/PUBLIC/2026-04-09/9165e0e1-a2fd-4131-a4c7-52ef45eaec7a",
-      "labels": [
-        "인기"
-      ],
-      "optionSets": [],
-      "fingerprint": "2febf0d9a6d9022eae20250b063c015e9bc2900185ef580eda179d3f33318288",
-      "imageLocalPath": "data/tossplace-menu/238090/images/10114893-아이스크림-브라우니-1ca4423910.jpg",
-      "imageHash": "1ca44239101ed59b00b661edae8ae559877d2fd56061b9d0dfac41f712a4eedb",
       "imageStatus": "skipped-existing-url"
     },
     {

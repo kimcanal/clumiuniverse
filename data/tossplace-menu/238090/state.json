@@ -665,14 +665,6 @@
       "sourceUrl": "https://place-static.tossplace.com/public/live/PUBLIC/2026-10-31/2f833f89-c5cc-43a8-9463-f104baef3509",
       "updatedAt": "2026-10-31T23:49:27.620Z"
     },
-    "https://place-static.tossplace.com/public/live/PUBLIC/2026-04-09/9165e0e1-a2fd-4131-a4c7-52ef45eaec7a": {
-      "localPath": "data/tossplace-menu/238090/images/10114893-아이스크림-브라우니-1ca4423910.jpg",
-      "hash": "1ca44239101ed59b00b661edae8ae559877d2fd56061b9d0dfac41f712a4eedb",
-      "itemId": 10114893,
-      "title": "아이스크림 브라우니",
-      "sourceUrl": "https://place-static.tossplace.com/public/live/PUBLIC/2026-04-09/9165e0e1-a2fd-4131-a4c7-52ef45eaec7a",
-      "updatedAt": "2026-10-31T23:49:27.620Z"
-    },
     "https://place-static.tossplace.com/public/live/PUBLIC/2026-10-31/de82e3c6-8966-4559-9479-0f21a9b8e2c9": {
       "localPath": "data/tossplace-menu/238090/images/18570601-노을에이드-e9682c37fa.jpg",
       "hash": "e9682c37faad7633098c41771e8f93d5311ac760819c941ae14d82b2330c62eb",
@@ -1323,14 +1315,6 @@
       "sourceUrl": "https://place-static.tossplace.com/public/live/PUBLIC/2026-10-31/2f833f89-c5cc-43a8-9463-f104baef3509",
       "updatedAt": "2026-10-31T23:49:27.620Z"
     },
-    "1ca44239101ed59b00b661edae8ae559877d2fd56061b9d0dfac41f712a4eedb": {
-      "localPath": "data/tossplace-menu/238090/images/10114893-아이스크림-브라우니-1ca4423910.jpg",
-      "hash": "1ca44239101ed59b00b661edae8ae559877d2fd56061b9d0dfac41f712a4eedb",
-      "itemId": 10114893,
-      "title": "아이스크림 브라우니",
-      "sourceUrl": "https://place-static.tossplace.com/public/live/PUBLIC/2026-04-09/9165e0e1-a2fd-4131-a4c7-52ef45eaec7a",
-      "updatedAt": "2026-10-31T23:49:27.620Z"
-    },
     "e9682c37faad7633098c41771e8f93d5311ac760819c941ae14d82b2330c62eb": {
       "localPath": "data/tossplace-menu/238090/images/18570601-노을에이드-e9682c37fa.jpg",
       "hash": "e9682c37faad7633098c41771e8f93d5311ac760819c941ae14d82b2330c62eb",
@@ -1893,25 +1877,15 @@
       "firstSeenAt": "2026-10-31T00:12:39.869Z",
       "updatedAt": "2026-10-31T00:12:39.869Z"
     },
-    "10114893": {
-      "fingerprint": "2febf0d9a6d9022eae20250b063c015e9bc2900185ef580eda179d3f33318288",
-      "title": "아이스크림 브라우니",
-      "description": "진한 초콜릿 브라우니 위에\n부드러운 바닐라 아이스크림을 올렸어요.\n따뜻함과 차가움이 만나 한 입만으로도 충분히 행복해지는 디저트.",
-      "imageUrl": "https://place-static.tossplace.com/public/live/PUBLIC/2026-04-09/9165e0e1-a2fd-4131-a4c7-52ef45eaec7a",
-      "imageLocalPath": "data/tossplace-menu/238090/images/10114893-아이스크림-브라우니-1ca4423910.jpg",
-      "imageHash": "1ca44239101ed59b00b661edae8ae559877d2fd56061b9d0dfac41f712a4eedb",
-      "firstSeenAt": "2026-10-31T23:49:27.664Z",
-      "updatedAt": "2026-10-31T23:49:27.664Z"
-    },
     "10192464": {
-      "fingerprint": "cd8e9b4f2157263db12aa960f37d4561990a1f1d6254b1fe381051b34d8d50d6",
+      "fingerprint": "cd65ec7707ff0a4eed5f0e599d14e98080b709f368b6c48bab968e2da7e2dfd7",
       "title": "초콜릿로쉐케익",
       "description": "부드러운 스페인산 고급 초콜릿 위에 고소하게 구운 헤이즐넛을 올려\n한 입 베어 물면 진한 초콜릿 풍미가 가득 퍼지는 케이크",
       "imageUrl": "https://place-static.tossplace.com/public/live/PUBLIC/2026-05-12/643d509d-6f8f-4186-a5ba-28c4839cc761",
       "imageLocalPath": "data/tossplace-menu/238090/images/10192464-초콜릿로쉐케익-52fe1dcc82.jpg",
       "imageHash": "52fe1dcc82b800fd1494dbfa9cf12ca59474a0af9d602087499a9d4e9a1ce6fe",
       "firstSeenAt": "2026-10-17T22:44:10.583Z",
-      "updatedAt": "2026-11-07T00:27:43.728Z"
+      "updatedAt": "2026-11-08T00:02:22.534Z"
     },
     "10197088": {
       "fingerprint": "2871ebbbaaa3ed5df90b7cac8b304c30b9c7be24516d002807fa87f6cc9bcb26",
@@ -2224,14 +2198,14 @@
       "updatedAt": "2026-11-03T02:42:08.378Z"
     },
     "18536961": {
-      "fingerprint": "4e105e9322a98e7efb2035613d0102e16bcdc81a13337f598da8e27d0d497a12",
+      "fingerprint": "66b4748a6490c8979606737f55ef445b8add1f069064a1219c7668f276039143",
       "title": "[시즌한정] 블랙 글레이즈드 라떼",
       "description": "진한 에스프레소와 달콤한 카라멜 우유 위에 부드러운 글레이즈드 크림을 올린 시그니처 라떼.",
       "imageUrl": "https://place-static.tossplace.com/public/live/PUBLIC/2026-11-06/eca63fa9-a860-4a21-9e44-1a50716a1562",
       "imageLocalPath": "data/tossplace-menu/238090/images/18536961-시즌한정-블랙-글레이즈드-라떼-805c7e68a8.jpg",
       "imageHash": "805c7e68a8680449dee277e56446cd930344f5d18c7f6603658dc71941fa5364",
       "firstSeenAt": "2026-11-07T00:27:43.728Z",
-      "updatedAt": "2026-11-07T00:27:43.728Z"
+      "updatedAt": "2026-11-08T00:02:22.534Z"
     },
     "18537002": {
       "fingerprint": "256c33f1ee524a120f7fd928eea8d77c135288ce4250aafd8c974e19b7c30b04",
@@ -2275,19 +2249,6 @@
     }
   },
   "runs": [
-    {
-      "at": "2026-10-14T23:30:59.385Z",
-      "summary": {
-        "total": 83,
-        "added": 0,
-        "changed": 2,
-        "unchanged": 81,
-        "removed": 0
-      },
-      "imageSummary": {
-        "skipped-existing-url": 83
-      }
-    },
     {
       "at": "2026-10-15T23:21:26.283Z",
       "summary": {
@@ -2543,7 +2504,20 @@
         "skipped-existing-url": 88,
         "downloaded": 2
       }
+    },
+    {
+      "at": "2026-11-08T00:02:22.534Z",
+      "summary": {
+        "total": 89,
+        "added": 0,
+        "changed": 2,
+        "unchanged": 87,
+        "removed": 1
+      },
+      "imageSummary": {
+        "skipped-existing-url": 89
+      }
     }
   ],
-  "lastRunAt": "2026-11-07T00:27:43.728Z"
+  "lastRunAt": "2026-11-08T00:02:22.534Z"
 }

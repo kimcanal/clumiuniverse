@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-07T00:27:43.728Z",
+  "generatedAt": "2026-11-08T00:02:22.534Z",
   "merchantId": 238090,
   "items": [
     {
@@ -2640,7 +2640,39 @@
       "labels": [
         "신규"
       ],
-      "optionSets": [],
+      "optionSets": [
+        {
+          "id": 296010,
+          "title": "원두 선택",
+          "titleEn": "beans",
+          "required": true,
+          "minChoices": 1,
+          "maxChoices": 1,
+          "choices": [
+            {
+              "id": 901204,
+              "title": "고소한 원두",
+              "titleEn": "savory beans",
+              "priceValue": 0,
+              "available": true
+            },
+            {
+              "id": 901205,
+              "title": "산미있는 원두",
+              "titleEn": "acidity beans",
+              "priceValue": 0,
+              "available": true
+            },
+            {
+              "id": 901206,
+              "title": "디카페인 원두",
+              "titleEn": "decaffeine",
+              "priceValue": 500,
+              "available": true
+            }
+          ]
+        }
+      ],
       "imageLocalPath": "data/tossplace-menu/238090/images/18536961-시즌한정-블랙-글레이즈드-라떼-805c7e68a8.webp"
     },
     {
@@ -4439,7 +4471,7 @@
       "descriptionEn": "Chocolate-coated cake with roasted hazelnuts and rich chocolate flavor.",
       "priceValue": 10900,
       "priceTitle": "기본",
-      "available": false,
+      "available": true,
       "labels": [
         "인기"
       ],
@@ -4463,23 +4495,6 @@
         }
       ],
       "imageLocalPath": "data/tossplace-menu/238090/images/10192464-초콜릿로쉐케익-52fe1dcc82.webp"
-    },
-    {
-      "id": 10114893,
-      "categoryTitle": "디저트",
-      "categoryTitleEn": "Dessert",
-      "title": "아이스크림 브라우니",
-      "titleEn": "Ice cream Brownie",
-      "description": "진한 초콜릿 브라우니 위에\n부드러운 바닐라 아이스크림을 올렸어요.\n따뜻함과 차가움이 만나 한 입만으로도 충분히 행복해지는 디저트.",
-      "descriptionEn": "A rich chocolate brownie topped with smooth vanilla ice cream.\nWarm and cold in perfect balance one bite is all it takes to fall in love.",
-      "priceValue": 10900,
-      "priceTitle": "기본",
-      "available": false,
-      "labels": [
-        "인기"
-      ],
-      "optionSets": [],
-      "imageLocalPath": "data/tossplace-menu/238090/images/10114893-아이스크림-브라우니-1ca4423910.webp"
     },
     {
       "id": 10652155,
