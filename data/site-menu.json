@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-13T01:32:58.895Z",
+  "generatedAt": "2026-11-14T01:06:06.461Z",
   "merchantId": 238090,
   "items": [
     {
@@ -81,23 +81,33 @@
       "imageLocalPath": "data/tossplace-menu/238090/images/10983319-브런치-오렌지주스-c5355b1554.webp"
     },
     {
+      "id": 10433709,
+      "categoryTitle": "브런치",
+      "categoryTitleEn": "Brunch",
+      "title": "리뷰이벤트 Google Review Event",
+      "description": "",
+      "state": "ON_SALE",
+      "labels": [],
+      "imageLocalPath": ""
+    },
+    {
       "id": 15684896,
       "categoryTitle": "인기 메뉴",
       "categoryTitleEn": "BEST",
-      "title": "무화과 크림치즈 와플",
-      "description": "달콤한 무화과와 부드러운 크림치즈 무스, 피스타치오를 올린 바삭한 리에쥬 와플.",
-      "state": "SOLD_OUT",
+      "title": "[시즌한정] 베리베리와플",
+      "description": "뉴질랜드 앵커 버터를 넣어 직접 반죽한 겉바속쫀 벨기에와플에\n상큼한 딸기와 블루베리, 부드러운 생크림을 듬뿍 올린 디저트",
+      "state": "ON_SALE",
       "labels": [
         "인기"
       ],
-      "imageLocalPath": "data/tossplace-menu/238090/images/16230479-시즌한정-무화과-크림치즈-와플-86ba9a15c7.webp"
+      "imageLocalPath": "data/tossplace-menu/238090/images/15684896-시즌한정-베리베리와플-23c3520d15.webp"
     },
     {
       "id": 10683603,
       "categoryTitle": "인기 메뉴",
       "categoryTitleEn": "BEST",
       "title": "[피스타치오] 초코 반하나 와플",
-      "description": "앵커 버터로 만든 겉바속쫀 리에주 와플에 바나나, 생크림, 초코소스, 피스타치오를 올린 클루미 시그니처 와플. 한 입에 반해버릴지도 몰라요.",
+      "description": "앵커 버터로 반죽한 겉바속쫀 리에주 와플에 바나나,생크림,초코볼,피스타치오를 올린 시그니처 와플. 한 입에 반해버릴지도 몰라요.",
       "state": "ON_SALE",
       "labels": [
         "인기"
@@ -517,26 +527,6 @@
       "imageLocalPath": "data/tossplace-menu/238090/images/7736391-애플잼-와플-8d65b9a46f.webp"
     },
     {
-      "id": 7853022,
-      "categoryTitle": "벨기에와플",
-      "categoryTitleEn": "Belgium Waffle",
-      "title": "클래식 와플&커피 세트",
-      "description": "\"가장 완벽하고 달콤한 휴식의 조합\"\n깊은 풍미의 앵커 버터로 구워낸 클래식 와플과 향긋한 커피를 세트로 만나보세요. 입안 가득 퍼지는 기분 좋은 달콤함이 당신의 하루를 더욱 특별하게 만들어 줍니다.",
-      "state": "ON_SALE",
-      "labels": [],
-      "imageLocalPath": "data/tossplace-menu/238090/images/7853022-클래식-와플-커피-세트-77e6926988.webp"
-    },
-    {
-      "id": 7965785,
-      "categoryTitle": "벨기에와플",
-      "categoryTitleEn": "Belgium Waffle",
-      "title": "와플 3개팩",
-      "description": "\"혼자서도, 셋이서도 부담 없이!\"\n앵커 버터의 풍미가 꽉 찬 수제 와플 3개를 가볍게 즐겨보세요. 바삭함과 쫄깃함이 살아있어 커피 한 잔과 곁들이기에 가장 완벽한 구성입니다.",
-      "state": "ON_SALE",
-      "labels": [],
-      "imageLocalPath": "data/tossplace-menu/238090/images/7965785-와플-3개팩-2e0099ae98.webp"
-    },
-    {
       "id": 8433327,
       "categoryTitle": "벨기에와플",
       "categoryTitleEn": "Belgium Waffle",
@@ -832,7 +822,7 @@
       "id": 7411040,
       "categoryTitle": "파르페",
       "categoryTitleEn": "Parfait",
-      "title": "삿포로 과일파르페",
+      "title": "삿포로 딸기 파르페",
       "description": "계절 과일의 상큼함을 담아 가볍고 산뜻하게 즐기는 과일 파르페입니다.\n향긋하고 달콤한 설향딸기가 올라가 한입 한입 더 특별한 맛을 선물해요. 🍓❄️",
       "state": "SOLD_OUT",
       "labels": [],
