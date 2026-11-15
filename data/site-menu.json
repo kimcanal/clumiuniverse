@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-14T01:06:06.461Z",
+  "generatedAt": "2026-11-15T00:27:34.939Z",
   "merchantId": 238090,
   "items": [
     {
@@ -125,6 +125,18 @@
       "imageLocalPath": "data/tossplace-menu/238090/images/7735937-블루베리-크림치즈-와플-32131784ad.webp"
     },
     {
+      "id": 10077936,
+      "categoryTitle": "인기 메뉴",
+      "categoryTitleEn": "BEST",
+      "title": "삿포로 초코 파르페",
+      "description": "깊고 진한 초콜릿을 담은 파르페, 달콤하면서도 깔끔한 풍미.",
+      "state": "ON_SALE",
+      "labels": [
+        "인기"
+      ],
+      "imageLocalPath": "data/tossplace-menu/238090/images/10077936-삿포로-초코-파르페-e255157cdb.webp"
+    },
+    {
       "id": 14267200,
       "categoryTitle": "인기 메뉴",
       "categoryTitleEn": "BEST",
@@ -145,16 +157,6 @@
       "imageLocalPath": "data/tossplace-menu/238090/images/14267209-오렌지-비앙코-dda910de0e.webp"
     },
     {
-      "id": 9142726,
-      "categoryTitle": "인기 메뉴",
-      "categoryTitleEn": "BEST",
-      "title": "[시그니처] 합정라떼",
-      "description": "깊은 에스프레소에 버터스카치의 달콤함을 더한 부드러운 라떼.",
-      "state": "ON_SALE",
-      "labels": [],
-      "imageLocalPath": "data/tossplace-menu/238090/images/9142726-시그니처-합정라떼-2481923ac8.webp"
-    },
-    {
       "id": 9142742,
       "categoryTitle": "인기 메뉴",
       "categoryTitleEn": "BEST",
@@ -165,16 +167,14 @@
       "imageLocalPath": "data/tossplace-menu/238090/images/9142742-시그니처-상수라떼-0065c0682f.webp"
     },
     {
-      "id": 10077936,
+      "id": 9142726,
       "categoryTitle": "인기 메뉴",
       "categoryTitleEn": "BEST",
-      "title": "삿포로 초코 파르페",
-      "description": "깊고 진한 초콜릿을 담은 파르페, 달콤하면서도 깔끔한 풍미.",
+      "title": "[시그니처] 합정라떼",
+      "description": "깊은 에스프레소에 버터스카치의 달콤함을 더한 부드러운 라떼.",
       "state": "ON_SALE",
-      "labels": [
-        "인기"
-      ],
-      "imageLocalPath": "data/tossplace-menu/238090/images/10077936-삿포로-초코-파르페-e255157cdb.webp"
+      "labels": [],
+      "imageLocalPath": "data/tossplace-menu/238090/images/9142726-시그니처-합정라떼-2481923ac8.webp"
     },
     {
       "id": 6978203,
@@ -420,7 +420,7 @@
       "id": 6978834,
       "categoryTitle": "논커피",
       "categoryTitleEn": "Non Coffee",
-      "title": "딸기라떼",
+      "title": "리얼딸기라떼",
       "description": "신선한 딸기를 듬뿍 담아\n달콤하고 상큼한 맛이 입 안 가득 퍼지는 딸기라떼 🍓🥛\n한 모금이면 기분까지 즐거워지는 맛의 완성!",
       "state": "ON_SALE",
       "labels": [],
@@ -459,6 +459,30 @@
       "imageLocalPath": "data/tossplace-menu/238090/images/18537002-시즌한정-호지-글레이즈드-라떼-b313b9a689.webp"
     },
     {
+      "id": 10639334,
+      "categoryTitle": "벨기에와플",
+      "categoryTitleEn": "Belgium Waffle",
+      "title": "[시즌한정]베리베리와플",
+      "description": "뉴질랜드 앵커 버터를 넣어 직접 반죽한 겉바속쫀 벨기에와플에\n상큼한 딸기와 블루베리, 부드러운 생크림을 듬뿍 올린 디저트",
+      "state": "ON_SALE",
+      "labels": [
+        "인기"
+      ],
+      "imageLocalPath": "data/tossplace-menu/238090/images/10639334-시즌한정-베리베리와플-95fd9c7476.webp"
+    },
+    {
+      "id": 9479299,
+      "categoryTitle": "벨기에와플",
+      "categoryTitleEn": "Belgium Waffle",
+      "title": "[시즌한정]딸기왕창와플",
+      "description": "뉴질랜드 앵커 버터 향 가득한 와플 위에 클루미가 딸기를 실수로(?) 와르르— 쏟아버렸대요!\n쏟아진 딸기 양에 깜짝 놀랄지도 몰라요. 겉바속쫀 와플과 상큼한 딸기 폭탄, 그리고 진한 아이스크림의 환상적인 만남! 클루미의 귀여운 실수를 맛있게 즐겨보세요! 💘",
+      "state": "SOLD_OUT",
+      "labels": [
+        "인기"
+      ],
+      "imageLocalPath": "data/tossplace-menu/238090/images/9479299-시즌한정-딸기왕창와플-381c363183.webp"
+    },
+    {
       "id": 13137641,
       "categoryTitle": "벨기에와플",
       "categoryTitleEn": "Belgium Waffle",
@@ -469,28 +493,6 @@
         "인기"
       ],
       "imageLocalPath": "data/tossplace-menu/238090/images/10683603-피스타치오-초코-반하나-와플-87f8a2942f.webp"
-    },
-    {
-      "id": 16230479,
-      "categoryTitle": "벨기에와플",
-      "categoryTitleEn": "Belgium Waffle",
-      "title": "[시즌한정]무화과&크림치즈 와플",
-      "description": "달콤한 무화과와 부드러운 크림치즈 무스, 피스타치오를 올린 바삭한 리에쥬 와플.",
-      "state": "SOLD_OUT",
-      "labels": [
-        "인기"
-      ],
-      "imageLocalPath": "data/tossplace-menu/238090/images/16230479-시즌한정-무화과-크림치즈-와플-86ba9a15c7.webp"
-    },
-    {
-      "id": 7735791,
-      "categoryTitle": "벨기에와플",
-      "categoryTitleEn": "Belgium Waffle",
-      "title": "클래식 와플",
-      "description": "\"입안에서 톡톡 터지는 달콤한 보석, 펄슈가\"\n벨기에산 천연 펄슈가가 반죽 사이사이에 콕콕 박혀 있어, 씹을 때마다 기분 좋은 달콤함이 느껴집니다. 높은 온도에서 캐러멜라이즈된 펄슈가의 바삭함과 앵커 버터의 풍미가 만난 정통 벨기에 리에쥬 와플을 경험해 보세요.",
-      "state": "ON_SALE",
-      "labels": [],
-      "imageLocalPath": "data/tossplace-menu/238090/images/7735791-클래식-와플-e996468283.webp"
     },
     {
       "id": 7735937,
@@ -527,6 +529,16 @@
       "imageLocalPath": "data/tossplace-menu/238090/images/7736391-애플잼-와플-8d65b9a46f.webp"
     },
     {
+      "id": 7735791,
+      "categoryTitle": "벨기에와플",
+      "categoryTitleEn": "Belgium Waffle",
+      "title": "클래식 와플",
+      "description": "\"입안에서 톡톡 터지는 달콤한 보석, 펄슈가\"\n벨기에산 천연 펄슈가가 반죽 사이사이에 콕콕 박혀 있어, 씹을 때마다 기분 좋은 달콤함이 느껴집니다. 높은 온도에서 캐러멜라이즈된 펄슈가의 바삭함과 앵커 버터의 풍미가 만난 정통 벨기에 리에쥬 와플을 경험해 보세요.",
+      "state": "ON_SALE",
+      "labels": [],
+      "imageLocalPath": "data/tossplace-menu/238090/images/7735791-클래식-와플-e996468283.webp"
+    },
+    {
       "id": 8433327,
       "categoryTitle": "벨기에와플",
       "categoryTitleEn": "Belgium Waffle",
@@ -537,28 +549,16 @@
       "imageLocalPath": "data/tossplace-menu/238090/images/8433327-아이스크림-와플-8d991c06d1.webp"
     },
     {
-      "id": 9479299,
+      "id": 16230479,
       "categoryTitle": "벨기에와플",
       "categoryTitleEn": "Belgium Waffle",
-      "title": "[시즌한정]딸기왕창와플",
-      "description": "뉴질랜드 앵커 버터 향 가득한 와플 위에 클루미가 딸기를 실수로(?) 와르르— 쏟아버렸대요!\n쏟아진 딸기 양에 깜짝 놀랄지도 몰라요. 겉바속쫀 와플과 상큼한 딸기 폭탄, 그리고 진한 아이스크림의 환상적인 만남! 클루미의 귀여운 실수를 맛있게 즐겨보세요! 💘",
+      "title": "[시즌한정]무화과&크림치즈 와플",
+      "description": "달콤한 무화과와 부드러운 크림치즈 무스, 피스타치오를 올린 바삭한 리에쥬 와플.",
       "state": "SOLD_OUT",
       "labels": [
         "인기"
       ],
-      "imageLocalPath": "data/tossplace-menu/238090/images/9479299-시즌한정-딸기왕창와플-381c363183.webp"
-    },
-    {
-      "id": 10639334,
-      "categoryTitle": "벨기에와플",
-      "categoryTitleEn": "Belgium Waffle",
-      "title": "[시즌한정]베리베리와플",
-      "description": "뉴질랜드 앵커 버터를 넣어 직접 반죽한 겉바속쫀 벨기에와플에\n상큼한 딸기와 블루베리, 부드러운 생크림을 듬뿍 올린 디저트",
-      "state": "SOLD_OUT",
-      "labels": [
-        "인기"
-      ],
-      "imageLocalPath": "data/tossplace-menu/238090/images/10639334-시즌한정-베리베리와플-95fd9c7476.webp"
+      "imageLocalPath": "data/tossplace-menu/238090/images/16230479-시즌한정-무화과-크림치즈-와플-86ba9a15c7.webp"
     },
     {
       "id": 10641666,
@@ -602,7 +602,7 @@
       "categoryTitleEn": "Dessert",
       "title": "초콜릿로쉐케익",
       "description": "부드러운 스페인산 고급 초콜릿 위에 고소하게 구운 헤이즐넛을 올려\n한 입 베어 물면 진한 초콜릿 풍미가 가득 퍼지는 케이크",
-      "state": "SOLD_OUT",
+      "state": "ON_SALE",
       "labels": [
         "인기"
       ],
@@ -646,7 +646,7 @@
       "categoryTitleEn": "Smoothie",
       "title": "[100%]딸기주스",
       "description": "100% 딸기가 전하는 순수한 맛:\n오직 신선한 제철 딸기만을 아낌없이 갈아 넣어, 첨가물 없이도 딸기 본연의 달콤하고 상큼한 맛을 완벽하게 즐길 수 있습니다. 한 모금 마실 때마다 입안 가득 퍼지는 신선한 딸기 향을 느껴보세요.",
-      "state": "ON_SALE",
+      "state": "SOLD_OUT",
       "labels": [
         "인기"
       ],
