@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-15T00:27:34.939Z",
+  "generatedAt": "2026-11-16T00:27:58.962Z",
   "merchantId": 238090,
   "items": [
     {
@@ -2839,7 +2839,7 @@
       "descriptionEn": "A refreshing strawberry juice\nmade by blending fresh, whole strawberries.",
       "priceValue": 7500,
       "priceTitle": "기본",
-      "available": true,
+      "available": false,
       "labels": [],
       "optionSets": [],
       "imageLocalPath": "data/tossplace-menu/238090/images/6986480-스텔라-딸기주스-da1e21ee8c.webp"
@@ -3321,7 +3321,7 @@
       "descriptionEn": "Oops! Clumi dropped the strawberries! 🍓💥\"\n\nClumi was so excited that she accidentally showered this waffle with a mountain of fresh strawberries!\nEnjoy our signature 'crispy & chewy' Anchor butter waffle, now loaded with an explosion of berries and rich ice cream. It’s a sweet, strawberry-filled accident you don't want to miss! 💘",
       "priceValue": 17000,
       "priceTitle": "기본",
-      "available": false,
+      "available": true,
       "labels": [
         "인기"
       ],
@@ -4072,9 +4072,7 @@
       "priceValue": 10900,
       "priceTitle": "기본",
       "available": true,
-      "labels": [
-        "인기"
-      ],
+      "labels": [],
       "optionSets": [
         {
           "id": 377185,
@@ -4107,9 +4105,7 @@
       "priceValue": 10900,
       "priceTitle": "기본",
       "available": true,
-      "labels": [
-        "인기"
-      ],
+      "labels": [],
       "optionSets": [
         {
           "id": 377185,
@@ -4142,9 +4138,7 @@
       "priceValue": 10900,
       "priceTitle": "기본",
       "available": true,
-      "labels": [
-        "인기"
-      ],
+      "labels": [],
       "optionSets": [
         {
           "id": 377185,

@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-15T00:27:34.939Z",
+  "generatedAt": "2026-11-16T00:27:58.962Z",
   "merchantId": 238090,
   "items": [
     {
@@ -358,7 +358,7 @@
       "categoryTitleEn": "CLUMI Emotion Potion",
       "title": "[스텔라] 생딸기주스",
       "description": "잘 익은 생딸기를 통째로 갈아\n상큼함과 달콤함이 살아있는 한 잔",
-      "state": "ON_SALE",
+      "state": "SOLD_OUT",
       "labels": [],
       "imageLocalPath": "data/tossplace-menu/238090/images/6986480-스텔라-딸기주스-da1e21ee8c.webp"
     },
@@ -476,7 +476,7 @@
       "categoryTitleEn": "Belgium Waffle",
       "title": "[시즌한정]딸기왕창와플",
       "description": "뉴질랜드 앵커 버터 향 가득한 와플 위에 클루미가 딸기를 실수로(?) 와르르— 쏟아버렸대요!\n쏟아진 딸기 양에 깜짝 놀랄지도 몰라요. 겉바속쫀 와플과 상큼한 딸기 폭탄, 그리고 진한 아이스크림의 환상적인 만남! 클루미의 귀여운 실수를 맛있게 즐겨보세요! 💘",
-      "state": "SOLD_OUT",
+      "state": "ON_SALE",
       "labels": [
         "인기"
       ],
@@ -579,9 +579,7 @@
       "title": "교토말차쇼콜라",
       "description": "꾸덕한 갸또 시트와 말차 가나슈에\n부드러운 우유 크림이 어우러진 케이크",
       "state": "ON_SALE",
-      "labels": [
-        "인기"
-      ],
+      "labels": [],
       "imageLocalPath": "data/tossplace-menu/238090/images/10197088-교토말차쇼콜라-9d28d3d031.webp"
     },
     {
@@ -591,9 +589,7 @@
       "title": "얼그레이 무화과",
       "description": "달콤한 무화과가 듬뿍 들어간 고소한 시트 위에,\n향긋한 얼그레이 크림을 올린 부드러운 케이크 ☕🍰",
       "state": "ON_SALE",
-      "labels": [
-        "인기"
-      ],
+      "labels": [],
       "imageLocalPath": "data/tossplace-menu/238090/images/10842350-얼그레이-무화과-0f5f5e5bf2.webp"
     },
     {
@@ -603,9 +599,7 @@
       "title": "초콜릿로쉐케익",
       "description": "부드러운 스페인산 고급 초콜릿 위에 고소하게 구운 헤이즐넛을 올려\n한 입 베어 물면 진한 초콜릿 풍미가 가득 퍼지는 케이크",
       "state": "ON_SALE",
-      "labels": [
-        "인기"
-      ],
+      "labels": [],
       "imageLocalPath": "data/tossplace-menu/238090/images/10192464-초콜릿로쉐케익-52fe1dcc82.webp"
     },
     {

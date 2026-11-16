@@ -17,14 +17,6 @@
       "sourceUrl": "https://place-static.tossplace.com/public/live/PUBLIC/2026-02-14/c213b3d6-2de5-4710-b0df-bfe86181c2c3",
       "updatedAt": "2026-05-01T03:23:58.748Z"
     },
-    "https://place-static.tossplace.com/public/live/PUBLIC/2026-02-20/16c9c422-63d6-4a72-925d-c2ba4d1ce2ed": {
-      "localPath": "data/tossplace-menu/238090/images/11057081-발사믹-글레이즈-7e15828b47.jpg",
-      "hash": "7e15828b47b7c989d7e559cb459d47c6ac1e66b81900c4fb7ff9fd3da3d33f0b",
-      "itemId": 11057081,
-      "title": "발사믹 글레이즈",
-      "sourceUrl": "https://place-static.tossplace.com/public/live/PUBLIC/2026-02-20/16c9c422-63d6-4a72-925d-c2ba4d1ce2ed",
-      "updatedAt": "2026-05-01T03:23:58.753Z"
-    },
     "https://place-static.tossplace.com/public/live/PUBLIC/2026-02-15/c3afe580-fd6a-438e-816f-8dfb5c702a6c": {
       "localPath": "data/tossplace-menu/238090/images/10999047-브런치-커피-2d26673b2f.jpg",
       "hash": "2d26673b2f244dac751baa12687328a18f009bc1016f3ccba5f3c708bda28a2d",
@@ -714,14 +706,6 @@
       "title": "[브런치]오렌지주스",
       "sourceUrl": "https://place-static.tossplace.com/public/live/PUBLIC/2026-02-14/c213b3d6-2de5-4710-b0df-bfe86181c2c3",
       "updatedAt": "2026-05-01T03:23:58.748Z"
-    },
-    "7e15828b47b7c989d7e559cb459d47c6ac1e66b81900c4fb7ff9fd3da3d33f0b": {
-      "localPath": "data/tossplace-menu/238090/images/11057081-발사믹-글레이즈-7e15828b47.jpg",
-      "hash": "7e15828b47b7c989d7e559cb459d47c6ac1e66b81900c4fb7ff9fd3da3d33f0b",
-      "itemId": 11057081,
-      "title": "발사믹 글레이즈",
-      "sourceUrl": "https://place-static.tossplace.com/public/live/PUBLIC/2026-02-20/16c9c422-63d6-4a72-925d-c2ba4d1ce2ed",
-      "updatedAt": "2026-05-01T03:23:58.753Z"
     },
     "2d26673b2f244dac751baa12687328a18f009bc1016f3ccba5f3c708bda28a2d": {
       "localPath": "data/tossplace-menu/238090/images/10999047-브런치-커피-2d26673b2f.jpg",
@@ -1526,14 +1510,14 @@
       "updatedAt": "2026-09-18T12:03:41.506Z"
     },
     "6986480": {
-      "fingerprint": "e99d1bc52bc3f14edec4ee54aeb87e29ed989980e139d9ddad3d0f56e85850f2",
+      "fingerprint": "b663fd98223dee8a38258a988c7cf720dd1ed76a27d76264a50ebfcabef85b50",
       "title": "[스텔라] 생딸기주스",
       "description": "잘 익은 생딸기를 통째로 갈아\n상큼함과 달콤함이 살아있는 한 잔",
       "imageUrl": "https://place-static.tossplace.com/public/live/PUBLIC/2026-02-01/623bf7fd-1ce5-422b-b4a1-f096addcaa9a",
       "imageLocalPath": "data/tossplace-menu/238090/images/6986480-스텔라-딸기주스-da1e21ee8c.jpg",
       "imageHash": "da1e21ee8c0e3def5806f8293b3d87b22c8cbc16075feb21a72a223fa71e1c66",
       "firstSeenAt": "2026-07-21T04:15:20.254Z",
-      "updatedAt": "2026-10-31T00:12:39.869Z"
+      "updatedAt": "2026-11-16T00:27:58.962Z"
     },
     "6986481": {
       "fingerprint": "ebe85ead4a547eeb411dd8e9f3e2cd9e5e963b6b98badd4a6c4be868d5ea217c",
@@ -1776,14 +1760,14 @@
       "updatedAt": "2026-09-18T12:03:41.506Z"
     },
     "9479299": {
-      "fingerprint": "3c446068fbfb88b158a63c04faabeeb7e9923e43c29fb185d29543308744c5ae",
+      "fingerprint": "137bf21863a5fd6d3730ecd830184355a9f1c27e99fe76c2b13a413cd7d07cc9",
       "title": "[시즌한정]딸기왕창와플",
       "description": "뉴질랜드 앵커 버터 향 가득한 와플 위에 클루미가 딸기를 실수로(?) 와르르— 쏟아버렸대요!\n쏟아진 딸기 양에 깜짝 놀랄지도 몰라요. 겉바속쫀 와플과 상큼한 딸기 폭탄, 그리고 진한 아이스크림의 환상적인 만남! 클루미의 귀여운 실수를 맛있게 즐겨보세요! 💘",
       "imageUrl": "https://place-static.tossplace.com/public/live/PUBLIC/2026-04-09/79ca2a21-1668-4235-af21-4431110ebb67",
       "imageLocalPath": "data/tossplace-menu/238090/images/9479299-시즌한정-딸기왕창와플-381c363183.jpg",
       "imageHash": "381c363183e4e47c8b2fe8b268e76d1a24d5a8d8ab864b826fdc5d5c1c7161bf",
       "firstSeenAt": "2026-10-13T02:17:05.884Z",
-      "updatedAt": "2026-11-15T00:27:34.939Z"
+      "updatedAt": "2026-11-16T00:27:58.962Z"
     },
     "9779978": {
       "fingerprint": "0d33f227f77772c9ab7ee7ce26cf048db4164568bd72305be0a9e03b27cea78e",
@@ -1826,24 +1810,24 @@
       "updatedAt": "2026-11-15T00:27:34.939Z"
     },
     "10192464": {
-      "fingerprint": "cd65ec7707ff0a4eed5f0e599d14e98080b709f368b6c48bab968e2da7e2dfd7",
+      "fingerprint": "115ba0a90cd6c3a51e4c6e45dba6c78e7439f3a9d1420921cfd4b354b0633d1f",
       "title": "초콜릿로쉐케익",
       "description": "부드러운 스페인산 고급 초콜릿 위에 고소하게 구운 헤이즐넛을 올려\n한 입 베어 물면 진한 초콜릿 풍미가 가득 퍼지는 케이크",
       "imageUrl": "https://place-static.tossplace.com/public/live/PUBLIC/2026-05-12/643d509d-6f8f-4186-a5ba-28c4839cc761",
       "imageLocalPath": "data/tossplace-menu/238090/images/10192464-초콜릿로쉐케익-52fe1dcc82.jpg",
       "imageHash": "52fe1dcc82b800fd1494dbfa9cf12ca59474a0af9d602087499a9d4e9a1ce6fe",
       "firstSeenAt": "2026-10-17T22:44:10.583Z",
-      "updatedAt": "2026-11-15T00:27:34.939Z"
+      "updatedAt": "2026-11-16T00:27:58.962Z"
     },
     "10197088": {
-      "fingerprint": "2871ebbbaaa3ed5df90b7cac8b304c30b9c7be24516d002807fa87f6cc9bcb26",
+      "fingerprint": "3ed79a10a964e239817f27a83c39ea3a1466a6dea63b4b3631f67fe9f1917300",
       "title": "교토말차쇼콜라",
       "description": "꾸덕한 갸또 시트와 말차 가나슈에\n부드러운 우유 크림이 어우러진 케이크",
       "imageUrl": "https://place-static.tossplace.com/public/live/PUBLIC/2026-05-12/5058ffa0-185b-446a-a2b0-8f8701d1ca87",
       "imageLocalPath": "data/tossplace-menu/238090/images/10197088-교토말차쇼콜라-9d28d3d031.jpg",
       "imageHash": "9d28d3d031d728cd946817c735c6dd9ba1693b50a7c16e5636b47a33b131f455",
       "firstSeenAt": "2026-10-17T22:44:10.583Z",
-      "updatedAt": "2026-10-31T23:49:27.664Z"
+      "updatedAt": "2026-11-16T00:27:58.962Z"
     },
     "10433709": {
       "fingerprint": "81987fafdca06b63f066d6b90b838f2d905b291a371ef1a1522d4352a30b427a",
@@ -1896,14 +1880,14 @@
       "updatedAt": "2026-11-15T00:27:34.939Z"
     },
     "10842350": {
-      "fingerprint": "bea39c24cc19ba3c58b4451ef946ea31b50d59ded39af8c64c570ad057cccc31",
+      "fingerprint": "095ff66c23447b2e3ad030ce6e79458792966367d70900ffccf869ab09b311f6",
       "title": "얼그레이 무화과",
       "description": "달콤한 무화과가 듬뿍 들어간 고소한 시트 위에,\n향긋한 얼그레이 크림을 올린 부드러운 케이크 ☕🍰",
       "imageUrl": "https://place-static.tossplace.com/public/live/PUBLIC/2026-05-12/965186ba-98fb-4c6b-bdd7-15c905728f22",
       "imageLocalPath": "data/tossplace-menu/238090/images/10842350-얼그레이-무화과-0f5f5e5bf2.jpg",
       "imageHash": "0f5f5e5bf2263c6d32c3cf25d28b16a234dd70a0ccd3b2088184f007f50fbc48",
       "firstSeenAt": "2026-10-17T22:44:10.583Z",
-      "updatedAt": "2026-10-31T23:49:27.664Z"
+      "updatedAt": "2026-11-16T00:27:58.962Z"
     },
     "10983319": {
       "fingerprint": "65feb9bfe9146ff94ac4d68cfd30046fa3ad0435b262748c535c30d274431c84",
@@ -1934,16 +1918,6 @@
       "imageHash": "2d26673b2f244dac751baa12687328a18f009bc1016f3ccba5f3c708bda28a2d",
       "firstSeenAt": "2026-07-21T04:15:20.254Z",
       "updatedAt": "2026-09-18T12:03:41.506Z"
-    },
-    "11057081": {
-      "fingerprint": "6a5b383be1b7879eef1a32d181ed86be419b22fc62756c43062f70b8fde80a66",
-      "title": "발사믹 글레이즈",
-      "description": "평범한 요리에 근사한 마침표를 찍어주는 마법의 소스!\n샐러드, 스테이크에 쓱 뿌리는 순간 깊고 진한 풍미가 살아납니다.",
-      "imageUrl": "https://place-static.tossplace.com/public/live/PUBLIC/2026-02-20/16c9c422-63d6-4a72-925d-c2ba4d1ce2ed",
-      "imageLocalPath": "data/tossplace-menu/238090/images/11057081-발사믹-글레이즈-7e15828b47.jpg",
-      "imageHash": "7e15828b47b7c989d7e559cb459d47c6ac1e66b81900c4fb7ff9fd3da3d33f0b",
-      "firstSeenAt": "2026-07-21T04:15:20.254Z",
-      "updatedAt": "2026-08-20T21:16:07.047Z"
     },
     "11075478": {
       "fingerprint": "7169e8a1f6bdd1e12a63c70f7520518fea910cd5027da774be1ad2c39fb4d71c",
@@ -2197,20 +2171,6 @@
     }
   },
   "runs": [
-    {
-      "at": "2026-10-18T22:39:18.949Z",
-      "summary": {
-        "total": 85,
-        "added": 3,
-        "changed": 6,
-        "unchanged": 76,
-        "removed": 1
-      },
-      "imageSummary": {
-        "skipped-existing-url": 82,
-        "downloaded": 3
-      }
-    },
     {
       "at": "2026-10-19T23:59:13.704Z",
       "summary": {
@@ -2467,7 +2427,21 @@
         "skipped-existing-url": 86,
         "missing": 1
       }
+    },
+    {
+      "at": "2026-11-16T00:27:58.962Z",
+      "summary": {
+        "total": 86,
+        "added": 0,
+        "changed": 5,
+        "unchanged": 81,
+        "removed": 1
+      },
+      "imageSummary": {
+        "skipped-existing-url": 85,
+        "missing": 1
+      }
     }
   ],
-  "lastRunAt": "2026-11-15T00:27:34.939Z"
+  "lastRunAt": "2026-11-16T00:27:58.962Z"
 }

@@ -2,16 +2,16 @@
   "merchantId": 238090,
   "merchantName": "클루미 유니버스",
   "merchantStatus": "OPEN",
-  "fetchedAt": "2026-11-15T00:27:34.939Z",
+  "fetchedAt": "2026-11-16T00:27:58.962Z",
   "summary": {
-    "total": 87,
+    "total": 86,
     "added": 0,
-    "changed": 20,
-    "unchanged": 67,
-    "removed": 0
+    "changed": 5,
+    "unchanged": 81,
+    "removed": 1
   },
   "imageSummary": {
-    "skipped-existing-url": 86,
+    "skipped-existing-url": 85,
     "missing": 1
   },
   "checks": {
@@ -1275,27 +1275,6 @@
       "fingerprint": "65feb9bfe9146ff94ac4d68cfd30046fa3ad0435b262748c535c30d274431c84",
       "imageLocalPath": "data/tossplace-menu/238090/images/10983319-브런치-오렌지주스-c5355b1554.jpg",
       "imageHash": "c5355b1554a4fba6c1a3a029de9798286f977c93dbbb778998c47a877d33b722",
-      "imageStatus": "skipped-existing-url"
-    },
-    {
-      "id": 11057081,
-      "categoryId": 747020,
-      "categoryTitle": "브런치",
-      "categoryTitleEn": "Brunch",
-      "position": 13,
-      "title": "발사믹 글레이즈",
-      "titleEn": "Balsamic Reduction",
-      "description": "평범한 요리에 근사한 마침표를 찍어주는 마법의 소스!\n샐러드, 스테이크에 쓱 뿌리는 순간 깊고 진한 풍미가 살아납니다.",
-      "descriptionEn": "A magical sauce that puts the perfect finishing touch on everyday dishes!\nJust a quick drizzle over salads or steak instantly awakens deep, rich flavors.",
-      "state": "ON_SALE",
-      "priceValue": 2000,
-      "priceTitle": "기본",
-      "imageUrl": "https://place-static.tossplace.com/public/live/PUBLIC/2026-02-20/16c9c422-63d6-4a72-925d-c2ba4d1ce2ed",
-      "labels": [],
-      "optionSets": [],
-      "fingerprint": "6a5b383be1b7879eef1a32d181ed86be419b22fc62756c43062f70b8fde80a66",
-      "imageLocalPath": "data/tossplace-menu/238090/images/11057081-발사믹-글레이즈-7e15828b47.jpg",
-      "imageHash": "7e15828b47b7c989d7e559cb459d47c6ac1e66b81900c4fb7ff9fd3da3d33f0b",
       "imageStatus": "skipped-existing-url"
     },
     {
@@ -3421,13 +3400,13 @@
       "titleEn": "[Stella] Strawberry Juice",
       "description": "잘 익은 생딸기를 통째로 갈아\n상큼함과 달콤함이 살아있는 한 잔",
       "descriptionEn": "A refreshing strawberry juice\nmade by blending fresh, whole strawberries.",
-      "state": "ON_SALE",
+      "state": "SOLD_OUT",
       "priceValue": 7500,
       "priceTitle": "기본",
       "imageUrl": "https://place-static.tossplace.com/public/live/PUBLIC/2026-02-01/623bf7fd-1ce5-422b-b4a1-f096addcaa9a",
       "labels": [],
       "optionSets": [],
-      "fingerprint": "e99d1bc52bc3f14edec4ee54aeb87e29ed989980e139d9ddad3d0f56e85850f2",
+      "fingerprint": "b663fd98223dee8a38258a988c7cf720dd1ed76a27d76264a50ebfcabef85b50",
       "imageLocalPath": "data/tossplace-menu/238090/images/6986480-스텔라-딸기주스-da1e21ee8c.jpg",
       "imageHash": "da1e21ee8c0e3def5806f8293b3d87b22c8cbc16075feb21a72a223fa71e1c66",
       "imageStatus": "skipped-existing-url"
@@ -3969,7 +3948,7 @@
       "titleEn": "[seson limited] Strawberry waffle",
       "description": "뉴질랜드 앵커 버터 향 가득한 와플 위에 클루미가 딸기를 실수로(?) 와르르— 쏟아버렸대요!\n쏟아진 딸기 양에 깜짝 놀랄지도 몰라요. 겉바속쫀 와플과 상큼한 딸기 폭탄, 그리고 진한 아이스크림의 환상적인 만남! 클루미의 귀여운 실수를 맛있게 즐겨보세요! 💘",
       "descriptionEn": "Oops! Clumi dropped the strawberries! 🍓💥\"\n\nClumi was so excited that she accidentally showered this waffle with a mountain of fresh strawberries!\nEnjoy our signature 'crispy & chewy' Anchor butter waffle, now loaded with an explosion of berries and rich ice cream. It’s a sweet, strawberry-filled accident you don't want to miss! 💘",
-      "state": "SOLD_OUT",
+      "state": "ON_SALE",
       "priceValue": 17000,
       "priceTitle": "기본",
       "imageUrl": "https://place-static.tossplace.com/public/live/PUBLIC/2026-04-09/79ca2a21-1668-4235-af21-4431110ebb67",
@@ -4002,7 +3981,7 @@
           ]
         }
       ],
-      "fingerprint": "3c446068fbfb88b158a63c04faabeeb7e9923e43c29fb185d29543308744c5ae",
+      "fingerprint": "137bf21863a5fd6d3730ecd830184355a9f1c27e99fe76c2b13a413cd7d07cc9",
       "imageLocalPath": "data/tossplace-menu/238090/images/9479299-시즌한정-딸기왕창와플-381c363183.jpg",
       "imageHash": "381c363183e4e47c8b2fe8b268e76d1a24d5a8d8ab864b826fdc5d5c1c7161bf",
       "imageStatus": "skipped-existing-url"
@@ -4777,9 +4756,7 @@
       "priceValue": 10900,
       "priceTitle": "기본",
       "imageUrl": "https://place-static.tossplace.com/public/live/PUBLIC/2026-05-12/5058ffa0-185b-446a-a2b0-8f8701d1ca87",
-      "labels": [
-        "인기"
-      ],
+      "labels": [],
       "optionSets": [
         {
           "id": 377185,
@@ -4799,7 +4776,7 @@
           ]
         }
       ],
-      "fingerprint": "2871ebbbaaa3ed5df90b7cac8b304c30b9c7be24516d002807fa87f6cc9bcb26",
+      "fingerprint": "3ed79a10a964e239817f27a83c39ea3a1466a6dea63b4b3631f67fe9f1917300",
       "imageLocalPath": "data/tossplace-menu/238090/images/10197088-교토말차쇼콜라-9d28d3d031.jpg",
       "imageHash": "9d28d3d031d728cd946817c735c6dd9ba1693b50a7c16e5636b47a33b131f455",
       "imageStatus": "skipped-existing-url"
@@ -4818,9 +4795,7 @@
       "priceValue": 10900,
       "priceTitle": "기본",
       "imageUrl": "https://place-static.tossplace.com/public/live/PUBLIC/2026-05-12/965186ba-98fb-4c6b-bdd7-15c905728f22",
-      "labels": [
-        "인기"
-      ],
+      "labels": [],
       "optionSets": [
         {
           "id": 377185,
@@ -4840,7 +4815,7 @@
           ]
         }
       ],
-      "fingerprint": "bea39c24cc19ba3c58b4451ef946ea31b50d59ded39af8c64c570ad057cccc31",
+      "fingerprint": "095ff66c23447b2e3ad030ce6e79458792966367d70900ffccf869ab09b311f6",
       "imageLocalPath": "data/tossplace-menu/238090/images/10842350-얼그레이-무화과-0f5f5e5bf2.jpg",
       "imageHash": "0f5f5e5bf2263c6d32c3cf25d28b16a234dd70a0ccd3b2088184f007f50fbc48",
       "imageStatus": "skipped-existing-url"
@@ -4859,9 +4834,7 @@
       "priceValue": 10900,
       "priceTitle": "기본",
       "imageUrl": "https://place-static.tossplace.com/public/live/PUBLIC/2026-05-12/643d509d-6f8f-4186-a5ba-28c4839cc761",
-      "labels": [
-        "인기"
-      ],
+      "labels": [],
       "optionSets": [
         {
           "id": 377185,
@@ -4881,7 +4854,7 @@
           ]
         }
       ],
-      "fingerprint": "cd65ec7707ff0a4eed5f0e599d14e98080b709f368b6c48bab968e2da7e2dfd7",
+      "fingerprint": "115ba0a90cd6c3a51e4c6e45dba6c78e7439f3a9d1420921cfd4b354b0633d1f",
       "imageLocalPath": "data/tossplace-menu/238090/images/10192464-초콜릿로쉐케익-52fe1dcc82.jpg",
       "imageHash": "52fe1dcc82b800fd1494dbfa9cf12ca59474a0af9d602087499a9d4e9a1ce6fe",
       "imageStatus": "skipped-existing-url"
