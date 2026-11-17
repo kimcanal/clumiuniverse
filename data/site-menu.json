@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-16T00:27:58.962Z",
+  "generatedAt": "2026-11-17T03:15:38.693Z",
   "merchantId": 238090,
   "items": [
     {
@@ -94,8 +94,8 @@
       "id": 15684896,
       "categoryTitle": "인기 메뉴",
       "categoryTitleEn": "BEST",
-      "title": "[시즌한정] 베리베리와플",
-      "description": "뉴질랜드 앵커 버터를 넣어 직접 반죽한 겉바속쫀 벨기에와플에\n상큼한 딸기와 블루베리, 부드러운 생크림을 듬뿍 올린 디저트",
+      "title": "[Premium] 베리베리와플",
+      "description": "뉴질랜드 앵커 버터로 직접 반죽해 구운 벨기에 와플에 부드러운 생크림, 상큼한 제철 딸기와 블루베리를 더한 고급 디저트",
       "state": "ON_SALE",
       "labels": [
         "인기"
@@ -462,8 +462,8 @@
       "id": 10639334,
       "categoryTitle": "벨기에와플",
       "categoryTitleEn": "Belgium Waffle",
-      "title": "[시즌한정]베리베리와플",
-      "description": "뉴질랜드 앵커 버터를 넣어 직접 반죽한 겉바속쫀 벨기에와플에\n상큼한 딸기와 블루베리, 부드러운 생크림을 듬뿍 올린 디저트",
+      "title": "[Premium]베리베리와플",
+      "description": "뉴질랜드 앵커 버터로 직접 반죽해 구운 벨기에 와플에 부드러운 생크림, 상큼한 제철 딸기와 블루베리를 더한 고급 디저트",
       "state": "ON_SALE",
       "labels": [
         "인기"
@@ -474,9 +474,9 @@
       "id": 9479299,
       "categoryTitle": "벨기에와플",
       "categoryTitleEn": "Belgium Waffle",
-      "title": "[시즌한정]딸기왕창와플",
+      "title": "[Premium] 딸기왕창와플",
       "description": "뉴질랜드 앵커 버터 향 가득한 와플 위에 클루미가 딸기를 실수로(?) 와르르— 쏟아버렸대요!\n쏟아진 딸기 양에 깜짝 놀랄지도 몰라요. 겉바속쫀 와플과 상큼한 딸기 폭탄, 그리고 진한 아이스크림의 환상적인 만남! 클루미의 귀여운 실수를 맛있게 즐겨보세요! 💘",
-      "state": "ON_SALE",
+      "state": "SOLD_OUT",
       "labels": [
         "인기"
       ],
@@ -588,7 +588,7 @@
       "categoryTitleEn": "Dessert",
       "title": "얼그레이 무화과",
       "description": "달콤한 무화과가 듬뿍 들어간 고소한 시트 위에,\n향긋한 얼그레이 크림을 올린 부드러운 케이크 ☕🍰",
-      "state": "ON_SALE",
+      "state": "SOLD_OUT",
       "labels": [],
       "imageLocalPath": "data/tossplace-menu/238090/images/10842350-얼그레이-무화과-0f5f5e5bf2.webp"
     },

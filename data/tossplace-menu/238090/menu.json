@@ -2,13 +2,13 @@
   "merchantId": 238090,
   "merchantName": "클루미 유니버스",
   "merchantStatus": "OPEN",
-  "fetchedAt": "2026-11-16T00:27:58.962Z",
+  "fetchedAt": "2026-11-17T03:15:38.693Z",
   "summary": {
     "total": 86,
     "added": 0,
-    "changed": 5,
-    "unchanged": 81,
-    "removed": 1
+    "changed": 4,
+    "unchanged": 82,
+    "removed": 0
   },
   "imageSummary": {
     "skipped-existing-url": 85,
@@ -1304,10 +1304,10 @@
       "categoryTitle": "인기 메뉴",
       "categoryTitleEn": "BEST",
       "position": 1,
-      "title": "[시즌한정] 베리베리와플",
-      "titleEn": "Very Berry Waffle",
-      "description": "뉴질랜드 앵커 버터를 넣어 직접 반죽한 겉바속쫀 벨기에와플에\n상큼한 딸기와 블루베리, 부드러운 생크림을 듬뿍 올린 디저트",
-      "descriptionEn": "A dessert topped with fresh strawberries and blueberries and a generous amount of soft whipped cream on a sweet and crispy Belgian Liège waffle.",
+      "title": "[Premium] 베리베리와플",
+      "titleEn": "{Premium}Very Berry Waffle",
+      "description": "뉴질랜드 앵커 버터로 직접 반죽해 구운 벨기에 와플에 부드러운 생크림, 상큼한 제철 딸기와 블루베리를 더한 고급 디저트",
+      "descriptionEn": "A premium dessert featuring a freshly baked Belgian waffle made from scratch with New Zealand Anchor butter, topped with soft whipped cream, fresh seasonal strawberries, and blueberries.",
       "state": "ON_SALE",
       "priceValue": 17000,
       "priceTitle": "기본",
@@ -1358,7 +1358,7 @@
           ]
         }
       ],
-      "fingerprint": "f40d88c00687c3ab7f488b605cce2b037f0d9a1906f22f1af9f85fe9408368fd",
+      "fingerprint": "4a826db5e70f255dd7f211b34c5f7e148037abc778346a52b76ff404fb048f7d",
       "imageLocalPath": "data/tossplace-menu/238090/images/15684896-시즌한정-베리베리와플-23c3520d15.jpg",
       "imageHash": "23c3520d15b1d0577c358925bd1f095ec7a30a861b01f0cdb9f3ac22686402fd",
       "imageStatus": "skipped-existing-url"
@@ -3896,10 +3896,10 @@
       "categoryTitle": "벨기에와플",
       "categoryTitleEn": "Belgium Waffle",
       "position": 1,
-      "title": "[시즌한정]베리베리와플",
-      "titleEn": "[limited] very berry waffle",
-      "description": "뉴질랜드 앵커 버터를 넣어 직접 반죽한 겉바속쫀 벨기에와플에\n상큼한 딸기와 블루베리, 부드러운 생크림을 듬뿍 올린 디저트",
-      "descriptionEn": "A dessert topped with fresh strawberries and blueberries and a generous amount of soft whipped cream on a sweet and crispy Belgian Liège waffle.",
+      "title": "[Premium]베리베리와플",
+      "titleEn": "[Premium]very berry waffle",
+      "description": "뉴질랜드 앵커 버터로 직접 반죽해 구운 벨기에 와플에 부드러운 생크림, 상큼한 제철 딸기와 블루베리를 더한 고급 디저트",
+      "descriptionEn": "A premium dessert featuring a freshly baked Belgian waffle made from scratch with New Zealand Anchor butter, topped with soft whipped cream, fresh seasonal strawberries, and blueberries.",
       "state": "ON_SALE",
       "priceValue": 17000,
       "priceTitle": "기본",
@@ -3933,7 +3933,7 @@
           ]
         }
       ],
-      "fingerprint": "3713dc7b77374fd7247604812e78b3cf401366e804e49a82f5abd37f7d3d3598",
+      "fingerprint": "25f47458487b1042b624e6b1bec49ffccc35e65e79ebc828aff95bc224c1ab39",
       "imageLocalPath": "data/tossplace-menu/238090/images/10639334-시즌한정-베리베리와플-95fd9c7476.jpg",
       "imageHash": "95fd9c7476b80890cfe5596119a97d091beb01b8dd7ebf62ece3410e437394e0",
       "imageStatus": "skipped-existing-url"
@@ -3944,11 +3944,11 @@
       "categoryTitle": "벨기에와플",
       "categoryTitleEn": "Belgium Waffle",
       "position": 2,
-      "title": "[시즌한정]딸기왕창와플",
-      "titleEn": "[seson limited] Strawberry waffle",
+      "title": "[Premium] 딸기왕창와플",
+      "titleEn": "[Premium] Strawberry waffle",
       "description": "뉴질랜드 앵커 버터 향 가득한 와플 위에 클루미가 딸기를 실수로(?) 와르르— 쏟아버렸대요!\n쏟아진 딸기 양에 깜짝 놀랄지도 몰라요. 겉바속쫀 와플과 상큼한 딸기 폭탄, 그리고 진한 아이스크림의 환상적인 만남! 클루미의 귀여운 실수를 맛있게 즐겨보세요! 💘",
       "descriptionEn": "Oops! Clumi dropped the strawberries! 🍓💥\"\n\nClumi was so excited that she accidentally showered this waffle with a mountain of fresh strawberries!\nEnjoy our signature 'crispy & chewy' Anchor butter waffle, now loaded with an explosion of berries and rich ice cream. It’s a sweet, strawberry-filled accident you don't want to miss! 💘",
-      "state": "ON_SALE",
+      "state": "SOLD_OUT",
       "priceValue": 17000,
       "priceTitle": "기본",
       "imageUrl": "https://place-static.tossplace.com/public/live/PUBLIC/2026-04-09/79ca2a21-1668-4235-af21-4431110ebb67",
@@ -3981,7 +3981,7 @@
           ]
         }
       ],
-      "fingerprint": "137bf21863a5fd6d3730ecd830184355a9f1c27e99fe76c2b13a413cd7d07cc9",
+      "fingerprint": "f307eb960bcd35cfe19f1efdaec615d55593b21d9f5b13de468c64535f6fb054",
       "imageLocalPath": "data/tossplace-menu/238090/images/9479299-시즌한정-딸기왕창와플-381c363183.jpg",
       "imageHash": "381c363183e4e47c8b2fe8b268e76d1a24d5a8d8ab864b826fdc5d5c1c7161bf",
       "imageStatus": "skipped-existing-url"
@@ -4791,7 +4791,7 @@
       "titleEn": "Earl Grey Fig",
       "description": "달콤한 무화과가 듬뿍 들어간 고소한 시트 위에,\n향긋한 얼그레이 크림을 올린 부드러운 케이크 ☕🍰",
       "descriptionEn": "A soft cake layered with nutty sponge filled with sweet figs, topped with fragrant Earl Grey cream ☕🍰",
-      "state": "ON_SALE",
+      "state": "SOLD_OUT",
       "priceValue": 10900,
       "priceTitle": "기본",
       "imageUrl": "https://place-static.tossplace.com/public/live/PUBLIC/2026-05-12/965186ba-98fb-4c6b-bdd7-15c905728f22",
@@ -4815,7 +4815,7 @@
           ]
         }
       ],
-      "fingerprint": "095ff66c23447b2e3ad030ce6e79458792966367d70900ffccf869ab09b311f6",
+      "fingerprint": "df0d6b70fdb063d8aff2fd864d6a523b852106c107a8fd259b735cb18cf74e6a",
       "imageLocalPath": "data/tossplace-menu/238090/images/10842350-얼그레이-무화과-0f5f5e5bf2.jpg",
       "imageHash": "0f5f5e5bf2263c6d32c3cf25d28b16a234dd70a0ccd3b2088184f007f50fbc48",
       "imageStatus": "skipped-existing-url"
