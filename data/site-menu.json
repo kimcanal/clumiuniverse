@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-17T03:15:38.693Z",
+  "generatedAt": "2026-11-18T02:38:35.503Z",
   "merchantId": 238090,
   "items": [
     {
@@ -153,7 +153,9 @@
       "title": "오렌지 비앙코",
       "description": "",
       "state": "ON_SALE",
-      "labels": [],
+      "labels": [
+        "인기"
+      ],
       "imageLocalPath": "data/tossplace-menu/238090/images/14267209-오렌지-비앙코-dda910de0e.webp"
     },
     {
@@ -476,7 +478,7 @@
       "categoryTitleEn": "Belgium Waffle",
       "title": "[Premium] 딸기왕창와플",
       "description": "뉴질랜드 앵커 버터 향 가득한 와플 위에 클루미가 딸기를 실수로(?) 와르르— 쏟아버렸대요!\n쏟아진 딸기 양에 깜짝 놀랄지도 몰라요. 겉바속쫀 와플과 상큼한 딸기 폭탄, 그리고 진한 아이스크림의 환상적인 만남! 클루미의 귀여운 실수를 맛있게 즐겨보세요! 💘",
-      "state": "SOLD_OUT",
+      "state": "ON_SALE",
       "labels": [
         "인기"
       ],
@@ -599,7 +601,9 @@
       "title": "초콜릿로쉐케익",
       "description": "부드러운 스페인산 고급 초콜릿 위에 고소하게 구운 헤이즐넛을 올려\n한 입 베어 물면 진한 초콜릿 풍미가 가득 퍼지는 케이크",
       "state": "ON_SALE",
-      "labels": [],
+      "labels": [
+        "인기"
+      ],
       "imageLocalPath": "data/tossplace-menu/238090/images/10192464-초콜릿로쉐케익-52fe1dcc82.webp"
     },
     {
@@ -640,7 +644,7 @@
       "categoryTitleEn": "Smoothie",
       "title": "[100%]딸기주스",
       "description": "100% 딸기가 전하는 순수한 맛:\n오직 신선한 제철 딸기만을 아낌없이 갈아 넣어, 첨가물 없이도 딸기 본연의 달콤하고 상큼한 맛을 완벽하게 즐길 수 있습니다. 한 모금 마실 때마다 입안 가득 퍼지는 신선한 딸기 향을 느껴보세요.",
-      "state": "SOLD_OUT",
+      "state": "ON_SALE",
       "labels": [
         "인기"
       ],
@@ -738,7 +742,7 @@
       "categoryTitleEn": "Tea",
       "title": "복숭아아이스티",
       "description": "",
-      "state": "ON_SALE",
+      "state": "SOLD_OUT",
       "labels": [],
       "imageLocalPath": "data/tossplace-menu/238090/images/6979125-복숭아아이스티-4cd29fc8e8.webp"
     },
@@ -809,7 +813,9 @@
       "title": "노을에이드",
       "description": "붉은 히비스커스와 상큼한 레몬, 톡 쏘는 탄산이 만나 뜨거운 열정은 채우고 답답한 분노는 시원하게 가라앉혀 주는 반전 매력의 티 에이드",
       "state": "ON_SALE",
-      "labels": [],
+      "labels": [
+        "신규"
+      ],
       "imageLocalPath": "data/tossplace-menu/238090/images/18570601-노을에이드-e9682c37fa.webp"
     },
     {

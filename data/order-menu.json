@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-17T03:15:38.693Z",
+  "generatedAt": "2026-11-18T02:38:35.503Z",
   "merchantId": 238090,
   "items": [
     {
@@ -36,35 +36,35 @@
               "id": 1275946,
               "title": "소시지(2)",
               "titleEn": "sausage(2)",
-              "priceValue": 2000,
+              "priceValue": 2500,
               "available": true
             },
             {
               "id": 1275944,
               "title": "해쉬브라운(1)",
               "titleEn": "hashbrown(1)",
-              "priceValue": 2500,
+              "priceValue": 3000,
               "available": true
             },
             {
               "id": 1275945,
               "title": "그린빈(6)",
               "titleEn": "green bean(6)",
-              "priceValue": 1500,
+              "priceValue": 2000,
               "available": true
             },
             {
               "id": 1275948,
               "title": "방울토마토(4)",
               "titleEn": "cherry tomato(4)",
-              "priceValue": 2000,
+              "priceValue": 3000,
               "available": true
             },
             {
               "id": 1276192,
               "title": "아보카도(1/2)",
               "titleEn": "Avocado(half)",
-              "priceValue": 3500,
+              "priceValue": 4000,
               "available": true
             },
             {
@@ -1152,7 +1152,9 @@
       "priceValue": 7500,
       "priceTitle": "기본",
       "available": true,
-      "labels": [],
+      "labels": [
+        "인기"
+      ],
       "optionSets": [
         {
           "id": 296010,
@@ -3321,7 +3323,7 @@
       "descriptionEn": "Oops! Clumi dropped the strawberries! 🍓💥\"\n\nClumi was so excited that she accidentally showered this waffle with a mountain of fresh strawberries!\nEnjoy our signature 'crispy & chewy' Anchor butter waffle, now loaded with an explosion of berries and rich ice cream. It’s a sweet, strawberry-filled accident you don't want to miss! 💘",
       "priceValue": 17000,
       "priceTitle": "기본",
-      "available": false,
+      "available": true,
       "labels": [
         "인기"
       ],
@@ -4138,7 +4140,9 @@
       "priceValue": 10900,
       "priceTitle": "기본",
       "available": true,
-      "labels": [],
+      "labels": [
+        "인기"
+      ],
       "optionSets": [
         {
           "id": 377185,
@@ -4249,7 +4253,7 @@
       "descriptionEn": "100% Pure Taste from Strawberries:\nWe generously blend only the freshest in-season strawberries, so you can perfectly enjoy their natural, sweet, and refreshing taste, completely free of additives. Experience the vibrant, fresh strawberry aroma that fills your mouth with every single sip.",
       "priceValue": 7500,
       "priceTitle": "기본",
-      "available": false,
+      "available": true,
       "labels": [
         "인기"
       ],
@@ -4566,7 +4570,7 @@
       "descriptionEn": "",
       "priceValue": 5000,
       "priceTitle": "기본",
-      "available": true,
+      "available": false,
       "labels": [],
       "optionSets": [
         {
@@ -4802,7 +4806,9 @@
       "priceValue": 6500,
       "priceTitle": "기본",
       "available": true,
-      "labels": [],
+      "labels": [
+        "신규"
+      ],
       "optionSets": [],
       "imageLocalPath": "data/tossplace-menu/238090/images/18570601-노을에이드-e9682c37fa.webp"
     },
@@ -4844,7 +4850,7 @@
       "titleEn": "[Pre-order] Kids'  black T-shirt ",
       "description": "",
       "descriptionEn": "",
-      "priceValue": 100000,
+      "priceValue": 55000,
       "priceTitle": "기본",
       "available": true,
       "labels": [],

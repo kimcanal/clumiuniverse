@@ -2,12 +2,12 @@
   "merchantId": 238090,
   "merchantName": "클루미 유니버스",
   "merchantStatus": "OPEN",
-  "fetchedAt": "2026-11-17T03:15:38.693Z",
+  "fetchedAt": "2026-11-18T02:38:35.503Z",
   "summary": {
     "total": 86,
     "added": 0,
-    "changed": 4,
-    "unchanged": 82,
+    "changed": 8,
+    "unchanged": 78,
     "removed": 0
   },
   "imageSummary": {
@@ -408,35 +408,35 @@
               "id": 1275946,
               "title": "소시지(2)",
               "titleEn": "sausage(2)",
-              "priceValue": 2000,
+              "priceValue": 2500,
               "state": "ON_SALE"
             },
             {
               "id": 1275944,
               "title": "해쉬브라운(1)",
               "titleEn": "hashbrown(1)",
-              "priceValue": 2500,
+              "priceValue": 3000,
               "state": "ON_SALE"
             },
             {
               "id": 1275945,
               "title": "그린빈(6)",
               "titleEn": "green bean(6)",
-              "priceValue": 1500,
+              "priceValue": 2000,
               "state": "ON_SALE"
             },
             {
               "id": 1275948,
               "title": "방울토마토(4)",
               "titleEn": "cherry tomato(4)",
-              "priceValue": 2000,
+              "priceValue": 3000,
               "state": "ON_SALE"
             },
             {
               "id": 1276192,
               "title": "아보카도(1/2)",
               "titleEn": "Avocado(half)",
-              "priceValue": 3500,
+              "priceValue": 4000,
               "state": "ON_SALE"
             },
             {
@@ -463,7 +463,7 @@
           ]
         }
       ],
-      "fingerprint": "ec80a17d95b2faad9b6a0143a486114f54029fa3b2c36c20922de5cf09e4515b",
+      "fingerprint": "3b69871778f0f0b9ba525553e3f758c560c336262f7b5b5597a320dc89eb8193",
       "imageLocalPath": "data/tossplace-menu/238090/images/10991140-내맘대로-브런치-Basic-waffle-2bf91a2b67.jpg",
       "imageHash": "2bf91a2b6763b0b5dc4eca2c2bc5134c704cdb27bcb9704fc4e44860f374f879",
       "imageStatus": "skipped-existing-url"
@@ -1602,7 +1602,9 @@
       "priceValue": 7500,
       "priceTitle": "기본",
       "imageUrl": "https://place-static.tossplace.com/public/live/PUBLIC/2026-06-06/2beb303a-c1f9-4dae-9725-b1d35a62317e",
-      "labels": [],
+      "labels": [
+        "인기"
+      ],
       "optionSets": [
         {
           "id": 296010,
@@ -1653,7 +1655,7 @@
           ]
         }
       ],
-      "fingerprint": "a96459ce729abf32a1a9e8c63e56781da51bb923ca4e516041d619bce9006dfc",
+      "fingerprint": "4c4ecb050e48f352c551f73f91983d29406b0508f561459f448eed55713aafcd",
       "imageLocalPath": "data/tossplace-menu/238090/images/14267209-오렌지-비앙코-dda910de0e.jpg",
       "imageHash": "dda910de0ece7d52a0b6ddcfbbd3ef6e0dc9d34497a543c355f61fa2781093e1",
       "imageStatus": "skipped-existing-url"
@@ -3948,7 +3950,7 @@
       "titleEn": "[Premium] Strawberry waffle",
       "description": "뉴질랜드 앵커 버터 향 가득한 와플 위에 클루미가 딸기를 실수로(?) 와르르— 쏟아버렸대요!\n쏟아진 딸기 양에 깜짝 놀랄지도 몰라요. 겉바속쫀 와플과 상큼한 딸기 폭탄, 그리고 진한 아이스크림의 환상적인 만남! 클루미의 귀여운 실수를 맛있게 즐겨보세요! 💘",
       "descriptionEn": "Oops! Clumi dropped the strawberries! 🍓💥\"\n\nClumi was so excited that she accidentally showered this waffle with a mountain of fresh strawberries!\nEnjoy our signature 'crispy & chewy' Anchor butter waffle, now loaded with an explosion of berries and rich ice cream. It’s a sweet, strawberry-filled accident you don't want to miss! 💘",
-      "state": "SOLD_OUT",
+      "state": "ON_SALE",
       "priceValue": 17000,
       "priceTitle": "기본",
       "imageUrl": "https://place-static.tossplace.com/public/live/PUBLIC/2026-04-09/79ca2a21-1668-4235-af21-4431110ebb67",
@@ -3981,7 +3983,7 @@
           ]
         }
       ],
-      "fingerprint": "f307eb960bcd35cfe19f1efdaec615d55593b21d9f5b13de468c64535f6fb054",
+      "fingerprint": "cde41d85f46d63f564480ef0ba79e1d9aed9e1aeafd60bf8135d4ae7973586ac",
       "imageLocalPath": "data/tossplace-menu/238090/images/9479299-시즌한정-딸기왕창와플-381c363183.jpg",
       "imageHash": "381c363183e4e47c8b2fe8b268e76d1a24d5a8d8ab864b826fdc5d5c1c7161bf",
       "imageStatus": "skipped-existing-url"
@@ -4834,7 +4836,9 @@
       "priceValue": 10900,
       "priceTitle": "기본",
       "imageUrl": "https://place-static.tossplace.com/public/live/PUBLIC/2026-05-12/643d509d-6f8f-4186-a5ba-28c4839cc761",
-      "labels": [],
+      "labels": [
+        "인기"
+      ],
       "optionSets": [
         {
           "id": 377185,
@@ -4854,7 +4858,7 @@
           ]
         }
       ],
-      "fingerprint": "115ba0a90cd6c3a51e4c6e45dba6c78e7439f3a9d1420921cfd4b354b0633d1f",
+      "fingerprint": "cd65ec7707ff0a4eed5f0e599d14e98080b709f368b6c48bab968e2da7e2dfd7",
       "imageLocalPath": "data/tossplace-menu/238090/images/10192464-초콜릿로쉐케익-52fe1dcc82.jpg",
       "imageHash": "52fe1dcc82b800fd1494dbfa9cf12ca59474a0af9d602087499a9d4e9a1ce6fe",
       "imageStatus": "skipped-existing-url"
@@ -4966,7 +4970,7 @@
       "titleEn": "[100%] Strawberry Juice",
       "description": "100% 딸기가 전하는 순수한 맛:\n오직 신선한 제철 딸기만을 아낌없이 갈아 넣어, 첨가물 없이도 딸기 본연의 달콤하고 상큼한 맛을 완벽하게 즐길 수 있습니다. 한 모금 마실 때마다 입안 가득 퍼지는 신선한 딸기 향을 느껴보세요.",
       "descriptionEn": "100% Pure Taste from Strawberries:\nWe generously blend only the freshest in-season strawberries, so you can perfectly enjoy their natural, sweet, and refreshing taste, completely free of additives. Experience the vibrant, fresh strawberry aroma that fills your mouth with every single sip.",
-      "state": "SOLD_OUT",
+      "state": "ON_SALE",
       "priceValue": 7500,
       "priceTitle": "기본",
       "imageUrl": "https://place-static.tossplace.com/public/live/PUBLIC/2026-05-16/ac9448af-48d7-457d-b7dd-dffe70077851",
@@ -4974,7 +4978,7 @@
         "인기"
       ],
       "optionSets": [],
-      "fingerprint": "a5f7b855c4eafe7efa4f4602075c5f5f89dbedb9c18205fb9a15643a95549b59",
+      "fingerprint": "ca8b9629e4b89cec0955f16b1cff4de6bb2e4f61b90c6bb041578d8759cfee05",
       "imageLocalPath": "data/tossplace-menu/238090/images/6979395-100-딸기주스-759a10f7aa.jpg",
       "imageHash": "759a10f7aac596cc29851495f75b6e5f1f036cea4ec249ca3b8a257b1baac2fc",
       "imageStatus": "skipped-existing-url"
@@ -5337,7 +5341,7 @@
       "titleEn": "Peach Iced Tea",
       "description": "",
       "descriptionEn": "",
-      "state": "ON_SALE",
+      "state": "SOLD_OUT",
       "priceValue": 5000,
       "priceTitle": "기본",
       "imageUrl": "https://place-static.tossplace.com/public/live/PUBLIC/2025-08-23/a9141e9f-6174-4181-8cf7-22022adc7e77",
@@ -5375,7 +5379,7 @@
           ]
         }
       ],
-      "fingerprint": "2f1173d6179b57877897a02ba62322bc6b71be91445b2dd7ca7703f68c786290",
+      "fingerprint": "7e60843c0fe2e86424b80d98a98569e563ef7e9f4ea94e314e55d823e8b65e61",
       "imageLocalPath": "data/tossplace-menu/238090/images/6979125-복숭아아이스티-4cd29fc8e8.jpg",
       "imageHash": "4cd29fc8e85ca112e4a71cc0b651b90b5d208fcf7d9cf55ea439f692e45c3b87",
       "imageStatus": "skipped-existing-url"
@@ -5618,9 +5622,11 @@
       "priceValue": 6500,
       "priceTitle": "기본",
       "imageUrl": "https://place-static.tossplace.com/public/live/PUBLIC/2026-10-31/de82e3c6-8966-4559-9479-0f21a9b8e2c9",
-      "labels": [],
+      "labels": [
+        "신규"
+      ],
       "optionSets": [],
-      "fingerprint": "dbef16e8fa2678265b2ec3251a81bede15e44f22019d9fc357082afca525ebd0",
+      "fingerprint": "5ec65e4f10607914afd50cce61003a13c06116519648a8b4522fc38d8635cc16",
       "imageLocalPath": "data/tossplace-menu/238090/images/18570601-노을에이드-e9682c37fa.jpg",
       "imageHash": "e9682c37faad7633098c41771e8f93d5311ac760819c941ae14d82b2330c62eb",
       "imageStatus": "skipped-existing-url"
@@ -5678,12 +5684,12 @@
       "description": "",
       "descriptionEn": "",
       "state": "ON_SALE",
-      "priceValue": 100000,
+      "priceValue": 55000,
       "priceTitle": "기본",
       "imageUrl": "https://place-static.tossplace.com/public/live/PUBLIC/2025-11-28/d958f97a-0889-4dee-87f2-76f8def03a6d",
       "labels": [],
       "optionSets": [],
-      "fingerprint": "f8b3dcc3de54e3979b3d1d566a7192bd92e2b27a35b191018946e5a53ccdf572",
+      "fingerprint": "2e98b6a5c4cff34cc8b185c8ff5265071c274df59aabfa4d2f55017559497ebd",
       "imageLocalPath": "data/tossplace-menu/238090/images/9276227-클루미-맨투맨-티셔츠-f6692afc7b.png",
       "imageHash": "f6692afc7bf6c69224a2cad1f906ecc2de261f7ece79fb178822670ceb705384",
       "imageStatus": "skipped-existing-url"
