@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-18T02:38:35.503Z",
+  "generatedAt": "2026-11-19T02:05:36.724Z",
   "merchantId": 238090,
   "items": [
     {
@@ -101,7 +101,7 @@
       "titleEn": "The Queen's Plate 3 (Coffee Set)",
       "description": "[10:30~21:00] 벨기에 리에주 방식의 바삭한 와플, 뉴질랜드 앵커 무염버터 100%로 만든 부드러운 스크램블, 신선한 방울 토마토, 커피를 곁들인 우아한 한 접시.",
       "descriptionEn": "[10:30~21:00] An elegant platter featuring crispy Belgian Liege-style waffles paired with silky scrambled eggs—made with 100% New Zealand Anchor unsalted butter—served alongside fresh cherry tomatoes and a cup of premium coffee.",
-      "priceValue": 15000,
+      "priceValue": 17000,
       "priceTitle": "기본",
       "available": true,
       "labels": [],
@@ -307,7 +307,7 @@
       "titleEn": "Queen’s Plate 4 (avocado)Coffee Set",
       "description": "[10:30~21:00] 정통 벨기에 리에주 와플과 100% 앵커 무염버터로 맛을 낸 부드러운 스크램블 에그,  신선한 아보카도와 방울토마토를 더하고 국가대표 바리스타 원두의 향긋한 커피 한 잔으로 완성한 우아한 한 접시입니다.\"",
       "descriptionEn": "[10:30~21:00] An elegant plate featuring an authentic Belgian Liège waffle, fluffy scrambled eggs made with 100% Anchor unsalted butter, and fresh avocado and cherry tomatoes, beautifully completed with a fragrant cup of coffee brewed from national champion barista roasted beans.",
-      "priceValue": 18000,
+      "priceValue": 19000,
       "priceTitle": "기본",
       "available": true,
       "labels": [
@@ -4073,7 +4073,7 @@
       "descriptionEn": "White chocolate matcha cake with creamy matcha ganache — a melt-in-your-mouth delight.",
       "priceValue": 10900,
       "priceTitle": "기본",
-      "available": true,
+      "available": false,
       "labels": [],
       "optionSets": [
         {

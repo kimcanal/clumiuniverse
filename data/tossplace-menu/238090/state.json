@@ -1820,14 +1820,14 @@
       "updatedAt": "2026-11-18T02:38:35.503Z"
     },
     "10197088": {
-      "fingerprint": "3ed79a10a964e239817f27a83c39ea3a1466a6dea63b4b3631f67fe9f1917300",
+      "fingerprint": "90e2d2b6e94a31310c34749fa3ed6dca345f1596534faa1129e76503fa6ae945",
       "title": "교토말차쇼콜라",
       "description": "꾸덕한 갸또 시트와 말차 가나슈에\n부드러운 우유 크림이 어우러진 케이크",
       "imageUrl": "https://place-static.tossplace.com/public/live/PUBLIC/2026-05-12/5058ffa0-185b-446a-a2b0-8f8701d1ca87",
       "imageLocalPath": "data/tossplace-menu/238090/images/10197088-교토말차쇼콜라-9d28d3d031.jpg",
       "imageHash": "9d28d3d031d728cd946817c735c6dd9ba1693b50a7c16e5636b47a33b131f455",
       "firstSeenAt": "2026-10-17T22:44:10.583Z",
-      "updatedAt": "2026-11-16T00:27:58.962Z"
+      "updatedAt": "2026-11-19T02:05:36.724Z"
     },
     "10433709": {
       "fingerprint": "81987fafdca06b63f066d6b90b838f2d905b291a371ef1a1522d4352a30b427a",
@@ -1920,24 +1920,24 @@
       "updatedAt": "2026-09-18T12:03:41.506Z"
     },
     "11075478": {
-      "fingerprint": "7169e8a1f6bdd1e12a63c70f7520518fea910cd5027da774be1ad2c39fb4d71c",
+      "fingerprint": "28f5cf60e5a014ce93635e56b734941b9462ad2f74d67fbf7a55b51ddeb542b8",
       "title": "여왕의접시3(Coffee Set)",
       "description": "[10:30~21:00] 벨기에 리에주 방식의 바삭한 와플, 뉴질랜드 앵커 무염버터 100%로 만든 부드러운 스크램블, 신선한 방울 토마토, 커피를 곁들인 우아한 한 접시.",
       "imageUrl": "https://place-static.tossplace.com/public/live/PUBLIC/2026-03-04/9f9e4d0e-8f27-4d4e-a18b-769c79f6f55c",
       "imageLocalPath": "data/tossplace-menu/238090/images/11075478-여왕의접시3-Coffee-Set-2db77c6fb1.jpg",
       "imageHash": "2db77c6fb1dcdc106bda33b0f0be84a83040ced39dc1e49b1952dc48f24c583a",
       "firstSeenAt": "2026-07-21T04:15:20.254Z",
-      "updatedAt": "2026-09-18T12:03:41.506Z"
+      "updatedAt": "2026-11-19T02:05:36.724Z"
     },
     "11075904": {
-      "fingerprint": "54353190d365164a8ecde2b815a5ae526078002cd87a82415ea9a793aa79f4cc",
+      "fingerprint": "30d52351bde0a78d12aaee8e4801cc5c62ae230059fca31c28611f8d58b1066e",
       "title": "여왕의접시4(아보카도)Coffee Set",
       "description": "[10:30~21:00] 정통 벨기에 리에주 와플과 100% 앵커 무염버터로 맛을 낸 부드러운 스크램블 에그,  신선한 아보카도와 방울토마토를 더하고 국가대표 바리스타 원두의 향긋한 커피 한 잔으로 완성한 우아한 한 접시입니다.\"",
       "imageUrl": "https://place-static.tossplace.com/public/live/PUBLIC/2026-03-03/a192cd00-dc2a-41b4-ad02-47f2f7585ea1",
       "imageLocalPath": "data/tossplace-menu/238090/images/11075904-여왕의접시4-아보카도-Coffee-Set-76b7edcaa3.jpg",
       "imageHash": "76b7edcaa34530e5781599b022854d03a94b2a5d3d9fa65917e2ef864acdc41a",
       "firstSeenAt": "2026-07-21T04:15:20.254Z",
-      "updatedAt": "2026-09-18T12:03:41.506Z"
+      "updatedAt": "2026-11-19T02:05:36.724Z"
     },
     "11191767": {
       "fingerprint": "ada30bc28619f812a8c9b0d97180ee2426abe61c62ff83d52bf165929ba11425",
@@ -2171,19 +2171,6 @@
     }
   },
   "runs": [
-    {
-      "at": "2026-10-23T23:36:33.632Z",
-      "summary": {
-        "total": 85,
-        "added": 0,
-        "changed": 1,
-        "unchanged": 84,
-        "removed": 1
-      },
-      "imageSummary": {
-        "skipped-existing-url": 85
-      }
-    },
     {
       "at": "2026-10-24T22:46:01.399Z",
       "summary": {
@@ -2442,7 +2429,21 @@
         "skipped-existing-url": 85,
         "missing": 1
       }
+    },
+    {
+      "at": "2026-11-19T02:05:36.724Z",
+      "summary": {
+        "total": 86,
+        "added": 0,
+        "changed": 3,
+        "unchanged": 83,
+        "removed": 0
+      },
+      "imageSummary": {
+        "skipped-existing-url": 85,
+        "missing": 1
+      }
     }
   ],
-  "lastRunAt": "2026-11-18T02:38:35.503Z"
+  "lastRunAt": "2026-11-19T02:05:36.724Z"
 }
