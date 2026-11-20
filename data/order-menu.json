@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-19T02:05:36.724Z",
+  "generatedAt": "2026-11-20T01:55:35.286Z",
   "merchantId": 238090,
   "items": [
     {
@@ -36,7 +36,7 @@
               "id": 1275946,
               "title": "소시지(2)",
               "titleEn": "sausage(2)",
-              "priceValue": 2500,
+              "priceValue": 3000,
               "available": true
             },
             {
@@ -50,7 +50,7 @@
               "id": 1275945,
               "title": "그린빈(6)",
               "titleEn": "green bean(6)",
-              "priceValue": 2000,
+              "priceValue": 3000,
               "available": true
             },
             {
@@ -71,7 +71,7 @@
               "id": 1275993,
               "title": "케찹",
               "titleEn": "ketchup",
-              "priceValue": 500,
+              "priceValue": 1000,
               "available": true
             },
             {

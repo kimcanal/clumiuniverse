@@ -1900,14 +1900,14 @@
       "updatedAt": "2026-08-29T22:52:03.755Z"
     },
     "10991140": {
-      "fingerprint": "3b69871778f0f0b9ba525553e3f758c560c336262f7b5b5597a320dc89eb8193",
+      "fingerprint": "9e6c96ad319d18b09c1354faf6b0ba8bd2a944ea3ee589c863fcd5b6b7e2e88e",
       "title": "내맘대로 브런치(Basic waffle)",
       "description": "[뉴질랜드 앵커 무염 버터 100%] 벨기에 리에주 방식의 와플로 겉은 바삭 속은 촉촉한 벨기에 와플,원하는 메뉴를 담아서 나만의 유니크한 메뉴를 만드세요.(Basic waffle)",
       "imageUrl": "https://place-static.tossplace.com/public/live/PUBLIC/2026-11-01/bd06faad-a5cb-4ef1-91ba-0a4172fd9517",
       "imageLocalPath": "data/tossplace-menu/238090/images/10991140-내맘대로-브런치-Basic-waffle-2bf91a2b67.jpg",
       "imageHash": "2bf91a2b6763b0b5dc4eca2c2bc5134c704cdb27bcb9704fc4e44860f374f879",
       "firstSeenAt": "2026-07-21T04:15:20.254Z",
-      "updatedAt": "2026-11-18T02:38:35.503Z"
+      "updatedAt": "2026-11-20T01:55:35.286Z"
     },
     "10999047": {
       "fingerprint": "f96aa071a9ca0bf1c67af5ee33a1cf911394c77046d85ab692a17dd079eab048",
@@ -2172,20 +2172,6 @@
   },
   "runs": [
     {
-      "at": "2026-10-24T22:46:01.399Z",
-      "summary": {
-        "total": 86,
-        "added": 1,
-        "changed": 1,
-        "unchanged": 84,
-        "removed": 0
-      },
-      "imageSummary": {
-        "skipped-existing-url": 85,
-        "downloaded": 1
-      }
-    },
-    {
       "at": "2026-10-25T22:52:20.282Z",
       "summary": {
         "total": 86,
@@ -2443,7 +2429,21 @@
         "skipped-existing-url": 85,
         "missing": 1
       }
+    },
+    {
+      "at": "2026-11-20T01:55:35.286Z",
+      "summary": {
+        "total": 86,
+        "added": 0,
+        "changed": 1,
+        "unchanged": 85,
+        "removed": 0
+      },
+      "imageSummary": {
+        "skipped-existing-url": 85,
+        "missing": 1
+      }
     }
   ],
-  "lastRunAt": "2026-11-19T02:05:36.724Z"
+  "lastRunAt": "2026-11-20T01:55:35.286Z"
 }

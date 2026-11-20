@@ -2,12 +2,12 @@
   "merchantId": 238090,
   "merchantName": "클루미 유니버스",
   "merchantStatus": "OPEN",
-  "fetchedAt": "2026-11-19T02:05:36.724Z",
+  "fetchedAt": "2026-11-20T01:55:35.286Z",
   "summary": {
     "total": 86,
     "added": 0,
-    "changed": 3,
-    "unchanged": 83,
+    "changed": 1,
+    "unchanged": 85,
     "removed": 0
   },
   "imageSummary": {
@@ -408,7 +408,7 @@
               "id": 1275946,
               "title": "소시지(2)",
               "titleEn": "sausage(2)",
-              "priceValue": 2500,
+              "priceValue": 3000,
               "state": "ON_SALE"
             },
             {
@@ -422,7 +422,7 @@
               "id": 1275945,
               "title": "그린빈(6)",
               "titleEn": "green bean(6)",
-              "priceValue": 2000,
+              "priceValue": 3000,
               "state": "ON_SALE"
             },
             {
@@ -443,7 +443,7 @@
               "id": 1275993,
               "title": "케찹",
               "titleEn": "ketchup",
-              "priceValue": 500,
+              "priceValue": 1000,
               "state": "ON_SALE"
             },
             {
@@ -463,7 +463,7 @@
           ]
         }
       ],
-      "fingerprint": "3b69871778f0f0b9ba525553e3f758c560c336262f7b5b5597a320dc89eb8193",
+      "fingerprint": "9e6c96ad319d18b09c1354faf6b0ba8bd2a944ea3ee589c863fcd5b6b7e2e88e",
       "imageLocalPath": "data/tossplace-menu/238090/images/10991140-내맘대로-브런치-Basic-waffle-2bf91a2b67.jpg",
       "imageHash": "2bf91a2b6763b0b5dc4eca2c2bc5134c704cdb27bcb9704fc4e44860f374f879",
       "imageStatus": "skipped-existing-url"
