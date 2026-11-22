@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-21T01:50:31.947Z",
+  "generatedAt": "2026-11-22T00:44:53.392Z",
   "merchantId": 238090,
   "items": [
     {
@@ -65,7 +65,7 @@
               "title": "아보카도(1/2)",
               "titleEn": "Avocado(half)",
               "priceValue": 4000,
-              "available": true
+              "available": false
             },
             {
               "id": 1275993,
@@ -309,7 +309,7 @@
       "descriptionEn": "[10:30~21:00] An elegant plate featuring an authentic Belgian Liège waffle, fluffy scrambled eggs made with 100% Anchor unsalted butter, and fresh avocado and cherry tomatoes, beautifully completed with a fragrant cup of coffee brewed from national champion barista roasted beans.",
       "priceValue": 19000,
       "priceTitle": "기본",
-      "available": true,
+      "available": false,
       "labels": [
         "인기"
       ],
@@ -993,7 +993,9 @@
       "priceValue": 17000,
       "priceTitle": "기본",
       "available": true,
-      "labels": [],
+      "labels": [
+        "인기"
+      ],
       "optionSets": [
         {
           "id": 366680,
@@ -4030,15 +4032,15 @@
     },
     {
       "id": 10641666,
-      "categoryTitle": "디저트",
-      "categoryTitleEn": "Dessert",
+      "categoryTitle": "케이크",
+      "categoryTitleEn": "Cake",
       "title": "딸기포레누아",
       "titleEn": "Strawberry Forêt noire",
       "description": "상큼한 딸기, 부드러운 우유 크림, 달콤한 화이트 초콜릿이 만나 포근하게 완성된 딸기 케이크 🍓",
       "descriptionEn": "A strawberry cake with a harmonious blend of fresh strawberries, smooth milk cream, and white chocolate.",
       "priceValue": 12000,
       "priceTitle": "기본",
-      "available": true,
+      "available": false,
       "labels": [
         "인기"
       ],
@@ -4065,15 +4067,15 @@
     },
     {
       "id": 10197088,
-      "categoryTitle": "디저트",
-      "categoryTitleEn": "Dessert",
+      "categoryTitle": "케이크",
+      "categoryTitleEn": "Cake",
       "title": "교토말차쇼콜라",
       "titleEn": "Kyoto Matcha Chocolat",
       "description": "꾸덕한 갸또 시트와 말차 가나슈에\n부드러운 우유 크림이 어우러진 케이크",
       "descriptionEn": "White chocolate matcha cake with creamy matcha ganache — a melt-in-your-mouth delight.",
       "priceValue": 10900,
       "priceTitle": "기본",
-      "available": false,
+      "available": true,
       "labels": [],
       "optionSets": [
         {
@@ -4098,15 +4100,15 @@
     },
     {
       "id": 10842350,
-      "categoryTitle": "디저트",
-      "categoryTitleEn": "Dessert",
+      "categoryTitle": "케이크",
+      "categoryTitleEn": "Cake",
       "title": "얼그레이 무화과",
       "titleEn": "Earl Grey Fig",
       "description": "달콤한 무화과가 듬뿍 들어간 고소한 시트 위에,\n향긋한 얼그레이 크림을 올린 부드러운 케이크 ☕🍰",
       "descriptionEn": "A soft cake layered with nutty sponge filled with sweet figs, topped with fragrant Earl Grey cream ☕🍰",
       "priceValue": 10900,
       "priceTitle": "기본",
-      "available": false,
+      "available": true,
       "labels": [],
       "optionSets": [
         {
@@ -4131,8 +4133,8 @@
     },
     {
       "id": 10192464,
-      "categoryTitle": "디저트",
-      "categoryTitleEn": "Dessert",
+      "categoryTitle": "케이크",
+      "categoryTitleEn": "Cake",
       "title": "초콜릿로쉐케익",
       "titleEn": "Chocolate Roche Cake",
       "description": "부드러운 스페인산 고급 초콜릿 위에 고소하게 구운 헤이즐넛을 올려\n한 입 베어 물면 진한 초콜릿 풍미가 가득 퍼지는 케이크",
@@ -4165,9 +4167,43 @@
       "imageLocalPath": "data/tossplace-menu/238090/images/10192464-초콜릿로쉐케익-52fe1dcc82.webp"
     },
     {
+      "id": 17753479,
+      "categoryTitle": "케이크",
+      "categoryTitleEn": "Cake",
+      "title": "밤 몽블랑",
+      "titleEn": "Mont Blanc Cake",
+      "description": "달콤하고 고소한 밤 크림이\n입안에서 사르르 녹아드는 몽블랑.\n",
+      "descriptionEn": "Sweet, nutty chestnut cream\nmelts softly in your mouth with every bite.",
+      "priceValue": 10900,
+      "priceTitle": "기본",
+      "available": true,
+      "labels": [
+        "신규"
+      ],
+      "optionSets": [],
+      "imageLocalPath": "data/tossplace-menu/238090/images/17753479-밤-몽블랑-1800cf14aa.webp"
+    },
+    {
+      "id": 10114893,
+      "categoryTitle": "케이크",
+      "categoryTitleEn": "Cake",
+      "title": "아이스크림 브라우니",
+      "titleEn": "Ice cream Brownie",
+      "description": "진한 초콜릿 브라우니 위에\n부드러운 바닐라 아이스크림을 올렸어요.\n따뜻함과 차가움이 만나 한 입만으로도 충분히 행복해지는 디저트.",
+      "descriptionEn": "A rich chocolate brownie topped with smooth vanilla ice cream.\nWarm and cold in perfect balance one bite is all it takes to fall in love.",
+      "priceValue": 10900,
+      "priceTitle": "기본",
+      "available": true,
+      "labels": [
+        "인기"
+      ],
+      "optionSets": [],
+      "imageLocalPath": "data/tossplace-menu/238090/images/10114893-아이스크림-브라우니-1ca4423910.webp"
+    },
+    {
       "id": 10652155,
-      "categoryTitle": "디저트",
-      "categoryTitleEn": "Dessert",
+      "categoryTitle": "케이크",
+      "categoryTitleEn": "Cake",
       "title": "케이크 초",
       "titleEn": "",
       "description": "",
