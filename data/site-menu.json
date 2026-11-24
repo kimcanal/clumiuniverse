@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-22T00:44:53.392Z",
+  "generatedAt": "2026-11-24T05:01:51.181Z",
   "merchantId": 238090,
   "items": [
     {
@@ -30,7 +30,7 @@
       "categoryTitleEn": "Brunch",
       "title": "여왕의접시4(아보카도)Coffee Set",
       "description": "[10:30~21:00] 정통 벨기에 리에주 와플과 100% 앵커 무염버터로 맛을 낸 부드러운 스크램블 에그,  신선한 아보카도와 방울토마토를 더하고 국가대표 바리스타 원두의 향긋한 커피 한 잔으로 완성한 우아한 한 접시입니다.\"",
-      "state": "SOLD_OUT",
+      "state": "ON_SALE",
       "labels": [
         "인기"
       ],
@@ -108,7 +108,7 @@
       "categoryTitleEn": "BEST",
       "title": "[피스타치오] 초코 반하나 와플",
       "description": "앵커 버터로 반죽한 겉바속쫀 리에주 와플에 바나나,생크림,초코볼,피스타치오를 올린 시그니처 와플. 한 입에 반해버릴지도 몰라요.",
-      "state": "ON_SALE",
+      "state": "SOLD_OUT",
       "labels": [
         "인기"
       ],
@@ -480,7 +480,7 @@
       "categoryTitleEn": "Belgium Waffle",
       "title": "[Premium] 딸기왕창와플",
       "description": "뉴질랜드 앵커 버터 향 가득한 와플 위에 클루미가 딸기를 실수로(?) 와르르— 쏟아버렸대요!\n쏟아진 딸기 양에 깜짝 놀랄지도 몰라요. 겉바속쫀 와플과 상큼한 딸기 폭탄, 그리고 진한 아이스크림의 환상적인 만남! 클루미의 귀여운 실수를 맛있게 즐겨보세요! 💘",
-      "state": "ON_SALE",
+      "state": "SOLD_OUT",
       "labels": [
         "인기"
       ],
@@ -768,7 +768,7 @@
       "categoryTitleEn": "Tea",
       "title": "복숭아아이스티",
       "description": "",
-      "state": "SOLD_OUT",
+      "state": "ON_SALE",
       "labels": [],
       "imageLocalPath": "data/tossplace-menu/238090/images/6979125-복숭아아이스티-4cd29fc8e8.webp"
     },

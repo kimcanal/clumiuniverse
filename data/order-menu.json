@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-22T00:44:53.392Z",
+  "generatedAt": "2026-11-24T05:01:51.181Z",
   "merchantId": 238090,
   "items": [
     {
@@ -65,7 +65,7 @@
               "title": "아보카도(1/2)",
               "titleEn": "Avocado(half)",
               "priceValue": 4000,
-              "available": false
+              "available": true
             },
             {
               "id": 1275993,
@@ -309,7 +309,7 @@
       "descriptionEn": "[10:30~21:00] An elegant plate featuring an authentic Belgian Liège waffle, fluffy scrambled eggs made with 100% Anchor unsalted butter, and fresh avocado and cherry tomatoes, beautifully completed with a fragrant cup of coffee brewed from national champion barista roasted beans.",
       "priceValue": 19000,
       "priceTitle": "기본",
-      "available": false,
+      "available": true,
       "labels": [
         "인기"
       ],
@@ -950,7 +950,7 @@
       "descriptionEn": "A Liège waffle made with Anchor butter, topped with banana, whipped cream, chocolate ball, and pistachio. Crispy, chewy, and dangerously easy to fall for.",
       "priceValue": 12000,
       "priceTitle": "기본",
-      "available": true,
+      "available": false,
       "labels": [
         "인기"
       ],
@@ -3325,7 +3325,7 @@
       "descriptionEn": "Oops! Clumi dropped the strawberries! 🍓💥\"\n\nClumi was so excited that she accidentally showered this waffle with a mountain of fresh strawberries!\nEnjoy our signature 'crispy & chewy' Anchor butter waffle, now loaded with an explosion of berries and rich ice cream. It’s a sweet, strawberry-filled accident you don't want to miss! 💘",
       "priceValue": 17000,
       "priceTitle": "기본",
-      "available": true,
+      "available": false,
       "labels": [
         "인기"
       ],
@@ -4606,7 +4606,7 @@
       "descriptionEn": "",
       "priceValue": 5000,
       "priceTitle": "기본",
-      "available": false,
+      "available": true,
       "labels": [],
       "optionSets": [
         {

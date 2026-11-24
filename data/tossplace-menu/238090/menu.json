@@ -2,18 +2,17 @@
   "merchantId": 238090,
   "merchantName": "클루미 유니버스",
   "merchantStatus": "OPEN",
-  "fetchedAt": "2026-11-22T00:44:53.392Z",
+  "fetchedAt": "2026-11-24T05:01:51.181Z",
   "summary": {
     "total": 88,
-    "added": 2,
-    "changed": 6,
-    "unchanged": 80,
+    "added": 0,
+    "changed": 5,
+    "unchanged": 83,
     "removed": 0
   },
   "imageSummary": {
-    "skipped-existing-url": 85,
-    "missing": 1,
-    "downloaded": 2
+    "skipped-existing-url": 87,
+    "missing": 1
   },
   "checks": {
     "missingImages": [
@@ -418,7 +417,7 @@
               "title": "아보카도(1/2)",
               "titleEn": "Avocado(half)",
               "priceValue": 4000,
-              "state": "SOLD_OUT"
+              "state": "ON_SALE"
             },
             {
               "id": 1275993,
@@ -444,7 +443,7 @@
           ]
         }
       ],
-      "fingerprint": "ac82ec72f2d3813d226fc989c1b0ee79afe576547f0139fb6ed15fd0acc2574e",
+      "fingerprint": "9e6c96ad319d18b09c1354faf6b0ba8bd2a944ea3ee589c863fcd5b6b7e2e88e",
       "imageLocalPath": "data/tossplace-menu/238090/images/10991140-내맘대로-브런치-Basic-waffle-2bf91a2b67.jpg",
       "imageHash": "2bf91a2b6763b0b5dc4eca2c2bc5134c704cdb27bcb9704fc4e44860f374f879",
       "imageStatus": "skipped-existing-url"
@@ -671,7 +670,7 @@
       "titleEn": "Queen’s Plate 4 (avocado)Coffee Set",
       "description": "[10:30~21:00] 정통 벨기에 리에주 와플과 100% 앵커 무염버터로 맛을 낸 부드러운 스크램블 에그,  신선한 아보카도와 방울토마토를 더하고 국가대표 바리스타 원두의 향긋한 커피 한 잔으로 완성한 우아한 한 접시입니다.\"",
       "descriptionEn": "[10:30~21:00] An elegant plate featuring an authentic Belgian Liège waffle, fluffy scrambled eggs made with 100% Anchor unsalted butter, and fresh avocado and cherry tomatoes, beautifully completed with a fragrant cup of coffee brewed from national champion barista roasted beans.",
-      "state": "SOLD_OUT",
+      "state": "ON_SALE",
       "priceValue": 19000,
       "priceTitle": "기본",
       "imageUrl": "https://place-static.tossplace.com/public/live/PUBLIC/2026-03-03/a192cd00-dc2a-41b4-ad02-47f2f7585ea1",
@@ -870,7 +869,7 @@
           ]
         }
       ],
-      "fingerprint": "c5bc6bfdddb4873e880a0ab47c28a0a926a15f3a871fea3dc15795d0be5d57ea",
+      "fingerprint": "30d52351bde0a78d12aaee8e4801cc5c62ae230059fca31c28611f8d58b1066e",
       "imageLocalPath": "data/tossplace-menu/238090/images/11075904-여왕의접시4-아보카도-Coffee-Set-76b7edcaa3.jpg",
       "imageHash": "76b7edcaa34530e5781599b022854d03a94b2a5d3d9fa65917e2ef864acdc41a",
       "imageStatus": "skipped-existing-url"
@@ -1354,7 +1353,7 @@
       "titleEn": "[Pistachio] Choco Banana Waffle",
       "description": "앵커 버터로 반죽한 겉바속쫀 리에주 와플에 바나나,생크림,초코볼,피스타치오를 올린 시그니처 와플. 한 입에 반해버릴지도 몰라요.",
       "descriptionEn": "A Liège waffle made with Anchor butter, topped with banana, whipped cream, chocolate ball, and pistachio. Crispy, chewy, and dangerously easy to fall for.",
-      "state": "ON_SALE",
+      "state": "SOLD_OUT",
       "priceValue": 12000,
       "priceTitle": "기본",
       "imageUrl": "https://place-static.tossplace.com/public/live/PUBLIC/2026-05-09/59d70125-6af4-4c19-a4c7-31c8f4d0eb00",
@@ -1387,7 +1386,7 @@
           ]
         }
       ],
-      "fingerprint": "5dfed452954e8728e0db888e15019f75b117d3486ec30183ab46c845aa7de494",
+      "fingerprint": "7f285253b268eb022f2b11a693f7bdb8129a171905c6ba5d3f4c4d5f1d41c103",
       "imageLocalPath": "data/tossplace-menu/238090/images/10683603-피스타치오-초코-반하나-와플-87f8a2942f.jpg",
       "imageHash": "87f8a2942f2b5a6231dcf3474d72da5a0a7ddb0f9fcc603bdca0a39d9a4f5a0d",
       "imageStatus": "skipped-existing-url"
@@ -3933,7 +3932,7 @@
       "titleEn": "[Premium] Strawberry waffle",
       "description": "뉴질랜드 앵커 버터 향 가득한 와플 위에 클루미가 딸기를 실수로(?) 와르르— 쏟아버렸대요!\n쏟아진 딸기 양에 깜짝 놀랄지도 몰라요. 겉바속쫀 와플과 상큼한 딸기 폭탄, 그리고 진한 아이스크림의 환상적인 만남! 클루미의 귀여운 실수를 맛있게 즐겨보세요! 💘",
       "descriptionEn": "Oops! Clumi dropped the strawberries! 🍓💥\"\n\nClumi was so excited that she accidentally showered this waffle with a mountain of fresh strawberries!\nEnjoy our signature 'crispy & chewy' Anchor butter waffle, now loaded with an explosion of berries and rich ice cream. It’s a sweet, strawberry-filled accident you don't want to miss! 💘",
-      "state": "ON_SALE",
+      "state": "SOLD_OUT",
       "priceValue": 17000,
       "priceTitle": "기본",
       "imageUrl": "https://place-static.tossplace.com/public/live/PUBLIC/2026-04-09/79ca2a21-1668-4235-af21-4431110ebb67",
@@ -3966,7 +3965,7 @@
           ]
         }
       ],
-      "fingerprint": "cde41d85f46d63f564480ef0ba79e1d9aed9e1aeafd60bf8135d4ae7973586ac",
+      "fingerprint": "f307eb960bcd35cfe19f1efdaec615d55593b21d9f5b13de468c64535f6fb054",
       "imageLocalPath": "data/tossplace-menu/238090/images/9479299-시즌한정-딸기왕창와플-381c363183.jpg",
       "imageHash": "381c363183e4e47c8b2fe8b268e76d1a24d5a8d8ab864b826fdc5d5c1c7161bf",
       "imageStatus": "skipped-existing-url"
@@ -4867,7 +4866,7 @@
       "fingerprint": "8e51f24df08970094e333c033f60be2b9b3ccda1c5fc66df5e1b65f19ecd6c4a",
       "imageLocalPath": "data/tossplace-menu/238090/images/17753479-밤-몽블랑-1800cf14aa.png",
       "imageHash": "1800cf14aabc96a8b21250ec859870bc84d7ffa81c532b3f29e8b167349ad719",
-      "imageStatus": "downloaded"
+      "imageStatus": "skipped-existing-url"
     },
     {
       "id": 10114893,
@@ -4890,7 +4889,7 @@
       "fingerprint": "80fd5eba1155aa3fafd80e22e40792c0c05243ca7572b03fafc6c452a7887c67",
       "imageLocalPath": "data/tossplace-menu/238090/images/10114893-아이스크림-브라우니-1ca4423910.jpg",
       "imageHash": "1ca44239101ed59b00b661edae8ae559877d2fd56061b9d0dfac41f712a4eedb",
-      "imageStatus": "downloaded"
+      "imageStatus": "skipped-existing-url"
     },
     {
       "id": 10652155,
@@ -5370,7 +5369,7 @@
       "titleEn": "Peach Iced Tea",
       "description": "",
       "descriptionEn": "",
-      "state": "SOLD_OUT",
+      "state": "ON_SALE",
       "priceValue": 5000,
       "priceTitle": "기본",
       "imageUrl": "https://place-static.tossplace.com/public/live/PUBLIC/2025-08-23/a9141e9f-6174-4181-8cf7-22022adc7e77",
@@ -5408,7 +5407,7 @@
           ]
         }
       ],
-      "fingerprint": "7e60843c0fe2e86424b80d98a98569e563ef7e9f4ea94e314e55d823e8b65e61",
+      "fingerprint": "2f1173d6179b57877897a02ba62322bc6b71be91445b2dd7ca7703f68c786290",
       "imageLocalPath": "data/tossplace-menu/238090/images/6979125-복숭아아이스티-4cd29fc8e8.jpg",
       "imageHash": "4cd29fc8e85ca112e4a71cc0b651b90b5d208fcf7d9cf55ea439f692e45c3b87",
       "imageStatus": "skipped-existing-url"
