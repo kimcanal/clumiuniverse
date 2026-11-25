@@ -2,12 +2,12 @@
   "merchantId": 238090,
   "merchantName": "클루미 유니버스",
   "merchantStatus": "OPEN",
-  "fetchedAt": "2026-11-24T05:01:51.181Z",
+  "fetchedAt": "2026-11-25T03:50:25.520Z",
   "summary": {
     "total": 88,
     "added": 0,
-    "changed": 5,
-    "unchanged": 83,
+    "changed": 1,
+    "unchanged": 87,
     "removed": 0
   },
   "imageSummary": {
@@ -35,7 +35,7 @@
       {
         "id": 10983319,
         "categoryTitle": "브런치",
-        "title": "[브런치]오렌지주스",
+        "title": "[브런치전용]오렌지주스",
         "description": "",
         "imageLocalPath": "data/tossplace-menu/238090/images/10983319-브런치-오렌지주스-c5355b1554.jpg"
       },
@@ -1240,7 +1240,7 @@
       "categoryTitle": "브런치",
       "categoryTitleEn": "Brunch",
       "position": 8,
-      "title": "[브런치]오렌지주스",
+      "title": "[브런치전용]오렌지주스",
       "titleEn": "Orange Juice",
       "description": "",
       "descriptionEn": "",
@@ -1252,7 +1252,7 @@
         "신규"
       ],
       "optionSets": [],
-      "fingerprint": "65feb9bfe9146ff94ac4d68cfd30046fa3ad0435b262748c535c30d274431c84",
+      "fingerprint": "92ba576437be02e82c2d7ac80cdc25f4aeba14617543e10b3f3a623ea68e7917",
       "imageLocalPath": "data/tossplace-menu/238090/images/10983319-브런치-오렌지주스-c5355b1554.jpg",
       "imageHash": "c5355b1554a4fba6c1a3a029de9798286f977c93dbbb778998c47a877d33b722",
       "imageStatus": "skipped-existing-url"

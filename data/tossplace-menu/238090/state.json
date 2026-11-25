@@ -1948,14 +1948,14 @@
       "updatedAt": "2026-11-22T00:44:53.392Z"
     },
     "10983319": {
-      "fingerprint": "65feb9bfe9146ff94ac4d68cfd30046fa3ad0435b262748c535c30d274431c84",
-      "title": "[브런치]오렌지주스",
+      "fingerprint": "92ba576437be02e82c2d7ac80cdc25f4aeba14617543e10b3f3a623ea68e7917",
+      "title": "[브런치전용]오렌지주스",
       "description": "",
       "imageUrl": "https://place-static.tossplace.com/public/live/PUBLIC/2026-02-14/c213b3d6-2de5-4710-b0df-bfe86181c2c3",
       "imageLocalPath": "data/tossplace-menu/238090/images/10983319-브런치-오렌지주스-c5355b1554.jpg",
       "imageHash": "c5355b1554a4fba6c1a3a029de9798286f977c93dbbb778998c47a877d33b722",
       "firstSeenAt": "2026-07-21T04:15:20.254Z",
-      "updatedAt": "2026-08-29T22:52:03.755Z"
+      "updatedAt": "2026-11-25T03:50:25.520Z"
     },
     "10991140": {
       "fingerprint": "9e6c96ad319d18b09c1354faf6b0ba8bd2a944ea3ee589c863fcd5b6b7e2e88e",
@@ -2240,19 +2240,6 @@
   },
   "runs": [
     {
-      "at": "2026-10-29T00:28:58.256Z",
-      "summary": {
-        "total": 86,
-        "added": 0,
-        "changed": 1,
-        "unchanged": 85,
-        "removed": 0
-      },
-      "imageSummary": {
-        "skipped-existing-url": 86
-      }
-    },
-    {
       "at": "2026-10-30T00:28:49.431Z",
       "summary": {
         "total": 86,
@@ -2516,7 +2503,21 @@
         "skipped-existing-url": 87,
         "missing": 1
       }
+    },
+    {
+      "at": "2026-11-25T03:50:25.520Z",
+      "summary": {
+        "total": 88,
+        "added": 0,
+        "changed": 1,
+        "unchanged": 87,
+        "removed": 0
+      },
+      "imageSummary": {
+        "skipped-existing-url": 87,
+        "missing": 1
+      }
     }
   ],
-  "lastRunAt": "2026-11-24T05:01:51.181Z"
+  "lastRunAt": "2026-11-25T03:50:25.520Z"
 }
