@@ -2,16 +2,16 @@
   "merchantId": 238090,
   "merchantName": "클루미 유니버스",
   "merchantStatus": "OPEN",
-  "fetchedAt": "2026-11-25T03:50:25.520Z",
+  "fetchedAt": "2026-11-27T03:19:37.839Z",
   "summary": {
-    "total": 88,
+    "total": 87,
     "added": 0,
-    "changed": 1,
-    "unchanged": 87,
-    "removed": 0
+    "changed": 3,
+    "unchanged": 84,
+    "removed": 1
   },
   "imageSummary": {
-    "skipped-existing-url": 87,
+    "skipped-existing-url": 86,
     "missing": 1
   },
   "checks": {
@@ -1401,7 +1401,7 @@
       "titleEn": "Strawberry overload waffle",
       "description": "뉴질랜드 앵커 버터 향 가득한 와플 위에 클루미가 딸기를 실수로(?) 와르르— 쏟아버렸대요!\n쏟아진 딸기 양에 깜짝 놀랄지도 몰라요. 겉바속쫀 와플과 상큼한 딸기 폭탄, 그리고 진한 아이스크림의 환상적인 만남! 클루미의 귀여운 실수를 맛있게 즐겨보세요!",
       "descriptionEn": "Oops! Clumi dropped the strawberries! 🍓💥\"\n\nClumi was so excited that she accidentally showered this waffle with a mountain of fresh strawberries!\nEnjoy our signature 'crispy & chewy' Anchor butter waffle, now loaded with an explosion of berries and rich ice cream. It’s a sweet, strawberry-filled accident you don't want to miss! 💘",
-      "state": "ON_SALE",
+      "state": "SOLD_OUT",
       "priceValue": 17000,
       "priceTitle": "기본",
       "imageUrl": "https://place-static.tossplace.com/public/live/PUBLIC/2026-11-20/22446ca0-7ccd-460f-8b18-59be8481a54b",
@@ -1472,7 +1472,7 @@
           ]
         }
       ],
-      "fingerprint": "8702b735f43357e199847ff6c3abc0c8989c51e1730aea87d9e3ac2cc8ebd285",
+      "fingerprint": "08ca21ddb2a500e2de1c10ee41ecd9b2417daf750c1e31f7860faa87196e5856",
       "imageLocalPath": "data/tossplace-menu/238090/images/13541356-Premium-딸기왕창와플-7a9643727f.jpg",
       "imageHash": "7a9643727f7ca93b27201d23bf693f20f88b9fb1faa3046d6b4d33ac30e2ce01",
       "imageStatus": "skipped-existing-url"
@@ -3884,7 +3884,7 @@
       "titleEn": "[Premium]very berry waffle",
       "description": "뉴질랜드 앵커 버터로 직접 반죽해 구운 벨기에 와플에 부드러운 생크림, 상큼한 제철 딸기와 블루베리를 더한 고급 디저트",
       "descriptionEn": "A premium dessert featuring a freshly baked Belgian waffle made from scratch with New Zealand Anchor butter, topped with soft whipped cream, fresh seasonal strawberries, and blueberries.",
-      "state": "ON_SALE",
+      "state": "SOLD_OUT",
       "priceValue": 17000,
       "priceTitle": "기본",
       "imageUrl": "https://place-static.tossplace.com/public/live/PUBLIC/2026-04-09/1a6b41c9-6fb9-4d76-9d9a-ac9f2dac4921",
@@ -3917,7 +3917,7 @@
           ]
         }
       ],
-      "fingerprint": "25f47458487b1042b624e6b1bec49ffccc35e65e79ebc828aff95bc224c1ab39",
+      "fingerprint": "671f50d9421d9817dc8d4ed956f84dbcdf10f89a25c40759eee400f9ec0ad653",
       "imageLocalPath": "data/tossplace-menu/238090/images/10639334-시즌한정-베리베리와플-95fd9c7476.jpg",
       "imageHash": "95fd9c7476b80890cfe5596119a97d091beb01b8dd7ebf62ece3410e437394e0",
       "imageStatus": "skipped-existing-url"
@@ -4695,7 +4695,7 @@
       "titleEn": "Strawberry Forêt noire",
       "description": "상큼한 딸기, 부드러운 우유 크림, 달콤한 화이트 초콜릿이 만나 포근하게 완성된 딸기 케이크 🍓",
       "descriptionEn": "A strawberry cake with a harmonious blend of fresh strawberries, smooth milk cream, and white chocolate.",
-      "state": "SOLD_OUT",
+      "state": "ON_SALE",
       "priceValue": 12000,
       "priceTitle": "기본",
       "imageUrl": "https://place-static.tossplace.com/public/live/PUBLIC/2026-05-13/8a453da7-a2f8-4d0d-bf0d-73ce0bbcbf3e",
@@ -4721,7 +4721,7 @@
           ]
         }
       ],
-      "fingerprint": "88a7a17cc2df27d7ccf31efd3e2d55bbe6430095e69f340b384e1e60f091b314",
+      "fingerprint": "70ea37f8ab1f539f9c44d214cf59e241692b7780ba5f6fa1a3be1e7a8bb34da4",
       "imageLocalPath": "data/tossplace-menu/238090/images/10641666-딸기포레누아-a0bf52ee2f.jpg",
       "imageHash": "a0bf52ee2f95df60f753e56e5e51ae7a1102b4c42bf9b44125b02dcca8568213",
       "imageStatus": "skipped-existing-url"
@@ -4802,47 +4802,6 @@
       "fingerprint": "095ff66c23447b2e3ad030ce6e79458792966367d70900ffccf869ab09b311f6",
       "imageLocalPath": "data/tossplace-menu/238090/images/10842350-얼그레이-무화과-0f5f5e5bf2.jpg",
       "imageHash": "0f5f5e5bf2263c6d32c3cf25d28b16a234dd70a0ccd3b2088184f007f50fbc48",
-      "imageStatus": "skipped-existing-url"
-    },
-    {
-      "id": 10192464,
-      "categoryId": 985967,
-      "categoryTitle": "케이크",
-      "categoryTitleEn": "Cake",
-      "position": 4,
-      "title": "초콜릿로쉐케익",
-      "titleEn": "Chocolate Roche Cake",
-      "description": "부드러운 스페인산 고급 초콜릿 위에 고소하게 구운 헤이즐넛을 올려\n한 입 베어 물면 진한 초콜릿 풍미가 가득 퍼지는 케이크",
-      "descriptionEn": "Chocolate-coated cake with roasted hazelnuts and rich chocolate flavor.",
-      "state": "ON_SALE",
-      "priceValue": 10900,
-      "priceTitle": "기본",
-      "imageUrl": "https://place-static.tossplace.com/public/live/PUBLIC/2026-05-12/643d509d-6f8f-4186-a5ba-28c4839cc761",
-      "labels": [
-        "인기"
-      ],
-      "optionSets": [
-        {
-          "id": 377185,
-          "title": "하트 초",
-          "titleEn": "Heart Candle ",
-          "required": false,
-          "minChoices": 0,
-          "maxChoices": 1,
-          "choices": [
-            {
-              "id": 1168613,
-              "title": "하트 초",
-              "titleEn": "Heart Candle ",
-              "priceValue": 1500,
-              "state": "ON_SALE"
-            }
-          ]
-        }
-      ],
-      "fingerprint": "cd65ec7707ff0a4eed5f0e599d14e98080b709f368b6c48bab968e2da7e2dfd7",
-      "imageLocalPath": "data/tossplace-menu/238090/images/10192464-초콜릿로쉐케익-52fe1dcc82.jpg",
-      "imageHash": "52fe1dcc82b800fd1494dbfa9cf12ca59474a0af9d602087499a9d4e9a1ce6fe",
       "imageStatus": "skipped-existing-url"
     },
     {
