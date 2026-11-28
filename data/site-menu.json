@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-27T03:19:37.839Z",
+  "generatedAt": "2026-11-28T02:59:14.393Z",
   "merchantId": 238090,
   "items": [
     {
@@ -81,16 +81,6 @@
       "imageLocalPath": "data/tossplace-menu/238090/images/10983319-브런치-오렌지주스-c5355b1554.webp"
     },
     {
-      "id": 10433709,
-      "categoryTitle": "브런치",
-      "categoryTitleEn": "Brunch",
-      "title": "리뷰이벤트 Google Review Event",
-      "description": "",
-      "state": "ON_SALE",
-      "labels": [],
-      "imageLocalPath": ""
-    },
-    {
       "id": 15684896,
       "categoryTitle": "인기 메뉴",
       "categoryTitleEn": "BEST",
@@ -108,7 +98,7 @@
       "categoryTitleEn": "BEST",
       "title": "[피스타치오] 초코 반하나 와플",
       "description": "앵커 버터로 반죽한 겉바속쫀 리에주 와플에 바나나,생크림,초코볼,피스타치오를 올린 시그니처 와플. 한 입에 반해버릴지도 몰라요.",
-      "state": "SOLD_OUT",
+      "state": "ON_SALE",
       "labels": [
         "인기"
       ],
@@ -120,7 +110,7 @@
       "categoryTitleEn": "BEST",
       "title": "[Premium]딸기왕창와플",
       "description": "뉴질랜드 앵커 버터 향 가득한 와플 위에 클루미가 딸기를 실수로(?) 와르르— 쏟아버렸대요!\n쏟아진 딸기 양에 깜짝 놀랄지도 몰라요. 겉바속쫀 와플과 상큼한 딸기 폭탄, 그리고 진한 아이스크림의 환상적인 만남! 클루미의 귀여운 실수를 맛있게 즐겨보세요!",
-      "state": "SOLD_OUT",
+      "state": "ON_SALE",
       "labels": [
         "인기"
       ],
@@ -149,18 +139,6 @@
       "imageLocalPath": "data/tossplace-menu/238090/images/14267200-땅콩크림라떼-2f5de2df2e.webp"
     },
     {
-      "id": 14267209,
-      "categoryTitle": "인기 메뉴",
-      "categoryTitleEn": "BEST",
-      "title": "오렌지 비앙코",
-      "description": "",
-      "state": "ON_SALE",
-      "labels": [
-        "인기"
-      ],
-      "imageLocalPath": "data/tossplace-menu/238090/images/14267209-오렌지-비앙코-dda910de0e.webp"
-    },
-    {
       "id": 9142742,
       "categoryTitle": "인기 메뉴",
       "categoryTitleEn": "BEST",
@@ -179,6 +157,48 @@
       "state": "ON_SALE",
       "labels": [],
       "imageLocalPath": "data/tossplace-menu/238090/images/9142726-시그니처-합정라떼-2481923ac8.webp"
+    },
+    {
+      "id": 19389216,
+      "categoryTitle": "윈터시즌메뉴",
+      "categoryTitleEn": "Winter season menu",
+      "title": "크리스마스 뱅쇼 (논알코올)",
+      "description": "레드와인에 17가지 천연 재료를 정성껏 블렌딩해 완성한 프리미엄 뱅쇼. 과일의 깊은 풍미와 향긋한 스파이스가 어우러진 따뜻한 겨울 음료입니다.\n\n** 무알코올**",
+      "state": "ON_SALE",
+      "labels": [
+        "신규"
+      ],
+      "imageLocalPath": "data/tossplace-menu/238090/images/19389216-크리스마스-뱅쇼-논알코올-eaa1542adb.webp"
+    },
+    {
+      "id": 19397395,
+      "categoryTitle": "윈터시즌메뉴",
+      "categoryTitleEn": "Winter season menu",
+      "title": "뱅쇼,메이플시나몬 set",
+      "description": "따뜻한 뱅쇼와 함께 ,\n향긋한 메이플 시나몬 와플 (저당 메이플시럽)",
+      "state": "ON_SALE",
+      "labels": [],
+      "imageLocalPath": "data/tossplace-menu/238090/images/19397395-뱅쇼-메이플시나몬-set-430360a17f.webp"
+    },
+    {
+      "id": 19397415,
+      "categoryTitle": "윈터시즌메뉴",
+      "categoryTitleEn": "Winter season menu",
+      "title": "뱅쇼,베리베리와플 set",
+      "description": "따뜻한 뱅쇼와 함께 ,\n블루베리와 딸기가 듬뿍 올라간 시그니처 와플",
+      "state": "ON_SALE",
+      "labels": [],
+      "imageLocalPath": "data/tossplace-menu/238090/images/19397415-뱅쇼-베리베리와플-set-66046d708e.webp"
+    },
+    {
+      "id": 19397430,
+      "categoryTitle": "윈터시즌메뉴",
+      "categoryTitleEn": "Winter season menu",
+      "title": "뱅쇼,딸기왕창와플 set",
+      "description": "따뜻한 뱅쇼와 함께,\n바닐라 아이스크림 위에 신선한 딸기를 듬뿍 올린 시그니처 와플.",
+      "state": "ON_SALE",
+      "labels": [],
+      "imageLocalPath": "data/tossplace-menu/238090/images/19397430-뱅쇼-딸기왕창와플-set-038d0f58f4.webp"
     },
     {
       "id": 6978203,
@@ -468,7 +488,7 @@
       "categoryTitleEn": "Belgium Waffle",
       "title": "[Premium]베리베리와플",
       "description": "뉴질랜드 앵커 버터로 직접 반죽해 구운 벨기에 와플에 부드러운 생크림, 상큼한 제철 딸기와 블루베리를 더한 고급 디저트",
-      "state": "SOLD_OUT",
+      "state": "ON_SALE",
       "labels": [
         "인기"
       ],
@@ -480,7 +500,7 @@
       "categoryTitleEn": "Belgium Waffle",
       "title": "[Premium] 딸기왕창와플",
       "description": "뉴질랜드 앵커 버터 향 가득한 와플 위에 클루미가 딸기를 실수로(?) 와르르— 쏟아버렸대요!\n쏟아진 딸기 양에 깜짝 놀랄지도 몰라요. 겉바속쫀 와플과 상큼한 딸기 폭탄, 그리고 진한 아이스크림의 환상적인 만남! 클루미의 귀여운 실수를 맛있게 즐겨보세요! 💘",
-      "state": "SOLD_OUT",
+      "state": "ON_SALE",
       "labels": [
         "인기"
       ],
@@ -551,18 +571,6 @@
       "state": "ON_SALE",
       "labels": [],
       "imageLocalPath": "data/tossplace-menu/238090/images/8433327-아이스크림-와플-8d991c06d1.webp"
-    },
-    {
-      "id": 16230479,
-      "categoryTitle": "벨기에와플",
-      "categoryTitleEn": "Belgium Waffle",
-      "title": "[시즌한정]무화과&크림치즈 와플",
-      "description": "달콤한 무화과와 부드러운 크림치즈 무스, 피스타치오를 올린 바삭한 리에쥬 와플.",
-      "state": "SOLD_OUT",
-      "labels": [
-        "인기"
-      ],
-      "imageLocalPath": "data/tossplace-menu/238090/images/16230479-시즌한정-무화과-크림치즈-와플-86ba9a15c7.webp"
     },
     {
       "id": 10641666,

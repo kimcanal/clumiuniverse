@@ -473,22 +473,6 @@
       "sourceUrl": "https://place-static.tossplace.com/public/live/PUBLIC/2026-09-21/450b2083-b867-4f0d-9c62-be0cfcfcc952",
       "updatedAt": "2026-09-21T04:56:39.943Z"
     },
-    "https://place-static.tossplace.com/public/live/PUBLIC/2026-09-26/cea32c70-fe60-4031-82fa-825dfd717a11": {
-      "localPath": "data/tossplace-menu/238090/images/16230479-시즌한정-무화과-크림치즈-와플-86ba9a15c7.jpg",
-      "hash": "86ba9a15c7dfd9f8d97086281499444715fe62d2c3207f639cdb6ba7f9798225",
-      "itemId": 16230479,
-      "title": "[시즌한정]무화과&크림치즈 와플",
-      "sourceUrl": "https://place-static.tossplace.com/public/live/PUBLIC/2026-09-26/cea32c70-fe60-4031-82fa-825dfd717a11",
-      "updatedAt": "2026-09-26T23:13:12.730Z"
-    },
-    "https://place-static.tossplace.com/public/live/PUBLIC/2026-09-26/4bdb0d99-3ad9-4bf2-9cd9-9714d90cb099": {
-      "localPath": "data/tossplace-menu/238090/images/16230479-시즌한정-무화과-크림치즈-와플-86ba9a15c7.jpg",
-      "hash": "86ba9a15c7dfd9f8d97086281499444715fe62d2c3207f639cdb6ba7f9798225",
-      "itemId": 15684896,
-      "title": "무화과 크림치즈 와플",
-      "sourceUrl": "https://place-static.tossplace.com/public/live/PUBLIC/2026-09-26/4bdb0d99-3ad9-4bf2-9cd9-9714d90cb099",
-      "updatedAt": "2026-09-26T23:13:12.817Z"
-    },
     "https://place-static.tossplace.com/public/live/PUBLIC/2026-05-09/59d70125-6af4-4c19-a4c7-31c8f4d0eb00": {
       "localPath": "data/tossplace-menu/238090/images/10683603-피스타치오-초코-반하나-와플-87f8a2942f.jpg",
       "hash": "87f8a2942f2b5a6231dcf3474d72da5a0a7ddb0f9fcc603bdca0a39d9a4f5a0d",
@@ -704,6 +688,38 @@
       "title": "밤 몽블랑",
       "sourceUrl": "https://place-static.tossplace.com/public/live/PUBLIC/2026-10-03/1c4cf3a6-a0b7-4bb1-864d-ec1c8a55f6a6",
       "updatedAt": "2026-11-22T00:44:53.391Z"
+    },
+    "https://place-static.tossplace.com/public/live/PUBLIC/2026-11-27/1e6a0e82-7f54-470b-ae8b-9788b1408834": {
+      "localPath": "data/tossplace-menu/238090/images/19397395-뱅쇼-메이플시나몬-set-430360a17f.jpg",
+      "hash": "430360a17fcc3fc78f52e7d54c75f13e3248e494395bce1ccc9add30ed757e61",
+      "itemId": 19397395,
+      "title": "뱅쇼,메이플시나몬 set",
+      "sourceUrl": "https://place-static.tossplace.com/public/live/PUBLIC/2026-11-27/1e6a0e82-7f54-470b-ae8b-9788b1408834",
+      "updatedAt": "2026-11-28T02:59:14.334Z"
+    },
+    "https://place-static.tossplace.com/public/live/PUBLIC/2026-11-27/9a171fda-7621-4e3d-8b2f-06be3e77a1e5": {
+      "localPath": "data/tossplace-menu/238090/images/19389216-크리스마스-뱅쇼-논알코올-eaa1542adb.jpg",
+      "hash": "eaa1542adbc73819889dff9da32ee3f0306cb02d456aabf66baa6f29974acf28",
+      "itemId": 19389216,
+      "title": "크리스마스 뱅쇼 (논알코올)",
+      "sourceUrl": "https://place-static.tossplace.com/public/live/PUBLIC/2026-11-27/9a171fda-7621-4e3d-8b2f-06be3e77a1e5",
+      "updatedAt": "2026-11-28T02:59:14.344Z"
+    },
+    "https://place-static.tossplace.com/public/live/PUBLIC/2026-11-27/8dd0d87d-576b-4b33-96f8-d6a59239c7c4": {
+      "localPath": "data/tossplace-menu/238090/images/19397430-뱅쇼-딸기왕창와플-set-038d0f58f4.jpg",
+      "hash": "038d0f58f4aecf45b4c6cc6b9a735f6706ff0c4a6d50a6e82f52ac6d0084e854",
+      "itemId": 19397430,
+      "title": "뱅쇼,딸기왕창와플 set",
+      "sourceUrl": "https://place-static.tossplace.com/public/live/PUBLIC/2026-11-27/8dd0d87d-576b-4b33-96f8-d6a59239c7c4",
+      "updatedAt": "2026-11-28T02:59:14.372Z"
+    },
+    "https://place-static.tossplace.com/public/live/PUBLIC/2026-11-27/1ae07c8e-60d0-490b-9ad3-125efa3e7aba": {
+      "localPath": "data/tossplace-menu/238090/images/19397415-뱅쇼-베리베리와플-set-66046d708e.jpg",
+      "hash": "66046d708ef53cc4f27c4a2666d7c426821979429c7830a1f2c06686dab17f70",
+      "itemId": 19397415,
+      "title": "뱅쇼,베리베리와플 set",
+      "sourceUrl": "https://place-static.tossplace.com/public/live/PUBLIC/2026-11-27/1ae07c8e-60d0-490b-9ad3-125efa3e7aba",
+      "updatedAt": "2026-11-28T02:59:14.392Z"
     }
   },
   "imagesByHash": {
@@ -1139,14 +1155,6 @@
       "sourceUrl": "https://place-static.tossplace.com/public/live/PUBLIC/2026-09-21/450b2083-b867-4f0d-9c62-be0cfcfcc952",
       "updatedAt": "2026-09-21T04:56:39.943Z"
     },
-    "86ba9a15c7dfd9f8d97086281499444715fe62d2c3207f639cdb6ba7f9798225": {
-      "localPath": "data/tossplace-menu/238090/images/16230479-시즌한정-무화과-크림치즈-와플-86ba9a15c7.jpg",
-      "hash": "86ba9a15c7dfd9f8d97086281499444715fe62d2c3207f639cdb6ba7f9798225",
-      "itemId": 16230479,
-      "title": "[시즌한정]무화과&크림치즈 와플",
-      "sourceUrl": "https://place-static.tossplace.com/public/live/PUBLIC/2026-09-26/cea32c70-fe60-4031-82fa-825dfd717a11",
-      "updatedAt": "2026-09-26T23:13:12.730Z"
-    },
     "87f8a2942f2b5a6231dcf3474d72da5a0a7ddb0f9fcc603bdca0a39d9a4f5a0d": {
       "localPath": "data/tossplace-menu/238090/images/10683603-피스타치오-초코-반하나-와플-87f8a2942f.jpg",
       "hash": "87f8a2942f2b5a6231dcf3474d72da5a0a7ddb0f9fcc603bdca0a39d9a4f5a0d",
@@ -1338,6 +1346,38 @@
       "title": "밤 몽블랑",
       "sourceUrl": "https://place-static.tossplace.com/public/live/PUBLIC/2026-10-03/1c4cf3a6-a0b7-4bb1-864d-ec1c8a55f6a6",
       "updatedAt": "2026-11-22T00:44:53.391Z"
+    },
+    "430360a17fcc3fc78f52e7d54c75f13e3248e494395bce1ccc9add30ed757e61": {
+      "localPath": "data/tossplace-menu/238090/images/19397395-뱅쇼-메이플시나몬-set-430360a17f.jpg",
+      "hash": "430360a17fcc3fc78f52e7d54c75f13e3248e494395bce1ccc9add30ed757e61",
+      "itemId": 19397395,
+      "title": "뱅쇼,메이플시나몬 set",
+      "sourceUrl": "https://place-static.tossplace.com/public/live/PUBLIC/2026-11-27/1e6a0e82-7f54-470b-ae8b-9788b1408834",
+      "updatedAt": "2026-11-28T02:59:14.334Z"
+    },
+    "eaa1542adbc73819889dff9da32ee3f0306cb02d456aabf66baa6f29974acf28": {
+      "localPath": "data/tossplace-menu/238090/images/19389216-크리스마스-뱅쇼-논알코올-eaa1542adb.jpg",
+      "hash": "eaa1542adbc73819889dff9da32ee3f0306cb02d456aabf66baa6f29974acf28",
+      "itemId": 19389216,
+      "title": "크리스마스 뱅쇼 (논알코올)",
+      "sourceUrl": "https://place-static.tossplace.com/public/live/PUBLIC/2026-11-27/9a171fda-7621-4e3d-8b2f-06be3e77a1e5",
+      "updatedAt": "2026-11-28T02:59:14.344Z"
+    },
+    "038d0f58f4aecf45b4c6cc6b9a735f6706ff0c4a6d50a6e82f52ac6d0084e854": {
+      "localPath": "data/tossplace-menu/238090/images/19397430-뱅쇼-딸기왕창와플-set-038d0f58f4.jpg",
+      "hash": "038d0f58f4aecf45b4c6cc6b9a735f6706ff0c4a6d50a6e82f52ac6d0084e854",
+      "itemId": 19397430,
+      "title": "뱅쇼,딸기왕창와플 set",
+      "sourceUrl": "https://place-static.tossplace.com/public/live/PUBLIC/2026-11-27/8dd0d87d-576b-4b33-96f8-d6a59239c7c4",
+      "updatedAt": "2026-11-28T02:59:14.372Z"
+    },
+    "66046d708ef53cc4f27c4a2666d7c426821979429c7830a1f2c06686dab17f70": {
+      "localPath": "data/tossplace-menu/238090/images/19397415-뱅쇼-베리베리와플-set-66046d708e.jpg",
+      "hash": "66046d708ef53cc4f27c4a2666d7c426821979429c7830a1f2c06686dab17f70",
+      "itemId": 19397415,
+      "title": "뱅쇼,베리베리와플 set",
+      "sourceUrl": "https://place-static.tossplace.com/public/live/PUBLIC/2026-11-27/1ae07c8e-60d0-490b-9ad3-125efa3e7aba",
+      "updatedAt": "2026-11-28T02:59:14.392Z"
     }
   },
   "itemsById": {
@@ -1792,14 +1832,14 @@
       "updatedAt": "2026-09-18T12:03:41.506Z"
     },
     "9479299": {
-      "fingerprint": "f307eb960bcd35cfe19f1efdaec615d55593b21d9f5b13de468c64535f6fb054",
+      "fingerprint": "cde41d85f46d63f564480ef0ba79e1d9aed9e1aeafd60bf8135d4ae7973586ac",
       "title": "[Premium] 딸기왕창와플",
       "description": "뉴질랜드 앵커 버터 향 가득한 와플 위에 클루미가 딸기를 실수로(?) 와르르— 쏟아버렸대요!\n쏟아진 딸기 양에 깜짝 놀랄지도 몰라요. 겉바속쫀 와플과 상큼한 딸기 폭탄, 그리고 진한 아이스크림의 환상적인 만남! 클루미의 귀여운 실수를 맛있게 즐겨보세요! 💘",
       "imageUrl": "https://place-static.tossplace.com/public/live/PUBLIC/2026-04-09/79ca2a21-1668-4235-af21-4431110ebb67",
       "imageLocalPath": "data/tossplace-menu/238090/images/9479299-시즌한정-딸기왕창와플-381c363183.jpg",
       "imageHash": "381c363183e4e47c8b2fe8b268e76d1a24d5a8d8ab864b826fdc5d5c1c7161bf",
       "firstSeenAt": "2026-10-13T02:17:05.884Z",
-      "updatedAt": "2026-11-24T05:01:51.181Z"
+      "updatedAt": "2026-11-28T02:59:14.393Z"
     },
     "9779978": {
       "fingerprint": "0d33f227f77772c9ab7ee7ce26cf048db4164568bd72305be0a9e03b27cea78e",
@@ -1861,25 +1901,15 @@
       "firstSeenAt": "2026-10-17T22:44:10.583Z",
       "updatedAt": "2026-11-22T00:44:53.392Z"
     },
-    "10433709": {
-      "fingerprint": "81987fafdca06b63f066d6b90b838f2d905b291a371ef1a1522d4352a30b427a",
-      "title": "리뷰이벤트 Google Review Event",
-      "description": "",
-      "imageUrl": "",
-      "imageLocalPath": null,
-      "imageHash": null,
-      "firstSeenAt": "2026-11-14T01:06:06.461Z",
-      "updatedAt": "2026-11-14T01:06:06.461Z"
-    },
     "10639334": {
-      "fingerprint": "671f50d9421d9817dc8d4ed956f84dbcdf10f89a25c40759eee400f9ec0ad653",
+      "fingerprint": "25f47458487b1042b624e6b1bec49ffccc35e65e79ebc828aff95bc224c1ab39",
       "title": "[Premium]베리베리와플",
       "description": "뉴질랜드 앵커 버터로 직접 반죽해 구운 벨기에 와플에 부드러운 생크림, 상큼한 제철 딸기와 블루베리를 더한 고급 디저트",
       "imageUrl": "https://place-static.tossplace.com/public/live/PUBLIC/2026-04-09/1a6b41c9-6fb9-4d76-9d9a-ac9f2dac4921",
       "imageLocalPath": "data/tossplace-menu/238090/images/10639334-시즌한정-베리베리와플-95fd9c7476.jpg",
       "imageHash": "95fd9c7476b80890cfe5596119a97d091beb01b8dd7ebf62ece3410e437394e0",
       "firstSeenAt": "2026-10-13T02:17:05.884Z",
-      "updatedAt": "2026-11-27T03:19:37.839Z"
+      "updatedAt": "2026-11-28T02:59:14.393Z"
     },
     "10641666": {
       "fingerprint": "70ea37f8ab1f539f9c44d214cf59e241692b7780ba5f6fa1a3be1e7a8bb34da4",
@@ -1902,14 +1932,14 @@
       "updatedAt": "2026-10-31T00:12:39.869Z"
     },
     "10683603": {
-      "fingerprint": "7f285253b268eb022f2b11a693f7bdb8129a171905c6ba5d3f4c4d5f1d41c103",
+      "fingerprint": "5dfed452954e8728e0db888e15019f75b117d3486ec30183ab46c845aa7de494",
       "title": "[피스타치오] 초코 반하나 와플",
       "description": "앵커 버터로 반죽한 겉바속쫀 리에주 와플에 바나나,생크림,초코볼,피스타치오를 올린 시그니처 와플. 한 입에 반해버릴지도 몰라요.",
       "imageUrl": "https://place-static.tossplace.com/public/live/PUBLIC/2026-05-09/59d70125-6af4-4c19-a4c7-31c8f4d0eb00",
       "imageLocalPath": "data/tossplace-menu/238090/images/10683603-피스타치오-초코-반하나-와플-87f8a2942f.jpg",
       "imageHash": "87f8a2942f2b5a6231dcf3474d72da5a0a7ddb0f9fcc603bdca0a39d9a4f5a0d",
       "firstSeenAt": "2026-09-27T23:27:08.429Z",
-      "updatedAt": "2026-11-24T05:01:51.181Z"
+      "updatedAt": "2026-11-28T02:59:14.393Z"
     },
     "10842350": {
       "fingerprint": "095ff66c23447b2e3ad030ce6e79458792966367d70900ffccf869ab09b311f6",
@@ -1952,34 +1982,34 @@
       "updatedAt": "2026-09-18T12:03:41.506Z"
     },
     "11075478": {
-      "fingerprint": "28f5cf60e5a014ce93635e56b734941b9462ad2f74d67fbf7a55b51ddeb542b8",
+      "fingerprint": "f660ccf4e11e3abf2ec213c9b529de39d85cef6049ff5ef8ddf763af89f9c177",
       "title": "여왕의접시3(Coffee Set)",
       "description": "[10:30~21:00] 벨기에 리에주 방식의 바삭한 와플, 뉴질랜드 앵커 무염버터 100%로 만든 부드러운 스크램블, 신선한 방울 토마토, 커피를 곁들인 우아한 한 접시.",
       "imageUrl": "https://place-static.tossplace.com/public/live/PUBLIC/2026-03-04/9f9e4d0e-8f27-4d4e-a18b-769c79f6f55c",
       "imageLocalPath": "data/tossplace-menu/238090/images/11075478-여왕의접시3-Coffee-Set-2db77c6fb1.jpg",
       "imageHash": "2db77c6fb1dcdc106bda33b0f0be84a83040ced39dc1e49b1952dc48f24c583a",
       "firstSeenAt": "2026-07-21T04:15:20.254Z",
-      "updatedAt": "2026-11-19T02:05:36.724Z"
+      "updatedAt": "2026-11-28T02:59:14.393Z"
     },
     "11075904": {
-      "fingerprint": "30d52351bde0a78d12aaee8e4801cc5c62ae230059fca31c28611f8d58b1066e",
+      "fingerprint": "6564bc011e512c098b541b26c42a0737f8365b466a5e1c49a30111f227e06d92",
       "title": "여왕의접시4(아보카도)Coffee Set",
       "description": "[10:30~21:00] 정통 벨기에 리에주 와플과 100% 앵커 무염버터로 맛을 낸 부드러운 스크램블 에그,  신선한 아보카도와 방울토마토를 더하고 국가대표 바리스타 원두의 향긋한 커피 한 잔으로 완성한 우아한 한 접시입니다.\"",
       "imageUrl": "https://place-static.tossplace.com/public/live/PUBLIC/2026-03-03/a192cd00-dc2a-41b4-ad02-47f2f7585ea1",
       "imageLocalPath": "data/tossplace-menu/238090/images/11075904-여왕의접시4-아보카도-Coffee-Set-76b7edcaa3.jpg",
       "imageHash": "76b7edcaa34530e5781599b022854d03a94b2a5d3d9fa65917e2ef864acdc41a",
       "firstSeenAt": "2026-07-21T04:15:20.254Z",
-      "updatedAt": "2026-11-24T05:01:51.181Z"
+      "updatedAt": "2026-11-28T02:59:14.393Z"
     },
     "11191767": {
-      "fingerprint": "ada30bc28619f812a8c9b0d97180ee2426abe61c62ff83d52bf165929ba11425",
+      "fingerprint": "d03d9b2dd13f130eb19752407f16f6e28a96e8a25b5da6fd0d8a8d30b8cf71b3",
       "title": "여왕의 만찬7(Coffee Set)",
       "description": "[10:30~21:00] 달콤하고 쫀득한 정통 벨기에 리에주 와플과 100% 앵커 무염버터로 맛을 낸 부드러운 스크램블 에그, 육즙을 꽉 채운 무아질산나트륨 독일식 소시지의 건강한 조화. 95% 감자 해시브라운의 바삭함에 신선한 아보카도와 방울토마토, 아삭한 그린빈을 더하고 국가대표 바리스타 원두의 향긋한 커피 한 잔으로 완성한 완벽한 한 접시입니다.",
       "imageUrl": "https://place-static.tossplace.com/public/live/PUBLIC/2026-03-10/41fec0aa-9e8f-43c8-9330-2a05866d2a0c",
       "imageLocalPath": "data/tossplace-menu/238090/images/11191767-여왕의-만찬-Coffee-Set-c242a770ab.jpg",
       "imageHash": "c242a770ab325470a0761933873c7810ca820e01b595a3888003b66e097064fc",
       "firstSeenAt": "2026-07-21T04:15:20.254Z",
-      "updatedAt": "2026-09-18T12:03:41.506Z"
+      "updatedAt": "2026-11-28T02:59:14.393Z"
     },
     "11912174": {
       "fingerprint": "ca5a0a3612d28295561bf1cf0e13f403f6c3468827628fdac4964ea4939881df",
@@ -2042,14 +2072,14 @@
       "updatedAt": "2026-11-15T00:27:34.939Z"
     },
     "13541356": {
-      "fingerprint": "08ca21ddb2a500e2de1c10ee41ecd9b2417daf750c1e31f7860faa87196e5856",
+      "fingerprint": "8702b735f43357e199847ff6c3abc0c8989c51e1730aea87d9e3ac2cc8ebd285",
       "title": "[Premium]딸기왕창와플",
       "description": "뉴질랜드 앵커 버터 향 가득한 와플 위에 클루미가 딸기를 실수로(?) 와르르— 쏟아버렸대요!\n쏟아진 딸기 양에 깜짝 놀랄지도 몰라요. 겉바속쫀 와플과 상큼한 딸기 폭탄, 그리고 진한 아이스크림의 환상적인 만남! 클루미의 귀여운 실수를 맛있게 즐겨보세요!",
       "imageUrl": "https://place-static.tossplace.com/public/live/PUBLIC/2026-11-20/22446ca0-7ccd-460f-8b18-59be8481a54b",
       "imageLocalPath": "data/tossplace-menu/238090/images/13541356-Premium-딸기왕창와플-7a9643727f.jpg",
       "imageHash": "7a9643727f7ca93b27201d23bf693f20f88b9fb1faa3046d6b4d33ac30e2ce01",
       "firstSeenAt": "2026-07-21T04:15:20.254Z",
-      "updatedAt": "2026-11-27T03:19:37.839Z"
+      "updatedAt": "2026-11-28T02:59:14.393Z"
     },
     "13579278": {
       "fingerprint": "249e9d84e7dfc58d254b1251f71f8f253c7052e4dfef9d243389773e82983a6c",
@@ -2091,16 +2121,6 @@
       "firstSeenAt": "2026-07-21T04:15:20.254Z",
       "updatedAt": "2026-11-15T00:27:34.939Z"
     },
-    "14267209": {
-      "fingerprint": "4c4ecb050e48f352c551f73f91983d29406b0508f561459f448eed55713aafcd",
-      "title": "오렌지 비앙코",
-      "description": "",
-      "imageUrl": "https://place-static.tossplace.com/public/live/PUBLIC/2026-06-06/2beb303a-c1f9-4dae-9725-b1d35a62317e",
-      "imageLocalPath": "data/tossplace-menu/238090/images/14267209-오렌지-비앙코-dda910de0e.jpg",
-      "imageHash": "dda910de0ece7d52a0b6ddcfbbd3ef6e0dc9d34497a543c355f61fa2781093e1",
-      "firstSeenAt": "2026-07-21T04:15:20.254Z",
-      "updatedAt": "2026-11-18T02:38:35.503Z"
-    },
     "15684896": {
       "fingerprint": "4a826db5e70f255dd7f211b34c5f7e148037abc778346a52b76ff404fb048f7d",
       "title": "[Premium] 베리베리와플",
@@ -2110,16 +2130,6 @@
       "imageHash": "23c3520d15b1d0577c358925bd1f095ec7a30a861b01f0cdb9f3ac22686402fd",
       "firstSeenAt": "2026-08-20T21:16:07.047Z",
       "updatedAt": "2026-11-17T03:15:38.693Z"
-    },
-    "16230479": {
-      "fingerprint": "ed26064cb207d0c0b2f57d215ecb2702ef3f3faa878b483a941770c365bd9cbc",
-      "title": "[시즌한정]무화과&크림치즈 와플",
-      "description": "달콤한 무화과와 부드러운 크림치즈 무스, 피스타치오를 올린 바삭한 리에쥬 와플.",
-      "imageUrl": "https://place-static.tossplace.com/public/live/PUBLIC/2026-09-26/cea32c70-fe60-4031-82fa-825dfd717a11",
-      "imageLocalPath": "data/tossplace-menu/238090/images/16230479-시즌한정-무화과-크림치즈-와플-86ba9a15c7.jpg",
-      "imageHash": "86ba9a15c7dfd9f8d97086281499444715fe62d2c3207f639cdb6ba7f9798225",
-      "firstSeenAt": "2026-08-20T21:16:07.047Z",
-      "updatedAt": "2026-11-15T00:27:34.939Z"
     },
     "16508079": {
       "fingerprint": "740ea4fc9df45f5390e051a02f2cbe6f87a570e1ecdb907efa43f49447652a87",
@@ -2210,23 +2220,49 @@
       "imageHash": "e9682c37faad7633098c41771e8f93d5311ac760819c941ae14d82b2330c62eb",
       "firstSeenAt": "2026-10-31T23:49:27.664Z",
       "updatedAt": "2026-11-18T02:38:35.503Z"
+    },
+    "19389216": {
+      "fingerprint": "f5518cab1ddc756642af391506679b179bd3ddf67c5fd4c618110196fb13e786",
+      "title": "크리스마스 뱅쇼 (논알코올)",
+      "description": "레드와인에 17가지 천연 재료를 정성껏 블렌딩해 완성한 프리미엄 뱅쇼. 과일의 깊은 풍미와 향긋한 스파이스가 어우러진 따뜻한 겨울 음료입니다.\n\n** 무알코올**",
+      "imageUrl": "https://place-static.tossplace.com/public/live/PUBLIC/2026-11-27/9a171fda-7621-4e3d-8b2f-06be3e77a1e5",
+      "imageLocalPath": "data/tossplace-menu/238090/images/19389216-크리스마스-뱅쇼-논알코올-eaa1542adb.jpg",
+      "imageHash": "eaa1542adbc73819889dff9da32ee3f0306cb02d456aabf66baa6f29974acf28",
+      "firstSeenAt": "2026-11-28T02:59:14.393Z",
+      "updatedAt": "2026-11-28T02:59:14.393Z"
+    },
+    "19397395": {
+      "fingerprint": "1cf7ec28a80b0f2a1659c636dd04b17a4938f82d502bd19ca6cd9aa877d97c10",
+      "title": "뱅쇼,메이플시나몬 set",
+      "description": "따뜻한 뱅쇼와 함께 ,\n향긋한 메이플 시나몬 와플 (저당 메이플시럽)",
+      "imageUrl": "https://place-static.tossplace.com/public/live/PUBLIC/2026-11-27/1e6a0e82-7f54-470b-ae8b-9788b1408834",
+      "imageLocalPath": "data/tossplace-menu/238090/images/19397395-뱅쇼-메이플시나몬-set-430360a17f.jpg",
+      "imageHash": "430360a17fcc3fc78f52e7d54c75f13e3248e494395bce1ccc9add30ed757e61",
+      "firstSeenAt": "2026-11-28T02:59:14.393Z",
+      "updatedAt": "2026-11-28T02:59:14.393Z"
+    },
+    "19397415": {
+      "fingerprint": "4932683aa6f10c4b64148f69430cf384e4a2274d5891465b2306df76f4e9a134",
+      "title": "뱅쇼,베리베리와플 set",
+      "description": "따뜻한 뱅쇼와 함께 ,\n블루베리와 딸기가 듬뿍 올라간 시그니처 와플",
+      "imageUrl": "https://place-static.tossplace.com/public/live/PUBLIC/2026-11-27/1ae07c8e-60d0-490b-9ad3-125efa3e7aba",
+      "imageLocalPath": "data/tossplace-menu/238090/images/19397415-뱅쇼-베리베리와플-set-66046d708e.jpg",
+      "imageHash": "66046d708ef53cc4f27c4a2666d7c426821979429c7830a1f2c06686dab17f70",
+      "firstSeenAt": "2026-11-28T02:59:14.393Z",
+      "updatedAt": "2026-11-28T02:59:14.393Z"
+    },
+    "19397430": {
+      "fingerprint": "fbbbb9207d887cf478b47c740a6a00630c51aa9600ecee805150e20d252d062c",
+      "title": "뱅쇼,딸기왕창와플 set",
+      "description": "따뜻한 뱅쇼와 함께,\n바닐라 아이스크림 위에 신선한 딸기를 듬뿍 올린 시그니처 와플.",
+      "imageUrl": "https://place-static.tossplace.com/public/live/PUBLIC/2026-11-27/8dd0d87d-576b-4b33-96f8-d6a59239c7c4",
+      "imageLocalPath": "data/tossplace-menu/238090/images/19397430-뱅쇼-딸기왕창와플-set-038d0f58f4.jpg",
+      "imageHash": "038d0f58f4aecf45b4c6cc6b9a735f6706ff0c4a6d50a6e82f52ac6d0084e854",
+      "firstSeenAt": "2026-11-28T02:59:14.393Z",
+      "updatedAt": "2026-11-28T02:59:14.393Z"
     }
   },
   "runs": [
-    {
-      "at": "2026-10-31T00:12:39.869Z",
-      "summary": {
-        "total": 85,
-        "added": 2,
-        "changed": 11,
-        "unchanged": 72,
-        "removed": 3
-      },
-      "imageSummary": {
-        "skipped-existing-url": 83,
-        "downloaded": 2
-      }
-    },
     {
       "at": "2026-10-31T23:49:27.664Z",
       "summary": {
@@ -2492,7 +2528,21 @@
         "skipped-existing-url": 86,
         "missing": 1
       }
+    },
+    {
+      "at": "2026-11-28T02:59:14.393Z",
+      "summary": {
+        "total": 88,
+        "added": 4,
+        "changed": 7,
+        "unchanged": 77,
+        "removed": 3
+      },
+      "imageSummary": {
+        "skipped-existing-url": 84,
+        "downloaded": 4
+      }
     }
   ],
-  "lastRunAt": "2026-11-27T03:19:37.839Z"
+  "lastRunAt": "2026-11-28T02:59:14.393Z"
 }
